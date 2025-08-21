@@ -42,7 +42,7 @@ dependencies = [
 # Extras used by developers *of* beeware-docs-tools are pinned to specific versions to
 # ensure environment consistency.
 dev = [
-    "pre-commit == 4.2.0",
+    "pre-commit == 4.3.0",
     "tox-uv == 1.28.0",
 ]
 
