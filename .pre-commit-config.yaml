@@ -10,7 +10,7 @@ repos:
         exclude: "locales"
       - id: trailing-whitespace
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.11.13
+    rev: v0.12.10
     hooks:
       - id: ruff-check
         args: [ --fix ]
