@@ -1,14 +1,12 @@
 import subprocess
 from argparse import ArgumentParser, Namespace
+from importlib.metadata import metadata
 from pathlib import Path
 import yaml
-from setuptools_scm import get_version
 from tempfile import TemporaryDirectory
 
 
 SOURCE_DIR = Path.cwd()
-
-version = get_version(relative_to=SOURCE_DIR / "tox.ini")
 
 
 def parse_args() -> Namespace:
@@ -81,7 +79,11 @@ def main():
         config_file = yaml.load(
             open(SOURCE_DIR / "docs" / "config.yml"), Loader=yaml.SafeLoader
         )
-        config_file["extra"].update({"version": f"{version}"})
+        try:
+            version = metadata(config_file["extra"]["package_name"])["version"]
+            config_file["extra"]["version"] = version
+        except KeyError:
+            pass
 
         with (temp_md_directory / "config.yml").open(
             "w", encoding="utf-8"

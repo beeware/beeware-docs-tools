@@ -36,7 +36,6 @@ dependencies = [
     "pyspelling==2.10",
     "python-Levenshtein==0.27.1",
     "PyYAML==6.0.2",
-    "setuptools-scm==9.2.0",
     "translate-toolkit @ git+https://github.com/translate/translate@aa35159f03f53aa536381643dfafbc2a19a24784",
 ]
 
