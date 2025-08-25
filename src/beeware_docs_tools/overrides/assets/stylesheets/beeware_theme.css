@@ -335,23 +335,52 @@
     color: unset;
 }
 
-/* Version number wrap */
-span.version_number {
+/* Sidebar title font size */
+.site-name {
+    font-size: 18px;
+}
+
+/* Version number */
+.version-number {
     overflow-wrap: anywhere;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.small .version-number {
+    font-size: 12px;
+    font-weight: normal;
+    overflow-wrap: anywhere;
+    padding-top: 10px;
+    width: 157px;
+    float: right;
+}
+
+/* Site name */
+.site-name {
+    padding-bottom: 8px;
+}
+
+.small .site-name {
+    padding-bottom: 0;
+}
+
+/* Sidebar title block */
+.sidebar-title-block {
+    margin-bottom: 1.2rem;
+}
+
+.small .sidebar-title-block{
+    height: 60px;
 }
 
 /* GitHub sidebar links */
 .github-links {
     font-weight: normal;
+}
+
+.github-link-block a:last-child .github-links {
     margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-}
-
-.github-links:first-of-type {
-    margin-top: 1rem;
-}
-
-.github-links:last-of-type {
     margin-bottom: 1rem;
 }
 
@@ -365,6 +394,14 @@ span.version_number {
     .md-nav__title .md-nav__button.md-logo img {
         height: unset;
         padding-bottom: 1rem;
+    }
+
+    .md-nav__title.small .sidebar-logo img {
+        height: 60px !important;
+        float: left;
+        padding-left: 8px;
+        padding-right: 16px;
+        padding-bottom: 0 !important;
     }
 }
 
@@ -395,6 +432,11 @@ span.version_number {
    with the header font size. This resolves both. */
 body {
     font-size: 1rem;
+}
+
+/* Shifts the footer down to regain screen-space on pages with short content */
+.md-content {
+    min-height: 81vh;
 }
 
 /* Read the Docs elements font size fix */
@@ -472,4 +514,22 @@ input.md-search__input, .md-search__suggest, .md-search-result__meta {
 
 footer.md-footer *, html .md-footer-meta.md-typeset a  {
     color: light-dark(#343A40, #E2E4E9);
+}
+
+/* Footer navigation */
+.md-footer__inner {
+    padding: 0;
+}
+.md-footer__link {
+    margin-bottom: 0;
+    margin-top: 0.5rem;
+}
+.md-footer__title {
+    font-size: .6rem;
+}
+.md-footer__direction {
+    font-size: .6rem
+}
+.md-footer__button {
+    margin: 0 0 0.2rem 0;
 }

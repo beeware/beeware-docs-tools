@@ -1,4 +1,4 @@
-# BeeWare Docs Tools Demo Section Two
+# BeeWare Docs Tools Demo section two
 
 ### Images subdirectory
 

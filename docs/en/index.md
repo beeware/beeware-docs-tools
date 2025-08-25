@@ -2,34 +2,43 @@
 
 ## Theme checklist
 
-Things to manually check:
+This demo is designed to test the various features of the BeeWare
+MkDocs Material theme overrides. Please read through and verify
+that everything listed on this and the following pages is present
+and functioning as detailed in the description.
 
-### Titlebar
+## Titlebar
 
 A medium-gray titlebar is on the page. This the theme template
 has been applied.
 
-### Header and logo icons
+## Header icon
 
 The header icon top-left has been rendered. This confirms the template
 can reference external resources.
 
-The logo icon in the left sidebar has been rendered. This confirms the
-sidebar will render properly on the target sites.
+## Homepage sidebar icon
 
-### Heading font
+The logo icon in the left sidebar has been rendered. The logo should be
+the width of, and of equal height to, the sidebar. The site title should
+be rendered below it in slightly larger font than the rest of the
+sidebar, with the version number below it in smaller font.
+
+This confirms the sidebar will render properly on the target sites.
+
+## Heading font
 
 Headings are rendered in Cutive. This confirms the BeeWare custom CSS
 theme has been applied.
 
-### Inline Code
+## Inline code
 
 Inline code is rendered in the same color as the surrounding font. This
 confirms that the theme has not caused any undesired changes.
 
 This is text with `inline code` here and `inline code` here.
 
-### Tabbed Content Code
+## Tabbed content code
 
 Code is in a contrasting color to the background. Copy button should
 copy only the commands; the prompt should not be included.
@@ -61,7 +70,7 @@ C:\...>git clone https://github.com/beeware/beeware-theme.git
 
 ///
 
-### Code copy button behavior
+## Code copy button behavior
 
 The copy button on the following codeblock should result in `from pathlib
 import Path` being copied to the clipboard.
@@ -81,14 +90,14 @@ docs			pyproject.toml		requirements.docs.txt
 LICENSE			README.md		src
 ```
 
-### Sidebar links
+## Sidebar links
 
 Sidebar links exist, and point to the `beeware-docs-tools` repo. This
 confirms that the sidebar content has been loaded, and the `project-name`
 has been set in the MkDocs configuration file, and the version number is
 computed and added.
 
-### Link colors
+## Link colors
 
 This link to [the main BeeWare website](https://beeware.org) should be blue
 in *both* light mode and dark mode.
@@ -98,7 +107,7 @@ The links in the left and right sidebars should also be blue in both modes.
 When scrolling down the page, the active header link in the right sidebar
 should be light blue in dark mode, and darker blue in light mode.
 
-### Translation Admonition
+## Translation admonition
 
 The English-language version of this document should show the "Translations
 are available" admonition below. The French translation should show the "This is
@@ -143,7 +152,7 @@ machine translation, or not translated at all.
 
 {% endif %}
 
-### Custom 404 page
+## Custom 404 page
 
 Add `nopage` to the end of the URL in your browser to verify the 404
 page contains two flying bees, and the text "Brutus can't find what
@@ -152,7 +161,7 @@ you're looking for" below.
 *MkDocs builds fail with unrecognized internal links, so you need to
 manually verify this check by modifying the URL in your browser.*
 
-### Next Checks
+## Next checks
 
 The following link should take you to BeeWare Docs Tools Demo Section
 One. It is included to verify cross-page linking.

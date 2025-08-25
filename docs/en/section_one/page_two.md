@@ -1,4 +1,4 @@
-# BeeWare Docs Tools Demo Section One: Page Two
+# BeeWare Docs Tools Demo section one: page two
 
 ### Footer and navigation links
 

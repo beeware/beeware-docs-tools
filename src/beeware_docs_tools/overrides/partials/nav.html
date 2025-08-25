@@ -33,26 +33,40 @@
 >
 
   <!-- Site title -->
-  <label class="md-nav__title" for="__drawer">
+  <label class="md-nav__title{% if page.url != '' %} small{% endif %}" for="__drawer">
     <a
-      href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}"
-      title="{{ config.site_name | e }}"
-      class="md-nav__button md-logo"
-      aria-label="{{ config.site_name }}"
-      data-md-component="logo"
+    href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}"
+    title="{{ config.site_name | e }}"
+    class="md-nav__button md-logo"
+    aria-label="{{ config.site_name }}"
+    data-md-component="logo"
     >
-      {% include "partials/logo.html" %}
-    <span class="site-name">{{ config.site_name }}</span>
-      {% if not config.extra.hide_version %}
-    <span class="version_number">{{ config.extra.version }}</span>
-      {% endif %}
+        <div class="sidebar-title-block">
+            <div class="sidebar-logo">
+            {% include "partials/logo.html" %}
+            </div>
+            <div class="site-name">
+              {{ config.site_name }}
+            </div>
+            {% if config.extra.version %}
+              <div class="version-number">
+                {{ config.extra.version }}
+              </div>
+            {% endif %}
+        </div>
     </a>
-    <div class="github-links">
-      <a href="https://github.com/beeware/{{ config.extra.project_name }}"><i class="fa-brands fa-github"></i> Source Code</a>
-    </div>
-    <div class="github-links">
-      <a href="https://github.com/beeware/{{ config.extra.project_name }}/issues"><i class="fa-brands fa-github"></i> Issues</a>
-    </div>
+      <span class="github-link-block">
+        <a href="https://github.com/beeware/{{ config.extra.project_name }}">
+            <div class="github-links">
+                <i class="fa-brands fa-github"></i> Source Code
+            </div>
+        </a>
+        <a href="https://github.com/beeware/{{ config.extra.project_name }}/issues">
+            <div class="github-links">
+                <i class="fa-brands fa-github"></i> Issues
+            </div>
+        </a>
+      </span>
   </label>
 
   <!-- Repository information -->
