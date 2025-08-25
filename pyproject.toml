@@ -1,12 +1,13 @@
 [build-system]
 requires = [
     "setuptools==80.9.0",
+    "autocalver",
 ]
 build-backend = "setuptools.build_meta"
 
 [project]
+dynamic = ["version"]
 name = "beeware-docs-tools"
-version = "2025.08.15.0"
 description = "Tools for building BeeWare's documentation with a common theme and translations."
 readme = "README.md"
 requires-python = ">= 3.12"
@@ -72,3 +73,10 @@ beeware_docs_tools = [
     "**/*.png",
     "**/*.woff2",
 ]
+
+[tool.autocalver]
+use = true
+log = "git-log-head"
+log_command = "git log -n 1 --date=iso"
+is_main_var = "BUILD_BRANCH_REF"
+is_main_match = ".*/main$"
