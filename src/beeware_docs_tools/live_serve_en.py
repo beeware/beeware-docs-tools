@@ -1,4 +1,3 @@
-from importlib.metadata import metadata
 import subprocess
 from argparse import ArgumentParser, Namespace
 from importlib.metadata import metadata
