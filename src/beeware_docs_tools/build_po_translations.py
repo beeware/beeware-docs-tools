@@ -5,7 +5,7 @@ from tempfile import TemporaryDirectory
 
 import subprocess
 
-SOURCE_DIR = Path.cwd() / "docs" / "locales"
+SOURCE_DIR = Path.cwd()
 
 
 def parse_args() -> Namespace:
@@ -14,7 +14,7 @@ def parse_args() -> Namespace:
     args = parser.parse_args()
 
     for language_code in args.language_code:
-        if not (SOURCE_DIR / f"{language_code}").is_dir():
+        if not (SOURCE_DIR / "docs" / "locales" / f"{language_code}").is_dir():
             raise RuntimeError(
                 f'Language code "{language_code}" does not match an existing translation'
             )
@@ -44,15 +44,37 @@ def main():
         final_dir = Path(final_dir)
 
         for language in args.language_code:
-            print(f"Processing {language}")
+            print(f"Processing primary {language} content")
             merge_translation_files(
-                source_dir=SOURCE_DIR / language / "LC_MESSAGES",
-                template_dir=SOURCE_DIR / "templates",
+                source_dir=SOURCE_DIR / "docs" / "locales" / language / "LC_MESSAGES",
+                template_dir=SOURCE_DIR / "docs" / "locales" / "templates",
                 destination_dir=final_dir / language / "LC_MESSAGES",
             )
 
             shutil.copytree(
-                final_dir / language, SOURCE_DIR / language, dirs_exist_ok=True
+                final_dir / language,
+                SOURCE_DIR / "docs" / "locales" / language,
+                dirs_exist_ok=True,
+            )
+
+            print(f"Processing shared {language} content")
+            merge_translation_files(
+                source_dir=Path(__file__).parent
+                / "shared_content"
+                / "locales"
+                / language
+                / "LC_MESSAGES",
+                template_dir=Path(__file__).parent
+                / "shared_content"
+                / "locales"
+                / "templates",
+                destination_dir=final_dir / "shared_content" / language / "LC_MESSAGES",
+            )
+
+            shutil.copytree(
+                final_dir / "shared_content",
+                Path(__file__).parent / "shared_content" / "locales",
+                dirs_exist_ok=True,
             )
 
 

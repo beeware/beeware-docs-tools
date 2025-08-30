@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-29 01:12+0000\n"
+"POT-Creation-Date: 2025-08-30 00:53-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,17 +28,17 @@ msgid ""
 "navigation links. This confirms the theme configuration has been applied."
 msgstr ""
 
-#: docs/en/section_one/page_two.md:10
+#: docs/en/section_one/page_two.md:7
 msgid "Class reference documentation"
 msgstr ""
 
-#: docs/en/section_one/page_two.md:12
+#: docs/en/section_one/page_two.md:9
 msgid ""
 "The following should show the reference documentation for the `DocsTest` "
 "class, located in `docs_test.py`, in the `src/beeware_docs_tools` directory. "
 "This verifies that the source code directory symlinking is working properly."
 msgstr ""
 
-#: docs/en/section_one/page_two.md:17
+#: docs/en/section_one/page_two.md:11
 msgid "::: beeware_docs_tools.docs_test.DocsTest"
 msgstr ""

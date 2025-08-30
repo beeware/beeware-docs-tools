@@ -58,6 +58,7 @@ Source = "https://github.com/beeware/beeware-docs-tools/"
 [project.scripts]
 build_md_translations = "beeware_docs_tools.build_md_translations:main"
 build_po_translations = "beeware_docs_tools.build_po_translations:main"
+build_pot_translations = "beeware_docs_tools.build_pot_translations:main"
 live_serve_en = "beeware_docs_tools.live_serve_en:main"
 
 [tool.setuptools]

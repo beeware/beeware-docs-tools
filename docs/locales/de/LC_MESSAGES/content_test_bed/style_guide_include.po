@@ -11,14 +11,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 3.15.6\n"
 
-#: docs/en/section_three/index.md:1
-msgid "BeeWare Docs Tools Demo section three"
-msgstr ""
-
-#: docs/en/section_three/index.md:3
-msgid ""
-"This section and its children are included for sidebar scroll testing. "
-"Verify the scrollbar is navigable on smaller-height displays, that you can "
-"scroll the entire list (Page 01 - Page 12), and that it is not overlapping "
-"the footer."
+#: docs/en/content_test_bed/style_guide_include.md:1
+msgid "-8<- \"style_guide.md\""
 msgstr ""

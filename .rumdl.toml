@@ -1,0 +1,13 @@
+[global]
+flavor = "mkdocs"
+include = ["**/*.md"]
+exclude = ["docs/en/content_test_bed/*_include.md", "SUMMARY.md"]
+respect-gitignore = true
+
+# Disable rules:
+# MD013: Enforces line length
+# MD014: Forces commands in codeblocks to show output
+disable = ["MD013", "MD014",]
+
+[MD033]  # No inline HTML
+allowed_elements = ["nospell",]  # pyspelling inline disable tag

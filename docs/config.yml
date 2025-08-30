@@ -2,6 +2,7 @@ copyright: © Russell Keith-Magee
 
 not_in_nav: |
   /index.md
+  shared_content/*.md
 
 validation:
   omitted_files: warn

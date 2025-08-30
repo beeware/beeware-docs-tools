@@ -1,0 +1,517 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-30 00:53-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.15.6\n"
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:1
+msgid "BeeWare documentation style guide"
+msgstr "BeeWare styleguide für die dokumentation"
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:3
+msgid ""
+"This guide includes information on expected style, MkDocs-specific syntax, "
+"various required tools, and documentation translation, with regard to "
+"writing new content and translating existing content."
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:5
+msgid "General style"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:7
+msgid "Headers and titles should have only the first word capitalized."
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:8
+msgid ""
+"We prefer US spelling, with some liberties for programming-specific "
+"colloquialism (e.g., \"apps\") and verbing of nouns (e.g., \"scrollable\")."
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:9
+msgid "The spelling of \"artefact\" and \"artefacts\" is as shown."
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:10
+msgid ""
+"Any reference to a product name should use the product’s preferred "
+"capitalization. (e.g., {1}\"macOS\", \"GTK\", \"pytest\", \"Pygame\", "
+"\"PyScript\"{2})."
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:11
+msgid ""
+"If a term is being used \"as code\", then it should be quoted as inline "
+"code, by wrapping it in single backticks, rather than being added to the "
+"dictionary."
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:13
+msgid "Reference Links"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:15
+msgid ""
+"MkDocs renders standard Markdown formatted links. It also supports rendering "
+"a reference link syntax that allows you to link to various other elements in "
+"the documentation using a modified Markdown link. This includes linking to, "
+"among other things, standard Markdown header anchors, custom Markdown header "
+"and text anchors, custom reference IDs, documented classes and class methods "
+"or attributes, and specific external documentation references."
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:17
+msgid "Standard Markdown formatted links are as follows:"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:23
+msgid "You can also use this format to link to a local file:"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:29
+msgid "Linking to an anchor _in the same file_ is formatted as follows:"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:35
+msgid "Linking to an anchor _in a different_ file is formatted as follows:"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:41
+msgid ""
+"If you need to link to an anchor in a different file, and the anchor name is "
+"duplicated in multiple files, you can generate a custom anchor for the "
+"intended content (as shown in the next section), and link to that using the "
+"reference link formatting:"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:47
+msgid ""
+"There are multiple options for linking to a documented class, or a class "
+"method or attribute, regardless of whether you are linking from the same "
+"file or a separate file. When linking to classes, etc., you must include "
+"backticks in the first set of square brackets to render the name as inline "
+"code. The backticks are not necessary only if you are using custom text that "
+"should not be rendered as inline code. Backticks should never be included in "
+"the second set of square brackets."
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:49
+msgid ""
+"Linking to a class while displaying the namespace is formatted as follows:"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:55
+msgid ""
+"Linking to a class while displaying only the class name is formatted as "
+"follows:"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:61
+msgid ""
+"Methods and attributes are the same as above, with the method or attribute "
+"name included. You must include the parentheses after the namespace. The "
+"following displays the namespace:"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:67
+msgid ""
+"The following displays the class and method name only. This also requires "
+"including the parentheses after the name:"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:73
+msgid ""
+"Linking to a class (or method) while displaying arbitrary text is formatted "
+"as follows:"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:79
+msgid ""
+"It is also possible to link directly to Python core documentation, as well "
+"as Pillow documentation. For example, to link to the documentation for `int`:"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:85
+msgid "To link to the Pillow `Image` documentation:"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:91
+msgid "Custom Markdown anchors"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:93
+msgid ""
+"Markdown generates anchors for all headers (anything on a single line "
+"starting with between one and six `#` symbols), based on the content of the "
+"header. For example, the anchor generated for this section is `custom-"
+"markdown-anchors`. There are situations where it makes sense to instead set "
+"a custom anchor, such as, if the header is overly verbose, or you need "
+"something more memorable available for reuse."
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:95
+msgid ""
+"Changing the anchor for this section to `custom-anchors` would be done with "
+"the following formatting:"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:101
+msgid ""
+"You can also create an anchor on general content, including text and "
+"codeblocks. The following formatting, with newlines above and below, should "
+"be included above the content you wish to link to:"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:107
+msgid "/// note | Note"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:109
+msgid ""
+"The reference linking that allows for linking to anchors in separate files "
+"requires that all anchors be unique. If you are creating a custom anchor, "
+"ensure that you are choosing a name that isn't used elsewhere in the "
+"documentation."
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:111
+msgid "///"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:113
+msgid "Translating existing content"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:115
+msgid "The following items should _not_ be translated or updated:"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:117
+msgid ""
+"Commands. For example, in \"You should run \\`briefcase create\\`.\", only "
+"\"You should run\" should be translated."
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:118
+msgid ""
+"Namespaces; class, method, or attribute names. Reference links containing "
+"class, method or attribute names should be left as-is, including the "
+"backticks."
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:119
+msgid ""
+"Jinja directives. This is any content wrapped inside two pairs of matching "
+"curly braces, or a matching pair of single curly braces followed by a "
+"percent sign. Note: Including an example of the syntax here causes the "
+"Macros plugin to attempt to render it; see the [Macros documentation]{1} for "
+"examples."
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:120
+msgid ""
+"Custom anchors. They are found after headers or above some content, and are "
+"formatted as `{ id=\"anchor\" }`."
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:121
+msgid ""
+"Admonition _syntax_. As shown below, the word \"admonition\" should not be "
+"translated. This goes for all styles of admonitions, including notes, "
+"warnings, etc. See below for information on translating the rest of the "
+"content."
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:131
+msgid ""
+"Backticks are meant to stay as backticks; they are used for formatting both "
+"inline code and code blocks."
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:132
+msgid ""
+"The syntax for including external content. This is anything on the same line "
+"as `-8<-`, or on the lines between two `-8<-` on separate lines."
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:134
+msgid "The following items _should_ be translated:"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:136
+msgid ""
+"The admonition titles and content. As shown below, \"Title\" and \"Content.\""
+" should be translated. See above for information on the syntax."
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:146
+msgid "Translations and writing new content"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:148
+msgid ""
+"Due to the way the translation files are generated, it is important to "
+"include required newlines in the Markdown syntax for admonitions, notes, "
+"tabs, Jinja directives, image captions and alignment, etc."
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:150
+msgid "Admonitions and notes"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:152
+msgid ""
+"Admonitions must be formatted as follows, including ensuring a newline "
+"before and after the admonition start and end:"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:165
+msgid "Note admonitions require the same formatting and newlines:"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:175
+msgid ""
+"This format also works for attention, caution, danger, error, tip, hint, "
+"warning admonition types."
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:177
+msgid "Tabbed content"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:179
+msgid ""
+"Tabbed content is formatted as follows, including a newline included before "
+"the start and after the end of the content block:"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:201
+msgid ""
+"A tab with a nested admonition would be formatted as follows, including a "
+"newline before and after the content block:"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:217
+msgid "Jinja directives"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:219
+msgid ""
+"There are a few features of the documentation that use Jinja directives in "
+"the text. Anything using the Jinja directive features needs to be wrapped in "
+"newlines. For example, the BeeWare tutorial contains Jinja conditionals "
+"based on variables to determine what admonition to show on the main page. "
+"Those are formatted as follows:"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:233
+msgid ""
+"There is also syntax for substituting symbols or text. This syntax is a "
+"variable wrapped in a pair of matching double curly braces, and must include "
+"a newline before and after."
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:239
+msgid "Images with caption syntax"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:241
+msgid ""
+"Whether the caption syntax is being utilized for the purposes of centering "
+"an image, or for providing an image caption, it must include newlines "
+"between each section."
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:243
+msgid ""
+"For example, when adding an empty caption to center an image, you should "
+"format it as follows, with a newline before and after the content block:"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:253
+msgid ""
+"Adding a caption to an image also requires a newline before and after, and "
+"is formatted as follows:"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:265
+msgid "Custom header anchors using reference IDs"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:267
+msgid ""
+"By default, Markdown generates an anchor for every header that is the text "
+"of the header with spaces and punctuation replaced with `-`. However, if you "
+"want something shorter, more memorable, or customized for whatever reason, "
+"this is possible using Jinja-formatted attribute IDs."
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:269
+msgid "The syntax is as follows:"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:275
+msgid ""
+"For example, if you wanted to be able to link to this section using `custom-"
+"anchors`, you would format the header as follows:"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:281
+msgid ""
+"Once added, you can link to the section from within the same file using a "
+"standard Markdown link, or from another file using the reference link syntax."
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:283
+msgid "Code block tricks"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:285
+msgid "Language and code highlighting"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:287
+msgid ""
+"You can specify the language for the code contained within the codeblock by "
+"including the language name after the first three backticks, with no space "
+"between. This results in appropriate code highlighting when the code "
+"rendered. For example, to specify Python, you would begin the codeblock with "
+"` ```python`."
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:289
+msgid "Console commands and the copy button"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:291
+msgid ""
+"If you are including console commands, or commands with output, if you label "
+"it as `console` or `doscon`, depending on what operating system you are "
+"referencing, you can include the prompt, and only the command will be copied "
+"when clicking the copy button. For example, if you begin a codeblock with ` "
+"```console `, and include the following content:"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:299
+msgid ""
+"Then, clicking the copy button on the codeblock will copy only the commands, "
+"and ignore the prompts and the output. This allows you to indicate that they "
+"are console commands, while still allowing users to use the copy button "
+"effectively."
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:301
+msgid "Highlighting specific lines of code"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:303
+msgid ""
+"You can highlight specific lines of code. For example, to highlight line 2, "
+"you would add a space after the language, followed by `{hl_lines=\"2\"}`. "
+"So, your codeblock would begin with ` ```python {hl_lines=\"2\"} `. The "
+"result is:"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:310
+msgid ""
+"You can highlight multiple different lines. For example, `python {hl_lines="
+"\"3 5 9\"}` would highlight lines 3, 5 and 9. You can also highlight a range "
+"of lines. For example, `python {hl_lines=\"3-8\"}` highlights lines 3 "
+"through 8. You can highlight multiple ranges with, for example, `python "
+"{hl_lines=\"9-18 23-44\"}`."
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:312
+msgid "Using Snippets to include external content"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:314
+msgid ""
+"For details on how to include external content from a local file or a URL, "
+"see the [Snippets documentation]{1}."
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:316
+msgid "Two important notes:"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:318
+msgid ""
+"We use `-8<-` as the Snippets identifier. The documentation shows several "
+"options; please follow our style."
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:319
+msgid ""
+"If you are including external content from a file on GitHub via a URL, you "
+"_must_ use the raw content URL, or it will render the webpage embedded "
+"wherever you include it."
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:321
+msgid "Image formatting"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:323
+msgid ""
+"Images can have the width set, and can be aligned left, right, and center ("
+"with a caveat on \"center\")."
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:325
+msgid ""
+"Setting the width of {1}300px{2} on an image would be formatted as follows:"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:331
+msgid "Aligning an image left (or right) would be formatted as follows:"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:337
+msgid ""
+"Aligning an image center is not possible with the `align` attribute. The "
+"workaround is to follow the image with an empty caption, and it will be "
+"centered. You must include newlines between each section, and before and "
+"after. It is formatted as follows:"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:347
+msgid "`pyspelling`"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:349
+msgid "We use the `pyspelling` spellchecker. It is run during the lint-checks."
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:351
+msgid ""
+"When `pyspelling` identifies a misspelled word, in most cases, it should be "
+"fixed in the documentation content."
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:353
+msgid ""
+"In the rare case that it identifies a valid word that isn't in the "
+"`pyspelling` dictionary, you have two options:"
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:355
+msgid ""
+"If it is a word that is likely to be reused multiple times, you should add "
+"the word to the `spelling_wordlist` document in the `docs` directory, in "
+"alphabetical order."
+msgstr ""
+
+#: /Users/kattni/BeeWare/beeware-docs-tools/src/beeware_docs_tools/shared_content/style_guide.md:356
+msgid ""
+"If it is a word that is unlikely to be used again, you can wrap it in a "
+"`<nospell>` / `</nospell>` tag, and `pyspelling` will ignore it inline."
+msgstr ""

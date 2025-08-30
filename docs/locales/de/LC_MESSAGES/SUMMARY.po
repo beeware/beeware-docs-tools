@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-29 01:12+0000\n"
+"POT-Creation-Date: 2025-08-30 00:53-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,4 +34,16 @@ msgstr ""
 
 #: docs/en/SUMMARY.md:5
 msgid "./section_three/*"
+msgstr ""
+
+#: docs/en/SUMMARY.md:7
+msgid "Shared content test bed"
+msgstr ""
+
+#: docs/en/SUMMARY.md:7
+msgid "[Shared content test bed]{1}"
+msgstr ""
+
+#: docs/en/SUMMARY.md:7
+msgid "[Style guide]{1}"
 msgstr ""

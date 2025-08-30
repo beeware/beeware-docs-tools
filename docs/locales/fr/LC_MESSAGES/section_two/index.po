@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-29 01:12+0000\n"
+"POT-Creation-Date: 2025-08-30 00:53-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,22 +26,22 @@ msgid ""
 "Brutus the Bee."
 msgstr ""
 
-#: docs/en/section_two/index.md:8
+#: docs/en/section_two/index.md:7
 msgid "![Brutus the Bee]{1}"
 msgstr ""
 
-#: docs/en/section_two/index.md:10
+#: docs/en/section_two/index.md:9
 msgid ""
 "The presence of the image in the French and German builds verifies that the "
 "images subdirectories are being properly symlinked for languages other than "
 "English."
 msgstr ""
 
-#: docs/en/section_two/index.md:14
+#: docs/en/section_two/index.md:11
 msgid "`autoref` linking"
 msgstr ""
 
-#: docs/en/section_two/index.md:16
+#: docs/en/section_two/index.md:13
 msgid ""
 "The link provided here should take you to the [Heading font][heading-font] "
 "section of the main page. It is included to verify `autoref` linking."
