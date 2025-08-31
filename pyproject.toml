@@ -35,7 +35,7 @@ dependencies = [
     "mkdocs==1.6.1",
     "mkdocstrings-python==1.17.0",
     "pymdown-extensions==10.16.1",
-    "pyspelling==2.10",
+    "pyspelling==2.11",
     "python-Levenshtein==0.27.1",
     "PyYAML==6.0.2",
     "translate-toolkit @ git+https://github.com/translate/translate@aa35159f03f53aa536381643dfafbc2a19a24784",
