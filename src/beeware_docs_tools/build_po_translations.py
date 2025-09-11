@@ -23,6 +23,7 @@ from tempfile import TemporaryDirectory
 def parse_args() -> Namespace:
     parser = ArgumentParser()
     parser.add_argument("language_code", nargs="*")
+    parser.add_argument("-d", "--docs-directory", type=Path, default="docs")
     args = parser.parse_args()
 
     for language in args.language_code:
@@ -35,37 +36,39 @@ def parse_args() -> Namespace:
 
 
 def pot_to_po(
-    docs_path: Path,
+    docs: Path,
     language: str,
     output_path: Path,
 ) -> None:
     """
     Run `pot2po` with the provided directories.
 
-    :param docs_path: The directory fragment, relative to the project root,
-        containing the `locales` directory.
+    :param root_path: The root directory of the documentation content.
+    :param docs: The directory fragment, relative to the root path, containing
+        the `locales` directory.
     :param language: The language code to convert.
     :param output_path: The root of the output folder where the updated PO file
         will be written.
     """
-    (output_path / docs_path / language).mkdir(parents=True)
+    (output_path / docs / language).mkdir(parents=True)
     subprocess.run(
         [
             "pot2po",
-            f"--template={docs_path / f'locales/{language}/translations.po'}",
-            f"--input={docs_path / 'locales/template/translations.pot'}",
-            f"--output={output_path / docs_path / language}",
+            f"--template={Path.cwd() / docs / f'locales/{language}/translations.po'}",
+            f"--input={Path.cwd() / docs / 'locales/template/translations.pot'}",
+            f"--output={output_path / docs / language}",
         ],
         check=True,
     )
 
 
-def generate_po_files(docs_path: Path) -> None:
+def generate_po_files(docs: Path) -> None:
     """
     Generate PO files from PO template (POT) files.
 
-    :param docs_path: The directory fragment, relative to the project root,
-        containing the `locales` directory.
+    :param root_path: The root directory of the documentation content.
+    :param docs: The directory fragment, relative to the root path, containing
+        the `locales` translation files directories.
     """
     args = parse_args()
 
@@ -73,28 +76,27 @@ def generate_po_files(docs_path: Path) -> None:
         temp_path = Path(temp_dir)
 
         for language in args.language_code:
-            print(f"Processing {language} content from {docs_path}")
+            print(f"Processing {language} content from {docs}")
 
             # Generates PO files from POT files into a temporary destination
             # directory.
             pot_to_po(
-                docs_path=docs_path,
+                docs=docs,
                 language=language,
                 output_path=temp_path,
             )
 
             # Copies the updated PO file to the `docs` directory.
             shutil.copyfile(
-                (temp_dir / docs_path / language / "translations.po"),
-                (docs_path / f"locales/{language}/translations.po"),
+                (temp_path / docs / language / "translations.po"),
+                (Path.cwd() / docs / f"locales/{language}/translations.po"),
             )
 
 
 def main():
-    # Generate primary content PO files
-    generate_po_files(Path("docs"))
-    # Generate shared content PO files
-    generate_po_files(Path("src/beeware_docs_tools/shared_content"))
+    args = parse_args()
+    # Generate PO files
+    generate_po_files(args.docs_directory)
 
 
 if __name__ == "__main__":

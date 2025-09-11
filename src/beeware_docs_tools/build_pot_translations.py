@@ -1,4 +1,5 @@
 import subprocess
+from argparse import ArgumentParser, Namespace
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
@@ -18,7 +19,15 @@ from tempfile import TemporaryDirectory
 # translated site in a given language.
 
 
-def markdown_to_pot(docs_path: Path, working_path: Path) -> None:
+def parse_args() -> Namespace:
+    parser = ArgumentParser()
+    parser.add_argument("-d", "--docs-directory", type=Path, default="docs")
+    args = parser.parse_args()
+
+    return args
+
+
+def markdown_to_pot(docs: Path, working_path: Path) -> None:
     """
     Run `md2po` with provided input and output directories, with `--pot` flag to
     generate PO template (POT) files.
@@ -30,21 +39,20 @@ def markdown_to_pot(docs_path: Path, working_path: Path) -> None:
     * `--timestamp` ensures that new files are only generated when there is new
       content.
 
-    :param docs_path: A directory fragment, relative to the project root,
-        containing the `en` Markdown content and `locales` translation files
-        directories.
+    :param docs: The directory fragment, relative to the root path, containing
+        the `en` Markdown content and `locales` translation files directories.
     :param working_path: The directory considered `/` for the input file call.
         This ensures that the location strings are accurate in the POT and PO
         files.
     """
     # Ensure the output directory exists
-    output_path = Path.cwd() / docs_path / "locales/template"
+    output_path = Path.cwd() / docs / "locales/template"
     output_path.mkdir(parents=True, exist_ok=True)
 
     subprocess.run(
         [
             "md2po",
-            f"--input={docs_path / 'en'}",
+            f"--input={docs / 'en'}",
             f"--output={output_path / 'translations.pot'}",
             "--pot",
             "--timestamp",
@@ -56,40 +64,39 @@ def markdown_to_pot(docs_path: Path, working_path: Path) -> None:
     )
 
 
-def generate_pot_files(docs_path: Path) -> None:
+def generate_pot_files(docs: Path) -> None:
     """
     Generate the PO template (POT) files for the content in the provided
     directory.
 
-    :param docs_path: A directory fragment, relative to the project root,
-        containing the `en` Markdown content and `locales` translation files
-        directories. This will become the msg* string location prefix in the
-        generated POT files.
+    :param docs: The directory fragment, relative to the root path, containing
+        the `en` Markdown content and `locales` translation files directories.
+        This will become the msg* string location prefix in the generated POT
+        files.
     """
     with TemporaryDirectory() as temp_working_directory:
         temp_working_path = Path(temp_working_directory)
 
-        (temp_working_path / docs_path).parent.mkdir(parents=True, exist_ok=True)
+        (temp_working_path / docs).parent.mkdir(parents=True, exist_ok=True)
 
         try:
-            (temp_working_path / docs_path).symlink_to(
-                Path.cwd() / docs_path,
+            (temp_working_path / docs).symlink_to(
+                Path.cwd() / docs,
                 target_is_directory=True,
             )
         except FileExistsError:
             pass
 
         markdown_to_pot(
-            docs_path=docs_path,
+            docs=docs,
             working_path=temp_working_path,
         )
 
 
 def main():
-    # Generate primary content POT files.
-    generate_pot_files(Path("docs"))
-    # # Generate shared content POT files.
-    generate_pot_files(Path("src/beeware_docs_tools/shared_content"))
+    args = parse_args()
+    # Generate POT files.
+    generate_pot_files(args.docs_directory)
 
 
 if __name__ == "__main__":

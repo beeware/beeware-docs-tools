@@ -109,7 +109,7 @@ def main():
         temp_md_path = Path(temp_md_directory)
 
         # If source code directory or directories provided, symlink to the
-        # temp directory so it is available relative to the build.
+        # temp directory, so it is available relative to the build.
         if args.source_code:
             for source in args.source_code:
                 # If source includes subdirectories, the parent directory
@@ -131,7 +131,7 @@ def main():
 
             # Load the config.yml file, add the version_number to extra,
             # add the base_path to Snippets, and dump the updated copy to
-            # the temp directory so it is available relative to the build.
+            # the temp directory, so it is available relative to the build.
             with (PROJECT_PATH / "docs/config.yml").open() as f:
                 config_file = yaml.load(f, Loader=yaml.SafeLoader)
 
