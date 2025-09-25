@@ -26,12 +26,6 @@ def parse_args() -> Namespace:
     parser.add_argument("-d", "--docs-directory", type=Path, default="docs")
     args = parser.parse_args()
 
-    for language in args.language_code:
-        if not (Path.cwd() / f"docs/locales/{language}").is_dir():
-            raise RuntimeError(
-                f'Language code "{language}" does not match an existing translation'
-            )
-
     return args
 
 
@@ -87,6 +81,7 @@ def generate_po_files(docs: Path) -> None:
             )
 
             # Copies the updated PO file to the `docs` directory.
+            (Path.cwd() / docs / f"locales/{language}").mkdir(exist_ok=True)
             shutil.copyfile(
                 (temp_path / docs / language / "translations.po"),
                 (Path.cwd() / docs / f"locales/{language}/translations.po"),
@@ -96,7 +91,7 @@ def generate_po_files(docs: Path) -> None:
 def main():
     args = parse_args()
     # Generate PO files
-    generate_po_files(args.docs_directory)
+    generate_po_files(args.docs_directory.resolve().relative_to(Path.cwd()))
 
 
 if __name__ == "__main__":

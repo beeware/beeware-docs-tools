@@ -22,29 +22,29 @@ def parse_args() -> Namespace:
         help="Fail without raising an error if the API key cannot be found",
     )
     parser.add_argument(
-        "--docs",
-        dest="docs_paths",
+        "-d",
+        "--docs-directory",
+        dest="docs_path",
         type=Path,
-        action="append",
+        default="docs",
         help=(
             "The path to a documentation set. The provided location should "
-            "contain a 'locales' subdirectory"
+            "contain a 'locales' subdirectory. Defaults to `./docs`"
         ),
     )
     parser.add_argument("language_code", nargs="+", help="The language to translate.")
 
     args = parser.parse_args()
 
-    for path in args.docs_paths:
-        if not (path / "locales").is_dir():
-            raise RuntimeError(
-                f"Input path {path} should contain a 'locales' directory"
-            )
+    if not (args.docs_path / "locales").is_dir():
+        raise RuntimeError(
+            f"Input path {args.docs_path} should contain a 'locales' directory"
+        )
 
     for language_code in args.language_code:
-        if not (path / "locales" / language_code).exists():
+        if not (args.docs_path / "locales" / language_code).exists():
             raise RuntimeError(
-                f'A translation for "{language_code}" does not exist in {path}'
+                f'A translation for "{language_code}" does not exist in {args.docs_path}'
             )
 
     return args
@@ -82,14 +82,14 @@ def translate(client, path, language):
                 translated = "|".join(
                     [
                         parts[0],
-                        client.translate_text(parts[1], target_lang=language),
+                        client.translate_text(parts[1], target_lang=language).text,
                     ]
                 )
                 fuzzy = True
         else:
-            translated = client.translate_text(entry.msgid, target_lang=language)
+            translated = client.translate_text(entry.msgid, target_lang=language).text
             fuzzy = True
-        entry.msgstr = translated.text
+        entry.msgstr = translated
         entry.fuzzy = fuzzy
 
     # Only save if there are new translations.
@@ -126,11 +126,10 @@ def main():
     else:
         for language in args.language_code:
             print(f"Translating {language}:")
-            for path in args.docs_paths:
-                for po_path in (path / "locales" / language).glob("**/*.po"):
-                    translate(client, po_path, language)
-                if (po_path := path / "locales" / f"{language}.po").is_file():
-                    translate(client, po_path, language)
+            for po_path in (args.docs_path / "locales" / language).glob("**/*.po"):
+                translate(client, po_path.resolve(), language)
+            if (po_path := args.docs_path / "locales" / f"{language}.po").is_file():
+                translate(client, po_path.resolve(), language)
 
 
 if __name__ == "__main__":

@@ -96,7 +96,7 @@ def generate_pot_files(docs: Path) -> None:
 def main():
     args = parse_args()
     # Generate POT files.
-    generate_pot_files(args.docs_directory)
+    generate_pot_files(args.docs_directory.resolve().relative_to(Path.cwd()))
 
 
 if __name__ == "__main__":
