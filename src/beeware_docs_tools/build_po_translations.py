@@ -51,6 +51,7 @@ def pot_to_po(
             f"--template={Path.cwd() / docs / f'locales/{language}/translations.po'}",
             f"--input={Path.cwd() / docs / 'locales/template/translations.pot'}",
             f"--output={output_path / docs / language}",
+            "--nofuzzymatching",
         ],
         check=True,
     )
