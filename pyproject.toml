@@ -47,7 +47,7 @@ dependencies = [
 # ensure environment consistency.
 dev = [
     "pre-commit == 4.3.0",
-    "tox-uv == 1.28.0",
+    "tox-uv == 1.29.0",
 ]
 
 [project.urls]
