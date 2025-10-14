@@ -9,3 +9,9 @@ Navigation should render at the bottom of the page; "BeeWare Docs Tools Demo Sec
 The following should show the reference documentation for the `DocsTest` class, located in `docs_test.py`, in the `src/beeware_docs_tools` directory. This verifies that the source code directory symlinking is working properly.
 
 ::: beeware_docs_tools.docs_test.DocsTest
+
+## Macro functionality
+
+The following should say 'Brutus says "Hello world!"'. This confirms that global variables and macros defined via Mkdocs-Macros are available.
+
+{{ mascot_name }} says "{{ say_hello() }}"
