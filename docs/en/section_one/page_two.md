@@ -12,6 +12,6 @@ The following should show the reference documentation for the `DocsTest` class, 
 
 ## Macro functionality
 
-The following should say 'Brutus says "Hello world!"'. This confirms that global variables and macros defined via Mkdocs-Macros are available.
+The following should say 'Brutus says "Hello world!"'. This confirms that global variables and macros defined via MkDocs-Macros are available.
 
 {{ mascot_name }} says "{{ say_hello() }}"
