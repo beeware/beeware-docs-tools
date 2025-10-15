@@ -17,7 +17,7 @@ PROJECT_PATH = Path.cwd()
 
 def parse_args() -> Namespace:
     parser = ArgumentParser()
-    parser.add_argument("watch_directory", nargs="*")
+    parser.add_argument("watch_directories", nargs="*")
     parser.add_argument("--build-with-warnings", action="store_true")
     parser.add_argument("--source-code", action="append")
     args = parser.parse_args()
@@ -25,7 +25,11 @@ def parse_args() -> Namespace:
     return args
 
 
-def serve_docs(output_path, build_with_warnings: bool, watch_directory: str) -> None:
+def serve_docs(
+    output_path: Path,
+    build_with_warnings: bool,
+    watch_directories: list[str],
+) -> None:
     serve_command = [
         "python",
         "-m",
@@ -41,7 +45,7 @@ def serve_docs(output_path, build_with_warnings: bool, watch_directory: str) -> 
     if not build_with_warnings:
         serve_command.append("--strict")
 
-    for directory in watch_directory:
+    for directory in watch_directories:
         serve_command.extend(["--watch", directory])
 
     subprocess.run(
@@ -66,7 +70,7 @@ def main():
         )
         print("Symlink created")
 
-        serve_docs(temp_md_path, args.build_with_warnings, args.watch_directory)
+        serve_docs(temp_md_path, args.build_with_warnings, args.watch_directories)
 
 
 if __name__ == "__main__":

@@ -75,4 +75,4 @@ def symlink_from_temp(project_path, temp_md_path, source_code, config_file):
 
     macros_path = project_path / f"docs/{module_name}.py"
     if macros_path.is_file():
-        (temp_md_path / "main.py").symlink_to(macros_path)
+        (temp_md_path / f"{module_name}.py").symlink_to(macros_path)
