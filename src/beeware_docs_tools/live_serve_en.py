@@ -4,7 +4,7 @@ from pathlib import Path
 from tempfile import TemporaryDirectory
 
 
-from .temp_md import symlink_from_temp, load_config, save_config
+from .md_tempdir import symlink_from_temp, load_config, save_config
 
 # The theme overrides directory in config.yml is relative to the docs directory.
 # Therefore, the live build expects there to be an overrides directory in the
