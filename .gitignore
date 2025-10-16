@@ -215,3 +215,6 @@ __marimo__/
 
 # Ignore autocalver git log markers.
 git-log-head
+
+# macOS window layout file
+.DS_Store
