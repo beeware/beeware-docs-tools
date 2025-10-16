@@ -141,12 +141,15 @@ def main():
                             (temp_md_path / language / relative_path).symlink_to(path)
             else:
                 # Symlink to en directory
-
+                #
                 # Note: because this is symlinking back to the permanent en directory,
                 # any files written here will persist after the build. If it ever
                 # becomes necessary to write files into this directory, we'll need to
                 # revert to creating an actual temp en directory and symlinking the
                 # relevant files inside of it.
+                #
+                # (Prior to PR #48, a symlink to the shared content was created inside
+                # temp/en.)
                 (temp_md_path / "en").symlink_to(
                     PROJECT_PATH / "docs/en",
                     target_is_directory=True,
