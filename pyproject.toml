@@ -39,7 +39,7 @@ dependencies = [
     "PyYAML==6.0.3",
     "polib==1.2.0",
     "ruff==0.14.1",
-    "translate-toolkit==3.16.2",
+    "translate-toolkit==3.16.3",
 ]
 
 [dependency-groups]
