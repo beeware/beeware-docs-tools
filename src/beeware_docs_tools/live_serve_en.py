@@ -68,7 +68,6 @@ def main():
             PROJECT_PATH / "docs/en",
             target_is_directory=True,
         )
-        print("Symlink created")
 
         serve_docs(temp_md_path, args.build_with_warnings, args.watch_directories)
 
