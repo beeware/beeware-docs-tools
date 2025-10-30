@@ -670,3 +670,7 @@ footer.md-footer *, html .md-footer-meta.md-typeset a  {
 .md-footer__button {
     margin: 0 0 0.2rem 0;
 }
+
+/* Indent contents of classes/methods/etc. */
+
+.doc-contents, .doc-signature { margin-left: 2em; }
