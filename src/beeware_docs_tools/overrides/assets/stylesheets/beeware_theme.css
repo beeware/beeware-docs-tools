@@ -49,6 +49,15 @@ input.md-search__input, .md-search__suggest, .md-search-result__meta {
     font-family: 'Cutive', serif;
 }
 
+/* Link colors */
+.md-typeset a, .md-nav__link {
+    color: light-dark(#084AFF, #526CFE);
+}
+
+.md-nav__item .md-nav__link--active {
+    color: light-dark(#30314B, #96ACEE)
+}
+
 .md-typeset h1,
 .md-typeset h2,
 .md-typeset h3,
@@ -133,14 +142,27 @@ h1.title-index a.headerlink,
         font-size: 6rem;
         margin-bottom: 0;
     }
+
+    a.contribute-content-button,
+    a.keep-content-button {
+        display: inline-block;
+        width: 25rem;
+    }
 }
 
+/* This specific width is where the BeeWare title on the homepage needs to be made
+   smaller. It also works for the buttons at the bottom of the homepage. */
 @media screen and (max-width: 760px) {
     h1.title-index {
         font-size: 4rem;
         margin-bottom: 0;
     }
 
+    a.contribute-content-button,
+    a.keep-content-button {
+        display: inline-block;
+        width: 15rem;
+    }
 }
 
 @media screen and (max-width: 1164px) {
@@ -215,13 +237,15 @@ a.donate-button {
 }
 
 a.tutorial-button:hover,
-a.contribute-button:hover {
-    color: white;
+a.contribute-button:hover,
+a.contribute-content-button:hover {
+    color: #FFFFFF;
     background-color: #0069D9;
     border-color: #0062CC;
 }
 
-a.donate-button:hover {
+a.donate-button:hover,
+a.keep-content-button:hover {
     color: #FFFFFF;
     background-color: #218838;
     border-color: #1e7e34;;
@@ -262,12 +286,6 @@ a.keep-content-button {
 
 a.keep-content-button {
     background-color: #28A745;
-}
-
-a.contribute-content-button:hover {
-    color: white;
-    background-color: #0069D9;
-    border-color: #0062CC;
 }
 
 /* Future documentation page CSS */
@@ -329,15 +347,6 @@ a.contribute-content-button:hover {
 /*.podium-info {*/
 /*    margin-left: 2px;*/
 /*}*/
-
-/* Link colors */
-.md-typeset a, .md-nav__link {
-    color: light-dark(#084AFF, #526CFE);
-}
-
-.md-nav__item .md-nav__link--active {
-    color: light-dark(#30314B, #96ACEE)
-}
 
 
 /* Sidebar title and GitHub links font and color */
