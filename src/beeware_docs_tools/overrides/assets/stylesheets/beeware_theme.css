@@ -4,280 +4,6 @@
   src: url("../fonts/Cutive.woff2");
 }
 
-/*----------------------------------------------------
-  Build BeeWare header
- --------------------------------------------------- */
-.navbar {
-    font-family: 'Cutive', serif;
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    padding: 15px 16px 8px 16px;
-    line-height: 1.5;
-}
-
-.navbar > .container,
-.navbar > .container-fluid {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-}
-
-.navbar-dark .navbar-brand {
-    color: white;
-}
-
-.navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-    color: white;
-}
-
-.navbar-dark .navbar-nav .nav-link {
-    color: rgba(255, 255, 255, 0.5);
-}
-
-.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-    color: rgba(255, 255, 255, 0.75);
-}
-
-.navbar-dark .navbar-nav .nav-link.disabled {
-    color: rgba(255, 255, 255, 0.25);
-}
-
-.navbar-dark .navbar-nav .show > .nav-link,
-.navbar-dark .navbar-nav .active > .nav-link,
-.navbar-dark .navbar-nav .nav-link.show,
-.navbar-dark .navbar-nav .nav-link.active {
-    color: white;
-}
-
-.navbar-dark .navbar-toggler {
-    color: rgba(255, 255, 255, 0.5);
-    border-color: rgba(255, 255, 255, 0.1);
-}
-
-.navbar-dark .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-}
-
-.navbar-dark .navbar-text {
-    color: rgba(255, 255, 255, 0.5);
-}
-
-.navbar-dark .navbar-text a {
-    color: white;
-}
-
-.navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
-    color: white;
-}
-
-.bg-dark {
-    background-color: #343a40 !important;
-}
-
-@media (max-width: 862.99px) {
-    .navbar-collapse li {
-        border-bottom: 1px solid #666;
-        padding: 8px 16px 6.4px;
-    }
-
-    .navbar {
-        padding: 0 !important;
-    }
-
-    .navbar-brand-block {
-        position: absolute;
-        margin-top: -40px;
-        padding: 1px 14px 2px;
-        right: 10px;
-    }
-
-    .nav-top {
-        margin: 16px 14px;
-    }
-
-    .navbar-collapse {
-        background-color: #343a40;
-        padding-top: 12px;
-    }
-
-    .navbar-collapse .header-button li.nav-item {
-        border-bottom: 0
-    }
-
-    .navbar-collapse .header-button {
-        border-bottom: 1px solid #666;
-    }
-
-    .navbar-expand-md > .container,
-    .navbar-expand-md > .container-fluid {
-        padding-right: 0;
-        padding-left: 0;
-    }
-}
-
-@media (min-width: 863px) {
-    .navbar-expand-md {
-        -ms-flex-flow: row nowrap;
-        flex-flow: row nowrap;
-        -ms-flex-pack: start;
-        justify-content: flex-start;
-    }
-
-    .navbar-expand-md .navbar-nav {
-        -ms-flex-direction: row;
-        flex-direction: row;
-        font-size: 16px;
-        padding-left: 14px;
-    }
-
-    .navbar-expand-md .navbar-nav .dropdown-menu {
-        position: absolute;
-    }
-
-    .navbar-expand-md .navbar-nav .nav-link {
-        padding-right: 8px;
-        padding-left: 8px;
-    }
-
-    .navbar-expand-md > .container,
-    .navbar-expand-md > .container-fluid {
-        -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    }
-
-    .navbar-expand-md .navbar-collapse {
-        display: -ms-flexbox !important;
-        display: flex !important;
-        -ms-flex-preferred-size: auto;
-        flex-basis: auto;
-        height: 42.9px;
-    }
-
-    .navbar-expand-md .navbar-toggler {
-        display: none;
-    }
-
-    .navbar-brand-block {
-        padding-top: 2px;
-    }
-
-    /* Search and header light-dark mode button are too low by default on wide screen */
-    .md-search, .md-header__button[for="__search"] {
-        margin-top: -7.2px;
-    }
-}
-
-.fixed-top {
-    position: relative;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-}
-
-.navbar-toggler {
-    padding: 4px 12px 4px 12px;
-    font-size: 16px;
-    line-height: 1;
-    background-color: transparent;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    margin-left: 2px;
-}
-
-.navbar-toggler:hover, .navbar-toggler:focus {
-    text-decoration: none;
-}
-
-.navbar-toggler:not(:disabled):not(.disabled) {
-    cursor: pointer;
-}
-
-.navbar-toggler-icon {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    vertical-align: middle;
-    content: "";
-    background: no-repeat center center;
-    background-size: 100% 100%;
-}
-
-.navbar-brand {
-    display: inline-block;
-    padding: 3px 2px 5px 0;
-    font-size: 20px;
-    line-height: inherit;
-    white-space: nowrap;
-    text-decoration: none;
-}
-
-.navbar-brand:hover, .navbar-brand:focus {
-    text-decoration: none;
-}
-
-.navbar-brand img {
-    max-width: initial;
-    margin-right: 8px;
-    margin-left: 8px;
-    vertical-align: middle;
-}
-
-.navbar-collapse {
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -ms-flex-align: center;
-    align-items: center;
-}
-
-.navbar-nav {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    padding-left: 0;
-    margin-top: 0;
-    margin-bottom: 3px;
-    list-style: none;
-}
-
-.navbar-nav .nav-link {
-    padding-right: 0;
-    padding-left: 0;
-    text-decoration: none;
-}
-
-.navbar-nav .dropdown-menu {
-    position: static;
-    float: none;
-}
-
-.mr-auto,
-.mx-auto {
-    margin-right: auto;
-}
-
-.collapse:not(.show) {
-    display: none;
-}
-
-/*----------------------------------------------------
-  Material CSS overrides
- --------------------------------------------------- */
 :root {
     color-scheme: light dark;
 }
@@ -286,6 +12,50 @@
     --md-primary-fg-color: #343A40;
     --md-primary-fg-color--light: #343A40;
     --md-primary-fg-color--dark:  #343A40;
+}
+
+/* Setting the font size on the body is an accessibility issue. */
+body {
+    font-size: 1rem;
+}
+
+/* Disable header shadow */
+.md-header--shadow {
+    box-shadow: unset;
+}
+
+.md-header__topic, nav.md-tabs {
+    font-family: Cutive, serif;
+}
+
+nav.md-tabs, .md-header {
+    background-color: var(--md-primary-fg-color);
+}
+
+.md-header {
+    position: unset;
+}
+
+[dir="ltr"] .md-header__title {
+    margin-left: 0;
+}
+
+.md-header__topic {
+    position: unset;
+}
+
+/* Search */
+input.md-search__input, .md-search__suggest, .md-search-result__meta {
+    font-family: 'Cutive', serif;
+}
+
+/* Link colors */
+.md-typeset a, .md-nav__link {
+    color: light-dark(#084AFF, #526CFE);
+}
+
+.md-nav__item .md-nav__link--active {
+    color: light-dark(#30314B, #96ACEE)
 }
 
 .md-typeset h1,
@@ -298,29 +68,286 @@
     color: var(--md-typeset-color);
 }
 
-/* Fix issue with spacing when title is exactly the width of the article column */
-.md-typeset h1 a.headerlink {
+.md-main__inner {
+    margin-top: unset;
+}
+
+.intro-index {
+    background-color: #E9ECEF;
+    margin-top: -2rem;
+    padding-top: 2rem;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.subtitle-index {
+    font-size: 1.8rem;
+    font-family: Cutive, serif;
+}
+
+h1.title-index a.headerlink,
+.page-index h2 a.headerlink,
+.page-index h4 a.headerlink {
     display: none;
 }
 
-/* Link colors */
-.md-typeset a, .md-nav__link {
-    color: light-dark(#084AFF, #526CFE);
+/*.summary-index {*/
+/*}*/
+
+.behaving-index {
+    display: flex;
+    justify-content: center;
 }
 
-.md-nav__item .md-nav__link--active {
-    color: light-dark(#30314B, #96ACEE)
+@media screen and (min-width: 690px) {
+    .buttons-index {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .intro-content-index {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 56%;
+    }
+
+    .sidebar-index {
+        display: flex;
+        flex-direction: column;
+        flex: 30%;
+        padding: 15px;
+        background-color: #E9ECEF;
+        height: fit-content;
+        border-radius: 15px;
+        margin: 1.5rem 0 0 0.5rem;
+    }
+
+    .page-index {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .content-index {
+        flex: 70%;
+        margin-right: 10px;
+    }
+
+    .beeware-logo-index {
+        float: left;
+    }
+
+    h1.title-index {
+        font-size: 6rem;
+        margin-bottom: 0;
+    }
+
+    a.contribute-content-button,
+    a.keep-content-button {
+        display: inline-block;
+        width: 25rem;
+    }
 }
 
-/* Unsticky header, add margin to deal with sidebar top margin changes */
-.md-header {
-    position: unset;
+/* This specific width is where the BeeWare title on the homepage needs to be made
+   smaller. It also works for the buttons at the bottom of the homepage. */
+@media screen and (max-width: 760px) {
+    h1.title-index {
+        font-size: 4rem;
+        margin-bottom: 0;
+    }
+
+    a.contribute-content-button,
+    a.keep-content-button {
+        display: inline-block;
+        width: 15rem;
+    }
 }
 
-/* Disable header shadow */
-.md-header--shadow {
-    box-shadow: unset;
+@media screen and (max-width: 1164px) {
+    .page-index {
+        display: unset;
+        flex-direction: unset;
+    }
 }
+
+@media screen and (max-width: 1220px) {
+    .beeware-logo-index {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 926px) {
+    .buttons-index {
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+    }
+
+    .sidebar-index {
+        display: flex;
+        flex-direction: column;
+        flex: 20%;
+        margin: 30px;
+        padding: 15px;
+        background-color: #e1e1e1;
+        height: fit-content;
+        border-radius: 10px;
+    }
+
+    .content-index {
+        flex: 80%;
+        margin-right: 10px;
+    }
+
+    .beeware-logo-index {
+        width: 100px;
+    }
+}
+
+.clearfix {
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+a.tutorial-button,
+a.contribute-button,
+a.donate-button {
+    padding: .5rem 1rem;
+    margin: 0 0.5rem 0 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    display: inline-block;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    color: #FFFFFF;
+    background-color: #007BFF;
+}
+
+a.donate-button {
+    background-color: #28A745;
+}
+
+a.tutorial-button:hover,
+a.contribute-button:hover,
+a.contribute-content-button:hover {
+    color: #FFFFFF;
+    background-color: #0069D9;
+    border-color: #0062CC;
+}
+
+a.donate-button:hover,
+a.keep-content-button:hover {
+    color: #FFFFFF;
+    background-color: #218838;
+    border-color: #1e7e34;;
+}
+
+.python-logo-index,
+.native-logo-index,
+.opensource-logo-index,
+.diversity-logo-index {
+    float: right;
+}
+
+.cross-platform-logo-index,
+.brutus-content-logo-index,
+.hands-logo-index {
+    float: left;
+}
+
+.content-button {
+    display: flex;
+    justify-content: center;
+}
+
+a.contribute-content-button,
+a.keep-content-button {
+    padding: .5rem 1rem;
+    margin: 0 0.5rem 0 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-align: center;
+    border: 1px solid transparent;
+    color: #FFFFFF;
+    background-color: #007BFF;
+}
+
+a.keep-content-button {
+    background-color: #28A745;
+}
+
+/* Future documentation page CSS */
+/*.featured {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*}*/
+
+/*.toga,*/
+/*.briefcase {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    text-align: center;*/
+/*    width: 50%;*/
+/*}*/
+
+/*.featured-logo {*/
+/*    width: 150px;*/
+/*    display: inline-block;*/
+/*}*/
+
+/*h2.featured-name {*/
+/*    margin-top: 0;*/
+/*}*/
+
+/*.other-tools-package {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    align-items: center;*/
+/*}*/
+
+/*h4#podium.podium-name {*/
+/*    width: 7rem;*/
+/*    margin-left: 20px;*/
+/*}*/
+
+/*h4#rubicon-objective-c.rubicon-name {*/
+/*    width: 8rem;*/
+/*    margin-left: 20px;*/
+/*}*/
+
+/*h4#python-apple-support.python-apple-name,*/
+/*h4#chaquopy.chaquopy-name {*/
+/*    width: 12rem;*/
+/*    margin-left: 20px;*/
+/*}*/
+
+/*.other-tools-logo {*/
+/*    display: inline-block;*/
+/*    width: 40px;*/
+/*}*/
+
+/*!* Alignment fix on description text for Other tools *!*/
+/*div[class*="-info"] {*/
+/*    padding-top: 3px;*/
+/*}*/
+
+/*.podium-info {*/
+/*    margin-left: 2px;*/
+/*}*/
+
 
 /* Sidebar title and GitHub links font and color */
 .md-nav__title {
@@ -515,49 +542,44 @@ and (min-width: 1600px) {
     }
 }
 
-/* Setting the font size on the body is an accessibility issue, as well as interfering
-   with the header font size. This resolves both. */
-body {
-    font-size: 1rem;
-}
 
 /* Removes padding and margins to regain screen-space on pages with short content.
    There is JS setting `top: 68px` on the sidebars that is eating up a huge amount
    of space. Overriding `top` causes a significant gap at the bottom between the end
    of the sidebar and the footer. Therefore the following margin changes are needed.
 */
-.md-main__inner {
-    margin-top: 0;
-    padding-top: 12px;
-}
+/*.md-main__inner {*/
+/*    margin-top: 0;*/
+/*    padding-top: 12px;*/
+/*}*/
 
-.md-header {
-    margin-bottom: 72px;
-}
+/*.md-header {*/
+/*    margin-bottom: 72px;*/
+/*}*/
 
-.md-sidebar {
-    padding-top: 12px;
-}
+/*.md-sidebar {*/
+/*    padding-top: 12px;*/
+/*}*/
 
-.md-content__inner {
-    padding-top: 8px;
-    margin-top: -69px;
-}
+/*.md-content__inner {*/
+/*    padding-top: 8px;*/
+/*    margin-top: -69px;*/
+/*}*/
 
-.md-content__inner::before {
-    height: 0;
-}
+/*.md-content__inner::before {*/
+/*    height: 0;*/
+/*}*/
 
-.md-footer {
-    position: relative;
-    margin-top: 69px;
-}
+/*.md-footer {*/
+/*    position: relative;*/
+/*    margin-top: 69px;*/
+/*}*/
 
-@media screen and (min-width: 60em) {
-    .md-sidebar__scrollwrap {
-        margin-top: -64px;
-    }
-}
+/*@media screen and (min-width: 60em) {*/
+/*    .md-sidebar__scrollwrap {*/
+/*        margin-top: -64px;*/
+/*    }*/
+/*}*/
 
 /* Fix "Made with" hover link color in light mode */
 html .md-footer-meta.md-typeset a:hover {
