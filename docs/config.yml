@@ -14,10 +14,13 @@ extra:
   package_name: beeware-docs-tools
   alternate:
     - name: English
-      link: /en/latest
+      link: /en/
       lang: en
-    - name: French
-      link: /fr/latest
+    - name: Deutsch
+      link: /de/
+      lang: de
+    - name: Français
+      link: /fr/
       lang: fr
   social:
     - icon: fontawesome/brands/github
