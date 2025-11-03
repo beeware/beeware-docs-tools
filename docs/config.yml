@@ -12,6 +12,13 @@ validation:
 extra:
   project_name: beeware-docs-tools
   package_name: beeware-docs-tools
+  alternate:
+    - name: English
+      link: /en/latest
+      lang: en
+    - name: French
+      link: /fr/latest
+      lang: fr
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/beeware
