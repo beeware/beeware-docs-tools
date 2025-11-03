@@ -34,7 +34,7 @@ dependencies = [
     "mkdocs==1.6.1",
     "mkdocstrings-python==1.18.2",
     "pymdown-extensions==10.16.1",
-    "pyspelling==2.11",
+    "pyspelling==2.12",
     "python-Levenshtein==0.27.3",
     "PyYAML==6.0.3",
     "polib==1.2.0",
