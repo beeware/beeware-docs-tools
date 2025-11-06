@@ -7,3 +7,6 @@
 - Shared content test bed
     - [Shared content test bed](content_test_bed/index.md)
     - [Style guide](content_test_bed/style_guide_include.md)
+    - [The lifecycle of a new feature base guide](content_test_bed/how-to/feature_request_base_include.md)
+    - [Code contribution base guide](content_test_bed/how-to/code_contribution_base_include.md)
+    - [Docs contribution base guide](content_test_bed/how-to/docs_contribution_base_include.md)
