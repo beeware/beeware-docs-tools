@@ -33,7 +33,7 @@ dependencies = [
     "mkdocs-material==9.6.23",
     "mkdocs==1.6.1",
     "mkdocstrings-python==1.18.2",
-    "pymdown-extensions==10.16.1",
+    "pymdown-extensions==10.17.1",
     "pyspelling==2.12",
     "python-Levenshtein==0.27.3",
     "PyYAML==6.0.3",
