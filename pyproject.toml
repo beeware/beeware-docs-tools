@@ -29,7 +29,7 @@ dependencies = [
     "mistletoe==1.5.0",
     "mkdocs-autorefs==1.4.3",
     "mkdocs-literate-nav==0.6.2",
-    "mkdocs-macros-plugin==1.4.1",
+    "mkdocs-macros-plugin==1.5.0",
     "mkdocs-material==9.6.23",
     "mkdocs==1.6.1",
     "mkdocstrings-python==1.18.2",
