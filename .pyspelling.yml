@@ -1,4 +1,5 @@
 matrix:
+# TODO: Remove TODO from spelling_wordlist
 - name: markdown
   dictionary:
     wordlists:
@@ -34,6 +35,14 @@ matrix:
         - open: '{%'
           content: '[\d\D]*'
           close: '%}'
+        # Ignores the Jinja variables and their contents
+        - open: '{{'
+          content: '[\d\D]*'
+          close: '}}'
+        # Ignores the autorefs link targets
+        - open: '\]\['
+          content: '[\d\D]*'
+          close: '\]'
         # Ignore the mkdocstrings calls
         - open: ':::'
           content: '[\d\D]*'

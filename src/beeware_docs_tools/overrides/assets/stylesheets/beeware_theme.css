@@ -322,6 +322,11 @@
     box-shadow: unset;
 }
 
+/* Force admonitions to render at the same font size as the rest of the content */
+.md-typeset .admonition {
+    font-size: unset;
+}
+
 /* Sidebar title and GitHub links font and color */
 .md-nav__title {
     font-family: 'Cutive', serif;
@@ -334,6 +339,7 @@
 .md-select:focus-within .md-select__inner,
 .md-select:hover .md-select__inner,
 .md-select__inner,
+.md-select__list {
 .md-select__list {
     max-height: none;
 }

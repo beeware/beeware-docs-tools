@@ -34,6 +34,7 @@ def save_config(project_path, temp_md_path, config_file, language="en"):
 
     base_path.append(str(shared_content_path))
     config_file["markdown_extensions"]["pymdownx.snippets"]["base_path"] = base_path
+    config_file["plugins"]["macros"]["include_dir"] = str(shared_content_path)
 
     with (temp_md_path / "config.yml").open("w", encoding="utf-8") as config_temp:
         yaml.dump(config_file, config_temp)
