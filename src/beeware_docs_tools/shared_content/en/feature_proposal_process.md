@@ -40,8 +40,6 @@ If you're unsure about any of this, don't worry! Submit your idea, and let us kn
 {% macro content(template) %}{% include template %}{% endmacro %}
 {% macro indented(template) %}{{ content(template)|indent }}{% endmacro %}
 
-TODO: blurb.
-
-??? abstract "Propose a new feature"
+??? abstract "Proposing a new feature"
 
     {{ indented("feature_proposal.md") }}
