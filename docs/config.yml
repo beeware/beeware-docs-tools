@@ -2,6 +2,7 @@ copyright: © Russell Keith-Magee
 
 not_in_nav: |
   /index.md
+  /about/releases.md
 
 validation:
   omitted_files: warn
@@ -12,6 +13,15 @@ validation:
 extra:
   project_name: beeware-docs-tools
   package_name: beeware-docs-tools
+  formal_name: "BeeWare Docs Tools"
+  website: false  # true shows beeware.org-specific content, false shows project content. Default: false.
+  min_python_version: "3.10"  # The oldest supported Python version
+  min_python_version_tag: "310"  # The tag version of the minimum python version
+  recent_python_version: "3.13"  # The newest Python version known to work on all platforms
+  docs_python_version: "3.13"
+  translated: false  # true hides content related to building translations. Default: false.
+  hide_coverage: false  # true hides content related to code coverage. Default: false.
+  macos_only: false  # true hides tabbed content, and displays only macOS instructions. Default: false.
   alternate:
     - name: English
       link: /en/
@@ -73,6 +83,7 @@ markdown_extensions:
   pymdownx.superfences: {}
   pymdownx.blocks.admonition: {}
   pymdownx.blocks.caption: {}
+  pymdownx.details: {}
   pymdownx.blocks.tab:
     alternate_style: true
   pymdownx.snippets:
@@ -86,10 +97,12 @@ markdown_extensions:
 
 plugins:
   search: {}
-  autorefs: {}
+  autorefs:
+    resolve_closest: true  # autorefs warns of the Usage headings begin duplicates without this - we will have to assign unique ids to all of them otherwise
   literate-nav:
     nav_file: SUMMARY.md
-  macros: {}
+  macros:
+    include_dir: docs
   mkdocstrings:
     default_handler: python
     handlers:

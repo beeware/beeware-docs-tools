@@ -18,7 +18,7 @@ PROJECT_PATH = Path.cwd()
 def parse_args() -> Namespace:
     parser = ArgumentParser()
     parser.add_argument("watch_directories", nargs="*")
-    parser.add_argument("--build-with-warnings", action="store_true")
+    parser.add_argument("--strict", action="store_true")
     parser.add_argument("--source-code", action="append")
     args = parser.parse_args()
 
@@ -27,7 +27,7 @@ def parse_args() -> Namespace:
 
 def serve_docs(
     output_path: Path,
-    build_with_warnings: bool,
+    strict: bool,
     watch_directories: list[str],
 ) -> None:
     serve_command = [
@@ -42,7 +42,7 @@ def serve_docs(
         "docs",
     ]
 
-    if not build_with_warnings:
+    if strict:
         serve_command.append("--strict")
 
     for directory in watch_directories:
@@ -69,7 +69,7 @@ def main():
             target_is_directory=True,
         )
 
-        serve_docs(temp_md_path, args.build_with_warnings, args.watch_directories)
+        serve_docs(temp_md_path, args.strict, args.watch_directories)
 
 
 if __name__ == "__main__":

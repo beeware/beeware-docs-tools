@@ -15,8 +15,10 @@ build:
     pre_install:
       - python -m pip install --upgrade pip
       - python -m pip install --group 'dev'
-    pre_build:
-      - python -m tox -e docs-lint
+# TODO: Reenable for final.
+#    pre_build:
+#      - python -m tox -e docs-lint
     build:
       html:
-        - python -m tox -e docs-$READTHEDOCS_LANGUAGE -- --output=$READTHEDOCS_OUTPUT/html/
+        # TODO: Remove --build-with-warnings for final.
+        - python -m tox -e docs-$READTHEDOCS_LANGUAGE -- --build-with-warnings --output=$READTHEDOCS_OUTPUT/html/

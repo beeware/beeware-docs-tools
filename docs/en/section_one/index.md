@@ -16,9 +16,13 @@ The following section should have only a header, and a paragraph with inline cod
 
 The following section should have only a header, some text and a Markdown list. This verifies that the external include extension is working, and that `url_download` is enabled.
 
+<!-- rumdl-disable MD013 MD034 -->
+
 -8<-
 https://raw.githubusercontent.com/beeware/beeware-docs-tools/refs/heads/main/docs/include_content.md:remote-content
 -8<-
+
+<!-- rumdl-enable MD013 MD034 -->
 
 ## Footer navigation
 

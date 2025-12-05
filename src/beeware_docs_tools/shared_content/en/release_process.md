@@ -1,0 +1,5 @@
+Once a pull request is merged into the `main` branch of {{ formal_name }}, the update is on schedule to be included in the next release.
+
+We don't have a firm release cadence. We try to release every three to four months on most tools. We typically wait until there has been enough time and significant feature updates to warrant a release. However, we will release updates with very few features or bugfixes if a significant bugfix comes through, or if we determine a that getting a new feature out is worth a new release. More immediate releases also occur if there is some other change in the ecosystem. For example, there will usually be releases of most BeeWare tools around September or October every year in preparation for the new Python release.
+
+If you feel there is a particularly compelling reason your feature or bugfix should be released sooner, let us know!  You can add a comment to the associated discussion thread or your merged pull request telling us why you believe your contribution should be released more quickly. We're open to prioritizing a release if it makes sense.

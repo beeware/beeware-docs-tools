@@ -322,6 +322,11 @@
     box-shadow: unset;
 }
 
+/* Force admonitions to render at the same font size as the rest of the content */
+.md-typeset .admonition {
+    font-size: unset;
+}
+
 /* Sidebar title and GitHub links font and color */
 .md-nav__title {
     font-family: 'Cutive', serif;
@@ -680,5 +685,7 @@ footer.md-footer *, html .md-footer-meta.md-typeset a  {
 }
 
 /* Indent contents of classes/methods/etc. */
-
-.doc-contents, .doc-signature { margin-left: 2em; }
+.doc-contents,
+.doc-signature {
+    margin-left: 2em;
+}

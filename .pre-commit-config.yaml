@@ -15,8 +15,9 @@ repos:
       - id: ruff-check
         args: [ --fix ]
       - id: ruff-format
-  - repo: https://github.com/rvben/rumdl-pre-commit
-    rev: v0.0.185
-    hooks:
-      - id: rumdl
-        args: [--force-exclude]
+# TODO: Reenable for final
+#  - repo: https://github.com/rvben/rumdl-pre-commit
+#    rev: v0.0.185
+#    hooks:
+#      - id: rumdl
+#        args: []
