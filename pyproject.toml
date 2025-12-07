@@ -40,7 +40,7 @@ dependencies = [
     "polib==1.2.0",
     "ruff==0.14.7",
     "setuptools_scm == 9.2.2",
-    "translate-toolkit==3.17.2",
+    "translate-toolkit==3.17.4",
 ]
 
 [dependency-groups]
