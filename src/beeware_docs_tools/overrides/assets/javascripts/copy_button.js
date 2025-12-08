@@ -16,7 +16,7 @@ codeblocks.forEach((pre) => {
 
 // Excludes the button div, and the Pygments-tagged spans that are the console/doscon
 // shell prompt and the code output of a given command.
-const exclude = ["div.copy-button", "span.gp", "span.go"]
+const exclude = ["div.copy-button", "div.copy-button-copied", "span.gp", "span.go"]
 
 function filterText(target, exclusions) {
     // Clone as to not modify the live DOM.
