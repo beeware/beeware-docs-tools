@@ -6,7 +6,7 @@ Yes! We have opportunities for folks at every experience level to contribute. Wh
 
 Is this your first time contributing to an open source project? We're here to help! We have [advice for first-time contributors](first_time_contributors.md) to help with getting past any initial fears and concerns.
 
-## What can I do?
+## What can I do? { #what-can-i-do }
 
 ### [Fix an issue](what/fix_issue.md)
 
