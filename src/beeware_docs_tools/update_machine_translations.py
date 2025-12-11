@@ -94,6 +94,18 @@ def translate(client, path, language):
                     ]
                 )
                 fuzzy = True
+        elif (entry.msgid.startswith("{{") and entry.msgid.endswith("}}")) or (
+            entry.msgid.startswith("{%") and entry.msgid.endswith("%}")
+        ):
+            # If a string *only* contains Jinja content, use the string verbatim,
+            # and mark the string as fully translated.
+            translated = entry.msgid
+            fuzzy = False
+        elif any((jinja in entry.msgid) for jinja in ["{{", "}}", "{%", "%}"]):
+            # If a string contains Jinja content, use the string verbatim,
+            # but mark the string as fuzzy.
+            translated = entry.msgid
+            fuzzy = True
         else:
             translated = client.translate_text(entry.msgid, target_lang=deepl_lang).text
             fuzzy = True
