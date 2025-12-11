@@ -237,7 +237,6 @@ msgid "First-time contributors"
 msgstr "Erstmalige Beitragszahler"
 
 #: docs/en/content_test_bed/how-to/contribute/first_time_contributors.md:3
-#, fuzzy
 msgid "{% extends \"contribute/first_time_contributors.md\" %}"
 msgstr "{% extends \"contribute/first_time_contributors.md\" %}"
 
@@ -248,9 +247,8 @@ msgstr ""
 "Arbeiten Sie von einem Funktionszweig aus, nicht von Ihrem \"Hauptzweig\"."
 
 #: docs/en/content_test_bed/how-to/contribute/how/branches.md:3
-#, fuzzy
 msgid "{% extends \"contribute/how/branches.md\" %}"
-msgstr "{% erweitert \"beitrag/how/zweige.md\" %}"
+msgstr "{% extends \"contribute/how/branches.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/how/build_docs.md:1
 #, fuzzy
@@ -258,15 +256,13 @@ msgid "Building documentation"
 msgstr "Bauunterlagen"
 
 #: docs/en/content_test_bed/how-to/contribute/how/build_docs.md:3
-#, fuzzy
 msgid "{% extends \"contribute/how/build_docs.md\" %}"
-msgstr "{% erweitert \"contribute/how/build_docs.md\" %}"
+msgstr "{% extends \"contribute/how/build_docs.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/how/build_docs.md:5
 #: docs/en/content_test_bed/how-to/contribute/how/reproduce_issue.md:5
 #: docs/en/content_test_bed/how-to/contribute/how/write_code.md:5
 #: docs/en/content_test_bed/how-to/contribute/how/write_docs.md:5
-#, fuzzy
 msgid "{% block front_matter %}"
 msgstr "{% block front_matter %}"
 
@@ -289,7 +285,6 @@ msgstr ""
 #: docs/en/content_test_bed/how-to/contribute/how/write_code.md:15
 #: docs/en/content_test_bed/how-to/contribute/how/write_docs.md:9
 #: docs/en/content_test_bed/how-to/contribute/how/write_docs.md:15
-#, fuzzy
 msgid "{% endblock %}"
 msgstr "{% endblock %}"
 
@@ -299,7 +294,6 @@ msgstr "{% endblock %}"
 #: docs/en/content_test_bed/how-to/contribute/how/submit_pr.md:5
 #: docs/en/content_test_bed/how-to/contribute/how/write_code.md:11
 #: docs/en/content_test_bed/how-to/contribute/how/write_docs.md:11
-#, fuzzy
 msgid "{% block end_matter %}"
 msgstr "{% block end_matter %}"
 
@@ -318,7 +312,6 @@ msgid "Adding change information for release notes"
 msgstr "Hinzufügen von Änderungsinformationen für Versionshinweise"
 
 #: docs/en/content_test_bed/how-to/contribute/how/change_note.md:3
-#, fuzzy
 msgid "{% extends \"contribute/how/change_note.md\" %}"
 msgstr "{% extends \"contribute/how/change_note.md\" %}"
 
@@ -328,9 +321,8 @@ msgid "Setting up a development environment"
 msgstr "Einrichten einer Entwicklungsumgebung"
 
 #: docs/en/content_test_bed/how-to/contribute/how/dev_environment.md:3
-#, fuzzy
 msgid "{% extends \"contribute/how/dev_environment.md\" %}"
-msgstr "{% erweitert \"contribute/how/dev_environment.md\" %}"
+msgstr "{% extends \"contribute/how/dev_environment.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/how/new_issue.md:1
 #, fuzzy
@@ -338,7 +330,6 @@ msgid "Submitting a new issue"
 msgstr "Einreichen einer neuen Ausgabe"
 
 #: docs/en/content_test_bed/how-to/contribute/how/new_issue.md:3
-#, fuzzy
 msgid "{% extends \"contribute/how/new_issue.md\" %}"
 msgstr "{% extends \"contribute/how/new_issue.md\" %}"
 
@@ -349,9 +340,8 @@ msgid "Proposing a new feature"
 msgstr "Vorschlag für eine neue Funktion"
 
 #: docs/en/content_test_bed/how-to/contribute/how/propose_feature.md:3
-#, fuzzy
 msgid "{% extends \"contribute/how/propose_feature.md\" %}"
-msgstr "{% erweitert \"beitrag/how/propose_feature.md\" %}"
+msgstr "{% extends \"contribute/how/propose_feature.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/how/propose_feature.md:7
 #, fuzzy
@@ -367,7 +357,6 @@ msgid "Reproducing an issue"
 msgstr "Reproduzieren eines Problems"
 
 #: docs/en/content_test_bed/how-to/contribute/how/reproduce_issue.md:3
-#, fuzzy
 msgid "{% extends \"contribute/how/reproduce_issue.md\" %}"
 msgstr "{% extends \"contribute/how/reproduce_issue.md\" %}"
 
@@ -398,7 +387,6 @@ msgid "Providing a pull request review"
 msgstr "Überprüfung von Pull-Anfragen bereitstellen"
 
 #: docs/en/content_test_bed/how-to/contribute/how/review_pr.md:3
-#, fuzzy
 msgid "{% extends \"contribute/how/review_pr.md\" %}"
 msgstr "{% extends \"contribute/how/review_pr.md\" %}"
 
@@ -408,7 +396,6 @@ msgid "Avoiding scope creep"
 msgstr "Vermeidung der schleichenden Ausweitung des Umfangs"
 
 #: docs/en/content_test_bed/how-to/contribute/how/scope_creep.md:3
-#, fuzzy
 msgid "{% extends \"contribute/how/scope_creep.md\" %}"
 msgstr "{% extends \"contribute/how/scope_creep.md\" %}"
 
@@ -418,7 +405,6 @@ msgid "Submitting a pull request"
 msgstr "Einreichen einer Pull-Anfrage"
 
 #: docs/en/content_test_bed/how-to/contribute/how/submit_pr.md:3
-#, fuzzy
 msgid "{% extends \"contribute/how/submit_pr.md\" %}"
 msgstr "{% extends \"contribute/how/submit_pr.md\" %}"
 
@@ -463,9 +449,8 @@ msgid "Translating content"
 msgstr "Inhalte übersetzen"
 
 #: docs/en/content_test_bed/how-to/contribute/how/translate.md:3
-#, fuzzy
 msgid "{% extends \"contribute/how/translate.md\" %}"
-msgstr "{% erweitert \"beitrag/how/translate.md\" %}"
+msgstr "{% extends \"contribute/how/translate.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/how/write_code.md:1
 #, fuzzy
@@ -473,9 +458,8 @@ msgid "Writing, running, and testing code"
 msgstr "Schreiben, Ausführen und Testen von Code"
 
 #: docs/en/content_test_bed/how-to/contribute/how/write_code.md:3
-#, fuzzy
 msgid "{% extends \"contribute/how/write_code.md\" %}"
-msgstr "{% erweitert \"beitrag/how/write_code.md\" %}"
+msgstr "{% extends \"contribute/how/write_code.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/how/write_code.md:7
 #, fuzzy
@@ -502,7 +486,6 @@ msgid "Writing documentation"
 msgstr "Dokumentation schreiben"
 
 #: docs/en/content_test_bed/how-to/contribute/how/write_docs.md:3
-#, fuzzy
 msgid "{% extends \"contribute/how/write_docs.md\" %}"
 msgstr "{% extends \"contribute/how/write_docs.md\" %}"
 
@@ -531,9 +514,8 @@ msgid "Contributing to {{ formal_name }}"
 msgstr "Beitrag zu {{ formal_name }}"
 
 #: docs/en/content_test_bed/how-to/contribute/index.md:3
-#, fuzzy
 msgid "{% extends \"contribute/index.md\" %}"
-msgstr "{% erweitert \"beitrag/index.md\" %}"
+msgstr "{% extends \"contribute/index.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/next/pr_review.md:1
 #, fuzzy
@@ -541,7 +523,6 @@ msgid "Receiving a pull request review"
 msgstr "Überprüfung einer Pull-Anfrage erhalten"
 
 #: docs/en/content_test_bed/how-to/contribute/next/pr_review.md:3
-#, fuzzy
 msgid "{% extends \"contribute/next/pr_review.md\" %}"
 msgstr "{% extends \"contribute/next/pr_review.md\" %}"
 
@@ -551,7 +532,6 @@ msgid "The release process"
 msgstr "Der Freigabeprozess"
 
 #: docs/en/content_test_bed/how-to/contribute/next/release.md:3
-#, fuzzy
 msgid "{% extends \"contribute/next/release.md\" %}"
 msgstr "{% extends \"contribute/next/release.md\" %}"
 
@@ -561,9 +541,8 @@ msgid "Code style guide"
 msgstr "Code style guide"
 
 #: docs/en/content_test_bed/how-to/contribute/style/code_style_guide.md:3
-#, fuzzy
 msgid "{% extends \"contribute/style/code_style_guide.md\" %}"
-msgstr "{% erweitert \"contribute/style/code_style_guide.md\" %}"
+msgstr "{% extends \"contribute/style/code_style_guide.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/style/docs_style_guide.md:1
 #, fuzzy
@@ -571,9 +550,8 @@ msgid "Documentation style guide"
 msgstr "Documentation style guide"
 
 #: docs/en/content_test_bed/how-to/contribute/style/docs_style_guide.md:3
-#, fuzzy
 msgid "{% extends \"contribute/style/docs_style_guide.md\" %}"
-msgstr "{% erweitert \"contribute/style/docs_style_guide.md\" %}"
+msgstr "{% extends \"contribute/style/docs_style_guide.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/what/fix_issue.md:1
 #, fuzzy
@@ -581,9 +559,8 @@ msgid "Fixing an issue"
 msgstr "Behebung eines Problems"
 
 #: docs/en/content_test_bed/how-to/contribute/what/fix_issue.md:3
-#, fuzzy
 msgid "{% extends \"contribute/what/fix_issue.md\" %}"
-msgstr "{% erweitert \"contribute/what/fix_issue.md\" %}"
+msgstr "{% extends \"contribute/what/fix_issue.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/what/implement_feature.md:1
 #, fuzzy
@@ -591,22 +568,18 @@ msgid "Implementing a new feature"
 msgstr "Implementierung einer neuen Funktion"
 
 #: docs/en/content_test_bed/how-to/contribute/what/implement_feature.md:3
-#, fuzzy
 msgid "{% extends \"contribute/what/implement_feature.md\" %}"
 msgstr "{% extends \"contribute/what/implement_feature.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/what/propose_feature.md:3
-#, fuzzy
 msgid "{% extends \"contribute/what/propose_feature.md\" %}"
 msgstr "{% extends \"contribute/what/propose_feature.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/what/review_pr.md:3
-#, fuzzy
 msgid "{% extends \"contribute/what/review_pr.md\" %}"
 msgstr "{% extends \"contribute/what/review_pr.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/what/translate.md:3
-#, fuzzy
 msgid "{% extends \"contribute/what/translate.md\" %}"
 msgstr "{% extends \"contribute/what/translate.md\" %}"
 
@@ -616,7 +589,6 @@ msgid "Triaging an issue"
 msgstr "Behandlung eines Problems"
 
 #: docs/en/content_test_bed/how-to/contribute/what/triage.md:3
-#, fuzzy
 msgid "{% extends \"contribute/what/triage.md\" %}"
 msgstr "{% extends \"contribute/what/triage.md\" %}"
 
@@ -626,7 +598,6 @@ msgid "Using the tools"
 msgstr "Verwendung der Werkzeuge"
 
 #: docs/en/content_test_bed/how-to/contribute/what/use_tools.md:3
-#, fuzzy
 msgid "{% extends \"contribute/what/use_tools.md\" %}"
 msgstr "{% extends \"contribute/what/use_tools.md\" %}"
 
@@ -636,7 +607,6 @@ msgid "Adding documentation"
 msgstr "Hinzufügen von Dokumentation"
 
 #: docs/en/content_test_bed/how-to/contribute/what/write_docs.md:3
-#, fuzzy
 msgid "{% extends \"contribute/what/write_docs.md\" %}"
 msgstr "{% extends \"contribute/what/write_docs.md\" %}"
 

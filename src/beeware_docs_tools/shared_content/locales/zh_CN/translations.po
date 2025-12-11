@@ -210,7 +210,6 @@ msgstr "要创建 \"fix-win11-build \"功能分支，请运行"
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:162
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:185
 #: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:3
-#, fuzzy
 msgid "{% if not config.extra.macos_only %}"
 msgstr "{% if not config.extra.macos_only %}"
 
@@ -262,7 +261,6 @@ msgstr "/// tab | macOS"
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:166
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:231
 #: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:9
-#, fuzzy
 msgid "{% endif %}"
 msgstr "{% endif %}"
 
@@ -363,7 +361,6 @@ msgstr "在对 {{ formal_name }} 的文档进行任何更改之前，最好先�
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:3
 #: src/beeware_docs_tools/shared_content/en/contribute/how/reproduce_issue.md:5
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write_docs.md:4
-#, fuzzy
 msgid "{% block front_matter %} {% endblock %}"
 msgstr "{% block front_matter %} {% endblock %}"
 
@@ -500,7 +497,6 @@ msgid ""
 msgstr "编译的输出结果将保存在项目根目录下的 `_build` 目录中。"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:115
-#, fuzzy
 msgid "{% if not config.extra.translated %}"
 msgstr "{% if not config.extra.translated %}"
 
@@ -616,7 +612,6 @@ msgstr "如果一个术语是 \"作为代码 \"使用的，那么它就应该作
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:242
 #: src/beeware_docs_tools/shared_content/en/contribute/how/reproduce_issue.md:34
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write_docs.md:35
-#, fuzzy
 msgid "{% block end_matter %} {% endblock %}"
 msgstr "{% block end_matter %} {% endblock %}"
 
@@ -863,7 +858,6 @@ msgstr ""
 "Python 所需的工具经常滞后，而最近发布的稳定 Python 版本通常又不可用。"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:25
-#, fuzzy
 msgid "{% block prerequisites_macos %}"
 msgstr "{% block prerequisites_macos %}"
 
@@ -893,7 +887,6 @@ msgstr ""
 "Python 所需的工具通常会滞后，而最近发布的 Python 稳定版本通常又不可用。"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:47
-#, fuzzy
 msgid "{% block prerequisites_linux %}"
 msgstr "{% block prerequisites_linux %}"
 
@@ -919,7 +912,6 @@ msgstr ""
 "上支持 Python 所需的工具通常会滞后，而最近发布的稳定 Python 版本通常又不可用。"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:67
-#, fuzzy
 msgid "{% block prerequisites_windows %}"
 msgstr "{% block prerequisites_windows %}"
 
@@ -1003,17 +995,14 @@ msgid ""
 msgstr "有了源代码，就可以在开发环境中 [编辑安装]{1} {{ formal_name }} 了。运行以下命令"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:184
-#, fuzzy
 msgid "{% block install_macos_tool %}"
 msgstr "{% block install_macos_tool %}"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:198
-#, fuzzy
 msgid "{% block install_linux_tool %}"
 msgstr "{% block install_linux_tool %}"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:210
-#, fuzzy
 msgid "{% block install_windows_tool %}"
 msgstr "{% block install_windows_tool %}"
 
@@ -1498,7 +1487,6 @@ msgstr ""
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/propose_feature.md:31
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:283
-#, fuzzy
 msgid "{% block end_matter %}"
 msgstr "{% block end_matter %}"
 
@@ -2585,34 +2573,28 @@ msgstr "共计 7540 1 1726 0 99.9"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write_code.md:29
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write_code.md:39
-#, fuzzy
 msgid "(.venv) $ tox -m test{{ min_python_version_tag }}"
 msgstr "(.venv) $ tox -m test{{ min_python_version_tag }}"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write_code.md:47
-#, fuzzy
 msgid "(.venv) C:\\...>tox -m test{{ min_python_version_tag }}"
 msgstr "(.venv) C:\\...>tox -m test{{ min_python_version_tag }}"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write_code.md:65
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write_code.md:75
-#, fuzzy
 msgid "(.venv) $ tox p -m test-platform"
 msgstr "(.venv) $ tox p -m test-platform"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write_code.md:83
-#, fuzzy
 msgid "(.venv) C:\\...>tox p -m test-platform"
 msgstr "(.venv) C:\\...>tox p -m test-platform"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write_code.md:101
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write_code.md:111
-#, fuzzy
 msgid "(.venv) $ tox -e coverage-platform-html"
 msgstr "(.venv) $ tox -e coverage-platform-html"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write_code.md:119
-#, fuzzy
 msgid "(.venv) C:\\...>tox -e coverage-platform-html"
 msgstr "(.venv) C:\\...>tox -e coverage-platform-html"
 
@@ -3441,7 +3423,6 @@ msgid "We follow US spelling for API naming, variables, etc."
 msgstr "在 API 命名、变量等方面，我们采用美国拼写法。"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/code_style_guide.md:11
-#, fuzzy
 msgid "{% block code_style %}"
 msgstr "{% block code_style %}"
 
@@ -4419,7 +4400,6 @@ msgstr ""
 "的功能实现。不过，作为设计流程的一部分，我们需要确定*有可能*以您描述的方式实现某个功能。"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/propose_feature.md:23
-#, fuzzy
 msgid "{% block suggesting_new_features %}"
 msgstr "{% block suggesting_new_features %}"
 

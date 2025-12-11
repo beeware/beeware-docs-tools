@@ -257,7 +257,6 @@ msgstr "Per creare un ramo di funzionalità `fix-win11-build`, eseguire:"
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:162
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:185
 #: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:3
-#, fuzzy
 msgid "{% if not config.extra.macos_only %}"
 msgstr "{% if not config.extra.macos_only %}"
 
@@ -309,7 +308,6 @@ msgstr "/// tab | macOS"
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:166
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:231
 #: src/beeware_docs_tools/shared_content/en/contribute/what/implement_feature.md:9
-#, fuzzy
 msgid "{% endif %}"
 msgstr "{% endif %}"
 
@@ -412,7 +410,6 @@ msgstr ""
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:3
 #: src/beeware_docs_tools/shared_content/en/contribute/how/reproduce_issue.md:5
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write_docs.md:4
-#, fuzzy
 msgid "{% block front_matter %} {% endblock %}"
 msgstr "{% block front_matter %} {% endblock %}"
 
@@ -582,7 +579,6 @@ msgstr ""
 "del progetto."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:115
-#, fuzzy
 msgid "{% if not config.extra.translated %}"
 msgstr "{% if not config.extra.translated %}"
 
@@ -718,7 +714,6 @@ msgstr ""
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build_docs.md:242
 #: src/beeware_docs_tools/shared_content/en/contribute/how/reproduce_issue.md:34
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write_docs.md:35
-#, fuzzy
 msgid "{% block end_matter %} {% endblock %}"
 msgstr "{% block end_matter %} {% endblock %}"
 
@@ -1013,7 +1008,6 @@ msgstr ""
 "rilasciate di recente."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:25
-#, fuzzy
 msgid "{% block prerequisites_macos %}"
 msgstr "{% block prerequisiti_macos %}"
 
@@ -1046,7 +1040,6 @@ msgstr ""
 "rilasciate di recente."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:47
-#, fuzzy
 msgid "{% block prerequisites_linux %}"
 msgstr "{% blocco prerequisiti_linux %}"
 
@@ -1076,7 +1069,6 @@ msgstr ""
 "rilasciate di recente."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:67
-#, fuzzy
 msgid "{% block prerequisites_windows %}"
 msgstr "{% blocco prerequisiti_windows %}"
 
@@ -1169,17 +1161,14 @@ msgstr ""
 "Eseguite il seguente comando:"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:184
-#, fuzzy
 msgid "{% block install_macos_tool %}"
 msgstr "{% block install_macos_tool %}"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:198
-#, fuzzy
 msgid "{% block install_linux_tool %}"
 msgstr "{% block install_linux_tool %}"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev_environment.md:210
-#, fuzzy
 msgid "{% block install_windows_tool %}"
 msgstr "{% block install_windows_tool %}"
 
@@ -1795,7 +1784,6 @@ msgstr ""
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/propose_feature.md:31
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit_pr.md:283
-#, fuzzy
 msgid "{% block end_matter %}"
 msgstr "{% block end_matter %}"
 
@@ -3195,34 +3183,28 @@ msgstr "TOTALE 7540 1 1726 0 99,9"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write_code.md:29
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write_code.md:39
-#, fuzzy
 msgid "(.venv) $ tox -m test{{ min_python_version_tag }}"
 msgstr "(.venv) $ tox -m test{{ min_python_version_tag }}"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write_code.md:47
-#, fuzzy
 msgid "(.venv) C:\\...>tox -m test{{ min_python_version_tag }}"
 msgstr "(.venv) C:\\...>tox -m test{{ min_python_version_tag }}"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write_code.md:65
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write_code.md:75
-#, fuzzy
 msgid "(.venv) $ tox p -m test-platform"
 msgstr "(.venv) $ tox p -m test-platform"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write_code.md:83
-#, fuzzy
 msgid "(.venv) C:\\...>tox p -m test-platform"
 msgstr "(.venv) C:\\...>tox p -m test-platform"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write_code.md:101
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write_code.md:111
-#, fuzzy
 msgid "(.venv) $ tox -e coverage-platform-html"
 msgstr "(.venv) $ tox -e coverage-platform-html"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write_code.md:119
-#, fuzzy
 msgid "(.venv) C:\\...>tox -e coverage-platform-html"
 msgstr "(.venv) C:\\...>tox -e coverage-platform-html"
 
@@ -4238,7 +4220,6 @@ msgstr ""
 "Seguiamo l'ortografia statunitense per i nomi delle API, le variabili, ecc."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/code_style_guide.md:11
-#, fuzzy
 msgid "{% block code_style %}"
 msgstr "{% block code_style %}"
 
@@ -5463,7 +5444,6 @@ msgstr ""
 " modo descritto."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/what/propose_feature.md:23
-#, fuzzy
 msgid "{% block suggesting_new_features %}"
 msgstr "{% block suggesting_new_features %}"
 
