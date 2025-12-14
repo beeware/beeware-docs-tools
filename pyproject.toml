@@ -38,7 +38,7 @@ dependencies = [
     "python-Levenshtein==0.27.3",
     "PyYAML==6.0.3",
     "polib==1.2.0",
-    "ruff==0.14.8",
+    "ruff==0.14.9",
     "setuptools_scm==9.2.2",
     "translate-toolkit==3.17.4",
 ]
