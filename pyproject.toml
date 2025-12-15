@@ -23,7 +23,7 @@ maintainers = [
 ]
 
 dependencies = [
-    "click==8.3.1",  # DO NOT UPGRADE - 8.3.0 breaks MkDocs live serve
+    "click==8.2.1",  # DO NOT UPGRADE - 8.3.0 breaks MkDocs live serve
     "deepl==1.27.0",
     "markdown-checker==0.2.5",
     "mistletoe==1.5.1",
