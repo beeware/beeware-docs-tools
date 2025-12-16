@@ -6,7 +6,7 @@ If your feature requires a platform-specific implementation, the proposal proces
 
 An important part of implementing a new feature is ensuring that feature is fully documented. At a minimum this means ensuring that there is API documentation; but it may also require adding a how-to or topic guide.
 
-{% block specific-feature_ideas %}
+{% block specific_feature_ideas %}
 {% endblock %}
 
 {% endif %}
