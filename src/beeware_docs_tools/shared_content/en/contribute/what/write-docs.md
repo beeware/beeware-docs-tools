@@ -43,7 +43,7 @@ A reference guide in baking might describe the types of sugar that could be used
 
 ## Documentation style
 
-{{ formal_name }}'s documentation follows the guidelines outlined in the [documentation style guide](../style/docs_style_guide.md). This guide includes basic style and formatting, and the process for the spelling check. It also covers various Markdown syntax details, such as reference link syntax, tips for working with code blocks, and image handling.
+{{ formal_name }}'s documentation follows the guidelines outlined in the [documentation style guide](../style/docs-style-guide.md). This guide includes basic style and formatting, and the process for the spelling check. It also covers various Markdown syntax details, such as reference link syntax, tips for working with code blocks, and image handling.
 
 ## Contributing documentation
 
@@ -52,11 +52,11 @@ A reference guide in baking might describe the types of sugar that could be used
 
 ??? abstract "Proposing new documentation"
 
-    {{ indented("contribute/how/propose_feature.md") }}
+    {{ indented("contribute/how/propose-feature.md") }}
 
 ??? abstract "Set up a development environment"
 
-    {{ indented("contribute/how/dev_environment.md") }}
+    {{ indented("contribute/how/dev-environment.md") }}
 
 ??? abstract "Work from a branch"
 
@@ -64,20 +64,20 @@ A reference guide in baking might describe the types of sugar that could be used
 
 ??? abstract "Avoid scope creep"
 
-    {{ indented("contribute/how/scope_creep.md") }}
+    {{ indented("contribute/how/scope-creep.md") }}
 
 ??? abstract "Building documentation"
 
-    {{ indented("contribute/how/build_docs.md") }}
+    {{ indented("contribute/how/build-docs.md") }}
 
 ??? abstract "Writing documentation"
 
-    {{ indented("contribute/how/write_docs.md") }}
+    {{ indented("contribute/how/write-docs.md") }}
 
 ??? abstract "Add a change note"
 
-    {{ indented("contribute/how/change_note.md") }}
+    {{ indented("contribute/how/change-note.md") }}
 
 ??? abstract "Submit a pull request"
 
-    {{ indented("contribute/how/submit_pr.md") }}
+    {{ indented("contribute/how/submit-pr.md") }}

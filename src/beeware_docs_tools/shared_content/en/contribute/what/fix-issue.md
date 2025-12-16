@@ -15,7 +15,7 @@ Even if you can't fix the problem, reporting anything you discover during the pr
 
 ??? abstract "Set up a development environment"
 
-    {{ indented("contribute/how/dev_environment.md") }}
+    {{ indented("contribute/how/dev-environment.md") }}
 
 ??? abstract "Work from a branch"
 
@@ -23,30 +23,30 @@ Even if you can't fix the problem, reporting anything you discover during the pr
 
 ??? abstract "Reproduce the issue"
 
-    {{ indented("contribute/how/reproduce_issue.md") }}
+    {{ indented("contribute/how/reproduce-issue.md") }}
 
 **If fixing the issue requires changes to code:**
 
 ??? abstract "Write, run, and test code"
 
-    {{ indented("contribute/how/write_code.md") }}
+    {{ indented("contribute/how/write-code.md") }}
 
 **If fixing the issue requires changes to documentation:**
 
 ??? abstract "Build documentation"
 
-    {{ indented("contribute/how/build_docs.md") }}
+    {{ indented("contribute/how/build-docs.md") }}
 
 ??? abstract "Write documentation"
 
-    {{ indented("contribute/how/write_docs.md") }}
+    {{ indented("contribute/how/write-docs.md") }}
 
 **When you're ready to submit your contribution:**
 
 ??? abstract "Add a change note"
 
-    {{ indented("contribute/how/change_note.md") }}
+    {{ indented("contribute/how/change-note.md") }}
 
 ??? abstract "Submit a pull request"
 
-    {{ indented("contribute/how/submit_pr.md") }}
+    {{ indented("contribute/how/submit-pr.md") }}

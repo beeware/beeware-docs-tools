@@ -30,7 +30,7 @@ If the section where you intend to include `new_doc.md` is a list of individual 
 
 You can now open the desired file into your editor, and begin writing.
 
-We have a [documentation style guide](../style/docs_style_guide.md) that outlines our guidelines for writing documentation for BeeWare.
+We have a [documentation style guide](../style/docs-style-guide.md) that outlines our guidelines for writing documentation for BeeWare.
 
 {% block end_matter %}
 {% endblock %}

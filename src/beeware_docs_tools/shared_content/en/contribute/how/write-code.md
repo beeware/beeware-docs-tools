@@ -4,7 +4,7 @@ Fixing a bug or implementing a feature will require you to write some new code.
 {% block front_matter %}
 {% endblock %}
 
-We have a [code style guide](../style/code_style_guide.md) that outlines our guidelines for writing code for BeeWare.
+We have a [code style guide](../style/code-style-guide.md) that outlines our guidelines for writing code for BeeWare.
 
 ### Test-driven development
 

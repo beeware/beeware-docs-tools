@@ -19,4 +19,4 @@ As a first-time contributor, you should feel free to review any pull request you
 
 ??? abstract "Providing a pull request review"
 
-    {{ indented("contribute/how/review_pr.md") }}
+    {{ indented("contribute/how/review-pr.md") }}

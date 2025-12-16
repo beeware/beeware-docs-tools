@@ -1,4 +1,4 @@
-Once the [proposal process](propose_feature.md) has concluded, you should have a complete design for a new feature. That means it's time to start writing!
+Once the [proposal process](propose-feature.md) has concluded, you should have a complete design for a new feature. That means it's time to start writing!
 
 {% if not config.extra.macos_only %}
 
@@ -6,7 +6,7 @@ If your feature requires a platform-specific implementation, the proposal proces
 
 An important part of implementing a new feature is ensuring that feature is fully documented. At a minimum this means ensuring that there is API documentation; but it may also require adding a how-to or topic guide.
 
-{% block specific_feature_ideas %}
+{% block specific-feature_ideas %}
 {% endblock %}
 
 {% endif %}
@@ -18,7 +18,7 @@ An important part of implementing a new feature is ensuring that feature is full
 
 ??? abstract "Set up a development environment"
 
-    {{ indented("contribute/how/dev_environment.md") }}
+    {{ indented("contribute/how/dev-environment.md") }}
 
 ??? abstract "Work from a branch"
 
@@ -26,24 +26,24 @@ An important part of implementing a new feature is ensuring that feature is full
 
 ??? abstract "Avoid scope creep"
 
-    {{ indented("contribute/how/scope_creep.md") }}
+    {{ indented("contribute/how/scope-creep.md") }}
 
 ??? abstract "Implement the new feature"
 
-    {{ indented("contribute/how/write_code.md") }}
+    {{ indented("contribute/how/write-code.md") }}
 
 ??? abstract "Build documentation"
 
-    {{ indented("contribute/how/build_docs.md") }}
+    {{ indented("contribute/how/build-docs.md") }}
 
 ??? abstract "Write documentation"
 
-    {{ indented("contribute/how/write_docs.md") }}
+    {{ indented("contribute/how/write-docs.md") }}
 
 ??? abstract "Add a change note"
 
-    {{ indented("contribute/how/change_note.md") }}
+    {{ indented("contribute/how/change-note.md") }}
 
 ??? abstract "Submit a pull request"
 
-    {{ indented("contribute/how/submit_pr.md") }}
+    {{ indented("contribute/how/submit-pr.md") }}

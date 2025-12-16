@@ -11,4 +11,4 @@ Triaging an issue does not mean you are expected to fix it. Depending on the iss
 
 ??? abstract "Reproduce the issue"
 
-    {{ indented("contribute/how/reproduce_issue.md") }}
+    {{ indented("contribute/how/reproduce-issue.md") }}

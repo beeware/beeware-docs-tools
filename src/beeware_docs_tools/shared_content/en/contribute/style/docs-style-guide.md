@@ -375,7 +375,7 @@ For details on how to include external content from a local file or a URL, see t
 Important notes:
 
 * We use `-8<-` as the Snippets identifier. The documentation shows several options; please follow our style.
-* Files found in BeeWare Docs Tools shared content are treated as "local" content. Therefore, you will either use only the filename, as in `-8<- "docs_style_guide.md"`, or if the content is in a subdirectory, only the directory and filename, as in `-8<- "style/docs_style_guide.md"`.
+* Files found in BeeWare Docs Tools shared content are treated as "local" content. Therefore, you will either use only the filename, as in `-8<- "docs-style-guide.md"`, or if the content is in a subdirectory, only the directory and filename, as in `-8<- "style/docs-style-guide.md"`.
 * If you are including external content from a file on GitHub via a URL, you _must_ use the raw content URL, or it will render the full webpage embedded wherever you include it.
 
 ### Using Macros to include content from BeeWare Docs Tools shared content

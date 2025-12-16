@@ -27,7 +27,7 @@ After submitting your pull request, you'll need to wait for a review of your con
 
 ## Providing a review
 
-Everyone is welcome to provide a review on any pull request. [These guidelines](../how/review_pr.md) describe our expectations of a review, regardless of whether it's provided by a core team member or a member of the community.
+Everyone is welcome to provide a review on any pull request. [These guidelines](../how/review-pr.md) describe our expectations of a review, regardless of whether it's provided by a core team member or a member of the community.
 
 A core team member will always need to provide the final review; but reviews from community members can be a helpful way to streamline the process - ideally, the review from the core team would be a formality after community reviews have identified all the major problems.
 
