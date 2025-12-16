@@ -20,7 +20,7 @@ When proposing a new feature, keep in mind that the BeeWare suite of tools suppo
 
 This doesn't mean you need to be responsible for implementing a feature on every platform. If you don't have access to Apple hardware, it's not reasonable for us to expect you to provide a macOS or iOS implementation of a feature. However, as part of the design process, we need to establish that it would be *possible* to implement a feature in the way you describe.
 
-{% block suggesting_new-features %}
+{% block suggesting_new_features %}
 {% endblock %}
 
 ### Suggesting new documentation { #suggesting-new-docs }
