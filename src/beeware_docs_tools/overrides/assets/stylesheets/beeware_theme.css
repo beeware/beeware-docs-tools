@@ -304,11 +304,20 @@
 }
 
 /* Link colors */
-.md-typeset a, .md-nav__link {
+
+.md-nav__link[for]:focus,
+.md-nav__link[for]:hover {
+    color: unset;
+}
+
+.md-typeset a,
+a.md-nav__link,
+a.md-nav__link[for]:focus,
+a.md-nav__link[for]:hover {
     color: light-dark(#084AFF, #526CFE);
 }
 
-.md-nav__item .md-nav__link--active {
+.md-nav__item a.md-nav__link--active {
     color: light-dark(#30314B, #96ACEE)
 }
 
