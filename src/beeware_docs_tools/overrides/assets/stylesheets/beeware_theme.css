@@ -577,6 +577,7 @@ body {
 @media screen and (min-width: 60em) {
     .md-sidebar__scrollwrap {
         margin-top: -64px;
+        padding-bottom: 4rem;  /* Scrollbar bugfix; enables scrolling to the bottom */
     }
 }
 
