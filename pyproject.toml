@@ -64,6 +64,36 @@ build_pot_translations = "beeware_docs_tools.build_pot_translations:main"
 live_serve_en = "beeware_docs_tools.live_serve_en:main"
 update_machine_translations = "beeware_docs_tools.update_machine_translations:main"
 
+[tool.rumdl]
+flavor = "mkdocs"
+include = ["**/*.md"]
+exclude = ["docs/en/SUMMARY.md", "comment.md"]
+respect-gitignore = true
+
+# Disable rules:
+# MD014: Force commands in codeblocks to show output
+disable = ["MD014"]
+
+[tool.rumdl.per-file-ignores]
+# MD002: First heading should be level 1, found level 2; title will be included in the target page
+# MD034: URL without angle brackets or link formatting; triggers on URLs with Jinja variable included
+# MD041: First line in file should be level 1 heading; title will be included in the target page
+"src/beeware_docs_tools/shared_content/en/*.md" = ["MD002", "MD034", "MD041",]
+
+[tool.rumdl.MD013]  # Line length
+line_length = 999999  # Force reflow to paragraph content to remove linebreaks
+reflow = true
+reflow_mode = "normalize"
+
+[tool.rumdl.MD026]  # Remove punctuation at the end of headings
+punctuation = ",;:"
+
+[tool.rumdl.MD033]  # No inline HTML
+allowed_elements = ["nospell",]  # pyspelling inline disable tag
+
+[tool.rumdl.MD061]
+terms = ["TODO"]
+
 [tool.setuptools]
 include-package-data = true
 
