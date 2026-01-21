@@ -5,8 +5,11 @@ This guide includes information on expected style, MkDocs-specific syntax, vario
 * Headers and titles should have only the first word capitalized.
 * We prefer US spelling, with some liberties for programming-specific colloquialism (e.g., "apps") and verbing of nouns (e.g., "scrollable").
 * The spelling of "artefact" and "artefacts" is as shown.
+* We use single spaces after a period.
+* We use a single hyphen surrounded by spaces as an em-dash (or a HTML `&mdash;` literal).
 * Any reference to a product name should use the product’s preferred capitalization. (e.g., <nospell>"macOS", "GTK", "pytest", "Pygame", "PyScript"</nospell>).
 * If a term is being used "as code", then it should be quoted as inline code, by wrapping it in single backticks, rather than being added to the dictionary.
+* We avoid using terms like "simply", "just", or "easily" when describing actions a user should take. These terms can be read as pejorative, especially when a user is experiencing difficulties.
 
 ## Cross-referencing information
 
