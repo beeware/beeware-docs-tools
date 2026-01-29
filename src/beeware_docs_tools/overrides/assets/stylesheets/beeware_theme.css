@@ -4,11 +4,21 @@
   src: url("../fonts/Cutive.woff2");
 }
 
+:root {
+  --brand-font: "Cutive", serif;
+}
+
+:lang(zh),
+:lang(zh_CN),
+:lang(zh_TW) {
+  --brand-font: "Cutive", sans-serif;
+}
+
 /*----------------------------------------------------
   Build BeeWare header
  --------------------------------------------------- */
 .navbar {
-    font-family: 'Cutive', serif;
+    font-family: var(--brand-font);
     position: relative;
     display: -ms-flexbox;
     display: flex;
@@ -294,8 +304,16 @@
 .md-typeset h4,
 .md-typeset h5,
 .md-typeset h6 {
-    font-family: 'Cutive', serif;
+    font-family: var(--brand-font);
     color: var(--md-typeset-color);
+}
+
+/* Bump the font weight slightly for h1 and h2.  This will make fonts in some scripts,
+   e.g. Chinese have more consistent weights with Cutive, which is thicker than most
+   typical 300-weight fonts.  Cutive itself does not get emboldened by using 400.  */
+.md-typeset h1,
+.md-typeset h2 {
+    font-weight: 400;
 }
 
 /* Fix issue with spacing when title is exactly the width of the article column */
@@ -338,7 +356,7 @@ a.md-nav__link[for]:hover {
 
 /* Sidebar title and GitHub links font and color */
 .md-nav__title {
-    font-family: 'Cutive', serif;
+    font-family: var(--brand-font);
 }
 
 .md-nav__title {
@@ -426,7 +444,7 @@ a.md-nav__link[for]:hover {
 
 /* The menu button for the sidebar drawer to display the sidebar on smaller displays */
 .mobile-drawer-button-site-name {
-    font-family: Cutive, "serif";
+    font-family: var(--brand-font);
     font-size: 16px;
     display: inline-block;
     vertical-align: middle;
@@ -652,7 +670,7 @@ svg.copy-icon {
 
 /* Search */
 input.md-search__input, .md-search__suggest, .md-search-result__meta {
-    font-family: 'Cutive', serif;
+    font-family: var(--brand-font);
 }
 
 .md-search__suggest {
