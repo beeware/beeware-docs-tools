@@ -57,6 +57,7 @@
             </div>
         </div>
     </a>
+      {% if not config.extra.hide_dev_links %}
       <span class="github-link-block">
         <a href="https://github.com/beeware/{{ config.extra.project_name }}">
             <div class="github-links">
@@ -69,6 +70,7 @@
             </div>
         </a>
       </span>
+      {% endif %}
   </label>
 
   <!-- Repository information -->
@@ -80,7 +82,7 @@
 
   <!-- Navigation list -->
   <ul class="md-nav__list" data-md-scrollfix>
-    {% for nav_item in nav %}
+    {% for nav_item in nav.items %}
       {% set path = "__nav_" ~ loop.index %}
       {{ item.render(nav_item, path, 1) }}
     {% endfor %}

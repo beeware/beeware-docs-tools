@@ -111,7 +111,7 @@ The output of this build will be in the `_build` directory in the root of the pr
 
 {% endif %}
 
-{% if not config.extra.translated %}
+{% if config.extra.translated %}
 
 #### Generating a local translated build
 

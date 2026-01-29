@@ -20,22 +20,41 @@
   IN THE SOFTWARE.
 -->
 
-{% extends "base.html" %}
+<!-- Render navigation link content -->
+{% macro render_content(nav_item) %}
+  <span class="md-ellipsis">
+    {{ nav_item.title }}
+  </span>
+{% endmacro %}
+{% macro render(nav_item, ref) %}
 
-{% block styles %}
-    {{ super() }}
-    <link rel="stylesheet" type="text/css" href="{{ 'assets/stylesheets/beeware_theme.css' | url }}">
-{% endblock %}
+  <!-- Render navigation item -->
+  {% set ref = ref or nav_item %}
 
-{% block fonts %}
-    {{ super() }}
-    <script src="https://kit.fontawesome.com/9a40a729b9.js" crossorigin="anonymous"></script>
-{% endblock %}
+  {% if nav_item.children %}
+    <!-- Navigation item with nested items -->
+    {% set first = nav_item.children | first %}
 
-{% block scripts %}
-    {{ super() }}
-    <script src="{{ 'assets/javascripts/copy_button.js' | url }}"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src="https://beeware.org/static/bootstrap/js/bootstrap.min.js"></script>
-{% endblock %}
+    {% if first.children %}
+      <!-- Recurse, first item has further nested items -->
+      {{ render(first, ref) }}
+    {% else %}
+        <!-- Nested navigation item -->
+        {% if page.url != first.url %}
+          <li class="md-path__item">
+            <a href="{{ first.url | url }}" class="md-path__link">
+              {{ render_content(ref) }}
+            </a>
+          </li>
+        {% endif %}
+    {% endif %}
+
+  {% else %}
+    <!-- Navigation item, no children -->
+    <li class="md-path__item">
+      <a href="{{ nav_item.url | url }}" class="md-path__link">
+        {{ render_content(ref) }}
+      </a>
+    </li>
+  {% endif %}
+{% endmacro %}

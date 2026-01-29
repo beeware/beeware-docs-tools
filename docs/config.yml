@@ -19,7 +19,7 @@ extra:
   min_python_version_tag: "310"  # The tag version of the minimum python version
   recent_python_version: "3.13"  # The newest Python version known to work on all platforms
   docs_python_version: "3.13"  # The version of Python required to build the documentation
-  translated: false  # true hides content related to building translations. Default: false.
+  translated: true  # false hides content related to building translations. Default: false.
   hide_coverage: false  # true hides content related to code coverage. Default: false.
   macos_only: false  # true hides tabbed content, and displays only macOS instructions. Default: false.
   alternate:
@@ -42,6 +42,7 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://beeware.org/bee/chat/
       name: BeeWare on Discord
+  generator: false
 
 theme:
   name: material
@@ -53,6 +54,8 @@ theme:
     - toc.follow
     - navigation.indexes
     - navigation.footer
+    - navigation.tabs
+    - navigation.tabs.sticky
     - search.suggest
     - search.highlight
     - search.share
