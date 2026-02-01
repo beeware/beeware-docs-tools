@@ -1,6 +1,6 @@
 [build-system]
 requires = [
-    "setuptools==80.9.0",
+    "setuptools==80.10.2",
     "autocalver",
 ]
 build-backend = "setuptools.build_meta"
@@ -33,14 +33,14 @@ dependencies = [
     "mkdocs-material==9.7.1",
     "mkdocs==1.6.1",
     "mkdocstrings-python==2.0.1",
-    "pymdown-extensions==10.20",
+    "pymdown-extensions==10.20.1",
     "pyspelling==2.12.1",
     "python-Levenshtein==0.27.3",
     "PyYAML==6.0.3",
     "polib==1.2.0",
-    "ruff==0.14.10",
+    "ruff==0.14.14",
     "setuptools_scm==9.2.2",
-    "translate-toolkit==3.17.5",
+    "translate-toolkit==3.18.1",
 ]
 
 [dependency-groups]
