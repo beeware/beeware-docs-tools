@@ -10,43 +10,56 @@ Even if you can't fix the problem, reporting anything you discover during the pr
 
 ## Contributing an issue fix
 
-{% macro content(template) %}{% include template %}{% endmacro %}
-{% macro indented(template) %}{{ content(template)|indent }}{% endmacro %}
+/// details-abstract | Set up a development environment
 
-??? abstract "Set up a development environment"
+{% include "contribute/how/dev-environment.md" %}
 
-    {{ indented("contribute/how/dev-environment.md") }}
+///
 
-??? abstract "Work from a branch"
+/// details-abstract | Work from a branch
 
-    {{ indented("contribute/how/branches.md") }}
+{% include "contribute/how/branches.md" %}
 
-??? abstract "Reproduce the issue"
+///
 
-    {{ indented("contribute/how/reproduce-issue.md") }}
+/// details-abstract | Reproduce the issue
+
+{% include "contribute/how/reproduce-issue.md" %}
+
+///
 
 **If fixing the issue requires changes to code:**
 
-??? abstract "Write, run, and test code"
+/// details-abstract | Write, run, and test code
 
-    {{ indented("contribute/how/write-code.md") }}
+{% include "contribute/how/write-code.md" %}
+
+///
 
 **If fixing the issue requires changes to documentation:**
 
-??? abstract "Build documentation"
+/// details-abstract | Build documentation
 
-    {{ indented("contribute/how/build-docs.md") }}
+{% include "contribute/how/build-docs.md" %}
 
-??? abstract "Write documentation"
+///
 
-    {{ indented("contribute/how/write-docs.md") }}
+/// details-abstract | Write documentation
+
+{% include "contribute/how/write-docs.md" %}
+
+///
 
 **When you're ready to submit your contribution:**
 
-??? abstract "Add a change note"
+/// details-abstract | Add a change note
 
-    {{ indented("contribute/how/change-note.md") }}
+{% include "contribute/how/change-note.md" %}
 
-??? abstract "Submit a pull request"
+///
 
-    {{ indented("contribute/how/submit-pr.md") }}
+/// details-abstract | Submit a pull request
+
+{% include "contribute/how/submit-pr.md" %}
+
+///

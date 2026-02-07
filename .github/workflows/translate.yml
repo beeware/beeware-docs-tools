@@ -29,18 +29,41 @@ jobs:
           python-version: "3.X"
           cache: pip
           cache-dependency-path: |
+            pyproject.toml
             .pre-commit-config.yaml
 
       - name: Update pip
         run: python -m pip install -U pip
 
       - name: Install tox
-        run: python -m pip install --group dev
+        run: python -m pip install --group translate
 
       - name: Configure git
         run: |
           git config --local user.email "$(git log --pretty='%ae' -1)"
           git config --local user.name "brutusthebee[bot]"
+
+      - name: Configure Weblate
+        env:
+          WEBLATE_API_TOKEN: ${{ secrets.WEBLATE_API_TOKEN }}
+        run: |
+          cat <<EOF > ~/.weblate
+          [weblate]
+          url = https://hosted.weblate.org/api/
+          translation = beeware/docs-tools-shared-content
+
+          [keys]
+          https://hosted.weblate.org/api/ = $WEBLATE_API_TOKEN
+          EOF
+
+      - name: Lock Weblate and Sync
+        run: wlc lock
+      - name: Commit Weblate changes
+        run: wlc commit
+      - name: Push Weblate changes
+        run: wlc push
+      - name: Pull translation updates pushed by Weblate
+        run: git pull origin
 
       - name: Regenerate PO files
         env:
@@ -67,3 +90,18 @@ jobs:
           git add src/beeware_docs_tools/shared_content/locales
           git commit -m "Update translations to $(git rev-parse --short HEAD)."
           git push origin
+
+      - name: Ensure Weblate has current updates
+        if: steps.updated.outputs.updated == 'true'
+        run: wlc pull
+
+      - name: Unlock Weblate
+        run: wlc unlock
+
+      # # This step is only needed if you're trying to diagnose test failures that
+      # # only occur in CI, and can't be reproduced locally. When it runs, it will
+      # # open an SSH server (URL reported in the logs) so you can ssh into the CI
+      # # machine.
+      # - name: Setup tmate session
+      #   uses: mxschmitt/action-tmate@v3
+      #   if: failure()

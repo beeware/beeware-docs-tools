@@ -53,7 +53,7 @@ When including code, in the event that you can reproduce it with an existing exa
 
 If you need to include a long block of text, you can make it collapsed content using the following syntax:
 
-```markdown
+```html
 <details>
 <summary>Collapsed content title</summary>
 Long block of text.

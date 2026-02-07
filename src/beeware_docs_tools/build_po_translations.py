@@ -4,6 +4,8 @@ from pathlib import Path
 import subprocess
 from tempfile import TemporaryDirectory
 
+import polib
+
 # This tool is used to generate updated PO files from updated PO template (POT)
 # files, which are based on the English Markdown content.
 #
@@ -55,6 +57,14 @@ def pot_to_po(
         ],
         check=True,
     )
+
+    # Resave with a long wrap width and without obsolete entries.
+    po = polib.pofile(
+        output_path / docs / language / "translations.po", wrapwidth=100000
+    )
+    for entry in po.obsolete_entries():
+        po.remove(entry)
+    po.save(output_path / docs / language / "translations.po")
 
 
 def generate_po_files(docs: Path) -> None:

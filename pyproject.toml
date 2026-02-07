@@ -25,12 +25,14 @@ maintainers = [
 dependencies = [
     "click==8.2.1",  # DO NOT UPGRADE - 8.3.0 breaks MkDocs live serve
     "deepl==1.27.0",
+    "griffe @ git+https://github.com/mkdocstrings/griffe@1fde0d2317c9098055ab313c8a0a992032194830", # Bullets in docstrings fix
     "markdown-checker==0.2.5",
     "mistletoe==1.5.1",
     "mkdocs-autorefs==1.4.3",
     "mkdocs-literate-nav==0.6.2",
     "mkdocs-macros-plugin==1.5.0",
     "mkdocs-material==9.7.1",
+    "mkdocs-rss-plugin==1.17.9",
     "mkdocs==1.6.1",
     "mkdocstrings-python==2.0.1",
     "pymdown-extensions==10.20.1",
@@ -46,9 +48,31 @@ dependencies = [
 [dependency-groups]
 # Extras used by developers *of* beeware-docs-tools are pinned to specific versions to
 # ensure environment consistency.
-dev = [
+pre-commit = [
     "pre-commit == 4.5.1",
+]
+
+tox-uv = [
     "tox-uv == 1.29.0",
+]
+
+wlc = [
+    "wlc == 1.17.2",
+]
+
+dev = [
+    {include-group = "pre-commit"},
+    {include-group = "tox-uv"},
+]
+
+test = [
+    "pytest == 9.0.2",
+    "pytest-xdist == 3.8.0",
+]
+
+translate = [
+    {include-group = "tox-uv"},
+    {include-group = "wlc"},
 ]
 
 [project.urls]
@@ -63,6 +87,12 @@ build_po_translations = "beeware_docs_tools.build_po_translations:main"
 build_pot_translations = "beeware_docs_tools.build_pot_translations:main"
 live_serve_en = "beeware_docs_tools.live_serve_en:main"
 update_machine_translations = "beeware_docs_tools.update_machine_translations:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = [
+    "error",
+]
 
 [tool.rumdl]
 flavor = "mkdocs"

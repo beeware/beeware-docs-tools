@@ -1,6 +1,6 @@
 Contributing to {{ formal_name }} requires you to set up a development environment.
 
-### Prerequisites  { #dev-environment-prereqs }
+### Prerequisites { #dev-environment-prereqs }
 
 You'll need to install the following prerequisites.
 
@@ -69,7 +69,7 @@ We recommend avoiding recently released version of Python (i.e., versions that h
 
 {% endif %}
 
-### Set up your development environment  { #dev-environment-set-up }
+### Set up your development environment { #dev-environment-set-up }
 
 The recommended way of setting up your development environment for {{ formal_name }} is to use a [virtual environment](https://docs.python.org/3/library/venv.html), and then install the development version of {{ formal_name }} and its dependencies.
 

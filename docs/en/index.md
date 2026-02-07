@@ -1,4 +1,4 @@
-# BeeWare Docs Tools Demo
+# Docs Tools Demo
 
 ## Theme checklist
 

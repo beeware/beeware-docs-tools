@@ -1,47 +1,140 @@
-<header class="md-header" data-md-component="header">
+<!--
+  Copyright (c) 2016-2025 Martin Donath <martin.donath@squidfunk.com>
 
-<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-  <div class="nav-top">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsDefault" aria-controls="navbarsDefault" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="navbar-brand-block">
-      <a class="navbar-brand" href="https://beeware.org"><img class="mx-2" src="https://beeware.org/static/images/brutus-32.png">BeeWare</a>
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+{% import "partials/tabs-item.html" as item with context %}
+<!-- Determine classes -->
+{% set class = "md-header" %}
+{% if "navigation.tabs.sticky" in features %}
+  {% set class = class ~ " md-header--shadow md-header--lifted" %}
+{% elif "navigation.tabs" not in features %}
+  {% set class = class ~ " md-header--shadow" %}
+{% endif %}
+
+<!-- Header -->
+<header class="{{ class }}" data-md-component="header">
+<nav
+class="md-header__inner md-grid"
+aria-label="{{ lang.t('header') }}"
+>
+
+    <!-- Link to home -->
+    <a
+      href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}"
+      title="{{ config.site_name | e }}"
+      class="md-header__button md-logo"
+      aria-label="{{ config.site_name }}"
+      data-md-component="logo"
+    >
+      <!-- include "partials/logo.html" Modified content is included here. -->
+          <img src="{{ 'assets/images/brutus-256.png' | url }}" alt="Logo" />
+
+    </a>
+
+    <!-- Button to open drawer -->
+    <label class="md-header__button md-icon" for="__drawer">
+      {% set icon = config.theme.icon.menu or "material/menu" %}
+      {% include ".icons/" ~ icon ~ ".svg" %}
+    </label>
+
+    <!-- Header title -->
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+      <a href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}"
+         title="{{ config.site_name | e }}">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            BeeWare
+          </span>
+        </div>
+        </a>
+      </div>
     </div>
-  </div>
- <div class="collapse navbar-collapse" id="navbarsDefault">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="https://beeware.org/about">About</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="https://beeware.org/docs">Documentation</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://beeware.org/community">Community</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://beeware.org/contributing">Contributing</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://beeware.org/news">News</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://beeware.org/membership">Donate</a>
-      </li>
+
+    <nav
+      class="md-tabs"
+      aria-label="{{ lang.t('tabs') }}"
+      data-md-component="tabs"
+    >
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+    {% if not config.extra.website %}
+    <li class="md-tabs__item">
+      <a href="https://beeware.org/{{ config.extra.language_url | default('') }}about" class="md-tabs__link">
+          {{ config.extra.header.About | default("About") }}
+      </a>
+    </li>
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="https://beeware.org/{{ config.extra.language_url | default('') }}documentation" class="md-tabs__link">
+          {{ config.extra.header.Documentation | default("Documentation") }}
+      </a>
+    </li>
+    <li class="md-tabs__item">
+      <a href="https://beeware.org/{{ config.extra.language_url | default('') }}community" class="md-tabs__link">
+          {{ config.extra.header.Community | default("Community") }}
+      </a>
+    </li>
+    <li class="md-tabs__item">
+      <a href="https://beeware.org/{{ config.extra.language_url | default('') }}contributing" class="md-tabs__link">
+          {{ config.extra.header.Contributing | default("Contributing") }}
+      </a>
+    </li>
+    <li class="md-tabs__item">
+      <a href="https://beeware.org/{{ config.extra.language_url | default('') }}news" class="md-tabs__link">
+          {{ config.extra.header.News | default("News") }}
+      </a>
+    </li>
+    <li class="md-tabs__item">
+      <a href="https://beeware.org/{{ config.extra.language_url | default('') }}membership" class="md-tabs__link">
+          {{ config.extra.header.Sponsor | default("Sponsor") }}
+      </a>
+    </li>
+    {% else %}
+      {% for nav_item in nav.items %}
+        {{ item.render(nav_item) }}
+      {% endfor %}
+    {% endif %}
     </ul>
-    <div class="palette_toggle">
+  </div>
+</nav>
+    </ul>
+  </div>
+</nav>
+
     <!-- Color palette toggle -->
+    {% if config.theme.palette %}
+      {% if not config.theme.palette is mapping %}
         {% include "partials/palette.html" %}
+      {% endif %}
+    {% endif %}
 
     <!-- User preference: color palette -->
-    {% include "partials/javascripts/palette.html" %}
-    </div>
+    {% if not config.theme.palette is mapping %}
+      {% include "partials/javascripts/palette.html" %}
+    {% endif %}
 
     <!-- Site language selector -->
     {% if config.extra.alternate %}
       {% include "partials/alternate.html" %}
     {% endif %}
+
     <!-- Button to open search modal -->
     {% if "material/search" in config.plugins %}
       {% set search = config.plugins["material/search"] | attr("config") %}
@@ -57,19 +150,5 @@
         {% include "partials/search.html" %}
       {% endif %}
     {% endif %}
-  </div>
-</nav>
-<div class="mobile-sidebar-drawer-menu-bar">
-    <!-- Button to open drawer -->
-    <label class="md-header__button md-icon" for="__drawer">
-        {% set icon = config.theme.icon.menu or "material/menu" %}
-        {% include ".icons/" ~ icon ~ ".svg" %}
-    </label>
-    <div class="mobile-drawer-button-site-name">
-        {{ config.site_name }}
-    </div>
-    <div class="mobile-drawer-button-version-number">
-        {{ config.extra.version }}
-    </div>
-</div>
+  </nav>
 </header>
