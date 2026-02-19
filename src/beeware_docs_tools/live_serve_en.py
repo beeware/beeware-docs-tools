@@ -20,6 +20,7 @@ def parse_args() -> Namespace:
     parser.add_argument("watch_directories", nargs="*")
     parser.add_argument("--strict", action="store_true")
     parser.add_argument("--source-code", action="append")
+    parser.add_argument("--port", type=int, default=8037)
     args = parser.parse_args()
 
     return args
@@ -29,6 +30,7 @@ def serve_docs(
     output_path: Path,
     strict: bool,
     watch_directories: list[str],
+    port: int,
 ) -> None:
     serve_command = [
         "python",
@@ -40,6 +42,8 @@ def serve_docs(
         str(output_path / "mkdocs.en.yml"),
         "--watch",
         "docs",
+        "--dev-addr",
+        f"localhost:{port}",
     ]
 
     if strict:
@@ -60,16 +64,16 @@ def main():
     with TemporaryDirectory() as temp_md_directory:
         temp_md_path = Path(temp_md_directory)
 
-        config_file = load_config(PROJECT_PATH)
-        symlink_from_temp(PROJECT_PATH, temp_md_path, args.source_code, config_file)
-        save_config(PROJECT_PATH, temp_md_path, config_file)
+        config = load_config(PROJECT_PATH)
+        symlink_from_temp(PROJECT_PATH, temp_md_path, args.source_code, config)
+        save_config(PROJECT_PATH, temp_md_path, config)
 
         (temp_md_path / "en").symlink_to(
             PROJECT_PATH / "docs/en",
             target_is_directory=True,
         )
 
-        serve_docs(temp_md_path, args.strict, args.watch_directories)
+        serve_docs(temp_md_path, args.strict, args.watch_directories, args.port)
 
 
 if __name__ == "__main__":

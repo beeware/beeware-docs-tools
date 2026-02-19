@@ -20,4 +20,4 @@ Being an open source contributor doesn't just mean writing code. You can help ou
 
 Open Source Software lives and dies on its contributions. Community contributions are critical to the success of any open source project, and BeeWare is no exception. To the extent that we can, we will provide you with the help you need to contribute. We're more than happy to get you going and help you work through your contribution, regardless of whether this is your first, tenth, or hundredth time contributing. Please don't hesitate to reach out and let us know if you need assistance.
 
-Now it's time to roll up your sleeves, and [choose your first contribution](index.md#what-can-i-do).<!-- rumdl-disable-line MD057 -->
+Now it's time to roll up your sleeves, and [choose your first contribution]({% if config.extra.website %}guide/index.md{% else %}index.md#what-can-i-do{% endif %}).<!-- rumdl-disable-line MD057 -->

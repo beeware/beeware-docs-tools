@@ -8,3 +8,10 @@ theme:
 
 extra:
   translation_type: human
+  header:
+    About: Über
+    Documentation: Dokumentation
+    Community: Gemeinschaft
+    Contributing: Mitwirken
+    News: Neuigkeiten
+    Sponsor: Förderer

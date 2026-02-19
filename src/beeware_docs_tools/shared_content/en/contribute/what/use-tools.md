@@ -8,13 +8,14 @@ If you do experience any problems, start a new discussion topic, as it may be th
 
 ## Contributing tool usage
 
-{% macro content(template) %}{% include template %}{% endmacro %}
-{% macro indented(template) %}{{ content(template)|indent }}{% endmacro %}
+/// details-abstract | Submit a new issue
 
-??? abstract "Submit a new issue"
+{% include "contribute/how/new-issue.md" %}
 
-    {{ indented("contribute/how/new-issue.md") }}
+///
 
-??? abstract "Propose a new feature"
+/// details-abstract | Propose a new feature
 
-    {{ indented("contribute/how/propose-feature.md") }}
+{% include "contribute/how/propose-feature.md" %}
+
+///

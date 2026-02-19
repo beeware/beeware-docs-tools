@@ -52,9 +52,8 @@ def parse_args() -> Namespace:
 
 
 def translate(client, path, language):
-    print(f"  {language}: Translate {path.relative_to(Path.cwd())}")
     # 78 is 80, allowing for an open and closing "
-    po = polib.pofile(path, wrapwidth=78)
+    po = polib.pofile(path, wrapwidth=100000)
     changes = 0
     # DeepL uses some slightly different language variant descriptors.
     # Map those, using the input languages as a default.
@@ -64,7 +63,12 @@ def translate(client, path, language):
         "zh_TW": "zh-HANT",
     }.get(language, language)
 
-    for entry in po.untranslated_entries():
+    untranslated_count = len(po.untranslated_entries())
+    print(
+        f"  {language}: Translate {path.relative_to(Path.cwd())} "
+        f"({untranslated_count} untranslated entries)"
+    )
+    for i, entry in enumerate(po.untranslated_entries(), start=1):
         print(
             f"    {language}:{path.name} "
             f"| {entry.msgid[:50]}{'...' if len(entry.msgid) > 50 else ''}"
@@ -95,42 +99,73 @@ def translate(client, path, language):
                     ]
                 )
                 fuzzy = True
-        elif entry.msgid.startswith("???") or entry.msgid.startswith("!!!"):
-            # Only translate the content after collapse indicator for
-            #   ??? abstract "This is an abstract"
-            # or
-            #   !!! warning "This is a warning"
-            parts = entry.msgid.split(" ", 2)
-            translated = " ".join(
-                [
-                    parts[0],
-                    parts[1],
-                    client.translate_text(parts[2], target_lang=deepl_lang).text,
-                ]
-            )
-            fuzzy = True
+        elif entry.msgid.startswith("(.venv)"):
+            # A string starting with `(.venv)` is clearly part of a
+            # multiline code literal.
+            translated = entry.msgid
+            fuzzy = False
         elif match := re.match(r"(.*)( { #[-\w]* })", entry.msgid):
-            # A title with an explicit anchor should only translate the
+            # A title with an explicit anchor should only translate the title
             title = client.translate_text(match.group(1), target_lang=deepl_lang).text
             translated = f"{title}{match.group(2)}"
             fuzzy = True
-        elif (entry.msgid.startswith("{{") and entry.msgid.endswith("}}")) or (
-            entry.msgid.startswith("{%") and entry.msgid.endswith("%}")
+        elif (
+            any((jinja in entry.msgid) for jinja in ["{{", "}}", "{%", "%}"])
+            or "`" in entry.msgid
         ):
-            # If a string *only* contains Jinja content, use the string verbatim,
-            # and mark the string as fully translated.
-            translated = entry.msgid
-            fuzzy = False
-        elif any((jinja in entry.msgid) for jinja in ["{{", "}}", "{%", "%}"]):
-            # If a string contains Jinja content, use the string verbatim,
-            # but mark the string as fuzzy.
-            translated = entry.msgid
-            fuzzy = True
+            # If a string contains Jinja content, build a version of the string where
+            # Jinja content has been replaced with {}. Translate *that* string, then
+            # use format() to push the Jinja tag content back in.
+            # We also need to catch [links]{1} so that the .format() approach to
+            # reconstruct the string works, and `code samples` (including code samples
+            # that contain ```).
+            between = []
+            tags = []
+            last = 0
+            jinja_re = re.compile(r"{\d+}|`(?:[^`]|```)+`|\({%.*?%}\)|{{.*?}}|{%.*?%}")
+            while match := jinja_re.search(entry.msgid, pos=last):
+                between.extend([entry.msgid[last : match.start()], "{}"])
+                last = match.end()
+                tags.append(match.group())
+
+            between.append(entry.msgid[last:])
+            between = "".join(between)
+            if between == "{}":
+                # If a string *only* contains Jinja content, use the string verbatim,
+                # and mark the string as fully translated.
+                translated = entry.msgid
+                fuzzy = False
+            else:
+                # Translate the text with dummy placeholders
+                raw_trans = client.translate_text(between, target_lang=deepl_lang).text
+                # Substitute back in the tag content
+                try:
+                    translated = raw_trans.format(*tags)
+                    fuzzy = True
+                except (KeyError, ValueError):
+                    # DeepL sometimes fails to return {} unmodified. This breaks
+                    # the substitution process, but it's near impossible to recover,
+                    # so ignore the string and move on.
+                    print("        DeepL failed to handle this correctly...")
+                    print("        input: ", entry.msgid)
+                    print("        raw: ", raw_trans)
+                    translated = None
+
+                except Exception:
+                    print("input: ", entry.msgid)
+                    print("raw: ", raw_trans)
+                    raise
         else:
             translated = client.translate_text(entry.msgid, target_lang=deepl_lang).text
             fuzzy = True
-        entry.msgstr = translated
-        entry.fuzzy = fuzzy
+        if translated:
+            entry.msgstr = translated
+            entry.fuzzy = fuzzy
+
+        # Save every 10 translations in case of a crash.
+        if changes % 10 == 0:
+            print(f"      ... saving progress ({i}/{untranslated_count})")
+            po.save(path)
 
     # Only save if there are new translations.
     if changes:

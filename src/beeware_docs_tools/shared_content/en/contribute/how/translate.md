@@ -100,7 +100,12 @@ The following items should _not_ be translated or updated:
     [`Class.attribute`][Class.attribute]
     ```
 
-* **The link content of a Reference link**. For example, `link-content` would be skipped in the following: `[Link text][link-content]`.
+* **The link content of a Reference link**. For example, `link-content` would be skipped in the following:
+
+    ```markdown
+    [Link text][link-content]
+    ```
+
 * **Jinja directives**. This is any content wrapped inside two pairs of matching curly braces, or a matching pair of single curly braces with percent signs inside each end. Note: Including an example of the syntax here causes the Macros plugin to attempt to render it; see the [Macros documentation](https://mkdocs-macros-plugin.readthedocs.io/en/latest/pages/) for examples.
 * **Custom anchors**. They are found after headers or above some content, and are formatted as `{ #anchor }`.
 * **Admonition syntax**. In the following example, the word "admonition" should not be translated. This goes for all styles of admonitions, including notes, warnings, etc. See the next section for information on translating the rest of the content.
@@ -119,7 +124,12 @@ The following items should _not_ be translated or updated:
 The following items _should_ be translated:
 
 * **Link text**. In link syntax, the text comes before the URL, and is enclosed in brackets, as in `[Link text](URL)`. Standard Markdown links should appear in Weblate as `[Link text]{1}`, where `1` is the position of the link in the string with reference to other possible links.
-* **Reference link text**. For example, `Link text` would be translated in the following: `[Link text][link-content]`.
+* **Reference link text**. For example, `Link text` would be translated in the following:
+
+    ```markdown
+    [Link text][link-content]
+    ```
+
 * **Admonition titles and content**. In the previous admonition example, "Page Title" and "Content." should be translated.
 
 ### Weblate

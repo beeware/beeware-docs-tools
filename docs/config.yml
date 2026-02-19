@@ -19,7 +19,7 @@ extra:
   min_python_version_tag: "310"  # The tag version of the minimum python version
   recent_python_version: "3.13"  # The newest Python version known to work on all platforms
   docs_python_version: "3.13"  # The version of Python required to build the documentation
-  translated: false  # true hides content related to building translations. Default: false.
+  translated: true  # false hides content related to building translations. Default: false.
   hide_coverage: false  # true hides content related to code coverage. Default: false.
   macos_only: false  # true hides tabbed content, and displays only macOS instructions. Default: false.
   alternate:
@@ -42,6 +42,7 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://beeware.org/bee/chat/
       name: BeeWare on Discord
+  generator: false
 
 theme:
   name: material
@@ -53,6 +54,8 @@ theme:
     - toc.follow
     - navigation.indexes
     - navigation.footer
+    - navigation.tabs
+    - navigation.tabs.sticky
     - search.suggest
     - search.highlight
     - search.share
@@ -79,22 +82,63 @@ theme:
         name: Switch to system preference
 
 markdown_extensions:
-  pymdownx.highlight: {}
-  pymdownx.superfences: {}
-  pymdownx.blocks.admonition: {}
-  pymdownx.blocks.caption: {}
-  pymdownx.details: {}
-  pymdownx.blocks.tab:
+  # PyMdown Extensions
+  pymdownx.fancylists: {}  # Supports various ordered list styles
+  pymdownx.highlight: {}  # Highlights code blocks, when language provided.
+  pymdownx.inlinehilite: {}  # Highlights inline code, when language provided.
+  pymdownx.keys: {}  # Fancy displays key combinations.
+  pymdownx.superfences: {}  # Nicer code-blocks.
+  pymdownx.saneheaders: {}  # Treats "#Content" with no space at the beginning of a line as text, not a header; helpful with MagicLink. rumdl will still verify header formatting.
+  pymdownx.tasklist: {}  # Make fancy checklists.
+  pymdownx.blocks.caption: {}  # Captions images.
+  pymdownx.blocks.admonition:  # Enables admonitions.
+    types:
+      - note
+      - abstract
+      - info
+      - tip
+      - success
+      - question
+      - warning
+      - failure
+      - danger
+      - bug
+      - example
+      - quote
+  pymdownx.blocks.details:  # Enables collapsible content.
+    types:
+      - {name: details-note, class: note}
+      - {name: details-abstract, class: abstract}
+      - {name: details-info, class: info}
+      - {name: details-tip, class: tip}
+      - {name: details-success, class: success}
+      - {name: details-question, class: question}
+      - {name: details-warning, class: warning}
+      - {name: details-failure, class: failure}
+      - {name: details-danger, class: danger}
+      - {name: details-bug, class: bug}
+      - {name: details-example, class: example}
+      - {name: details-quote, class: quote}
+  pymdownx.blocks.tab:  # Enables tabbed content.
     alternate_style: true
-  pymdownx.snippets:
+  pymdownx.snippets:  # Allows for injecting content from other locations.
     base_path: ["docs"]
     url_download: true
     check_paths: true
-  toc:
+  pymdownx.magiclink:  # Among other things, enables GitHub shorthand references.
+    provider: "github"
+    user: "beeware"
+    repo: "website"
+    repo_url_shortener: true
+    repo_url_shorthand: true
+    normalize_issue_symbols: true
+  # Python Markdown Extensions
+  attr_list: {}  # Enables setting explicit anchors, and CSS classes, etc.
+  smarty:  # Enables easy em and en dashes.
+    smart_quotes: false
+  toc:  # Enables the ToC, in the left sidebar, in the documentation.
     permalink: true
     title: On this page
-  attr_list: {}
-  admonition: {}  # Enabled for all admonition types EXCEPT note and admonition (which defaults to note)
 
 plugins:
   search: {}

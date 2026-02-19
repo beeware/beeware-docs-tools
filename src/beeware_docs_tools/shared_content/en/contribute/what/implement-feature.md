@@ -13,37 +13,50 @@ An important part of implementing a new feature is ensuring that feature is full
 
 ## Contributing new functionality
 
-{% macro content(template) %}{% include template %}{% endmacro %}
-{% macro indented(template) %}{{ content(template)|indent }}{% endmacro %}
+/// details-abstract | Set up a development environment
 
-??? abstract "Set up a development environment"
+{% include "contribute/how/dev-environment.md" %}
 
-    {{ indented("contribute/how/dev-environment.md") }}
+///
 
-??? abstract "Work from a branch"
+/// details-abstract | Work from a branch
 
-    {{ indented("contribute/how/branches.md") }}
+{% include "contribute/how/branches.md" %}
 
-??? abstract "Avoid scope creep"
+///
 
-    {{ indented("contribute/how/scope-creep.md") }}
+/// details-abstract | Avoid scope creep
 
-??? abstract "Implement the new feature"
+{% include "contribute/how/scope-creep.md" %}
 
-    {{ indented("contribute/how/write-code.md") }}
+///
 
-??? abstract "Build documentation"
+/// details-abstract | Implement the new feature
 
-    {{ indented("contribute/how/build-docs.md") }}
+{% include "contribute/how/write-code.md" %}
 
-??? abstract "Write documentation"
+///
 
-    {{ indented("contribute/how/write-docs.md") }}
+/// details-abstract | Build documentation
 
-??? abstract "Add a change note"
+{% include "contribute/how/build-docs.md" %}
 
-    {{ indented("contribute/how/change-note.md") }}
+///
 
-??? abstract "Submit a pull request"
+/// details-abstract | Write documentation
 
-    {{ indented("contribute/how/submit-pr.md") }}
+{% include "contribute/how/write-docs.md" %}
+
+///
+
+/// details-abstract | Add a change note
+
+{% include "contribute/how/change-note.md" %}
+
+///
+
+/// details-abstract | Submit a pull request
+
+{% include "contribute/how/submit-pr.md" %}
+
+///

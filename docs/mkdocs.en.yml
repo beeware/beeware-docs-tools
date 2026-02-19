@@ -8,3 +8,4 @@ theme:
 
 extra:
   translation_type: original
+  header: {}

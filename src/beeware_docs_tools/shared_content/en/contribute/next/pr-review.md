@@ -19,11 +19,13 @@ Congratulations! You've just made a contribution to {{ formal_name }}!
 
 After submitting your pull request, you'll need to wait for a review of your contribution. There are two sides to the review process: providing a review and receiving a review.
 
-!!! info "Review expectations"
+/// info | Review expectations
 
-    You should expect anyone reviewing your submissions to follow these guidelines, including reviews from members of the core team. You should also follow these guidelines when you are reviewing submissions from others.
+You should expect anyone reviewing your submissions to follow these guidelines, including reviews from members of the core team. You should also follow these guidelines when you are reviewing submissions from others.
 
-    If you feel your reviewer is straying from these expectations, and you feel comfortable raising the issue yourself on the pull request, you can do so. If you don't feel comfortable, please reach out to the [BeeWare Code of Conduct Response Team](https://beeware.org/bee/coc). We will review your report, and follow up with your reviewer. The follow-up will reflect the reported action; a minor transgression may result in a discussion, whereas a major violation may result in something more serious.
+If you feel your reviewer is straying from these expectations, and you feel comfortable raising the issue yourself on the pull request, you can do so. If you don't feel comfortable, please reach out to the [BeeWare Code of Conduct Response Team](https://beeware.org/bee/coc). We will review your report, and follow up with your reviewer. The follow-up will reflect the reported action; a minor transgression may result in a discussion, whereas a major violation may result in something more serious.
+
+///
 
 ## Providing a review
 
@@ -59,9 +61,11 @@ If the initial review reveals a significant number of problems, the first review
 
 Your reviewer will post comments to your pull request. These comments can be general, on a specific file, or on a specific line or lines of code. They will sometimes include directly suggested changes that you can apply to your pull request through the GitHub UI. Typically, they will be questions, requests for clarification, or guidance on updates.
 
-!!! info "Marking a conversation as resolved"
+/// info | Marking a conversation as resolved
 
-    During the discussion part of the feedback process, you should never mark a conversation started by your reviewer as "resolved". Marking the conversation as resolved is the responsibility of the reviewer. It's up to them to determine whether the identified problem has been solved.
+During the discussion part of the feedback process, you should never mark a conversation started by your reviewer as "resolved". Marking the conversation as resolved is the responsibility of the reviewer. It's up to them to determine whether the identified problem has been solved.
+
+///
 
 If the review reveals a systematic problem (e.g., a naming inconsistency that exists in the code), the reviewer may not highlight every instance of that problem. Instead, they may pick a couple of examples of the problem, and indicate that other instances should also be corrected. If a review highlights a problem in once place, and you think it might apply elsewhere, you should fix that problem wherever it occurs. If you're unsure, ask for clarification from your reviewer.
 
@@ -69,9 +73,11 @@ If the review reveals a systematic problem (e.g., a naming inconsistency that ex
 
 Once you've worked through all the requested changes, you can push an update to your pull request. This will trigger a new CI run; once you have confirmed that CI is still passing, post a comment requesting an updated review and the core team will take another look at your pull request.
 
-!!! info "Push, don't force or rebase"
+/// info | Push, don't force or rebase
 
-    When you're updating your pull request during a review, it is important to leave the commit history intact. It doesn't matter if there's a huge list of commits; they are all squashed when we merge the pull request. If you force push or rebase your pull request in the middle of a review, you may be removing important context needed by your reviewer.
+When you're updating your pull request during a review, it is important to leave the commit history intact. It doesn't matter if there's a huge list of commits; they are all squashed when we merge the pull request. If you force push or rebase your pull request in the middle of a review, you may be removing important context needed by your reviewer.
+
+///
 
 #### Re-request a review
 

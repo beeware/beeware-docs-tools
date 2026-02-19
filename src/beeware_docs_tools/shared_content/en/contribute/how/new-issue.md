@@ -45,7 +45,7 @@ You should also be **explicit** in any reproduction instructions. Saying "Close 
 
 ### Submitting the report
 
-Navigate to the [{{ formal_name }} issues list](https://github.com/beeware/{{ project_name }}/issues), click the "New issue" button, and choose "Bug report" to begin the process.
+Navigate to the {% if config.extra.website %}project issues list{% else %}[{{ formal_name }} issues list](https://github.com/beeware/{{ project_name }}/issues){% endif %}, click the "New issue" button, and choose "Bug report" to begin the process.
 
 **You must fill out *all the sections* in the issue template.** We provide the template as a prompt to help you provide the necessary information. Remember, you can (and should!) always provide more information than the template requires, but at the very minimum, we need all the information present in the template.
 
@@ -53,7 +53,7 @@ When including code, in the event that you can reproduce it with an existing exa
 
 If you need to include a long block of text, you can make it collapsed content using the following syntax:
 
-```markdown
+```html
 <details>
 <summary>Collapsed content title</summary>
 Long block of text.

@@ -4,280 +4,6 @@
   src: url("../fonts/Cutive.woff2");
 }
 
-/*----------------------------------------------------
-  Build BeeWare header
- --------------------------------------------------- */
-.navbar {
-    font-family: 'Cutive', serif;
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    padding: 15px 16px 8px 16px;
-    line-height: 1.5;
-}
-
-.navbar > .container,
-.navbar > .container-fluid {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-}
-
-.navbar-dark .navbar-brand {
-    color: white;
-}
-
-.navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-    color: white;
-}
-
-.navbar-dark .navbar-nav .nav-link {
-    color: rgba(255, 255, 255, 0.5);
-}
-
-.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-    color: rgba(255, 255, 255, 0.75);
-}
-
-.navbar-dark .navbar-nav .nav-link.disabled {
-    color: rgba(255, 255, 255, 0.25);
-}
-
-.navbar-dark .navbar-nav .show > .nav-link,
-.navbar-dark .navbar-nav .active > .nav-link,
-.navbar-dark .navbar-nav .nav-link.show,
-.navbar-dark .navbar-nav .nav-link.active {
-    color: white;
-}
-
-.navbar-dark .navbar-toggler {
-    color: rgba(255, 255, 255, 0.5);
-    border-color: rgba(255, 255, 255, 0.1);
-}
-
-.navbar-dark .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-}
-
-.navbar-dark .navbar-text {
-    color: rgba(255, 255, 255, 0.5);
-}
-
-.navbar-dark .navbar-text a {
-    color: white;
-}
-
-.navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
-    color: white;
-}
-
-.bg-dark {
-    background-color: #343a40 !important;
-}
-
-@media (max-width: 862.99px) {
-    .navbar-collapse li {
-        border-bottom: 1px solid #666;
-        padding: 8px 16px 6.4px;
-    }
-
-    .navbar {
-        padding: 0 !important;
-    }
-
-    .navbar-brand-block {
-        position: absolute;
-        margin-top: -40px;
-        padding: 1px 14px 2px;
-        right: 10px;
-    }
-
-    .nav-top {
-        margin: 16px 14px;
-    }
-
-    .navbar-collapse {
-        background-color: #343a40;
-        padding-top: 12px;
-    }
-
-    .navbar-collapse .header-button li.nav-item {
-        border-bottom: 0
-    }
-
-    .navbar-collapse .header-button {
-        border-bottom: 1px solid #666;
-    }
-
-    .navbar-expand-md > .container,
-    .navbar-expand-md > .container-fluid {
-        padding-right: 0;
-        padding-left: 0;
-    }
-}
-
-@media (min-width: 863px) {
-    .navbar-expand-md {
-        -ms-flex-flow: row nowrap;
-        flex-flow: row nowrap;
-        -ms-flex-pack: start;
-        justify-content: flex-start;
-    }
-
-    .navbar-expand-md .navbar-nav {
-        -ms-flex-direction: row;
-        flex-direction: row;
-        font-size: 16px;
-        padding-left: 14px;
-    }
-
-    .navbar-expand-md .navbar-nav .dropdown-menu {
-        position: absolute;
-    }
-
-    .navbar-expand-md .navbar-nav .nav-link {
-        padding-right: 8px;
-        padding-left: 8px;
-    }
-
-    .navbar-expand-md > .container,
-    .navbar-expand-md > .container-fluid {
-        -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    }
-
-    .navbar-expand-md .navbar-collapse {
-        display: -ms-flexbox !important;
-        display: flex !important;
-        -ms-flex-preferred-size: auto;
-        flex-basis: auto;
-        height: 42.9px;
-    }
-
-    .navbar-expand-md .navbar-toggler {
-        display: none;
-    }
-
-    .navbar-brand-block {
-        padding-top: 2px;
-    }
-
-    /* Search and header light-dark mode button are too low by default on wide screen */
-    .md-search, .md-header__button[for="__search"] {
-        margin-top: -7.2px;
-    }
-}
-
-.fixed-top {
-    position: relative;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-}
-
-.navbar-toggler {
-    padding: 4px 12px 4px 12px;
-    font-size: 16px;
-    line-height: 1;
-    background-color: transparent;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    margin-left: 2px;
-}
-
-.navbar-toggler:hover, .navbar-toggler:focus {
-    text-decoration: none;
-}
-
-.navbar-toggler:not(:disabled):not(.disabled) {
-    cursor: pointer;
-}
-
-.navbar-toggler-icon {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    vertical-align: middle;
-    content: "";
-    background: no-repeat center center;
-    background-size: 100% 100%;
-}
-
-.navbar-brand {
-    display: inline-block;
-    padding: 3px 2px 5px 0;
-    font-size: 20px;
-    line-height: inherit;
-    white-space: nowrap;
-    text-decoration: none;
-}
-
-.navbar-brand:hover, .navbar-brand:focus {
-    text-decoration: none;
-}
-
-.navbar-brand img {
-    max-width: initial;
-    margin-right: 8px;
-    margin-left: 8px;
-    vertical-align: middle;
-}
-
-.navbar-collapse {
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -ms-flex-align: center;
-    align-items: center;
-}
-
-.navbar-nav {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    padding-left: 0;
-    margin-top: 0;
-    margin-bottom: 3px;
-    list-style: none;
-}
-
-.navbar-nav .nav-link {
-    padding-right: 0;
-    padding-left: 0;
-    text-decoration: none;
-}
-
-.navbar-nav .dropdown-menu {
-    position: static;
-    float: none;
-}
-
-.mr-auto,
-.mx-auto {
-    margin-right: auto;
-}
-
-.collapse:not(.show) {
-    display: none;
-}
-
-/*----------------------------------------------------
-  Material CSS overrides
- --------------------------------------------------- */
 :root {
     color-scheme: light dark;
 }
@@ -288,6 +14,134 @@
     --md-primary-fg-color--dark:  #343A40;
 }
 
+/* Disables dynamic font sizing, in favor of being able to more reliably keep */
+/* content at a 40rem width. */
+html {
+    font-size: unset;
+}
+
+/* The theme setting the font size on the body is an accessibility issue. */
+body {
+    font-size: 1rem;
+}
+
+/* Setting overall font size to 1rem. */
+.md-typeset {
+    font-size: 1rem;
+}
+
+/* Remove header markers to avoid spacing issues with longer headers. Use the ToC instead. */
+.md-typeset .headerlink {
+    display: none;
+}
+
+/* Disable header shadow */
+.md-header--shadow {
+    box-shadow: unset;
+}
+
+.md-header__topic, nav.md-tabs {
+    font-family: Cutive, serif;
+}
+
+nav.md-tabs, .md-header {
+    background-color: var(--md-primary-fg-color);
+}
+
+.md-header__title {
+    font-size: 1.24rem;
+    line-height: 3.3rem;
+    height: 3.3rem;
+}
+
+.md-tabs__link {
+    font-size: 0.97rem;
+    margin-top: 0.7rem;
+}
+
+.md-header__button.md-logo img {
+    height: 2rem;
+}
+
+.md-header {
+    position: unset;
+    display: flex;
+}
+
+.md-header__inner {
+    margin-left: 0;
+}
+
+.md-header__option > input {
+    bottom: unset;
+}
+
+[dir="ltr"] .md-header__title {
+    margin-left: 0;
+}
+
+.md-header__topic {
+    position: unset;
+    transition: unset;
+}
+
+.md-icon svg {
+    height: 1.65rem;
+    width: 1.65rem;
+}
+
+/* Search */
+.md-search {
+    margin-left: 1rem;
+}
+
+input.md-search__input,
+.md-search__suggest,
+.md-search-result__meta {
+    font-family: 'Cutive', serif;
+}
+
+input.md-search__input,
+.md-search__suggest {
+    font-size: 1.21rem;
+}
+
+.md-search-result__meta {
+    padding: 1rem 0.8rem 0.4rem 0.8rem;
+    line-height: 2rem;
+    font-size: 0.88rem;
+}
+
+.md-search__form {
+    height: 2.5rem;
+}
+
+@media screen and (min-width: 60em) {
+  .md-search__inner {
+      width: unset;
+  }
+}
+
+/* Link colors */
+/* Remove link color from section headers that are not links */
+.md-nav__link[for]:focus,
+.md-nav__link[for]:hover {
+    color: unset;
+}
+
+/* Only color section header links as links */
+.md-typeset a,
+a.md-nav__link,
+a.md-nav__link[for]:focus,
+a.md-nav__link[for]:hover {
+    color: light-dark(#084AFF, #526CFE);
+}
+
+.md-nav__item a.md-nav__link--active {
+    color: light-dark(#30314B, #96ACEE)
+}
+
+/* Header fonts */
 .md-typeset h1,
 .md-typeset h2,
 .md-typeset h3,
@@ -296,11 +150,45 @@
 .md-typeset h6 {
     font-family: 'Cutive', serif;
     color: var(--md-typeset-color);
+    clear: both;
 }
 
-/* Fix issue with spacing when title is exactly the width of the article column */
-.md-typeset h1 a.headerlink {
-    display: none;
+/* Update font sizes to match sizes before dynamic sizing was disabled. */
+/* Headers */
+.md-typeset h1 {
+    font-size: 3rem;
+    margin-bottom: 0.64rem;
+}
+
+.md-typeset h2 {
+    font-size: 2rem;
+    margin-bottom: 0.64rem;
+    margin-top: 2rem;
+}
+
+.md-typeset h3 {
+    font-size: 1.6rem;
+    margin: 2rem 0 0 0;
+}
+
+.md-typeset h4 {
+    font-size: 1.2rem;
+}
+
+.md-typeset h5,
+.md-typeset h6 {
+    font-size: 0.96rem;
+}
+
+/* Admonitions */
+.md-typeset .admonition,
+.md-typeset details {
+   font-size: 1rem;
+}
+
+/* Tabs */
+.md-typeset .tabbed-labels > label {
+    font-size: 1rem;
 }
 
 /* Link colors */
@@ -321,19 +209,8 @@ a.md-nav__link[for]:hover {
     color: light-dark(#30314B, #96ACEE)
 }
 
-/* Unsticky header, add margin to deal with sidebar top margin changes */
-.md-header {
-    position: unset;
-}
-
-/* Disable header shadow */
-.md-header--shadow {
-    box-shadow: unset;
-}
-
-/* Force admonitions to render at the same font size as the rest of the content */
-.md-typeset .admonition {
-    font-size: unset;
+.md-main__inner {
+    margin-top: unset;
 }
 
 /* Sidebar title and GitHub links font and color */
@@ -346,15 +223,27 @@ a.md-nav__link[for]:hover {
 }
 
 .md-select:focus-within .md-select__inner,
-.md-select:hover .md-select__inner,
-.md-select__inner,
-.md-select__list {
+.md-select:hover .md-select__inner {
     max-height: none;
+}
+
+.md-select__list {
+    font-size: 1rem;
+    font-family: 'Cutive', serif;
+}
+
+.md-select__item {
+    line-height: 2.5rem;
+}
+
+.md-select__inner {
+    background-color: light-dark(#E9ECEF, #282D32);
 }
 
 /* Version number */
 .version-number {
     overflow-wrap: anywhere;
+    font-size: 12px;
     font-size: 12px;
     font-weight: normal;
     margin-top: 0.2rem;
@@ -408,21 +297,17 @@ a.md-nav__link[for]:hover {
     margin-right: 0.2rem;
 }
 
-.small .site-name {
-    font-size: 24px;
-}
-
 /* Embiggen homepage logo */
 .md-nav__title .md-nav__button.md-logo img {
     height: unset;
 }
 
 /* Embiggen sidebar drawer logo and match sidebar */
-.md-nav__title.small .md-nav__button.md-logo img {
-    height: unset;
-    max-width: unset;
-    width: 74px;
-}
+/*.md-nav__title.small .md-nav__button.md-logo img {*/
+/*    height: unset;*/
+/*    max-width: unset;*/
+/*    width: 74px;*/
+/*}*/
 
 /* The menu button for the sidebar drawer to display the sidebar on smaller displays */
 .mobile-drawer-button-site-name {
@@ -475,12 +360,20 @@ and (min-width: 1220px) {
     .site-name {
         font-size: 19px;
     }
+
+    .sidebar-logo {
+        width: 50px;
+    }
 }
 
 @media screen and (max-width: 1999.99px)
 and (min-width: 1600px) {
     .site-name {
         font-size: 21px;
+    }
+
+    .sidebar-logo {
+        width: 74px;
     }
 }
 
@@ -526,7 +419,7 @@ and (min-width: 1600px) {
     }
 
     .site-name {
-        font-size: 24px;
+        font-size: 50px;
     }
 
     .md-nav__title .md-nav__button.md-logo img {
@@ -536,10 +429,27 @@ and (min-width: 1600px) {
     }
 }
 
-/* Setting the font size on the body is an accessibility issue, as well as interfering
-   with the header font size. This resolves both. */
-body {
-    font-size: 1rem;
+/* Sidebar drawer */
+@media screen and (max-width: 76.2344em) {
+    [dir="ltr"] .md-sidebar--primary {
+        width: 12.1rem;
+    }
+
+    .md-nav__title .md-nav__button.md-logo img {
+        width: 50px;
+    }
+
+    .site-name {
+        font-size: 1rem;
+    }
+
+    .version-number {
+        font-size: 0.65rem;
+    }
+
+    .md-nav__link {
+        font-size: 1rem;
+    }
 }
 
 /* Removes padding and margins to regain screen-space on pages with short content.
@@ -553,20 +463,29 @@ body {
 }
 
 .md-header {
-    margin-bottom: 72px;
+    margin-bottom: 49px;
 }
 
 .md-sidebar {
     padding-top: 12px;
+    width: 16rem;
+}
+
+.md-grid {
+    max-width: 79.4rem;
 }
 
 .md-content__inner {
     padding-top: 8px;
-    margin-top: -69px;
+    margin-top: -54px;
 }
 
 .md-content__inner::before {
     height: 0;
+}
+
+.md-nav {
+    font-size: 1rem;
 }
 
 .md-footer {
@@ -576,7 +495,7 @@ body {
 
 @media screen and (min-width: 60em) {
     .md-sidebar__scrollwrap {
-        margin-top: -64px;
+        margin-top: -54px;
         padding-bottom: 4rem;  /* Scrollbar bugfix; enables scrolling to the bottom */
     }
 }
@@ -617,7 +536,7 @@ readthedocs-docdiff {
 }
 
 /* Forces only highlighting the important bits of codeblocks */
-.highlight .gp, .highlight .go {
+.highlight .gp, .highlight .go, .highlight .w {
     user-select: none;
     -webkit-user-select: none;
 }
@@ -659,6 +578,15 @@ input.md-search__input, .md-search__suggest, .md-search-result__meta {
     padding-top: 1px;
 }
 
+.md-search-result .md-typeset h1 {
+    font-size: 1.6rem;
+}
+
+.md-search-result .md-typeset h2,
+.md-search-result .md-typeset {
+    font-size: 1rem;
+}
+
 /* Footer and footer navigation color */
 .md-footer, .md-footer-meta {
     background-color: light-dark(#f5f5f5, #343A40);
@@ -683,15 +611,27 @@ footer.md-footer *, html .md-footer-meta.md-typeset a  {
 }
 
 .md-footer__title {
-    font-size: .6rem;
+    font-size: 0.9rem;
 }
 
 .md-footer__direction {
-    font-size: .6rem
+    font-size: 0.9rem;
 }
 
 .md-footer__button {
     margin: 0 0 0.2rem 0;
+}
+
+.md-copyright {
+    font-size: 1rem;
+}
+
+.md-social__link svg {
+    max-height: 1.2rem;
+}
+
+.footer-link {
+    margin: 0.1rem 0 0 0.3rem;
 }
 
 /* Indent contents of classes/methods/etc. */

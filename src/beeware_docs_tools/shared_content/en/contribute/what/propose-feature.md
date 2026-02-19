@@ -36,9 +36,8 @@ If you're unsure about any of this, don't worry! Submit your idea, and let us kn
 
 ## Contributing a feature proposal
 
-{% macro content(template) %}{% include template %}{% endmacro %}
-{% macro indented(template) %}{{ content(template)|indent }}{% endmacro %}
+/// details-abstract | Proposing a new feature
 
-??? abstract "Proposing a new feature"
+{% include "contribute/how/propose-feature.md" %}
 
-    {{ indented("contribute/how/propose-feature.md") }}
+///

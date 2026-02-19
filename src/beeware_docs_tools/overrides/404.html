@@ -20,22 +20,17 @@
   IN THE SOFTWARE.
 -->
 
-<head>
-    <style>
-        :root { color-scheme: light dark; }
-        @font-face { font-family: Cutive; src: url('assets/fonts/Cutive.woff2'); }
-        body { background-color: light-dark(#FFFFFF, #1E2129) }
-    </style>
-</head>
-<body>
+{% extends "main.html" %}
+
+{% block content %}
   <h1 style="font-family:Cutive;padding:1rem;">404: Page not found</h1>
     <div class="not-found-bees" style="padding:1rem;">
-    <img src="assets/images/bumble.png"  alt="Brutus the bee flying along with a dashed trail behind him" />
+    <img src="{{ 'assets/images/bumble.png' | url }}"  alt="Brutus the bee flying along with a dashed trail behind him" />
     </div>
     <div class="not-found-bees" style="padding:1rem;">
-    <img src="assets/images/bumble-small.png" alt="Brutus the bee flying along with a dashed trail behind him" />
+    <img src="{{ 'assets/images/bumble-small.png' | url }}" alt="Brutus the bee flying along with a dashed trail behind him" />
     </div>
     <div id="not-found-text" style="font-family:Cutive;padding:1rem;">
       <h2>Brutus can't find what you're looking for</h2>
     </div>
-</body>
+{% endblock %}

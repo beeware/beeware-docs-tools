@@ -99,13 +99,13 @@ def main():
     with TemporaryDirectory() as temp_md_directory:
         temp_md_path = Path(temp_md_directory)
 
-        config_file = load_config(PROJECT_PATH)
-        symlink_from_temp(PROJECT_PATH, temp_md_path, args.source_code, config_file)
+        config = load_config(PROJECT_PATH)
+        symlink_from_temp(PROJECT_PATH, temp_md_path, args.source_code, config)
 
         for language in args.language_code:
             print(f"Processing {language}")
 
-            save_config(PROJECT_PATH, temp_md_path, config_file, language)
+            save_config(PROJECT_PATH, temp_md_path, config, language)
 
             if language != "en":
                 # Create temp output directories for primary and shared content.
@@ -133,12 +133,15 @@ def main():
                 # for the relative links in the translated Markdown to function the
                 # same way they do in the original Markdown files. This finds all
                 # images and resources subdirectories, and symlinks them.
-                for name in ["images", "resources"]:
+                for name in ["images", "resources", "*.yml", "*.css"]:
                     en_md_dir = PROJECT_PATH / "docs/en"
                     for path in en_md_dir.glob(f"**/{name}"):
-                        if path.is_dir():
-                            relative_path = path.relative_to(en_md_dir)
-                            (temp_md_path / language / relative_path).symlink_to(path)
+                        relative_path = path.relative_to(en_md_dir)
+                        (temp_md_path / language / relative_path).parent.mkdir(
+                            parents=True, exist_ok=True
+                        )
+                        (temp_md_path / language / relative_path).symlink_to(path)
+
             else:
                 # Symlink to en directory
                 #
