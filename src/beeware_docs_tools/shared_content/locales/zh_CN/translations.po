@@ -3,13 +3,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-06 11:52+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2026-02-23 22:01+0000\n"
+"PO-Revision-Date: 2026-02-20 11:09+0000\n"
+"Last-Translator: reducedradius <feixiang512@outlook.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
+"projects/beeware/docs-tools-shared-content/zh_Hans/>\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Translate Toolkit 3.18.1\n"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/first-time-contributors.md:1
@@ -93,9 +96,8 @@ msgid "Instead, you should make your changes on a *feature branch*. A feature br
 msgstr "相反，你应该在*特性分支*上进行修改。特性分支有一个简单的名称，用来识别你所做的更改。例如，如果您要修复一个会导致 Windows 11 上构建问题的错误，您可以创建一个特性分支 \"fix-win11-build\"。如果您的错误与已报告的特定问题有关，在分支名称中引用该问题编号也很常见（例如，`fix-1234`）。"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:9
-#, fuzzy
 msgid "To create a `fix-win11-build` feature branch, run:"
-msgstr "要创建 \"fix-win11-build \"功能分支，请运行"
+msgstr "要创建 \"fix-win11-build \"功能分支，请运行："
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:11 src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:21 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:24 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:34 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:80 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:90 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:122 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:132 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:158 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:168 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:198 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:208 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:7 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:28 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:80 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:94 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:128 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:141 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:175 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:189 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:223 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:234 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:7 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:32 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:86 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:108 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:162 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:185 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:3
 msgid "{% if not config.extra.macos_only %}"
@@ -245,9 +247,8 @@ msgid "The output of each language build will be in the associated `_build/html/
 msgstr "每种语言编译的输出结果将保存在相关的 `_build/html/<languagecode>`目录中，其中 `<languagecode>`是与特定语言相关的两个或五个字符的语言代码（例如 `fr` 表示法语，`it` 表示意大利语等）。"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:156
-#, fuzzy
 msgid "If you find an issue with a single build, you can run that individual build separately by running `tox -e docs-<languagecode>`. For example, to build only the French documentation, run:"
-msgstr "如果您发现单个编译存在问题，可以运行 `tox -e docs-<languagecode>` 单独运行该单个编译。例如，要只编译法语文档，请运行"
+msgstr "如果您发现单个编译存在问题，可以运行 `tox -e docs-<languagecode>` 单独运行该单个编译。例如，要只编译法语文档，请运行："
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:190
 #, fuzzy
@@ -260,9 +261,8 @@ msgid "Documentation linting"
 msgstr "文件整理"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:196
-#, fuzzy
 msgid "The build process will identify Markdown problems, but {{ formal_name }} performs some additional checks for style and formatting, known as \"linting\". To run the lint checks:"
-msgstr "构建过程会识别 Markdown 问题，但 {{ formal_name }} 还会执行一些额外的样式和格式检查，即所谓的 \"linting\"。要运行 \"linting \"检查"
+msgstr "构建过程会识别 Markdown 问题，但 {{ formal_name }} 还会执行一些额外的样式和格式检查，即所谓的 \"linting\"。要运行 \"linting \"检查:"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:230
 #, fuzzy
@@ -280,14 +280,12 @@ msgid "misspelled words"
 msgstr "错别字"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:235
-#, fuzzy
 msgid "If a valid spelling of a word is identified as misspelled, then add the word to the list in `docs/spelling_wordlist`. This will add the word to the spellchecker's dictionary. When adding to this list, remember:"
-msgstr "如果一个单词的有效拼写被识别为拼写错误，则将该单词添加到 `docs/spelling_wordlist` 中的列表中。这将把该词添加到拼写检查程序的词典中。添加到该列表时，请记住"
+msgstr "如果一个单词的有效拼写被识别为拼写错误，则将该单词添加到 `docs/spelling_wordlist` 中的列表中。这将把该词添加到拼写检查程序的词典中。添加到该列表时，请记住："
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:237
-#, fuzzy
 msgid "We prefer US spelling, with some liberties for programming-specific colloquialism (e.g., \"apps\") and verbing of nouns (e.g., \"scrollable\")"
-msgstr "我们倾向于使用美式拼写法，但对程序特定的口语（如 \"apps\"）和名词的动词化（如 \"scrollable\"）有一定的自由度。"
+msgstr "我们倾向于使用美式拼写法，但对程序特定的口语（如 \"apps\"）和名词的动词化（如 \"scrollable\"）有一定的自由度"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:238
 #, fuzzy
@@ -334,14 +332,12 @@ msgid "There are five fragment types:"
 msgstr "有五种片段类型："
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/change-note.md:15
-#, fuzzy
 msgid "`feature`: The PR adds a new behavior or capability that wasn't previously possible (e.g., adding support for a new packaging format, or a new feature in an existing packaging format);"
-msgstr "特征PR 增加了以前不可能实现的新行为或功能（例如，增加了对新包装格式的支持，或在现有包装格式中增加了新功能）；"
+msgstr "`特征`:PR 增加了以前不可能实现的新行为或功能（例如，增加了对新包装格式的支持，或在现有包装格式中增加了新功能）；"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/change-note.md:16
-#, fuzzy
 msgid "`bugfix`: The PR fixes a bug in the existing implementation;"
-msgstr "bugfix\"：该 PR 修复了现有实现中的一个错误；"
+msgstr "\"bugfix\"：该 PR 修复了现有实现中的一个错误；"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/change-note.md:17
 #, fuzzy
