@@ -89,7 +89,7 @@ In addition to the tests passing, this should report [100% test coverage][code-c
 
 #### Run tests for multiple versions of Python
 
-By default, many of the `tox` commands will attempt to run the test suite multiple times, once for each Python version supported by {{ formal_name }}. To do this, though, each of the Python versions must be installed on your machine and available to `tox`'s Python [discovery](https://virtualenv.pypa.io/en/latest/user_guide.html#python-discovery) process. In general, if a version of Python is available via `PATH`, then `tox` should be able to find and use it.
+By default, many of the `tox` commands will attempt to run the test suite multiple times, once for each Python version supported by {{ formal_name }}. To do this, though, each of the Python versions must be installed on your machine and available to `tox`'s Python [discovery](https://virtualenv.pypa.io/en/latest/explanation.html#python-discovery) process. In general, if a version of Python is available via `PATH`, then `tox` should be able to find and use it.
 
 #### Run only the test suite
 
