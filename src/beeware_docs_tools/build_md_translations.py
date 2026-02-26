@@ -1,3 +1,4 @@
+import shutil
 import subprocess
 from argparse import ArgumentParser, Namespace
 from pathlib import Path
@@ -167,6 +168,15 @@ def main():
                 ),
                 build_with_warnings=args.build_with_warnings,
             )
+
+        # If we've built multiple languages, EN (assuming it was built)
+        # will be the "primary" language - so move the content for en
+        # into the root of the build folder.
+        en_output = output / "en"
+        if len(args.language_code) > 1 and en_output.is_dir():
+            for path in en_output.iterdir():
+                shutil.move(path, output / path.name)
+            shutil.rmtree(en_output)
 
 
 if __name__ == "__main__":
