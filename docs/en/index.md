@@ -95,7 +95,7 @@ The English-language version of this document should show the "Translations are 
 
 /// admonition | Translations are available
 
-If you're not comfortable with English, translations of the Docs Tools are available in [Français](https://beeware-docs-tools.readthedocs.io/latest/fr/) and [Deutsch](https://beeware-docs-tools.readthedocs.io/latest/de/).
+If you're not comfortable with English, translations of the Docs Tools are available in [Français](./fr/) and [Deutsch](./de/).
 
 ///
 
