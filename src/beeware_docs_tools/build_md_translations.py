@@ -76,6 +76,9 @@ def build_docs(config_file: Path, output_path: Path, build_with_warnings: bool) 
     :param config_file: The path to the language-specific configuration file.
     :param output_path: The output directory for the site content.
     """
+    # Always build clean
+    shutil.rmtree(output_path, ignore_errors=True)
+
     build_command = [
         "python",
         "-m",
