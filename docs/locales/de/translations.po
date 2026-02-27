@@ -971,7 +971,7 @@ msgstr "Das Vorhandensein des Bildes in den französischen und deutschen Builds 
 #: docs/en/section_two/index.md:11
 #, fuzzy
 msgid "`autoref` linking"
-msgstr "autoref\"-Verknüpfung"
+msgstr "`autoref`-Verknüpfung"
 
 #: docs/en/section_two/index.md:13
 #, fuzzy
