@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-26 04:39+0000\n"
+"POT-Creation-Date: 2026-02-27 10:43+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -443,7 +443,7 @@ msgstr "Une fois que vous êtes satisfait de votre nouvelle documentation, vous 
 #: docs/en/content_test_bed/how-to/contribute/index.md:1
 #, fuzzy
 msgid "Contributing to {{ formal_name }}"
-msgstr "Contribuer à {{ nom_formel }}"
+msgstr "Contribuer à {{ formal_name }}"
 
 #: docs/en/content_test_bed/how-to/contribute/index.md:3
 #, fuzzy
@@ -940,7 +940,7 @@ msgstr "Ce qui suit devrait être \"Brutus dit \"Hello world !\"\". Cela confirm
 #: docs/en/section_one/page_two.md:17
 #, fuzzy
 msgid "{{ mascot_name }} says \"{{ say_hello() }}\""
-msgstr "{{ nom_de_la_mascotte }} dit \"{{ say_hello() }}\""
+msgstr "{{ mascot_name }} dit \"{{ say_hello() }}\""
 
 #: docs/en/section_three/index.md:1
 #, fuzzy
