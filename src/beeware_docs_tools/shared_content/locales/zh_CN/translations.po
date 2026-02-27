@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-26 04:39+0000\n"
+"POT-Creation-Date: 2026-02-26 05:42+0000\n"
 "PO-Revision-Date: 2026-02-20 11:09+0000\n"
 "Last-Translator: reducedradius <feixiang512@outlook.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/zh_Hans/>\n"
@@ -693,8 +693,9 @@ msgid "Submitting the report"
 msgstr "提交报告"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:48
+#, fuzzy
 msgid "Navigate to the {% if config.extra.website %}project issues list{% else %}[{{ formal_name }} issues list](https://github.com/beeware/{{ project_name }}/issues){% endif %}, click the \"New issue\" button, and choose \"Bug report\" to begin the process."
-msgstr ""
+msgstr "导航至{% if config.extra.website %}项目问题列表{% else %}[{{ formal_name }}问题列表](https://github.com/beeware/{{ project_name }}/issues){% endif %}，点击\"新建问题\"按钮，选择\"错误报告\"以开始操作流程。"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:50
 #, fuzzy
