@@ -47,37 +47,50 @@ A reference guide in baking might describe the types of sugar that could be used
 
 ## Contributing documentation
 
-{% macro content(template) %}{% include template %}{% endmacro %}
-{% macro indented(template) %}{{ content(template)|indent }}{% endmacro %}
+/// details-abstract | Proposing new documentation
 
-??? abstract "Proposing new documentation"
+{% include "contribute/how/propose-feature.md" %}
 
-    {{ indented("contribute/how/propose-feature.md") }}
+///
 
-??? abstract "Set up a development environment"
+/// details-abstract | Set up a development environment
 
-    {{ indented("contribute/how/dev-environment.md") }}
+{% include "contribute/how/dev-environment.md" %}
 
-??? abstract "Work from a branch"
+///
 
-    {{ indented("contribute/how/branches.md") }}
+/// details-abstract | Work from a branch
 
-??? abstract "Avoid scope creep"
+{% include "contribute/how/branches.md" %}
 
-    {{ indented("contribute/how/scope-creep.md") }}
+///
 
-??? abstract "Building documentation"
+/// details-abstract | Avoid scope creep
 
-    {{ indented("contribute/how/build-docs.md") }}
+{% include "contribute/how/scope-creep.md" %}
 
-??? abstract "Writing documentation"
+///
 
-    {{ indented("contribute/how/write-docs.md") }}
+/// details-abstract | Building documentation
 
-??? abstract "Add a change note"
+{% include "contribute/how/build-docs.md" %}
 
-    {{ indented("contribute/how/change-note.md") }}
+///
 
-??? abstract "Submit a pull request"
+/// details-abstract | Writing documentation
 
-    {{ indented("contribute/how/submit-pr.md") }}
+{% include "contribute/how/write-docs.md" %}
+
+///
+
+/// details-abstract | Add a change note
+
+{% include "contribute/how/change-note.md" %}
+
+///
+
+/// details-abstract | Submit a pull request
+
+{% include "contribute/how/submit-pr.md" %}
+
+///

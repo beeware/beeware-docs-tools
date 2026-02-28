@@ -185,8 +185,7 @@ Content above.
 
 /// admonition | Title
 
-Admonition text, including
-multi-line text.
+Admonition text.
 
 A second paragraph.
 
@@ -195,7 +194,7 @@ A second paragraph.
 Content below.
 ```
 
-Note admonitions require the same formatting and newlines:
+This works the same way with any supported admonition type. For example, note admonitions require the same formatting and newlines:
 
 ```markdown
 Content above.
@@ -209,21 +208,7 @@ Note text here.
 Content below.
 ```
 
-When using any of the other [supported admonition types](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#supported-types), you'll use the following format. Ensure the admonition content is tabbed over four spaces, as follows:
-
-<!-- rumdl-disable MD031 -->
-```markdown
-Content above.
-
-!!! info "Info title"
-
-    Info text here.
-
-Content below.
-```
-<!-- rumdl-disable MD031 -->
-
-Supported types include: abstract, info, tip, success, question, warning, failure, danger, bug, example, and quote.
+All [supported admonition types](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#supported-types) are available for use as admonitions.
 
 ### Tabbed content
 
@@ -275,21 +260,21 @@ Content below.
 
 ### Collapsed content
 
-Collapsed content is formatted as follows, including newlines, with content tabbed in as shown:
+Collapsed content is formatted as follows, including newlines:
 
-<!-- rumdl-disable MD031 -->
 ```markdown
 Content above.
 
-??? note "Collapsed content title"
+/// details-note | Collapsed content title
 
-    Collapsed content.
+Collapsed content.
+
+///
 
 Content below.
 ```
-<!-- rumdl-enable MD031 -->
 
-All [supported admonition types](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#supported-types) are available for use with collapsed content.
+All [supported admonition types](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#supported-types) are available for use with collapsed content, however, you must declare them as `details-admonitiontype`. So, a "note" type collapsed block would be `details-note` (as shown above), a "warning" type collapsed block would be `details-warning`, and so on.
 
 ### Jinja directives
 

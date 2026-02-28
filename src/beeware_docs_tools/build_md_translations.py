@@ -1,3 +1,4 @@
+import shutil
 import subprocess
 from argparse import ArgumentParser, Namespace
 from pathlib import Path
@@ -99,13 +100,13 @@ def main():
     with TemporaryDirectory() as temp_md_directory:
         temp_md_path = Path(temp_md_directory)
 
-        config_file = load_config(PROJECT_PATH)
-        symlink_from_temp(PROJECT_PATH, temp_md_path, args.source_code, config_file)
+        config = load_config(PROJECT_PATH)
+        symlink_from_temp(PROJECT_PATH, temp_md_path, args.source_code, config)
 
         for language in args.language_code:
             print(f"Processing {language}")
 
-            save_config(PROJECT_PATH, temp_md_path, config_file, language)
+            save_config(PROJECT_PATH, temp_md_path, config, language)
 
             if language != "en":
                 # Create temp output directories for primary and shared content.
@@ -133,12 +134,15 @@ def main():
                 # for the relative links in the translated Markdown to function the
                 # same way they do in the original Markdown files. This finds all
                 # images and resources subdirectories, and symlinks them.
-                for name in ["images", "resources"]:
+                for name in ["images", "resources", "*.yml", "*.css"]:
                     en_md_dir = PROJECT_PATH / "docs/en"
                     for path in en_md_dir.glob(f"**/{name}"):
-                        if path.is_dir():
-                            relative_path = path.relative_to(en_md_dir)
-                            (temp_md_path / language / relative_path).symlink_to(path)
+                        relative_path = path.relative_to(en_md_dir)
+                        (temp_md_path / language / relative_path).parent.mkdir(
+                            parents=True, exist_ok=True
+                        )
+                        (temp_md_path / language / relative_path).symlink_to(path)
+
             else:
                 # Symlink to en directory
                 #
@@ -159,11 +163,17 @@ def main():
             output = Path(args.output).resolve()
             build_docs(
                 config_file=temp_md_path / f"mkdocs.{language}.yml",
-                output_path=(
-                    output if (len(args.language_code) == 1) else (output / language)
-                ),
+                output_path=output / language,
                 build_with_warnings=args.build_with_warnings,
             )
+
+        # If we've built EN, move the content into the root.
+        if "en" in args.language_code:
+            en_output = output / "en"
+            for path in en_output.iterdir():
+                shutil.rmtree(output / path.name, ignore_errors=True)
+                shutil.move(path, output / path.name)
+            shutil.rmtree(en_output)
 
 
 if __name__ == "__main__":

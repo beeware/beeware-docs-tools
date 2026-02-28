@@ -239,11 +239,11 @@ If you've previously pushed the current branch to GitHub, you won't receive the 
 
 Any of these options will enable you to create your new pull request.
 
-<!-- rumdl-disable MD031 -->
-!!! info "The GitHub CLI: `gh`"
+/// info | The GitHub CLI: `gh`
 
-    GitHub provides the [GitHub CLI](https://cli.github.com/), which gives you access to many of the features of GitHub from your terminal, through the `gh` command. The [GitHub CLI documentation](https://cli.github.com/manual/) covers all the features.
-<!-- rumdl-enable MD031 -->
+GitHub provides the [GitHub CLI](https://cli.github.com/), which gives you access to many of the features of GitHub from your terminal, through the `gh` command. The [GitHub CLI documentation](https://cli.github.com/manual/) covers all the features.
+
+///
 
 ### Pull request content
 

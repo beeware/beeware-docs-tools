@@ -8,9 +8,8 @@ We use [DeepL](https://www.deepl.com/en/translator) for machine translation to p
 
 ## Contributing translations
 
-{% macro content(template) %}{% include template %}{% endmacro %}
-{% macro indented(template) %}{{ content(template)|indent }}{% endmacro %}
+/// details-abstract | Translate content
 
-??? abstract "Translate content"
+{% include "contribute/how/translate.md" %}
 
-    {{ indented("contribute/how/translate.md") }}
+///

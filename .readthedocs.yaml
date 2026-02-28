@@ -14,9 +14,7 @@ build:
   jobs:
     pre_install:
       - python -m pip install --upgrade pip
-      - python -m pip install --group 'dev'
-    pre_build:
-      - python -m tox -e docs-lint
+      - python -m pip install --group 'tox-uv'
     build:
       html:
-        - python -m tox -e docs-$READTHEDOCS_LANGUAGE -- --output=$READTHEDOCS_OUTPUT/html/
+        - python -m tox -e docs-all -- --output=$READTHEDOCS_OUTPUT/html/
