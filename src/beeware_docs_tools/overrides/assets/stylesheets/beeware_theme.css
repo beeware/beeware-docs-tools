@@ -51,7 +51,7 @@ body {
 }
 
 .md-header__topic, nav.md-tabs {
-    font-family: Cutive, serif;
+    font-family: var(--brand-font);
 }
 
 nav.md-tabs, .md-header {
@@ -108,7 +108,7 @@ nav.md-tabs, .md-header {
 input.md-search__input,
 .md-search__suggest,
 .md-search-result__meta {
-    font-family: 'Cutive', serif;
+    font-family: var(--brand-font);
 }
 
 input.md-search__input,
@@ -158,7 +158,7 @@ a.md-nav__link[for]:hover {
 .md-typeset h4,
 .md-typeset h5,
 .md-typeset h6 {
-    font-family: 'Cutive', serif;
+    font-family: var(--brand-font);
     color: var(--md-typeset-color);
     clear: both;
 }
