@@ -97,6 +97,10 @@ def save_config(project_path, temp_md_path, config, language="en"):
             translate(po),
         )
 
+        mkdocs_config["plugins"] = {
+            "macros": {"include_yaml": [{"team": f"{language}/news/.authors.yml"}]}
+        }
+
         with (temp_md_path / f"mkdocs.{language}.yml").open(
             "w", encoding="utf-8"
         ) as mkdocs_f:
