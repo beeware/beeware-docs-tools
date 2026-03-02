@@ -1,5 +1,5 @@
-import shutil
 import subprocess
+import shutil
 from argparse import ArgumentParser, Namespace
 from pathlib import Path
 from tempfile import TemporaryDirectory
@@ -103,23 +103,27 @@ def main():
         config = load_config(PROJECT_PATH)
         symlink_from_temp(PROJECT_PATH, temp_md_path, args.source_code, config)
 
+        output = Path(args.output).resolve()
         for language in args.language_code:
             print(f"Processing {language}")
 
             save_config(PROJECT_PATH, temp_md_path, config, language)
 
             if language != "en":
+                # Final output path is language-specific
+                output_path = output / language
+
                 # Create temp output directories for primary and shared content.
-                output_path = temp_md_path / language
+                md_output_path = temp_md_path / language
                 sc_output_path = temp_md_path / f"shared_content/{language}"
-                output_path.mkdir(parents=True, exist_ok=True)
+                md_output_path.mkdir(parents=True, exist_ok=True)
                 sc_output_path.mkdir(parents=True, exist_ok=True)
 
                 # Generate translated primary content
                 generate_translated_md(
                     docs_path=PROJECT_PATH / "docs",
                     language=language,
-                    output_path=output_path,
+                    output_path=md_output_path,
                 )
 
                 # Generate translated shared content
@@ -159,51 +163,20 @@ def main():
                     target_is_directory=True,
                 )
 
+                # EN content is always output into the root build path
+                output_path = output
+
             # Build documentation in provided language.
-            output = Path(args.output).resolve()
             build_docs(
                 config_file=temp_md_path / f"mkdocs.{language}.yml",
-                output_path=output / language,
+                output_path=output_path,
                 build_with_warnings=args.build_with_warnings,
             )
 
-            # For every non-english language output: if there are language-folder
-            # redirects, remove those from the translated version.
-            if language != "en":
-                for redirect_lang in args.language_code:
-                    lang_redirect = output / language / redirect_lang
-                    if lang_redirect.is_dir():
-                        print("Prune", lang_redirect)
-                        shutil.rmtree(lang_redirect)
-                    lang_redirect = (
-                        output / language / redirect_lang.replace("_", "-").lower()
-                    )
-                    if lang_redirect.is_dir():
-                        print("Prune", lang_redirect)
-                        shutil.rmtree(lang_redirect)
-
-            # If a SUMMARY/index.md has been created, prune it as well.
-            summary = output / language / "SUMMARY"
+            # If a SUMMARY/index.md has been created, it is unnecessary; prune it.
+            summary = output_path / "SUMMARY"
             if summary.is_dir():
-                print("Prune", summary)
                 shutil.rmtree(summary)
-
-        # If we've built EN, move the content into the root. The `en`` folder
-        # may contain an `en` folder; allow for that edge case by moving `en`
-        # to a safe location first.
-        if "en" in args.language_code:
-            en_orig = output / "en-nested"
-            shutil.move(output / "en", en_orig)
-            for path in en_orig.iterdir():
-                if (output / path.name).is_dir():
-                    print("Overlay ", path, output / path.name)
-                    shutil.copytree(path, output / path.name, dirs_exist_ok=True)
-                else:
-                    print("Move", path, output / path.name)
-                    shutil.rmtree(output / path.name, ignore_errors=True)
-                    shutil.move(path, output / path.name)
-            print("Prune", en_orig)
-            shutil.rmtree(en_orig)
 
 
 if __name__ == "__main__":
