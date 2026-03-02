@@ -167,24 +167,23 @@ def main():
                 build_with_warnings=args.build_with_warnings,
             )
 
-        for lang in args.language_code:
             # For every non-english language output: if there are language-folder
             # redirects, remove those from the translated version.
-            if lang != "en":
+            if language != "en":
                 for redirect_lang in args.language_code:
-                    lang_redirect = output / lang / redirect_lang
+                    lang_redirect = output / language / redirect_lang
                     if lang_redirect.is_dir():
                         print("Prune", lang_redirect)
                         shutil.rmtree(lang_redirect)
                     lang_redirect = (
-                        output / lang / redirect_lang.replace("_", "-").lower()
+                        output / language / redirect_lang.replace("_", "-").lower()
                     )
                     if lang_redirect.is_dir():
                         print("Prune", lang_redirect)
                         shutil.rmtree(lang_redirect)
 
             # If a SUMMARY/index.md has been created, prune it as well.
-            summary = output / lang / "SUMMARY"
+            summary = output / language / "SUMMARY"
             if summary.is_dir():
                 print("Prune", summary)
                 shutil.rmtree(summary)
