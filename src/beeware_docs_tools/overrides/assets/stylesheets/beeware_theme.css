@@ -6,16 +6,16 @@
 
 :root {
   --brand-font: "Cutive", serif;
+  color-scheme: light dark;
 }
 
+/* East Asian Languages can't use Cutive; fall back to sans-serif */
+:lang(ja),
+:lang(ko),
 :lang(zh),
 :lang(zh_CN),
 :lang(zh_TW) {
   --brand-font: "Cutive", sans-serif;
-}
-
-:root {
-    color-scheme: light dark;
 }
 
 [data-md-color-primary=indigo] {
