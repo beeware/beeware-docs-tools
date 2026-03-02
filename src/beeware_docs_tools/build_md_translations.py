@@ -167,13 +167,37 @@ def main():
                 build_with_warnings=args.build_with_warnings,
             )
 
-        # If we've built EN, move the content into the root.
+        # For every non-english language output: if there are language-folder
+        # redirects, remove those from the translated version.
+        for lang in args.language_code:
+            if lang != "en":
+                for redirect_lang in args.language_code:
+                    lang_redirect = output / lang / redirect_lang
+                    if lang_redirect.is_dir():
+                        print("Prune", lang_redirect)
+                        shutil.rmtree(lang_redirect)
+                    lang_redirect = (
+                        output / lang / redirect_lang.replace("_", "-").lower()
+                    )
+                    if lang_redirect.is_dir():
+                        print("Prune", lang_redirect)
+                        shutil.rmtree(lang_redirect)
+
+        # If we've built EN, move the content into the root. The `en`` folder
+        # may contain an `en` folder; allow for that edge case by moving `en`
+        # to a safe location first.
         if "en" in args.language_code:
-            en_output = output / "en"
-            for path in en_output.iterdir():
-                shutil.rmtree(output / path.name, ignore_errors=True)
-                shutil.move(path, output / path.name)
-            shutil.rmtree(en_output)
+            en_orig = output / "en-nested"
+            shutil.move(output / "en", en_orig)
+            for path in en_orig.iterdir():
+                if (output / path.name).is_dir():
+                    print("Overlay ", path, output / path.name)
+                    shutil.copytree(path, output / path.name, dirs_exist_ok=True)
+                else:
+                    print("Move", path, output / path.name)
+                    shutil.move(path, output / path.name)
+            print("Prune", en_orig)
+            shutil.rmtree(en_orig)
 
 
 if __name__ == "__main__":
