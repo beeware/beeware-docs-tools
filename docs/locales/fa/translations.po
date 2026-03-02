@@ -1,0 +1,971 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-02 04:41+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.19.2\n"
+
+#: docs/en/SUMMARY.md:1
+#, fuzzy
+msgid "Section one"
+msgstr "بخش اول"
+
+#: docs/en/SUMMARY.md:1
+#, fuzzy
+msgid "[Section one]{1}"
+msgstr "[بخش اول]{1}"
+
+#: docs/en/SUMMARY.md:1
+#, fuzzy
+msgid "[Section one - page two]{1}"
+msgstr "[بخش یک - صفحه دو]{1}"
+
+#: docs/en/SUMMARY.md:4
+#, fuzzy
+msgid "[Section two]{1}"
+msgstr "[بخش دوم]{1}"
+
+#: docs/en/SUMMARY.md:5
+#, fuzzy
+msgid "[Section three]{1}"
+msgstr "[بخش سوم]{1}"
+
+#: docs/en/SUMMARY.md:5
+msgid "./section_three/*"
+msgstr "./section_three/*"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "Shared content testbed"
+msgstr "محیط آزمایشی محتوای مشترک"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Shared content testbed]{1}"
+msgstr "[محیط آزمایشی محتوای مشترک]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "How-to guides"
+msgstr "راهنمای چگونگی انجام"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "Contribute"
+msgstr "مشارکت کنید"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Contributing]{1}"
+msgstr "[مشارکت‌کننده]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[First-time contributors]{1}"
+msgstr "[نخستین مشارکت‌کنندگان]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "What can I do?"
+msgstr "چه کار می‌توانم بکنم؟"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Fix an issue]{1}"
+msgstr "[رفع یک مشکل]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Implement a new feature]{1}"
+msgstr "[پیاده‌سازی یک ویژگی جدید]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Write documentation]{1}"
+msgstr "[مستندسازی بنویسید]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Triage an issue]{1}"
+msgstr "[اولویت‌بندی یک مسئله]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Review a pull request]{1}"
+msgstr "[بررسی یک درخواست کشش]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Propose a new feature]{1}"
+msgstr "[پیشنهاد یک ویژگی جدید]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Translate content]{1}"
+msgstr "[محتوا را ترجمه کنید]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Use the tools]{1}"
+msgstr "[ابزارها را استفاده کنید]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "How do I contribute?"
+msgstr "چگونه مشارکت کنم؟"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Setting up a development environment]{1}"
+msgstr "[راه‌اندازی محیط توسعه]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Reproducing an issue]{1}"
+msgstr "[بازتولید یک شماره]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Working from a branch]{1}"
+msgstr "[کار کردن از یک شعبه]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Avoiding scope creep]{1}"
+msgstr "[اجتناب از گسترش دامنه]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Writing, running, and testing code]{1}"
+msgstr "[نوشتن، اجرا و تست کد]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Building documentation]{1}"
+msgstr "[مستندسازی ساختمان]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Writing documentation]{1}"
+msgstr "[نوشتن مستندات]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Adding a change note]{1}"
+msgstr "[افزودن یادداشت تغییر]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Submitting a pull request]{1}"
+msgstr "[ارسال یک درخواست ادغام]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Providing a review]{1}"
+msgstr "[ارائه یک نقد]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Submitting a new issue]{1}"
+msgstr "[ارسال یک مشکل جدید]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Proposing a new feature]{1}"
+msgstr "[پیشنهاد یک ویژگی جدید]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Translating content]{1}"
+msgstr "[محتوای در حال ترجمه]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "What happens next?"
+msgstr "بعد چه می‌شود؟"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Pull request review process]{1}"
+msgstr "[فرآیند بازبینی درخواست کشش]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Release process]{1}"
+msgstr "[فرآیند انتشار]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "Style guides"
+msgstr "راهنماهای سبک"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Code style guide]{1}"
+msgstr "[راهنمای سبک کد]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Documentation style guide]{1}"
+msgstr "[راهنمای سبک مستندسازی]{1}"
+
+#: docs/en/about/releases.md:1
+#, fuzzy
+msgid "Place-holder file"
+msgstr "فایل نگه‌دارندهٔ مکان"
+
+#: docs/en/about/releases.md:3
+#, fuzzy
+msgid "This file is included purely to satisfy the link in the `code_contribution_base.md` file. It is excluded from nav."
+msgstr "این فایل صرفاً برای برآورده کردن لینک در فایل `code_contribution_base.md` گنجانده شده است. این فایل از nav مستثنی شده است."
+
+#: docs/en/content_test_bed/how-to/contribute/first-time-contributors.md:1
+#, fuzzy
+msgid "First-time contributors"
+msgstr "مشارکت‌کنندگان تازه‌کار"
+
+#: docs/en/content_test_bed/how-to/contribute/first-time-contributors.md:3
+msgid "{% extends \"contribute/first-time-contributors.md\" %}"
+msgstr "{% extends \"contribute/first-time-contributors.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/branches.md:1
+#, fuzzy
+msgid "Work from a feature branch, not your `main` branch"
+msgstr "روی یک شاخهٔ فرعی کار کنید، نه روی شاخهٔ `main` خود."
+
+#: docs/en/content_test_bed/how-to/contribute/how/branches.md:3
+msgid "{% extends \"contribute/how/branches.md\" %}"
+msgstr "{% extends \"contribute/how/branches.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/build-docs.md:1
+#, fuzzy
+msgid "Building documentation"
+msgstr "مستندسازی ساختمان"
+
+#: docs/en/content_test_bed/how-to/contribute/how/build-docs.md:3
+msgid "{% extends \"contribute/how/build-docs.md\" %}"
+msgstr "{% extends \"contribute/how/build-docs.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/build-docs.md:5 docs/en/content_test_bed/how-to/contribute/how/reproduce-issue.md:5 docs/en/content_test_bed/how-to/contribute/how/write-code.md:5 docs/en/content_test_bed/how-to/contribute/how/write-docs.md:5
+msgid "{% block front_matter %}"
+msgstr "{% block front_matter %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/build-docs.md:7
+#, fuzzy
+msgid "Before you build the documentation, and have a [development environment]{1} set up."
+msgstr "قبل از اینکه مستندات را بسازید و یک [محیط توسعه]{1} را راه‌اندازی کنید."
+
+#: docs/en/content_test_bed/how-to/contribute/how/build-docs.md:9 docs/en/content_test_bed/how-to/contribute/how/build-docs.md:15 docs/en/content_test_bed/how-to/contribute/how/propose-feature.md:9 docs/en/content_test_bed/how-to/contribute/how/reproduce-issue.md:9 docs/en/content_test_bed/how-to/contribute/how/reproduce-issue.md:15 docs/en/content_test_bed/how-to/contribute/how/submit-pr.md:17 docs/en/content_test_bed/how-to/contribute/how/write-code.md:9 docs/en/content_test_bed/how-to/contribute/how/write-code.md:15 docs/en/content_test_bed/how-to/contribute/how/write-docs.md:9 docs/en/content_test_bed/how-to/contribute/how/write-docs.md:15
+msgid "{% endblock %}"
+msgstr "{% endblock %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/build-docs.md:11 docs/en/content_test_bed/how-to/contribute/how/propose-feature.md:5 docs/en/content_test_bed/how-to/contribute/how/reproduce-issue.md:11 docs/en/content_test_bed/how-to/contribute/how/submit-pr.md:5 docs/en/content_test_bed/how-to/contribute/how/write-code.md:11 docs/en/content_test_bed/how-to/contribute/how/write-docs.md:11
+msgid "{% block end_matter %}"
+msgstr "{% block end_matter %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/build-docs.md:13
+#, fuzzy
+msgid "Once you have successfully built the docs, you are ready to [write documentation]{1}."
+msgstr "پس از اینکه با موفقیت مستندات را ساختید، آمادهٔ [نوشتن مستندات]{1} هستید."
+
+#: docs/en/content_test_bed/how-to/contribute/how/change-note.md:1
+#, fuzzy
+msgid "Adding change information for release notes"
+msgstr "افزودن اطلاعات تغییرات برای یادداشت‌های نسخه"
+
+#: docs/en/content_test_bed/how-to/contribute/how/change-note.md:3
+msgid "{% extends \"contribute/how/change-note.md\" %}"
+msgstr "{% extends \"contribute/how/change-note.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/dev-environment.md:1
+#, fuzzy
+msgid "Setting up a development environment"
+msgstr "راه‌اندازی محیط توسعه"
+
+#: docs/en/content_test_bed/how-to/contribute/how/dev-environment.md:3
+msgid "{% extends \"contribute/how/dev-environment.md\" %}"
+msgstr "{% extends \"contribute/how/dev-environment.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/new-issue.md:1
+#, fuzzy
+msgid "Submitting a new issue"
+msgstr "ارسال یک مشکل جدید"
+
+#: docs/en/content_test_bed/how-to/contribute/how/new-issue.md:3
+msgid "{% extends \"contribute/how/new-issue.md\" %}"
+msgstr "{% extends \"contribute/how/new-issue.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/propose-feature.md:1 docs/en/content_test_bed/how-to/contribute/what/propose-feature.md:1
+#, fuzzy
+msgid "Proposing a new feature"
+msgstr "پیشنهاد یک ویژگی جدید"
+
+#: docs/en/content_test_bed/how-to/contribute/how/propose-feature.md:3
+msgid "{% extends \"contribute/how/propose-feature.md\" %}"
+msgstr "{% extends \"contribute/how/propose-feature.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/propose-feature.md:7
+#, fuzzy
+msgid "If you are interested, you can begin [implementing your new feature]{1}."
+msgstr "اگر علاقه‌مند هستید، می‌توانید [پیاده‌سازی ویژگی جدید خود را آغاز کنید]{1}."
+
+#: docs/en/content_test_bed/how-to/contribute/how/reproduce-issue.md:1
+#, fuzzy
+msgid "Reproducing an issue"
+msgstr "تولید مجدد یک مشکل"
+
+#: docs/en/content_test_bed/how-to/contribute/how/reproduce-issue.md:3
+msgid "{% extends \"contribute/how/reproduce-issue.md\" %}"
+msgstr "{% extends \"contribute/how/reproduce-issue.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/reproduce-issue.md:7
+#, fuzzy
+msgid "To begin reproducing an issue, you will need a [development environment]{1} set up."
+msgstr "برای شروع بازتولید یک مشکل، به یک [محیط توسعه]{1} راه‌اندازی‌شده نیاز دارید."
+
+#: docs/en/content_test_bed/how-to/contribute/how/reproduce-issue.md:13
+#, fuzzy
+msgid "At this point, you might choose to try to [fix the issue]{1} you've just reproduced; alternatively, you can write up your findings and try to reproduce another issue."
+msgstr "در این مرحله، ممکن است بخواهید تلاش کنید مسئله‌ای را که به‌تازگی بازتولید کرده‌اید [رفع کنید]{1}؛ یا می‌توانید یافته‌های خود را مکتوب کرده و تلاش کنید مسئله‌ی دیگری را بازتولید کنید."
+
+#: docs/en/content_test_bed/how-to/contribute/how/review-pr.md:1 docs/en/content_test_bed/how-to/contribute/what/review-pr.md:1
+#, fuzzy
+msgid "Providing a pull request review"
+msgstr "ارائه بازبینی درخواست کشش"
+
+#: docs/en/content_test_bed/how-to/contribute/how/review-pr.md:3
+msgid "{% extends \"contribute/how/review-pr.md\" %}"
+msgstr "{% extends \"contribute/how/review-pr.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/scope-creep.md:1
+#, fuzzy
+msgid "Avoiding scope creep"
+msgstr "اجتناب از گسترش دامنه"
+
+#: docs/en/content_test_bed/how-to/contribute/how/scope-creep.md:3
+msgid "{% extends \"contribute/how/scope-creep.md\" %}"
+msgstr "{% extends \"contribute/how/scope-creep.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/submit-pr.md:1
+#, fuzzy
+msgid "Submitting a pull request"
+msgstr "ارسال یک درخواست برداشت"
+
+#: docs/en/content_test_bed/how-to/contribute/how/submit-pr.md:3
+msgid "{% extends \"contribute/how/submit-pr.md\" %}"
+msgstr "{% extends \"contribute/how/submit-pr.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/submit-pr.md:7
+msgid "{% if config.extra.website %}"
+msgstr "{% if config.extra.website %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/submit-pr.md:9
+#, fuzzy
+msgid "Your pull request may require additional content, such as a [change note]{1}, before it can be [reviewed]{2}."
+msgstr "پُل‌ریکِست شما ممکن است پیش از آنکه بتواند [بازبینی]{2} شود، به محتوای اضافی مانند [یادداشت تغییر]{1} نیاز داشته باشد."
+
+#: docs/en/content_test_bed/how-to/contribute/how/submit-pr.md:11
+msgid "{% else %}"
+msgstr "{% else %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/submit-pr.md:13
+#, fuzzy
+msgid "As part of submitting a pull request, you'll need to include a [change note]{1} before it can be [reviewed]{2}."
+msgstr "به‌عنوان بخشی از ارسال یک درخواست برداشت، باید یک [یادداشت تغییر]{1} را قبل از اینکه بتواند [بازبینی]{2} شود، ضمیمه کنید."
+
+#: docs/en/content_test_bed/how-to/contribute/how/submit-pr.md:15 docs/en/index.md:102 docs/en/index.md:112 docs/en/index.md:122
+msgid "{% endif %}"
+msgstr "{% endif %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/translate.md:1 docs/en/content_test_bed/how-to/contribute/what/translate.md:1
+#, fuzzy
+msgid "Translating content"
+msgstr "ترجمه‌ی محتوا"
+
+#: docs/en/content_test_bed/how-to/contribute/how/translate.md:3
+msgid "{% extends \"contribute/how/translate.md\" %}"
+msgstr "{% extends \"contribute/how/translate.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/write-code.md:1
+#, fuzzy
+msgid "Writing, running, and testing code"
+msgstr "نوشتن، اجرا و تست کد"
+
+#: docs/en/content_test_bed/how-to/contribute/how/write-code.md:3
+msgid "{% extends \"contribute/how/write-code.md\" %}"
+msgstr "{% extends \"contribute/how/write-code.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/write-code.md:7
+#, fuzzy
+msgid "To begin working on code, ensure you have a [development environment]{1} set up, and you are [working on a branch]{2}"
+msgstr "برای شروع کار روی کد، مطمئن شوید که یک [محیط توسعه]{1} راه‌اندازی کرده‌اید و روی یک [شعبه]{2} کار می‌کنید."
+
+#: docs/en/content_test_bed/how-to/contribute/how/write-code.md:13
+#, fuzzy
+msgid "Once you have everything working, you can [submit a pull request]{1} with your changes."
+msgstr "وقتی همه چیز به درستی کار کرد، می‌توانید [یک درخواست کششی ارسال کنید]{1} با تغییرات خود."
+
+#: docs/en/content_test_bed/how-to/contribute/how/write-docs.md:1
+#, fuzzy
+msgid "Writing documentation"
+msgstr "نوشتن مستندات"
+
+#: docs/en/content_test_bed/how-to/contribute/how/write-docs.md:3
+msgid "{% extends \"contribute/how/write-docs.md\" %}"
+msgstr "{% extends \"contribute/how/write-docs.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/write-docs.md:7
+#, fuzzy
+msgid "Before you begin writing documentation, ensure you are able to [build the documentation]{1}, and you are [working on a branch]{2}."
+msgstr "قبل از شروع نوشتن مستندات، مطمئن شوید که قادر به ساخت مستندات هستید و روی یک شاخه در حال کار کردن می‌باشید."
+
+#: docs/en/content_test_bed/how-to/contribute/how/write-docs.md:13
+#, fuzzy
+msgid "Once you are happy with your new documentation, you can [submit a pull request]{1} with your proposed changes."
+msgstr "وقتی از مستندات جدیدتان راضی بودید، می‌توانید [یک درخواست کششی ارسال کنید]{1} که شامل تغییرات پیشنهادی شماست."
+
+#: docs/en/content_test_bed/how-to/contribute/index.md:1
+#, fuzzy
+msgid "Contributing to {{ formal_name }}"
+msgstr "مشارکت در {{ formal_name }}"
+
+#: docs/en/content_test_bed/how-to/contribute/index.md:3
+msgid "{% extends \"contribute/index.md\" %}"
+msgstr "{% extends \"contribute/index.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/next/pr-review.md:1
+#, fuzzy
+msgid "Receiving a pull request review"
+msgstr "دریافت بازبینی یک درخواست کشش"
+
+#: docs/en/content_test_bed/how-to/contribute/next/pr-review.md:3
+msgid "{% extends \"contribute/next/pr-review.md\" %}"
+msgstr "{% extends \"contribute/next/pr-review.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/next/release.md:1
+#, fuzzy
+msgid "The release process"
+msgstr "فرآیند انتشار"
+
+#: docs/en/content_test_bed/how-to/contribute/next/release.md:3
+msgid "{% extends \"contribute/next/release.md\" %}"
+msgstr "{% extends \"contribute/next/release.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/style/code-style-guide.md:1
+#, fuzzy
+msgid "Code style guide"
+msgstr "راهنمای سبک کدنویسی"
+
+#: docs/en/content_test_bed/how-to/contribute/style/code-style-guide.md:3
+msgid "{% extends \"contribute/style/code-style-guide.md\" %}"
+msgstr "{% extends \"contribute/style/code-style-guide.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/style/docs-style-guide.md:1
+#, fuzzy
+msgid "Documentation style guide"
+msgstr "راهنمای سبک مستندسازی"
+
+#: docs/en/content_test_bed/how-to/contribute/style/docs-style-guide.md:3
+msgid "{% extends \"contribute/style/docs-style-guide.md\" %}"
+msgstr "{% extends \"contribute/style/docs-style-guide.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/what/fix-issue.md:1
+#, fuzzy
+msgid "Fixing an issue"
+msgstr "رفع یک مشکل"
+
+#: docs/en/content_test_bed/how-to/contribute/what/fix-issue.md:3
+msgid "{% extends \"contribute/what/fix-issue.md\" %}"
+msgstr "{% extends \"contribute/what/fix-issue.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/what/implement-feature.md:1
+#, fuzzy
+msgid "Implementing a new feature"
+msgstr "پیاده‌سازی یک ویژگی جدید"
+
+#: docs/en/content_test_bed/how-to/contribute/what/implement-feature.md:3
+msgid "{% extends \"contribute/what/implement-feature.md\" %}"
+msgstr "{% extends \"contribute/what/implement-feature.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/what/propose-feature.md:3
+msgid "{% extends \"contribute/what/propose-feature.md\" %}"
+msgstr "{% extends \"contribute/what/propose-feature.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/what/review-pr.md:3
+msgid "{% extends \"contribute/what/review-pr.md\" %}"
+msgstr "{% extends \"contribute/what/review-pr.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/what/translate.md:3
+msgid "{% extends \"contribute/what/translate.md\" %}"
+msgstr "{% extends \"contribute/what/translate.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/what/triage.md:1
+#, fuzzy
+msgid "Triaging an issue"
+msgstr "اولویت‌بندی یک مشکل"
+
+#: docs/en/content_test_bed/how-to/contribute/what/triage.md:3
+msgid "{% extends \"contribute/what/triage.md\" %}"
+msgstr "{% extends \"contribute/what/triage.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/what/use-tools.md:1
+#, fuzzy
+msgid "Using the tools"
+msgstr "استفاده از ابزارها"
+
+#: docs/en/content_test_bed/how-to/contribute/what/use-tools.md:3
+msgid "{% extends \"contribute/what/use-tools.md\" %}"
+msgstr "{% extends \"contribute/what/use-tools.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/what/write-docs.md:1
+#, fuzzy
+msgid "Adding documentation"
+msgstr "افزودن مستندات"
+
+#: docs/en/content_test_bed/how-to/contribute/what/write-docs.md:3
+msgid "{% extends \"contribute/what/write-docs.md\" %}"
+msgstr "{% extends \"contribute/what/write-docs.md\" %}"
+
+#: docs/en/content_test_bed/index.md:1
+#, fuzzy
+msgid "Shared content test bed"
+msgstr "محیط آزمون محتوای مشترک"
+
+#: docs/en/content_test_bed/index.md:3
+#, fuzzy
+msgid "This section is included for the purposes of verifying the shared content provided from this repo for use in the rest of the BeeWare documentation. \"Shared content\" refers to documents or sections of documents that are common to multiple other repos. They are stored here for inclusion across those repos. This means there is a single source when updates are required, and that change will populate across all repos using that shared content."
+msgstr "این بخش برای تأیید محتوای مشترک ارائه‌شده از این مخزن جهت استفاده در سایر مستندات BeeWare گنجانده شده است. «محتوای مشترک» به اسناد یا بخش‌هایی از اسناد اطلاق می‌شود که در چندین مخزن دیگر مشترک هستند. این موارد در اینجا ذخیره می‌شوند تا در تمامی آن مخازن گنجانده شوند. این بدان معناست که هنگام نیاز به به‌روزرسانی، یک منبع واحد وجود دارد و آن تغییر در تمامی مخازن استفادهکننده از آن محتوای مشترک اعمال خواهد شد."
+
+#: docs/en/content_test_bed/index.md:5
+#, fuzzy
+msgid "If you are updating existing content, the following steps are not necessary. You can simply build the test site, and see your updates rendered."
+msgstr "اگر در حال به‌روزرسانی محتوای موجود هستید، مراحل زیر ضروری نیستند. می‌توانید به‌سادگی سایت آزمایشی را بسازید و به‌روزرسانی‌های خود را مشاهده کنید."
+
+#: docs/en/content_test_bed/index.md:7
+#, fuzzy
+msgid "If you are creating a new shared documentation file in the `shared-content` directory, that is NOT meant to be included in the `how-to` directory, complete the following:"
+msgstr "اگر در حال ایجاد یک فایل مستندسازی مشترک جدید در دایرکتوری `shared-content` هستید که قرار نیست در دایرکتوری `how-to` گنجانده شود، موارد زیر را انجام دهید:"
+
+#: docs/en/content_test_bed/index.md:9
+#, fuzzy
+msgid "Create a file in the `content_test_bed` that is the same filename as your new content file, with \"_include\" appended to the end."
+msgstr "در `content_test_bed` فایلی با همان نام فایل محتوای جدیدتان ایجاد کنید و «_include» را به انتهای آن اضافه کنید."
+
+#: docs/en/content_test_bed/index.md:9
+#, fuzzy
+msgid "For `style_guide.md`, you would add `style_guide_include.md`."
+msgstr "برای `style_guide.md`، شما `style_guide_include.md` را اضافه می‌کنید."
+
+#: docs/en/content_test_bed/index.md:11
+#, fuzzy
+msgid "Using the Snippets syntax, add the filename to `filename_include.md`. The Snippets syntax for including content is `-8<- \"filename.md\"`."
+msgstr "با استفاده از سینتکس Snippets، نام فایل را در `filename_include.md` قرار دهید. سینتکس Snippets برای درج محتوا عبارت `-8<- \"filename.md\"` است."
+
+#: docs/en/content_test_bed/index.md:11
+#, fuzzy
+msgid "For `style_guide.md`, you would add `-8<- \"style_guide.md\"` to `style_guide_include.md`."
+msgstr "برای `style_guide.md`، شما `-8<- \"style_guide.md\"` را به `style_guide_include.md` اضافه می‌کنید."
+
+#: docs/en/content_test_bed/index.md:13
+#, fuzzy
+msgid "Update the `Shared content test bed` section in `/docs/SUMMARY.md` to include the new `_include` file and path, at the same indentation level as the other items in that section."
+msgstr "بخش `Shared content test bed` را در `/docs/SUMMARY.md` به‌روزرسانی کنید تا فایل و مسیر جدید `_include` را شامل شود و هم‌سطح با سایر موارد در آن بخش باشد."
+
+#: docs/en/content_test_bed/index.md:13
+#, fuzzy
+msgid "For `style_guide_include.md`, you would add `- [Style guide](content_test_bed/style_guide_include.md)`."
+msgstr "برای `style_guide_include.md`، شما `- [Style guide](content_test_bed/style_guide_include.md)` را اضافه می‌کنید."
+
+#: docs/en/content_test_bed/index.md:16
+#, fuzzy
+msgid "Once these steps are completed, you can build the test site and view your new documentation rendered."
+msgstr "پس از تکمیل این مراحل، می‌توانید سایت تست را بسازید و مستندات جدیدتان را مشاهده کنید."
+
+#: docs/en/index.md:1
+#, fuzzy
+msgid "Docs Tools Demo"
+msgstr "نمایش ابزارهای مستندات"
+
+#: docs/en/index.md:3
+#, fuzzy
+msgid "Theme checklist"
+msgstr "فهرست موضوعات"
+
+#: docs/en/index.md:5
+#, fuzzy
+msgid "This demo is designed to test the various features of the BeeWare MkDocs Material theme overrides. Please read through and verify that everything listed on this and the following pages is present and functioning as detailed in the description."
+msgstr "این دمو برای آزمایش ویژگی‌های مختلف overrideهای تم Material در BeeWare MkDocs طراحی شده است. لطفاً آن را مطالعه کرده و تأیید کنید که همه موارد فهرست‌شده در این صفحه و صفحات بعدی موجود بوده و مطابق توضیحات کار می‌کنند."
+
+#: docs/en/index.md:7
+#, fuzzy
+msgid "Titlebar"
+msgstr "سربرگ"
+
+#: docs/en/index.md:9
+#, fuzzy
+msgid "A medium-gray titlebar is on the page. This the theme template has been applied."
+msgstr "یک نوار عنوان خاکستری متوسط روی صفحه قرار دارد. این قالب تم اعمال شده است."
+
+#: docs/en/index.md:11
+#, fuzzy
+msgid "Header icon"
+msgstr "آیکون سربرگ"
+
+#: docs/en/index.md:13
+#, fuzzy
+msgid "The header icon top-left has been rendered. This confirms the template can reference external resources."
+msgstr "آیکون هدر در بالای سمت چپ رندر شد. این تأیید می‌کند که قالب می‌تواند به منابع خارجی ارجاع دهد."
+
+#: docs/en/index.md:15
+#, fuzzy
+msgid "Homepage sidebar icon"
+msgstr "آیکون نوار کناری صفحهٔ اصلی"
+
+#: docs/en/index.md:17
+#, fuzzy
+msgid "The logo icon in the left sidebar has been rendered. The logo should be the width of, and of equal height to, the sidebar. The site title should be rendered below it in slightly larger font than the rest of the sidebar, with the version number below it in smaller font."
+msgstr "آیکون لوگو در نوار کناری سمت چپ نمایش داده شده است. لوگو باید به عرض نوار کناری و با ارتفاع برابر آن باشد. عنوان سایت باید در زیر آن با فونت کمی بزرگ‌تر از سایر بخش‌های نوار کناری نمایش داده شود و شماره نسخه در زیر آن با فونت کوچکتر نوشته شود."
+
+#: docs/en/index.md:19
+#, fuzzy
+msgid "This confirms the sidebar will render properly on the target sites."
+msgstr "این تأیید می‌کند که نوار کناری در سایت‌های هدف به‌درستی نمایش داده خواهد شد."
+
+#: docs/en/index.md:21
+#, fuzzy
+msgid "Heading font { #heading-font }"
+msgstr "فونت سربرگ { #heading-font }"
+
+#: docs/en/index.md:23
+#, fuzzy
+msgid "Headings are rendered in Cutive. This confirms the BeeWare custom CSS theme has been applied."
+msgstr "سربرگ‌ها با Cutive نمایش داده می‌شوند. این تأیید می‌کند که تم CSS سفارشی BeeWare اعمال شده است."
+
+#: docs/en/index.md:25
+#, fuzzy
+msgid "Inline code"
+msgstr "کد درون خطی"
+
+#: docs/en/index.md:27
+#, fuzzy
+msgid "Inline code is rendered in the same color as the surrounding font. This confirms that the theme has not caused any undesired changes."
+msgstr "کد درون‌خطی با همان رنگِ فونت اطراف نمایش داده می‌شود. این تأیید می‌کند که قالب هیچ تغییر ناخواسته‌ای ایجاد نکرده است."
+
+#: docs/en/index.md:29
+#, fuzzy
+msgid "This is text with `inline code` here and `inline code` here."
+msgstr "این متنی است که `inline code` اینجا و `inline code` اینجا دارد."
+
+#: docs/en/index.md:31
+#, fuzzy
+msgid "Tabbed content code"
+msgstr "کد محتوای تب‌دار"
+
+#: docs/en/index.md:33
+#, fuzzy
+msgid "Code is in a contrasting color to the background. Copy button should copy only the commands; the prompt should not be included."
+msgstr "کد باید به رنگی متضاد با پس‌زمینه باشد. دکمهٔ کپی باید فقط دستورات را کپی کند؛ پرامپت نباید شامل شود."
+
+#: docs/en/index.md:35
+#, fuzzy
+msgid "This confirms that the theme has not caused any undesired changes, as well as whether the copy button is working as expected."
+msgstr "این تأیید می‌کند که قالب هیچ تغییر ناخواسته‌ای ایجاد نکرده و همچنین بررسی می‌کند که آیا دکمه کپی طبق انتظار کار می‌کند."
+
+#: docs/en/index.md:37
+msgid "/// tab | macOS"
+msgstr "/// tab | macOS"
+
+#: docs/en/index.md:43 docs/en/index.md:51 docs/en/index.md:59 docs/en/index.md:100 docs/en/index.md:110 docs/en/index.md:120
+msgid "///"
+msgstr "///"
+
+#: docs/en/index.md:45
+msgid "/// tab | Linux"
+msgstr "/// tab | Linux"
+
+#: docs/en/index.md:53
+msgid "/// tab | Windows"
+msgstr "/// tab | Windows"
+
+#: docs/en/index.md:61
+#, fuzzy
+msgid "Code copy button behavior"
+msgstr "رفتار دکمهٔ کپی کد"
+
+#: docs/en/index.md:63
+#, fuzzy
+msgid "The copy button on the following codeblock should result in `from pathlib import Path` being copied to the clipboard."
+msgstr "دکمهٔ کپی در بلوک کد زیر باید باعث شود که `from pathlib import Path` به کلیپ‌بورد کپی شود."
+
+#: docs/en/index.md:69
+#, fuzzy
+msgid "The copy button on the following codeblock should result in `ls beeware-docs-tools` being copied to the clipboard. The shell prompt and the output should not be included."
+msgstr "دکمهٔ کپی در بلوک کد زیر باید به‌گونه‌ای عمل کند که `ls beeware-docs-tools` به کلیپ‌بورد کپی شود. دستور شل و خروجی نباید شامل شوند."
+
+#: docs/en/index.md:78
+#, fuzzy
+msgid "Sidebar links"
+msgstr "پیوندهای نوار کناری"
+
+#: docs/en/index.md:80
+#, fuzzy
+msgid "Sidebar links exist, and point to the `beeware-docs-tools` repo. This confirms that the sidebar content has been loaded, and the `project-name` has been set in the MkDocs configuration file, and the version number is computed and added."
+msgstr "پیوندهای نوار کناری وجود دارند و به مخزن `beeware-docs-tools` اشاره می‌کنند. این تأیید می‌کند که محتوای نوار کناری بارگذاری شده است، `project-name` در فایل پیکربندی MkDocs تنظیم شده است و شماره نسخه محاسبه و اضافه شده است."
+
+#: docs/en/index.md:82
+#, fuzzy
+msgid "Link colors"
+msgstr "رنگ‌های لینک"
+
+#: docs/en/index.md:84
+#, fuzzy
+msgid "This link to [the main BeeWare website]{1} should be blue in *both* light mode and dark mode."
+msgstr "این لینک به [وب‌سایت اصلی BeeWare]{1} باید در هر دو حالت روشن و تاریک آبی باشد."
+
+#: docs/en/index.md:86
+#, fuzzy
+msgid "The links in the left and right sidebars should also be blue in both modes."
+msgstr "لینک‌های نوار کناری چپ و راست نیز باید در هر دو حالت آبی باشند."
+
+#: docs/en/index.md:88
+#, fuzzy
+msgid "When scrolling down the page, the active header link in the right sidebar should be light blue in dark mode, and darker blue in light mode."
+msgstr "هنگام پیمایش صفحه به پایین، لینک فعال هدر در نوار کناری سمت راست باید در حالت تاریک آبی روشن و در حالت روشن آبی تیره‌تر باشد."
+
+#: docs/en/index.md:90
+#, fuzzy
+msgid "Translation admonition"
+msgstr "تذکر ترجمه"
+
+#: docs/en/index.md:92
+#, fuzzy
+msgid "The English-language version of this document should show the \"Translations are available\" admonition below. The French translation should show the \"This is a machine translation!\" admonition. The German translation should show the \"This is a translation!\" admonition for human translations."
+msgstr "نسخهٔ انگلیسی این سند باید هشدار «ترجمه‌ها در دسترس هستند» را در زیر نمایش دهد.   ترجمهٔ فرانسوی باید هشدار «این یک ترجمهٔ ماشینی است!» را نمایش دهد.   ترجمهٔ آلمانی باید هشدار «این یک ترجمه است!» را برای ترجمه‌های انسانی نمایش دهد."
+
+#: docs/en/index.md:94
+msgid "{% if config.extra.translation_type == \"original\" %}"
+msgstr "{% if config.extra.translation_type == \"original\" %}"
+
+#: docs/en/index.md:96
+#, fuzzy
+msgid "/// admonition | Translations are available"
+msgstr "/// admonition | مترجمه‌ها موجود هستند"
+
+#: docs/en/index.md:98
+#, fuzzy
+msgid "If you're not comfortable with English, translations of the Docs Tools are available in [Français]{1} and [Deutsch]{2}."
+msgstr "اگر با زبان انگلیسی راحت نیستید، ترجمه‌های ابزارهای مستندات به [فرانسوی]{1} و [آلمانی]{2} موجود است."
+
+#: docs/en/index.md:104
+msgid "{% if config.extra.translation_type == \"machine\" %}"
+msgstr "{% if config.extra.translation_type == \"machine\" %}"
+
+#: docs/en/index.md:106
+#, fuzzy
+msgid "/// admonition | This is a machine translation!"
+msgstr "/// admonition | این یک ترجمه ماشینی است!"
+
+#: docs/en/index.md:108
+#, fuzzy
+msgid "This version of the tutorial has been generated by machine translation. We know this isn't ideal, but we felt that a bad translation was better than no translation at all."
+msgstr "این نسخه از آموزش توسط ترجمهٔ ماشینی تولید شده است. می‌دانیم که این ایده‌آل نیست، اما احساس کردیم که یک ترجمهٔ ضعیف بهتر از هیچ ترجمه‌ای است."
+
+#: docs/en/index.md:114
+msgid "{% if config.extra.translation_type == \"human\" %}"
+msgstr "{% if config.extra.translation_type == \"human\" %}"
+
+#: docs/en/index.md:116
+#, fuzzy
+msgid "/// admonition | This is a translation!"
+msgstr "/// admonition | این یک ترجمه است!"
+
+#: docs/en/index.md:118
+#, fuzzy
+msgid "This document is a translation of the English version. The translation has been reviewed by humans, but newer sections may be generated by machine translation, or not translated at all."
+msgstr "این سند ترجمه‌ای از نسخهٔ انگلیسی است. این ترجمه توسط انسان بازبینی شده است، اما بخش‌های جدیدتر ممکن است توسط ترجمهٔ ماشینی تولید شده باشند یا اصلاً ترجمه نشده باشند."
+
+#: docs/en/index.md:124
+#, fuzzy
+msgid "Custom 404 page"
+msgstr "صفحهٔ ۴۰۴ سفارشی"
+
+#: docs/en/index.md:126
+#, fuzzy
+msgid "Add `nopage` to the end of the URL in your browser to verify the 404 page exists, and includes the text \"Brutus can't find what you're looking for\". The current 404 page does not always render the images due to an issue with MkDocs."
+msgstr "در انتهای آدرس اینترنتی در مرورگر خود `nopage` را اضافه کنید تا مطمئن شوید صفحهٔ خطای ۴۰۴ وجود دارد و شامل متن «بروتوس نمی‌تواند آنچه را که به دنبالش هستید پیدا کند» است. صفحهٔ ۴۰۴ فعلی به دلیل مشکلی در MkDocs همیشه تصاویر را نمایش نمی‌دهد."
+
+#: docs/en/index.md:128
+#, fuzzy
+msgid "*MkDocs builds fail with unrecognized internal links, so you need to manually verify this check by modifying the URL in your browser.*"
+msgstr "ساخت MkDocs با لینک‌های داخلی ناشناخته با شکست مواجه می‌شود، بنابراین باید این بررسی را با تغییر آدرس URL در مرورگر خود به‌صورت دستی تأیید کنید."
+
+#: docs/en/index.md:130
+#, fuzzy
+msgid "Next checks"
+msgstr "بررسی‌های بعدی"
+
+#: docs/en/index.md:132
+#, fuzzy
+msgid "The following link should take you to BeeWare Docs Tools Demo Section One. It is included to verify cross-page linking."
+msgstr "لینک زیر باید شما را به بخش اول دمو ابزارهای مستندات BeeWare هدایت کند. این لینک برای تأیید پیونددهی بین صفحات گنجانده شده است."
+
+#: docs/en/index.md:134
+#, fuzzy
+msgid "Navigate to [BeeWare Docs Tools Demo Section One]{1} for the next checks."
+msgstr "برای بررسی‌های بعدی به [BeeWare Docs Tools Demo Section One]{1} بروید."
+
+#: docs/en/section_one/index.md:1
+#, fuzzy
+msgid "BeeWare Docs Tools Demo section one"
+msgstr "بخش یکم دمو ابزارهای مستندسازی BeeWare"
+
+#: docs/en/section_one/index.md:3
+#, fuzzy
+msgid "Non-homepage sidebar logo"
+msgstr "لوگوی نوار کناری غیرصفحه اصلی"
+
+#: docs/en/section_one/index.md:5
+#, fuzzy
+msgid "The logo icon in the left sidebar should be small on all pages other than the homepage. The site title and version number should be rendered next to it with the site title in slightly larger font, and the version number in smaller font."
+msgstr "آیکون لوگو در نوار کناری سمت چپ باید در همه صفحات به جز صفحه اصلی کوچک باشد. عنوان سایت و شماره نسخه باید در کنار آن نمایش داده شوند، به‌طوری که عنوان سایت با فونت کمی بزرگ‌تر و شماره نسخه با فونت کوچکتر نمایش داده شود."
+
+#: docs/en/section_one/index.md:7
+#, fuzzy
+msgid "This verifies that the theme is being properly applied."
+msgstr "این تأیید می‌کند که قالب به‌درستی اعمال می‌شود."
+
+#: docs/en/section_one/index.md:9
+#, fuzzy
+msgid "Include external markdown from a local file"
+msgstr "شامل مارک‌داون خارجی از یک فایل محلی"
+
+#: docs/en/section_one/index.md:11
+#, fuzzy
+msgid "The following section should have only a header, and a paragraph with inline code followed by a code block. There should be no text between the code block and the next header. This verifies that the external include extension is working with local files."
+msgstr "بخش زیر باید تنها شامل یک سربرگ و یک پاراگراف با کد درون‌خطی باشد که پس از آن یک بلوک کد قرار گیرد. نباید هیچ متنی بین بلوک کد و سربرگ بعدی وجود داشته باشد. این بررسی می‌کند که افزونهٔ include خارجی با فایل‌های محلی به‌درستی کار می‌کند."
+
+#: docs/en/section_one/index.md:13
+msgid "-8<- \"include_content.md:local-content\""
+msgstr "-8<- \"include_content.md:local-content\""
+
+#: docs/en/section_one/index.md:15
+#, fuzzy
+msgid "Include external markdown from a URL"
+msgstr "شامل مارک‌داون خارجی از یک URL"
+
+#: docs/en/section_one/index.md:17
+#, fuzzy
+msgid "The following section should have only a header, some text and a Markdown list. This verifies that the external include extension is working, and that `url_download` is enabled."
+msgstr "بخش زیر باید فقط شامل یک سربرگ، مقداری متن و یک فهرست مارک‌داون باشد. این کار تأیید می‌کند که افزونهٔ include خارجی در حال کار است و `url_download` فعال است."
+
+#: docs/en/section_one/index.md:21
+#, fuzzy
+msgid "-8<- https://raw.githubusercontent.com/beeware/beeware-docs-tools/refs/heads/main/docs/include_content.md:remote-content -8<-"
+msgstr "-8<- https://raw.githubusercontent.com/beeware/beeware-docs-tools/refs/heads/main/docs/include_content.md:remote-content -8<-"
+
+#: docs/en/section_one/index.md:27
+#, fuzzy
+msgid "Footer navigation"
+msgstr "ناوبری پاورقی"
+
+#: docs/en/section_one/index.md:29
+#, fuzzy
+msgid "Navigate to *Section One - Page Two* for the final check."
+msgstr "برای انجام بررسی نهایی به *بخش اول - صفحه دوم* بروید."
+
+#: docs/en/section_one/page_two.md:1
+#, fuzzy
+msgid "BeeWare Docs Tools Demo section one: page two"
+msgstr "بخش دمو ابزارهای مستندسازی BeeWare: صفحهٔ دوم"
+
+#: docs/en/section_one/page_two.md:3
+#, fuzzy
+msgid "Footer and navigation links"
+msgstr "پاورقی و پیوندهای ناوبری"
+
+#: docs/en/section_one/page_two.md:5
+#, fuzzy
+msgid "Navigation should render at the bottom of the page; \"BeeWare Docs Tools Demo Section One\" should be on the left, \"Section Two\" should be on the right. The footer should be below the navigation links. This confirms the theme configuration has been applied."
+msgstr "ناوبری باید در پایین صفحه نمایش داده شود؛ «BeeWare Docs Tools Demo Section One» باید در سمت چپ و «Section Two» باید در سمت راست قرار گیرد. فوتر باید زیر لینک‌های ناوبری باشد. این تأیید می‌کند که پیکربندی تم اعمال شده است."
+
+#: docs/en/section_one/page_two.md:7
+#, fuzzy
+msgid "Class reference documentation"
+msgstr "مستندات مرجع کلاس"
+
+#: docs/en/section_one/page_two.md:9
+#, fuzzy
+msgid "The following should show the reference documentation for the `DocsTest` class, located in `docs_test.py`, in the `src/beeware_docs_tools` directory. This verifies that the source code directory symlinking is working properly."
+msgstr "دستور زیر باید مستندات مرجع کلاس `DocsTest` را که در دایرکتوری `docs_test.py` قرار دارد، نمایش دهد. این کار تأیید می‌کند که لینک‌سymbolی دایرکتوری‌های سورس کد به‌درستی کار می‌کند."
+
+#: docs/en/section_one/page_two.md:11
+#, fuzzy
+msgid "::: beeware_docs_tools.docs_test.DocsTest"
+msgstr "::: beeware_docs_tools.docs_test.DocsTest"
+
+#: docs/en/section_one/page_two.md:13
+#, fuzzy
+msgid "Macro functionality"
+msgstr "کارکرد ماکرو"
+
+#: docs/en/section_one/page_two.md:15
+#, fuzzy
+msgid "The following should say 'Brutus says \"Hello world!\"'. This confirms that global variables and macros defined via MkDocs-Macros are available."
+msgstr "خروجی زیر باید عبارت «Brutus می‌گوید \"Hello world!\"» را نمایش دهد. این تأیید می‌کند که متغیرهای سراسری و ماکروهای تعریف‌شده از طریق MkDocs-Macros در دسترس هستند."
+
+#: docs/en/section_one/page_two.md:17
+#, fuzzy
+msgid "{{ mascot_name }} says \"{{ say_hello() }}\""
+msgstr "{{ mascot_name }} می‌گوید «{{ say_hello() }}»"
+
+#: docs/en/section_three/index.md:1
+#, fuzzy
+msgid "BeeWare Docs Tools Demo section three"
+msgstr "بخش سوم دمو ابزارهای مستندسازی BeeWare"
+
+#: docs/en/section_three/index.md:3
+#, fuzzy
+msgid "This section and its children are included for sidebar scroll testing. Verify the scrollbar is navigable on smaller-height displays, that you can scroll the entire list (Page 01 - Page 12), and that it is not overlapping the footer."
+msgstr "این بخش و زیرمجموعه‌های آن برای آزمایش اسکرول نوار کناری در نظر گرفته شده‌اند. بررسی کنید نوار اسکرول در نمایشگرهای با ارتفاع کمتر قابل پیمایش باشد، بتوانید کل فهرست (صفحه ۰۱ – صفحه ۱۲) را اسکرول کنید و اینکه با فوتر تداخل نداشته باشد."
+
+#: docs/en/section_two/index.md:1
+#, fuzzy
+msgid "BeeWare Docs Tools Demo section two"
+msgstr "بخش دوم دمو ابزارهای مستندسازی BeeWare"
+
+#: docs/en/section_two/index.md:3
+#, fuzzy
+msgid "Images subdirectory"
+msgstr "زیرپوشهٔ تصاویر"
+
+#: docs/en/section_two/index.md:5
+#, fuzzy
+msgid "Build the French or German translation. The following should be a little Brutus the Bee."
+msgstr "مترجمۀ فرانسوی یا آلمانی را بسازید.   متن زیر باید کمی شبیه «بروتوس زنبور» باشد."
+
+#: docs/en/section_two/index.md:7
+#, fuzzy
+msgid "![Brutus the Bee]{1}"
+msgstr "![بروتوس زنبور]{1}"
+
+#: docs/en/section_two/index.md:9
+#, fuzzy
+msgid "The presence of the image in the French and German builds verifies that the images subdirectories are being properly symlinked for languages other than English."
+msgstr "وجود این تصویر در نسخه‌های فرانسوی و آلمانی تأیید می‌کند که زیرپوشه‌های تصاویر برای زبان‌های غیرانگلیسی به‌درستی با پیوند نمادین متصل شده‌اند."
+
+#: docs/en/section_two/index.md:11
+#, fuzzy
+msgid "`autoref` linking"
+msgstr "لینک‌گذاری"
+
+#: docs/en/section_two/index.md:13
+#, fuzzy
+msgid "The link provided here should take you to the [Heading font][heading-font] section of the main page. It is included to verify `autoref` linking."
+msgstr "لینک ارائه‌شده در اینجا باید شما را به بخش [Heading font][heading-font] صفحهٔ اصلی هدایت کند. این لینک برای تأیید پیوند `autoref` گنجانده شده است."

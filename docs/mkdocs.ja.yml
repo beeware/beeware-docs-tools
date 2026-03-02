@@ -1,0 +1,17 @@
+INHERIT: config.yml
+site_name: BeeWare ドキュメントツール
+site_url: https://beeware-docs-tools.readthedocs.io/ja/
+docs_dir: ja
+
+theme:
+  language: ja
+
+extra:
+  translation_type: machine
+  header:
+    About: について
+    Documentation: ドキュメント
+    Community: コミュニティ
+    Contributing: 寄稿
+    News: ニュース
+    Sponsor: スポンサー

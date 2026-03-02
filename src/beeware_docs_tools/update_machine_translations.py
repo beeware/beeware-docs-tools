@@ -142,7 +142,7 @@ def translate(client, path, language):
                 try:
                     translated = raw_trans.format(*tags)
                     fuzzy = True
-                except (KeyError, ValueError):
+                except (KeyError, ValueError, IndexError):
                     # DeepL sometimes fails to return {} unmodified. This breaks
                     # the substitution process, but it's near impossible to recover,
                     # so ignore the string and move on.

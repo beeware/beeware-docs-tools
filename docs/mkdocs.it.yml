@@ -1,0 +1,17 @@
+INHERIT: config.yml
+site_name: Strumenti di documentazione BeeWare
+site_url: https://beeware-docs-tools.readthedocs.io/it/
+docs_dir: it
+
+theme:
+  language: it
+
+extra:
+  translation_type: machine
+  header:
+    About: Informazioni
+    Documentation: Documentazione
+    Community: Comunità
+    Contributing: Contribuire
+    News: Notizie
+    Sponsor: Sponsor

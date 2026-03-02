@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-27 06:15+0000\n"
+"POT-Creation-Date: 2026-03-02 04:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.18.1\n"
+"X-Generator: Translate Toolkit 3.19.2\n"
 
 #: docs/en/SUMMARY.md:1
 #, fuzzy
@@ -38,7 +38,6 @@ msgid "[Section three]{1}"
 msgstr "[Section trois]{1}"
 
 #: docs/en/SUMMARY.md:5
-#, fuzzy
 msgid "./section_three/*"
 msgstr "./section_three/*"
 
@@ -653,8 +652,8 @@ msgstr "Cela confirme que la barre latérale s'affichera correctement sur les si
 
 #: docs/en/index.md:21
 #, fuzzy
-msgid "Heading font"
-msgstr "Police des titres"
+msgid "Heading font { #heading-font }"
+msgstr "Police du titre { #heading-font }"
 
 #: docs/en/index.md:23
 #, fuzzy
@@ -868,7 +867,6 @@ msgid "The following section should have only a header, and a paragraph with inl
 msgstr "La section suivante ne doit comporter qu'un en-tête et un paragraphe avec du code en ligne suivi d'un bloc de code. Il ne doit y avoir aucun texte entre le bloc de code et l'en-tête suivant. Cela permet de vérifier que l'extension externe include fonctionne avec les fichiers locaux."
 
 #: docs/en/section_one/index.md:13
-#, fuzzy
 msgid "-8<- \"include_content.md:local-content\""
 msgstr "-8<- \"include_content.md:local-content\""
 
@@ -985,4 +983,4 @@ msgstr "Liaison `autoref`"
 #: docs/en/section_two/index.md:13
 #, fuzzy
 msgid "The link provided here should take you to the [Heading font][heading-font] section of the main page. It is included to verify `autoref` linking."
-msgstr "Le lien fourni ici devrait vous amener à la section [Police des titres][police-des-titres] de la page principale. Il est inclus pour vérifier les liens `autoref`."
+msgstr "Le lien fourni ici devrait vous amener à la section [Police des titres][heading-font] de la page principale. Il est inclus pour vérifier les liens `autoref`."

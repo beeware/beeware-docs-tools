@@ -10,13 +10,13 @@ repos:
         exclude: "locales"
       - id: trailing-whitespace
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.14.14
+    rev: v0.15.4
     hooks:
       - id: ruff-check
         args: [ --fix ]
       - id: ruff-format
   - repo: https://github.com/rvben/rumdl-pre-commit
-    rev: v0.1.13
+    rev: v0.1.33
     hooks:
       - id: rumdl
         args: []

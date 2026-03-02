@@ -3,46 +3,40 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-27 06:15+0000\n"
-"PO-Revision-Date: 2026-02-20 11:09+0000\n"
-"Last-Translator: reducedradius <feixiang512@outlook.com>\n"
+"POT-Creation-Date: 2026-03-02 04:41+0000\n"
+"PO-Revision-Date: 2026-03-01 23:02+0000\n"
+"Last-Translator: John <johnzhou721@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.18.1\n"
+"X-Generator: Translate Toolkit 3.19.2\n"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/first-time-contributors.md:1
-#, fuzzy
 msgid "There may be a little voice inside your head that is telling you that you're not ready; that you need to do one more tutorial; that you aren't ready to be an open source contributor. After all, you're just a beginner. What could you possibly offer a project like BeeWare?"
 msgstr "你的脑海中可能有一个声音在告诉你，你还没有准备好；你还需要再做一个教程；你还没有准备好成为一个开源贡献者。毕竟，你只是个初学者。你能为 BeeWare 这样的项目提供什么呢？"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/first-time-contributors.md:3
-#, fuzzy
 msgid "I assure you - the little voice in your head is wrong. You can contribute code to open source, and to BeeWare."
-msgstr "我向您保证--您脑海中的声音是错误的。您可以为开放源代码和 BeeWare 贡献代码。"
+msgstr "我可以向你保证——你脑海里的声音是错的。你可以为开源贡献代码；这也包括 BeeWare。"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/first-time-contributors.md:5
-#, fuzzy
 msgid "Impostor syndrome"
-msgstr "冒名顶替综合症"
+msgstr "冒充者综合征"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/first-time-contributors.md:7
-#, fuzzy
 msgid "You're not the first person to have those thoughts, either. Even the members of the core team of this project have these thoughts from time to time. It's called \"impostor syndrome\", and it's a really common problem. The good news is - we're here to help you get over it."
-msgstr "你也不是第一个有这种想法的人。就连本项目的核心团队成员也时不时会有这种想法。这就是所谓的 \"冒名顶替综合症\"，是一个非常普遍的问题。好消息是，我们会帮助你克服它。"
+msgstr "你也不是第一次这样想的人——就连本项目的核心团队成员也时不时会这样想。这就是所谓的“冒充者综合症”，它也是一个非常普遍的问题。好消息是，我们可以帮你克服它。"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/first-time-contributors.md:9
-#, fuzzy
 msgid "This tutorial exists to make sure you know exactly what process you have to follow in order to make a contribution to BeeWare. In addition to these procedural instructions, this project has a Code of Conduct. This Code of Conduct is there to give you confidence that no matter what mistakes you make, you'll be treated with respect. Everyone makes mistakes - that's a natural part of learning. Our pledge to you is that we are here to help you learn, not to insult or belittle you for learning."
-msgstr "本教程旨在确保您清楚地了解为 BeeWare 投稿所需的程序。除了这些程序说明之外，本项目还有一个行为准则。该行为准则旨在让您相信，无论您犯了什么错误，您都会得到尊重。每个人都会犯错，这是学习的自然规律。我们向你们保证，我们是来帮助你们学习的，而不是因为你们学习而侮辱或贬低你们。"
+msgstr "本教程将会帮你熟悉向 BeeWare 贡献的具体流程。除了这些流程说明之外，BeeWare 还有一份行为准则，以向你确保无论你在贡献当中出了什么错误，你都会得到尊重。每个人都会犯错，这是学习中很正常的一部分。我们向你保证，我们会帮助你——而不会由于你正在学习而侮辱或贬低你。"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/first-time-contributors.md:11
-#, fuzzy
 msgid "You can't do any damage, either - either to your own computer, or to the project as a whole. BeeWare projects don't touch any part of your computer or operating system that could do any serious damage. Worst case, you'll end up with a couple of extra files on your hard drive, which can be easily deleted afterwards. And every contribution you submit to BeeWare is reviewed before it is integrated into the \"official\" project, and you'll get feedback to help you correct any problems that may exist."
-msgstr "您也不能对自己的电脑或整个项目造成任何损害。BeeWare项目不会对计算机或操作系统的任何部分造成严重破坏。最坏的情况是，您的硬盘上会多出几个文件，但事后可以轻松删除。此外，您提交给BeeWare的每一份贡献在整合到 \"正式 \"项目之前都会经过审核，您将获得反馈，帮助您纠正可能存在的问题。"
+msgstr "放心贡献——你也绝对不会对你的电脑造成任何伤害，贡献也不会破坏 BeeWare 项目本身。BeeWare 代码不会在你的电脑上做出任何可造成伤害的更改。最多只是你的硬盘上多出一些可以轻易删除的临时文件而已。此外，你提交给 BeeWare 的每一份贡献在合并到官方项目之前都会经过审核。同时你将获得反馈，以帮你纠正可能存在的问题。"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/first-time-contributors.md:13
 #, fuzzy
@@ -50,9 +44,8 @@ msgid "So - don't be afraid to contribute. If you've gotten this far, you've dem
 msgstr "所以，不要害怕做出贡献。如果你能走到这一步，就说明你有兴趣做出贡献，这就是你所需要的。我们可以帮助您走完剩下的路。"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/first-time-contributors.md:15
-#, fuzzy
 msgid "Every contribution matters"
-msgstr "每一份贡献都很重要"
+msgstr "所用贡献都有重要性"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/first-time-contributors.md:17
 #, fuzzy
@@ -137,14 +130,12 @@ msgid "You **must** have a Python {{ docs_python_version }} interpreter installe
 msgstr "您必须***在您的路径上安装了 Python {{ docs_python_version }} 解释器并可用（即 `python{{ docs_python_version }}` 必须启动 Python {{ docs_python_version }} 解释器）。"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:8
-#, fuzzy
 msgid "{{ formal_name }} uses `tox` for building documentation. The following `tox` commands must be run from the same location as the `tox.ini` file, which is in the root directory of the project."
-msgstr "{{ formal_name }} 使用 `tox` 编写文档。以下 `tox` 命令必须在与 `tox.ini` 文件相同的位置运行，即在项目的根目录下。"
+msgstr "{{ formal_name }} 使用 `tox` 构建文档。以下 `tox` 命令必须在与 `tox.ini` 文件相同的位置运行，也就是在项目的根目录下。"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:10
-#, fuzzy
 msgid "Live documentation preview"
-msgstr "实时文件预览"
+msgstr "实时文档预览"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:12
 #, fuzzy
@@ -187,9 +178,8 @@ msgid "Open a browser, and navigate to the URL provided. Now you can begin itera
 msgstr "打开浏览器，导航到提供的 URL。现在你可以开始迭代文档了。如果检测到更改，文档将被重建，任何查看修改后页面的浏览器都将自动刷新。"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:66
-#, fuzzy
 msgid "/// note | `docs-live` is an initial step"
-msgstr "/// note |docs-live \"是第一步"
+msgstr "/// note | `docs-live` 只是第一步"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:68
 #, fuzzy
@@ -197,9 +187,8 @@ msgid "Running `docs-live` to work with the live server is meant for initial ite
 msgstr "运行 \"docs-live \"来使用实时服务器是为了进行初始迭代。在提交拉取请求之前，您应该**运行本地构建。"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:72
-#, fuzzy
 msgid "Local build"
-msgstr "本地建设"
+msgstr "本地构建"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:74
 #, fuzzy
@@ -207,14 +196,12 @@ msgid "Once you're done iterating, you'll need to do a local build of the docume
 msgstr "完成迭代后，您需要对文档进行本地构建。如果出现任何标记问题，这个构建过程就会失败。这样，您就可以捕捉到在实时服务器上可能遗漏的任何内容。"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:76
-#, fuzzy
 msgid "Generating a local build"
 msgstr "生成本地构建"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:78
-#, fuzzy
 msgid "To generate a local build:"
-msgstr "生成本地构建："
+msgstr "若想要生成本地构建："
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:110
 #, fuzzy
@@ -311,7 +298,6 @@ msgid "Many BeeWare tools use [`towncrier`]{1} to assist in building the release
 msgstr "许多BeeWare工具都使用[`towncrier`]{1}来帮助为每个版本创建发布说明。当您向相关工具提交拉取请求时，需要包含*变更说明*--该变更说明将成为发行说明中描述变更的条目。"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/change-note.md:5
-#, fuzzy
 msgid "{% else %}"
 msgstr "{% else %}"
 
@@ -530,7 +516,6 @@ msgid "{% block install_macos_tool %}"
 msgstr "{% block install_macos_tool %}"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:187 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:201 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:213
-#, fuzzy
 msgid "{% endblock %}"
 msgstr "{% endblock %}"
 

@@ -26,12 +26,54 @@ extra:
     - name: English
       link: /en/
       lang: en
+    - name: العَرَبِيَّة
+      link: /ar/
+      lang: ar
+    - name: Čeština
+      link: /cs/
+      lang: cs
+    - name: Dansk
+      link: /da/
+      lang: da
     - name: Deutsch
       link: /de/
       lang: de
+    - name: Español
+      link: /es/
+      lang: es
+    - name: فارسی
+      link: /fa/
+      lang: fa
     - name: Français
       link: /fr/
       lang: fr
+    - name: Italiano
+      link: /it/
+      lang: it
+    - name: 日本語
+      link: /ja/
+      lang: ja
+    - name: 한국어
+      link: /ko/
+      lang: ko
+    - name: Polski
+      link: /pl/
+      lang: pl
+    - name: Português
+      link: /pt/
+      lang: pt
+    - name: Русский
+      link: /ru/
+      lang: ru
+    - name: Türkçe
+      link: /tr/
+      lang: tr
+    - name: 中文(简体)
+      link: /zh_CN/
+      lang: zh-Hant
+    - name: 中文(繁體)
+      link: /zh_TW/
+      lang: zh-TW
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/beeware

@@ -1,6 +1,6 @@
 [build-system]
 requires = [
-    "setuptools==80.10.2",
+    "setuptools==82.0.0",
     "autocalver",
 ]
 build-backend = "setuptools.build_meta"
@@ -24,25 +24,25 @@ maintainers = [
 
 dependencies = [
     "click==8.2.1",  # DO NOT UPGRADE - 8.3.0 breaks MkDocs live serve
-    "deepl==1.27.0",
+    "deepl==1.28.0",
     "griffe @ git+https://github.com/mkdocstrings/griffe@1fde0d2317c9098055ab313c8a0a992032194830", # Bullets in docstrings fix
     "markdown-checker==0.2.5",
     "mistletoe==1.5.1",
-    "mkdocs-autorefs==1.4.3",
+    "mkdocs-autorefs==1.4.4",
     "mkdocs-literate-nav==0.6.2",
     "mkdocs-macros-plugin==1.5.0",
-    "mkdocs-material==9.7.1",
+    "mkdocs-material==9.7.3",
     "mkdocs-rss-plugin==1.17.9",
     "mkdocs==1.6.1",
-    "mkdocstrings-python==2.0.1",
-    "pymdown-extensions==10.20.1",
+    "mkdocstrings-python==2.0.3",
+    "pymdown-extensions==10.21",
     "pyspelling==2.12.1",
     "python-Levenshtein==0.27.3",
     "PyYAML==6.0.3",
     "polib==1.2.0",
-    "ruff==0.14.14",
+    "ruff==0.15.4",
     "setuptools_scm==9.2.2",
-    "translate-toolkit==3.18.1",
+    "translate-toolkit==3.19.2",
 ]
 
 [dependency-groups]
@@ -53,7 +53,7 @@ pre-commit = [
 ]
 
 tox-uv = [
-    "tox-uv == 1.29.0",
+    "tox-uv == 1.33.0",
 ]
 
 wlc = [

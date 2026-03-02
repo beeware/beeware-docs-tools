@@ -1,0 +1,17 @@
+INHERIT: config.yml
+site_name: BeeWare Dokümanları Araçları
+site_url: https://beeware-docs-tools.readthedocs.io/tr/
+docs_dir: tr
+
+theme:
+  language: tr
+
+extra:
+  translation_type: machine
+  header:
+    About: Hakkında
+    Documentation: Belgeleme
+    Community: Topluluk
+    Contributing: Katkıda bulunan
+    News: Haberler
+    Sponsor: Sponsor

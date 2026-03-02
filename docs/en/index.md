@@ -18,7 +18,7 @@ The logo icon in the left sidebar has been rendered. The logo should be the widt
 
 This confirms the sidebar will render properly on the target sites.
 
-## Heading font
+## Heading font { #heading-font }
 
 Headings are rendered in Cutive. This confirms the BeeWare custom CSS theme has been applied.
 
