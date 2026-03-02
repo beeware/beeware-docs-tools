@@ -4,7 +4,7 @@ site_url: https://beeware-docs-tools.readthedocs.io/zh_TW/
 docs_dir: zh_TW
 
 theme:
-  language: zh-tw
+  language: zh-TW
 
 extra:
   translation_type: machine
