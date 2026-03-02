@@ -167,13 +167,16 @@ def main():
                 build_with_warnings=args.build_with_warnings,
             )
 
-        # If we've built EN, move the content into the root.
+        # If we've built EN, move the content into the root. The `en`` folder
+        # may contain an `en` folder; allow for that edge case by moving `en`
+        # to a safe location first.
         if "en" in args.language_code:
-            en_output = output / "en"
-            for path in en_output.iterdir():
+            en_orig = output / "en-nested"
+            shutil.move(output / "en", en_orig)
+            for path in en_orig.iterdir():
                 shutil.rmtree(output / path.name, ignore_errors=True)
                 shutil.move(path, output / path.name)
-            shutil.rmtree(en_output)
+            shutil.rmtree(en_orig)
 
 
 if __name__ == "__main__":
