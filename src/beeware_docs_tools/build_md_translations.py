@@ -167,9 +167,9 @@ def main():
                 build_with_warnings=args.build_with_warnings,
             )
 
-        # For every non-english language output: if there are language-folder
-        # redirects, remove those from the translated version.
         for lang in args.language_code:
+            # For every non-english language output: if there are language-folder
+            # redirects, remove those from the translated version.
             if lang != "en":
                 for redirect_lang in args.language_code:
                     lang_redirect = output / lang / redirect_lang
@@ -183,6 +183,12 @@ def main():
                         print("Prune", lang_redirect)
                         shutil.rmtree(lang_redirect)
 
+            # If a SUMMARY/index.md has been created, prune it as well.
+            summary = output / lang / "SUMMARY"
+            if summary.is_dir():
+                print("Prune", summary)
+                shutil.rmtree(summary)
+
         # If we've built EN, move the content into the root. The `en`` folder
         # may contain an `en` folder; allow for that edge case by moving `en`
         # to a safe location first.
@@ -195,6 +201,7 @@ def main():
                     shutil.copytree(path, output / path.name, dirs_exist_ok=True)
                 else:
                     print("Move", path, output / path.name)
+                    shutil.rmtree(output / path.name, ignore_errors=True)
                     shutil.move(path, output / path.name)
             print("Prune", en_orig)
             shutil.rmtree(en_orig)
