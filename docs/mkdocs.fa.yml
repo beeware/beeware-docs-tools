@@ -1,0 +1,17 @@
+INHERIT: config.yml
+site_name: ابزارهای اسناد BeeWare
+site_url: https://beeware-docs-tools.readthedocs.io/fa/
+docs_dir: fa
+
+theme:
+  language: fa
+
+extra:
+  translation_type: machine
+  header:
+    About: درباره
+    Documentation: مدارک
+    Community: جامعه
+    Contributing: مشارکت‌کننده
+    News: اخبار
+    Sponsor: حامی

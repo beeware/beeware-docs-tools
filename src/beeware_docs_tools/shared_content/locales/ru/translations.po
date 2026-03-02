@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-01 23:04+0000\n"
+"POT-Creation-Date: 2026-03-02 08:36+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.19.2\n"
+"X-Generator: Translate Toolkit 3.18.1\n"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/first-time-contributors.md:1
 #, fuzzy
@@ -697,7 +697,7 @@ msgstr "Представление отчета"
 #: src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:48
 #, fuzzy
 msgid "Navigate to the {% if config.extra.website %}project issues list{% else %}[{{ formal_name }} issues list](https://github.com/beeware/{{ project_name }}/issues){% endif %}, click the \"New issue\" button, and choose \"Bug report\" to begin the process."
-msgstr "Перейдите к списку проблем проекта {% if config.extra.website %}[список проблем](https://github.com/beeware/{% else %}/issues) {{ formal_name }}, нажмите кнопку «Новая проблема» и выберите «Сообщение об ошибке», чтобы начать процесс."
+msgstr "Перейдите к {% if config.extra.website %}списку проблем проекта{% else %}[{{ formal_name }} список проблем](https://github.com/beeware/{{ project_name }}/issues){% endif %}, нажмите кнопку «Новая проблема» и выберите «Сообщение об ошибке», чтобы начать процесс."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:50
 #, fuzzy

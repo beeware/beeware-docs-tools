@@ -1,0 +1,971 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-02 08:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.18.1\n"
+
+#: docs/en/SUMMARY.md:1
+#, fuzzy
+msgid "Section one"
+msgstr "第一節"
+
+#: docs/en/SUMMARY.md:1
+#, fuzzy
+msgid "[Section one]{1}"
+msgstr "[第一節]{1}"
+
+#: docs/en/SUMMARY.md:1
+#, fuzzy
+msgid "[Section one - page two]{1}"
+msgstr "[第一節 - 第二頁]{1}"
+
+#: docs/en/SUMMARY.md:4
+#, fuzzy
+msgid "[Section two]{1}"
+msgstr "[第二節]{1}"
+
+#: docs/en/SUMMARY.md:5
+#, fuzzy
+msgid "[Section three]{1}"
+msgstr "[第三節]{1}"
+
+#: docs/en/SUMMARY.md:5
+msgid "./section_three/*"
+msgstr "./section_three/*"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "Shared content testbed"
+msgstr "共享內容測試平台"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Shared content testbed]{1}"
+msgstr "[共享內容測試平台]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "How-to guides"
+msgstr "操作指南"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "Contribute"
+msgstr "貢獻"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Contributing]{1}"
+msgstr "[貢獻]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[First-time contributors]{1}"
+msgstr "[首次投稿者]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "What can I do?"
+msgstr "我能做什麼？"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Fix an issue]{1}"
+msgstr "[修復問題]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Implement a new feature]{1}"
+msgstr "[實作新功能]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Write documentation]{1}"
+msgstr "[撰寫文件]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Triage an issue]{1}"
+msgstr "[分級處理問題]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Review a pull request]{1}"
+msgstr "[審閱拉取請求]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Propose a new feature]{1}"
+msgstr "[提出新功能建議]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Translate content]{1}"
+msgstr "[翻譯內容]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Use the tools]{1}"
+msgstr "[使用工具]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "How do I contribute?"
+msgstr "我該如何貢獻？"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Setting up a development environment]{1}"
+msgstr "[設定開發環境]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Reproducing an issue]{1}"
+msgstr "[重現問題]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Working from a branch]{1}"
+msgstr "[從分支工作]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Avoiding scope creep]{1}"
+msgstr "[避免範圍蔓延]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Writing, running, and testing code]{1}"
+msgstr "[寫作、執行與測試程式碼]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Building documentation]{1}"
+msgstr "[建築文件]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Writing documentation]{1}"
+msgstr "[撰寫文件]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Adding a change note]{1}"
+msgstr "[新增變更說明]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Submitting a pull request]{1}"
+msgstr "[提交拉取請求]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Providing a review]{1}"
+msgstr "[提供評論]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Submitting a new issue]{1}"
+msgstr "[提交新問題]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Proposing a new feature]{1}"
+msgstr "[提案新增功能]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Translating content]{1}"
+msgstr "[翻譯內容]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "What happens next?"
+msgstr "接下來會發生什麼事？"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Pull request review process]{1}"
+msgstr "[拉取請求審查流程]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Release process]{1}"
+msgstr "[釋放流程]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "Style guides"
+msgstr "風格指南"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Code style guide]{1}"
+msgstr "[程式碼樣式指南]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Documentation style guide]{1}"
+msgstr "[文件風格指南]{1}"
+
+#: docs/en/about/releases.md:1
+#, fuzzy
+msgid "Place-holder file"
+msgstr "佔位符檔案"
+
+#: docs/en/about/releases.md:3
+#, fuzzy
+msgid "This file is included purely to satisfy the link in the `code_contribution_base.md` file. It is excluded from nav."
+msgstr "此檔案僅為滿足 `code_contribution_base.md` 檔案中的連結而包含。它被排除在導覽（nav）之外。"
+
+#: docs/en/content_test_bed/how-to/contribute/first-time-contributors.md:1
+#, fuzzy
+msgid "First-time contributors"
+msgstr "首次投稿者"
+
+#: docs/en/content_test_bed/how-to/contribute/first-time-contributors.md:3
+msgid "{% extends \"contribute/first-time-contributors.md\" %}"
+msgstr "{% extends \"contribute/first-time-contributors.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/branches.md:1
+#, fuzzy
+msgid "Work from a feature branch, not your `main` branch"
+msgstr "請從功能分支工作，而非您的 `main` 分支"
+
+#: docs/en/content_test_bed/how-to/contribute/how/branches.md:3
+msgid "{% extends \"contribute/how/branches.md\" %}"
+msgstr "{% extends \"contribute/how/branches.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/build-docs.md:1
+#, fuzzy
+msgid "Building documentation"
+msgstr "建築文件"
+
+#: docs/en/content_test_bed/how-to/contribute/how/build-docs.md:3
+msgid "{% extends \"contribute/how/build-docs.md\" %}"
+msgstr "{% extends \"contribute/how/build-docs.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/build-docs.md:5 docs/en/content_test_bed/how-to/contribute/how/reproduce-issue.md:5 docs/en/content_test_bed/how-to/contribute/how/write-code.md:5 docs/en/content_test_bed/how-to/contribute/how/write-docs.md:5
+msgid "{% block front_matter %}"
+msgstr "{% block front_matter %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/build-docs.md:7
+#, fuzzy
+msgid "Before you build the documentation, and have a [development environment]{1} set up."
+msgstr "在建立文件之前，請先設定好[開發環境]{1}。"
+
+#: docs/en/content_test_bed/how-to/contribute/how/build-docs.md:9 docs/en/content_test_bed/how-to/contribute/how/build-docs.md:15 docs/en/content_test_bed/how-to/contribute/how/propose-feature.md:9 docs/en/content_test_bed/how-to/contribute/how/reproduce-issue.md:9 docs/en/content_test_bed/how-to/contribute/how/reproduce-issue.md:15 docs/en/content_test_bed/how-to/contribute/how/submit-pr.md:17 docs/en/content_test_bed/how-to/contribute/how/write-code.md:9 docs/en/content_test_bed/how-to/contribute/how/write-code.md:15 docs/en/content_test_bed/how-to/contribute/how/write-docs.md:9 docs/en/content_test_bed/how-to/contribute/how/write-docs.md:15
+msgid "{% endblock %}"
+msgstr "{% endblock %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/build-docs.md:11 docs/en/content_test_bed/how-to/contribute/how/propose-feature.md:5 docs/en/content_test_bed/how-to/contribute/how/reproduce-issue.md:11 docs/en/content_test_bed/how-to/contribute/how/submit-pr.md:5 docs/en/content_test_bed/how-to/contribute/how/write-code.md:11 docs/en/content_test_bed/how-to/contribute/how/write-docs.md:11
+msgid "{% block end_matter %}"
+msgstr "{% block end_matter %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/build-docs.md:13
+#, fuzzy
+msgid "Once you have successfully built the docs, you are ready to [write documentation]{1}."
+msgstr "成功建立文件後，您便準備好[撰寫文件]了。"
+
+#: docs/en/content_test_bed/how-to/contribute/how/change-note.md:1
+#, fuzzy
+msgid "Adding change information for release notes"
+msgstr "為發行說明新增變更資訊"
+
+#: docs/en/content_test_bed/how-to/contribute/how/change-note.md:3
+msgid "{% extends \"contribute/how/change-note.md\" %}"
+msgstr "{% extends \"contribute/how/change-note.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/dev-environment.md:1
+#, fuzzy
+msgid "Setting up a development environment"
+msgstr "建立開發環境"
+
+#: docs/en/content_test_bed/how-to/contribute/how/dev-environment.md:3
+msgid "{% extends \"contribute/how/dev-environment.md\" %}"
+msgstr "{% extends \"contribute/how/dev-environment.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/new-issue.md:1
+#, fuzzy
+msgid "Submitting a new issue"
+msgstr "提交新問題"
+
+#: docs/en/content_test_bed/how-to/contribute/how/new-issue.md:3
+msgid "{% extends \"contribute/how/new-issue.md\" %}"
+msgstr "{% extends \"contribute/how/new-issue.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/propose-feature.md:1 docs/en/content_test_bed/how-to/contribute/what/propose-feature.md:1
+#, fuzzy
+msgid "Proposing a new feature"
+msgstr "提出新功能"
+
+#: docs/en/content_test_bed/how-to/contribute/how/propose-feature.md:3
+msgid "{% extends \"contribute/how/propose-feature.md\" %}"
+msgstr "{% extends \"contribute/how/propose-feature.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/propose-feature.md:7
+#, fuzzy
+msgid "If you are interested, you can begin [implementing your new feature]{1}."
+msgstr "若您有興趣，可開始[實作您的新功能]{1}。"
+
+#: docs/en/content_test_bed/how-to/contribute/how/reproduce-issue.md:1
+#, fuzzy
+msgid "Reproducing an issue"
+msgstr "重現問題"
+
+#: docs/en/content_test_bed/how-to/contribute/how/reproduce-issue.md:3
+msgid "{% extends \"contribute/how/reproduce-issue.md\" %}"
+msgstr "{% extends \"contribute/how/reproduce-issue.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/reproduce-issue.md:7
+#, fuzzy
+msgid "To begin reproducing an issue, you will need a [development environment]{1} set up."
+msgstr "要開始重現問題，您需要建立一個[開發環境]{1}。"
+
+#: docs/en/content_test_bed/how-to/contribute/how/reproduce-issue.md:13
+#, fuzzy
+msgid "At this point, you might choose to try to [fix the issue]{1} you've just reproduced; alternatively, you can write up your findings and try to reproduce another issue."
+msgstr "此時，您可選擇嘗試[修復剛才重現的問題]{1}；或者，您也可以記錄您的發現，並嘗試重現另一個問題。"
+
+#: docs/en/content_test_bed/how-to/contribute/how/review-pr.md:1 docs/en/content_test_bed/how-to/contribute/what/review-pr.md:1
+#, fuzzy
+msgid "Providing a pull request review"
+msgstr "提供拉取請求審查"
+
+#: docs/en/content_test_bed/how-to/contribute/how/review-pr.md:3
+msgid "{% extends \"contribute/how/review-pr.md\" %}"
+msgstr "{% extends \"contribute/how/review-pr.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/scope-creep.md:1
+#, fuzzy
+msgid "Avoiding scope creep"
+msgstr "避免範圍蔓延"
+
+#: docs/en/content_test_bed/how-to/contribute/how/scope-creep.md:3
+msgid "{% extends \"contribute/how/scope-creep.md\" %}"
+msgstr "{% extends \"contribute/how/scope-creep.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/submit-pr.md:1
+#, fuzzy
+msgid "Submitting a pull request"
+msgstr "提交拉取請求"
+
+#: docs/en/content_test_bed/how-to/contribute/how/submit-pr.md:3
+msgid "{% extends \"contribute/how/submit-pr.md\" %}"
+msgstr "{% extends \"contribute/how/submit-pr.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/submit-pr.md:7
+msgid "{% if config.extra.website %}"
+msgstr "{% if config.extra.website %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/submit-pr.md:9
+#, fuzzy
+msgid "Your pull request may require additional content, such as a [change note]{1}, before it can be [reviewed]{2}."
+msgstr "您的拉取請求可能需要補充內容（例如[變更說明]），方能進行[審查]。"
+
+#: docs/en/content_test_bed/how-to/contribute/how/submit-pr.md:11
+msgid "{% else %}"
+msgstr "{% else %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/submit-pr.md:13
+#, fuzzy
+msgid "As part of submitting a pull request, you'll need to include a [change note]{1} before it can be [reviewed]{2}."
+msgstr "提交拉取請求時，您需附上[變更說明]，方能進入[審查]流程。"
+
+#: docs/en/content_test_bed/how-to/contribute/how/submit-pr.md:15 docs/en/index.md:102 docs/en/index.md:112 docs/en/index.md:122
+msgid "{% endif %}"
+msgstr "{% endif %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/translate.md:1 docs/en/content_test_bed/how-to/contribute/what/translate.md:1
+#, fuzzy
+msgid "Translating content"
+msgstr "翻譯內容"
+
+#: docs/en/content_test_bed/how-to/contribute/how/translate.md:3
+msgid "{% extends \"contribute/how/translate.md\" %}"
+msgstr "{% extends \"contribute/how/translate.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/write-code.md:1
+#, fuzzy
+msgid "Writing, running, and testing code"
+msgstr "編寫、執行與測試程式碼"
+
+#: docs/en/content_test_bed/how-to/contribute/how/write-code.md:3
+msgid "{% extends \"contribute/how/write-code.md\" %}"
+msgstr "{% extends \"contribute/how/write-code.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/write-code.md:7
+#, fuzzy
+msgid "To begin working on code, ensure you have a [development environment]{1} set up, and you are [working on a branch]{2}"
+msgstr "開始編寫程式碼前，請確保已建立好[開發環境]{1}，並在[工作分支上進行開發]{2}。"
+
+#: docs/en/content_test_bed/how-to/contribute/how/write-code.md:13
+#, fuzzy
+msgid "Once you have everything working, you can [submit a pull request]{1} with your changes."
+msgstr "當您完成所有設定後，即可[提交拉取請求]{1}以提交您的變更。"
+
+#: docs/en/content_test_bed/how-to/contribute/how/write-docs.md:1
+#, fuzzy
+msgid "Writing documentation"
+msgstr "撰寫文件"
+
+#: docs/en/content_test_bed/how-to/contribute/how/write-docs.md:3
+msgid "{% extends \"contribute/how/write-docs.md\" %}"
+msgstr "{% extends \"contribute/how/write-docs.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/write-docs.md:7
+#, fuzzy
+msgid "Before you begin writing documentation, ensure you are able to [build the documentation]{1}, and you are [working on a branch]{2}."
+msgstr "在開始撰寫文件之前，請確保您能夠[建立文件]{1}，並且您正在[工作於分支上]{2}。"
+
+#: docs/en/content_test_bed/how-to/contribute/how/write-docs.md:13
+#, fuzzy
+msgid "Once you are happy with your new documentation, you can [submit a pull request]{1} with your proposed changes."
+msgstr "當您對新文件感到滿意後，即可[提交拉取請求]{1}，附上您建議的修改內容。"
+
+#: docs/en/content_test_bed/how-to/contribute/index.md:1
+#, fuzzy
+msgid "Contributing to {{ formal_name }}"
+msgstr "貢獻於 {{ formal_name }}"
+
+#: docs/en/content_test_bed/how-to/contribute/index.md:3
+msgid "{% extends \"contribute/index.md\" %}"
+msgstr "{% extends \"contribute/index.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/next/pr-review.md:1
+#, fuzzy
+msgid "Receiving a pull request review"
+msgstr "接收拉取請求審查"
+
+#: docs/en/content_test_bed/how-to/contribute/next/pr-review.md:3
+msgid "{% extends \"contribute/next/pr-review.md\" %}"
+msgstr "{% extends \"contribute/next/pr-review.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/next/release.md:1
+#, fuzzy
+msgid "The release process"
+msgstr "釋放流程"
+
+#: docs/en/content_test_bed/how-to/contribute/next/release.md:3
+msgid "{% extends \"contribute/next/release.md\" %}"
+msgstr "{% extends \"contribute/next/release.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/style/code-style-guide.md:1
+#, fuzzy
+msgid "Code style guide"
+msgstr "程式碼樣式指南"
+
+#: docs/en/content_test_bed/how-to/contribute/style/code-style-guide.md:3
+msgid "{% extends \"contribute/style/code-style-guide.md\" %}"
+msgstr "{% extends \"contribute/style/code-style-guide.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/style/docs-style-guide.md:1
+#, fuzzy
+msgid "Documentation style guide"
+msgstr "文件風格指南"
+
+#: docs/en/content_test_bed/how-to/contribute/style/docs-style-guide.md:3
+msgid "{% extends \"contribute/style/docs-style-guide.md\" %}"
+msgstr "{% extends \"contribute/style/docs-style-guide.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/what/fix-issue.md:1
+#, fuzzy
+msgid "Fixing an issue"
+msgstr "修復問題"
+
+#: docs/en/content_test_bed/how-to/contribute/what/fix-issue.md:3
+msgid "{% extends \"contribute/what/fix-issue.md\" %}"
+msgstr "{% extends \"contribute/what/fix-issue.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/what/implement-feature.md:1
+#, fuzzy
+msgid "Implementing a new feature"
+msgstr "實作新功能"
+
+#: docs/en/content_test_bed/how-to/contribute/what/implement-feature.md:3
+msgid "{% extends \"contribute/what/implement-feature.md\" %}"
+msgstr "{% extends \"contribute/what/implement-feature.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/what/propose-feature.md:3
+msgid "{% extends \"contribute/what/propose-feature.md\" %}"
+msgstr "{% extends \"contribute/what/propose-feature.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/what/review-pr.md:3
+msgid "{% extends \"contribute/what/review-pr.md\" %}"
+msgstr "{% extends \"contribute/what/review-pr.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/what/translate.md:3
+msgid "{% extends \"contribute/what/translate.md\" %}"
+msgstr "{% extends \"contribute/what/translate.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/what/triage.md:1
+#, fuzzy
+msgid "Triaging an issue"
+msgstr "問題分級處理"
+
+#: docs/en/content_test_bed/how-to/contribute/what/triage.md:3
+msgid "{% extends \"contribute/what/triage.md\" %}"
+msgstr "{% extends \"contribute/what/triage.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/what/use-tools.md:1
+#, fuzzy
+msgid "Using the tools"
+msgstr "使用工具"
+
+#: docs/en/content_test_bed/how-to/contribute/what/use-tools.md:3
+msgid "{% extends \"contribute/what/use-tools.md\" %}"
+msgstr "{% extends \"contribute/what/use-tools.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/what/write-docs.md:1
+#, fuzzy
+msgid "Adding documentation"
+msgstr "新增文件"
+
+#: docs/en/content_test_bed/how-to/contribute/what/write-docs.md:3
+msgid "{% extends \"contribute/what/write-docs.md\" %}"
+msgstr "{% extends \"contribute/what/write-docs.md\" %}"
+
+#: docs/en/content_test_bed/index.md:1
+#, fuzzy
+msgid "Shared content test bed"
+msgstr "共享內容測試平台"
+
+#: docs/en/content_test_bed/index.md:3
+#, fuzzy
+msgid "This section is included for the purposes of verifying the shared content provided from this repo for use in the rest of the BeeWare documentation. \"Shared content\" refers to documents or sections of documents that are common to multiple other repos. They are stored here for inclusion across those repos. This means there is a single source when updates are required, and that change will populate across all repos using that shared content."
+msgstr "本節旨在驗證由本儲存庫提供的共享內容，以供 BeeWare 文件其他部分使用。「共享內容」指的是多個其他儲存庫共用的文件或文件段落。這些內容儲存於此處，以便在各儲存庫中進行整合。這意味著當需要更新時，僅需修改單一來源，變更便會自動同步至所有使用該共享內容的儲存庫。"
+
+#: docs/en/content_test_bed/index.md:5
+#, fuzzy
+msgid "If you are updating existing content, the following steps are not necessary. You can simply build the test site, and see your updates rendered."
+msgstr "若您正在更新現有內容，則無需執行以下步驟。您只需建立測試網站，即可查看更新內容的呈現效果。"
+
+#: docs/en/content_test_bed/index.md:7
+#, fuzzy
+msgid "If you are creating a new shared documentation file in the `shared-content` directory, that is NOT meant to be included in the `how-to` directory, complete the following:"
+msgstr "若您正在 `shared-content` 目錄中建立新的共享文件檔案，且該檔案不應包含在 `how-to` 目錄中，請完成以下步驟："
+
+#: docs/en/content_test_bed/index.md:9
+#, fuzzy
+msgid "Create a file in the `content_test_bed` that is the same filename as your new content file, with \"_include\" appended to the end."
+msgstr "在 `content_test_bed` 目錄中建立一個與新內容檔案同名的檔案，並在檔案名稱末尾附加「_include」。"
+
+#: docs/en/content_test_bed/index.md:9
+#, fuzzy
+msgid "For `style_guide.md`, you would add `style_guide_include.md`."
+msgstr "對於 `style_guide.md`, 您需要添加 `style_guide_include.md`."
+
+#: docs/en/content_test_bed/index.md:11
+#, fuzzy
+msgid "Using the Snippets syntax, add the filename to `filename_include.md`. The Snippets syntax for including content is `-8<- \"filename.md\"`."
+msgstr "使用片段語法時，請將檔案名稱加入 `filename_include.md` 中。片段語法中用於包含內容的結構為 `-8<- \"filename.md\"`。"
+
+#: docs/en/content_test_bed/index.md:11
+#, fuzzy
+msgid "For `style_guide.md`, you would add `-8<- \"style_guide.md\"` to `style_guide_include.md`."
+msgstr "對於 `style_guide.md`, 您需要在 `-8<- \"style_guide.md\"` 中添加 `style_guide_include.md`。"
+
+#: docs/en/content_test_bed/index.md:13
+#, fuzzy
+msgid "Update the `Shared content test bed` section in `/docs/SUMMARY.md` to include the new `_include` file and path, at the same indentation level as the other items in that section."
+msgstr "請更新 `Shared content test bed` 區段中的 `/docs/SUMMARY.md` 部分，加入新的 `_include` 檔案與路徑，並保持與該區段中其他項目相同的縮排層級。"
+
+#: docs/en/content_test_bed/index.md:13
+#, fuzzy
+msgid "For `style_guide_include.md`, you would add `- [Style guide](content_test_bed/style_guide_include.md)`."
+msgstr "對於 `style_guide_include.md`，您需要添加 `- [Style guide](content_test_bed/style_guide_include.md)`。"
+
+#: docs/en/content_test_bed/index.md:16
+#, fuzzy
+msgid "Once these steps are completed, you can build the test site and view your new documentation rendered."
+msgstr "完成這些步驟後，您即可建立測試網站並檢視新文件的呈現效果。"
+
+#: docs/en/index.md:1
+#, fuzzy
+msgid "Docs Tools Demo"
+msgstr "文件工具示範"
+
+#: docs/en/index.md:3
+#, fuzzy
+msgid "Theme checklist"
+msgstr "主題檢查清單"
+
+#: docs/en/index.md:5
+#, fuzzy
+msgid "This demo is designed to test the various features of the BeeWare MkDocs Material theme overrides. Please read through and verify that everything listed on this and the following pages is present and functioning as detailed in the description."
+msgstr "此示範旨在測試 BeeWare MkDocs Material 主題覆寫的各項功能。請仔細閱讀並確認本頁及後續頁面所列的所有項目均存在且運作如說明所述。"
+
+#: docs/en/index.md:7
+#, fuzzy
+msgid "Titlebar"
+msgstr "標題列"
+
+#: docs/en/index.md:9
+#, fuzzy
+msgid "A medium-gray titlebar is on the page. This the theme template has been applied."
+msgstr "頁面顯示中灰色標題列。此主題範本已套用。"
+
+#: docs/en/index.md:11
+#, fuzzy
+msgid "Header icon"
+msgstr "頁首圖示"
+
+#: docs/en/index.md:13
+#, fuzzy
+msgid "The header icon top-left has been rendered. This confirms the template can reference external resources."
+msgstr "左上角的頁首圖示已完成渲染。這確認了該範本可引用外部資源。"
+
+#: docs/en/index.md:15
+#, fuzzy
+msgid "Homepage sidebar icon"
+msgstr "首頁側邊欄圖示"
+
+#: docs/en/index.md:17
+#, fuzzy
+msgid "The logo icon in the left sidebar has been rendered. The logo should be the width of, and of equal height to, the sidebar. The site title should be rendered below it in slightly larger font than the rest of the sidebar, with the version number below it in smaller font."
+msgstr "左側邊欄的標誌圖示已完成渲染。標誌寬度應與邊欄相同，高度亦需與邊欄等高。網站標題應以略大於邊欄其他文字的字型顯示於標誌下方，版本號則以較小字型置於標題下方。"
+
+#: docs/en/index.md:19
+#, fuzzy
+msgid "This confirms the sidebar will render properly on the target sites."
+msgstr "這確認側邊欄將在目標網站上正確顯示。"
+
+#: docs/en/index.md:21
+#, fuzzy
+msgid "Heading font"
+msgstr "標題字體"
+
+#: docs/en/index.md:23
+#, fuzzy
+msgid "Headings are rendered in Cutive. This confirms the BeeWare custom CSS theme has been applied."
+msgstr "標題以斜體呈現。這確認了 BeeWare 自訂 CSS 主題已成功套用。"
+
+#: docs/en/index.md:25
+#, fuzzy
+msgid "Inline code"
+msgstr "內嵌程式碼"
+
+#: docs/en/index.md:27
+#, fuzzy
+msgid "Inline code is rendered in the same color as the surrounding font. This confirms that the theme has not caused any undesired changes."
+msgstr "內嵌程式碼會以與周圍字體相同的顏色呈現。這確認了主題並未造成任何不必要的變更。"
+
+#: docs/en/index.md:29
+#, fuzzy
+msgid "This is text with `inline code` here and `inline code` here."
+msgstr "此處為包含 `inline code` 的文字，此處亦包含 `inline code`。"
+
+#: docs/en/index.md:31
+#, fuzzy
+msgid "Tabbed content code"
+msgstr "分頁式內容程式碼"
+
+#: docs/en/index.md:33
+#, fuzzy
+msgid "Code is in a contrasting color to the background. Copy button should copy only the commands; the prompt should not be included."
+msgstr "程式碼採用與背景色對比的顏色。複製按鈕應僅複製指令內容，不包含提示符。"
+
+#: docs/en/index.md:35
+#, fuzzy
+msgid "This confirms that the theme has not caused any undesired changes, as well as whether the copy button is working as expected."
+msgstr "這確認了主題並未造成任何不必要的變更，同時也驗證了複製按鈕是否如預期般運作。"
+
+#: docs/en/index.md:37
+msgid "/// tab | macOS"
+msgstr "/// tab | macOS"
+
+#: docs/en/index.md:43 docs/en/index.md:51 docs/en/index.md:59 docs/en/index.md:100 docs/en/index.md:110 docs/en/index.md:120
+msgid "///"
+msgstr "///"
+
+#: docs/en/index.md:45
+msgid "/// tab | Linux"
+msgstr "/// tab | Linux"
+
+#: docs/en/index.md:53
+msgid "/// tab | Windows"
+msgstr "/// tab | Windows"
+
+#: docs/en/index.md:61
+#, fuzzy
+msgid "Code copy button behavior"
+msgstr "程式碼複製按鈕行為"
+
+#: docs/en/index.md:63
+#, fuzzy
+msgid "The copy button on the following codeblock should result in `from pathlib import Path` being copied to the clipboard."
+msgstr "以下程式碼區塊中的複製按鈕應將 `from pathlib import Path` 複製到剪貼簿。"
+
+#: docs/en/index.md:69
+#, fuzzy
+msgid "The copy button on the following codeblock should result in `ls beeware-docs-tools` being copied to the clipboard. The shell prompt and the output should not be included."
+msgstr "以下程式碼區塊中的複製按鈕應將 `ls beeware-docs-tools` 複製至剪貼簿。請勿包含命令提示字元及輸出內容。"
+
+#: docs/en/index.md:78
+#, fuzzy
+msgid "Sidebar links"
+msgstr "側邊欄連結"
+
+#: docs/en/index.md:80
+#, fuzzy
+msgid "Sidebar links exist, and point to the `beeware-docs-tools` repo. This confirms that the sidebar content has been loaded, and the `project-name` has been set in the MkDocs configuration file, and the version number is computed and added."
+msgstr "側邊欄連結存在，且指向 `beeware-docs-tools` 儲存庫。這確認了側邊欄內容已載入，且 `project-name` 已在 MkDocs 設定檔中設定，同時版本號碼已計算並加入。"
+
+#: docs/en/index.md:82
+#, fuzzy
+msgid "Link colors"
+msgstr "連結顏色"
+
+#: docs/en/index.md:84
+#, fuzzy
+msgid "This link to [the main BeeWare website]{1} should be blue in *both* light mode and dark mode."
+msgstr "此連結至 [BeeWare 主要網站]{1} 的文字，無論在淺色模式或深色模式下，都應呈現藍色。"
+
+#: docs/en/index.md:86
+#, fuzzy
+msgid "The links in the left and right sidebars should also be blue in both modes."
+msgstr "左右側邊欄的連結在兩種模式下也應呈現藍色。"
+
+#: docs/en/index.md:88
+#, fuzzy
+msgid "When scrolling down the page, the active header link in the right sidebar should be light blue in dark mode, and darker blue in light mode."
+msgstr "當向下滾動頁面時，右側邊欄中的活動標題連結在深色模式下應顯示為淺藍色，而在淺色模式下則應顯示為深藍色。"
+
+#: docs/en/index.md:90
+#, fuzzy
+msgid "Translation admonition"
+msgstr "翻譯告誡"
+
+#: docs/en/index.md:92
+#, fuzzy
+msgid "The English-language version of this document should show the \"Translations are available\" admonition below. The French translation should show the \"This is a machine translation!\" admonition. The German translation should show the \"This is a translation!\" admonition for human translations."
+msgstr "本文件的英文版本應顯示下方「提供翻譯版本」的提示。法文翻譯版本應顯示「此為機器翻譯！」的提示。德文翻譯版本應顯示「此為人工翻譯！」的提示。"
+
+#: docs/en/index.md:94
+msgid "{% if config.extra.translation_type == \"original\" %}"
+msgstr "{% if config.extra.translation_type == \"original\" %}"
+
+#: docs/en/index.md:96
+#, fuzzy
+msgid "/// admonition | Translations are available"
+msgstr "/// admonition | 提供翻譯服務"
+
+#: docs/en/index.md:98
+#, fuzzy
+msgid "If you're not comfortable with English, translations of the Docs Tools are available in [Français]{1} and [Deutsch]{2}."
+msgstr "若您對英文感到不自在，文件工具提供[法文]{1}與[德文]{2}的翻譯版本。"
+
+#: docs/en/index.md:104
+msgid "{% if config.extra.translation_type == \"machine\" %}"
+msgstr "{% if config.extra.translation_type == \"machine\" %}"
+
+#: docs/en/index.md:106
+#, fuzzy
+msgid "/// admonition | This is a machine translation!"
+msgstr "/// admonition | 這是機器翻譯！"
+
+#: docs/en/index.md:108
+#, fuzzy
+msgid "This version of the tutorial has been generated by machine translation. We know this isn't ideal, but we felt that a bad translation was better than no translation at all."
+msgstr "本教學指南版本由機器翻譯生成。我們明白這並非理想方案，但認為劣質翻譯仍勝於毫無翻譯。"
+
+#: docs/en/index.md:114
+msgid "{% if config.extra.translation_type == \"human\" %}"
+msgstr "{% if config.extra.translation_type == \"human\" %}"
+
+#: docs/en/index.md:116
+#, fuzzy
+msgid "/// admonition | This is a translation!"
+msgstr "/// admonition | 這是翻譯！"
+
+#: docs/en/index.md:118
+#, fuzzy
+msgid "This document is a translation of the English version. The translation has been reviewed by humans, but newer sections may be generated by machine translation, or not translated at all."
+msgstr "本文件為英文版本之翻譯。翻譯內容經人工審閱，但較新段落可能由機器翻譯生成，或未經翻譯。"
+
+#: docs/en/index.md:124
+#, fuzzy
+msgid "Custom 404 page"
+msgstr "自訂 404 頁面"
+
+#: docs/en/index.md:126
+#, fuzzy
+msgid "Add `nopage` to the end of the URL in your browser to verify the 404 page exists, and includes the text \"Brutus can't find what you're looking for\". The current 404 page does not always render the images due to an issue with MkDocs."
+msgstr "在瀏覽器網址列的末尾添加 `nopage` 以驗證 404 頁面是否存在，並確認其包含文字「Brutus 無法找到您要的內容」。由於 MkDocs 的問題，當前 404 頁面並非總是能正確顯示圖片。"
+
+#: docs/en/index.md:128
+#, fuzzy
+msgid "*MkDocs builds fail with unrecognized internal links, so you need to manually verify this check by modifying the URL in your browser.*"
+msgstr "*MkDocs 因無法識別內部連結而導致建置失敗，因此您需要手動修改瀏覽器中的網址以驗證此檢查機制。*"
+
+#: docs/en/index.md:130
+#, fuzzy
+msgid "Next checks"
+msgstr "後續檢查"
+
+#: docs/en/index.md:132
+#, fuzzy
+msgid "The following link should take you to BeeWare Docs Tools Demo Section One. It is included to verify cross-page linking."
+msgstr "以下連結應可引導您前往 BeeWare Docs 工具示範區段一。此連結旨在驗證跨頁面連結功能。"
+
+#: docs/en/index.md:134
+#, fuzzy
+msgid "Navigate to [BeeWare Docs Tools Demo Section One]{1} for the next checks."
+msgstr "請前往 [BeeWare 文檔工具示範區段一]{1} 進行後續檢查。"
+
+#: docs/en/section_one/index.md:1
+#, fuzzy
+msgid "BeeWare Docs Tools Demo section one"
+msgstr "BeeWare 文檔工具 示範區段一"
+
+#: docs/en/section_one/index.md:3
+#, fuzzy
+msgid "Non-homepage sidebar logo"
+msgstr "非首頁側邊欄標誌"
+
+#: docs/en/section_one/index.md:5
+#, fuzzy
+msgid "The logo icon in the left sidebar should be small on all pages other than the homepage. The site title and version number should be rendered next to it with the site title in slightly larger font, and the version number in smaller font."
+msgstr "左側邊欄的標誌圖示在首頁以外的所有頁面應採用小尺寸顯示。網站標題與版本號應並列呈現於標誌旁，其中網站標題使用稍大字型，版本號則採用較小字型。"
+
+#: docs/en/section_one/index.md:7
+#, fuzzy
+msgid "This verifies that the theme is being properly applied."
+msgstr "這驗證了主題已正確套用。"
+
+#: docs/en/section_one/index.md:9
+#, fuzzy
+msgid "Include external markdown from a local file"
+msgstr "包含來自本機檔案的外部標記語言"
+
+#: docs/en/section_one/index.md:11
+#, fuzzy
+msgid "The following section should have only a header, and a paragraph with inline code followed by a code block. There should be no text between the code block and the next header. This verifies that the external include extension is working with local files."
+msgstr "以下段落應僅包含標題、一段內嵌程式碼，以及緊接其後的程式碼區塊。程式碼區塊與下一個標題之間不得有任何文字。此設計用於驗證外部包含擴充功能能否與本地檔案正常運作。"
+
+#: docs/en/section_one/index.md:13
+msgid "-8<- \"include_content.md:local-content\""
+msgstr "-8<- \"include_content.md:local-content\""
+
+#: docs/en/section_one/index.md:15
+#, fuzzy
+msgid "Include external markdown from a URL"
+msgstr "包含來自 URL 的外部 Markdown"
+
+#: docs/en/section_one/index.md:17
+#, fuzzy
+msgid "The following section should have only a header, some text and a Markdown list. This verifies that the external include extension is working, and that `url_download` is enabled."
+msgstr "以下段落應僅包含標題、部分文字及 Markdown 清單。此處用以驗證外部包含擴充功能是否正常運作，以及 `url_download` 是否已啟用。"
+
+#: docs/en/section_one/index.md:21
+#, fuzzy
+msgid "-8<- https://raw.githubusercontent.com/beeware/beeware-docs-tools/refs/heads/main/docs/include_content.md:remote-content -8<-"
+msgstr "-8<- https://raw.githubusercontent.com/beeware/beeware-docs-tools/refs/heads/main/docs/include_content.md:remote-content -8<-"
+
+#: docs/en/section_one/index.md:27
+#, fuzzy
+msgid "Footer navigation"
+msgstr "頁尾導航"
+
+#: docs/en/section_one/index.md:29
+#, fuzzy
+msgid "Navigate to *Section One - Page Two* for the final check."
+msgstr "請前往*第一部分 - 第二頁*進行最終檢查。"
+
+#: docs/en/section_one/page_two.md:1
+#, fuzzy
+msgid "BeeWare Docs Tools Demo section one: page two"
+msgstr "BeeWare 文檔工具示範區段一：第二頁"
+
+#: docs/en/section_one/page_two.md:3
+#, fuzzy
+msgid "Footer and navigation links"
+msgstr "頁尾與導覽連結"
+
+#: docs/en/section_one/page_two.md:5
+#, fuzzy
+msgid "Navigation should render at the bottom of the page; \"BeeWare Docs Tools Demo Section One\" should be on the left, \"Section Two\" should be on the right. The footer should be below the navigation links. This confirms the theme configuration has been applied."
+msgstr "導覽列應顯示於頁面底部；「BeeWare Docs Tools 示範區段一」應置於左側，「區段二」應置於右側。頁尾應位於導覽連結下方。此配置確認主題設定已成功套用。"
+
+#: docs/en/section_one/page_two.md:7
+#, fuzzy
+msgid "Class reference documentation"
+msgstr "類別參考文件"
+
+#: docs/en/section_one/page_two.md:9
+#, fuzzy
+msgid "The following should show the reference documentation for the `DocsTest` class, located in `docs_test.py`, in the `src/beeware_docs_tools` directory. This verifies that the source code directory symlinking is working properly."
+msgstr "以下內容應顯示位於 `DocsTest` 目錄中 `docs_test.py` 類別的參考文件。此操作可驗證源代碼目錄的符號連結功能運作正常。"
+
+#: docs/en/section_one/page_two.md:11
+#, fuzzy
+msgid "::: beeware_docs_tools.docs_test.DocsTest"
+msgstr "::: beeware_docs_tools.docs_test.DocsTest"
+
+#: docs/en/section_one/page_two.md:13
+#, fuzzy
+msgid "Macro functionality"
+msgstr "巨集功能"
+
+#: docs/en/section_one/page_two.md:15
+#, fuzzy
+msgid "The following should say 'Brutus says \"Hello world!\"'. This confirms that global variables and macros defined via MkDocs-Macros are available."
+msgstr "以下內容應顯示「Brutus 說『Hello world！』」。這確認了透過 MkDocs-Macros 定義的全局變數和巨集可正常使用。"
+
+#: docs/en/section_one/page_two.md:17
+#, fuzzy
+msgid "{{ mascot_name }} says \"{{ say_hello() }}\""
+msgstr "{{ mascot_name }} 說「{{ say_hello() }}」"
+
+#: docs/en/section_three/index.md:1
+#, fuzzy
+msgid "BeeWare Docs Tools Demo section three"
+msgstr "BeeWare 文檔工具示範第三部分"
+
+#: docs/en/section_three/index.md:3
+#, fuzzy
+msgid "This section and its children are included for sidebar scroll testing. Verify the scrollbar is navigable on smaller-height displays, that you can scroll the entire list (Page 01 - Page 12), and that it is not overlapping the footer."
+msgstr "此區塊及其子元素用於側邊欄捲動測試。請確認在較低高度的顯示器上捲動列可正常操作，能完整捲動整個清單（第01頁至第12頁），且捲動列不會與頁尾重疊。"
+
+#: docs/en/section_two/index.md:1
+#, fuzzy
+msgid "BeeWare Docs Tools Demo section two"
+msgstr "BeeWare 文檔工具 示範第二部分"
+
+#: docs/en/section_two/index.md:3
+#, fuzzy
+msgid "Images subdirectory"
+msgstr "圖片子目錄"
+
+#: docs/en/section_two/index.md:5
+#, fuzzy
+msgid "Build the French or German translation. The following should be a little Brutus the Bee."
+msgstr "建立法語或德語的翻譯版本。以下內容應為小蜜蜂布魯圖斯的故事。"
+
+#: docs/en/section_two/index.md:7
+#, fuzzy
+msgid "![Brutus the Bee]{1}"
+msgstr "![布魯圖斯蜜蜂]{1}"
+
+#: docs/en/section_two/index.md:9
+#, fuzzy
+msgid "The presence of the image in the French and German builds verifies that the images subdirectories are being properly symlinked for languages other than English."
+msgstr "該圖像在法語版與德語版建置中的存在，證實了除英語以外的語言版本皆已正確建立圖像子目錄的符號連結。"
+
+#: docs/en/section_two/index.md:11
+#, fuzzy
+msgid "`autoref` linking"
+msgstr "`autoref` 連結"
+
+#: docs/en/section_two/index.md:13
+#, fuzzy
+msgid "The link provided here should take you to the [Heading font][heading-font] section of the main page. It is included to verify `autoref` linking."
+msgstr "此處提供的連結應可帶您前往主頁面的[標題字型][heading-font]區段。此連結旨在驗證`autoref`連結功能。"

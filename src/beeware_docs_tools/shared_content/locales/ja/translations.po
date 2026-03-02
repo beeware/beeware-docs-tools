@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-01 23:04+0000\n"
+"POT-Creation-Date: 2026-03-02 08:36+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.19.2\n"
+"X-Generator: Translate Toolkit 3.18.1\n"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/first-time-contributors.md:1
 #, fuzzy
@@ -560,8 +560,9 @@ msgid "Now you are ready to start hacking on {{ formal_name }}!"
 msgstr "さあ、{{ formal_name }}のハッキングを始めましょう！"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:1
+#, fuzzy
 msgid "Writing up a good issue or bug report can make all the difference in the ability to troubleshoot a problem. Here's how to submit a good bug report to {{ formal_name }}."
-msgstr ""
+msgstr "優れた問題報告やバグ報告を作成することは、問題のトラブルシューティング能力に決定的な差をもたらします。以下に、{{ formal_name }}に適切なバグ報告を提出する方法をご紹介します。"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:3
 #, fuzzy

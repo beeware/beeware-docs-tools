@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-01 23:04+0000\n"
+"POT-Creation-Date: 2026-03-02 08:36+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.19.2\n"
+"X-Generator: Translate Toolkit 3.18.1\n"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/first-time-contributors.md:1
 #, fuzzy
@@ -1568,7 +1568,7 @@ msgstr "¿Es la primera vez que colaboras en un proyecto de código abierto? ¡E
 #: src/beeware_docs_tools/shared_content/en/contribute/index.md:13
 #, fuzzy
 msgid "What can I do? { #what-can-i-do }"
-msgstr "¿Qué puedo hacer? { #qué-puedo-hacer }"
+msgstr "¿Qué puedo hacer? { #what-can-i-do }"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/index.md:15
 #, fuzzy

@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-01 23:04+0000\n"
+"POT-Creation-Date: 2026-03-02 08:36+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.19.2\n"
+"X-Generator: Translate Toolkit 3.18.1\n"
 
 #: docs/en/SUMMARY.md:1
 #, fuzzy
@@ -38,7 +38,6 @@ msgid "[Section three]{1}"
 msgstr "[Abschnitt drei]{1}"
 
 #: docs/en/SUMMARY.md:5
-#, fuzzy
 msgid "./section_three/*"
 msgstr "./section_three/*"
 
@@ -859,7 +858,6 @@ msgid "The following section should have only a header, and a paragraph with inl
 msgstr "Der folgende Abschnitt sollte nur aus einer Überschrift und einem Absatz mit Inline-Code, gefolgt von einem Codeblock, bestehen. Zwischen dem Codeblock und der nächsten Überschrift sollte kein Text stehen. Damit wird sichergestellt, dass die externe Include-Erweiterung mit lokalen Dateien arbeitet."
 
 #: docs/en/section_one/index.md:13
-#, fuzzy
 msgid "-8<- \"include_content.md:local-content\""
 msgstr "-8<- \"include_content.md:local-content\""
 
@@ -976,4 +974,4 @@ msgstr "`autoref`-Verknüpfung"
 #: docs/en/section_two/index.md:13
 #, fuzzy
 msgid "The link provided here should take you to the [Heading font][heading-font] section of the main page. It is included to verify `autoref` linking."
-msgstr "Der hier angegebene Link sollte Sie zum Abschnitt [Überschrift-Schriftart][schriftart-der-uberschrift] auf der Hauptseite führen. Er ist enthalten, um die `autoref`-Verknüpfung zu überprüfen."
+msgstr "Der hier angegebene Link sollte Sie zum Abschnitt [Überschrift-Schriftart][heading-font] auf der Hauptseite führen. Er ist enthalten, um die `autoref`-Verknüpfung zu überprüfen."

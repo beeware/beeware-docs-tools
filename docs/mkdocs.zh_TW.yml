@@ -1,0 +1,17 @@
+INHERIT: config.yml
+site_name: BeeWare 文檔工具
+site_url: https://beeware-docs-tools.readthedocs.io/zh_TW/
+docs_dir: zh_TW
+
+theme:
+  language: zh-tw
+
+extra:
+  translation_type: machine
+  header:
+    About: 關於
+    Documentation: 文件
+    Community: 社群
+    Contributing: 貢獻
+    News: 新聞
+    Sponsor: 贊助商

@@ -1,0 +1,17 @@
+INHERIT: config.yml
+site_name: أدوات مستندات BeeWare
+site_url: https://beeware-docs-tools.readthedocs.io/ar/
+docs_dir: ar
+
+theme:
+  language: ar
+
+extra:
+  translation_type: machine
+  header:
+    About: حول
+    Documentation: التوثيق
+    Community: المجتمع
+    Contributing: المساهمة
+    News: أخبار
+    Sponsor: الراعي

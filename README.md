@@ -42,7 +42,7 @@ Here's what is going on in this file:
 * The `docs_dir` should be the language code.
 * The `theme: language:` value should be the language code, as [specified by the MkDocs Material theme](https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/). For most languages, this will be the same as the `docs_dir` language code; but for some (in particular languages with locale variants like `zh_CN`), there are differences.
 * The `extra: translation_type:` should be `machine` until the translation reaches 100% for the first time, at which point it should be `human`. It will revert to `machine` from `human` if it regresses to below 90%.
-* The content under `extra: header` are the translations for titles that appear in the header bar. This definition is *not* required on the main BeeWare website; it is only required on *other* sites (such as the tutorial, or project documentation)
+* The content under `extra: header` are the translations for titles that appear in the header bar. This definition is *not* required on the main BeeWare website; it is only required on *other* sites (such as the tutorial, or project documentation).
 
 ### The update to `tox.ini`
 
@@ -56,7 +56,7 @@ You'll need to add the following:
 * The language code to the end of the line beginning with `all :`.
 * A new line at the end that matches the other language-specific lines with the new language code.
 
-Note that this repository is slightly different to other docs repositories that *use* docs tools. This repository only publishes English, French and German translations; however, it has *support* for "shared content" content in many other languages. As a result, there's lots of entries for languages in *this* repository that aren't actually used by this repository.
+Note that this repository is slightly different to other docs repositories that *use* docs tools. This repository includes documentation content, but also contains shared content that is used in other repositories. The tox file includes translation steps for *both* local content and shared content; other repositories will only have local content.
 
 ### Run tox-translate
 

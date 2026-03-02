@@ -1,0 +1,17 @@
+INHERIT: config.yml
+site_name: BeeWare Docs Tools
+site_url: https://beeware-docs-tools.readthedocs.io/ko/
+docs_dir: ko
+
+theme:
+  language: ko
+
+extra:
+  translation_type: machine
+  header:
+    About: 소개
+    Documentation: 문서화
+    Community: 커뮤니티
+    Contributing: 기여
+    News: 뉴스
+    Sponsor: 후원사
