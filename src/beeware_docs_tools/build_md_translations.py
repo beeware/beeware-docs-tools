@@ -173,10 +173,25 @@ def main():
                 build_with_warnings=args.build_with_warnings,
             )
 
-            # If a SUMMARY/index.md has been created, it is unnecessary; prune it.
+            # If a SUMMARY folder has been created, it is unnecessary; prune it.
             summary = output_path / "SUMMARY"
             if summary.is_dir():
+                print(f"Prune {summary.relative_to(Path.cwd())}")
                 shutil.rmtree(summary)
+
+            # If a non-English language contains a language folder (in any capitalization),
+            # it is an artefact of redirects; prune it.
+            if language != "en":
+                for lang in args.language_code:
+                    lang_dir = output_path / lang
+                    if lang_dir.is_dir():
+                        print(f"Prune {lang_dir.relative_to(Path.cwd())}")
+                        shutil.rmtree(lang_dir)
+                    # Also try zh-cn variant of zh_CN (et al)
+                    lang_dir = output_path / lang.replace("_", "-").lower()
+                    if lang_dir.is_dir():
+                        print(f"Prune {lang_dir.relative_to(Path.cwd())}")
+                        shutil.rmtree(lang_dir)
 
 
 if __name__ == "__main__":
