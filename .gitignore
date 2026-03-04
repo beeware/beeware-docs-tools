@@ -218,3 +218,10 @@ git-log-head
 
 # macOS window layout file
 .DS_Store
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Local files
+local/
