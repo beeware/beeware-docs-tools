@@ -7,6 +7,7 @@ theme:
   language: fa
 
 extra:
+  language_url: fa/
   translation_type: machine
   header:
     About: درباره

@@ -7,6 +7,7 @@ theme:
   language: ko
 
 extra:
+  language_url: ko/
   translation_type: machine
   header:
     About: 소개

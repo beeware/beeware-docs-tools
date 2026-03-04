@@ -7,6 +7,7 @@ theme:
   language: ja
 
 extra:
+  language_url: ja/
   translation_type: machine
   header:
     About: について
