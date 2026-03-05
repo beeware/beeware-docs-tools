@@ -6,58 +6,32 @@ Tools for building BeeWare's documentation with a common theme and translations.
 
 Weblate is able to generate a new language, however, adding a new language also requires a few changes to the documentation repository.
 
-Once a new language is generated, you'll need to add a new `mkdocs.<language-code>.yml` file and update the `tox.ini` file.
+For details, see [Adding a new translation](https://beeware.org/contributing/guide/how/translate/#adding-a-new-translation) in the Contribution guide.
 
 The following example outlines how you would go about adding German to this repo. The concepts are the same for any language in any of the docs repos. However, in order to support a language on another repo, you'll generally need to add support to *this* repository first - we can't support a language if `beeware-docs-tools` doesn't support it first.
 
-### The new MkDocs configuration file
+### A new MkDocs configuration file
 
-The first thing to do is create a new file named `mkdocs.de.yml` in the `docs` directory, with the following content:
+The first thing to do is create a new file named `mkdocs.de.yml` in the `docs` directory.
 
-```yaml
-INHERIT: config.yml
-site_name: BeeWare Demo zu Docs Tools
-site_url: https://tutorial.beeware.org/de
-docs_dir: de
+For details, see [A new MkDocs configuration file](https://beeware.org/contributing/guide/how/translate/#a-new-mkdocs-configuration-file) in the Contribution guide.
 
-theme:
-  language: de
-
-extra:
-  translation_type: machine
-  header:
-    About: Über
-    Documentation: Dokumentation
-    Community: Gemeinschaft
-    Contributing: Mitwirken
-    News: Neuigkeiten
-    Sponsor: Förderer
-```
-
-Here's what is going on in this file:
-
-* This file inherits the configuration content from `config.yml`.
-* The `site_name` value is translated.
-* The `site_url` value is the project site URL, followed by the language code.
-* The `docs_dir` should be the language code.
-* The `theme: language:` value should be the language code, as [specified by the MkDocs Material theme](https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/). For most languages, this will be the same as the `docs_dir` language code; but for some (in particular languages with locale variants like `zh_CN`), there are differences.
-* The `extra: translation_type:` should be `machine` until the translation reaches 100% for the first time, at which point it should be `human`. It will revert to `machine` from `human` if it regresses to below 90%.
-* The content under `extra: header` are the translations for titles that appear in the header bar. This definition is *not* required on the main BeeWare website; it is only required on *other* sites (such as the tutorial, or project documentation).
-
-### The update to `tox.ini`
+### Update `tox.ini`
 
 You'll need to make several changes to this file.
 
-You'll need to add the following:
-
-* The language code environment flag to the header line which begins `[testenv:docs`, preceded by a `-`, with no spaces included.
-* The language code exclusion to the first command, which begins with `!lint`, preceded by `-!`, with no spaces included.
-* The language code to the end of the second line beginning with `translate :`.
-* The language code to the end of the line beginning with `all :`.
-* A new line at the end that matches the other language-specific lines with the new language code.
+For details, see, [Update `tox.ini`](https://beeware.org/contributing/guide/how/translate/#update-toxini) in the Contribution guide.
 
 Note that this repository is slightly different to other docs repositories that *use* docs tools. This repository includes documentation content, but also contains shared content that is used in other repositories. The tox file includes translation steps for *both* local content and shared content; other repositories will only have local content.
 
-### Run tox-translate
+### Update `config.yml`
 
-You can now run `tox -e docs-translate`. This will generate an empty translations file; if you have a DeepL account, you can use that account to populate initial machine translations. If you don't have a DeepL account, that's fine - we'll run initial translations ourselves before accepting the pull request.
+Add the language to `config.yml` so it will show up in the language selector in the header.
+
+For details, see [Update `config.yml`](https://beeware.org/contributing/guide/how/translate/#update-configyml) in the Contribution guide.
+
+### Run `tox translate`
+
+You can now run `tox -e docs-translate` to generate an empty translation file.
+
+For details, see [Run `tox translate`](https://beeware.org/contributing/guide/how/translate/#run-tox-translate) in the Contribution guide.

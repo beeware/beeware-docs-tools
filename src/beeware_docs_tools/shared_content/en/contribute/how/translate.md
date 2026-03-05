@@ -38,7 +38,15 @@ theme:
   language: de
 
 extra:
+  language_url: de/
   translation_type: machine
+  header:
+    About: Über
+    Documentation: Dokumentation
+    Community: Gemeinschaft
+    Contributing: Mitwirken
+    News: Neuigkeiten
+    Sponsor: Förderer
 ```
 
 Here's what is going on in this file:
@@ -48,7 +56,9 @@ Here's what is going on in this file:
 * The `site_url` value is the project site URL, followed by the language code.
 * The `docs_dir` should be the language code.
 * The `theme: language:` value should be the language code, as [specified by the MkDocs Material theme](https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/). For most languages, this will be the same as the `docs_dir` language code; but for some (in particular languages with locale variants like `zh_CN`), there are differences.
+* The `extra: language_url:` should be the language code, followed by a single slash, e.g. `de/` for German.
 * The `extra: translation_type:` should be `machine` until the translation reaches 100% for the first time, at which point it should be `human`. It will revert to `machine` from `human` if it regresses to below 90%.
+* The content under `extra: header` is the translations for titles that appear in the header bar. This definition is *not* required on the main BeeWare website; it is only required on *other* sites (such as the tutorial, or project documentation).
 
 #### Update `tox.ini`
 
@@ -58,10 +68,10 @@ You would add the following:
 
 * The new language code environment flag to the header line which begins `[testenv:docs`, with the language code preceded by a `-`, with no spaces included, e.g. `-de`.
 * The new language code exclusion to the first command, which begins with `!lint`, preceded by `-!`, with no spaces included, e.g. `-!de`.
-* The new language code to the end of the line beginning with `translate : build_po_translations`.
-* The new language code to the end of the line beginning with `translate : update_machine_translations`
-* A new command, beginning with, for example, `de : build_md_translations` for German, after the other existing language-specific commands that matches the content those commands with the new language code.
-* The new language code to the end of the line beginning with `all,serve :`.
+* The new language code to the line beginning with `translate : build_po_translations`.
+* The new language code to the line beginning with `translate : update_machine_translations`
+* A new command, beginning with, for example, `de : build_md_translations` for German, alphabetically within the existing language-specific commands that matches the content of those commands, with the new language code.
+* The new language code to the line beginning with `all:`.
 
 #### Update `config.yml`
 
@@ -75,7 +85,9 @@ Add the language to `config.yml` so it will show up in the language selector in 
 
 The language name should be translated into the language. The link must include the `/`s.
 
-The new language is now ready to begin translation.
+#### Run `tox translate`
+
+You can now run `tox -e docs-translate`. This will generate an empty translation file; if you have a DeepL account, you can use that account to populate initial machine translations. If you don't have a DeepL account, that's fine - we'll run initial translations ourselves before accepting the pull request.
 
 ### Translation guidelines
 
@@ -89,7 +101,7 @@ If the English text contains a strong English idiom, don't feel beholden to main
 
 #### Should I translate it?
 
-The following items should _not_ be translated or updated:
+The following items should *not* be translated or updated:
 
 * **Commands**. For example, in "You should run \`briefcase create\`.", only "You should run" should be translated.
 * **Namespaces**, such as class, method, or attribute names.
@@ -121,7 +133,7 @@ The following items should _not_ be translated or updated:
 * **Backticks**. They are meant to stay as backticks; they are used for formatting both inline code and code blocks.
 * **The syntax for including external content**. This is anything on the same line as `-8<-`, or on the lines between two `-8<-` on separate lines.
 
-The following items _should_ be translated:
+The following items *should* be translated:
 
 * **Link text**. In link syntax, the text comes before the URL, and is enclosed in brackets, as in `[Link text](URL)`. Standard Markdown links should appear in Weblate as `[Link text]{1}`, where `1` is the position of the link in the string with reference to other possible links.
 * **Reference link text**. For example, `Link text` would be translated in the following:
