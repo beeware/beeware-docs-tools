@@ -1,10 +1,13 @@
+import http.client
 import subprocess
+import threading
+import time
+import webbrowser
 from argparse import ArgumentParser, Namespace
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
-
-from .md_tempdir import symlink_from_temp, load_config, save_config
+from .md_tempdir import load_config, save_config, symlink_from_temp
 
 # The theme overrides directory in config.yml is relative to the docs directory.
 # Therefore, the live build expects there to be an overrides directory in the
@@ -13,6 +16,31 @@ from .md_tempdir import symlink_from_temp, load_config, save_config
 # directory.
 
 PROJECT_PATH = Path.cwd()
+
+
+def launch_browser(port: int, timeout: int = 30) -> None:
+    start_time = time.time()
+    while time.time() - start_time < timeout:
+        try:
+            conn = http.client.HTTPConnection("localhost", port, timeout=1)
+            try:
+                conn.request("HEAD", "/")
+                response = conn.getresponse()
+                # Mkdocs might return various 2xx or 3xx status codes when ready
+                if response.status < 400:
+                    break
+            finally:
+                conn.close()
+        except (OSError, http.client.HTTPException):
+            time.sleep(0.1)
+    else:
+        print(
+            f"\nWarning: Live server did not come up on port {port} within {timeout} seconds. "
+            "Browser will not be launched automatically."
+        )
+        return
+
+    webbrowser.open(f"http://localhost:{port}/")
 
 
 def parse_args() -> Namespace:
@@ -51,6 +79,8 @@ def serve_docs(
 
     for directory in watch_directories:
         serve_command.extend(["--watch", directory])
+
+    threading.Thread(target=launch_browser, args=(port,), daemon=True).start()
 
     subprocess.run(
         serve_command,
