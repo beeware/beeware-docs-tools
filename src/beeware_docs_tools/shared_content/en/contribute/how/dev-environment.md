@@ -121,11 +121,11 @@ C:\...>git clone https://github.com/<your username>/{{ project_name }}.git
 
 {% endif %}
 
-#### Fetch release tags from upstream
+#### Fetch tags from upstream
 
-/// info | Optional: Work with release tags locally
+/// info | Optional: Work with tags locally
 
-If you need to work with release tags locally, add the BeeWare repository as an `upstream` remote and fetch tags from it:
+If you need to work with tags locally, add the BeeWare repository as an `upstream` remote and fetch tags from it:
 
 {% if not config.extra.macos_only %}
 
