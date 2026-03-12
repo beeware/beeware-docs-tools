@@ -1,5 +1,5 @@
-from pathlib import Path
 from importlib.metadata import metadata
+from pathlib import Path
 
 import polib
 import yaml
