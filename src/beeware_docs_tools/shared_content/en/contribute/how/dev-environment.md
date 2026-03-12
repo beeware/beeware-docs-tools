@@ -121,11 +121,11 @@ C:\...>git clone https://github.com/<your username>/{{ project_name }}.git
 
 {% endif %}
 
-#### Fetch tags from upstream
+#### Set an upstream repository
 
-/// info | Optional: Work with tags locally
+After cloning your fork, add the BeeWare repository as an `upstream` remote. This gives your local clone a reference to the original repository, making it easier to sync updates over time.
 
-If you need to work with tags locally, add the BeeWare repository as an `upstream` remote and fetch tags from it:
+You'll also need tags from `upstream` so tools like Toga and Briefcase can resolve accurate version numbers:
 
 {% if not config.extra.macos_only %}
 
@@ -169,8 +169,6 @@ $ git push --tags
 ```
 
 This can be useful if you make a fresh clone later and want tags to be available from your fork.
-
-///
 
 #### Create a virtual environment
 
