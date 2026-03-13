@@ -1,10 +1,10 @@
-import subprocess
 import shutil
+import subprocess
 from argparse import ArgumentParser, Namespace
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
-from .md_tempdir import symlink_from_temp, load_config, save_config
+from .md_tempdir import load_config, save_config, symlink_from_temp
 
 # This tool is used to generate translated Markdown, if a language other than
 # English is provided, and build the documentation site for the provided
