@@ -1,6 +1,6 @@
 This guide includes information and guidelines for writing code for {{ formal_name }}.
 
-### Code style
+### Code style { #code-style }
 
 BeeWare follows [PEP 8](https://peps.python.org/pep-0008/) in our codebase, except with the line length expanded from 79 to 88 characters. We use [Ruff](https://docs.astral.sh/ruff/) to enforce PEP 8 conventions where possible. When you commit your code, pre-commit will run checks, including Ruff. Where possible, this will autoformat your code to ensure it meets our formatting and style standards. You can set up some IDEs to automatically run Ruff on save, which can help with the process.
 
