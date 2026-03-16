@@ -36,7 +36,6 @@ lifecycle
 linters
 macOS
 mergeable
-mixedCase
 MkDocs
 Namespaces
 namespace
