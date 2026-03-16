@@ -1,7 +1,7 @@
 import shutil
-import subprocess
 from argparse import ArgumentParser, Namespace
 from pathlib import Path
+import subprocess
 from tempfile import TemporaryDirectory
 
 import polib
