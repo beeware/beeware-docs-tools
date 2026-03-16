@@ -19,7 +19,7 @@ There are also some BeeWare-specific additions to PEP 8:
 
 When a function call with more than one argument cannot fit on a single line, place each argument on its own line with a trailing comma on the last argument. Ruff permits (and will suggest) a format of multiple arguments on one wrapped line:
 
-```
+```py
 my_function(
     arg1, arg2, arg3
 )
@@ -27,7 +27,7 @@ my_function(
 
 This style should not be used. Instead, spread arguments to one per line by adding a trailing comma on the last argument:
 
-```
+```py
 my_function(
     arg1,
     arg2,
@@ -39,7 +39,7 @@ my_function(
 
 When a string argument must be split across lines to satisfy line length requirements, wrap the concatenated string literals in parentheses so it is clear the string is a single argument. That is, we prefer:
 
-```
+```py
 my_function(
     (
         "this is a very long string "
@@ -51,7 +51,7 @@ my_function(
 
 over:
 
-```
+```py
 my_function(
     "this is a very long string "
     "that is wrapped over two lines",
