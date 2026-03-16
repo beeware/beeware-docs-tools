@@ -6,12 +6,58 @@ BeeWare follows [PEP 8](https://peps.python.org/pep-0008/) in our codebase, exce
 
 Keep in mind that the most important part of PEP 8 is [Section 0: A Foolish Consistency is the Hobgoblin of Little Minds](https://peps.python.org/pep-0008/#a-foolish-consistency-is-the-hobgoblin-of-little-minds). There are situations where remaining consistent with PEP 8 doesn't make sense, and it is important to understand that, when applicable, it is acceptable, and sometimes preferred, to write code that isn't in line with the rules listed. Knowing *when to be inconsistent* with those rules is as important as maintaining consistency in most situations.
 
-In addition, BeeWare follows a "Pythonic" style, using Python language idioms (e.g., context managers and iterators) and naming conventions (e.g., `snake_case`, not `CamelCase`), even if the underlying platforms don't lean that way.
+One manifestation of this can be seen in naming conventions. BeeWare libraries frequently need to bridge to other languages. When building wrappers to other languages, it is desirable (and in some cases, required) to follow the naming conventions of the target language, rather than Python. For example, when calling or referencing Java code, functions should follow Java's preference of mixedCase, rather than PEP 8 preference for snake_case.
 
 We follow US spelling for API naming, variables, etc.
 
 {% block code_style %}
 {% endblock %}
+
+There are also some BeeWare-specific additions to PEP 8:
+
+#### Splitting long function calls { #split-long-function-calls }
+
+When a function call with more than one argument cannot fit on a single line, place each argument on its own line with a trailing comma on the last argument. Ruff permits (and will suggest) a format of multiple arguments on one wrapped line:
+
+```
+my_function(
+    arg1, arg2, arg3
+)
+```
+
+This style should not be used. Instead, spread arguments to one per line by adding a trailing comma on the last argument:
+
+```
+my_function(
+    arg1,
+    arg2,
+    arg3,
+)
+```
+
+#### Splitting long strings { #split-long-strings }
+
+When a string argument must be split across lines to satisfy line length requirements, wrap the concatenated string literals in parentheses so it is clear the string is a single argument. That is, we prefer:
+
+```
+my_function(
+    (
+        "this is a very long string "
+        "that is wrapped over two lines"
+    ),
+    second_argument,
+)
+```
+
+over:
+
+```
+my_function(
+    "this is a very long string "
+    "that is wrapped over two lines",
+    second_argument,
+)
+```
 
 ### Things to avoid
 
