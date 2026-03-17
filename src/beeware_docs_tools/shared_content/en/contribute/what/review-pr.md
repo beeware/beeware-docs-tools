@@ -4,7 +4,7 @@ We're always happy to have reviews from contributors, regardless of their experi
 
 Every contribution that is submitted needs to be reviewed, regardless of whether it was submitted by a core team member or a first-time contributor. Everyone has the potential to miss something. The review process is in place to provide an extra safety net.
 
-The purpose of the review process is to ensure all content, including code and documentation, is as bug-free and easy-to-maintain as possible. Anything you can do to further that goal is a welcome contribution. This could ranging from something as simple as correcting a typo, to finding edge cases in the API usage that aren't being caught. You could identify ways the testing regimen could be more robust, or make a suggestion of ways to structure the overall architecture of the changes so that they are easier to maintain or extend.
+The purpose of the review process is to ensure all content, including code and documentation, is as bug-free and easy-to-maintain as possible. Anything you can do to further that goal is a welcome contribution. This could range from something as simple as correcting a typo, to finding edge cases in the API usage that aren't being caught. You could identify ways the testing regimen could be more robust, or make a suggestion of ways to structure the overall architecture of the changes so that they are easier to maintain or extend.
 
 ### Can I review?
 

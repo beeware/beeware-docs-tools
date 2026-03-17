@@ -61,3 +61,17 @@ Long block of text.
 ```
 
 Once you've provided as much information as you can, click "Create" to submit the report.
+
+/// warning | Using the GitHub CLI to create an issue
+
+Directly using the GitHub CLI (`gh`) bypasses the templates we've created. These templates exist to ensure that we end up with the necessary information to act on the issue.
+
+**If you are going to use `gh` to create a new issue, please use the following:**
+
+```console
+gh issue create --web
+```
+
+Using `--web` opens a browser to the issue template page, and allows you to generate an issue using the appropriate template.
+
+///
