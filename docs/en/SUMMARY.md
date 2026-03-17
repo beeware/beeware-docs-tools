@@ -1,3 +1,8 @@
+---
+search:
+  exclude: true
+---
+
 - Section one
     - [Section one](section_one/index.md)
     - [Section one - page two](section_one/page_two.md)
