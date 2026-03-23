@@ -149,6 +149,15 @@ input.md-search__input, .md-search__suggest, .md-search-result__meta {
     font-size: 1rem;
 }
 
+@media screen and (max-width: 59.9844em) {
+    .md-search__input {
+        height: 100%
+    }
+    .md-search__icon.md-icon svg {
+        height: 1.2rem;
+    }
+}
+
 /* The widths in the rest of this section are to correct rendering of the search input */
 @media screen and (min-width: 60em) {
     .md-search {
