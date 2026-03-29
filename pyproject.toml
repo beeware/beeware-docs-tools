@@ -34,8 +34,7 @@ dependencies = [
     "mkdocs-rss-plugin==1.17.9",
     "mkdocs==1.6.1",
     "mkdocstrings-python==2.0.3",
-    "pygments==2.19.2",  # DO NOT UPDATE UNTIL PYSPELLING ISSUE IS SORTED
-    "pymdown-extensions==10.21",
+    "pymdown-extensions==10.21.2",
     "pyspelling==2.12.1",
     "python-Levenshtein==0.27.3",
     "PyYAML==6.0.3",
