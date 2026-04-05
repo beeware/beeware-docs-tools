@@ -2022,7 +2022,7 @@ msgstr ""
 "\n"
 "///\n"
 "\n"
-"/// علامة التبويب | Linux"
+"/// tab | Linux"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:40 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:76 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:112
 msgid ""
@@ -2067,6 +2067,8 @@ msgstr ""
 "{% if not config.extra.macos_only %}\n"
 "\n"
 "/// tab | macOS"
+"\n"
+"{% endif %}"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:65 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:75
 #, fuzzy
@@ -2106,6 +2108,8 @@ msgstr ""
 "{% if not config.extra.macos_only %}\n"
 "\n"
 "/// tab | macOS"
+"\n"
+"{% endif %}"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:101 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:111
 #, fuzzy
