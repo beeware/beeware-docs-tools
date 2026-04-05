@@ -7,10 +7,10 @@ The short version of the review process:
 1. Wait for a review.
 2. Respond to feedback.
 3. If changes are requested:
-   * Work through completing requested changes.
-   * Submit all requested changes.
-   * Re-request a review when all requested changes have been submitted.
-   * Repeat section three until no further changes are needed.
+    * Work through completing requested changes.
+    * Submit all requested changes.
+    * Re-request a review when all requested changes have been submitted.
+    * Repeat section three until no further changes are needed.
 4. Wait for your pull request to be approved and merged.
 
 Congratulations! You've just made a contribution to {{ formal_name }}!
