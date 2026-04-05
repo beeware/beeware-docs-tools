@@ -23,7 +23,7 @@ maintainers = [
 ]
 
 dependencies = [
-    "click==8.2.1",  # DO NOT UPGRADE - 8.3.0 breaks MkDocs live serve
+    "click==8.3.2",
     "deepl==1.29.0",
     "markdown-checker==0.2.5",
     "mistletoe==1.5.1",
@@ -32,7 +32,7 @@ dependencies = [
     "mkdocs-macros-plugin==1.5.0",
     "mkdocs-material==9.7.6",
     "mkdocs-rss-plugin==1.17.9",
-    "mkdocs==1.6.1",
+    "mkdocs==1.6.1",  # DO NOT UPGRADE - 2+ is not compatible with anything here
     "mkdocstrings-python==2.0.3",
     "pymdown-extensions==10.21.2",
     "pyspelling==2.12.1",
