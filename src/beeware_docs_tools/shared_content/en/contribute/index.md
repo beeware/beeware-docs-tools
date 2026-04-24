@@ -10,6 +10,12 @@ Is this your first time contributing to an open source project? We're here to he
 
 {% endif %}
 
+/// note | Using AI and autonomous tools
+
+The BeeWare Project neither encourages nor prohibits the use of AI tools when making contributions. However, if you do use an AI tool we require that you declare what tools you have used. Our [AI Policy](policies/ai-policy.md) contains full details of your obligations.
+
+///
+
 ## What can I do? { #what-can-i-do }
 
 ### [Fix an issue](what/fix-issue.md)
@@ -115,6 +121,12 @@ When a pull request is submitted, the next step is [the PR review](next/pr-revie
 ### [The release process](next/release.md)
 
 Merged contributions will go through [the release process](next/release.md).
+
+## Policies
+
+### [AI Policy](policies/ai-policy.md)
+
+BeeWare's policy on the usage of Generative AI, Large Language Models, and other autonomous tooling when contributing.
 
 ## Style Guides
 

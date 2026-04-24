@@ -41,6 +41,8 @@ search:
             - What happens next?
                 - [Pull request review process](content_test_bed/how-to/contribute/next/pr-review.md)
                 - [Release process](content_test_bed/how-to/contribute/next/release.md)
+            - Policies
+                - [AI Policy](content_test_bed/how-to/contribute/policies/ai-policy.md)
             - Style guides
                 - [Code style guide](content_test_bed/how-to/contribute/style/code-style-guide.md)
                 - [Documentation style guide](content_test_bed/how-to/contribute/style/docs-style-guide.md)
