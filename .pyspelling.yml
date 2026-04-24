@@ -1,5 +1,12 @@
 matrix:
 - name: markdown
+  aspell:
+    lang: en
+    d: en_US
+    mode:
+      - markdown
+      - url
+      - email
   dictionary:
     wordlists:
     - docs/spelling_wordlist
