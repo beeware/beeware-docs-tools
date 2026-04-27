@@ -1,0 +1,18 @@
+INHERIT: config.yml
+site_name: Công cụ tài liệu BeeWare
+site_url: !ENV READTHEDOCS_CANONICAL_URL
+docs_dir: vi
+
+theme:
+  language: vi
+
+extra:
+  language_url: vi/
+  translation_type: machine
+  header:
+    About: Giới thiệu
+    Documentation: Tài liệu
+    Community: Cộng đồng
+    Contributing: Đóng góp
+    News: Tin tức
+    Sponsor: Nhà tài trợ
