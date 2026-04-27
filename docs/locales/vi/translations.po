@@ -55,7 +55,7 @@ msgstr "[Phần ba]{1}"
 #: docs/en/SUMMARY.md:5
 #, fuzzy
 msgid "./section_three/*"
-msgstr "./phần_ba/*"
+msgstr "./section_three/*"
 
 #: docs/en/SUMMARY.md:7
 #, fuzzy

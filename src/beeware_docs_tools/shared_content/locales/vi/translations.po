@@ -2323,7 +2323,7 @@ msgstr "Sau đó, bạn cần cập nhật tệp `docs/en/SUMMARY.md` để thê
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write-docs.md:19
 msgid "- ./path/to/directory/*"
-msgid "- ./path/to/directory/*"
+msgstr "- ./path/to/directory/*"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/write-docs.md:23
 #, fuzzy
