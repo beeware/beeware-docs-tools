@@ -25,13 +25,13 @@ maintainers = [
 dependencies = [
     "click==8.2.1",  # DO NOT UPGRADE - As of 8.3.2, still disables live-reload on live serve
     "deepl==1.30.0",
-    "markdown-checker==0.2.5",
+    "markdown-checker==1.0.1",
     "mistletoe==1.5.1",
     "mkdocs-autorefs==1.4.4",
     "mkdocs-literate-nav==0.6.3",  # DO NOT UPGRADE - Uncertain whether author's move to ProperDocs will cause incompatibility
     "mkdocs-macros-plugin==1.5.0",
     "mkdocs-material==9.7.6",
-    "mkdocs-rss-plugin==1.18.1",
+    "mkdocs-rss-plugin==1.19.0",
     "mkdocs==1.6.1",  # DO NOT UPGRADE - 2+ is not compatible with anything here
     "mkdocstrings-python==2.0.3",
     "pymdown-extensions==10.21.2",
@@ -39,16 +39,16 @@ dependencies = [
     "python-Levenshtein==0.27.3",
     "PyYAML==6.0.3",
     "polib==1.2.0",
-    "ruff==0.15.10",
+    "ruff==0.15.12",
     "setuptools_scm==10.0.5",
-    "translate-toolkit==3.19.4",
+    "translate-toolkit==3.19.7",
 ]
 
 [dependency-groups]
 # Extras used by developers *of* beeware-docs-tools are pinned to specific versions to
 # ensure environment consistency.
 pre-commit = [
-    "pre-commit == 4.5.1",
+    "pre-commit == 4.6.0",
 ]
 
 tox-uv = [
@@ -56,7 +56,7 @@ tox-uv = [
 ]
 
 wlc = [
-    "wlc == 1.17.2",
+    "wlc == 2.0.0",
 ]
 
 dev = [
