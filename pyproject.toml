@@ -25,7 +25,7 @@ maintainers = [
 dependencies = [
     "click==8.3.3",
     "deepl==1.30.0",
-    "markdown-checker==1.0.2",
+    "markdown-checker==0.2.5",
     "mistletoe==1.5.1",
     "mkdocs-autorefs==1.4.4",
     "mkdocs-literate-nav==0.6.3",  # DO NOT UPGRADE - Uncertain whether author's move to ProperDocs will cause incompatibility
