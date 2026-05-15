@@ -1,3 +1,14 @@
+
+
+{% if config.extra.website %}
+Contributing to {{ formal_name }} requires you to pick a project and set up a development environment:
+
+* [briefcase](https://briefcase.beeware.org/en/stable/how-to/contribute/#set-up-a-development-environment)
+* [toga](https://toga.beeware.org/en/stable/how-to/contribute/#set-up-a-development-environment)
+* [rubicon-objc](https://rubicon-objc.beeware.org/en/stable/how-to/contribute/#set-up-a-development-environment)
+
+{% else %}
+
 Contributing to {{ formal_name }} requires you to set up a development environment.
 
 ### Prerequisites { #dev-environment-prereqs }
@@ -301,6 +312,8 @@ pre-commit installed at .git/hooks/pre-commit
 ```
 
 ///
+
+{% endif %}
 
 {% endif %}
 
