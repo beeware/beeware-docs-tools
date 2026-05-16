@@ -2,9 +2,9 @@
 {% if config.extra.website %}
 Contributing to {{ formal_name }} requires you to pick a project and set up a development environment:
 
-* [briefcase](https://briefcase.beeware.org/en/stable/how-to/contribute/how/dev-environment/)
-* [toga](https://toga.beeware.org/en/stable/how-to/contribute/how/dev-environment/)
-* [rubicon-objc](https://rubicon-objc.beeware.org/en/stable/how-to/contribute/how/dev-environment/)
+* [Briefcase](https://briefcase.beeware.org/en/stable/how-to/contribute/how/dev-environment/)
+* [Toga](https://toga.beeware.org/en/stable/how-to/contribute/how/dev-environment/)
+* [Rubicon Objective-C](https://rubicon-objc.beeware.org/en/stable/how-to/contribute/how/dev-environment/)
 
 {% else %}
 
