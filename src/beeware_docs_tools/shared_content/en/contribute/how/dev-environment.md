@@ -85,7 +85,7 @@ The recommended way of setting up your development environment for {{ formal_nam
 
 #### Clone the {{ formal_name }} repository
 
-Next, go to the [{{ formal_name }} page on GitHub](<https://github.com/beeware/{{> project_name }}), and, if you haven't already, [fork the repository](<https://github.com/beeware/{{> project_name }}/fork) into your own account. Next, click on the "<> Code" button on your fork. If you have the GitHub desktop application installed on your computer, you can select "Open with GitHub Desktop"; otherwise, copy the HTTPS URL provided, and use it to clone the repository to your computer using the command line:
+Next, go to the [{{ formal_name }} page on GitHub](https://github.com/beeware/{{ project_name }}), and, if you haven't already, [fork the repository](https://github.com/beeware/{{ project_name }}/fork) into your own account. Next, click on the "<> Code" button on your fork. If you have the GitHub desktop application installed on your computer, you can select "Open with GitHub Desktop"; otherwise, copy the HTTPS URL provided, and use it to clone the repository to your computer using the command line:
 
 {% if not config.extra.macos_only %}
 
