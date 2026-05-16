@@ -1,11 +1,10 @@
 
-
-{% if config.extra.website %}
+{% if not config.extra.website %}
 Contributing to {{ formal_name }} requires you to pick a project and set up a development environment:
 
-* [briefcase](https://briefcase.beeware.org/en/stable/how-to/contribute/#set-up-a-development-environment)
-* [toga](https://toga.beeware.org/en/stable/how-to/contribute/#set-up-a-development-environment)
-* [rubicon-objc](https://rubicon-objc.beeware.org/en/stable/how-to/contribute/#set-up-a-development-environment)
+* [briefcase](https://briefcase.beeware.org/en/stable/how-to/contribute/how/dev-environment/)
+* [toga](https://toga.beeware.org/en/stable/how-to/contribute/how/dev-environment/)
+* [rubicon-objc](https://rubicon-objc.beeware.org/en/stable/how-to/contribute/how/dev-environment/)
 
 {% else %}
 
@@ -86,7 +85,7 @@ The recommended way of setting up your development environment for {{ formal_nam
 
 #### Clone the {{ formal_name }} repository
 
-Next, go to the [{{ formal_name }} page on GitHub](https://github.com/beeware/{{ project_name }}), and, if you haven't already, [fork the repository](https://github.com/beeware/{{ project_name }}/fork) into your own account. Next, click on the "<> Code" button on your fork. If you have the GitHub desktop application installed on your computer, you can select "Open with GitHub Desktop"; otherwise, copy the HTTPS URL provided, and use it to clone the repository to your computer using the command line:
+Next, go to the [{{ formal_name }} page on GitHub](<https://github.com/beeware/{{> project_name }}), and, if you haven't already, [fork the repository](<https://github.com/beeware/{{> project_name }}/fork) into your own account. Next, click on the "<> Code" button on your fork. If you have the GitHub desktop application installed on your computer, you can select "Open with GitHub Desktop"; otherwise, copy the HTTPS URL provided, and use it to clone the repository to your computer using the command line:
 
 {% if not config.extra.macos_only %}
 
