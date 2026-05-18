@@ -87,6 +87,36 @@ build_pot_translations = "beeware_docs_tools.build_pot_translations:main"
 live_serve_en = "beeware_docs_tools.live_serve_en:main"
 update_machine_translations = "beeware_docs_tools.update_machine_translations:main"
 
+[tool.ruff]
+target-version = "py312"
+
+[tool.ruff.lint]
+# In addition to the default rules, these additional rules will be used:
+extend-select = [
+    "E",      # pycodestyle
+    "W",      # pycodestyle
+    "F",      # pyflakes
+    "UP",     # pyupgrade
+    "B",      # flake8-bugbear
+    "YTT",    # flake8-2020
+    "ASYNC",  # flake8-async
+    "C4",     # flake8-comprehensions
+    "I",      # isort
+    # The SIM rules are *very* opinionated, and don't necessarily make for better code.
+    # They may be worth occasionally turning on just to see if something could actually
+    # use improvement.
+    # "SIM",    # flake8-simplify
+]
+ignore = [
+    "E501",  # Allow long Markdown/Jinja translation examples and diagnostics.
+]
+
+[tool.ruff.lint.isort]
+combine-as-imports = true
+known-first-party = [
+    "beeware_docs_tools",
+]
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 filterwarnings = [
