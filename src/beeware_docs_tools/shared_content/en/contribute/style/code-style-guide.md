@@ -2,7 +2,7 @@ This guide includes information and guidelines for writing code for {{ formal_na
 
 ### Code style { #code-style }
 
-While type annotation adhering to [PEP 484](https://peps.python.org/pep-0484/) is optional, it remains strongly encouraged, particularly across any public API surfaces. 
+While type annotation adhering to [PEP 484](https://peps.python.org/pep-0484/) is optional, it remains strongly encouraged, particularly across any public API surfaces.
 
 An example of a standard function definition with proper type hints and a Sphinx docstring is shown below:
 
@@ -16,7 +16,6 @@ def function_name(param1: int, param2: str) -> bool:
 :returns: The return value. True for success, False otherwise.
 """
 ```
-
 
 BeeWare follows [PEP 8](https://peps.python.org/pep-0008/) in our codebase, except with the line length expanded from 79 to 88 characters. We use [Ruff](https://docs.astral.sh/ruff/) to enforce PEP 8 conventions where possible. When you commit your code, pre-commit will run checks, including Ruff. Where possible, this will autoformat your code to ensure it meets our formatting and style standards. You can set up some IDEs to automatically run Ruff on save, which can help with the process.
 
@@ -85,8 +84,7 @@ When writing comments, avoid the use of first-person plural pronouns such as "we
 
 In test docstrings, state the expected behavior that each test demonstrates. Don't include preambles such as "Tests that" or "Ensures that".
 
-Reserve ticket references for obscure issues where the ticket has additional details that can't be easily described in docstrings or comments. Include the ticket number at the end of a sentence like
-this:
+Reserve ticket references for obscure issues where the ticket has additional details that can't be easily described in docstrings or comments. Include the ticket number at the end of a sentence like this:
 
 ```py
       def test_foo():
