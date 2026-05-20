@@ -82,6 +82,38 @@
 
   <!-- Navigation list -->
   <ul class="md-nav__list" data-md-scrollfix>
+    {% if not config.extra.website %}
+      <li class="md-nav__item mobile-main-nav">
+        <a href="https://beeware.org/{{ config.extra.language_url | default('') }}about" class="md-nav__link">
+          {{ config.extra.header.About | default("About") }}
+        </a>
+      </li>
+      <li class="md-nav__item mobile-main-nav">
+        <a href="https://beeware.org/{{ config.extra.language_url | default('') }}docs" class="md-nav__link md-nav__link--active">
+          {{ config.extra.header.Documentation | default("Documentation") }}
+        </a>
+      </li>
+      <li class="md-nav__item mobile-main-nav">
+        <a href="https://beeware.org/{{ config.extra.language_url | default('') }}community" class="md-nav__link">
+          {{ config.extra.header.Community | default("Community") }}
+        </a>
+      </li>
+      <li class="md-nav__item mobile-main-nav">
+        <a href="https://beeware.org/{{ config.extra.language_url | default('') }}contributing" class="md-nav__link">
+          {{ config.extra.header.Contributing | default("Contributing") }}
+        </a>
+      </li>
+      <li class="md-nav__item mobile-main-nav">
+        <a href="https://beeware.org/{{ config.extra.language_url | default('') }}news" class="md-nav__link">
+          {{ config.extra.header.News | default("News") }}
+        </a>
+      </li>
+      <li class="md-nav__item mobile-main-nav">
+        <a href="https://beeware.org/{{ config.extra.language_url | default('') }}membership" class="md-nav__link">
+          {{ config.extra.header.Sponsor | default("Sponsor") }}
+        </a>
+      </li>
+    {% endif %}
     {% for nav_item in nav.items %}
       {% set path = "__nav_" ~ loop.index %}
       {{ item.render(nav_item, path, 1) }}
