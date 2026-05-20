@@ -1,11 +1,6 @@
 from pathlib import Path
 
-OVERRIDES = (
-    Path(__file__).parents[1]
-    / "src"
-    / "beeware_docs_tools"
-    / "overrides"
-)
+OVERRIDES = Path(__file__).parents[1] / "src" / "beeware_docs_tools" / "overrides"
 
 
 def test_mobile_sidebar_includes_main_site_links():
@@ -13,4 +8,4 @@ def test_mobile_sidebar_includes_main_site_links():
 
     assert "mobile-main-nav" in sidebar
     for section in ["about", "docs", "community", "contributing", "news", "membership"]:
-        assert f"{section}\"" in sidebar
+        assert f'{section}"' in sidebar
