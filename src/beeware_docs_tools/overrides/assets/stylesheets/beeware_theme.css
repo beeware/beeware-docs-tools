@@ -222,6 +222,10 @@ a.md-nav__link[for]:hover {
     color: light-dark(#084AFF, #526CFE);
 }
 
+.mobile-main-nav {
+    display: none;
+}
+
 .md-nav__item a.md-nav__link--active {
     color: light-dark(#30314B, #96ACEE)
 }
@@ -460,6 +464,10 @@ a.md-nav__link[for]:hover {
 @media screen and (max-width: 76.2344em) {
     [dir="ltr"] .md-sidebar--primary {
         width: 12.1rem;
+    }
+
+    .mobile-main-nav {
+        display: list-item;
     }
 
     .md-nav__title .md-nav__button.md-logo img {
