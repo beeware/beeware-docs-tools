@@ -252,7 +252,7 @@ Do *not* use the bare `gh pr create` command to create your pull request. BeeWar
 
 A pull request title must be informative, clear, and concise. Try to keep it short if possible, but longer titles are acceptable, if needed. A good PR title should give a person without any context a reasonably solid idea of what bug or feature is implemented by your PR.
 
-Your pull request **must** follow the BeeWare [pull request template](https://github.com/beeware/.github/blob/main/.github/pull_request_template.md). If you've created your pull request using the GitHub web interface, this template will be provided as a starting point for your pull request description. If you inadvertently create a pull request without using this template, you can edit the pull request to add the templated content - but the template content *must* be provided and filled out appropriately.
+Your pull request **must** follow the BeeWare [pull request template](https://github.com/beeware/.github/blob/main/.github/pull_request_template.md). If you've created your pull request using the GitHub web interface, this template will be provided as a starting point for your pull request description. If you inadvertently create a pull request without using this template, you can edit the pull request to add the template content - but the template content *must* be provided and filled out appropriately.
 
 The PR description must clearly reflect the changes in the PR. A person without any context should be able to read your description, and gain a relatively complete understanding of why the change is being made. Avoid jokes, idioms, colloquialisms, and unnecessary formatting, such as using all caps or excessive punctuation; this is meant to be a straightforward explanation of what is happening in your PR, and avoiding those things makes the description more accessible to others.
 
@@ -264,7 +264,7 @@ AI tools are especially prone to writing verbose, unhelpful pull request message
 
 /// warning | The BeeWare Pull Request template
 
-The BeeWare [pull request template](https://github.com/beeware/.github/blob/main/.github/pull_request_template.md) is **not** optional. We require **all** pull requests to follow this template. Your pull request will not be reviewed if your pull request is mising the "PR Checklist" section, or your answers to the checkbox questions are incomplete or inconsistent. If you have used an AI tool to generate your pull request, you *must* check the relevant box, and provide details on the "Assisted-by:" line.
+The BeeWare [pull request template](https://github.com/beeware/.github/blob/main/.github/pull_request_template.md) is **not** optional. We require **all** pull requests to follow this template. Your pull request will not be reviewed if your pull request is missing the "PR Checklist" section, or your answers to the checkbox questions are incomplete or inconsistent. If you have used an AI tool to generate your pull request, you *must* check the relevant box, and provide details on the "Assisted-by:" line.
 
 ///
 
