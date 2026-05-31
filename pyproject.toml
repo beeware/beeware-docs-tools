@@ -25,7 +25,7 @@ maintainers = [
 dependencies = [
     "click==8.3.3",
     "deepl==1.30.0",
-    "markdown-checker==1.0.2",
+    "markdown-checker==1.0.3",
     "mistletoe==1.5.1",
     "mkdocs-autorefs==1.4.4",
     "mkdocs-literate-nav==0.6.3",  # DO NOT UPGRADE - Uncertain whether author's move to ProperDocs will cause incompatibility
@@ -39,9 +39,9 @@ dependencies = [
     "python-Levenshtein==0.27.3",
     "PyYAML==6.0.3",
     "polib==1.2.0",
-    "ruff==0.15.14",
+    "ruff==0.15.15",
     "setuptools_scm==10.0.5",
-    "translate-toolkit==3.19.10",
+    "translate-toolkit==3.19.11",
 ]
 
 [dependency-groups]
