@@ -15,6 +15,21 @@ We follow US spelling for API naming, variables, etc.
 
 There are also some BeeWare-specific additions to PEP 8:
 
+While type annotation adhering to [PEP 484](https://peps.python.org/pep-0484/) is optional, it remains strongly encouraged, particularly across any public API surfaces.
+
+An example of a standard function definition with proper type hints and a Sphinx docstring is shown below:
+
+```py
+def function_name(param1: int, param2: str) -> bool:
+"""Example function with types and a docstring.
+
+:param param1: The first parameter.
+:param param2: The second parameter.
+
+:returns: The return value. True for success, False otherwise.
+"""
+```
+
 #### Splitting long function calls { #split-long-function-calls }
 
 When a function call with more than one argument cannot fit on a single line, place each argument on its own line with a trailing comma on the last argument. Ruff permits (and will suggest) a format of multiple arguments on one wrapped line:
@@ -64,3 +79,14 @@ my_function(
 We try to avoid `utils` modules as much as possible, with the understanding that sometimes they are unavoidable. The preferred alternative is to find somewhere for the feature elsewhere in the source code, instead of using a `utils` module.
 
 As a general rule, we try to avoid or defer any expensive initialization code, in order to achieve faster app startup. For instance, modules in the toga-core package are "lazy loaded" — they're only imported once requested, rather than all up front. This speeds up startup, and only spends time on what the app is actually using.
+
+When writing comments, avoid the use of first-person plural pronouns such as "we" (for example, write "Loop over" instead of "We loop over").
+
+In test docstrings, state the expected behavior that each test demonstrates. Don't include preambles such as "Tests that" or "Ensures that".
+
+Reserve ticket references for obscure issues where the ticket has additional details that can't be easily described in docstrings or comments. Include the ticket number at the end of a sentence like this:
+
+```py
+      def test_foo():
+          """A test docstring looks like this (#123456)."""
+```

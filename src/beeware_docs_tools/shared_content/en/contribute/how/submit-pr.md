@@ -234,10 +234,7 @@ If you've previously pushed the current branch to GitHub, you won't receive the 
 
 - Navigate to the upstream repository, click on "Pull Requests" followed by "New pull request", and choose the from which you want to submit your pull request.
 - If you pushed recently, navigate to the upstream repository, locate the banner above the list of files that indicates the repo has "had recent pushes", and click the "Compare & pull request" button.
-- Use the GitHub CLI `gh pr create` command, and fill out the prompts.
 - Use the GitHub CLI `gh pr create --web` command to open a web browser to the PR creation page.
-
-Any of these options will enable you to create your new pull request.
 
 /// info | The GitHub CLI: `gh`
 
@@ -245,15 +242,31 @@ GitHub provides the [GitHub CLI](https://cli.github.com/), which gives you acces
 
 ///
 
-### Pull request content
+/// warning | `gh pr create`
+
+Do *not* use the bare `gh pr create` command to create your pull request. BeeWare projects use a template for pull requests, and we require all contributions to follow this template. The `gh pr create` command circumvents the use of this template.
+
+///
+
+### Pull request content { #pr-content }
 
 A pull request title must be informative, clear, and concise. Try to keep it short if possible, but longer titles are acceptable, if needed. A good PR title should give a person without any context a reasonably solid idea of what bug or feature is implemented by your PR.
+
+Your pull request **must** follow the BeeWare [pull request template](https://github.com/beeware/.github/blob/main/.github/pull_request_template.md). If you've created your pull request using the GitHub web interface, this template will be provided as a starting point for your pull request description. If you inadvertently create a pull request without using this template, you can edit the pull request to add the template content - but the template content *must* be provided and filled out appropriately.
 
 The PR description must clearly reflect the changes in the PR. A person without any context should be able to read your description, and gain a relatively complete understanding of why the change is being made. Avoid jokes, idioms, colloquialisms, and unnecessary formatting, such as using all caps or excessive punctuation; this is meant to be a straightforward explanation of what is happening in your PR, and avoiding those things makes the description more accessible to others.
 
 If there are any reproduction cases, or any testing regimen that you used that are not already a part of the changes present in the PR, they should be explained and included in the PR. The explanation should include how to run them, and what to do to reproduce the desired outcome.
 
 If your pull request will resolve issue #1234, you should include the text `Fixes #1234` in your pull request description. This will cause the issue to be automatically closed when the pull request is merged. You can refer to other discussions, issues or pull requests using the same `#1234` syntax. You can refer to an issue on a different repository by prefixing the number with - for example `python/cpython#1234` would refer to issue 1234 on the CPython repository.
+
+AI tools are especially prone to writing verbose, unhelpful pull request messages. If you use an AI tool to generate your PR, *you* are responsible for ensuring that the pull request description is concise, and only contains information that is helpful to the review process. You do not, for example, need to include details on a "testing regimen" that describes how to run the test suite, or a "rationale" for why a bug needs to be fixed. Excessively verbose pull request bodies may result in your pull request being closed without being reviewed, as they are not respectful of the limited resources of the core team.
+
+/// warning | The BeeWare Pull Request template
+
+The BeeWare [pull request template](https://github.com/beeware/.github/blob/main/.github/pull_request_template.md) is **not** optional. We require **all** pull requests to follow this template. Your pull request will not be reviewed if your pull request is missing the "PR Checklist" section, or your answers to the checkbox questions are incomplete or inconsistent. If you have used an AI tool to generate your pull request, you *must* check the relevant box, and provide details on the "Assisted-by:" line.
+
+///
 
 ### Continuous integration
 

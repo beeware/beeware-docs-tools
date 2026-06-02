@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-18 14:38+0000\n"
+"POT-Creation-Date: 2026-06-02 00:01+0000\n"
 "PO-Revision-Date: 2026-03-31 07:09+0000\n"
 "Last-Translator: tfr tint <tfrtint@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/it/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Translate Toolkit 3.19.10\n"
+"X-Generator: Translate Toolkit 3.19.11\n"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/first-time-contributors.md:1
 #, fuzzy
@@ -115,7 +115,7 @@ msgstr "{% endif %}"
 msgid "(.venv) $ git switch -c fix-win11-build"
 msgstr "(.venv) $ git switch -c fix-win11-build"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:23 src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:31 src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:39 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:20 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:36 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:44 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:52 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:70 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:92 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:100 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:108 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:134 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:142 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:150 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:170 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:178 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:186 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:210 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:218 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:226 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:41 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:60 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:79 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:107 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:119 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:131 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:154 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:163 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:172 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:203 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:214 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:225 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:251 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:263 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:275 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:296 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:305 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:314 src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:77 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:34 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:57 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:80 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:110 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:130 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:150 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:187 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:208 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:229 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:246 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:276 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:57 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:65 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:73 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:110 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:118 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:126 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:146 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:154 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:162 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:191 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:199 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:207 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:231 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:239 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:247 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:305 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:313 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:321 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:341 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:349 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:357 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:377 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:385 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:393 src/beeware_docs_tools/shared_content/en/contribute/index.md:17 src/beeware_docs_tools/shared_content/en/contribute/next/pr-review.md:28 src/beeware_docs_tools/shared_content/en/contribute/next/pr-review.md:68 src/beeware_docs_tools/shared_content/en/contribute/next/pr-review.md:80 src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:48 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:17 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:23 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:29 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:37 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:45 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:51 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:59 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:65 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:20 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:26 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:32 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:38 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:44 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:50 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:56 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:62 src/beeware_docs_tools/shared_content/en/contribute/what/propose-feature.md:43 src/beeware_docs_tools/shared_content/en/contribute/what/review-pr.md:21 src/beeware_docs_tools/shared_content/en/contribute/what/translate.md:15 src/beeware_docs_tools/shared_content/en/contribute/what/triage.md:13 src/beeware_docs_tools/shared_content/en/contribute/what/use-tools.md:15 src/beeware_docs_tools/shared_content/en/contribute/what/use-tools.md:21 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:54 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:60 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:66 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:72 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:78 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:84 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:90 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:96
+#: src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:23 src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:31 src/beeware_docs_tools/shared_content/en/contribute/how/branches.md:39 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:20 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:36 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:44 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:52 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:70 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:92 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:100 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:108 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:134 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:142 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:150 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:170 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:178 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:186 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:210 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:218 src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:226 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:41 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:60 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:79 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:107 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:119 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:131 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:154 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:163 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:172 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:203 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:214 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:225 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:251 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:263 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:275 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:296 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:305 src/beeware_docs_tools/shared_content/en/contribute/how/dev-environment.md:314 src/beeware_docs_tools/shared_content/en/contribute/how/new-issue.md:77 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:34 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:57 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:80 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:110 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:130 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:150 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:187 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:208 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:229 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:243 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:249 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:269 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:289 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:57 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:65 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:73 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:110 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:118 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:126 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:146 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:154 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:162 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:191 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:199 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:207 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:231 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:239 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:247 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:305 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:313 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:321 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:341 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:349 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:357 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:377 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:385 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:393 src/beeware_docs_tools/shared_content/en/contribute/index.md:17 src/beeware_docs_tools/shared_content/en/contribute/next/pr-review.md:28 src/beeware_docs_tools/shared_content/en/contribute/next/pr-review.md:68 src/beeware_docs_tools/shared_content/en/contribute/next/pr-review.md:80 src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:48 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:17 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:23 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:29 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:37 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:45 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:51 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:59 src/beeware_docs_tools/shared_content/en/contribute/what/fix-issue.md:65 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:20 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:26 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:32 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:38 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:44 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:50 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:56 src/beeware_docs_tools/shared_content/en/contribute/what/implement-feature.md:62 src/beeware_docs_tools/shared_content/en/contribute/what/propose-feature.md:43 src/beeware_docs_tools/shared_content/en/contribute/what/review-pr.md:21 src/beeware_docs_tools/shared_content/en/contribute/what/translate.md:15 src/beeware_docs_tools/shared_content/en/contribute/what/triage.md:13 src/beeware_docs_tools/shared_content/en/contribute/what/use-tools.md:15 src/beeware_docs_tools/shared_content/en/contribute/what/use-tools.md:21 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:54 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:60 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:66 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:72 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:78 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:84 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:90 src/beeware_docs_tools/shared_content/en/contribute/what/write-docs.md:96
 msgid "///"
 msgstr "///"
 
@@ -364,7 +364,7 @@ msgstr "Qualsiasi riferimento al nome di un prodotto deve utilizzare la capitali
 msgid "If a term is being used \"as code\", then it should be quoted as a literal (`like this`) rather than being added to the dictionary."
 msgstr "Se un termine viene usato \"come codice\", allora dovrebbe essere citato come letterale (`come questo`) invece di essere aggiunto al dizionario."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:241 src/beeware_docs_tools/shared_content/en/contribute/how/propose-feature.md:31 src/beeware_docs_tools/shared_content/en/contribute/how/reproduce-issue.md:34 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:282 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:408 src/beeware_docs_tools/shared_content/en/contribute/how/write-docs.md:35
+#: src/beeware_docs_tools/shared_content/en/contribute/how/build-docs.md:241 src/beeware_docs_tools/shared_content/en/contribute/how/propose-feature.md:31 src/beeware_docs_tools/shared_content/en/contribute/how/reproduce-issue.md:34 src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:295 src/beeware_docs_tools/shared_content/en/contribute/how/write-code.md:408 src/beeware_docs_tools/shared_content/en/contribute/how/write-docs.md:35
 msgid "{% block end_matter %} {% endblock %}"
 msgstr "{% block end_matter %} {% endblock %}"
 
@@ -1461,105 +1461,125 @@ msgstr "Se si è effettuato un push di recente, navigare nel repository upstream
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:237
 #, fuzzy
-msgid "Use the GitHub CLI `gh pr create` command, and fill out the prompts."
-msgstr "Utilizzare il comando `gh pr create` di GitHub CLI e compilare le richieste."
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:238
-#, fuzzy
 msgid "Use the GitHub CLI `gh pr create --web` command to open a web browser to the PR creation page."
 msgstr "Usare il comando GitHub CLI `gh pr create --web` per aprire un browser web alla pagina di creazione della PR."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:240
-#, fuzzy
-msgid "Any of these options will enable you to create your new pull request."
-msgstr "Ognuna di queste opzioni consente di creare una nuova richiesta di pull."
-
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:242
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:239
 #, fuzzy
 msgid "/// info | The GitHub CLI: `gh`"
 msgstr "/// info | La CLI GitHub: `gh`"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:244
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:241
 #, fuzzy
 msgid "GitHub provides the [GitHub CLI]{1}, which gives you access to many of the features of GitHub from your terminal, through the `gh` command. The [GitHub CLI documentation]{2} covers all the features."
 msgstr "GitHub fornisce la [GitHub CLI]{1}, che consente di accedere a molte delle funzionalità di GitHub dal proprio terminale, attraverso il comando `gh`. La [Documentazione della GitHub CLI]{2} copre tutte le funzionalità."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:248
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:245
 #, fuzzy
-msgid "Pull request content"
-msgstr "Contenuto della richiesta di pull"
+msgid "/// warning | `gh pr create`"
+msgstr "/// warning | `gh pr create`"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:250
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:247
+#, fuzzy
+msgid "Do *not* use the bare `gh pr create` command to create your pull request. BeeWare projects use a template for pull requests, and we require all contributions to follow this template. The `gh pr create` command circumvents the use of this template."
+msgstr "Non utilizzare il comando `gh pr create` da solo per creare la tua richiesta di pull. I progetti BeeWare utilizzano un modello per le richieste di pull e richiediamo che tutti i contributi seguano tale modello. Il comando `gh pr create` aggirerebbe l'uso di questo modello."
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:251
+#, fuzzy
+msgid "Pull request content { #pr-content }"
+msgstr "Contenuto della pull request { #pr-content }"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:253
 #, fuzzy
 msgid "A pull request title must be informative, clear, and concise. Try to keep it short if possible, but longer titles are acceptable, if needed. A good PR title should give a person without any context a reasonably solid idea of what bug or feature is implemented by your PR."
 msgstr "Il titolo di una richiesta di pull deve essere informativo, chiaro e conciso. Cercate di mantenerlo breve se possibile, ma titoli più lunghi sono accettabili, se necessario. Un buon titolo di una PR dovrebbe dare a una persona senza alcun contesto un'idea ragionevolmente solida di quale sia il bug o la funzionalità implementata dalla PR."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:252
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:255
+#, fuzzy
+msgid "Your pull request **must** follow the BeeWare [pull request template]{1}. If you've created your pull request using the GitHub web interface, this template will be provided as a starting point for your pull request description. If you inadvertently create a pull request without using this template, you can edit the pull request to add the template content - but the template content *must* be provided and filled out appropriately."
+msgstr "La tua richiesta di pull **deve** seguire il [modello per le richieste di pull]{1} di BeeWare. Se hai creato la tua richiesta di pull utilizzando l'interfaccia web di GitHub, questo modello ti verrà fornito come punto di partenza per la descrizione della richiesta. Se dovessi creare inavvertitamente una richiesta di pull senza utilizzare questo modello, puoi modificare la richiesta per aggiungere il contenuto del modello; tuttavia, il contenuto del modello *deve* essere fornito e compilato in modo appropriato."
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:257
 #, fuzzy
 msgid "The PR description must clearly reflect the changes in the PR. A person without any context should be able to read your description, and gain a relatively complete understanding of why the change is being made. Avoid jokes, idioms, colloquialisms, and unnecessary formatting, such as using all caps or excessive punctuation; this is meant to be a straightforward explanation of what is happening in your PR, and avoiding those things makes the description more accessible to others."
 msgstr "La descrizione della PR deve riflettere chiaramente le modifiche apportate. Una persona priva di contesto dovrebbe essere in grado di leggere la descrizione e comprendere in modo relativamente completo il motivo della modifica. Evitate battute, espressioni idiomatiche, colloquialismi e formattazioni inutili, come l'uso di tutte le maiuscole o di una punteggiatura eccessiva; si tratta di una spiegazione diretta di ciò che sta accadendo nella vostra RP, ed evitare questi elementi rende la descrizione più accessibile agli altri."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:254
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:259
 #, fuzzy
 msgid "If there are any reproduction cases, or any testing regimen that you used that are not already a part of the changes present in the PR, they should be explained and included in the PR. The explanation should include how to run them, and what to do to reproduce the desired outcome."
 msgstr "Se ci sono casi di riproduzione o regimi di test utilizzati che non fanno già parte delle modifiche presenti nella PR, devono essere spiegati e inclusi nella PR. La spiegazione dovrebbe includere come eseguirli e cosa fare per riprodurre il risultato desiderato."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:256
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:261
 #, fuzzy
 msgid "If your pull request will resolve issue #1234, you should include the text `Fixes #1234` in your pull request description. This will cause the issue to be automatically closed when the pull request is merged. You can refer to other discussions, issues or pull requests using the same `#1234` syntax. You can refer to an issue on a different repository by prefixing the number with - for example `python/cpython#1234` would refer to issue 1234 on the CPython repository."
 msgstr "Se la richiesta di pull risolve il problema #1234, si dovrebbe includere il testo `Fixes #1234` nella descrizione della richiesta di pull. Questo farà sì che il problema venga automaticamente chiuso quando la richiesta di pull viene unita. È possibile fare riferimento ad altre discussioni, problemi o richieste di pull usando la stessa sintassi `#1234`. È possibile fare riferimento a un problema su un repository diverso anteponendo il numero - per esempio `python/cpython#1234` si riferisce al problema 1234 sul repository CPython."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:258
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:263
+#, fuzzy
+msgid "AI tools are especially prone to writing verbose, unhelpful pull request messages. If you use an AI tool to generate your PR, *you* are responsible for ensuring that the pull request description is concise, and only contains information that is helpful to the review process. You do not, for example, need to include details on a \"testing regimen\" that describes how to run the test suite, or a \"rationale\" for why a bug needs to be fixed. Excessively verbose pull request bodies may result in your pull request being closed without being reviewed, as they are not respectful of the limited resources of the core team."
+msgstr "Gli strumenti basati sull'intelligenza artificiale tendono particolarmente a generare messaggi di pull request prolissi e poco utili. Se utilizzi uno strumento di questo tipo per generare la tua PR, *tu* hai la responsabilità di assicurarti che la descrizione della pull request sia concisa e contenga solo informazioni utili al processo di revisione. Non è necessario, ad esempio, includere dettagli su un \"regime di test\" che descriva come eseguire la suite di test, o una \"motivazione\" del perché un bug debba essere risolto. I corpi delle richieste di pull eccessivamente prolissi possono comportare la chiusura della richiesta senza che venga revisionata, poiché non rispettano le risorse limitate del team principale."
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:265
+#, fuzzy
+msgid "/// warning | The BeeWare Pull Request template"
+msgstr "/// warning | Il modello di pull request di BeeWare"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:267
+#, fuzzy
+msgid "The BeeWare [pull request template]{1} is **not** optional. We require **all** pull requests to follow this template. Your pull request will not be reviewed if your pull request is missing the \"PR Checklist\" section, or your answers to the checkbox questions are incomplete or inconsistent. If you have used an AI tool to generate your pull request, you *must* check the relevant box, and provide details on the \"Assisted-by:\" line."
+msgstr "Il modello di pull request di BeeWare [pull request template]{1} **non** è facoltativo. Richiediamo che **tutte** le pull request seguano questo modello. La tua pull request non verrà esaminata se manca la sezione \"PR Checklist\" o se le tue risposte alle domande con caselle di controllo sono incomplete o incoerenti. Se hai utilizzato uno strumento di IA per generare la tua pull request, *devi* selezionare la casella pertinente e fornire dettagli nella riga \"Assisted-by:\"."
+
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:271
 #, fuzzy
 msgid "Continuous integration"
 msgstr "Integrazione continua"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:260
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:273
 #, fuzzy
 msgid "*Continuous integration*, or *CI*, is the process of running automated checks on your pull request. This can include simple checks like ensuring code is correctly formatted; but it also includes running the test suite, and building documentation."
 msgstr "*L'integrazione continua*, o *CI*, è il processo di esecuzione di controlli automatici sulla richiesta di pull. Questo può includere controlli semplici, come la verifica che il codice sia formattato correttamente, ma anche l'esecuzione della suite di test e la creazione della documentazione."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:262
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:275
 #, fuzzy
 msgid "There are any number of changes that can result in CI failures. Broadly speaking, we won't review a PR that isn't passing CI. If you create a pull requests and CI fails, we won't begin your review until it is passing. If your changes result in a failure, it is your responsibility to look into the reason, and resolve the issue."
 msgstr "Le modifiche che possono causare un fallimento del CI sono molteplici. In linea di massima, non revisioneremo una PR che non passa il CI. Se si crea una richiesta di pull e il CI fallisce, non inizieremo la revisione finché non passerà. Se le vostre modifiche causano un fallimento, è vostra responsabilità indagare sul motivo e risolvere il problema."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:264
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:277
 #, fuzzy
 msgid "When CI fails, the failure links will show up at the bottom of the PR page, under the heading \"Some checks were not successful\". You'll see a list of failed checks, which, will show up at the top of the list of all checks if there are passing checks as well. If you click on the failure link, it will take you to the log. The log often provides all the information you need to figure out what caused the failure. Read through the log and try to figure out why the failure is occurring, and then do what's necessary to resolve it."
 msgstr "Quando il CI fallisce, i link di fallimento vengono visualizzati in fondo alla pagina PR, sotto il titolo \"Alcuni controlli non hanno avuto successo\". Verrà visualizzato un elenco di controlli falliti, che apparirà in cima all'elenco di tutti i controlli se ci sono anche controlli superati. Se si fa clic sul link relativo al fallimento, si accede al registro. Il log spesso fornisce tutte le informazioni necessarie per capire cosa ha causato il fallimento. Leggete il registro e cercate di capire perché si è verificato il guasto, quindi fate il necessario per risolverlo."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:266
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:279
 #, fuzzy
 msgid "Occasionally, a CI check will fail for reasons that are unrelated to your changes. This could be due to an issue on the machine that runs the CI check; or because a CI check is unstable. If you see a failure, and you're fairly certain it's unrelated to your changes, add a comment to your PR to that effect, and we will look into it."
 msgstr "Occasionalmente, un controllo CI fallisce per motivi non correlati alle modifiche apportate. Ciò potrebbe essere dovuto a un problema sulla macchina che esegue il controllo CI o perché un controllo CI è instabile. Se si verifica un errore e si è abbastanza certi che non sia correlato alle modifiche, aggiungere un commento alla PR e lo esamineremo."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:268
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:281
 #, fuzzy
 msgid "To trigger a new CI run, you need to push new changes to your branch."
 msgstr "Per attivare un nuovo ciclo CI, è necessario apportare nuove modifiche al ramo."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:270
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:283
 #, fuzzy
 msgid "If you find yourself in a situation where you need help getting CI to pass, leave a comment on the PR letting us know and we'll do what we can to help."
 msgstr "Se vi trovate in una situazione in cui avete bisogno di aiuto per far passare l'IC, lasciate un commento sulla PR e fateci sapere che faremo il possibile per aiutarvi."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:272
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:285
 #, fuzzy
 msgid "/// note | The `pre-commit` and `towncrier` checks"
 msgstr "/// note | I controlli `pre-commit` e `towncrier"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:274
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:287
 #, fuzzy
 msgid "If either the `pre-commit` or `towncrier` checks fail, it will block most of the rest of the CI checks from running. You'll need to resolve the applicable issues before the full set of checks will run."
 msgstr "Se uno dei due controlli `pre-commit` o `towncrier` fallisce, la maggior parte degli altri controlli del CI saranno bloccati. È necessario risolvere i problemi applicabili prima che l'intero set di controlli venga eseguito."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:278
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:291
 #, fuzzy
 msgid "We have limited CI resources. It is important to understand that every time you push to the branch, CI will start. If you're going to make a number of changes, it's better to make those changes locally, push them all at once. CI will only run on the most recent commit in a batch, minimizing the load on our CI system."
 msgstr "Le risorse del CI sono limitate. È importante capire che ogni volta che si esegue il push sul ramo, si avvia il CI. Se si devono apportare diverse modifiche, è meglio farle localmente e spingerle tutte in una volta. CI verrà eseguito solo sul commit più recente in un batch, riducendo al minimo il carico sul nostro sistema CI."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:280
+#: src/beeware_docs_tools/shared_content/en/contribute/how/submit-pr.md:293
 #, fuzzy
 msgid "The process of submitting your PR is not done until it's passing CI, or you can provide an explanation for why it's not."
 msgstr "Il processo di invio della PR non è concluso finché non passa il CI, o non si può fornire una spiegazione del perché non lo sia."
@@ -1863,8 +1883,8 @@ msgstr "**Spazi di nomi**, come i nomi di classi, metodi o attributi."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:108
 #, fuzzy
-msgid "**Link URLs**. Standard Markdown links should appear in Weblate as `[Link text]{1}`, where `1` is the position of the link in the string with reference to other possible links. If the full URL is included in the string, as `[Link text](https://example.com)`, the URL should be skipped for translation."
-msgstr "**Link URL**. I link Markdown standard dovrebbero apparire in Weblate come `[Link text]{1}`, dove `1` è la posizione del link nella stringa con riferimento ad altri possibili link. Se l'URL completo è incluso nella stringa, come `[Link text](https://example.com)`, l'URL deve essere saltato per la traduzione."
+msgid "**Link URLs**. Standard Markdown links should appear in Weblate as `[Link text]{1}`, where `1` is the position of the link in the string with reference to other possible links. If the full URL is included in the string, as `[Link text](https://example.com/)`, the URL should be skipped for translation."
+msgstr "**URL dei link**. I link Markdown standard dovrebbero apparire in Weblate come `[Link text]{1}`, dove `1` indica la posizione del link nella stringa rispetto ad altri possibili link. Se nella stringa è presente l'URL completo, come `[Link text](https://example.com/)`, tale URL non deve essere tradotto."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/how/translate.md:109
 #, fuzzy
@@ -3003,17 +3023,48 @@ msgstr "Ci sono anche alcune aggiunte specifiche per BeeWare alla PEP 8:"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:18
 #, fuzzy
-msgid "Splitting long function calls { #split-long-function-calls }"
-msgstr "Suddivisione delle chiamate di funzione lunghe { #split-long-function-calls }"
+msgid "While type annotation adhering to [PEP 484]{1} is optional, it remains strongly encouraged, particularly across any public API surfaces."
+msgstr "Sebbene l'annotazione dei tipi conforme alla [PEP 484]{1} sia facoltativa, se ne raccomanda vivamente l'uso, in particolare nelle interfacce API pubbliche."
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:20
 #, fuzzy
-msgid "When a function call with more than one argument cannot fit on a single line, place each argument on its own line with a trailing comma on the last argument. Ruff permits (and will suggest) a format of multiple arguments on one wrapped line:"
-msgstr "Quando una chiamata di funzione con più di un argomento non può essere contenuta in una singola riga, inserisci ogni argomento su una riga separata, aggiungendo una virgola alla fine dell'ultimo argomento. Ruff consente (e suggerisce) un formato in cui più argomenti sono raggruppati su una riga:"
+msgid "An example of a standard function definition with proper type hints and a Sphinx docstring is shown below:"
+msgstr "Di seguito è riportato un esempio di definizione di una funzione standard con indicazioni di tipo corrette e una stringa di documentazione Sphinx:"
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:22
 #, fuzzy
 msgid ""
+"def function_name(param1: int, param2: str) -> bool:\n"
+"\"\"\"Example function with types and a docstring.\n"
+"\n"
+":param param1: The first parameter.\n"
+":param param2: The second parameter.\n"
+"\n"
+":returns: The return value. True for success, False otherwise.\n"
+"\"\"\""
+msgstr ""
+"def nome_funzione(param1: int, param2: str) -> bool:\n"
+"\"\"\"Funzione di esempio con tipi e stringa di documentazione.\n"
+"\n"
+":param param1: Il primo parametro.\n"
+":param param2: Il secondo parametro.\n"
+"\n"
+":returns: Il valore restituito. True in caso di esito positivo, False in caso contrario.\n"
+"\"\"\""
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:33
+#, fuzzy
+msgid "Splitting long function calls { #split-long-function-calls }"
+msgstr "Suddivisione delle chiamate di funzione lunghe { #split-long-function-calls }"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:35
+#, fuzzy
+msgid "When a function call with more than one argument cannot fit on a single line, place each argument on its own line with a trailing comma on the last argument. Ruff permits (and will suggest) a format of multiple arguments on one wrapped line:"
+msgstr "Quando una chiamata di funzione con più di un argomento non può essere contenuta in una singola riga, inserisci ogni argomento su una riga separata, aggiungendo una virgola alla fine dell'ultimo argomento. Ruff consente (e suggerisce) un formato in cui più argomenti sono raggruppati su una riga:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:37
+#, fuzzy
+msgid ""
 "my_function(\n"
 "    arg1, arg2, arg3\n"
 ")"
@@ -3022,12 +3073,12 @@ msgstr ""
 "    arg1, arg2, arg3\n"
 ")"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:28
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:43
 #, fuzzy
 msgid "This style should not be used. Instead, spread arguments to one per line by adding a trailing comma on the last argument:"
 msgstr "Questo stile non dovrebbe essere utilizzato. È preferibile invece distribuire gli argomenti su una riga ciascuno, aggiungendo una virgola finale all'ultimo argomento:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:30
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:45
 #, fuzzy
 msgid ""
 "my_function(\n"
@@ -3042,17 +3093,17 @@ msgstr ""
 "    arg3,\n"
 ")"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:38
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:53
 #, fuzzy
 msgid "Splitting long strings { #split-long-strings }"
 msgstr "Suddivisione di stringhe lunghe { #split-long-strings }"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:40
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:55
 #, fuzzy
 msgid "When a string argument must be split across lines to satisfy line length requirements, wrap the concatenated string literals in parentheses so it is clear the string is a single argument. That is, we prefer:"
 msgstr "Quando un argomento di tipo stringa deve essere suddiviso su più righe per rispettare i limiti di lunghezza delle righe, racchiudere le stringhe concatenate tra parentesi, in modo che sia chiaro che si tratta di un unico argomento. In altre parole, preferiamo:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:42
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:57
 #, fuzzy
 msgid ""
 "my_function(\n"
@@ -3071,12 +3122,12 @@ msgstr ""
 "    second_argument,\n"
 ")"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:52
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:67
 #, fuzzy
 msgid "over:"
 msgstr "sopra:"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:54
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:69
 #, fuzzy
 msgid ""
 "my_function(\n"
@@ -3091,20 +3142,44 @@ msgstr ""
 "    second_argument,\n"
 ")"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:62
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:77
 #, fuzzy
 msgid "Things to avoid"
 msgstr "Cose da evitare"
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:64
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:79
 #, fuzzy
 msgid "We try to avoid `utils` modules as much as possible, with the understanding that sometimes they are unavoidable. The preferred alternative is to find somewhere for the feature elsewhere in the source code, instead of using a `utils` module."
 msgstr "Cerchiamo di evitare il più possibile i moduli `utils`, con la consapevolezza che a volte sono inevitabili. L'alternativa preferita è quella di trovare un posto per la funzione in un altro punto del codice sorgente, invece di usare un modulo `utils`."
 
-#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:66
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:81
 #, fuzzy
 msgid "As a general rule, we try to avoid or defer any expensive initialization code, in order to achieve faster app startup. For instance, modules in the toga-core package are \"lazy loaded\" — they're only imported once requested, rather than all up front. This speeds up startup, and only spends time on what the app is actually using."
 msgstr "Come regola generale, cerchiamo di evitare o rimandare qualsiasi codice di inizializzazione costoso, al fine di ottenere un avvio più rapido dell'app. Ad esempio, i moduli nel pacchetto toga-core vengono caricati in modo \"lazy\" (ritardato): vengono importati solo quando richiesti, anziché tutti in anticipo. Ciò accelera l'avvio e richiede tempo solo per ciò che l'app sta effettivamente utilizzando."
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:83
+#, fuzzy
+msgid "When writing comments, avoid the use of first-person plural pronouns such as \"we\" (for example, write \"Loop over\" instead of \"We loop over\")."
+msgstr "Quando scrivi i commenti, evita di usare pronomi in prima persona plurale come \"noi\" (ad esempio, scrivi \"Esegui un ciclo su\" invece di \"Noi eseguiamo un ciclo su\")."
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:85
+#, fuzzy
+msgid "In test docstrings, state the expected behavior that each test demonstrates. Don't include preambles such as \"Tests that\" or \"Ensures that\"."
+msgstr "Nelle stringhe di documentazione dei test, descrivi il comportamento previsto che ciascun test deve verificare. Non includere introduzioni del tipo \"Verifica che\" o \"Assicura che\"."
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:87
+#, fuzzy
+msgid "Reserve ticket references for obscure issues where the ticket has additional details that can't be easily described in docstrings or comments. Include the ticket number at the end of a sentence like this:"
+msgstr "Conserva i riferimenti ai ticket per questioni poco chiare in cui il ticket contiene dettagli aggiuntivi che non possono essere facilmente descritti nelle stringhe di documentazione o nei commenti. Includi il numero del ticket alla fine di una frase in questo modo:"
+
+#: src/beeware_docs_tools/shared_content/en/contribute/style/code-style-guide.md:89
+#, fuzzy
+msgid ""
+"def test_foo():\n"
+"          \"\"\"A test docstring looks like this (#123456).\"\"\""
+msgstr ""
+"def test_foo():\n"
+" \"\"\"Una stringa di documentazione di prova ha questo aspetto (#123456).\"\"\""
 
 #: src/beeware_docs_tools/shared_content/en/contribute/style/docs-style-guide.md:1
 #, fuzzy

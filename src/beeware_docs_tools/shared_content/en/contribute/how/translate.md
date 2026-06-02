@@ -105,7 +105,7 @@ The following items should *not* be translated or updated:
 
 * **Commands**. For example, in "You should run \`briefcase create\`.", only "You should run" should be translated.
 * **Namespaces**, such as class, method, or attribute names.
-* **Link URLs**. Standard Markdown links should appear in Weblate as `[Link text]{1}`, where `1` is the position of the link in the string with reference to other possible links. If the full URL is included in the string, as `[Link text](https://example.com)`, the URL should be skipped for translation.
+* **Link URLs**. Standard Markdown links should appear in Weblate as `[Link text]{1}`, where `1` is the position of the link in the string with reference to other possible links. If the full URL is included in the string, as `[Link text](https://example.com/)`, the URL should be skipped for translation.
 * **Reference links containing class, method or attribute names**. These should be left as-is, including the backticks. Every part of the example link shown here would not be translated.
 
     ```markdown
