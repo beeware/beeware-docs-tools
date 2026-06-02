@@ -12,7 +12,7 @@ Even if you can't fix the problem, reporting anything you discover during the pr
 
 /// details-abstract | Set up a development environment
 
-{% include "contribute/how/dev-environment.md" %}
+{% include "how-to/contribute/how/dev-environment.md" %}
 
 ///
 

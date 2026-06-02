@@ -70,12 +70,19 @@ def save_config(project_path, temp_md_path, config, language="en"):
 
     if language != "en":
         shared_content_path = temp_md_path.resolve() / f"shared_content/{language}"
+        local_docs_path = temp_md_path.resolve() / f"docs/{language}"
     else:
         shared_content_path = (Path(__file__).parent / "shared_content/en").resolve()
+        local_docs_path = (project_path / "docs/en").resolve()
 
     base_path.append(str(shared_content_path))
     config["markdown_extensions"]["pymdownx.snippets"]["base_path"] = base_path
-    config["plugins"]["macros"]["include_dir"] = str(shared_content_path)
+    print(config["plugins"]["macros"]["include_dir"])
+    config["plugins"]["macros"]["include_dir"] = [
+        str(shared_content_path),
+        str(local_docs_path),
+    ]
+    print(config["plugins"]["macros"]["include_dir"])
 
     with (temp_md_path / "config.yml").open("w", encoding="utf-8") as config_f:
         yaml.dump(config, config_f)

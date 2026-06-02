@@ -66,7 +66,7 @@ def serve_docs(
         "mkdocs",
         "serve",
         "--clean",
-        "--livereload",
+        # "--livereload",
         "--config-file",
         str(output_path / "mkdocs.en.yml"),
         "--watch",
