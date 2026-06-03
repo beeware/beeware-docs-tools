@@ -29,8 +29,7 @@ dependencies = [
     "mistletoe==1.5.1",
     "mkdocs-autorefs==1.4.4",
     "mkdocs-literate-nav==0.6.3",  # DO NOT UPGRADE - Uncertain whether author's move to ProperDocs will cause incompatibility
-    "mkdocs-macros-plugin @ file:///Users/kattni/BeeWare/mkdocs-macros-plugin",
-#    "mkdocs-macros-plugin",
+    "mkdocs-macros-plugin @ git+https://github.com/kattni/mkdocs-macros-plugin@include-dir-multiple-directories",
     "mkdocs-material==9.7.6",
     "mkdocs-rss-plugin==1.19.0",
     "mkdocs==1.6.1",  # DO NOT UPGRADE - 2+ is not compatible with anything here

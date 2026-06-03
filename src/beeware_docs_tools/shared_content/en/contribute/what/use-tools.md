@@ -10,12 +10,12 @@ If you do experience any problems, start a new discussion topic, as it may be th
 
 /// details-abstract | Submit a new issue
 
-{% include "contribute/how/new-issue.md" %}
+{% include "how-to/contribute/how/new-issue.md" %}
 
 ///
 
 /// details-abstract | Propose a new feature
 
-{% include "contribute/how/propose-feature.md" %}
+{% include "how-to/contribute/how/propose-feature.md" %}
 
 ///

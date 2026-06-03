@@ -15,48 +15,48 @@ An important part of implementing a new feature is ensuring that feature is full
 
 /// details-abstract | Set up a development environment
 
-{% include "contribute/how/dev-environment.md" %}
+{% include "how-to/contribute/how/dev-environment.md" %}
 
 ///
 
 /// details-abstract | Work from a branch
 
-{% include "contribute/how/branches.md" %}
+{% include "how-to/contribute/how/branches.md" %}
 
 ///
 
 /// details-abstract | Avoid scope creep
 
-{% include "contribute/how/scope-creep.md" %}
+{% include "how-to/contribute/how/scope-creep.md" %}
 
 ///
 
 /// details-abstract | Implement the new feature
 
-{% include "contribute/how/write-code.md" %}
+{% include "how-to/contribute/how/write-code.md" %}
 
 ///
 
 /// details-abstract | Build documentation
 
-{% include "contribute/how/build-docs.md" %}
+{% include "how-to/contribute/how/build-docs.md" %}
 
 ///
 
 /// details-abstract | Write documentation
 
-{% include "contribute/how/write-docs.md" %}
+{% include "how-to/contribute/how/write-docs.md" %}
 
 ///
 
 /// details-abstract | Add a change note
 
-{% include "contribute/how/change-note.md" %}
+{% include "how-to/contribute/how/change-note.md" %}
 
 ///
 
 /// details-abstract | Submit a pull request
 
-{% include "contribute/how/submit-pr.md" %}
+{% include "how-to/contribute/how/submit-pr.md" %}
 
 ///

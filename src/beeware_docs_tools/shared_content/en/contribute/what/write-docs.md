@@ -49,48 +49,48 @@ A reference guide in baking might describe the types of sugar that could be used
 
 /// details-abstract | Proposing new documentation
 
-{% include "contribute/how/propose-feature.md" %}
+{% include "how-to/contribute/how/propose-feature.md" %}
 
 ///
 
 /// details-abstract | Set up a development environment
 
-{% include "contribute/how/dev-environment.md" %}
+{% include "how-to/contribute/how/dev-environment.md" %}
 
 ///
 
 /// details-abstract | Work from a branch
 
-{% include "contribute/how/branches.md" %}
+{% include "how-to/contribute/how/branches.md" %}
 
 ///
 
 /// details-abstract | Avoid scope creep
 
-{% include "contribute/how/scope-creep.md" %}
+{% include "how-to/contribute/how/scope-creep.md" %}
 
 ///
 
 /// details-abstract | Building documentation
 
-{% include "contribute/how/build-docs.md" %}
+{% include "how-to/contribute/how/build-docs.md" %}
 
 ///
 
 /// details-abstract | Writing documentation
 
-{% include "contribute/how/write-docs.md" %}
+{% include "how-to/contribute/how/write-docs.md" %}
 
 ///
 
 /// details-abstract | Add a change note
 
-{% include "contribute/how/change-note.md" %}
+{% include "how-to/contribute/how/change-note.md" %}
 
 ///
 
 /// details-abstract | Submit a pull request
 
-{% include "contribute/how/submit-pr.md" %}
+{% include "how-to/contribute/how/submit-pr.md" %}
 
 ///

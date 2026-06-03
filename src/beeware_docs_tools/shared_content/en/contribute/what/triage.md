@@ -8,6 +8,6 @@ Triaging an issue does not mean you are expected to fix it. Depending on the iss
 
 /// details-abstract | Reproduce the issue
 
-{% include "contribute/how/reproduce-issue.md" %}
+{% include "how-to/contribute/how/reproduce-issue.md" %}
 
 ///

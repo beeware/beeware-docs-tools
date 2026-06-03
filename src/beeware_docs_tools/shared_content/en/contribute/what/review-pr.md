@@ -16,6 +16,6 @@ As a first-time contributor, you should feel free to review any pull request you
 
 /// details-abstract | Providing a pull request review
 
-{% include "contribute/how/review-pr.md" %}
+{% include "how-to/contribute/how/review-pr.md" %}
 
 ///

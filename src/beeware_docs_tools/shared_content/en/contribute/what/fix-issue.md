@@ -18,13 +18,13 @@ Even if you can't fix the problem, reporting anything you discover during the pr
 
 /// details-abstract | Work from a branch
 
-{% include "contribute/how/branches.md" %}
+{% include "how-to/contribute/how/branches.md" %}
 
 ///
 
 /// details-abstract | Reproduce the issue
 
-{% include "contribute/how/reproduce-issue.md" %}
+{% include "how-to/contribute/how/reproduce-issue.md" %}
 
 ///
 
@@ -32,7 +32,7 @@ Even if you can't fix the problem, reporting anything you discover during the pr
 
 /// details-abstract | Write, run, and test code
 
-{% include "contribute/how/write-code.md" %}
+{% include "how-to/contribute/how/write-code.md" %}
 
 ///
 
@@ -40,13 +40,13 @@ Even if you can't fix the problem, reporting anything you discover during the pr
 
 /// details-abstract | Build documentation
 
-{% include "contribute/how/build-docs.md" %}
+{% include "how-to/contribute/how/build-docs.md" %}
 
 ///
 
 /// details-abstract | Write documentation
 
-{% include "contribute/how/write-docs.md" %}
+{% include "how-to/contribute/how/write-docs.md" %}
 
 ///
 
@@ -54,12 +54,12 @@ Even if you can't fix the problem, reporting anything you discover during the pr
 
 /// details-abstract | Add a change note
 
-{% include "contribute/how/change-note.md" %}
+{% include "how-to/contribute/how/change-note.md" %}
 
 ///
 
 /// details-abstract | Submit a pull request
 
-{% include "contribute/how/submit-pr.md" %}
+{% include "how-to/contribute/how/submit-pr.md" %}
 
 ///

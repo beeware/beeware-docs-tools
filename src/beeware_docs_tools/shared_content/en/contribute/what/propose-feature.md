@@ -38,6 +38,6 @@ If you're unsure about any of this, don't worry! Submit your idea, and let us kn
 
 /// details-abstract | Proposing a new feature
 
-{% include "contribute/how/propose-feature.md" %}
+{% include "how-to/contribute/how/propose-feature.md" %}
 
 ///

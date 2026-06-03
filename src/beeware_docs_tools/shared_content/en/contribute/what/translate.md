@@ -10,6 +10,6 @@ We use [DeepL](https://www.deepl.com/en/translator) for machine translation to p
 
 /// details-abstract | Translate content
 
-{% include "contribute/how/translate.md" %}
+{% include "how-to/contribute/how/translate.md" %}
 
 ///
