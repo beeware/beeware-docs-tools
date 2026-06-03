@@ -68,12 +68,16 @@ def save_config(project_path, temp_md_path, config, language="en"):
 
     base_path = config["markdown_extensions"]["pymdownx.snippets"].get("base_path", [])
 
+    contribution_root = config["extra"].get(
+        "contribution_guide_root", "how-to/contribute"
+    )
+
     if language != "en":
         shared_content_path = temp_md_path.resolve() / f"shared_content/{language}"
-        local_docs_path = temp_md_path.resolve() / f"{language}"
+        local_docs_path = temp_md_path.resolve() / language / contribution_root
     else:
         shared_content_path = (Path(__file__).parent / "shared_content/en").resolve()
-        local_docs_path = (project_path / "docs/en").resolve()
+        local_docs_path = (project_path / "docs/en" / contribution_root).resolve()
 
     base_path.append(str(shared_content_path))
     config["markdown_extensions"]["pymdownx.snippets"]["base_path"] = base_path

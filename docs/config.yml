@@ -22,6 +22,7 @@ extra:
   translated: true  # false hides content related to building translations. Default: false.
   hide_coverage: false  # true hides content related to code coverage. Default: false.
   macos_only: false  # true hides tabbed content, and displays only macOS instructions. Default: false.
+  contribution_guide_root: content_test_bed/how-to/contribute
   alternate:
     - name: English
       link: /en/
