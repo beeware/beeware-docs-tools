@@ -33,13 +33,13 @@ dependencies = [
     "mkdocs-material==9.7.6",
     "mkdocs-rss-plugin==1.19.0",
     "mkdocs==1.6.1",  # DO NOT UPGRADE - 2+ is not compatible with anything here
-    "mkdocstrings-python==2.0.3",
+    "mkdocstrings-python==2.0.4",
     "pymdown-extensions==10.21.3",
     "pyspelling==2.12.1",
     "python-Levenshtein==0.27.3",
     "PyYAML==6.0.3",
     "polib==1.2.0",
-    "ruff==0.15.15",
+    "ruff==0.15.16",
     "setuptools_scm==10.0.5",
     "translate-toolkit==3.19.11",
 ]
