@@ -39,7 +39,7 @@ dependencies = [
     "python-Levenshtein==0.27.3",
     "PyYAML==6.0.3",
     "polib==1.2.0",
-    "ruff==0.15.16",
+    "ruff==0.15.17",
     "setuptools_scm==10.0.5",
     "translate-toolkit==3.19.11",
 ]
@@ -65,7 +65,7 @@ dev = [
 ]
 
 test = [
-    "pytest == 9.0.3",
+    "pytest == 9.1.0",
     "pytest-xdist == 3.8.0",
 ]
 
