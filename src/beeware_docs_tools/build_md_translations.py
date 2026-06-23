@@ -64,6 +64,8 @@ def generate_translated_md(
             f"--template={docs_path / 'en'}",
             f"--output={output_path}",
             "--fuzzy",
+            # Don't wrap the output content (it can break translated links)
+            "--maxlinelength=0",
         ],
         check=True,
     )
