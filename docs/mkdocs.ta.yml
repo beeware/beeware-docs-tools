@@ -1,0 +1,18 @@
+INHERIT: config.yml
+site_name: BeeWare ஆவணக் கருவிகள்
+site_url: !ENV READTHEDOCS_CANONICAL_URL
+docs_dir: ta
+
+theme:
+  language: ta
+
+extra:
+  language_url: ta/
+  translation_type: machine
+  header:
+    About: பற்றி
+    Documentation: ஆவணப்படுத்தல்
+    Community: சமூகம்
+    Contributing: பங்களித்தல்
+    News: செய்திகள்
+    Sponsor: ஆதரவாளர்

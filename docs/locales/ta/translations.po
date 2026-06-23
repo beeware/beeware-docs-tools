@@ -1,0 +1,1071 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-23 11:30+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.19.11\n"
+
+#: docs/en/SUMMARY.md:1
+msgid ""
+"---\n"
+"search:\n"
+"  exclude: true\n"
+"---\n"
+"\n"
+msgstr ""
+"search:\n"
+"  exclude: true\n"
+"---\n"
+"\n"
+
+#: docs/en/SUMMARY.md:1
+#, fuzzy
+msgid "Section one"
+msgstr "பிரிவு ஒன்று"
+
+#: docs/en/SUMMARY.md:1
+#, fuzzy
+msgid "[Section one]{1}"
+msgstr "[பிரிவு ஒன்று]{1}"
+
+#: docs/en/SUMMARY.md:1
+#, fuzzy
+msgid "[Section one - page two]{1}"
+msgstr "[பிரிவு ஒன்று - பக்கம் இரண்டு]{1}"
+
+#: docs/en/SUMMARY.md:4
+#, fuzzy
+msgid "[Section two]{1}"
+msgstr "[பிரிவு இரண்டு]{1}"
+
+#: docs/en/SUMMARY.md:5
+#, fuzzy
+msgid "[Section three]{1}"
+msgstr "[பிரிவு மூன்று]{1}"
+
+#: docs/en/SUMMARY.md:5
+msgid "./section_three/*"
+msgstr "./section_three/*"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "Shared content testbed"
+msgstr "பகிர்ந்த உள்ளடக்க சோதனைக்களம்"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Shared content testbed]{1}"
+msgstr "[பகிர்ந்த உள்ளடக்க சோதனைக்களம்]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "How-to guides"
+msgstr "செய்முறை வழிகாட்டிகள்"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "Contribute"
+msgstr "பங்களிக்கவும்"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Contributing]{1}"
+msgstr "[பங்களிப்பு]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[First-time contributors]{1}"
+msgstr "[முதல் முறை பங்களிப்பாளர்கள்]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "What can I do?"
+msgstr "நான் என்ன செய்ய முடியும்?"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Fix an issue]{1}"
+msgstr "[ஒரு சிக்கலைச் சரிசெய்யவும்]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Implement a new feature]{1}"
+msgstr "[ஒரு புதிய அம்சத்தைச் செயல்படுத்தவும்]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Write documentation]{1}"
+msgstr "[தயாரிப்பு ஆவணங்களை எழுதுங்கள்]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Triage an issue]{1}"
+msgstr "[ஒரு சிக்கலை முன்னுரிமைப்படுத்துதல்]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Review a pull request]{1}"
+msgstr "[இழு கோரிக்கையை மதிப்பாய்வு செய்யவும்]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Propose a new feature]{1}"
+msgstr "[புதிய அம்சத்தை முன்மொழியுங்கள்]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Translate content]{1}"
+msgstr "[உள்ளடக்கத்தை மொழிபெயர்க்கவும்]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Use the tools]{1}"
+msgstr "[கருவிகளைப் பயன்படுத்துங்கள்]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "How do I contribute?"
+msgstr "நான் எப்படி பங்களிக்க முடியும்?"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Setting up a development environment]{1}"
+msgstr "[ஒரு மேம்பாட்டுச் சூழலை அமைத்தல்]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Reproducing an issue]{1}"
+msgstr "[ஒரு சிக்கலை மீண்டும் வெளியிடுதல்]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Working from a branch]{1}"
+msgstr "[கிளையிலிருந்து வேலை செய்தல்]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Avoiding scope creep]{1}"
+msgstr "[எல்லை மீறலைத் தவிர்த்தல்]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Writing, running, and testing code]{1}"
+msgstr "[எழுதுதல், இயங்குதல் மற்றும் குறியீட்டைச் சோதித்தல்]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Building documentation]{1}"
+msgstr "[ஆவணப்படுத்துதல்]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Writing documentation]{1}"
+msgstr "[ஆவணங்களை எழுதுதல்]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Adding a change note]{1}"
+msgstr "[மாற்றக் குறிப்பைச் சேர்த்தல்]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Submitting a pull request]{1}"
+msgstr "[புல் கோரிக்கையைச் சமர்ப்பித்தல்]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Providing a review]{1}"
+msgstr "[மதிப்பாய்வு வழங்குக]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Submitting a new issue]{1}"
+msgstr "[புதிய சிக்கலைச் சமர்ப்பித்தல்]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Proposing a new feature]{1}"
+msgstr "[ஒரு புதிய அம்சத்தை முன்மொழிதல்]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Translating content]{1}"
+msgstr "[உள்ளடக்கத்தை மொழிபெயர்க்கிறது]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "What happens next?"
+msgstr "அடுத்து என்ன நடக்கும்?"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Pull request review process]{1}"
+msgstr "[பல் ரிக்வெஸ்ட் மதிப்பாய்வு செயல்முறை]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Release process]{1}"
+msgstr "[வெளியீட்டு செயல்முறை]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "Policies"
+msgstr "கொள்கைகள்"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[AI Policy]{1}"
+msgstr "[கலைப்புத்தி கொள்கை]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "Style guides"
+msgstr "பாணி வழிகாட்டிகள்"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Code style guide]{1}"
+msgstr "[குறியீட்டு நடை வழிகாட்டி]{1}"
+
+#: docs/en/SUMMARY.md:7
+#, fuzzy
+msgid "[Documentation style guide]{1}"
+msgstr "[ஆவணப்படுத்தல் பாணி வழிகாட்டி]{1}"
+
+#: docs/en/about/releases.md:1
+#, fuzzy
+msgid "Place-holder file"
+msgstr "இடம் பிடிப்புக் கோப்பு"
+
+#: docs/en/about/releases.md:3
+#, fuzzy
+msgid "This file is included purely to satisfy the link in the `code_contribution_base.md` file. It is excluded from nav."
+msgstr "இந்தக் கோப்பு, `code_contribution_base.md` கோப்பில் உள்ள இணைப்பைப் பூர்த்தி செய்வதற்காக மட்டுமே சேர்க்கப்பட்டுள்ளது. இது nav-இலிருந்து விலக்கப்பட்டுள்ளது."
+
+#: docs/en/content_test_bed/how-to/contribute/first-time-contributors.md:1
+#, fuzzy
+msgid "First-time contributors"
+msgstr "முதல் முறை பங்களிப்பாளர்கள்"
+
+#: docs/en/content_test_bed/how-to/contribute/first-time-contributors.md:3
+msgid "{% extends \"_shared/contribute/first-time-contributors.md\" %}"
+msgstr "{% extends \"_shared/contribute/first-time-contributors.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/branches.md:1
+#, fuzzy
+msgid "Work from a feature branch, not your `main` branch"
+msgstr "உங்கள் `main` கிளை அல்ல, ஒரு அம்சக் கிளையிலிருந்து வேலை செய்யுங்கள்"
+
+#: docs/en/content_test_bed/how-to/contribute/how/branches.md:3
+msgid "{% extends \"_shared/contribute/how/branches.md\" %}"
+msgstr "{% extends \"_shared/contribute/how/branches.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/build-docs.md:1
+#, fuzzy
+msgid "Building documentation"
+msgstr "கட்டுமான ஆவணங்கள்"
+
+#: docs/en/content_test_bed/how-to/contribute/how/build-docs.md:3
+msgid "{% extends \"_shared/contribute/how/build-docs.md\" %}"
+msgstr "{% extends \"_shared/contribute/how/build-docs.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/build-docs.md:5 docs/en/content_test_bed/how-to/contribute/how/reproduce-issue.md:5 docs/en/content_test_bed/how-to/contribute/how/write-code.md:5 docs/en/content_test_bed/how-to/contribute/how/write-docs.md:5
+msgid "{% block front_matter %}"
+msgstr "{% block front_matter %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/build-docs.md:7
+#, fuzzy
+msgid "Before you build the documentation, and have a [development environment]{1} set up."
+msgstr "நீங்கள் ஆவணத்தை உருவாக்குவதற்கும், ஒரு [மேம்பாட்டுச் சூழலை]{1} அமைப்பதற்கும் முன்."
+
+#: docs/en/content_test_bed/how-to/contribute/how/build-docs.md:9 docs/en/content_test_bed/how-to/contribute/how/build-docs.md:15 docs/en/content_test_bed/how-to/contribute/how/propose-feature.md:9 docs/en/content_test_bed/how-to/contribute/how/reproduce-issue.md:9 docs/en/content_test_bed/how-to/contribute/how/reproduce-issue.md:15 docs/en/content_test_bed/how-to/contribute/how/submit-pr.md:17 docs/en/content_test_bed/how-to/contribute/how/write-code.md:9 docs/en/content_test_bed/how-to/contribute/how/write-code.md:15 docs/en/content_test_bed/how-to/contribute/how/write-docs.md:9 docs/en/content_test_bed/how-to/contribute/how/write-docs.md:15
+msgid "{% endblock %}"
+msgstr "{% endblock %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/build-docs.md:11 docs/en/content_test_bed/how-to/contribute/how/propose-feature.md:5 docs/en/content_test_bed/how-to/contribute/how/reproduce-issue.md:11 docs/en/content_test_bed/how-to/contribute/how/submit-pr.md:5 docs/en/content_test_bed/how-to/contribute/how/write-code.md:11 docs/en/content_test_bed/how-to/contribute/how/write-docs.md:11
+msgid "{% block end_matter %}"
+msgstr "{% block end_matter %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/build-docs.md:13
+#, fuzzy
+msgid "Once you have successfully built the docs, you are ready to [write documentation]{1}."
+msgstr "நீங்கள் ஆவணங்களை வெற்றிகரமாக உருவாக்கியவுடன், [ஆவணங்களை எழுத]{1} நீங்கள் தயாராக உள்ளீர்கள்."
+
+#: docs/en/content_test_bed/how-to/contribute/how/change-note.md:1
+#, fuzzy
+msgid "Adding change information for release notes"
+msgstr "வெளியீட்டுக் குறிப்புகளுக்கான மாற்றத் தகவலைச் சேர்த்தல்"
+
+#: docs/en/content_test_bed/how-to/contribute/how/change-note.md:3
+msgid "{% extends \"_shared/contribute/how/change-note.md\" %}"
+msgstr "{% extends \"_shared/contribute/how/change-note.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/dev-environment.md:1
+#, fuzzy
+msgid "Setting up a development environment"
+msgstr "ஒரு மேம்பாட்டுச் சூழலை அமைத்தல்"
+
+#: docs/en/content_test_bed/how-to/contribute/how/dev-environment.md:3
+msgid "{% extends \"_shared/contribute/how/dev-environment.md\" %}"
+msgstr "{% extends \"_shared/contribute/how/dev-environment.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/new-issue.md:1
+#, fuzzy
+msgid "Submitting a new issue"
+msgstr "புதிய சிக்கலைச் சமர்ப்பித்தல்"
+
+#: docs/en/content_test_bed/how-to/contribute/how/new-issue.md:3
+msgid "{% extends \"_shared/contribute/how/new-issue.md\" %}"
+msgstr "{% extends \"_shared/contribute/how/new-issue.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/propose-feature.md:1 docs/en/content_test_bed/how-to/contribute/what/propose-feature.md:1
+#, fuzzy
+msgid "Proposing a new feature"
+msgstr "புதிய அம்சத்தை முன்மொழிதல்"
+
+#: docs/en/content_test_bed/how-to/contribute/how/propose-feature.md:3
+msgid "{% extends \"_shared/contribute/how/propose-feature.md\" %}"
+msgstr "{% extends \"_shared/contribute/how/propose-feature.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/propose-feature.md:7
+#, fuzzy
+msgid "If you are interested, you can begin [implementing your new feature]{1}."
+msgstr "உங்களுக்கு ஆர்வமிருந்தால், நீங்கள் [உங்கள் புதிய அம்சத்தைச் செயல்படுத்தத் தொடங்கலாம்]{1}."
+
+#: docs/en/content_test_bed/how-to/contribute/how/reproduce-issue.md:1
+#, fuzzy
+msgid "Reproducing an issue"
+msgstr "ஒரு சிக்கலை மீண்டும் உருவாக்குதல்"
+
+#: docs/en/content_test_bed/how-to/contribute/how/reproduce-issue.md:3
+msgid "{% extends \"_shared/contribute/how/reproduce-issue.md\" %}"
+msgstr "{% extends \"_shared/contribute/how/reproduce-issue.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/reproduce-issue.md:7
+#, fuzzy
+msgid "To begin reproducing an issue, you will need a [development environment]{1} set up."
+msgstr "ஒரு சிக்கலை மீண்டும் உருவாக்கத் தொடங்க, நீங்கள் ஒரு [மேம்பாட்டுச் சூழலை]{1} அமைத்திருக்க வேண்டும்."
+
+#: docs/en/content_test_bed/how-to/contribute/how/reproduce-issue.md:13
+#, fuzzy
+msgid "At this point, you might choose to try to [fix the issue]{1} you've just reproduced; alternatively, you can write up your findings and try to reproduce another issue."
+msgstr "இந்த நிலையில், நீங்கள் இப்போது மீண்டும் உருவாக்கிய சிக்கலைச் சரிசெய்ய முயற்சி செய்யலாம்; மாற்றாக, உங்கள் கண்டுபிடிப்புகளை எழுதி, மற்றொரு சிக்கலை மீண்டும் உருவாக்க முயற்சி செய்யலாம்."
+
+#: docs/en/content_test_bed/how-to/contribute/how/review-pr.md:1 docs/en/content_test_bed/how-to/contribute/what/review-pr.md:1
+#, fuzzy
+msgid "Providing a pull request review"
+msgstr "புல் ரிக்வெஸ்ட் மதிப்பாய்வை வழங்குதல்"
+
+#: docs/en/content_test_bed/how-to/contribute/how/review-pr.md:3
+msgid "{% extends \"_shared/contribute/how/review-pr.md\" %}"
+msgstr "{% extends \"_shared/contribute/how/review-pr.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/scope-creep.md:1
+#, fuzzy
+msgid "Avoiding scope creep"
+msgstr "எல்லை மீறலைத் தவிர்த்தல்"
+
+#: docs/en/content_test_bed/how-to/contribute/how/scope-creep.md:3
+msgid "{% extends \"_shared/contribute/how/scope-creep.md\" %}"
+msgstr "{% extends \"_shared/contribute/how/scope-creep.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/submit-pr.md:1
+#, fuzzy
+msgid "Submitting a pull request"
+msgstr "புல் ரிக்வெஸ்டைச் சமர்ப்பித்தல்"
+
+#: docs/en/content_test_bed/how-to/contribute/how/submit-pr.md:3
+msgid "{% extends \"_shared/contribute/how/submit-pr.md\" %}"
+msgstr "{% extends \"_shared/contribute/how/submit-pr.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/submit-pr.md:7
+msgid "{% if config.extra.website %}"
+msgstr "{% if config.extra.website %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/submit-pr.md:9
+#, fuzzy
+msgid "Your pull request may require additional content, such as a [change note]{1}, before it can be [reviewed]{2}."
+msgstr "உங்கள் புல் ரிக்வெஸ்ட் [மதிப்பாய்வு]{2} செய்யப்படுவதற்கு முன்பு, அதற்கு [மாற்றக் குறிப்பு]{1} போன்ற கூடுதல் உள்ளடக்கம் தேவைப்படலாம்."
+
+#: docs/en/content_test_bed/how-to/contribute/how/submit-pr.md:11
+msgid "{% else %}"
+msgstr "{% else %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/submit-pr.md:13
+#, fuzzy
+msgid "As part of submitting a pull request, you'll need to include a [change note]{1} before it can be [reviewed]{2}."
+msgstr "ஒரு புல் ரிக்வெஸ்டைச் சமர்ப்பிப்பதன் ஒரு பகுதியாக, அது [மதிப்பாய்வு]{2} செய்யப்படுவதற்கு முன்பு, நீங்கள் ஒரு [மாற்றக் குறிப்பு]{1}-ஐ சேர்க்க வேண்டும்."
+
+#: docs/en/content_test_bed/how-to/contribute/how/submit-pr.md:15 docs/en/index.md:102 docs/en/index.md:112 docs/en/index.md:122
+msgid "{% endif %}"
+msgstr "{% endif %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/translate.md:1 docs/en/content_test_bed/how-to/contribute/what/translate.md:1
+#, fuzzy
+msgid "Translating content"
+msgstr "உள்ளடக்கத்தை மொழிபெயர்த்தல்"
+
+#: docs/en/content_test_bed/how-to/contribute/how/translate.md:3
+msgid "{% extends \"_shared/contribute/how/translate.md\" %}"
+msgstr "{% extends \"_shared/contribute/how/translate.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/write-code.md:1
+#, fuzzy
+msgid "Writing, running, and testing code"
+msgstr "எழுதுதல், இயக்கிப் பார்த்தல் மற்றும் சோதனை செய்தல்"
+
+#: docs/en/content_test_bed/how-to/contribute/how/write-code.md:3
+msgid "{% extends \"_shared/contribute/how/write-code.md\" %}"
+msgstr "{% extends \"_shared/contribute/how/write-code.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/write-code.md:7
+#, fuzzy
+msgid "To begin working on code, ensure you have a [development environment]{1} set up, and you are [working on a branch]{2}"
+msgstr "கோடில் வேலை செய்யத் தொடங்க, நீங்கள் ஒரு [வளர்ச்சிச் சூழலை]{1} அமைத்துள்ளீர்கள் என்பதையும், ஒரு [கிளையில்]{2} வேலை செய்கிறீர்கள் என்பதையும் உறுதிப்படுத்திக் கொள்ளுங்கள்."
+
+#: docs/en/content_test_bed/how-to/contribute/how/write-code.md:13
+#, fuzzy
+msgid "Once you have everything working, you can [submit a pull request]{1} with your changes."
+msgstr "அனைத்தும் சரியாக வேலை செய்தவுடன், உங்கள் மாற்றங்களுடன் ஒரு [புல் ரிக்குவஸ்டை சமர்ப்பிக்கலாம்]{1}."
+
+#: docs/en/content_test_bed/how-to/contribute/how/write-docs.md:1
+#, fuzzy
+msgid "Writing documentation"
+msgstr "ஆவணங்களை எழுதுதல்"
+
+#: docs/en/content_test_bed/how-to/contribute/how/write-docs.md:3
+msgid "{% extends \"_shared/contribute/how/write-docs.md\" %}"
+msgstr "{% extends \"_shared/contribute/how/write-docs.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/how/write-docs.md:7
+#, fuzzy
+msgid "Before you begin writing documentation, ensure you are able to [build the documentation]{1}, and you are [working on a branch]{2}."
+msgstr "ஆவணங்களை எழுதத் தொடங்குவதற்கு முன், உங்களால் ஆவணங்களை உருவாக்க முடியும் என்பதையும், நீங்கள் ஒரு கிளைகளில் வேலை செய்கிறீர்கள் என்பதையும் உறுதிப்படுத்திக் கொள்ளுங்கள்."
+
+#: docs/en/content_test_bed/how-to/contribute/how/write-docs.md:13
+#, fuzzy
+msgid "Once you are happy with your new documentation, you can [submit a pull request]{1} with your proposed changes."
+msgstr "உங்கள் புதிய ஆவணங்களைப் பற்றி நீங்கள் திருப்தி அடைந்தவுடன், உங்கள் முன்மொழியப்பட்ட மாற்றங்களுடன் [ஒரு புல் கோரிக்கையைச் சமர்ப்பிக்கலாம்]{1}."
+
+#: docs/en/content_test_bed/how-to/contribute/index.md:1
+#, fuzzy
+msgid "Contributing to {{ formal_name }}"
+msgstr "{{ formal_name }}-க்கு பங்களிக்க"
+
+#: docs/en/content_test_bed/how-to/contribute/index.md:3
+msgid "{% extends \"_shared/contribute/index.md\" %}"
+msgstr "{% extends \"_shared/contribute/index.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/next/pr-review.md:1
+#, fuzzy
+msgid "Receiving a pull request review"
+msgstr "இழு கோரிக்கை மதிப்பாய்வைப் பெறுதல்"
+
+#: docs/en/content_test_bed/how-to/contribute/next/pr-review.md:3
+msgid "{% extends \"_shared/contribute/next/pr-review.md\" %}"
+msgstr "{% extends \"_shared/contribute/next/pr-review.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/next/release.md:1
+#, fuzzy
+msgid "The release process"
+msgstr "வெளியீட்டு செயல்முறை"
+
+#: docs/en/content_test_bed/how-to/contribute/next/release.md:3
+msgid "{% extends \"_shared/contribute/next/release.md\" %}"
+msgstr "{% extends \"_shared/contribute/next/release.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/policies/ai-policy.md:3
+msgid "{% extends \"_shared/contribute/policies/ai-policy.md\" %}"
+msgstr "{% extends \"_shared/contribute/policies/ai-policy.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/style/code-style-guide.md:1
+#, fuzzy
+msgid "Code style guide"
+msgstr "குறியீட்டு நடை வழிகாட்டி"
+
+#: docs/en/content_test_bed/how-to/contribute/style/code-style-guide.md:3
+msgid "{% extends \"_shared/contribute/style/code-style-guide.md\" %}"
+msgstr "{% extends \"_shared/contribute/style/code-style-guide.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/style/docs-style-guide.md:1
+#, fuzzy
+msgid "Documentation style guide"
+msgstr "ஆவணப்படுத்தல் பாணி வழிகாட்டி"
+
+#: docs/en/content_test_bed/how-to/contribute/style/docs-style-guide.md:3
+msgid "{% extends \"_shared/contribute/style/docs-style-guide.md\" %}"
+msgstr "{% extends \"_shared/contribute/style/docs-style-guide.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/what/fix-issue.md:1
+#, fuzzy
+msgid "Fixing an issue"
+msgstr "ஒரு சிக்கலைச் சரிசெய்தல்"
+
+#: docs/en/content_test_bed/how-to/contribute/what/fix-issue.md:3
+msgid "{% extends \"_shared/contribute/what/fix-issue.md\" %}"
+msgstr "{% extends \"_shared/contribute/what/fix-issue.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/what/implement-feature.md:1
+#, fuzzy
+msgid "Implementing a new feature"
+msgstr "ஒரு புதிய அம்சத்தைச் செயல்படுத்துதல்"
+
+#: docs/en/content_test_bed/how-to/contribute/what/implement-feature.md:3
+msgid "{% extends \"_shared/contribute/what/implement-feature.md\" %}"
+msgstr "{% extends \"_shared/contribute/what/implement-feature.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/what/propose-feature.md:3
+msgid "{% extends \"_shared/contribute/what/propose-feature.md\" %}"
+msgstr "{% extends \"_shared/contribute/what/propose-feature.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/what/review-pr.md:3
+msgid "{% extends \"_shared/contribute/what/review-pr.md\" %}"
+msgstr "{% extends \"_shared/contribute/what/review-pr.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/what/translate.md:3
+msgid "{% extends \"_shared/contribute/what/translate.md\" %}"
+msgstr "{% extends \"_shared/contribute/what/translate.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/what/triage.md:1
+#, fuzzy
+msgid "Triaging an issue"
+msgstr "ஒரு சிக்கலை முன்னுரிமைப்படுத்துதல்"
+
+#: docs/en/content_test_bed/how-to/contribute/what/triage.md:3
+msgid "{% extends \"_shared/contribute/what/triage.md\" %}"
+msgstr "{% extends \"_shared/contribute/what/triage.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/what/use-tools.md:1
+#, fuzzy
+msgid "Using the tools"
+msgstr "கருவிகளைப் பயன்படுத்துதல்"
+
+#: docs/en/content_test_bed/how-to/contribute/what/use-tools.md:3
+msgid "{% extends \"_shared/contribute/what/use-tools.md\" %}"
+msgstr "{% extends \"_shared/contribute/what/use-tools.md\" %}"
+
+#: docs/en/content_test_bed/how-to/contribute/what/write-docs.md:1
+#, fuzzy
+msgid "Adding documentation"
+msgstr "ஆவணங்களைச் சேர்த்தல்"
+
+#: docs/en/content_test_bed/how-to/contribute/what/write-docs.md:3
+msgid "{% extends \"_shared/contribute/what/write-docs.md\" %}"
+msgstr "{% extends \"_shared/contribute/what/write-docs.md\" %}"
+
+#: docs/en/content_test_bed/index.md:1
+#, fuzzy
+msgid "Shared content test bed"
+msgstr "பகிர்ந்த உள்ளடக்க சோதனைத் தளம்"
+
+#: docs/en/content_test_bed/index.md:3
+#, fuzzy
+msgid "This section is included for the purposes of verifying the shared content provided from this repo for use in the rest of the BeeWare documentation. \"Shared content\" refers to documents or sections of documents that are common to multiple other repos. They are stored here for inclusion across those repos. This means there is a single source when updates are required, and that change will populate across all repos using that shared content."
+msgstr "மீதமுள்ள BeeWare ஆவணங்களில் பயன்படுத்த, இந்த ரெப்போவிலிருந்து வழங்கப்படும் பகிரப்பட்ட உள்ளடக்கத்தைச் சரிபார்க்கும் நோக்கத்திற்காகவே இந்தப் பகுதி சேர்க்கப்பட்டுள்ளது. \"பகிரப்பட்ட உள்ளடக்கம்\" என்பது பல பிற களஞ்சியங்களில் பொதுவாகப் பயன்படுத்தப்படும் ஆவணங்கள் அல்லது ஆவணங்களின் பிரிவுகளைக் குறிக்கிறது. அவை அந்தக் களஞ்சியங்கள் அனைத்திலும் சேர்க்கப்படுவதற்காக இங்கே சேமிக்கப்படுகின்றன. இதன் பொருள், புதுப்பிப்புகள் தேவைப்படும்போது ஒரு ஒற்றை ஆதாரம் உள்ளது, மேலும் அந்த மாற்றம் பகிரப்பட்ட உள்ளடக்கத்தைப் பயன்படுத்தும் அனைத்து களஞ்சியங்களிலும் பரவும்."
+
+#: docs/en/content_test_bed/index.md:5
+#, fuzzy
+msgid "If you are updating existing content, the following steps are not necessary. You can simply build the test site, and see your updates rendered."
+msgstr "நீங்கள் ஏற்கனவே உள்ள உள்ளடக்கத்தை புதுப்பிக்கிறீர்கள் என்றால், பின்வரும் படிகள் அவசியமில்லை. நீங்கள் சோதனைத் தளத்தை உருவாக்கி, உங்கள் புதுப்பிப்புகள் காட்டப்படுவதைப் பார்க்கலாம்."
+
+#: docs/en/content_test_bed/index.md:7
+#, fuzzy
+msgid "If you are creating a new shared documentation file in the `shared-content` directory, that is NOT meant to be included in the `how-to` directory, complete the following:"
+msgstr "நீங்கள் `shared-content` கோப்பகத்தில் ஒரு புதிய பகிரப்பட்ட ஆவணக் கோப்பை உருவாக்குகிறீர்கள் என்றால், அது `how-to` கோப்பகத்தில் சேர்க்கப்படக் கூடாது. பின்வருவனவற்றை நிறைவு செய்யவும்:"
+
+#: docs/en/content_test_bed/index.md:9
+#, fuzzy
+msgid "Create a file in the `content_test_bed` that is the same filename as your new content file, with \"_include\" appended to the end."
+msgstr "உங்கள் புதிய உள்ளடக்கக் கோப்பின் அதே பெயரைக் கொண்ட ஒரு கோப்பை `content_test_bed` இல் உருவாக்கவும், அதன் முடிவில் \"_include\" என்பதைச் சேர்க்கவும்."
+
+#: docs/en/content_test_bed/index.md:9
+#, fuzzy
+msgid "For `style_guide.md`, you would add `style_guide_include.md`."
+msgstr "`style_guide.md`, என்பதற்கு நீங்கள் `style_guide_include.md`. சேர்ப்பீர்கள்."
+
+#: docs/en/content_test_bed/index.md:11
+#, fuzzy
+msgid "Using the Snippets syntax, add the filename to `filename_include.md`. The Snippets syntax for including content is `-8<- \"filename.md\"`."
+msgstr "Snippets சொற்றொடையைப் பயன்படுத்தி, கோப்புப்பெயரை `filename_include.md` இல் சேர்க்கவும். உள்ளடக்கத்தைச் சேர்ப்பதற்கான Snippets சொற்றொடர் `-8<- \"filename.md\"` ஆகும்."
+
+#: docs/en/content_test_bed/index.md:11
+#, fuzzy
+msgid "For `style_guide.md`, you would add `-8<- \"style_guide.md\"` to `style_guide_include.md`."
+msgstr "`style_guide.md`, `-8<- \"style_guide.md\"`-இல் சேர்க்கப்படும்."
+
+#: docs/en/content_test_bed/index.md:13
+#, fuzzy
+msgid "Update the `Shared content test bed` section in `/docs/SUMMARY.md` to include the new `_include` file and path, at the same indentation level as the other items in that section."
+msgstr "புதிய `Shared content test bed` கோப்பு மற்றும் பாதையைச் சேர்க்க, `/docs/SUMMARY.md` இல் உள்ள `_include` பிரிவை, அந்தப் பிரிவில் உள்ள மற்ற உருப்படிகளைப் போலவே அதே உள்ளிழுப்பு மட்டத்தில் புதுப்பிக்கவும்."
+
+#: docs/en/content_test_bed/index.md:13
+#, fuzzy
+msgid "For `style_guide_include.md`, you would add `- [Style guide](content_test_bed/style_guide_include.md)`."
+msgstr "`style_guide_include.md`, என்பதற்கு நீங்கள் `- [Style guide](content_test_bed/style_guide_include.md)`. சேர்ப்பீர்கள்."
+
+#: docs/en/content_test_bed/index.md:16
+#, fuzzy
+msgid "Once these steps are completed, you can build the test site and view your new documentation rendered."
+msgstr "இந்தப் படிகள் முடிந்தவுடன், நீங்கள் சோதனைத் தளத்தை உருவாக்கி, உங்கள் புதிய ஆவணங்கள் உருவாக்கப்பட்டதைக் காணலாம்."
+
+#: docs/en/index.md:1
+#, fuzzy
+msgid "Docs Tools Demo"
+msgstr "ஆவணங்கள் கருவிகள் செயல்விளக்கம்"
+
+#: docs/en/index.md:3
+#, fuzzy
+msgid "Theme checklist"
+msgstr "தலைப்பு சரிபார்ப்புப் பட்டியல்"
+
+#: docs/en/index.md:5
+#, fuzzy
+msgid "This demo is designed to test the various features of the BeeWare MkDocs Material theme overrides. Please read through and verify that everything listed on this and the following pages is present and functioning as detailed in the description."
+msgstr "இந்த டெமோ, BeeWare MkDocs மெட்டீரியல் தீம் ஓவர்ரைடுகளின் பல்வேறு அம்சங்களைச் சோதிப்பதற்காக வடிவமைக்கப்பட்டுள்ளது. தயவுசெய்து இந்த மற்றும் அடுத்தடுத்த பக்கங்களில் பட்டியலிடப்பட்டுள்ள அனைத்தும், விளக்கத்தில் விவரிக்கப்பட்டுள்ளபடி இருப்பதையும், செயல்படுவதையும் சரிபார்க்கவும்."
+
+#: docs/en/index.md:7
+#, fuzzy
+msgid "Titlebar"
+msgstr "தலைப்புப் பட்டை"
+
+#: docs/en/index.md:9
+#, fuzzy
+msgid "A medium-gray titlebar is on the page. This the theme template has been applied."
+msgstr "பக்கத்தில் ஒரு நடுத்தர சாம்பல் நிற தலைப்புப் பட்டை உள்ளது. இந்த கருப்பொருள் வார்ப்புரு பயன்படுத்தப்பட்டுள்ளது."
+
+#: docs/en/index.md:11
+#, fuzzy
+msgid "Header icon"
+msgstr "தலைப்புச் சின்னம்"
+
+#: docs/en/index.md:13
+#, fuzzy
+msgid "The header icon top-left has been rendered. This confirms the template can reference external resources."
+msgstr "மேல்-இடது மூலையில் உள்ள ஹெட்டர் ஐகான் காட்டப்பட்டுள்ளது. இது, டெம்ப்ளேட் வெளிப்புற வளங்களைக் குறிப்பிட முடியும் என்பதை உறுதிப்படுத்துகிறது."
+
+#: docs/en/index.md:15
+#, fuzzy
+msgid "Homepage sidebar icon"
+msgstr "முகப்புப் பக்கப் பக்கப்பட்டைச் சின்னம்"
+
+#: docs/en/index.md:17
+#, fuzzy
+msgid "The logo icon in the left sidebar has been rendered. The logo should be the width of, and of equal height to, the sidebar. The site title should be rendered below it in slightly larger font than the rest of the sidebar, with the version number below it in smaller font."
+msgstr "இடது பக்கப் பக்கப்பட்டியில் உள்ள சின்னம் காட்டப்பட்டுள்ளது. சின்னம் பக்கப்பட்டியின் அகலத்திற்குச் சமமாகவும், அதன் உயரத்திற்குச் சமமாகவும் இருக்க வேண்டும். சின்னம் காட்டப்பட்டதற்குக் கீழே, தளத்தின் தலைப்பு, பக்கப்பட்டியின் மற்ற பகுதிகளில் உள்ளதை விட சற்று பெரிய எழுத்துருவில் காட்டப்பட வேண்டும். அதற்குக் கீழே, பதிப்பு எண் சிறிய எழுத்துருவில் காட்டப்பட வேண்டும்."
+
+#: docs/en/index.md:19
+#, fuzzy
+msgid "This confirms the sidebar will render properly on the target sites."
+msgstr "இது இலக்கு தளங்களில் பக்கப் பட்டி சரியாகக் காட்டப்படும் என்பதை உறுதிப்படுத்துகிறது."
+
+#: docs/en/index.md:21
+#, fuzzy
+msgid "Heading font { #heading-font }"
+msgstr "தலைப்பு எழுத்துரு { #heading-font }"
+
+#: docs/en/index.md:23
+#, fuzzy
+msgid "Headings are rendered in Cutive. This confirms the BeeWare custom CSS theme has been applied."
+msgstr "தலைப்புகள் Cutive-ல் காட்டப்படுகின்றன. இது BeeWare தனிப்பயன் CSS தீம் பயன்படுத்தப்பட்டுள்ளது என்பதை உறுதிப்படுத்துகிறது."
+
+#: docs/en/index.md:25
+#, fuzzy
+msgid "Inline code"
+msgstr "வரிசைக் குறியீடு"
+
+#: docs/en/index.md:27
+#, fuzzy
+msgid "Inline code is rendered in the same color as the surrounding font. This confirms that the theme has not caused any undesired changes."
+msgstr "வரிவழி குறியீடு, சுற்றியுள்ள எழுத்துருவின் அதே நிறத்தில் காட்டப்படுகிறது. இது, தீம் எந்த விரும்பத்தகாத மாற்றங்களையும் ஏற்படுத்தவில்லை என்பதை உறுதிப்படுத்துகிறது."
+
+#: docs/en/index.md:29
+#, fuzzy
+msgid "This is text with `inline code` here and `inline code` here."
+msgstr "இது `inline code` மற்றும் `inline code` உடன் கூடிய உரை."
+
+#: docs/en/index.md:31
+#, fuzzy
+msgid "Tabbed content code"
+msgstr "தாவல் உள்ளடக்கக் குறியீடு"
+
+#: docs/en/index.md:33
+#, fuzzy
+msgid "Code is in a contrasting color to the background. Copy button should copy only the commands; the prompt should not be included."
+msgstr "குறியீடு பின்னணியில் இருந்து மாறுபட்ட நிறத்தில் இருக்க வேண்டும். நகலெடுக்கும் பொத்தான் கட்டளைகளை மட்டும் நகலெடுக்க வேண்டும்; உரைப் புலம் சேர்க்கப்படக்கூடாது."
+
+#: docs/en/index.md:35
+#, fuzzy
+msgid "This confirms that the theme has not caused any undesired changes, as well as whether the copy button is working as expected."
+msgstr "இது, தீம் எந்த விரும்பத்தகாத மாற்றங்களையும் ஏற்படுத்தவில்லை என்பதையும், காப்பி பட்டன் எதிர்பார்த்தபடி வேலை செய்கிறதா என்பதையும் உறுதி செய்கிறது."
+
+#: docs/en/index.md:37
+msgid "/// tab | macOS"
+msgstr "/// tab | macOS"
+
+#: docs/en/index.md:39 docs/en/index.md:47
+#, fuzzy
+msgid "$ git clone https://github.com/beeware/beeware-theme.git"
+msgstr "$ git clone https://github.com/beeware/beeware-theme.git"
+
+#: docs/en/index.md:43 docs/en/index.md:51 docs/en/index.md:59 docs/en/index.md:100 docs/en/index.md:110 docs/en/index.md:120
+msgid "///"
+msgstr "///"
+
+#: docs/en/index.md:45
+msgid "/// tab | Linux"
+msgstr "/// tab | Linux"
+
+#: docs/en/index.md:53
+msgid "/// tab | Windows"
+msgstr "/// tab | Windows"
+
+#: docs/en/index.md:55
+#, fuzzy
+msgid "C:\\...>git clone https://github.com/beeware/beeware-theme.git"
+msgstr "C:\\...>git clone https://github.com/beeware/beeware-theme.git"
+
+#: docs/en/index.md:61
+#, fuzzy
+msgid "Code copy button behavior"
+msgstr "குறியீடு நகலெடுக்கும் பொத்தானின் செயல்பாடு"
+
+#: docs/en/index.md:63
+#, fuzzy
+msgid "The copy button on the following codeblock should result in `from pathlib import Path` being copied to the clipboard."
+msgstr "பின்வரும் குறியீட்டுப் பகுதியில் உள்ள நகலெடு பொத்தானை அழுத்தும்போது, `from pathlib import Path` கிளிப்போர்டில் நகலெடுக்கப்பட வேண்டும்."
+
+#: docs/en/index.md:65
+#, fuzzy
+msgid "from pathlib import Path"
+msgstr "pathlib-இலிருந்து Path-ஐ இறக்குமதி செய்யவும்"
+
+#: docs/en/index.md:69
+#, fuzzy
+msgid "The copy button on the following codeblock should result in `ls beeware-docs-tools` being copied to the clipboard. The shell prompt and the output should not be included."
+msgstr "பின்வரும் குறியீட்டுப் பிரிவில் உள்ள நகலெடு பொத்தானை அழுத்தும்போது, `ls beeware-docs-tools` கிளிப்போர்டில் நகலெடுக்கப்பட வேண்டும். ஷெல் உள்வாய்ப்பும் வெளியீடும் சேர்க்கப்படக்கூடாது."
+
+#: docs/en/index.md:71
+#, fuzzy
+msgid ""
+"(venv) $ ls beeware-docs-tools\n"
+"_build\t\t\tlocales\t\t\trequirements.dev.txt\ttox.ini\n"
+"docs\t\t\tpyproject.toml\t\trequirements.docs.txt\n"
+"LICENSE\t\t\tREADME.md\t\tsrc"
+msgstr ""
+"(venv) $ ls beeware-docs-tools\n"
+"_build locales requirements.dev.txt  tox.ini\n"
+"docs pyproject.toml    requirements.docs.txt\n"
+"LICENSE README.md    src"
+
+#: docs/en/index.md:78
+#, fuzzy
+msgid "Sidebar links"
+msgstr "பக்கப் பட்டி இணைப்புகள்"
+
+#: docs/en/index.md:80
+#, fuzzy
+msgid "Sidebar links exist, and point to the `beeware-docs-tools` repo. This confirms that the sidebar content has been loaded, and the `project-name` has been set in the MkDocs configuration file, and the version number is computed and added."
+msgstr "பக்கப்பட்டி இணைப்புகள் உள்ளன, அவை `beeware-docs-tools` ரெப்போவைக் குறிக்கின்றன. இது பக்கப்பட்டி உள்ளடக்கம் ஏற்றப்பட்டுள்ளது என்பதையும், MkDocs உள்ளமைவுக் கோப்பில் `project-name` அமைக்கப்பட்டுள்ளது என்பதையும், பதிப்பு எண் கணக்கிடப்பட்டு சேர்க்கப்பட்டுள்ளது என்பதையும் உறுதிப்படுத்துகிறது."
+
+#: docs/en/index.md:82
+#, fuzzy
+msgid "Link colors"
+msgstr "இணைப்பு வண்ணங்கள்"
+
+#: docs/en/index.md:84
+#, fuzzy
+msgid "This link to [the main BeeWare website]{1} should be blue in *both* light mode and dark mode."
+msgstr "[முதன்மை பீவேர் இணையதளம்]{1}-க்கான இந்த இணைப்பு, வெளிச்ச முறை மற்றும் இருண்ட முறை *இரண்டிலும்* நீல நிறத்தில் இருக்க வேண்டும்."
+
+#: docs/en/index.md:86
+#, fuzzy
+msgid "The links in the left and right sidebars should also be blue in both modes."
+msgstr "இடது மற்றும் வலது பக்கப் பட்டைகளில் உள்ள இணைப்புகளும் இரண்டு முறைகளிலும் நீல நிறத்தில் இருக்க வேண்டும்."
+
+#: docs/en/index.md:88
+#, fuzzy
+msgid "When scrolling down the page, the active header link in the right sidebar should be light blue in dark mode, and darker blue in light mode."
+msgstr "பக்கத்தை கீழே ஸ்க்ரோல் செய்யும்போது, வலதுபுறப் பக்கப்பட்டையில் உள்ள செயலில் உள்ள தலைப்பு இணைப்பு, டார்க் மோடில் வெளிர் நீலமாகவும், லைட் மோடில் அடர் நீலமாகவும் இருக்க வேண்டும்."
+
+#: docs/en/index.md:90
+#, fuzzy
+msgid "Translation admonition"
+msgstr "மொழிபெயர்ப்பு அறிவுரை"
+
+#: docs/en/index.md:92
+#, fuzzy
+msgid "The English-language version of this document should show the \"Translations are available\" admonition below. The French translation should show the \"This is a machine translation!\" admonition. The German translation should show the \"This is a translation!\" admonition for human translations."
+msgstr "இந்த ஆவணத்தின் ஆங்கிலப் பதிப்பில் கீழே \"மொழிபெயர்ப்புகள் கிடைக்கின்றன\" என்ற எச்சரிக்கை காட்டப்பட வேண்டும். பிரெஞ்சு மொழிபெயர்ப்பில் \"இது ஒரு இயந்திர மொழிபெயர்ப்பு!\" என்ற எச்சரிக்கை காட்டப்பட வேண்டும். மனித மொழிபெயர்ப்புகளுக்கு, ஜெர்மன் மொழிபெயர்ப்பில் \"இது ஒரு மொழிபெயர்ப்பு!\" என்ற எச்சரிக்கை காட்டப்பட வேண்டும்."
+
+#: docs/en/index.md:94
+msgid "{% if config.extra.translation_type == \"original\" %}"
+msgstr "{% if config.extra.translation_type == \"original\" %}"
+
+#: docs/en/index.md:96
+#, fuzzy
+msgid "/// admonition | Translations are available"
+msgstr "/// admonition | மொழிபெயர்ப்புகள் கிடைக்கின்றன"
+
+#: docs/en/index.md:98
+#, fuzzy
+msgid "If you're not comfortable with English, translations of the Docs Tools are available in [Français]{1} and [Deutsch]{2}."
+msgstr "ஆங்கிலத்தில் உங்களுக்கு வசதியாக இல்லையென்றால், ஆவணக் கருவிகளின் மொழிபெயர்ப்புகள் [பிரெஞ்சு]{1} மற்றும் [ஜெர்மன்]{2} மொழிகளில் கிடைக்கின்றன."
+
+#: docs/en/index.md:104
+msgid "{% if config.extra.translation_type == \"machine\" %}"
+msgstr "{% if config.extra.translation_type == \"machine\" %}"
+
+#: docs/en/index.md:106
+#, fuzzy
+msgid "/// admonition | This is a machine translation!"
+msgstr "/// admonition | இது ஒரு இயந்திர மொழிபெயர்ப்பு!"
+
+#: docs/en/index.md:108
+#, fuzzy
+msgid "This version of the tutorial has been generated by machine translation. We know this isn't ideal, but we felt that a bad translation was better than no translation at all."
+msgstr "இந்தப் பயிற்சியின் பதிப்பு இயந்திர மொழிபெயர்ப்பு மூலம் உருவாக்கப்பட்டது. இது சிறந்ததல்ல என்பதை நாங்கள் அறிவோம், ஆனால் மொழிபெயர்ப்பே இல்லாததை விட ஒரு மோசமான மொழிபெயர்ப்பு பரவாயில்லை என்று நாங்கள் கருதினோம்."
+
+#: docs/en/index.md:114
+msgid "{% if config.extra.translation_type == \"human\" %}"
+msgstr "{% if config.extra.translation_type == \"human\" %}"
+
+#: docs/en/index.md:116
+#, fuzzy
+msgid "/// admonition | This is a translation!"
+msgstr "/// admonition | இது ஒரு மொழிபெயர்ப்பு!"
+
+#: docs/en/index.md:118
+#, fuzzy
+msgid "This document is a translation of the English version. The translation has been reviewed by humans, but newer sections may be generated by machine translation, or not translated at all."
+msgstr "இந்த ஆவணம் ஆங்கிலப் பதிப்பின் மொழிபெயர்ப்பாகும். இந்த மொழிபெயர்ப்பு மனிதர்களால் மதிப்பாய்வு செய்யப்பட்டுள்ளது, ஆனால் புதிய பகுதிகள் இயந்திர மொழிபெயர்ப்பால் உருவாக்கப்பட்டிருக்கலாம் அல்லது மொழிபெயர்க்கப்படாமலும் இருக்கலாம்."
+
+#: docs/en/index.md:124
+#, fuzzy
+msgid "Custom 404 page"
+msgstr "தனிப்பயன் 404 பக்கம்"
+
+#: docs/en/index.md:126
+#, fuzzy
+msgid "Add `nopage` to the end of the URL in your browser to verify the 404 page exists, and includes the text \"Brutus can't find what you're looking for\". The current 404 page does not always render the images due to an issue with MkDocs."
+msgstr "உங்கள் உலாவியில் உள்ள URL-இன் முடிவில் `nopage` என்பதைச் சேர்ப்பதன் மூலம், 404 பக்கம் உள்ளது என்பதையும், அதில் \"Brutus can't find what you're looking for\" என்ற உரை உள்ளது என்பதையும் சரிபார்க்கலாம். MkDocs-இல் உள்ள ஒரு சிக்கல் காரணமாக, தற்போதைய 404 பக்கம் எப்போதும் படங்களைக் காட்டவில்லை."
+
+#: docs/en/index.md:128
+#, fuzzy
+msgid "*MkDocs builds fail with unrecognized internal links, so you need to manually verify this check by modifying the URL in your browser.*"
+msgstr "*அடையாளம் தெரியாத உள் இணைப்புகளால் MkDocs உருவாக்கம் தோல்வியடைகிறது, எனவே உங்கள் உலாவியில் URL-ஐ மாற்றுவதன் மூலம் இந்தச் சரிபார்ப்பை நீங்கள் கைமுறையாகச் சரிபார்க்க வேண்டும்.*"
+
+#: docs/en/index.md:130
+#, fuzzy
+msgid "Next checks"
+msgstr "அடுத்த சோதனைகள்"
+
+#: docs/en/index.md:132
+#, fuzzy
+msgid "The following link should take you to BeeWare Docs Tools Demo Section One. It is included to verify cross-page linking."
+msgstr "பின்வரும் இணைப்பு உங்களை பீவேர் டாக்குஸ் டூல்ஸ் டெமோ பிரிவு ஒன்றுக்கு அழைத்துச் செல்லும். பக்கங்களுக்கு இடையேயான இணைப்பைச் சரிபார்க்க இது சேர்க்கப்பட்டுள்ளது."
+
+#: docs/en/index.md:134
+#, fuzzy
+msgid "Navigate to [BeeWare Docs Tools Demo Section One]{1} for the next checks."
+msgstr "அடுத்த சோதனைகளுக்கு [BeeWare Docs Tools Demo Section One]{1}-க்குச் செல்லவும்."
+
+#: docs/en/section_one/index.md:1
+#, fuzzy
+msgid "BeeWare Docs Tools Demo section one"
+msgstr "பீவேர் டாக்ஸ் கருவிகள் டெமோ பகுதி ஒன்று"
+
+#: docs/en/section_one/index.md:3
+#, fuzzy
+msgid "Non-homepage sidebar logo"
+msgstr "முகப்புப் பக்கமல்லாத பக்கத்தின் பக்கவாட்டுப் பட்டி சின்னம்"
+
+#: docs/en/section_one/index.md:5
+#, fuzzy
+msgid "The logo icon in the left sidebar should be small on all pages other than the homepage. The site title and version number should be rendered next to it with the site title in slightly larger font, and the version number in smaller font."
+msgstr "முகப்புப் பக்கத்தைத் தவிர மற்ற எல்லாப் பக்கங்களிலும் இடது பக்கப்பட்டியில் உள்ள லோகோ ஐகான் சிறியதாக இருக்க வேண்டும். தளத்தின் தலைப்பும் பதிப்பு எண்ணும் அதற்கு அருகில் காட்டப்பட வேண்டும்; இதில் தளத்தின் தலைப்பு சற்று பெரிய எழுத்துருடனும், பதிப்பு எண் சிறிய எழுத்துருடனும் இருக்க வேண்டும்."
+
+#: docs/en/section_one/index.md:7
+#, fuzzy
+msgid "This verifies that the theme is being properly applied."
+msgstr "இந்தத் தீம் சரியாகப் பயன்படுத்தப்படுவதை இது சரிபார்க்கிறது."
+
+#: docs/en/section_one/index.md:9
+#, fuzzy
+msgid "Include external markdown from a local file"
+msgstr "உள்ளூர் கோப்பிலிருந்து வெளிப்புற மார்க் டவுனைச் சேர்க்கவும்"
+
+#: docs/en/section_one/index.md:11
+#, fuzzy
+msgid "The following section should have only a header, and a paragraph with inline code followed by a code block. There should be no text between the code block and the next header. This verifies that the external include extension is working with local files."
+msgstr "பின்வரும் பிரிவில் ஒரு தலைப்பு மற்றும் உள்ளமைக்கப்பட்ட குறியீட்டுடன் கூடிய ஒரு பத்தி, அதைத் தொடர்ந்து ஒரு குறியீட்டுத் தொகுதி இருக்க வேண்டும். குறியீட்டுத் தொகுதிக்கும் அடுத்த தலைப்புக்கும் இடையில் எந்த உரையும் இருக்கக்கூடாது. இது வெளிப்புற உள்ளடக்க நீட்டிப்பு உள்ளூர் கோப்புகளுடன் சரியாகச் செயல்படுவதை உறுதி செய்கிறது."
+
+#: docs/en/section_one/index.md:13
+#, fuzzy
+msgid "-8<- \"include_content.md:local-content\""
+msgstr "-8<- \"include_content.md:local-content\""
+
+#: docs/en/section_one/index.md:15
+#, fuzzy
+msgid "Include external markdown from a URL"
+msgstr "ஒரு URL-இலிருந்து வெளிப்புற மார்க் டவுனைச் சேர்க்கவும்"
+
+#: docs/en/section_one/index.md:17
+#, fuzzy
+msgid "The following section should have only a header, some text and a Markdown list. This verifies that the external include extension is working, and that `url_download` is enabled."
+msgstr "பின்வரும் பிரிவில் ஒரு தலைப்பு, சில உரை மற்றும் ஒரு மார்க்அப் பட்டியல் மட்டுமே இருக்க வேண்டும். இது வெளிப்புற உள்ளடக்க நீட்டிப்பு வேலை செய்கிறது என்பதையும், `url_download` இயக்கப்பட்டிருக்கிறது என்பதையும் சரிபார்க்கிறது."
+
+#: docs/en/section_one/index.md:21
+#, fuzzy
+msgid "-8<- https://raw.githubusercontent.com/beeware/beeware-docs-tools/refs/heads/main/docs/include_content.md:remote-content -8<-"
+msgstr "-8<- https://raw.githubusercontent.com/beeware/beeware-docs-tools/refs/heads/main/docs/include_content.md:remote-content -8<-"
+
+#: docs/en/section_one/index.md:27
+#, fuzzy
+msgid "Table font rendering"
+msgstr "அட்டவணை எழுத்துரு வெளிப்பாடு"
+
+#: docs/en/section_one/index.md:29
+#, fuzzy
+msgid "Verify that the font in the following table is rendering at the same size as the rest of the font."
+msgstr "பின்வரும் அட்டவணையில் உள்ள எழுத்துரு, மற்ற எழுத்துருக்களைப் போலவே ஒரே அளவில் காட்டப்படுகிறதா என்பதைச் சரிபார்க்கவும்."
+
+#: docs/en/section_one/index.md:31
+#, fuzzy
+msgid "Column 1"
+msgstr "காலம் 1"
+
+#: docs/en/section_one/index.md:31
+#, fuzzy
+msgid "Column 2"
+msgstr "காலம் 2"
+
+#: docs/en/section_one/index.md:31
+#, fuzzy
+msgid "Row 1"
+msgstr "வரி 1"
+
+#: docs/en/section_one/index.md:31
+#, fuzzy
+msgid "Row 2"
+msgstr "வரி 2"
+
+#: docs/en/section_one/index.md:31
+#, fuzzy
+msgid "Row 3"
+msgstr "வரி 3"
+
+#: docs/en/section_one/index.md:31
+#, fuzzy
+msgid "Row 4"
+msgstr "வரி 4"
+
+#: docs/en/section_one/index.md:38
+#, fuzzy
+msgid "Footer navigation"
+msgstr "கால்கோடி வழிசெலுத்தல்"
+
+#: docs/en/section_one/index.md:40
+#, fuzzy
+msgid "Navigate to *Section One - Page Two* for the final check."
+msgstr "இறுதிச் சரிபார்ப்பிற்கு *பிரிவு ஒன்று - பக்கம் இரண்டு*-க்குச் செல்லவும்."
+
+#: docs/en/section_one/page_two.md:1
+#, fuzzy
+msgid "BeeWare Docs Tools Demo section one: page two"
+msgstr "பீவேர் டாக்ஸ் கருவிகள் செயல்விளக்கம் பகுதி ஒன்று: பக்கம் இரண்டு"
+
+#: docs/en/section_one/page_two.md:3
+#, fuzzy
+msgid "Footer and navigation links"
+msgstr "கால்கோடி மற்றும் வழிசெலுத்தல் இணைப்புகள்"
+
+#: docs/en/section_one/page_two.md:5
+#, fuzzy
+msgid "Navigation should render at the bottom of the page; \"BeeWare Docs Tools Demo Section One\" should be on the left, \"Section Two\" should be on the right. The footer should be below the navigation links. This confirms the theme configuration has been applied."
+msgstr "வழிசெலுத்தல் பக்கத்தின் கீழே காட்டப்பட வேண்டும்; \"BeeWare Docs Tools Demo Section One\" இடதுபுறத்திலும், \"Section Two\" வலதுபுறத்திலும் இருக்க வேண்டும். அடிக்குறிப்பு, வழிசெலுத்தல் இணைப்புகளுக்குக் கீழே இருக்க வேண்டும். இது தீம் உள்ளமைவு பயன்படுத்தப்பட்டதை உறுதி செய்கிறது."
+
+#: docs/en/section_one/page_two.md:7
+#, fuzzy
+msgid "Class reference documentation"
+msgstr "வகுப்பு குறிப்பு ஆவணங்கள்"
+
+#: docs/en/section_one/page_two.md:9
+#, fuzzy
+msgid "The following should show the reference documentation for the `DocsTest` class, located in `docs_test.py`, in the `src/beeware_docs_tools` directory. This verifies that the source code directory symlinking is working properly."
+msgstr "பின்வருவது, `DocsTest` டைரக்டரியில், `docs_test.py`-இல் அமைந்துள்ள `src/beeware_docs_tools` வகுப்பிற்கான குறிப்பு ஆவணங்களைக் காட்ட வேண்டும். இது மூல நிரல் டைரக்டரி சிம்லிங்கிங் சரியாக வேலை செய்வதை உறுதி செய்கிறது."
+
+#: docs/en/section_one/page_two.md:11
+#, fuzzy
+msgid "Verify that the text in the parameter table is rendering at the same size as the rest of the font."
+msgstr "பராமீட்டர் அட்டவணையில் உள்ள உரை, மற்ற எழுத்துருக்களைப் போலவே ஒரே அளவில் காட்டப்படுவதைச் சரிபார்க்கவும்."
+
+#: docs/en/section_one/page_two.md:13
+msgid "::: beeware_docs_tools.docs_test.DocsTest"
+msgstr "::: beeware_docs_tools.docs_test.DocsTest"
+
+#: docs/en/section_one/page_two.md:15
+#, fuzzy
+msgid "Macro functionality"
+msgstr "மேக்ரோ செயல்பாடு"
+
+#: docs/en/section_one/page_two.md:17
+#, fuzzy
+msgid "The following should say 'Brutus says \"Hello world!\"'. This confirms that global variables and macros defined via MkDocs-Macros are available."
+msgstr "பின்வருவது 'புருட்டஸ் சொல்கிறது \"ஹலோ வேர்ல்ட்!\"' என்று காட்ட வேண்டும். இது, MkDocs-Macros வழியாக வரையறுக்கப்பட்ட குளோபல் வேரியபிள்கள் மற்றும் மேக்ரோக்கள் கிடைக்கின்றன என்பதை உறுதிப்படுத்துகிறது."
+
+#: docs/en/section_one/page_two.md:19
+#, fuzzy
+msgid "{{ mascot_name }} says \"{{ say_hello() }}\""
+msgstr "{{ mascot_name }} கூறுகிறார் \"{{ say_hello() }}\""
+
+#: docs/en/section_three/index.md:1
+#, fuzzy
+msgid "BeeWare Docs Tools Demo section three"
+msgstr "பீவேர் டாக்ஸ் கருவிகள் டெமோ பகுதி மூன்று"
+
+#: docs/en/section_three/index.md:3
+#, fuzzy
+msgid "This section and its children are included for sidebar scroll testing. Verify the scrollbar is navigable on smaller-height displays, that you can scroll the entire list (Page 01 - Page 12), and that it is not overlapping the footer."
+msgstr "பக்கப்பட்டி ஸ்க்ரோல் சோதனைக்காக இந்தப் பகுதியும் அதன் துணைப் பகுதிகளும் சேர்க்கப்பட்டுள்ளன. குறைந்த உயரம் கொண்ட திரைகளில் ஸ்க்ரோல்பாரைப் பயன்படுத்தி முழு பட்டியலையும் (பக்கம் 01 - பக்கம் 12) ஸ்க்ரோல் செய்ய முடிவதையும், அது அடிக்குறிப்பை மறைக்காமல் இருப்பதையும் சரிபார்க்கவும்."
+
+#: docs/en/section_two/index.md:1
+#, fuzzy
+msgid "BeeWare Docs Tools Demo section two"
+msgstr "பீவேர் டாக்ஸ் கருவிகள் டெமோ பகுதி இரண்டு"
+
+#: docs/en/section_two/index.md:3
+#, fuzzy
+msgid "Images subdirectory"
+msgstr "படங்களின் துணை கோப்புறை"
+
+#: docs/en/section_two/index.md:5
+#, fuzzy
+msgid "Build the French or German translation. The following should be a little Brutus the Bee."
+msgstr "பிரெஞ்சு அல்லது ஜெர்மன் மொழிபெயர்ப்பை உருவாக்குங்கள். பின்வருவது சற்று புருட்டஸ் தி பீ ஆக இருக்க வேண்டும்."
+
+#: docs/en/section_two/index.md:7
+#, fuzzy
+msgid "![Brutus the Bee]{1}"
+msgstr "![பீயான புருட்டஸ்]{1}"
+
+#: docs/en/section_two/index.md:9
+#, fuzzy
+msgid "The presence of the image in the French and German builds verifies that the images subdirectories are being properly symlinked for languages other than English."
+msgstr "பிரெஞ்சு மற்றும் ஜெர்மன் பில்ட்களில் இந்தப் படம் இருப்பது, ஆங்கிலம் தவிர மற்ற மொழிகளுக்கான படங்களின் துணை கோப்பகங்கள் சரியாக சிம்லிங்க் செய்யப்படுகின்றன என்பதை உறுதிப்படுத்துகிறது."
+
+#: docs/en/section_two/index.md:11
+#, fuzzy
+msgid "`autoref` linking"
+msgstr "`autoref` இணைத்தல்"
+
+#: docs/en/section_two/index.md:13
+#, fuzzy
+msgid "The link provided here should take you to the [Heading font][heading-font] section of the main page. It is included to verify `autoref` linking."
+msgstr "இங்கே வழங்கப்பட்ட இணைப்பு உங்களை முக்கியப் பக்கத்தின் [Heading font][heading-font] பகுதிக்கு அழைத்துச் செல்லும். இது `autoref` இணைப்பைச் சரிபார்க்க சேர்க்கப்பட்டுள்ளது."
