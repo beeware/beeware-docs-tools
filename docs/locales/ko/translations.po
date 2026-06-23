@@ -13,7 +13,6 @@ msgstr ""
 "X-Generator: Translate Toolkit 3.19.11\n"
 
 #: docs/en/SUMMARY.md:1
-#, fuzzy
 msgid ""
 "---\n"
 "search:\n"
@@ -22,8 +21,8 @@ msgid ""
 "\n"
 msgstr ""
 "---\n"
-"검색:\n"
-"  제외: true\n"
+"search:\n"
+"  exclude: true\n"
 "---\n"
 "\n"
 
