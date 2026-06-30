@@ -81,7 +81,7 @@ Sidebar links exist, and point to the `beeware-docs-tools` repo. This confirms t
 
 ## Link colors
 
-This link to [the main BeeWare website](https://beeware.org) should be blue in *both* light mode and dark mode.
+This link to [the main BeeWare website](https://beeware.org) should be blue in *both* light mode and dark mode. This link [that `INCLUDES CODE` markup](https://beeware.org) should use blue with a shaded background for the code content.
 
 The links in the left and right sidebars should also be blue in both modes.
 
