@@ -1,18 +1,6 @@
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-06 02:45+0000\n"
-"PO-Revision-Date: 2026-06-27 22:39+0000\n"
-"Last-Translator: Libre <6n0n1m0s@proton.me>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/es/>\n"
-"Language: es\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Translate Toolkit 3.19.13\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-07-06 02:45+0000\nPO-Revision-Date: 2026-07-10 04:01+0000\nLast-Translator: Libre <6n0n1m0s@proton.me>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2026.7.1.dev0\n"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:1
 msgid "There may be a little voice inside your head that is telling you that you're not ready; that you need to do one more tutorial; that you aren't ready to be an open source contributor. After all, you're just a beginner. What could you possibly offer a project like BeeWare?"
@@ -1235,7 +1223,6 @@ msgid "/// warning | `gh pr create`"
 msgstr "/// warning | `gh pr create`"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:247
-#, fuzzy
 msgid "Do *not* use the bare `gh pr create` command to create your pull request. BeeWare projects use a template for pull requests, and we require all contributions to follow this template. The `gh pr create` command circumvents the use of this template."
 msgstr "*No* utilices el comando `gh pr create` sin más para crear tu solicitud de incorporación de cambios. Los proyectos de BeeWare utilizan una plantilla para las solicitudes de incorporación de cambios, y exigimos que todas las contribuciones sigan esta plantilla. El comando `gh pr create` evita el uso de esta plantilla."
 
