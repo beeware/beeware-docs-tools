@@ -1,18 +1,6 @@
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-10 04:02+0000\n"
-"PO-Revision-Date: 2026-07-10 04:01+0000\n"
-"Last-Translator: Libre <6n0n1m0s@proton.me>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/es/>\n"
-"Language: es\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Translate Toolkit 3.19.13\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-07-10 04:02+0000\nPO-Revision-Date: 2026-07-11 08:01+0000\nLast-Translator: Libre <6n0n1m0s@proton.me>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2026.7.1.dev0\n"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:1
 msgid "There may be a little voice inside your head that is telling you that you're not ready; that you need to do one more tutorial; that you aren't ready to be an open source contributor. After all, you're just a beginner. What could you possibly offer a project like BeeWare?"
@@ -224,7 +212,7 @@ msgstr "Generar una compilación local traducida"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:118
 msgid "{{ formal_name }}'s documentation is translated into multiple languages. Updates to the English documentation have the potential lead to issues in the other language builds. It is important to verify all builds are working before submitting a pull request."
-msgstr "La documentación de {{ formal_name }} está traducida a varios idiomas. Las actualizaciones de la documentación en inglés pueden provocar incidencias en las versiones en otros idiomas. Es importante verificar que todas las versiones funcionan antes de enviar un pull request."
+msgstr "La documentación de {{ formal_name }} está traducida a varios idiomas. Las actualizaciones de la documentación en inglés pueden provocar incidencias en las versiones en otros idiomas. Es importante verificar que todas las versiones funcionan antes de enviar una solicitud de extracción."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:120
 msgid "To generate a build of all available translations:"
@@ -988,7 +976,7 @@ msgstr "Trabajar con pre-confirmación"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:5
 msgid "When you commit any change, pre-commit will run automatically. If there are any issues found with the commit, this will cause your commit to fail. Where possible, pre-commit will make the changes needed to correct the problems it has found. In the following example, a code formatting issue was found by the `ruff` check:"
-msgstr "Al confirmar cualquier cambio, se ejecutará automáticamente la precompromiso. Si se encuentra alguna incidencia con la confirmación, ésta fallará. Siempre que sea posible, pre-commit realizará los cambios necesarios para corregir los problemas encontrados. En el siguiente ejemplo, la comprobación `ruff` ha encontrado una incidencia de formato de código:"
+msgstr "Al confirmar cualquier cambio, se ejecutará automáticamente el pre‐compromiso. Si se encuentra alguna incidencia con la confirmación, ésta fallará. Siempre que sea posible, pre‐compromiso realizará los cambios necesarios para corregir los problemas encontrados. En el siguiente ejemplo, la comprobación `ruff` ha encontrado una incidencia de formato de código:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:13 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:38
 msgid ""
@@ -1247,9 +1235,8 @@ msgid "A pull request title must be informative, clear, and concise. Try to keep
 msgstr "El título de una solicitud de extracción debe ser informativo, claro y conciso. Intente que sea corto si es posible, pero se aceptan títulos más largos si es necesario. Un buen título de RP debe dar a una persona sin ningún contexto una idea razonablemente sólida de qué defecto o prestación se implementa en tu RP."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:255
-#, fuzzy
 msgid "Your pull request **must** follow the BeeWare [pull request template]{1}. If you've created your pull request using the GitHub web interface, this template will be provided as a starting point for your pull request description. If you inadvertently create a pull request without using this template, you can edit the pull request to add the template content - but the template content *must* be provided and filled out appropriately."
-msgstr "Tu solicitud de incorporación de cambios **debe** seguir la [plantilla de solicitud de incorporación de cambios]{1} de BeeWare. Si has creado tu solicitud de incorporación de cambios a través de la interfaz web de GitHub, esta plantilla aparecerá como punto de partida para la descripción de tu solicitud. Si, sin darte cuenta, creas una solicitud de incorporación de cambios sin utilizar esta plantilla, puedes editarla para añadir el contenido de la plantilla; sin embargo, *es obligatorio* incluir dicho contenido y rellenarlo correctamente."
+msgstr "Tu solicitud de incorporación de cambios **debe** seguir la [plantilla de solicitud de incorporación de cambios]{1} de BeeWare. Si has creado tu solicitud de incorporación de cambios a través de la interfaz web de GitHub, esta plantilla aparecerá como punto de partida para la descripción de tu solicitud. Si, sin darte cuenta, creas una solicitud de incorporación de cambios sin utilizar esta plantilla, puedes editarla para añadir el contenido de la plantilla; sin embargo, es *obligatorio* incluir dicho contenido y rellenarlo correctamente."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:257
 msgid "The PR description must clearly reflect the changes in the PR. A person without any context should be able to read your description, and gain a relatively complete understanding of why the change is being made. Avoid jokes, idioms, colloquialisms, and unnecessary formatting, such as using all caps or excessive punctuation; this is meant to be a straightforward explanation of what is happening in your PR, and avoiding those things makes the description more accessible to others."
@@ -1261,10 +1248,9 @@ msgstr "Si hay algún caso de reproducción, o algún régimen de pruebas que ha
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:261
 msgid "If your pull request will resolve issue #1234, you should include the text `Fixes #1234` in your pull request description. This will cause the issue to be automatically closed when the pull request is merged. You can refer to other discussions, issues or pull requests using the same `#1234` syntax. You can refer to an issue on a different repository by prefixing the number with - for example `python/cpython#1234` would refer to issue 1234 on the CPython repository."
-msgstr "Si su pull request va a resolver la incidencia #1234, debe incluir el texto `Fixes #1234` en la descripción de su pull request. Esto hará que la incidencia se cierre automáticamente cuando se fusione la pull request. Puede hacer referencia a otras discusiones, incidencias o pull requests utilizando la misma sintaxis `#1234`. Puede hacer referencia a una incidencia en un repositorio diferente anteponiendo el número; por ejemplo `python/cpython#1234` haría referencia a la incidencia 1234 en el repositorio CPython."
+msgstr "Si su solicitud de extracción va a resolver la incidencia #1234, debe incluir el texto `Fixes #1234` en la descripción de su pull request. Esto hará que la incidencia se cierre automáticamente cuando se fusione la pull request. Puede hacer referencia a otras discusiones, incidencias o pull requests utilizando la misma sintaxis `#1234`. Puede hacer referencia a una incidencia en un repositorio diferente anteponiendo el número; por ejemplo `python/cpython#1234` haría referencia a la incidencia 1234 en el repositorio CPython."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:263
-#, fuzzy
 msgid "AI tools are especially prone to writing verbose, unhelpful pull request messages. If you use an AI tool to generate your PR, *you* are responsible for ensuring that the pull request description is concise, and only contains information that is helpful to the review process. You do not, for example, need to include details on a \"testing regimen\" that describes how to run the test suite, or a \"rationale\" for why a bug needs to be fixed. Excessively verbose pull request bodies may result in your pull request being closed without being reviewed, as they are not respectful of the limited resources of the core team."
 msgstr "Las herramientas de IA tienden especialmente a redactar mensajes de solicitud de incorporación de cambios (PR) demasiado extensos y poco útiles. Si utilizas una herramienta de IA para generar tu PR, *tú* eres responsable de garantizar que la descripción de la solicitud de incorporación de cambios sea concisa y solo contenga información útil para el proceso de revisión. Por ejemplo, no es necesario que incluyas detalles sobre un «protocolo de pruebas» que describa cómo ejecutar el conjunto de pruebas, ni una «justificación» de por qué hay que corregir un error. Los cuerpos de las solicitudes de incorporación de cambios excesivamente prolijos pueden dar lugar a que tu solicitud se cierre sin ser revisada, ya que no respetan los recursos limitados del equipo principal."
 
@@ -2330,7 +2316,7 @@ msgstr "Debe esperar a que cualquiera que revise sus envíos siga estas directri
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:26
 msgid "If you feel your reviewer is straying from these expectations, and you feel comfortable raising the issue yourself on the pull request, you can do so. If you don't feel comfortable, please reach out to the [BeeWare Code of Conduct Response Team]{1}. We will review your report, and follow up with your reviewer. The follow-up will reflect the reported action; a minor transgression may result in a discussion, whereas a major violation may result in something more serious."
-msgstr "Si cree que su revisor se está desviando de estas expectativas, y se siente cómodo planteando la incidencia usted mismo en el pull request, puede hacerlo. Si no se siente cómodo, por favor póngase en contacto con el [Equipo de Respuesta al Código de Conducta de BeeWare]{1}. Revisaremos su informe y nos pondremos en contacto con su revisor. El seguimiento reflejará la acción reportada; una transgresión menor puede resultar en una discusión, mientras que una violación mayor puede resultar en algo más serio."
+msgstr "Si cree que su revisor se está desviando de estas expectativas, y se siente cómodo planteando la incidencia usted mismo en la solicitud de extracción, puede hacerlo. Si no se siente cómodo, por favor póngase en contacto con el [Equipo de Respuesta al Código de Conducta de BeeWare]{1}. Revisaremos su informe y nos pondremos en contacto con su revisor. El seguimiento reflejará la acción reportada; una transgresión menor puede resultar en una discusión, mientras que una violación mayor puede resultar en algo más serio."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:30
 msgid "Providing a review"
@@ -2505,7 +2491,6 @@ msgid "While type annotation adhering to [PEP 484]{1} is optional, it remains st
 msgstr "Aunque la anotación de tipos conforme a [PEP 484]{1} es opcional, se recomienda encarecidamente su uso, sobre todo en las API públicas."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:20
-#, fuzzy
 msgid "An example of a standard function definition with proper type hints and a Sphinx docstring is shown below:"
 msgstr "A continuación se muestra un ejemplo de definición de función estándar con las indicaciones de tipo adecuadas y una cadena de documentación de Sphinx:"
 
@@ -2630,9 +2615,8 @@ msgid "In test docstrings, state the expected behavior that each test demonstrat
 msgstr "En las cadenas de documentación de las pruebas, describe el comportamiento esperado que demuestra cada prueba. No incluyas introducciones del tipo «Comprueba que» o «Asegura que»."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:87
-#, fuzzy
 msgid "Reserve ticket references for obscure issues where the ticket has additional details that can't be easily described in docstrings or comments. Include the ticket number at the end of a sentence like this:"
-msgstr "Reserva las referencias a tickets para problemas poco comunes en los que el ticket contenga detalles adicionales que no se puedan describir fácilmente en las cadenas de documentación o en los comentarios. Incluye el número de ticket al final de una frase de esta manera:"
+msgstr "Reserva las referencias a tickets para incidencias poco comunes en los que el ticket contenga detalles adicionales que no se puedan describir fácilmente en las cadenas de documentación o en los comentarios. Incluye el número de ticket al final de una frase de esta manera:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:89
 msgid ""
@@ -3342,11 +3326,11 @@ msgstr "Si se trata de una palabra que es poco probable que se vuelva a utilizar
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/fix-issue.md:1
 msgid "{{ formal_name }} tracks a list of [known issues]({% if config.extra.website %}https://github.com/search?q=org%3Abeeware%20is%3Aopen%20is%3Aissue%20label%3Abug&type=issues{% else %}https://github.com/beeware/{{ project_name }}/issues?q=is%3Aopen+is%3Aissue+label%3Abug{% endif %}). Any of these issues are candidates to be worked on."
-msgstr "{{ formal_name }} sigue un listado de [incidencia conocida]({% if config.extra.website %}https://github.com/search?q=org%3Abeeware%20is%3Aopen%20is%3Aissue%20label%3Abug&type=issues{% else %}https://github.com/beeware/{{ project_name }}/issues?q=is%3Aopen+is%3Aissue+label%3Abug{% endif %}). Cualquiera de estos problemas es susceptible de ser abordado."
+msgstr "{{ formal_name }} sigue un listado de [incidencias conocidas]({% if config.extra.website %}https://github.com/search?q=org%3Abeeware%20is%3Aopen%20is%3Aissue%20label%3Abug&type=issues{% else %}https://github.com/beeware/{{ project_name }}/issues?q=is%3Aopen+is%3Aissue+label%3Abug{% endif %}). Cualquiera de estas incidencias es susceptible de ser abordadas."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/fix-issue.md:3
 msgid "This list can be filtered in various ways. For example, you can filter by platform, so you can focus on issues that affect the platforms you're able to test on; or you can filter by issue type, such as [documentation bugs]({% if config.extra.website %}https://github.com/search?q=org%3Abeeware+is%3Aopen+is%3Aissue+label%3Abug+label%3Adocumentation&type=issues{% else %}https://github.com/beeware/{{ project_name }}/issues?q=is%3Aopen%20is%3Aissue%20label%3Abug%20label%3Adocumentation{% endif %}). There's also a filter for [good first issues]({% if config.extra.website %}https://github.com/search?q=org%3Abeeware+is%3Aopen+is%3Aissue+label%3Abug+label%3A%22good+first+issue%22&type=issues{% else %}https://github.com/beeware/{{ project_name }}/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22{% endif %}) - these are issues that have been identified as problems that have a known cause, and we believe the fix *should* be relatively straightforward (although we might be wrong in our analysis)."
-msgstr "Esta lista puede filtrarse de varias maneras. Por ejemplo, puede filtrar por plataforma, para centrarse en las incidencias que afectan a las plataformas en las que puede realizar incidencias; o puede filtrar por tipo de incidencia, como [fallos de documentación]({% if config.extra.website %}https://github.com/search?q=org%3Abeeware+is%3Aopen+is%3Aissue+label%3Abug+label%3Adocumentation&type=issues{% else %}https://github.com/beeware/{{ project_name }}/issues?q=is%3Aopen%20is%3Aissue%20label%3Abug%20label%3Adocumentation{% endif %}). También hay un filtro para [buenas primeras ediciones]({% if config.extra.website %}https://github.com/search?q=org%3Abeeware+is%3Aopen+is%3Aissue+label%3Abug+label%3A%22good+first+issue%22&type=issues{% else %}https://github.com/beeware/{{ project_name }}/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22{% endif %}): se trata de incidencias que se han identificado como problemas con una causa conocida, y creemos que la solución *debería* ser relativamente sencilla (aunque podríamos equivocarnos en nuestro análisis)."
+msgstr "Esta lista puede filtrarse de varias maneras. Por ejemplo, puede filtrar por plataforma, para centrarse en las incidencias que afectan a las plataformas en las que puede realizar incidencias; o puede filtrar por tipo de incidencia, como [fallos de documentación]({% if config.extra.website %}https://github.com/search?q=org%3Abeeware+is%3Aopen+is%3Aissue+label%3Abug+label%3Adocumentation&type=issues{% else %}https://github.com/beeware/{{ project_name }}/issues?q=is%3Aopen%20is%3Aissue%20label%3Abug%20label%3Adocumentation{% endif %}). También hay un filtro para [buenas primeras ediciones]({% if config.extra.website %}https://github.com/search?q=org%3Abeeware+is%3Aopen+is%3Aissue+label%3Abug+label%3A%22good+first+issue%22&type=issues{% else %}https://github.com/beeware/{{ project_name }}/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22{% endif %}): se trata de incidencias que se han identificado como problemas con una causa conocida, y creemos que la solución *sería* relativamente sencilla (aunque podríamos equivocarnos en nuestro análisis)."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/fix-issue.md:5
 msgid "If an issue is more than 6 months old, it's entirely possible that the issue has been resolved, so the first step is to verify that you can reproduce the problem. Use the information provided in the bug report to try and reproduce the problem. If you can't reproduce the problem, report what you have found as a comment on the issue, and pick another issue."
@@ -3634,7 +3618,7 @@ msgstr "{% include \"how/translate.md\" %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/triage.md:1
 msgid "{{ formal_name }} regularly receives issue reports from users who are experiencing problems. When a new issue is reported, that report needs to be *triaged* - that is, we need someone to read the report, take the information provided by the reporter, and try to reproduce the problem being described."
-msgstr "{{ nombre_formal }} recibe regularmente informes de incidencia desde los usuarios quienes tienen problemas. Cuando se informa de una incidencia nueva, ese informe necesita estar en el *triage*, es decir, necesitamos a alguien que lea el informe proporcionado, tome la información proporcionado por el reportero, e intente reproducir el problema descrito."
+msgstr "{{ nombre_formal }} recibe regularmente informes de incidencia desde los usuarios quienes tienen problemas. Cuando se informa de una incidencia nueva, ese informe necesita estar en el *triage*, es decir, necesitamos a alguien que lea el informe proporcionado, tome la información proporcionado por el informe, e intente reproducir el problema descrito."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/triage.md:3
 msgid "Unfortunately, while issue reports are usually well-intentioned, they are often incomplete or confusing. The purpose of the triage process is to fill in the gaps of the original report. This means either generating enough detail so that we can confirm how the issue can be reproduced; or to confirm that the original reporter was mistaken in their report."
