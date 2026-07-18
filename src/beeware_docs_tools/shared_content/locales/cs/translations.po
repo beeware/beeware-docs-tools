@@ -1,26 +1,14 @@
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-15 07:03+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.19.13\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-07-15 07:03+0000\nPO-Revision-Date: 2026-07-18 11:51+0000\nLast-Translator: Michaela Dušková <duskova.misa@hotmail.com>\nLanguage-Team: Czech <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/cs/>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Generator: Weblate 2026.8.dev0\nLanguage: cs\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:1
-#, fuzzy
 msgid "There may be a little voice inside your head that is telling you that you're not ready; that you need to do one more tutorial; that you aren't ready to be an open source contributor. After all, you're just a beginner. What could you possibly offer a project like BeeWare?"
-msgstr "Možná vám v hlavě zní hlas, který vám říká, že ještě nejste připraveni, že potřebujete absolvovat ještě jeden tutoriál, že ještě nejste připraveni stát se přispěvatelem open source. Koneckonců, jste teprve začátečník. Co byste mohli nabídnout projektu jako BeeWare?"
+msgstr "Možná Vám v hlavě zní hlas, který Vám říká, že ještě nejste připraveni, že potřebujete absolvovat ještě jeden tutoriál, že ještě nejste připraveni stát se přispěvatelem do open source. Koneckonců, jste teprve začátečník. Co byste mohli nabídnout projektu jako BeeWare?"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:3
-#, fuzzy
 msgid "I assure you - the little voice in your head is wrong. You can contribute code to open source, and to BeeWare."
-msgstr "Ujišťuji vás, že ten malý hlas ve vaší hlavě se mýlí. Můžete přispívat kódem do open source a do BeeWare."
+msgstr "Ujišťuji Vás, že ten malý hlas ve Vaší hlavě se mýlí. Můžete přispívat kódem do open source a do BeeWare."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:5
 #, fuzzy
@@ -28,44 +16,36 @@ msgid "Impostor syndrome"
 msgstr "Syndrom podvodníka"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:7
-#, fuzzy
 msgid "You're not the first person to have those thoughts, either. Even the members of the core team of this project have these thoughts from time to time. It's called \"impostor syndrome\", and it's a really common problem. The good news is - we're here to help you get over it."
-msgstr "Nejste první, kdo má takové myšlenky. I členové hlavního týmu tohoto projektu je mají čas od času. Říká se tomu „syndrom podvodníka“ a je to opravdu běžný problém. Dobrá zpráva je, že jsme tu, abychom vám pomohli se s tím vypořádat."
+msgstr "Nejste první, kdo má takové myšlenky. I členové hlavního týmu tohoto projektu je mají čas od času. Říká se tomu „syndrom podvodníka“ a je to opravdu běžný problém. Dobrá zpráva je, že jsme tu, abychom Vám pomohli se s tím vypořádat."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:9
-#, fuzzy
 msgid "This tutorial exists to make sure you know exactly what process you have to follow in order to make a contribution to BeeWare. In addition to these procedural instructions, this project has a Code of Conduct. This Code of Conduct is there to give you confidence that no matter what mistakes you make, you'll be treated with respect. Everyone makes mistakes - that's a natural part of learning. Our pledge to you is that we are here to help you learn, not to insult or belittle you for learning."
-msgstr "Tento návod slouží k tomu, abyste přesně věděli, jakým procesem musíte projít, abyste mohli přispět do projektu BeeWare. Kromě těchto procedurálních pokynů má tento projekt také Kodex chování. Tento Kodex chování vám dává jistotu, že bez ohledu na to, jaké chyby uděláte, bude s vámi zacházeno s respektem. Každý dělá chyby – to je přirozená součást učení. Slibujeme vám, že jsme tu proto, abychom vám pomohli se učit, a ne abychom vás za učení uráželi nebo ponižovali."
+msgstr "Tento návod slouží k tomu, abyste přesně věděli, jakým procesem musíte projít, abyste mohli přispět do projektu BeeWare. Kromě těchto procedurálních pokynů má tento projekt také Etický kodex. Tento Etický kodex Vám dává jistotu, že bez ohledu na to, jaké chyby uděláte, bude s Vámi zacházeno s respektem. Každý dělá chyby – to je přirozená součást učení. Slibujeme Vám, že jsme tu proto, abychom Vám pomohli se učit, a ne abychom Vás za učení uráželi nebo ponižovali."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:11
-#, fuzzy
 msgid "You can't do any damage, either - either to your own computer, or to the project as a whole. BeeWare projects don't touch any part of your computer or operating system that could do any serious damage. Worst case, you'll end up with a couple of extra files on your hard drive, which can be easily deleted afterwards. And every contribution you submit to BeeWare is reviewed before it is integrated into the \"official\" project, and you'll get feedback to help you correct any problems that may exist."
-msgstr "Nemůžete způsobit žádné škody – ani na svém počítači, ani na projektu jako celku. Projekty BeeWare se nedotýkají žádné části vašeho počítače nebo operačního systému, která by mohla způsobit vážné poškození. V nejhorším případě vám na pevném disku zůstane pár dalších souborů, které lze snadno smazat. Každý příspěvek, který odešlete do BeeWare, je před začleněním do „oficiálního“ projektu zkontrolován a vy dostanete zpětnou vazbu, která vám pomůže opravit případné problémy."
+msgstr "Nemůžete způsobit žádné škody – ani na svém počítači, ani na projektu jako celku. Projekty BeeWare se nedotýkají žádné části Vašeho počítače nebo operačního systému, která by mohla způsobit vážné poškození. V nejhorším případě Vám na pevném disku zůstane pár dalších souborů, které lze snadno smazat. Každý příspěvek, který odešlete do BeeWare, je před začleněním do „oficiálního“ projektu zkontrolován a Vy dostanete zpětnou vazbu, která Vám pomůže opravit případné problémy."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:13
-#, fuzzy
 msgid "So - don't be afraid to contribute. If you've gotten this far, you've demonstrated you have an interest in contributing - and that's all you need. We can help you the rest of the way."
-msgstr "Takže se nebojte přispívat. Pokud jste se dostali až sem, prokázali jste, že máte zájem přispívat – a to je vše, co potřebujete. My vám pomůžeme s ostatním."
+msgstr "Takže se nebojte přispívat. Pokud jste se dostali až sem, prokázali jste, že máte zájem přispívat – a to je vše, co potřebujete. My Vám pomůžeme s ostatním."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:15
-#, fuzzy
 msgid "Every contribution matters"
 msgstr "Každý příspěvek je důležitý"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:17
-#, fuzzy
 msgid "Being an open source contributor doesn't just mean writing code. You can help out by writing documentation, tests, or even giving feedback about the project (including giving feedback about the contribution process). Some of these contributions may be the most valuable to the project as a whole, because you're coming to the project with fresh eyes, so you can see the errors and assumptions that seasoned contributors have glossed over."
-msgstr "Být přispěvatelem open source neznamená jen psát kód. Můžete pomoci psaním dokumentace, testů nebo dokonce poskytováním zpětné vazby k projektu (včetně zpětné vazby k procesu přispívání). Některé z těchto příspěvků mohou být pro projekt jako celek nejcennější, protože k projektu přistupujete s novým pohledem, takže můžete vidět chyby a předpoklady, které zkušení přispěvatelé přehlédli."
+msgstr "Být přispěvatelem do open source neznamená jen psát kód. Můžete pomoci psaním dokumentace, testů nebo dokonce poskytováním zpětné vazby k projektu (včetně zpětné vazby k procesu přispívání). Některé z těchto příspěvků mohou být pro projekt jako celek nejcennější, protože k projektu přistupujete s novým pohledem, takže můžete vidět chyby a předpoklady, které zkušení přispěvatelé přehlédli."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:19
-#, fuzzy
 msgid "The importance of contributions"
 msgstr "Význam příspěvků"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:21
-#, fuzzy
 msgid "Open Source Software lives and dies on its contributions. Community contributions are critical to the success of any open source project, and BeeWare is no exception. To the extent that we can, we will provide you with the help you need to contribute. We're more than happy to get you going and help you work through your contribution, regardless of whether this is your first, tenth, or hundredth time contributing. Please don't hesitate to reach out and let us know if you need assistance."
-msgstr "Open Source Software žije a umírá na základě svých příspěvků. Příspěvky komunity jsou klíčové pro úspěch jakéhokoli open source projektu a BeeWare není výjimkou. V rámci našich možností vám poskytneme pomoc, kterou potřebujete, abyste mohli přispívat. Rádi vám pomůžeme začít a provedeme vás procesem přispívání, ať už je to vaše první, desáté nebo sté přispění. Neváhejte se na nás obrátit a dejte nám vědět, pokud potřebujete pomoc."
+msgstr "Open-source software žije a umírá na základě svých příspěvků. Příspěvky komunity jsou klíčové pro úspěch jakéhokoli open-source projektu a BeeWare není výjimkou. V rámci našich možností Vám poskytneme pomoc, kterou potřebujete, abyste mohli přispívat. Rádi Vám pomůžeme začít a provedeme Vás procesem přispívání, ať už je to vaše první, desáté nebo sté přispění. Neváhejte se na nás obrátit a dejte nám vědět, pokud potřebujete pomoc."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:23
 #, fuzzy
@@ -73,29 +53,24 @@ msgid "Now it's time to roll up your sleeves, and [choose your first contributio
 msgstr "Nyní je čas vyhrnout si rukávy a [vybrat svůj první příspěvek]({% if config.extra.website %}guide/index.md{% else %}index.md#what-can-i-do{% endif %})."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/branches.md:1
-#, fuzzy
 msgid "Before you start working on your change, make sure you've created a branch. By default, when you clone your repository fork, you'll be checked out on your `main` branch. This is a direct copy of {{ formal_name }}'s `main` branch."
-msgstr "Než začnete pracovat na změně, ujistěte se, že jste vytvořili větev. Ve výchozím nastavení se při klonování vidlice repozitáře dostanete do větve `main`. Jedná se o přímou kopii větve {{ formal_name }} ."
+msgstr "Než začnete pracovat na změně, ujistěte se, že jste si vytvořili větev. Ve výchozím nastavení se po naklonování forku repozitáře dostanete do větve `main`. Jedná se o přímou kopii větve {{ formal_name }} ."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/branches.md:3
-#, fuzzy
 msgid "While you *can* submit a pull request from your `main` branch, it's preferable if you *don't* do this. If you submit a pull request that is *almost* right, the core team member who reviews your pull request may be able to make the necessary changes, rather than giving feedback asking for a minor change. However, if you submit your pull request from your `main` branch, reviewers are prevented from making modifications."
-msgstr "I když *můžete* odeslat žádost o stažení z vaší větve `main`, je lepší, když to *nebudete* dělat. Pokud odešlete žádost o stažení, která je *téměř* správná, člen jádrového týmu, který vaši žádost o stažení posuzuje, může provést potřebné změny, místo aby vám poskytl zpětnou vazbu s žádostí o drobnou změnu. Pokud však odešlete žádost o stažení z vaší větve `main`, recenzenti nebudou moci provádět úpravy."
+msgstr "Přestože pull request *můžete* poslat z Vaší větve `main`, je lepší, když to *nebudete* dělat. Pokud pošlete pull request, který je *téměř* správný, člen core týmu, který Vám udělá code review, může provést potřebné změny, místo aby Vám posílal další žádost o drobnou změnu. Pokud však pošlete pull request z Vaší větve `main`, recenzenti nebudou moci provádět úpravy."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/branches.md:5
-#, fuzzy
 msgid "Working off your main branch also makes it difficult for *you* after you complete your first pull request. If you want to work on a second pull request, you will need to have a \"clean\" copy of the upstream project's main branch on which to base your second contribution; if you've made your first contribution from your `main` branch, you no longer have that clean version available."
-msgstr "Práce na hlavní větvi také ztěžuje práci *vám* po dokončení prvního požadavku na stažení. Pokud chcete pracovat na druhém požadavku na stažení, budete potřebovat „čistou“ kopii hlavní větve upstreamového projektu, na které budete moci založit svůj druhý příspěvek; pokud jste svůj první příspěvek vytvořili z větve `main`, již nemáte k dispozici tuto čistou verzi."
+msgstr "Práce na hlavní větvi také ztěžuje práci *Vám* po dokončení prvního pull requestu. Pokud chcete pracovat na druhém pull requestu, budete potřebovat „čistou“ kopii hlavní větve upstreamového projektu, na které budete moci založit svůj druhý příspěvek; pokud jste svůj první příspěvek vytvořili z větve `main`, již nemáte k dispozici tuto čistou verzi."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/branches.md:7
-#, fuzzy
 msgid "Instead, you should make your changes on a *feature branch*. A feature branch has a simple name to identify the change that you've made. For example, if you're fixing a bug that causes build issues on Windows 11, you might create a feature branch `fix-win11-build`. If your bug relates to a specific issue that has been reported, it's also common to reference that issue number in the branch name (e.g., `fix-1234`)."
-msgstr "Místo toho byste měli provádět změny na *funkční větvi*. Funkční větev má jednoduchý název, který identifikuje změnu, kterou jste provedli. Pokud například opravujete chybu, která způsobuje problémy s kompilací ve Windows 11, můžete vytvořit feature branch `fix-win11-build`. Pokud se vaše chyba týká konkrétního nahlášeného problému, je také běžné odkazovat na číslo tohoto problému v názvu větve (např. `fix-1234`)."
+msgstr "Místo toho byste měli provádět změny na *feature větvi*. Feature větev má jednoduchý název, který identifikuje změnu, kterou jste provedli. Pokud například opravujete chybu, která způsobuje problémy s kompilací ve Windows 11, můžete vytvořit feature větev `fix-win11-build`. Pokud se Vaše chyba týká konkrétního nahlášeného problému, je také běžné odkazovat na číslo tohoto problému v názvu větve (např. `fix-1234`)."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/branches.md:9
-#, fuzzy
 msgid "To create a `fix-win11-build` feature branch, run:"
-msgstr "Chcete-li vytvořit větev funkcí `fix-win11-build`, spusťte:"
+msgstr "Chcete-li vytvořit feature větev `fix-win11-build`, spusťte:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/branches.md:11 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/branches.md:21 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:24 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:34 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:80 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:90 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:122 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:132 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:158 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:168 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:198 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:208 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:7 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:28 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:80 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:94 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:130 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:141 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:177 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:190 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:224 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:238 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:272 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:283 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:7 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:32 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:86 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:108 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:162 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:185 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:45 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:55 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:98 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:108 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:134 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:144 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:179 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:189 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:219 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:229 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:293 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:303 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:329 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:339 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:365 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:375 src/beeware_docs_tools/shared_content/en/_shared/contribute/what/implement-feature.md:3
 msgid "{% if not config.extra.macos_only %}"
@@ -130,9 +105,8 @@ msgid "(.venv) C:\\...>git switch -c fix-win11-build"
 msgstr "(.venv) C:\\...>git switch -c fix-win11-build"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:1
-#, fuzzy
 msgid "Before making any changes to {{ formal_name }}'s documentation, it is helpful to confirm that you can build the existing documentation."
-msgstr "Před provedením jakýchkoli změn v dokumentaci {{ formal_name }} je užitečné ověřit, zda můžete sestavit stávající dokumentaci."
+msgstr "Před provedením jakýchkoli změn v dokumentaci {{ formal_name }} je užitečné si ověřit, zda můžete vygenerovat stávající dokumentaci."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:3 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/reproduce-issue.md:5 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:4 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:4
 #, fuzzy
@@ -140,44 +114,36 @@ msgid "{% block front_matter %} {% endblock %}"
 msgstr "{% block front_matter %} {% endblock %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:6
-#, fuzzy
 msgid "You **must** have a Python {{ docs_python_version }} interpreter installed and available on your path (i.e., `python{{ docs_python_version }}` must start a Python {{ docs_python_version }} interpreter)."
-msgstr "**Musíte** mít nainstalovaný interpret Python {{ docs_python_version }} a musí být dostupný ve vaší cestě (tj. `python{{ docs_python_version }}` musí spustit interpret Python {{ docs_python_version }})."
+msgstr "**Musíte** mít nainstalovaný Python {{ docs_python_version }} interpreter a musí být dostupný ve vaší cestě (např. `python{{ docs_python_version }}` musí spustit Python {{ docs_python_version }})."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:8
-#, fuzzy
 msgid "{{ formal_name }} uses `tox` for building documentation. The following `tox` commands must be run from the same location as the `tox.ini` file, which is in the root directory of the project."
-msgstr "{{ formal_name }} používá `tox` pro vytváření dokumentace. Následující příkazy `tox` musí být spuštěny ze stejného umístění jako soubor `tox.ini`, který se nachází v kořenovém adresáři projektu."
+msgstr "{{ formal_name }} používá `tox` pro generování dokumentace. Následující příkazy `tox` musí být spuštěny ze stejného umístění jako soubor `tox.ini`, který se nachází v kořenovém adresáři projektu."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:10
-#, fuzzy
 msgid "Live documentation preview"
-msgstr "Náhled živé dokumentace"
+msgstr "Průběžný náhled dokumentace"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:12
-#, fuzzy
 msgid "To support rapid editing of documentation, {{ formal_name }} has a \"live preview\" mode."
-msgstr "Pro podporu rychlé úpravy dokumentace má {{ formal_name }} režim „živého náhledu“."
+msgstr "Pro podporu rychlé úpravy dokumentace má {{ formal_name }} režim „náhledu“."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:14
-#, fuzzy
 msgid "/// warning | The live preview will build with warnings!"
-msgstr "/// warning | Živý náhled se vytvoří s varováními!"
+msgstr "/// warning | Průběžný náhled se vytvoří s varováními!"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:16
-#, fuzzy
 msgid "The live serve is available for iterating on your documentation updates. While you're in the process of updating things, you may introduce a markup issue. Issues considered a `WARNING` will cause a standard build to fail, however, the live serve is set up to indicate warnings in the console output, while continuing to build. This allows you to iterate without needing to restart the live preview."
-msgstr "Live serve je k dispozici pro opakované aktualizace dokumentace. Během aktualizace může dojít k problému s označením. Problémy označené jako `WARNING` způsobí selhání standardní kompilace, ale live serve je nastaven tak, aby v konzoli zobrazoval varování a pokračoval v kompilaci. To vám umožňuje opakovat aktualizace bez nutnosti restartovat živý náhled."
+msgstr "Live server je k dispozici pro opakované aktualizace dokumentace. Během aktualizace může dojít k problému s markup značkami. Problémy označené jako `WARNING` způsobí selhání standardního vygenerování, ale live server je nastaven tak, aby v konzoli zobrazoval varování a pokračoval v generování. To Vám umožňuje opakovat aktualizace bez nutnosti restartovat průběžný náhled."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:18
-#, fuzzy
 msgid "A `WARNING` is different from an `ERROR`. If you introduce an issue that is considered an `ERROR`, the live serve will fail, and require a restart. It will not start up again until the `WARNING` issue is resolved."
-msgstr "`WARNING` se liší od `ERROR`. Pokud zavedete problém, který je považován za `ERROR`, živý server selže a bude vyžadovat restart. Nezačne znovu fungovat, dokud nebude problém `WARNING` vyřešen."
+msgstr "`WARNING` se liší od `ERROR`. Pokud způsobíte problém, který je považován za `ERROR`, lokální vývojový server selže a bude vyžadovat restart. Nezačne znovu fungovat, dokud nebude problém `WARNING` vyřešen."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:22
-#, fuzzy
 msgid "To start the live server:"
-msgstr "Spuštění živého serveru:"
+msgstr "Spuštění lokálního vývojového serveru:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:30 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:40
 #, fuzzy
@@ -190,9 +156,8 @@ msgid "(venv) C:\\...>tox -e docs-live"
 msgstr "(venv) C:\\...>tox -e docs-live"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:56
-#, fuzzy
 msgid "This will build the documentation, start a web server to serve the documentation, and watch the file system for any changes to the documentation source."
-msgstr "Tím se vytvoří dokumentace, spustí se webový server pro poskytování dokumentace a bude sledován souborový systém, zda nedošlo k nějakým změnám ve zdrojovém kódu dokumentace."
+msgstr "Tím se vytvoří dokumentace, spustí se webový server na kterém poběží dokumentace a budou sledovány soubory, zda nedošlo k nějakým změnám ve zdrojovém kódu dokumentace."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:58
 #, fuzzy
@@ -200,14 +165,12 @@ msgid "Once the server is started, you'll see something like the following in th
 msgstr "Po spuštění serveru se v konzoli zobrazí následující výstup:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:60
-#, fuzzy
 msgid "INFO    -  [11:18:51] Serving on http://127.0.0.1:8000/"
-msgstr "INFO    -  [11:18:51] Obsluhuje na adrese http://127.0.0.1:8000/"
+msgstr "INFO    -  [11:18:51] Serving on http://127.0.0.1:8000/"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:64
-#, fuzzy
 msgid "Open a browser, and navigate to the URL provided. Now you can begin iterating on the documentation. If a change is detected, the documentation will be rebuilt, and any browser viewing the modified page will be automatically refreshed."
-msgstr "Otevřete prohlížeč a přejděte na uvedenou adresu URL. Nyní můžete začít s iterací dokumentace. Pokud bude zjištěna změna, dokumentace bude znovu sestavena a všechny prohlížeče, které zobrazují upravenou stránku, budou automaticky aktualizovány."
+msgstr "Otevřete prohlížeč a přejděte na uvedenou adresu URL. Nyní můžete začít s iterací dokumentace. Pokud bude zaznamenána změna, dokumentace se přegeneruje a všechny prohlížeče, které zobrazují upravenou stránku, budou automaticky aktualizovány."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:66
 #, fuzzy
@@ -215,29 +178,24 @@ msgid "/// note | `docs-live` is an initial step"
 msgstr "/// note | `docs-live` je první krok"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:68
-#, fuzzy
 msgid "Running `docs-live` to work with the live server is meant for initial iterating. You should *always* run a local build before submitting a pull request."
-msgstr "Spuštění `docs-live` pro práci s živým serverem je určeno pro počáteční iterace. Před odesláním žádosti o stažení byste měli *vždy* spustit lokální sestavení."
+msgstr "Spuštění `docs-live` pro práci s lokálním vývojovým serverem je určeno pro počáteční iterace. Před odesláním pull requestu byste měli *vždy* spustit lokální build."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:72
-#, fuzzy
 msgid "Local build"
-msgstr "Místní sestavení"
+msgstr "Lokální build"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:74
-#, fuzzy
 msgid "Once you're done iterating, you'll need to do a local build of the documentation. This build process is designed to fail if there are any markup problems. This allows you to catch anything you might have missed with the live server."
-msgstr "Jakmile dokončíte iterace, budete muset provést lokální sestavení dokumentace. Tento proces sestavení je navržen tak, aby selhal v případě jakýchkoli problémů se značkami. To vám umožní zachytit vše, co jste mohli na živém serveru přehlédnout."
+msgstr "Jakmile dokončíte úpravu dokumentace, budete muset provést lokální build dokumentace. Tento proces je navržen tak, aby selhal v případě jakýchkoli problémů se značkami. To vám umožní zachytit vše, co jste mohli na lokálním vývojovém serveru přehlédnout."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:76
-#, fuzzy
 msgid "Generating a local build"
-msgstr "Generování lokální sestavení"
+msgstr "Generování lokálního buildu"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:78
-#, fuzzy
 msgid "To generate a local build:"
-msgstr "Pro vytvoření lokální sestavení:"
+msgstr "Pro vytvoření lokálního buildu:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:86 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:96
 #, fuzzy
@@ -250,28 +208,24 @@ msgid "(venv) C:\\...>tox -e docs"
 msgstr "(venv) C:\\...>tox -e docs"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:110
-#, fuzzy
 msgid "The output of this build will be in the `_build` directory in the root of the project."
-msgstr "Výstup této sestavení bude umístěn v adresáři `_build` v kořenovém adresáři projektu."
+msgstr "Výstup tohoto buildu bude umístěn v adresáři `_build` v kořenovém adresáři projektu."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:114 src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:45 src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:103
 msgid "{% if config.extra.translated %}"
 msgstr "{% if config.extra.translated %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:116
-#, fuzzy
 msgid "Generating a local translated build"
-msgstr "Vytvoření lokálně přeložené sestavy"
+msgstr "Vytvoření lokálního přeloženého buildu"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:118
-#, fuzzy
 msgid "{{ formal_name }}'s documentation is translated into multiple languages. Updates to the English documentation have the potential lead to issues in the other language builds. It is important to verify all builds are working before submitting a pull request."
-msgstr "Dokumentace {{ formal_name }}' je přeložena do několika jazyků. Aktualizace anglické dokumentace mohou způsobit problémy v jiných jazykových verzích. Před odesláním žádosti o stažení je důležité ověřit, zda všechny verze fungují správně."
+msgstr "Dokumentace {{ formal_name }}' je přeložena do několika jazyků. Aktualizace anglické dokumentace mohou způsobit problémy v jiných jazykových verzích. Před odesláním pull requestu je důležité ověřit, zda všechny verze fungují správně."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:120
-#, fuzzy
 msgid "To generate a build of all available translations:"
-msgstr "Chcete-li vygenerovat sestavení všech dostupných překladů:"
+msgstr "Chcete-li vygenerovat build všech dostupných překladů:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:128 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:138
 #, fuzzy
@@ -284,14 +238,12 @@ msgid "(venv) C:\\...>tox -e docs-all"
 msgstr "(venv) C:\\...>tox -e docs-all"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:154
-#, fuzzy
 msgid "The output of each language build will be in the associated `_build/html/<languagecode>` directory, where `<languagecode>` is the two- or five-character language code associated with the specific language (e.g. `fr` for French, `it` for Italian, etc.)."
-msgstr "Výstup každé jazykové sestavy bude umístěn v příslušném adresáři `_build/html/<languagecode>`, kde `<languagecode>` je dvoumístný nebo pětimístný kód jazyka přidružený ke konkrétnímu jazyku (např. `fr` pro francouzštinu, `it` pro italštinu atd.)."
+msgstr "Výstup každé jazykového buildu bude umístěn v příslušném adresáři `_build/html/<languagecode>`, kde `<languagecode>` je dvoumístný nebo pětimístný kód jazyka přidružený ke konkrétnímu jazyku (např. `fr` pro francouzštinu, `it` pro italštinu atd.)."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:156
-#, fuzzy
 msgid "If you find an issue with a single build, you can run that individual build separately by running `tox -e docs-<languagecode>`. For example, to build only the French documentation, run:"
-msgstr "Pokud narazíte na problém s jednotlivou sestavou, můžete ji spustit samostatně pomocí příkazu `tox -e docs-<languagecode>`. Chcete-li například sestavit pouze francouzskou dokumentaci, spusťte:"
+msgstr "Pokud narazíte na problém s jednotlivým buildem, můžete ho spustit samostatně pomocí příkazu `tox -e docs-<languagecode>`. Chcete-li například sestavit pouze francouzskou dokumentaci, spusťte:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:164 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:174
 #, fuzzy
@@ -304,9 +256,8 @@ msgid "(venv) C:\\...>tox -e docs-fr"
 msgstr "(venv) C:\\...>tox -e docs-fr"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:190
-#, fuzzy
 msgid "The output of a single-language build will be in the `_build` directory."
-msgstr "Výstup jednojazyčné sestavy bude umístěn v adresáři `_build`."
+msgstr "Výstup jednojazyčného buildu bude umístěn v adresáři `_build`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:194
 #, fuzzy
