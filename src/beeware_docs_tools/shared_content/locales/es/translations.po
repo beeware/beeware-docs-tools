@@ -1,18 +1,6 @@
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-18 11:51+0000\n"
-"PO-Revision-Date: 2026-07-11 08:01+0000\n"
-"Last-Translator: Libre <6n0n1m0s@proton.me>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/es/>\n"
-"Language: es\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Translate Toolkit 3.19.13\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-07-18 11:51+0000\nPO-Revision-Date: 2026-07-19 14:01+0000\nLast-Translator: Libre <6n0n1m0s@proton.me>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2026.8.dev0\n"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:1
 msgid "There may be a little voice inside your head that is telling you that you're not ready; that you need to do one more tutorial; that you aren't ready to be an open source contributor. After all, you're just a beginner. What could you possibly offer a project like BeeWare?"
@@ -36,7 +24,7 @@ msgstr "Este tutorial existe para asegurarnos de que sabes exactamente qué proc
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:11
 msgid "You can't do any damage, either - either to your own computer, or to the project as a whole. BeeWare projects don't touch any part of your computer or operating system that could do any serious damage. Worst case, you'll end up with a couple of extra files on your hard drive, which can be easily deleted afterwards. And every contribution you submit to BeeWare is reviewed before it is integrated into the \"official\" project, and you'll get feedback to help you correct any problems that may exist."
-msgstr "Tampoco puedes causar ningún daño, ni a tu propio equipo ni al proyecto en su conjunto. Los proyectos de BeeWare no tocan ninguna parte de tu equipo o sistema operativo que pueda causar daños graves. En el peor de los casos, acabarás con una pareja de archivos adicionales en tu disco duro, que después podrá ser borrado fácilmente. Y cada contribución que envíes a BeeWare se revisa antes de integrarla en el proyecto \"oficial\", y recibirás comentarios que te ayudarán a corregir cualquier problema que pueda existir."
+msgstr "Tampoco puedes causar ningún daño, ni a tu propio equipo ni al proyecto en su conjunto. Los proyectos de BeeWare no tocan ninguna parte de tu equipo o sistema operativo que pueda causar daños graves. En el peor de los casos, acabarás con una pareja de archivos adicionales en tu disco duro, que después podrá ser borrado fácilmente. Y cada contribución que envíes a BeeWare se revisa antes de integrarla en el proyecto «oficial», y recibirás comentarios que te ayudarán a corregir cualquier problema que pueda existir."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:13
 msgid "So - don't be afraid to contribute. If you've gotten this far, you've demonstrated you have an interest in contributing - and that's all you need. We can help you the rest of the way."
@@ -143,14 +131,12 @@ msgid "/// warning | The live preview will build with warnings!"
 msgstr "/// warning | ¡La vista previa en directo se generará con advertencias!"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:16
-#, fuzzy
 msgid "The live server is available for iterating on your documentation updates. While you're in the process of updating things, you may introduce a markup issue. Issues considered a `WARNING` will cause a standard build to fail, however, the live server is set up to indicate warnings in the console output, while continuing to build. This allows you to iterate without needing to restart the live preview."
-msgstr "El servidor en vivo está disponible para que puedas ir realizando cambios en tu documentación. Mientras actualizas el contenido, es posible que se produzca algún error de marcado. Los problemas considerados como `WARNING` provocarán que falle una compilación estándar; sin embargo, el servidor en producción está configurado para mostrar advertencias en la salida de la consola, al tiempo que continúa con la compilación. Esto te permite realizar iteraciones sin necesidad de reiniciar la vista previa en producción."
+msgstr "El servidor en vivo está disponible para que puedas ir realizando cambios en tu documentación. Mientras actualizas el contenido, es posible que se produzca alguna incidencia de marcado. Las incidencias consideradas como `WARNING` provocarán que falle una compilación estándar; sin embargo, el servidor en producción está configurado para indicar advertencias en la salida de la consola, al tiempo que continúa con la compilación. Esto te permite realizar iteraciones sin necesidad de reiniciar la vista previa en producción."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:18
-#, fuzzy
 msgid "A `WARNING` is different from an `ERROR`. If you introduce an issue that is considered an `ERROR`, the live server will fail, and require a restart. It will not start up again until the `ERROR` issue is resolved."
-msgstr "Un `WARNING` es diferente de un `ERROR`. Si se produce un problema que se considere un `ERROR`, el servidor en producción fallará y será necesario reiniciarlo. No se volverá a poner en marcha hasta que se resuelva el problema `ERROR`."
+msgstr "Un `WARNING` es diferente de un `ERROR`. Si se produce una incidencia que sea considerado un `ERROR`, el servidor en producción fallará y será necesario reiniciarlo. No se volverá a poner en marcha hasta que se resuelva la incidencia `ERROR`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:22
 msgid "To start the live server:"
@@ -602,7 +588,7 @@ msgstr "Activar pre‐commit"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:270
 msgid "{{ formal_name }} uses a tool called [pre-commit]{1} to identify simple issues and standardize code formatting. It does this by installing a git hook that automatically runs a series of code linters prior to finalizing any git commit. To enable pre-commit, run:"
-msgstr "{{ formal_name }} utiliza una herramienta llamada [pre-commit]{1} para identificar incidencias simples y estandarizar el formato del código. Para ello, instala un hook git que ejecuta automáticamente una serie de linters de código antes de finalizar cualquier commit git. Para activar pre-commit, ejecuta:"
+msgstr "{{ formal_name }} utiliza una herramienta llamada [pre‐commit]{1} para identificar incidencias simples y estandarizar el formato del código. Para ello, instala un gancho git que ejecuta automáticamente una serie de linters de código antes de finalizar cualquier commit git. Para activar pre‐commit, ejecuta:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:278 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:289
 msgid ""
@@ -626,7 +612,7 @@ msgstr "¡Ahora estás listo para empezar a hackear {{ formal_name }}!"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/new-issue.md:1
 msgid "Writing up a good issue or bug report can make all the difference in the ability to troubleshoot a problem. Here's how to submit a good bug report to {{ formal_name }}."
-msgstr "Redactar un buen informe de incidencia o fallo puede marcar todas las diferencias en la habilidad para solucionar un problema. Aquí mostrados como enviar un buen informe de fallo a {{ formal_name }}."
+msgstr "Redactar una buena incidencia o fallo puede marcar todas las diferencias en la habilidad para solucionar un problema. Aquí mostrados como enviar un buen informe de fallo a {{ formal_name }}."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/new-issue.md:3
 msgid "Search for existing issues"
@@ -638,7 +624,7 @@ msgstr "Antes de enviar una incidencia nueva, busque en el índice las incidenci
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/new-issue.md:7
 msgid "If you find a *closed* issue that seems to match your problem, check how recently that issue was closed. If the issue was closed very recently, that likely means your bug has been fixed, and will be corrected in the next release. If the issue was closed more than 4 months ago, it's likely that what you're experiencing is a different problem - no matter how similar the error message might appear."
-msgstr "Si encuentras una incidencia *cerrada* que parece coincidir con tu problema, comprueba cuándo se cerró esa incidencia. Si se cerró hace muy poco, es probable que el fallo se haya solucionado y se corrija en la próxima versión. Si la incidencia se cerró hace más de 4 meses, es probable que lo que estés experimentando sea un problema diferente, por muy similar que parezca el mensaje de error."
+msgstr "Si encuentras una incidencia *cerrada* que parece coincidir con tu problema, comprueba cuándo se cerró esa incidencia. Si la incidencia se cerró hace muy poco, es probable que el fallo se haya solucionado y se corrija en la próxima versión. Si la incidencia se cerró hace más de 4 meses, es probable que lo que estés experimentando sea un problema diferente, por muy similar que parezca el mensaje de error."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/new-issue.md:9
 msgid "If you don't find an issue that matches what you are seeing, it might be appropriate to open a new issue."
