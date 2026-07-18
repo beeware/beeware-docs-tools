@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-15 07:03+0000\n"
+"POT-Creation-Date: 2026-07-18 11:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -166,13 +166,13 @@ msgstr "/// warning | پیش‌نمایش زنده با هشدارها ساخت�
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:16
 #, fuzzy
-msgid "The live serve is available for iterating on your documentation updates. While you're in the process of updating things, you may introduce a markup issue. Issues considered a `WARNING` will cause a standard build to fail, however, the live serve is set up to indicate warnings in the console output, while continuing to build. This allows you to iterate without needing to restart the live preview."
-msgstr "سرویس زنده برای تکرار و بهبود به‌روزرسانی‌های مستندات شما در دسترس است. در حالی که در حال به‌روزرسانی موارد هستید، ممکن است یک مشکل نشانه‌گذاری ایجاد شود. مشکلاتی که به‌عنوان `WARNING` در نظر گرفته می‌شوند، باعث شکست ساخت استاندارد می‌شوند، اما سرویس زنده طوری تنظیم شده است که در خروجی کنسول هشدارها را نمایش دهد و در عین حال ساخت را ادامه دهد. این امکان را به شما می‌دهد که بدون نیاز به راه‌اندازی مجدد پیش‌نمایش زنده، فرآیند تکرار را انجام دهید."
+msgid "The live server is available for iterating on your documentation updates. While you're in the process of updating things, you may introduce a markup issue. Issues considered a `WARNING` will cause a standard build to fail, however, the live server is set up to indicate warnings in the console output, while continuing to build. This allows you to iterate without needing to restart the live preview."
+msgstr "سرور زنده برای تکرار روی به‌روزرسانی‌های مستندات شما در دسترس است. در حالی که در حال به‌روزرسانی موارد هستید، ممکن است یک مشکل در نشانه‌گذاری ایجاد شود. مسائلی که به‌عنوان `WARNING` در نظر گرفته می‌شوند، باعث شکست ساخت استاندارد می‌شوند، اما سرور زنده طوری تنظیم شده که در خروجی کنسول هشدارها را نمایش دهد و در عین حال به ساخت ادامه دهد. این امکان را به شما می‌دهد که بدون نیاز به راه‌اندازی مجدد پیش‌نمایش زنده، تکرار کنید."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:18
 #, fuzzy
-msgid "A `WARNING` is different from an `ERROR`. If you introduce an issue that is considered an `ERROR`, the live serve will fail, and require a restart. It will not start up again until the `WARNING` issue is resolved."
-msgstr "یک `WARNING` با یک `ERROR` متفاوت است. اگر مسئله‌ای را معرفی کنید که به‌عنوان یک `ERROR` در نظر گرفته شود، سرویس زنده شکست خواهد خورد و نیاز به راه‌اندازی مجدد دارد. تا زمانی که مسئله `WARNING` حل نشود، دوباره راه‌اندازی نخواهد شد."
+msgid "A `WARNING` is different from an `ERROR`. If you introduce an issue that is considered an `ERROR`, the live server will fail, and require a restart. It will not start up again until the `ERROR` issue is resolved."
+msgstr "یک `WARNING` با یک `ERROR` متفاوت است. اگر مسئله‌ای را معرفی کنید که به‌عنوان یک `ERROR` در نظر گرفته شود، سرور زنده از کار می‌افتد و نیاز به راه‌اندازی مجدد دارد. تا زمانی که مسئله `ERROR` حل نشود، دوباره راه‌اندازی نخواهد شد."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:22
 #, fuzzy

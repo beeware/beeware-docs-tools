@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-15 07:03+0000\n"
+"POT-Creation-Date: 2026-07-18 11:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -166,13 +166,13 @@ msgstr "/// warning | Canlı önizleme uyarılarla oluşturulacaktır!"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:16
 #, fuzzy
-msgid "The live serve is available for iterating on your documentation updates. While you're in the process of updating things, you may introduce a markup issue. Issues considered a `WARNING` will cause a standard build to fail, however, the live serve is set up to indicate warnings in the console output, while continuing to build. This allows you to iterate without needing to restart the live preview."
-msgstr "Canlı sunum, belgelerinizdeki güncellemeleri yinelemek için kullanılabilir. Güncelleme işlemi sırasında, bir işaretleme sorunu ortaya çıkabilir. `WARNING` olarak kabul edilen sorunlar, standart bir derlemenin başarısız olmasına neden olur, ancak canlı sunum, derlemeyi sürdürürken konsol çıktısında uyarılar gösterecek şekilde ayarlanmıştır. Bu, canlı önizlemeyi yeniden başlatmanıza gerek kalmadan yineleme yapmanızı sağlar."
+msgid "The live server is available for iterating on your documentation updates. While you're in the process of updating things, you may introduce a markup issue. Issues considered a `WARNING` will cause a standard build to fail, however, the live server is set up to indicate warnings in the console output, while continuing to build. This allows you to iterate without needing to restart the live preview."
+msgstr "Canlı sunucu, dokümantasyon güncellemeleriniz üzerinde deneme yapmanız için kullanılabilir. Güncelleme işlemi sırasında bir biçimlendirme hatası ortaya çıkabilir. `WARNING` olarak değerlendirilen sorunlar standart derleme işleminin başarısız olmasına neden olur; ancak canlı sunucu, derleme işlemine devam ederken konsol çıktısında uyarılar gösterecek şekilde ayarlanmıştır. Bu sayede, canlı önizlemeyi yeniden başlatmanıza gerek kalmadan değişikliklerinizi test edebilirsiniz."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:18
 #, fuzzy
-msgid "A `WARNING` is different from an `ERROR`. If you introduce an issue that is considered an `ERROR`, the live serve will fail, and require a restart. It will not start up again until the `WARNING` issue is resolved."
-msgstr "`WARNING` ile `ERROR` farklıdır. `ERROR` olarak kabul edilen bir sorun ortaya çıkarsa, canlı hizmet başarısız olur ve yeniden başlatılması gerekir. `WARNING` sorunu çözülene kadar yeniden başlatılmaz."
+msgid "A `WARNING` is different from an `ERROR`. If you introduce an issue that is considered an `ERROR`, the live server will fail, and require a restart. It will not start up again until the `ERROR` issue is resolved."
+msgstr "Bir `WARNING` ile bir `ERROR` arasında fark vardır. Eğer bir `ERROR` olarak değerlendirilen bir sorun ortaya çıkarsa, canlı sunucu çökecek ve yeniden başlatılması gerekecektir. `ERROR` sorunu çözülene kadar sunucu yeniden başlatılamayacaktır."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:22
 #, fuzzy

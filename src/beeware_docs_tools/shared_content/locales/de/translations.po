@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-15 07:03+0000\n"
+"POT-Creation-Date: 2026-07-18 11:51+0000\n"
 "PO-Revision-Date: 2026-04-07 07:23+0000\n"
 "Last-Translator: Russell Keith-Magee <russell@keith-magee.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/de/>\n"
@@ -167,13 +167,13 @@ msgstr "/// warning | Die Live-Vorschau wird mit Warnungen erstellt!"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:16
 #, fuzzy
-msgid "The live serve is available for iterating on your documentation updates. While you're in the process of updating things, you may introduce a markup issue. Issues considered a `WARNING` will cause a standard build to fail, however, the live serve is set up to indicate warnings in the console output, while continuing to build. This allows you to iterate without needing to restart the live preview."
-msgstr "Der Live-Serve steht Ihnen zur Verfügung, um Ihre Dokumentationsaktualisierungen zu wiederholen. Während Sie Dinge aktualisieren, können Sie ein Auszeichnungsproblem einführen. Probleme, die als `WARNING` eingestuft werden, führen dazu, dass ein Standard-Build fehlschlägt. Der Live-Serve ist jedoch so eingerichtet, dass er Warnungen in der Konsolenausgabe anzeigt, während der Build fortgesetzt wird. So können Sie iterieren, ohne die Live-Vorschau neu starten zu müssen."
+msgid "The live server is available for iterating on your documentation updates. While you're in the process of updating things, you may introduce a markup issue. Issues considered a `WARNING` will cause a standard build to fail, however, the live server is set up to indicate warnings in the console output, while continuing to build. This allows you to iterate without needing to restart the live preview."
+msgstr "Der Live-Server steht Ihnen zur Verfügung, um Ihre Dokumentationsaktualisierungen schrittweise zu testen. Während Sie Änderungen vornehmen, kann es vorkommen, dass ein Markup-Fehler auftritt. Fehler, die als `WARNING` eingestuft werden, führen zwar dazu, dass ein Standard-Build fehlschlägt, der Live-Server ist jedoch so eingerichtet, dass er Warnungen in der Konsolenausgabe anzeigt, während der Build fortgesetzt wird. So können Sie Änderungen vornehmen, ohne die Live-Vorschau neu starten zu müssen."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:18
 #, fuzzy
-msgid "A `WARNING` is different from an `ERROR`. If you introduce an issue that is considered an `ERROR`, the live serve will fail, and require a restart. It will not start up again until the `WARNING` issue is resolved."
-msgstr "Eine `WARNING` unterscheidet sich von einem `ERROR`. Wenn Sie ein Problem einführen, das als \"ERROR\" eingestuft wird, schlägt der Live-Service fehl und erfordert einen Neustart. Er wird erst dann wieder gestartet, wenn das `WARNING`-Problem behoben ist."
+msgid "A `WARNING` is different from an `ERROR`. If you introduce an issue that is considered an `ERROR`, the live server will fail, and require a restart. It will not start up again until the `ERROR` issue is resolved."
+msgstr "Ein `WARNING` unterscheidet sich von einem `ERROR`. Wenn Sie ein Problem verursachen, das als `ERROR` eingestuft wird, fällt der Live-Server aus und muss neu gestartet werden. Er lässt sich erst wieder starten, wenn das `ERROR`-Problem behoben ist."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:22
 #, fuzzy

@@ -1,6 +1,18 @@
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-07-15 07:03+0000\nPO-Revision-Date: 2026-07-18 11:51+0000\nLast-Translator: Michaela Dušková <duskova.misa@hotmail.com>\nLanguage-Team: Czech <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/cs/>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Generator: Weblate 2026.8.dev0\nLanguage: cs\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-18 11:51+0000\n"
+"PO-Revision-Date: 2026-07-18 11:51+0000\n"
+"Last-Translator: Michaela Dušková <duskova.misa@hotmail.com>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/cs/>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Translate Toolkit 3.19.13\n"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:1
 msgid "There may be a little voice inside your head that is telling you that you're not ready; that you need to do one more tutorial; that you aren't ready to be an open source contributor. After all, you're just a beginner. What could you possibly offer a project like BeeWare?"
@@ -134,12 +146,14 @@ msgid "/// warning | The live preview will build with warnings!"
 msgstr "/// warning | Průběžný náhled se vytvoří s varováními!"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:16
-msgid "The live serve is available for iterating on your documentation updates. While you're in the process of updating things, you may introduce a markup issue. Issues considered a `WARNING` will cause a standard build to fail, however, the live serve is set up to indicate warnings in the console output, while continuing to build. This allows you to iterate without needing to restart the live preview."
-msgstr "Live server je k dispozici pro opakované aktualizace dokumentace. Během aktualizace může dojít k problému s markup značkami. Problémy označené jako `WARNING` způsobí selhání standardního vygenerování, ale live server je nastaven tak, aby v konzoli zobrazoval varování a pokračoval v generování. To Vám umožňuje opakovat aktualizace bez nutnosti restartovat průběžný náhled."
+#, fuzzy
+msgid "The live server is available for iterating on your documentation updates. While you're in the process of updating things, you may introduce a markup issue. Issues considered a `WARNING` will cause a standard build to fail, however, the live server is set up to indicate warnings in the console output, while continuing to build. This allows you to iterate without needing to restart the live preview."
+msgstr "Pro testování aktualizací dokumentace je k dispozici živý server. Během provádění aktualizací může dojít k chybám ve značkování. Chyby označené jako `WARNING` způsobí selhání standardního sestavení, živý server je však nastaven tak, aby v konzole zobrazoval varování a zároveň pokračoval v sestavování. To vám umožňuje provádět iterace, aniž byste museli restartovat živý náhled."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:18
-msgid "A `WARNING` is different from an `ERROR`. If you introduce an issue that is considered an `ERROR`, the live serve will fail, and require a restart. It will not start up again until the `WARNING` issue is resolved."
-msgstr "`WARNING` se liší od `ERROR`. Pokud způsobíte problém, který je považován za `ERROR`, lokální vývojový server selže a bude vyžadovat restart. Nezačne znovu fungovat, dokud nebude problém `WARNING` vyřešen."
+#, fuzzy
+msgid "A `WARNING` is different from an `ERROR`. If you introduce an issue that is considered an `ERROR`, the live server will fail, and require a restart. It will not start up again until the `ERROR` issue is resolved."
+msgstr "`WARNING` se liší od `ERROR`. Pokud do systému zavedete problém, který je považován za `ERROR`, dojde k selhání produkčního serveru a bude nutné jej restartovat. Server se znovu nespustí, dokud nebude problém `ERROR` vyřešen."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:22
 msgid "To start the live server:"

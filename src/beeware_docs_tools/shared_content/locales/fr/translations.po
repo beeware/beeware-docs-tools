@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-15 07:03+0000\n"
+"POT-Creation-Date: 2026-07-18 11:51+0000\n"
 "PO-Revision-Date: 2026-04-06 22:32+0000\n"
 "Last-Translator: kursk140 <yannick.monnier.1@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/fr/>\n"
@@ -167,13 +167,13 @@ msgstr "/// warning | L'aperçu en direct s'affichera avec des avertissements !"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:16
 #, fuzzy
-msgid "The live serve is available for iterating on your documentation updates. While you're in the process of updating things, you may introduce a markup issue. Issues considered a `WARNING` will cause a standard build to fail, however, the live serve is set up to indicate warnings in the console output, while continuing to build. This allows you to iterate without needing to restart the live preview."
-msgstr "Le service en direct est disponible pour itérer sur les mises à jour de votre documentation. Pendant que vous mettez les choses à jour, vous pouvez introduire un problème de balisage. Les problèmes considérés comme `WARNING` feront échouer une compilation standard, cependant, le live serve est configuré pour indiquer les avertissements dans la sortie de la console, tout en continuant à construire. Cela vous permet d'itérer sans avoir à redémarrer la prévisualisation en direct."
+msgid "The live server is available for iterating on your documentation updates. While you're in the process of updating things, you may introduce a markup issue. Issues considered a `WARNING` will cause a standard build to fail, however, the live server is set up to indicate warnings in the console output, while continuing to build. This allows you to iterate without needing to restart the live preview."
+msgstr "Le serveur de prévisualisation est disponible pour vous permettre de tester vos mises à jour de documentation. Pendant que vous effectuez ces mises à jour, il se peut que vous introduisiez un problème de balisage. Les problèmes de type `WARNING` entraîneront l'échec d'une compilation standard ; toutefois, le serveur de production est configuré pour afficher des avertissements dans la console tout en poursuivant la compilation. Cela vous permet de procéder à des itérations sans avoir à redémarrer l'aperçu en direct."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:18
 #, fuzzy
-msgid "A `WARNING` is different from an `ERROR`. If you introduce an issue that is considered an `ERROR`, the live serve will fail, and require a restart. It will not start up again until the `WARNING` issue is resolved."
-msgstr "Un `WARNING` est différent d'un `ERROR`. Si vous introduisez un problème qui est considéré comme un `ERROR`, le service en direct échouera et nécessitera un redémarrage. Il ne redémarrera pas tant que le problème `WARNING` n'aura pas été résolu."
+msgid "A `WARNING` is different from an `ERROR`. If you introduce an issue that is considered an `ERROR`, the live server will fail, and require a restart. It will not start up again until the `ERROR` issue is resolved."
+msgstr "Un `WARNING` est différent d'un `ERROR`. Si vous introduisez un problème considéré comme un `ERROR`, le serveur de production tombera en panne et devra être redémarré. Il ne redémarrera pas tant que le problème `ERROR` n'aura pas été résolu."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:22
 #, fuzzy

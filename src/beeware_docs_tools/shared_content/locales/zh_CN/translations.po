@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-15 07:03+0000\n"
+"POT-Creation-Date: 2026-07-18 11:51+0000\n"
 "PO-Revision-Date: 2026-07-15 07:01+0000\n"
 "Last-Translator: reducedradius <137701630+flytothehighest@users.noreply.github.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/zh_Hans/>\n"
@@ -143,12 +143,14 @@ msgid "/// warning | The live preview will build with warnings!"
 msgstr "/// warning | 实时预览构建不受警告影响！"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:16
-msgid "The live serve is available for iterating on your documentation updates. While you're in the process of updating things, you may introduce a markup issue. Issues considered a `WARNING` will cause a standard build to fail, however, the live serve is set up to indicate warnings in the console output, while continuing to build. This allows you to iterate without needing to restart the live preview."
-msgstr "实时预览服务器可用于迭代文档更改。在更改过程中，你可能会引入标记问题。被视为 `WARNING` 的问题会导致标准构建失败，但实时预览服务器只会在控制台输出中显示警告，并同时继续构建。这样，你可以继续进行迭代，而无需重新启动实时预览。"
+#, fuzzy
+msgid "The live server is available for iterating on your documentation updates. While you're in the process of updating things, you may introduce a markup issue. Issues considered a `WARNING` will cause a standard build to fail, however, the live server is set up to indicate warnings in the console output, while continuing to build. This allows you to iterate without needing to restart the live preview."
+msgstr "生产环境服务器可用于迭代更新您的文档。在更新过程中，您可能会引入标记问题。 被标记为 `WARNING` 的问题会导致标准构建失败，但正式服务器已配置为在控制台输出中显示警告，同时继续进行构建。这使您无需重启在线预览即可进行迭代。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:18
-msgid "A `WARNING` is different from an `ERROR`. If you introduce an issue that is considered an `ERROR`, the live serve will fail, and require a restart. It will not start up again until the `WARNING` issue is resolved."
-msgstr "`WARNING` 不同于 `ERROR`。如果你引入了一个 `ERROR` 类问题，实时预览服务器就会失败，需要重新启动。在 `WARNING` 问题解决之前，它无法被重新启动。"
+#, fuzzy
+msgid "A `WARNING` is different from an `ERROR`. If you introduce an issue that is considered an `ERROR`, the live server will fail, and require a restart. It will not start up again until the `ERROR` issue is resolved."
+msgstr "`WARNING` 与 `ERROR` 不同。如果您引入了一个被视为 `ERROR` 的问题，生产服务器将会出现故障，并需要重启。在 `ERROR` 问题得到解决之前，服务器将无法重新启动。"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:22
 msgid "To start the live server:"

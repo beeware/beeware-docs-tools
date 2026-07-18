@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-15 07:03+0000\n"
+"POT-Creation-Date: 2026-07-18 11:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -166,13 +166,13 @@ msgstr "/// warning | Live-previewet vil blive opbygget med advarsler!"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:16
 #, fuzzy
-msgid "The live serve is available for iterating on your documentation updates. While you're in the process of updating things, you may introduce a markup issue. Issues considered a `WARNING` will cause a standard build to fail, however, the live serve is set up to indicate warnings in the console output, while continuing to build. This allows you to iterate without needing to restart the live preview."
-msgstr "Live-serveren er tilgængelig til iteration af dine dokumentopdateringer. Mens du er i gang med at opdatere ting, kan du støde på et markup-problem. Problemer, der betragtes som `WARNING`, vil medføre, at en standardbuild mislykkes, men live-serveren er indstillet til at vise advarsler i konsoloutputtet, mens den fortsætter med at bygge. Dette giver dig mulighed for at iterere uden at skulle genstarte live-previewet."
+msgid "The live server is available for iterating on your documentation updates. While you're in the process of updating things, you may introduce a markup issue. Issues considered a `WARNING` will cause a standard build to fail, however, the live server is set up to indicate warnings in the console output, while continuing to build. This allows you to iterate without needing to restart the live preview."
+msgstr "Live-serveren er tilgængelig, så du kan arbejde med opdateringer af din dokumentation. Mens du er i gang med at opdatere, kan der opstå fejl i markeringen. Problemer, der betegnes som `WARNING`, vil medføre, at en standardkompilering mislykkes, men live-serveren er konfigureret til at vise advarsler i konsoludskriften, samtidig med at kompileringen fortsætter. Dette giver dig mulighed for at foretage ændringer uden at skulle genstarte live-forhåndsvisningen."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:18
 #, fuzzy
-msgid "A `WARNING` is different from an `ERROR`. If you introduce an issue that is considered an `ERROR`, the live serve will fail, and require a restart. It will not start up again until the `WARNING` issue is resolved."
-msgstr "En `WARNING` er forskellig fra en `ERROR`. Hvis du introducerer et problem, der betragtes som en `ERROR`, vil live-serveren fejle og kræve en genstart. Den vil ikke starte op igen, før `WARNING` problemet er løst."
+msgid "A `WARNING` is different from an `ERROR`. If you introduce an issue that is considered an `ERROR`, the live server will fail, and require a restart. It will not start up again until the `ERROR` issue is resolved."
+msgstr "En `WARNING` adskiller sig fra en `ERROR`. Hvis du indfører et problem, der betragtes som en `ERROR`, vil live-serveren gå ned og kræve en genstart. Den vil ikke starte op igen, før `ERROR`-problemet er løst."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:22
 #, fuzzy

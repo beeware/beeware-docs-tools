@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-15 07:03+0000\n"
+"POT-Creation-Date: 2026-07-18 11:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -166,13 +166,13 @@ msgstr "/// warning | Bản xem trước trực tiếp sẽ được tạo ra k�
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:16
 #, fuzzy
-msgid "The live serve is available for iterating on your documentation updates. While you're in the process of updating things, you may introduce a markup issue. Issues considered a `WARNING` will cause a standard build to fail, however, the live serve is set up to indicate warnings in the console output, while continuing to build. This allows you to iterate without needing to restart the live preview."
-msgstr "Dịch vụ trực tiếp (live serve) cho phép bạn thực hiện các lần cập nhật tài liệu một cách linh hoạt. Trong quá trình cập nhật, bạn có thể gặp phải lỗi định dạng. Các lỗi được đánh dấu là `WARNING` sẽ khiến quá trình xây dựng tiêu chuẩn bị lỗi; tuy nhiên, dịch vụ trực tiếp được cấu hình để hiển thị cảnh báo trong cửa sổ console mà vẫn tiếp tục quá trình xây dựng. Điều này giúp bạn thực hiện các lần cập nhật mà không cần phải khởi động lại bản xem trước trực tiếp."
+msgid "The live server is available for iterating on your documentation updates. While you're in the process of updating things, you may introduce a markup issue. Issues considered a `WARNING` will cause a standard build to fail, however, the live server is set up to indicate warnings in the console output, while continuing to build. This allows you to iterate without needing to restart the live preview."
+msgstr "Máy chủ trực tiếp hiện đã sẵn sàng để bạn thử nghiệm các bản cập nhật tài liệu. Trong quá trình cập nhật, bạn có thể vô tình gây ra lỗi định dạng. Các vấn đề được đánh dấu là `WARNING` sẽ khiến quá trình xây dựng tiêu chuẩn thất bại; tuy nhiên, máy chủ trực tiếp được cấu hình để hiển thị cảnh báo trong kết quả đầu ra của bảng điều khiển, đồng thời vẫn tiếp tục quá trình xây dựng. Điều này cho phép bạn thực hiện các lần thử nghiệm mà không cần phải khởi động lại bản xem trước trực tiếp."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:18
 #, fuzzy
-msgid "A `WARNING` is different from an `ERROR`. If you introduce an issue that is considered an `ERROR`, the live serve will fail, and require a restart. It will not start up again until the `WARNING` issue is resolved."
-msgstr "Một `WARNING` khác với một `ERROR`. Nếu bạn gây ra một sự cố được coi là một `ERROR`, máy chủ trực tuyến sẽ gặp sự cố và cần phải khởi động lại. Máy chủ sẽ không khởi động lại cho đến khi sự cố `WARNING` được khắc phục."
+msgid "A `WARNING` is different from an `ERROR`. If you introduce an issue that is considered an `ERROR`, the live server will fail, and require a restart. It will not start up again until the `ERROR` issue is resolved."
+msgstr "Một `WARNING` khác với một `ERROR`. Nếu bạn gây ra một sự cố được coi là `ERROR`, máy chủ trực tuyến sẽ gặp sự cố và cần phải khởi động lại. Máy chủ sẽ không khởi động lại được cho đến khi sự cố `ERROR` được khắc phục."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:22
 #, fuzzy

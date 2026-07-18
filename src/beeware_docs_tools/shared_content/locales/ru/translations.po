@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-15 07:03+0000\n"
+"POT-Creation-Date: 2026-07-18 11:51+0000\n"
 "PO-Revision-Date: 2026-04-14 20:09+0000\n"
 "Last-Translator: Nizyaev Ilya <nizaevila@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/ru/>\n"
@@ -167,13 +167,13 @@ msgstr "/// warning | Предварительный просмотр будет
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:16
 #, fuzzy
-msgid "The live serve is available for iterating on your documentation updates. While you're in the process of updating things, you may introduce a markup issue. Issues considered a `WARNING` will cause a standard build to fail, however, the live serve is set up to indicate warnings in the console output, while continuing to build. This allows you to iterate without needing to restart the live preview."
-msgstr "Live Serve доступен для итерации обновлений вашей документации. Во время обновления вы можете столкнуться с проблемой разметки. Проблемы, обозначенные как `WARNING`, приведут к сбою стандартной сборки, однако Live Serve настроен так, что он отображает предупреждения в консольном выводе, продолжая сборку. Это позволяет вам выполнять итерацию без необходимости перезапуска Live Preview."
+msgid "The live server is available for iterating on your documentation updates. While you're in the process of updating things, you may introduce a markup issue. Issues considered a `WARNING` will cause a standard build to fail, however, the live server is set up to indicate warnings in the console output, while continuing to build. This allows you to iterate without needing to restart the live preview."
+msgstr "Производственный сервер доступен для итеративной работы над обновлениями вашей документации. В процессе обновления у вас могут возникнуть проблемы с разметкой. Проблемы, обозначенные как `WARNING`, приведут к сбою стандартной сборки, однако рабочий сервер настроен таким образом, что при их обнаружении в консоли выводятся предупреждения, а сборка продолжается. Это позволяет вам вносить изменения без необходимости перезапуска рабочего предварительного просмотра."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:18
 #, fuzzy
-msgid "A `WARNING` is different from an `ERROR`. If you introduce an issue that is considered an `ERROR`, the live serve will fail, and require a restart. It will not start up again until the `WARNING` issue is resolved."
-msgstr "`WARNING` отличается от `ERROR`. Если вы введете проблему, которая считается `ERROR`, работа в режиме реального времени будет прервана, и потребуется перезапуск. Работа не возобновится до тех пор, пока проблема `WARNING` не будет решена."
+msgid "A `WARNING` is different from an `ERROR`. If you introduce an issue that is considered an `ERROR`, the live server will fail, and require a restart. It will not start up again until the `ERROR` issue is resolved."
+msgstr "`WARNING` отличается от `ERROR`. Если вы создадите проблему, которая будет квалифицирована как `ERROR`, рабочий сервер выйдет из строя и потребует перезапуска. Он не запустится снова, пока проблема `ERROR` не будет устранена."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:22
 #, fuzzy
