@@ -25,12 +25,12 @@ maintainers = [
 dependencies = [
     "click==8.4.0",
     "deepl==1.30.0",
-    "markdown-checker==1.2.1",
+    "markdown-checker==1.2.2",
     "mistletoe==1.6.0",
     "mkdocs-autorefs==1.4.4",
     "mkdocs-literate-nav==0.6.3",  # DO NOT UPGRADE - Uncertain whether author's move to ProperDocs will cause incompatibility
     "mkdocs-macros-plugin @ git+https://github.com/kattni/mkdocs-macros-plugin@include-dir-multiple-directories",
-    "mkdocs-material==9.7.6",
+    "mkdocs-material==9.7.7",
     "mkdocs-rss-plugin==1.19.0",
     "mkdocs==1.6.1",  # DO NOT UPGRADE - 2+ is not compatible with anything here
     "mkdocstrings-python==2.0.5",
@@ -39,9 +39,9 @@ dependencies = [
     "python-Levenshtein==0.27.3",
     "PyYAML==6.0.3",
     "polib==1.2.0",
-    "ruff==0.15.21",
+    "ruff==0.15.22",
     "setuptools_scm==10.2.0",
-    "translate-toolkit==3.19.13",
+    "translate-toolkit==3.19.15",
 ]
 
 [dependency-groups]
