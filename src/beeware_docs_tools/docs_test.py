@@ -6,7 +6,6 @@ class DocsTest:
         :param arg2: A value with a default.
         :param kwargs: keyword arguments
         """
-        pass
 
     @property
     def attribute(self) -> int:
@@ -20,4 +19,3 @@ class DocsTest:
         :param arg2: A value with a default.
         :param kwargs: keyword arguments
         """
-        pass
