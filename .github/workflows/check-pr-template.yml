@@ -7,4 +7,6 @@ on:
 jobs:
   check-pr-template:
     name: Check PR template
-    uses: beeware/.github/.github/workflows/pr-checklist.yml@main
+    permissions:
+      contents: read
+    uses: beeware/.github/.github/workflows/pr-checklist.yml@84508d17a1d29ee3b82ce2e467dcd38c4a0c6a5a  # main
