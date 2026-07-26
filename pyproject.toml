@@ -39,8 +39,8 @@ dependencies = [
     "python-Levenshtein==0.27.3",
     "PyYAML==6.0.3",
     "polib==1.2.0",
-    "ruff==0.15.22",
-    "setuptools_scm==10.2.0",
+    "ruff==0.16.0",
+    "setuptools_scm==10.2.1",
     "translate-toolkit==3.19.15",
 ]
 
@@ -48,15 +48,15 @@ dependencies = [
 # Extras used by developers *of* beeware-docs-tools are pinned to specific versions to
 # ensure environment consistency.
 pre-commit = [
-    "pre-commit == 4.6.0",
+    "pre-commit == 4.6.1",
 ]
 
 tox-uv = [
-    "tox-uv == 1.35.2",
+    "tox-uv == 1.36.0",
 ]
 
 wlc = [
-    "wlc == 2.1.0",
+    "wlc == 2.1.1",
 ]
 
 dev = [
