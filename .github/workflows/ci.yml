@@ -10,6 +10,9 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
+permissions:
+  contents: read
+
 defaults:
   run:
     shell: bash  # https://github.com/beeware/briefcase/pull/912
@@ -20,7 +23,7 @@ env:
 jobs:
   pre-commit:
     name: Pre-commit checks
-    uses: beeware/.github/.github/workflows/pre-commit-run.yml@main
+    uses: beeware/.github/.github/workflows/pre-commit-run.yml@84508d17a1d29ee3b82ce2e467dcd38c4a0c6a5a  # main
     with:
       pre-commit-source: "--group pre-commit"
 
@@ -30,12 +33,13 @@ jobs:
     timeout-minutes: 5
     steps:
       - name: Checkout
-        uses: actions/checkout@v7.0.0
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0  # v7.0.0
         with:
           fetch-depth: 1
+          persist-credentials: false
 
       - name: Set up Python
-        uses: actions/setup-python@v6.3.0
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1  # v6.3.0
         with:
           python-version: "3.X"
           cache: pip
@@ -63,12 +67,13 @@ jobs:
     continue-on-error: false
     steps:
       - name: Checkout
-        uses: actions/checkout@v7.0.0
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0  # v7.0.0
         with:
           fetch-depth: 0
+          persist-credentials: false
 
       - name: Set up Python
-        uses: actions/setup-python@v6.3.0
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1  # v6.3.0
         with:
           python-version: 3.12
 
