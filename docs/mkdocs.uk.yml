@@ -1,0 +1,18 @@
+INHERIT: config.yml
+site_name: Інструменти документації BeeWare
+site_url: !ENV READTHEDOCS_CANONICAL_URL
+docs_dir: uk
+
+theme:
+  language: uk
+
+extra:
+  language_url: uk/
+  translation_type: machine
+  header:
+    About: Про нас
+    Documentation: Документація
+    Community: Спільнота
+    Contributing: Внесок
+    News: Новини
+    Sponsor: Спонсор
