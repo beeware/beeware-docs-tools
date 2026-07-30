@@ -87,6 +87,7 @@ Fork the {{ formal_name }} repository, and then:
 
 ```console
 $ git clone https://github.com/<your username>/{{ project_name }}.git
+$ cd {{ project_name }}
 ```
 
 (substituting your GitHub username)
@@ -101,6 +102,7 @@ Fork the {{ formal_name }} repository, and then:
 
 ```console
 $ git clone https://github.com/<your username>/{{ project_name }}.git
+$ cd {{ project_name }}
 ```
 
 (substituting your GitHub username)
@@ -113,6 +115,7 @@ Fork the {{ formal_name }} repository, and then:
 
 ```doscon
 C:\...>git clone https://github.com/<your username>/{{ project_name }}.git
+C:\...>cd {{ project_name }}
 ```
 
 (substituting your GitHub username)
