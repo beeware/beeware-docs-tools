@@ -155,7 +155,9 @@ Once everything passes, you'll see a message indicating the commit has been fina
 
 ### Push your changes to GitHub and create your pull request
 
-The first time you push to GitHub, you'll be provided a URL that takes you directly to the GitHub page to create a new pull request. Follow the URL and create your pull request.
+The first time you push a branch, set `origin` as its upstream remote. GitHub will then provide a URL that takes you directly to the page for creating a new pull request. Follow the URL and create your pull request.
+
+If you use an HTTPS remote, GitHub does not accept your account password for Git operations. Before pushing, follow GitHub's [command-line authentication instructions](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github#authenticating-with-the-command-line).
 
 The following shows an example of what to expect on `push`, with the URL highlighted.
 
@@ -166,7 +168,7 @@ The following shows an example of what to expect on `push`, with the URL highlig
 {% endif %}
 
 ```console {hl_lines="11"}
-(.venv) $ git push
+(.venv) $ git push --set-upstream origin fix-win11-build
 Enumerating objects: 15, done.
 Counting objects: 100% (15/15), done.
 Delta compression using up to 24 threads
@@ -189,7 +191,7 @@ To https://github.com/<your GitHub username>/{{ formal_name }}.git
 /// tab | Linux
 
 ```console {hl_lines="11"}
-(.venv) $ git push
+(.venv) $ git push --set-upstream origin fix-win11-build
 Enumerating objects: 15, done.
 Counting objects: 100% (15/15), done.
 Delta compression using up to 24 threads
@@ -210,7 +212,7 @@ To https://github.com/<your GitHub username>/{{ formal_name }}.git
 /// tab | Windows
 
 ```doscon {hl_lines="11"}
-(.venv) C:\...>git push
+(.venv) C:\...>git push --set-upstream origin fix-win11-build
 Enumerating objects: 15, done.
 Counting objects: 100% (15/15), done.
 Delta compression using up to 24 threads
