@@ -166,7 +166,7 @@ The following shows an example of what to expect on `push`, with the URL highlig
 {% endif %}
 
 ```console {hl_lines="11"}
-(.venv) $ git push
+(.venv) $ git push --set-upstream origin
 Enumerating objects: 15, done.
 Counting objects: 100% (15/15), done.
 Delta compression using up to 24 threads
@@ -189,7 +189,7 @@ To https://github.com/<your GitHub username>/{{ formal_name }}.git
 /// tab | Linux
 
 ```console {hl_lines="11"}
-(.venv) $ git push
+(.venv) $ git push --set-upstream origin
 Enumerating objects: 15, done.
 Counting objects: 100% (15/15), done.
 Delta compression using up to 24 threads
@@ -210,7 +210,7 @@ To https://github.com/<your GitHub username>/{{ formal_name }}.git
 /// tab | Windows
 
 ```doscon {hl_lines="11"}
-(.venv) C:\...>git push
+(.venv) C:\...>git push --set-upstream origin
 Enumerating objects: 15, done.
 Counting objects: 100% (15/15), done.
 Delta compression using up to 24 threads
@@ -229,6 +229,10 @@ To https://github.com/<your GitHub username>/{{ formal_name }}.git
 ///
 
 {% endif %}
+
+The `--set-upstream` option tells Git to connect your local branch to the branch on your GitHub fork. You only need to include it the first time you push a new branch; after that, you can use `git push`.
+
+If GitHub asks for a password, don't enter your GitHub account password. GitHub no longer accepts account passwords for Git operations over HTTPS; follow GitHub's instructions for [creating and using a personal access token](https://docs.github.com/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) instead.
 
 If you've previously pushed the current branch to GitHub, you won't receive the URL again. However, there are other ways to get to the PR creation URL:
 
