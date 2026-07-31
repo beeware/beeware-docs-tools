@@ -87,6 +87,7 @@ Fork the {{ formal_name }} repository, and then:
 
 ```console
 $ git clone https://github.com/<your username>/{{ project_name }}.git
+$ cd {{ project_name }}
 ```
 
 (substituting your GitHub username)
@@ -101,6 +102,7 @@ Fork the {{ formal_name }} repository, and then:
 
 ```console
 $ git clone https://github.com/<your username>/{{ project_name }}.git
+$ cd {{ project_name }}
 ```
 
 (substituting your GitHub username)
@@ -113,6 +115,7 @@ Fork the {{ formal_name }} repository, and then:
 
 ```doscon
 C:\...>git clone https://github.com/<your username>/{{ project_name }}.git
+C:\...>cd {{ project_name }}
 ```
 
 (substituting your GitHub username)
@@ -181,7 +184,6 @@ To set up a virtual environment and upgrade `pip`, run:
 {% endif %}
 
 ```console
-$ cd {{ project_name }}
 $ python3 -m venv .venv
 $ source .venv/bin/activate
 (.venv) $ python -m pip install -U pip
@@ -194,7 +196,6 @@ $ source .venv/bin/activate
 /// tab | Linux
 
 ```console
-$ cd {{ project_name }}
 $ python3 -m venv .venv
 $ source .venv/bin/activate
 (.venv) $ python -m pip install -U pip
@@ -205,7 +206,6 @@ $ source .venv/bin/activate
 /// tab | Windows
 
 ```doscon
-C:\...>cd {{ project_name }}
 C:\...>py -3 -m venv .venv
 C:\...>.venv\Scripts\activate
 (.venv) $ python -m pip install -U pip
