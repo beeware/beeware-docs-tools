@@ -166,7 +166,7 @@ The following shows an example of what to expect on `push`, with the URL highlig
 {% endif %}
 
 ```console {hl_lines="11"}
-(.venv) $ git push --set-upstream origin fix-win11-build
+(.venv) $ git push --set-upstream origin
 Enumerating objects: 15, done.
 Counting objects: 100% (15/15), done.
 Delta compression using up to 24 threads
@@ -189,7 +189,7 @@ To https://github.com/<your GitHub username>/{{ formal_name }}.git
 /// tab | Linux
 
 ```console {hl_lines="11"}
-(.venv) $ git push --set-upstream origin fix-win11-build
+(.venv) $ git push --set-upstream origin
 Enumerating objects: 15, done.
 Counting objects: 100% (15/15), done.
 Delta compression using up to 24 threads
@@ -210,7 +210,7 @@ To https://github.com/<your GitHub username>/{{ formal_name }}.git
 /// tab | Windows
 
 ```doscon {hl_lines="11"}
-(.venv) C:\...>git push --set-upstream origin fix-win11-build
+(.venv) C:\...>git push --set-upstream origin
 Enumerating objects: 15, done.
 Counting objects: 100% (15/15), done.
 Delta compression using up to 24 threads
