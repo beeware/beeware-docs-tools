@@ -1,18 +1,6 @@
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-02 13:38+0000\n"
-"PO-Revision-Date: 2026-08-02 13:37+0000\n"
-"Last-Translator: Michal Várady <miko.vaji@gmail.com>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/cs/>\n"
-"Language: cs\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Translate Toolkit 3.19.15\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-08-02 13:38+0000\nPO-Revision-Date: 2026-08-02 13:40+0000\nLast-Translator: Michal Várady <miko.vaji@gmail.com>\nLanguage-Team: Czech <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/cs/>\nLanguage: cs\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\nX-Generator: Weblate 2026.8.dev0\n"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:1
 msgid "There may be a little voice inside your head that is telling you that you're not ready; that you need to do one more tutorial; that you aren't ready to be an open source contributor. After all, you're just a beginner. What could you possibly offer a project like BeeWare?"
@@ -939,72 +927,58 @@ msgid "Necessary. The expectation is that the author will read everything we pos
 msgstr "Nezbytné. Očekává se, že autor si přečte vše, co zveřejníme; musíme respektovat jeho čas a úsilí a zveřejňovat pouze to, co je nezbytné."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/review-pr.md:11
-#, fuzzy
 msgid "Kind. There are multiple ways to present the same feedback; we need to ensure we are choosing to be kind, supportive, and constructive with our words."
 msgstr "Laskavost. Stejnou zpětnou vazbu lze vyjádřit mnoha způsoby; musíme se ujistit, že volíme laskavá, podpůrná a konstruktivní slova."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/review-pr.md:13
-#, fuzzy
 msgid "It is entirely possible to THINK, while also providing an effective review. The concepts discussed above to not preclude pointing out any issues you find with a PR. Contributors won't have the opportunity to improve their contribution if they are unaware of areas needing improvement. The important thing is to remain aware of *how* you are presenting this feedback. Try to depersonalize your review. Instead of, \"You made a mistake,\" you can say, \"This code could be improved.\" Review the code, not the author."
 msgstr "Je zcela možné MYSLET a zároveň poskytovat efektivní recenzi. Výše uvedené koncepty nevylučují poukazování na jakékoli problémy, které v PR najdete. Přispěvatelé nebudou mít příležitost zlepšit svůj příspěvek, pokud si nebudou vědomi oblastí, které je třeba zlepšit. Důležité je mít na paměti, *jak* tuto zpětnou vazbu prezentujete. Snažte se, aby vaše recenze byla neosobní. Místo „Udělal jste chybu“ můžete říci „Tento kód by mohl být vylepšen“. Recenzujte kód, ne autora."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/review-pr.md:15
-#, fuzzy
 msgid "It's important to remember to provide positive feedback in addition to identifying the areas needing improvement. If, for example, the changes are especially helpful, do something particularly clever, or you are introduced to an API that you didn't know about, let the author know! Never underestimate the effect of pointing out something someone has done correctly or well, in the middle of a situation where everything else you've pointed out are issues that need to be resolved."
 msgstr "Je důležité nezapomínat na pozitivní zpětnou vazbu, kromě identifikace oblastí, které je třeba zlepšit. Pokud jsou například změny obzvláště užitečné, dělají něco zvlášť chytrého nebo vám představí API, o kterém jste nevěděli, dejte to autorovi vědět! Nikdy nepodceňujte účinek poukázání na něco, co někdo udělal správně nebo dobře, uprostřed situace, kdy vše ostatní, na co jste poukázali, jsou problémy, které je třeba vyřešit."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/review-pr.md:17
-#, fuzzy
 msgid "GitHub review suggestions"
 msgstr "Návrhy na revizi GitHubu"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/review-pr.md:19
-#, fuzzy
 msgid "The GitHub review interface has a mechanism for change suggestions, in which you can provide the exact change you are suggesting as a replacement for the existing content. Keep in mind that, until they are accepted and committed, these suggested changes won't be run through pre-commit and the linting checks. Therefore, this feature should be used for smaller changes, as the larger the suggested change is, the more likely it is to introduce issues."
 msgstr "Rozhraní GitHub pro revize obsahuje mechanismus pro navrhování změn, ve kterém můžete zadat přesnou změnu, kterou navrhujete jako náhradu za stávající obsah. Mějte na paměti, že dokud nebudou tyto navrhované změny přijaty a potvrzeny, nebudou procházet kontrolami před potvrzením a kontrolami linting. Proto by tato funkce měla být používána pro menší změny, protože čím větší je navrhovaná změna, tím větší je pravděpodobnost, že způsobí problémy."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/scope-creep.md:1
-#, fuzzy
 msgid "\"Scope creep\" happens when the list of problems resolved or features implemented by a single contribution grows significantly beyond what was intended when the work began. You start with a simple issue; you discover a closely related problem, and decide to include that fix as well; then a third... before you know it, you've got a pull request that closes 5 issues and adds 3 new features, including dozens of files."
 msgstr "K „rozšíření rozsahu“ dochází, když seznam vyřešených problémů nebo implementovaných funkcí v rámci jednoho příspěvku výrazně přesáhne původní záměr na začátku práce. Začnete s jednoduchým problémem, objevíte úzce související problém a rozhodnete se zahrnout i jeho opravu, pak třetí... a než se nadějete, máte pull request, který uzavírá 5 problémů a přidává 3 nové funkce, včetně desítek souborů."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/scope-creep.md:3
-#, fuzzy
 msgid "Scope creep happens to everyone. It is a concept that is all too familiar to seasoned developers; we've all done it multiple times, and experienced all the issues that come with it."
 msgstr "Rozšíření rozsahu se stává každému. Je to pojem, který je zkušeným vývojářům velmi dobře známý; všichni jsme to už několikrát zažili a setkali se se všemi problémy, které s tím souvisejí."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/scope-creep.md:5
-#, fuzzy
 msgid "There are very practical reasons to avoid scope creep. The larger a contribution gets, the more difficult it is to work with. It becomes harder to identify edge cases or potential problems, which means overall quality of the contribution may be diminished. Reviews also become more challenging when the reviewer needs to deal with multiple, potentially unrelated, contexts. A larger contribution means more review comments, and as a contributor, it can become difficult to follow multiple review threads. Even your GitHub experience will suffer - GitHub's UI will slow down as the size of a PR grows, meaning navigating the files through the GitHub interface and attempting to leave review comments becomes increasingly difficult."
 msgstr "Existují velmi praktické důvody, proč se vyhnout rozšiřování rozsahu. Čím větší je příspěvek, tím obtížnější je s ním pracovat. Je těžší identifikovat okrajové případy nebo potenciální problémy, což znamená, že celková kvalita příspěvku může být snížena. Recenze se také stávají náročnějšími, když recenzent musí řešit více potenciálně nesouvisejících kontextů. Větší příspěvek znamená více recenzních komentářů a jako přispěvatel může být obtížné sledovat více recenzních vláken. Utrpí tím i vaše zkušenost s GitHubem – uživatelské rozhraní GitHubu se bude zpomalovat s rostoucí velikostí PR, což znamená, že procházení souborů prostřednictvím rozhraní GitHubu a pokusy o zanechání recenzních komentářů budou stále obtížnější."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/scope-creep.md:7
-#, fuzzy
 msgid "Any time you find a reason to add anything to your contribution that isn't explicitly part of the original proposal or bug report, you should consider whether you're heading into scope creep. Are there two distinct features that could be implemented separately? Could a feature be implemented with a known limitation or bug, and that bug fixed in a follow-up pull request? Is one part of a bug fix independent of another? If part of a change can be left out without altering the original contribution, it probably should be."
 msgstr "Kdykoli najdete důvod přidat do svého příspěvku něco, co není výslovně součástí původního návrhu nebo hlášení o chybě, měli byste zvážit, zda se nevydáváte směrem k rozšiřování rozsahu. Existují dvě odlišné funkce, které by mohly být implementovány samostatně? Mohla by být funkce implementována se známým omezením nebo chybou a tato chyba opravena v následném požadavku na stažení? Je jedna část opravy chyby nezávislá na druhé? Pokud lze část změny vynechat, aniž by došlo ke změně původního příspěvku, pravděpodobně by tak mělo být učiněno."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/scope-creep.md:9
-#, fuzzy
 msgid "Developing software is always a process of incremental improvement. Each individual contribution should leave the code base in a better state as a result of being merged, but it's entirely acceptable to leave bugs or parts of features as work for future improvement. That might mean breaking a pull request into multiple parts that can be reviewed independently, or logging an issue so that someone else can investigate and resolve the problem."
 msgstr "Vývoj softwaru je vždy proces postupného zlepšování. Každý jednotlivý příspěvek by měl po sloučení zanechat kódovou základnu v lepším stavu, ale je zcela přijatelné ponechat chyby nebo části funkcí jako úkol pro budoucí vylepšení. To může znamenat rozdělení žádosti o stažení na více částí, které lze zkontrolovat samostatně, nebo zaznamenání problému, aby jej mohl někdo jiný prošetřit a vyřešit."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/scope-creep.md:11
-#, fuzzy
 msgid "Limiting the scope of each contribution helps everyone involved, including you. Your reviewers, and even you, will appreciate it."
 msgstr "Omezení rozsahu každého příspěvku pomáhá všem zúčastněným, včetně vás. Vaši recenzenti, a dokonce i vy sami, to oceníte."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:1
-#, fuzzy
 msgid "Now that you've committed all your changes, you're ready to submit a pull request. To ensure you have a smooth review process, there are a number of steps you should take."
 msgstr "Nyní, když jste potvrdili všechny změny, jste připraveni odeslat žádost o stažení. Abyste zajistili hladký průběh procesu kontroly, měli byste provést několik kroků."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:3
-#, fuzzy
 msgid "Working with pre-commit"
 msgstr "Práce s pre-commit"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:5
-#, fuzzy
 msgid "When you commit any change, pre-commit will run automatically. If there are any issues found with the commit, this will cause your commit to fail. Where possible, pre-commit will make the changes needed to correct the problems it has found. In the following example, a code formatting issue was found by the `ruff` check:"
 msgstr "Při potvrzení jakékoli změny se automaticky spustí pre-commit. Pokud jsou v potvrzení nalezeny nějaké problémy, potvrzení selže. Pokud je to možné, pre-commit provede změny potřebné k opravě nalezených problémů. V následujícím příkladu byla kontrolou `ruff` nalezena chyba ve formátování kódu:"
 
@@ -1081,7 +1055,6 @@ msgstr ""
 "codespell................................................................Passed"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:84
-#, fuzzy
 msgid "In this case, `ruff` automatically fixed the problem; so you can then re-add any files that were modified as a result of the pre-commit checks, and re-commit the change. However, some checks will require you to make manual modifications. Once you've made those changes, re-add any modified files, and re-commit."
 msgstr "V tomto případě `ruff` problém automaticky vyřešilo; můžete tedy znovu přidat všechny soubory, které byly upraveny v důsledku kontrol před odesláním, a změnu znovu odeslat. Některé kontroly však budou vyžadovat ruční úpravy. Jakmile tyto změny provedete, znovu přidejte všechny upravené soubory a znovu je odešlete."
 
@@ -1146,22 +1119,18 @@ msgstr ""
 "1 file changed, 4 insertions(+), 2 deletions(-)"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:154
-#, fuzzy
 msgid "Once everything passes, you'll see a message indicating the commit has been finalized, and your git log will show your commit as the most recent addition. You're now ready to push to GitHub."
 msgstr "Jakmile vše proběhne, zobrazí se zpráva o dokončení commitu a váš git log zobrazí váš commit jako nejnovější přírůstek. Nyní jste připraveni odeslat data na GitHub."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:156
-#, fuzzy
 msgid "Push your changes to GitHub and create your pull request"
 msgstr "Odesílejte své změny na GitHub a vytvořte žádost o stažení."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:158
-#, fuzzy
 msgid "The first time you push to GitHub, you'll be provided a URL that takes you directly to the GitHub page to create a new pull request. Follow the URL and create your pull request."
 msgstr "Při prvním odeslání na GitHub vám bude poskytnuta URL adresa, která vás přenese přímo na stránku GitHub, kde můžete vytvořit nový pull request. Klikněte na URL adresu a vytvořte svůj pull request."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:160
-#, fuzzy
 msgid "The following shows an example of what to expect on `push`, with the URL highlighted."
 msgstr "Následující příklad ukazuje, co můžete očekávat na `push`, s vyznačenou URL adresou."
 
@@ -1230,242 +1199,194 @@ msgstr ""
 " * [new branch]      fix-win11-build -> fix-win11-build"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:233
-#, fuzzy
 msgid "The `--set-upstream` option tells Git to connect your local branch to the branch on your GitHub fork. You only need to include it the first time you push a new branch; after that, you can use `git push`."
 msgstr "Volba `--set-upstream` dá Gitovi pokyn, aby propojil vaši lokální větev s větví ve vaší forkové verzi na GitHubu. Tuto volbu je třeba zadat pouze při prvním odeslání nové větve; poté můžete použít `git push`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:235
-#, fuzzy
 msgid "If GitHub asks for a password, don't enter your GitHub account password. GitHub no longer accepts account passwords for Git operations over HTTPS; follow GitHub's instructions for [creating and using a personal access token]{1} instead."
 msgstr "Pokud vás GitHub požádá o zadání hesla, nezadávejte heslo ke svému účtu na GitHubu. GitHub již nepřijímá hesla k účtům pro operace Git prováděné přes HTTPS; místo toho postupujte podle pokynů GitHubu pro [vytvoření a použití osobního přístupového tokenu]{1}."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:237
-#, fuzzy
 msgid "If you've previously pushed the current branch to GitHub, you won't receive the URL again. However, there are other ways to get to the PR creation URL:"
 msgstr "Pokud jste již aktuální větev odeslali na GitHub, URL adresu znovu neobdržíte. Existují však i jiné způsoby, jak získat URL adresu pro vytvoření PR:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:239
-#, fuzzy
 msgid "Navigate to the upstream repository, click on \"Pull Requests\" followed by \"New pull request\", and choose the from which you want to submit your pull request."
 msgstr "Přejděte do upstreamového repozitáře, klikněte na „Pull Requests“ (Žádosti o stažení) a poté na „New pull request“ (Nová žádost o stažení) a vyberte, odkud chcete odeslat svou žádost o stažení."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:240
-#, fuzzy
 msgid "If you pushed recently, navigate to the upstream repository, locate the banner above the list of files that indicates the repo has \"had recent pushes\", and click the \"Compare & pull request\" button."
 msgstr "Pokud jste nedávno provedli push, přejděte do upstreamového repozitáře, najděte banner nad seznamem souborů, který označuje, že repozitář „měl nedávné pushy“, a klikněte na tlačítko „Porovnat a stáhnout požadavek“."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:241
-#, fuzzy
 msgid "Use the GitHub CLI `gh pr create --web` command to open a web browser to the PR creation page."
 msgstr "Pomocí příkazu GitHub CLI `gh pr create --web` otevřete webový prohlížeč na stránce pro vytvoření PR."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:243
-#, fuzzy
 msgid "/// info | The GitHub CLI: `gh`"
-msgstr "/// info | CLI GitHub: `gh`"
+msgstr "/// info | The GitHub CLI: `gh`"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:245
-#, fuzzy
 msgid "GitHub provides the [GitHub CLI]{1}, which gives you access to many of the features of GitHub from your terminal, through the `gh` command. The [GitHub CLI documentation]{2} covers all the features."
 msgstr "GitHub poskytuje [GitHub CLI]{1}, které vám umožňuje přístup k mnoha funkcím GitHubu z vašeho terminálu pomocí příkazu `gh`. [Dokumentace GitHub CLI]{2} popisuje všechny funkce."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:249
-#, fuzzy
 msgid "/// warning | `gh pr create`"
 msgstr "/// warning | `gh pr create`"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:251
-#, fuzzy
 msgid "Do *not* use the bare `gh pr create` command to create your pull request. BeeWare projects use a template for pull requests, and we require all contributions to follow this template. The `gh pr create` command circumvents the use of this template."
 msgstr "K vytvoření žádosti o začlenění *nepoužívejte* příkaz `gh pr create` bez dalšího. Projekty BeeWare používají pro žádosti o začlenění šablonu a vyžadujeme, aby všechny příspěvky tuto šablonu dodržovaly. Příkaz `gh pr create` obchází použití této šablony."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:255
-#, fuzzy
 msgid "Pull request content { #pr-content }"
 msgstr "Obsah žádosti o začlenění { #pr-content }"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:257
-#, fuzzy
 msgid "A pull request title must be informative, clear, and concise. Try to keep it short if possible, but longer titles are acceptable, if needed. A good PR title should give a person without any context a reasonably solid idea of what bug or feature is implemented by your PR."
 msgstr "Název žádosti o stažení musí být informativní, jasný a stručný. Snažte se, aby byl pokud možno krátký, ale v případě potřeby jsou přijatelné i delší názvy. Dobrý název PR by měl osobě bez jakéhokoli kontextu poskytnout přiměřeně solidní představu o tom, jaká chyba nebo funkce je ve vašem PR implementována."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:259
-#, fuzzy
 msgid "Your pull request **must** follow the BeeWare [pull request template]{1}. If you've created your pull request using the GitHub web interface, this template will be provided as a starting point for your pull request description. If you inadvertently create a pull request without using this template, you can edit the pull request to add the template content - but the template content *must* be provided and filled out appropriately."
 msgstr "Váš pull request **musí** odpovídat šabloně BeeWare [pull request template]{1}. Pokud jste pull request vytvořili pomocí webového rozhraní GitHubu, bude vám tato šablona poskytnuta jako výchozí text pro popis vašeho pull requestu. Pokud jste pull request omylem vytvořili bez použití této šablony, můžete jej upravit a obsah šablony doplnit – obsah šablony však *musí* být uveden a správně vyplněn."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:261
-#, fuzzy
 msgid "The PR description must clearly reflect the changes in the PR. A person without any context should be able to read your description, and gain a relatively complete understanding of why the change is being made. Avoid jokes, idioms, colloquialisms, and unnecessary formatting, such as using all caps or excessive punctuation; this is meant to be a straightforward explanation of what is happening in your PR, and avoiding those things makes the description more accessible to others."
 msgstr "Popis PR musí jasně odrážet změny v PR. Osoba bez jakéhokoli kontextu by měla být schopna přečíst váš popis a získat relativně úplné pochopení toho, proč se změna provádí. Vyhněte se vtipům, idiomům, hovorovým výrazům a zbytečnému formátování, jako je používání velkých písmen nebo nadměrné interpunkce; má se jednat o přímé vysvětlení toho, co se děje ve vašem PR, a vyhýbání se těmto věcem činí popis přístupnějším pro ostatní."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:263
-#, fuzzy
 msgid "If there are any reproduction cases, or any testing regimen that you used that are not already a part of the changes present in the PR, they should be explained and included in the PR. The explanation should include how to run them, and what to do to reproduce the desired outcome."
 msgstr "Pokud existují nějaké případy reprodukce nebo testovací režimy, které jste použili a které ještě nejsou součástí změn uvedených v PR, měly by být vysvětleny a zahrnuty do PR. Vysvětlení by mělo zahrnovat způsob jejich spuštění a postup pro reprodukci požadovaného výsledku."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:265
-#, fuzzy
 msgid "If your pull request will resolve issue #1234, you should include the text `Fixes #1234` in your pull request description. This will cause the issue to be automatically closed when the pull request is merged. You can refer to other discussions, issues or pull requests using the same `#1234` syntax. You can refer to an issue on a different repository by prefixing the number with - for example `python/cpython#1234` would refer to issue 1234 on the CPython repository."
 msgstr "Pokud váš pull request vyřeší problém #1234, měli byste do popisu pull requestu zahrnout text `Fixes #1234`. Tím se problém automaticky uzavře, jakmile bude pull request sloučen. Stejnou syntaxi `#1234` můžete použít i pro odkazy na jiné diskuze, problémy nebo pull requesty. Pro odkaz na problém v jiném repozitáři před číslo vložte znak - například `python/cpython#1234` odkazuje na problém 1234 v repozitáři CPython."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:267
-#, fuzzy
 msgid "AI tools are especially prone to writing verbose, unhelpful pull request messages. If you use an AI tool to generate your PR, *you* are responsible for ensuring that the pull request description is concise, and only contains information that is helpful to the review process. You do not, for example, need to include details on a \"testing regimen\" that describes how to run the test suite, or a \"rationale\" for why a bug needs to be fixed. Excessively verbose pull request bodies may result in your pull request being closed without being reviewed, as they are not respectful of the limited resources of the core team."
 msgstr "Nástroje s umělou inteligencí mají obzvláště sklon psát rozvláčné a nepoužitelné zprávy k žádostem o začlenění. Pokud k vytvoření žádosti o začlenění používáte nástroj s umělou inteligencí, *vy* nesete odpovědnost za to, aby popis žádosti byl stručný a obsahoval pouze informace, které jsou užitečné pro proces posuzování. Například nemusíte uvádět podrobnosti o „testovacím režimu“, který popisuje, jak spustit sadu testů, ani „zdůvodnění“, proč je třeba chybu opravit. Příliš podrobné texty pull requestů mohou vést k tomu, že váš pull request bude uzavřen bez přezkoumání, protože nerespektují omezené zdroje jádrového týmu."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:269
-#, fuzzy
 msgid "/// warning | The BeeWare Pull Request template"
-msgstr "/// warning | Šablona žádosti o začlenění pro BeeWare"
+msgstr "/// warning | The BeeWare Pull Request template"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:271
-#, fuzzy
 msgid "The BeeWare [pull request template]{1} is **not** optional. We require **all** pull requests to follow this template. Your pull request will not be reviewed if your pull request is missing the \"PR Checklist\" section, or your answers to the checkbox questions are incomplete or inconsistent. If you have used an AI tool to generate your pull request, you *must* check the relevant box, and provide details on the \"Assisted-by:\" line."
 msgstr "Šablona pull requestu pro BeeWare [pull request template]{1} **není** volitelná. Požadujeme, aby **všechny** žádosti o pull request dodržovaly tuto šablonu. Vaše žádost o pull request nebude posouzena, pokud v ní chybí část „PR Checklist“ nebo pokud jsou vaše odpovědi na otázky s zaškrtávacími políčky neúplné nebo nekonzistentní. Pokud jste k vytvoření žádosti o pull request použili nástroj AI, *musíte* zaškrtnout příslušné políčko a uvést podrobnosti v řádku „Assisted-by:“."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:275
-#, fuzzy
 msgid "Continuous integration"
 msgstr "Kontinuální integrace"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:277
-#, fuzzy
 msgid "*Continuous integration*, or *CI*, is the process of running automated checks on your pull request. This can include simple checks like ensuring code is correctly formatted; but it also includes running the test suite, and building documentation."
 msgstr "*Kontinuální integrace* (CI) je proces automatizované kontroly vašich požadavků na stažení. Může zahrnovat jednoduché kontroly, jako je zajištění správného formátování kódu, ale také spuštění testovací sady a vytvoření dokumentace."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:279
-#, fuzzy
 msgid "There are any number of changes that can result in CI failures. Broadly speaking, we won't review a PR that isn't passing CI. If you create a pull requests and CI fails, we won't begin your review until it is passing. If your changes result in a failure, it is your responsibility to look into the reason, and resolve the issue."
 msgstr "Existuje řada změn, které mohou vést k selhání CI. Obecně řečeno, PR, které neprojde CI, nebudeme posuzovat. Pokud vytvoříte pull request a CI selže, nezačneme s posuzováním, dokud neprojde. Pokud vaše změny vedou k selhání, je vaší povinností zjistit důvod a problém vyřešit."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:281
-#, fuzzy
 msgid "When CI fails, the failure links will show up at the bottom of the PR page, under the heading \"Some checks were not successful\". You'll see a list of failed checks, which, will show up at the top of the list of all checks if there are passing checks as well. If you click on the failure link, it will take you to the log. The log often provides all the information you need to figure out what caused the failure. Read through the log and try to figure out why the failure is occurring, and then do what's necessary to resolve it."
 msgstr "Pokud CI selže, odkazy na selhání se zobrazí v dolní části stránky PR pod nadpisem „Některé kontroly nebyly úspěšné“. Zobrazí se seznam neúspěšných kontrol, který se zobrazí v horní části seznamu všech kontrol, pokud existují i úspěšné kontroly. Pokud kliknete na odkaz na selhání, dostanete se do protokolu. Protokol často poskytuje všechny informace, které potřebujete k zjištění příčiny selhání. Přečtěte si protokol a zkuste zjistit, proč k selhání dochází, a poté proveďte nezbytné kroky k jeho vyřešení."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:283
-#, fuzzy
 msgid "Occasionally, a CI check will fail for reasons that are unrelated to your changes. This could be due to an issue on the machine that runs the CI check; or because a CI check is unstable. If you see a failure, and you're fairly certain it's unrelated to your changes, add a comment to your PR to that effect, and we will look into it."
 msgstr "Občas se může stát, že kontrola CI selže z důvodů, které nesouvisejí s vašimi změnami. Může to být způsobeno problémem na stroji, na kterém se kontrola CI provádí, nebo nestabilitou kontroly CI. Pokud zaznamenáte selhání a jste si poměrně jisti, že nesouvisí s vašimi změnami, přidejte k vaší PR komentář s touto informací a my se na to podíváme."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:285
-#, fuzzy
 msgid "To trigger a new CI run, you need to push new changes to your branch."
 msgstr "Chcete-li spustit nový běh CI, musíte do své větve odeslat nové změny."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:287
-#, fuzzy
 msgid "If you find yourself in a situation where you need help getting CI to pass, leave a comment on the PR letting us know and we'll do what we can to help."
 msgstr "Pokud se ocitnete v situaci, kdy potřebujete pomoc s úspěšným absolvováním CI, zanechte komentář k PR, dejte nám vědět a my uděláme, co bude v našich silách, abychom vám pomohli."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:289
-#, fuzzy
 msgid "/// note | The `pre-commit` and `towncrier` checks"
-msgstr "/// note | Kontroly `pre-commit` a `towncrier`"
+msgstr "/// note | The `pre-commit` and `towncrier` checks"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:291
-#, fuzzy
 msgid "If either the `pre-commit` or `towncrier` checks fail, it will block most of the rest of the CI checks from running. You'll need to resolve the applicable issues before the full set of checks will run."
 msgstr "Pokud kontrola `pre-commit` nebo `towncrier` selže, zablokuje to spuštění většiny zbývajících kontrol CI. Než bude možné spustit kompletní sadu kontrol, je nutné vyřešit příslušné problémy."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:295
-#, fuzzy
 msgid "We have limited CI resources. It is important to understand that every time you push to the branch, CI will start. If you're going to make a number of changes, it's better to make those changes locally, push them all at once. CI will only run on the most recent commit in a batch, minimizing the load on our CI system."
 msgstr "Máme omezené zdroje CI. Je důležité si uvědomit, že pokaždé, když provedete push do větve, spustí se CI. Pokud hodláte provést několik změn, je lepší je provést lokálně a poté je všechny najednou odeslat. CI se spustí pouze na nejnovější commit v dávce, čímž se minimalizuje zatížení našeho systému CI."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:297
-#, fuzzy
 msgid "The process of submitting your PR is not done until it's passing CI, or you can provide an explanation for why it's not."
 msgstr "Proces odeslání PR není dokončen, dokud neprojde CI, nebo dokud neposkytnete vysvětlení, proč tomu tak není."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:1
-#, fuzzy
 msgid "Getting started with translating"
 msgstr "Začínáme s překládáním"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:3
-#, fuzzy
 msgid "If you'd like to contribute to BeeWare's translation efforts, you'll need an account on [Weblate]{1}. [Create a new account]{2} if you don't currently have one; then let us know you're interested in helping out with translations."
 msgstr "Pokud byste chtěli přispět k překladatelským snahám BeeWare, budete potřebovat účet na [Weblate]{1}. Pokud jej zatím nemáte, [vytvořte si nový účet]{2} a dejte nám vědět, že máte zájem pomáhat s překlady."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:5
-#, fuzzy
 msgid "There are two options for letting us know that you'd like to help out with translations:"
 msgstr "Existují dvě možnosti, jak nám dát vědět, že byste nám chtěli pomoci s překlady:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:7
-#, fuzzy
 msgid "If you're on Discord, join the [BeeWare server]{1}, and head to the `#translations` channel."
 msgstr "Pokud jste na Discord, připojte se k [BeeWare serveru]{1} a přejděte do kanálu `#translations`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:8
-#, fuzzy
 msgid "If you're not on Discord, you can create a new issue on the {{ formal_name }} repository."
 msgstr "Pokud nejste na Discord, můžete vytvořit nový problém v repozitáři {{ formal_name }}."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:10
-#, fuzzy
 msgid "In both cases, leave a message including the following information:"
 msgstr "V obou případech zanechte zprávu obsahující následující informace:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:12
-#, fuzzy
 msgid "Your Weblate username"
 msgstr "Vaše uživatelské jméno Weblate"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:13
-#, fuzzy
 msgid "The language you are planning to which you are planning to translate content"
 msgstr "Jazyk, do kterého plánujete překládat obsah"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:15
-#, fuzzy
 msgid "Once we have this info, we'll get you added to the team."
 msgstr "Jakmile tyto informace získáme, přidáme vás do týmu."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:17
-#, fuzzy
 msgid "Adding a new translation"
 msgstr "Přidání nového překladu"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:19
-#, fuzzy
 msgid "If the language you plan to help out with doesn't already exist, there are some additional steps required before you can get started:"
 msgstr "Pokud jazyk, se kterým chcete pomáhat, ještě neexistuje, je třeba provést několik dalších kroků, než budete moci začít:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:21
-#, fuzzy
 msgid "Create the `/docs/mkdocs.language-code.yml` file, with language-specific content."
 msgstr "Vytvořte soubor `/docs/mkdocs.language-code.yml` s obsahem specifickým pro daný jazyk."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:22
-#, fuzzy
 msgid "Update `tox.ini` to include the new language build commands."
 msgstr "Aktualizujte `tox.ini` tak, aby obsahoval nové příkazy pro sestavení jazyka."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:23
-#, fuzzy
 msgid "Update `/docs/config.yml` to include the language under `extra: alternate:`."
 msgstr "Aktualizujte `/docs/config.yml` tak, aby zahrnovalo jazyk pod `extra: alternate:`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:25
-#, fuzzy
 msgid "The following demonstrates the necessary changes using German as an example; a German translation already exists; replace the references to German, `de`, or other content for the language you're targeting."
 msgstr "Následující příklad ukazuje nezbytné změny na příkladu němčiny; německý překlad již existuje; nahraďte odkazy na němčinu, `de` nebo jiný obsah jazykem, na který se zaměřujete."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:27
-#, fuzzy
 msgid "A new MkDocs configuration file"
 msgstr "Nový konfigurační soubor MkDocs"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:29
-#, fuzzy
 msgid "First, create a new file named `mkdocs.de.yml` in the `docs` directory, with the following content:"
 msgstr "Nejprve vytvořte nový soubor s názvem `mkdocs.de.yml` v adresáři `docs` s následujícím obsahem:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:31
-#, fuzzy
 msgid ""
 "INHERIT: config.yml\n"
 "site_name: {{ formal_name }} Dokumentation\n"
@@ -1485,194 +1406,140 @@ msgid ""
 "    Contributing: Mitwirken\n"
 "    News: Neuigkeiten\n"
 "    Sponsor: Förderer"
-msgstr ""
-"INHERIT: config.yml\n"
-"site_name: {{ formal_name }} Dokumentace\n"
-"site_url: {% if config.extra.website %}https://beeware.org/de{% else %}https://{{ project_name }}.beeware.org/de{% endif %}\n"
-"docs_dir: de\n"
-"\n"
-"theme:\n"
-"  language: de\n"
-"\n"
-"extra:\n"
-"  language_url: de/\n"
-"  translation_type: machine\n"
-"  header:\n"
-"    About: O nás\n"
-"    Documentation: Dokumentace\n"
-"    Community: Komunita\n"
-"    Contributing: Přispívání\n"
-"    News: Novinky\n"
-"    Sponsor: Sponzoři"
+msgstr "INHERIT: config.yml\nsite_name: {{ formal_name }} Dokumentace\nsite_url: {% if config.extra.website %}https://beeware.org/de{% else %}https://{{ project_name }}.beeware.org/de{% endif %}\ndocs_dir: de\n\ntheme:\n  language: de\n\nextra:\n  language_url: de/\n  translation_type: machine\n  header:\n    About: O nás\n    Documentation: Dokumentace\n    Community: Komunita\n    Contributing: Přispívání\n    News: Novinky\n    Sponsor: Sponzoři"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:52
-#, fuzzy
 msgid "Here's what is going on in this file:"
 msgstr "Toto se děje v tomto souboru:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:54
-#, fuzzy
 msgid "This file inherits the configuration content from `config.yml`."
 msgstr "Tento soubor dědí obsah konfigurace z `config.yml`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:55
-#, fuzzy
 msgid "The `site_name` value is translated."
 msgstr "Hodnota `site_name` je přeložena."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:56
-#, fuzzy
 msgid "The `site_url` value is the project site URL, followed by the language code."
 msgstr "Hodnota `site_url` je adresa URL webu projektu, za kterou následuje kód jazyka."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:57
-#, fuzzy
 msgid "The `docs_dir` should be the language code."
 msgstr "`docs_dir` by měl být kód jazyka."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:58
-#, fuzzy
 msgid "The `theme: language:` value should be the language code, as [specified by the MkDocs Material theme]{1}. For most languages, this will be the same as the `docs_dir` language code; but for some (in particular languages with locale variants like `zh_CN`), there are differences."
 msgstr "Hodnota `theme: language:` by měla být kód jazyka, jak je [specifikováno tématem MkDocs Material]{1}. Pro většinu jazyků bude stejná jako kód jazyka `docs_dir`, ale u některých (zejména u jazyků s variantami locale, jako je `zh_CN`) existují rozdíly."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:59
-#, fuzzy
 msgid "The `extra: language_url:` should be the language code, followed by a single slash, e.g. `de/` for German."
 msgstr "`extra: language_url:` by měl být kód jazyka, za nímž následuje jediná lomítka, např. `de/` pro němčinu."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:60
-#, fuzzy
 msgid "The `extra: translation_type:` should be `machine` until the translation reaches 100% for the first time, at which point it should be `human`. It will revert to `machine` from `human` if it regresses to below 90%."
 msgstr "`extra: translation_type:` by mělo být `machine` až do okamžiku, kdy překlad poprvé dosáhne 100 %, v tom okamžiku by mělo být `human`. Pokud se překlad vrátí pod 90 %, vrátí se z `machine` zpět na `human`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:61
-#, fuzzy
 msgid "The content under `extra: header` is the translations for titles that appear in the header bar. This definition is *not* required on the main BeeWare website; it is only required on *other* sites (such as the tutorial, or project documentation)."
 msgstr "Obsah pod `extra: header` jsou překlady názvů, které se zobrazují v záhlaví. Tato definice *není* vyžadována na hlavní webové stránce BeeWare; je vyžadována pouze na *jiných* stránkách (například v tutoriálu nebo v dokumentaci k projektu)."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:63
-#, fuzzy
 msgid "Update `tox.ini`"
 msgstr "Aktualizovat `tox.ini`"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:65
-#, fuzzy
 msgid "You'll need to make several changes to the `tox.ini` file."
 msgstr "Budete muset provést několik změn v souboru `tox.ini`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:67
-#, fuzzy
 msgid "You would add the following:"
 msgstr "Přidali byste následující:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:69
-#, fuzzy
 msgid "The new language code environment flag to the header line which begins `[testenv:docs`, with the language code preceded by a `-`, with no spaces included, e.g. `-de`."
 msgstr "Nový příznak jazykového kódu v záhlaví řádku, který začíná `[testenv:docs`, s jazykovým kódem předcházejícím `-`, bez mezer, např. `-de`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:70
-#, fuzzy
 msgid "The new language code exclusion to the first command, which begins with `!lint`, preceded by `-!`, with no spaces included, e.g. `-!de`."
 msgstr "Nové vyloučení jazykového kódu z prvního příkazu, který začíná znaky `!lint`, před nimiž jsou znaky `-!`, bez mezer, např. `-!de`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:71
-#, fuzzy
 msgid "The new language code to the line beginning with `translate : build_po_translations`."
 msgstr "Nový jazykový kód pro řádek začínající `translate : build_po_translations`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:72
-#, fuzzy
 msgid "The new language code to the line beginning with `translate : update_machine_translations`"
 msgstr "Nový jazykový kód pro řádek začínající znaky `translate : update_machine_translations`"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:73
-#, fuzzy
 msgid "A new command, beginning with, for example, `de : build_md_translations` for German, alphabetically within the existing language-specific commands that matches the content of those commands, with the new language code."
 msgstr "Nový příkaz, začínající například `de : build_md_translations` pro němčinu, abecedně v rámci stávajících příkazů specifických pro daný jazyk, který odpovídá obsahu těchto příkazů, s novým kódem jazyka."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:74
-#, fuzzy
 msgid "The new language code to the line beginning with `all:`."
 msgstr "Nový jazykový kód pro řádek začínající `all:`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:76
-#, fuzzy
 msgid "Update `config.yml`"
 msgstr "Aktualizace `config.yml`"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:78
-#, fuzzy
 msgid "Add the language to `config.yml` so it will show up in the language selector in the header. Find the section beginning with `extra:`, and then locate the subsection beginning with `alternate:`. For German, you would add the following:"
 msgstr "Přidejte jazyk do `config.yml`, aby se zobrazil v nabídce pro výběr jazyka v záhlaví. Najděte sekci začínající `extra:`, a poté vyhledejte podsekci začínající `alternate:`. Pro němčinu byste přidali následující:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:80
-#, fuzzy
 msgid ""
 "- name: Deutsch\n"
 "      link: /de/\n"
 "      lang: de"
-msgstr ""
-"- název: Němčina\n"
-" odkaz: /de/\n"
-" jazyk: de"
+msgstr "- název: Němčina\n odkaz: /de/\n jazyk: de"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:86
-#, fuzzy
 msgid "The language name should be translated into the language. The link must include the `/`s."
 msgstr "Název jazyka by měl být přeložen do daného jazyka. Odkaz musí obsahovat znaky `/`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:88
-#, fuzzy
 msgid "Run `tox translate`"
 msgstr "Spustit `tox translate`"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:90
-#, fuzzy
 msgid "You can now run `tox -e docs-translate`. This will generate an empty translation file; if you have a DeepL account, you can use that account to populate initial machine translations. If you don't have a DeepL account, that's fine - we'll run initial translations ourselves before accepting the pull request."
 msgstr "Nyní můžete spustit `tox -e docs-translate`. Tím se vygeneruje prázdný překladový soubor. Pokud máte účet DeepL, můžete jej použít k vyplnění počátečních strojových překladů. Pokud účet DeepL nemáte, nevadí – počáteční překlady provedeme sami, než přijmeme žádost o stažení."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:92
-#, fuzzy
 msgid "Translation guidelines"
 msgstr "Pokyny pro překlad"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:94
-#, fuzzy
 msgid "Once you've been added to the team, it's time to log into [Weblate]{1} and begin working through translating strings."
 msgstr "Jakmile budete přidáni do týmu, je čas se přihlásit do [Weblate]{1} a začít pracovat na překladu řetězců."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:96
-#, fuzzy
 msgid "Tone versus word-for-word translation"
 msgstr "Tón versus doslovný překlad"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:98
-#, fuzzy
 msgid "It's more important to maintain the tone of the English text than to strive for a word-for-word translation. We try to be friendly and a bit colloquial in our content; try to maintain the spirit of that in your translations."
 msgstr "Je důležitější zachovat tón anglického textu než usilovat o doslovný překlad. Ve svém obsahu se snažíme být přátelští a trochu hovorní; snažte se zachovat tohoto ducha ve svých překladech."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:100
-#, fuzzy
 msgid "If the English text contains a strong English idiom, don't feel beholden to maintain the idiom, if there is an analog in your language that would work equally well. If the term or phrase in the English text is a particularly idiomatic or slang term, don't be afraid to tell us we should consider making a change. Even for English speakers, idioms and slang can pose difficulty. Sometimes we need to change the English text to make it more straightforward for translators and readers alike."
 msgstr "Pokud anglický text obsahuje silný anglický idiom, nemusíte se cítit povinni tento idiom zachovat, pokud ve vašem jazyce existuje ekvivalent, který by fungoval stejně dobře. Pokud je termín nebo fráze v anglickém textu obzvláště idiomatický nebo slangový, nebojte se nám sdělit, že bychom měli zvážit jeho změnu. I pro mluvčí angličtiny mohou idiomy a slang představovat obtíž. Někdy je třeba anglický text změnit, aby byl srozumitelnější jak pro překladatele, tak pro čtenáře."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:102
-#, fuzzy
 msgid "Should I translate it?"
 msgstr "Mám to přeložit?"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:104
-#, fuzzy
 msgid "The following items should *not* be translated or updated:"
 msgstr "Následující položky by *neměly* být překládány ani aktualizovány:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:106
-#, fuzzy
 msgid "**Commands**. For example, in \"You should run \\`briefcase create\\`.\", only \"You should run\" should be translated."
 msgstr "**Příkazy**. Například ve větě „Měli byste spustit \\`briefcase create\\`.“ by se mělo přeložit pouze „Měli byste spustit“."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:107
-#, fuzzy
 msgid "**Namespaces**, such as class, method, or attribute names."
 msgstr "**Prostory jmen**, jako jsou názvy tříd, metod nebo atributů."
 
