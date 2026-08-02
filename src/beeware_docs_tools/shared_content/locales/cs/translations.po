@@ -1,18 +1,6 @@
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-02 13:28+0000\n"
-"PO-Revision-Date: 2026-08-02 13:27+0000\n"
-"Last-Translator: Michal Várady <miko.vaji@gmail.com>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/cs/>\n"
-"Language: cs\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Translate Toolkit 3.19.15\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-08-02 13:28+0000\nPO-Revision-Date: 2026-08-02 13:32+0000\nLast-Translator: Michal Várady <miko.vaji@gmail.com>\nLanguage-Team: Czech <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/cs/>\nLanguage: cs\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\nX-Generator: Weblate 2026.8.dev0\n"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:1
 msgid "There may be a little voice inside your head that is telling you that you're not ready; that you need to do one more tutorial; that you aren't ready to be an open source contributor. After all, you're just a beginner. What could you possibly offer a project like BeeWare?"
@@ -23,7 +11,6 @@ msgid "I assure you - the little voice in your head is wrong. You can contribute
 msgstr "Ujišťuji Vás, že ten malý hlas ve Vaší hlavě se mýlí. Můžete přispívat kódem do open source a do BeeWare."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:5
-#, fuzzy
 msgid "Impostor syndrome"
 msgstr "Syndrom podvodníka"
 
@@ -60,9 +47,8 @@ msgid "Open Source Software lives and dies on its contributions. Community contr
 msgstr "Open-source software žije a umírá na základě svých příspěvků. Příspěvky komunity jsou klíčové pro úspěch jakéhokoli open-source projektu a BeeWare není výjimkou. V rámci našich možností Vám poskytneme pomoc, kterou potřebujete, abyste mohli přispívat. Rádi Vám pomůžeme začít a provedeme Vás procesem přispívání, ať už je to vaše první, desáté nebo sté přispění. Neváhejte se na nás obrátit a dejte nám vědět, pokud potřebujete pomoc."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:23
-#, fuzzy
 msgid "Now it's time to roll up your sleeves, and [choose your first contribution]({% if config.extra.website %}guide/index.md{% else %}index.md#what-can-i-do{% endif %})."
-msgstr "Nyní je čas vyhrnout si rukávy a [vybrat svůj první příspěvek]({% if config.extra.website %}guide/index.md{% else %}index.md#what-can-i-do{% endif %})."
+msgstr "Nyní je čas vyhrnout si rukávy a [vybrat si první příspěvek]({% if config.extra.website %}guide/index.md{% else %}index.md#what-can-i-do{% endif %})."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/branches.md:1
 msgid "Before you start working on your change, make sure you've created a branch. By default, when you clone your repository fork, you'll be checked out on your `main` branch. This is a direct copy of {{ formal_name }}'s `main` branch."
@@ -121,7 +107,6 @@ msgid "Before making any changes to {{ formal_name }}'s documentation, it is hel
 msgstr "Před provedením jakýchkoli změn v dokumentaci {{ formal_name }} je užitečné si ověřit, zda můžete vygenerovat stávající dokumentaci."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:3 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/reproduce-issue.md:5 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:4 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:4
-#, fuzzy
 msgid "{% block front_matter %} {% endblock %}"
 msgstr "{% block front_matter %} {% endblock %}"
 
@@ -174,7 +159,6 @@ msgid "This will build the documentation, start a web server to serve the docume
 msgstr "Tím se vytvoří dokumentace, spustí se webový server na kterém poběží dokumentace a budou sledovány soubory, zda nedošlo k nějakým změnám ve zdrojovém kódu dokumentace."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:58
-#, fuzzy
 msgid "Once the server is started, you'll see something like the following in the console output:"
 msgstr "Po spuštění serveru se v konzoli zobrazí následující výstup:"
 
@@ -187,7 +171,6 @@ msgid "Open a browser, and navigate to the URL provided. Now you can begin itera
 msgstr "Otevřete prohlížeč a přejděte na uvedenou adresu URL. Nyní můžete začít s iterací dokumentace. Pokud bude zaznamenána změna, dokumentace se přegeneruje a všechny prohlížeče, které zobrazují upravenou stránku, budou automaticky aktualizovány."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:66
-#, fuzzy
 msgid "/// note | `docs-live` is an initial step"
 msgstr "/// note | `docs-live` je první krok"
 
@@ -274,12 +257,10 @@ msgid "The output of a single-language build will be in the `_build` directory."
 msgstr "Výstup jednojazyčného buildu bude umístěn v adresáři `_build`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:194
-#, fuzzy
 msgid "Documentation linting"
 msgstr "Kontrola dokumentace"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:196
-#, fuzzy
 msgid "The build process will identify Markdown problems, but {{ formal_name }} performs some additional checks for style and formatting, known as \"linting\". To run the lint checks:"
 msgstr "Proces sestavení identifikuje problémy s Markdownem, ale {{ formal_name }} provádí některé další kontroly stylu a formátování, známé jako „linting“. Chcete-li spustit kontroly lintingu:"
 
@@ -294,42 +275,34 @@ msgid "(venv) C:\\...>tox -e docs-lint"
 msgstr "(venv) C:\\...>tox -e docs-lint"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:230
-#, fuzzy
 msgid "This will validate the documentation does not contain:"
 msgstr "Tím se ověří, že dokumentace neobsahuje:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:232
-#, fuzzy
 msgid "dead hyperlinks"
 msgstr "nefunkční odkazy"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:233
-#, fuzzy
 msgid "misspelled words"
 msgstr "špatně napsaná slova"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:235
-#, fuzzy
 msgid "If a valid spelling of a word is identified as misspelled, then add the word to the list in `docs/spelling_wordlist`. This will add the word to the spellchecker's dictionary. When adding to this list, remember:"
 msgstr "Pokud je platný pravopis slova identifikován jako chybný, přidejte slovo do seznamu v `docs/spelling_wordlist`. Tím se slovo přidá do slovníku kontroly pravopisu. Při přidávání do tohoto seznamu mějte na paměti:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:237
-#, fuzzy
 msgid "We prefer US spelling, with some liberties for programming-specific colloquialism (e.g., \"apps\") and verbing of nouns (e.g., \"scrollable\")"
 msgstr "Upřednostňujeme americkou pravopisnou normu, s určitými výjimkami pro programátorské slangové výrazy (např. „apps“) a slovesné tvary podstatných jmen (např. „scrollable“)."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:238
-#, fuzzy
 msgid "Any reference to a product name should use the product's preferred capitalization. (e.g., \"macOS\", \"GTK\", \"pytest\", \"Pygame\", \"PyScript\")."
 msgstr "Při odkazování na název produktu je třeba používat preferované velká písmena (např. „macOS“, „GTK“, „pytest“, „Pygame“, „PyScript“)."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:239
-#, fuzzy
 msgid "If a term is being used \"as code\", then it should be quoted as a literal (`like this`) rather than being added to the dictionary."
 msgstr "Pokud je termín používán „jako kód“, měl by být uveden v uvozovkách (`like this`) namísto přidání do slovníku."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:241 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/propose-feature.md:31 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/reproduce-issue.md:34 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:299 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:408 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:35
-#, fuzzy
 msgid "{% block end_matter %} {% endblock %}"
 msgstr "{% block end_matter %} {% endblock %}"
 
@@ -338,81 +311,66 @@ msgid "{% if config.extra.website %}"
 msgstr "{% if config.extra.website %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:3
-#, fuzzy
 msgid "Many BeeWare tools use [`towncrier`]{1} to assist in building the release notes for each release. When you submit a pull request to one of the applicable tools, it will need to include a *change note* - this change note will become the entry in the release notes describing the change that has been made."
-msgstr "Mnoho nástrojů BeeWare používá [`towncrier`]{1} k pomoci při vytváření poznámek k vydání pro každé vydání. Když odešlete žádost o stažení do jednoho z příslušných nástrojů, bude nutné zahrnout *poznámku o změně* – tato poznámka o změně se stane záznamem v poznámkách k vydání popisujícím provedenou změnu."
+msgstr "Mnoho nástrojů BeeWare používá [`towncrier`]{1} k pomoci při vytváření poznámek k vydání pro každé vydání. Když odešlete pull request do jednoho z příslušných nástrojů, bude nutné zahrnout *poznámku o změně* – tato poznámka o změně se stane záznamem v poznámkách k vydání popisujícím provedenou změnu."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:5
 msgid "{% else %}"
 msgstr "{% else %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:7
-#, fuzzy
 msgid "{{ formal_name }} uses [`towncrier`]{1} to assist in building the release notes for each release. When you submit a pull request, it must include a *change note* - this change note will become the entry in the release notes describing the change that has been made."
-msgstr "{{ formal_name }} používá [`towncrier`]{1} k pomoci při vytváření poznámek k vydání pro každé vydání. Když odešlete žádost o stažení, musí obsahovat *poznámku o změně* – tato poznámka o změně se stane záznamem v poznámkách k vydání popisujícím provedenou změnu."
+msgstr "{{ formal_name }} používá [`towncrier`]{1} k pomoci při vytváření poznámek k vydání pro každé vydání. Když odešlete pull request, musí obsahovat *poznámku o změně* – tato poznámka o změně se stane záznamem v poznámkách k vydání popisujícím provedenou změnu."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:11
-#, fuzzy
 msgid "Every pull request must include at least one file in the `changes/` directory that provides a short description of the change implemented by the pull request. The change note should be in Markdown format, in a file that has name of the format `<id>.<fragment type>.md`. If the change you are proposing will fix a bug or implement a feature for which there is an existing issue number, the ID will be the number of that ticket. If the change has no corresponding issue, the PR number can be used as the ID. You won't know this PR number until you push the pull request, so the first CI pass will fail the `towncrier` check; add the change note and push a PR update and CI should then pass."
-msgstr "Každý pull request musí obsahovat alespoň jeden soubor v adresáři `changes/`, který obsahuje krátký popis změny implementované pull requestem. Poznámka ke změně by měla být ve formátu Markdown, v souboru s názvem ve formátu `<id>.<fragment type>.md`. Pokud změna, kterou navrhujete, opraví chybu nebo implementuje funkci, pro kterou již existuje číslo problému, bude ID číslem tohoto tiketu. Pokud změna nemá odpovídající problém, lze jako ID použít číslo PR. Toto číslo PR nebudete znát, dokud neodešlete žádost o stažení, takže první CI test selže při kontrole `towncrier`; přidejte poznámku o změně a odešlete aktualizaci PR a CI by pak mělo projít."
+msgstr "Každý pull request musí obsahovat alespoň jeden soubor v adresáři `changes/`, který obsahuje krátký popis změny implementované pull requestem. Poznámka ke změně by měla být ve formátu Markdown, v souboru s názvem ve formátu `<id>.<fragment type>.md`. Pokud změna, kterou navrhujete, opraví chybu nebo implementuje funkci, pro kterou již existuje číslo problému, bude ID číslem tohoto tiketu. Pokud změna nemá odpovídající problém, lze jako ID použít číslo PR. Toto číslo PR nebudete znát, dokud neodešlete pull request, takže první CI test selže při kontrole `towncrier`; přidejte poznámku o změně a odešlete aktualizaci PR a CI by pak mělo projít."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:13
-#, fuzzy
 msgid "There are five fragment types:"
 msgstr "Existuje pět typů fragmentů:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:15
-#, fuzzy
 msgid "`feature`: The PR adds a new behavior or capability that wasn't previously possible (e.g., adding support for a new packaging format, or a new feature in an existing packaging format);"
 msgstr "`feature`: PR přidává nové chování nebo schopnost, která dříve nebyla možná (např. přidání podpory pro nový formát balení nebo novou funkci ve stávajícím formátu balení);"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:16
-#, fuzzy
 msgid "`bugfix`: The PR fixes a bug in the existing implementation;"
 msgstr "`bugfix`: PR opravuje chybu ve stávající implementaci;"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:17
-#, fuzzy
 msgid "`doc`: The PR is a significant improvement to documentation;"
 msgstr "`doc`: PR představuje významné zlepšení dokumentace;"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:18
-#, fuzzy
 msgid "`removal`; The PR represents a backwards incompatible change in the {{ formal_name }} API; or"
 msgstr "`removal`; PR představuje zpětně nekompatibilní změnu v API {{ formal_name }}; nebo"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:19
-#, fuzzy
 msgid "`misc`; A minor or administrative change (e.g., fixing a typo, a minor language clarification, or updating a dependency version) that doesn't need to be announced in the release notes."
 msgstr "`misc`; Drobná nebo administrativní změna (např. oprava překlepu, drobné jazykové upřesnění nebo aktualizace verze závislosti), kterou není nutné oznamovat v poznámkách k vydání."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:21
-#, fuzzy
 msgid "This description in the change note should be a high level \"marketing\" summary of the change from the perspective of the user, not a deep technical description or implementation detail. It is distinct from a commit message - a commit message describes what has been done so that future developers can follow the reasoning for a change; the change note is a description for the benefit of users, who may not have knowledge of internals."
 msgstr "Tento popis v poznámce ke změně by měl být obecný „marketingový“ souhrn změny z pohledu uživatele, nikoli podrobný technický popis nebo podrobnosti implementace. Liší se od zprávy o potvrzení – zpráva o potvrzení popisuje, co bylo provedeno, aby budoucí vývojáři mohli sledovat důvody změny; poznámka ke změně je popis pro uživatele, kteří nemusí mít znalosti o vnitřním fungování."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:23
-#, fuzzy
 msgid "For example, if you fix a bug related to project naming, the commit message might read:"
-msgstr "Například pokud opravíte chybu související s pojmenováním projektu, zpráva o potvrzení může znít:"
+msgstr "Například pokud opravíte chybu související s pojmenováním projektu, zpráva commitu může znít:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:25
-#, fuzzy
 msgid "Apply stronger regular expression check to disallow project names that begin with digits."
 msgstr "Použijte přísnější kontrolu regulárních výrazů, aby nebyly povoleny názvy projektů začínající číslicemi."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:27
-#, fuzzy
 msgid "The corresponding change note would read something like:"
 msgstr "Odpovídající poznámka o změně by zněla přibližně takto:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:29
-#, fuzzy
 msgid "Project names can no longer begin with a number."
 msgstr "Názvy projektů již nemohou začínat číslicí."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:31
-#, fuzzy
 msgid "Some PRs will introduce multiple features and fix multiple bugs, or introduce multiple backwards incompatible changes. In that case, the PR may have multiple change note files. If you need to associate two fragment types with the same ID, you can append a numerical suffix. For example, if PR 789 added a feature described by ticket 123, closed a bug described by ticket 234, and also made two backwards incompatible changes, you might have 4 change note files:"
 msgstr "Některé PR zavádějí více funkcí a opravují více chyb nebo zavádějí více změn, které nejsou zpětně kompatibilní. V takovém případě může PR obsahovat více souborů se změnami. Pokud potřebujete spojit dva typy fragmentů se stejným ID, můžete přidat číselnou příponu. Například pokud PR 789 přidalo funkci popsanou v ticketu 123, opravilo chybu popsanou v ticketu 234 a také provedlo dvě zpětně nekompatibilní změny, můžete mít 4 soubory se změnami:"
 
