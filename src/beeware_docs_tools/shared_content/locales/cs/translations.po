@@ -1,6 +1,18 @@
 #
 msgid ""
-msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-08-02 13:35+0000\nPO-Revision-Date: 2026-08-02 13:37+0000\nLast-Translator: Michal Várady <miko.vaji@gmail.com>\nLanguage-Team: Czech <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/cs/>\nLanguage: cs\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\nX-Generator: Weblate 2026.8.dev0\n"
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-02 13:38+0000\n"
+"PO-Revision-Date: 2026-08-02 13:37+0000\n"
+"Last-Translator: Michal Várady <miko.vaji@gmail.com>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/cs/>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Generator: Translate Toolkit 3.19.15\n"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:1
 msgid "There may be a little voice inside your head that is telling you that you're not ready; that you need to do one more tutorial; that you aren't ready to be an open source contributor. After all, you're just a beginner. What could you possibly offer a project like BeeWare?"
@@ -466,7 +478,9 @@ msgstr "Rozdělte repozitář {{ formal_name }} a poté:"
 msgid ""
 "$ git clone https://github.com/<your username>/{{ project_name }}.git\n"
 "$ cd {{ project_name }}"
-msgstr "$ git clone https://github.com/<your username>/{{ project_name }}.git\n$ cd {{ project_name }}"
+msgstr ""
+"$ git clone https://github.com/<your username>/{{ project_name }}.git\n"
+"$ cd {{ project_name }}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:93 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:108 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:121
 msgid "(substituting your GitHub username)"
@@ -476,7 +490,9 @@ msgstr "(nahraďte svým uživatelským jménem na GitHubu)"
 msgid ""
 "C:\\...>git clone https://github.com/<your username>/{{ project_name }}.git\n"
 "C:\\...>cd {{ project_name }}"
-msgstr "C:\\...>git clone https://github.com/<your username>/{{ project_name }}.git\nC:\\...>cd {{ project_name }}"
+msgstr ""
+"C:\\...>git clone https://github.com/<your username>/{{ project_name }}.git\n"
+"C:\\...>cd {{ project_name }}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:127
 msgid "Set an upstream repository"
@@ -494,13 +510,17 @@ msgstr "Budete také potřebovat tagy z `upstream`, aby nástroje jako Toga a Br
 msgid ""
 "$ git remote add upstream https://github.com/beeware/{{ project_name }}.git\n"
 "$ git fetch --tags upstream"
-msgstr "$ git remote add upstream https://github.com/beeware/{{ project_name }}.git\n$ git fetch --tags upstream"
+msgstr ""
+"$ git remote add upstream https://github.com/beeware/{{ project_name }}.git\n"
+"$ git fetch --tags upstream"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:159
 msgid ""
 "C:\\...>git remote add upstream https://github.com/beeware/{{ project_name }}.git\n"
 "C:\\...>git fetch --tags upstream"
-msgstr "C:\\...>git remote add upstream https://github.com/beeware/{{ project_name }}.git\nC:\\...>git fetch --tags upstream"
+msgstr ""
+"C:\\...>git remote add upstream https://github.com/beeware/{{ project_name }}.git\n"
+"C:\\...>git fetch --tags upstream"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:168
 msgid "If you want your fork to include those tags as well, you can push them:"
@@ -527,14 +547,20 @@ msgid ""
 "$ python3 -m venv .venv\n"
 "$ source .venv/bin/activate\n"
 "(.venv) $ python -m pip install -U pip"
-msgstr "$ python3 -m venv .venv\n$ source .venv/bin/activate\n(.venv) $ python -m pip install -U pip"
+msgstr ""
+"$ python3 -m venv .venv\n"
+"$ source .venv/bin/activate\n"
+"(.venv) $ python -m pip install -U pip"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:208
 msgid ""
 "C:\\...>py -3 -m venv .venv\n"
 "C:\\...>.venv\\Scripts\\activate\n"
 "(.venv) $ python -m pip install -U pip"
-msgstr "C:\\...>py -3 -m venv .venv\nC:\\...>.venv\\Scripts\\activate\n(.venv) $ python -m pip install -U pip"
+msgstr ""
+"C:\\...>py -3 -m venv .venv\n"
+"C:\\...>.venv\\Scripts\\activate\n"
+"(.venv) $ python -m pip install -U pip"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:218
 msgid "Your prompt should now have a `(.venv)` prefix in front of it."
@@ -730,7 +756,11 @@ msgid ""
 "<summary>Collapsed content title</summary>\n"
 "Long block of text.\n"
 "</details>"
-msgstr "<details>\n<summary>Název sbaleného obsahu</summary>\nDlouhý textový blok.\n</details>"
+msgstr ""
+"<details>\n"
+"<summary>Název sbaleného obsahu</summary>\n"
+"Dlouhý textový blok.\n"
+"</details>"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/new-issue.md:63
 msgid "Once you've provided as much information as you can, click \"Create\" to submit the report."
