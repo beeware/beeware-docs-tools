@@ -1,18 +1,6 @@
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-01 03:03+0000\n"
-"PO-Revision-Date: 2026-07-18 11:51+0000\n"
-"Last-Translator: Michaela Dušková <duskova.misa@hotmail.com>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/cs/>\n"
-"Language: cs\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Translate Toolkit 3.19.15\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-08-01 03:03+0000\nPO-Revision-Date: 2026-08-02 13:27+0000\nLast-Translator: Michal Várady <miko.vaji@gmail.com>\nLanguage-Team: Czech <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/cs/>\nLanguage: cs\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\nX-Generator: Weblate 2026.8.dev0\n"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:1
 msgid "There may be a little voice inside your head that is telling you that you're not ready; that you need to do one more tutorial; that you aren't ready to be an open source contributor. After all, you're just a beginner. What could you possibly offer a project like BeeWare?"
@@ -2384,19 +2372,16 @@ msgid "{% if not config.extra.website %}"
 msgstr "{% if not config.extra.website %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:5
-#, fuzzy
 msgid "Can I contribute?"
 msgstr "Mohu přispět?"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:7
-#, fuzzy
 msgid "Yes! We have opportunities for folks at every experience level to contribute. Whether this is your first time contributing to open source, or you've been doing it for years, we have something that will work for you."
-msgstr "Ano! Máme příležitosti pro lidi s jakoukoli úrovní zkušeností. Ať už je to vaše první zkušenost s open source, nebo se tomu věnujete už roky, máme pro vás něco, co vám bude vyhovovat."
+msgstr "Ano! Příležitosti přispět máme pro lidi se všemi úrovněmi zkušeností. Ať už do open source přispíváte poprvé, nebo se mu věnujete roky, najdete u nás způsob, který vám bude vyhovovat."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:9
-#, fuzzy
 msgid "Is this your first time contributing to an open source project? We're here to help! We have [advice for first-time contributors]{1} to help with getting past any initial fears and concerns."
-msgstr "Je to poprvé, co přispíváte do open source projektu? Jsme tu, abychom vám pomohli! Máme [rady pro začínající přispěvatele]{1}, které vám pomohou překonat počáteční obavy a obavy."
+msgstr "Přispíváte do open-source projektu poprvé? Jsme tu, abychom pomohli! Máme [rady pro nové přispěvatele]{1}, které pomohou překonat počáteční obavy."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/index.md:13
 #, fuzzy
@@ -2769,9 +2754,8 @@ msgid "If you feel your reviewer is straying from these expectations, and you fe
 msgstr "Pokud máte pocit, že váš recenzent tyto očekávání nesplňuje, a cítíte se pohodlně vznést tuto otázku sami v žádosti o stažení, můžete tak učinit. Pokud se na to necítíte, obraťte se na [BeeWare Code of Conduct Response Team]{1}. Vaši zprávu prověříme a budeme ji dále řešit s vaším recenzentem. Následné kroky budou odrážet nahlášené jednání; menší prohřešek může vést k diskusi, zatímco závažnější porušení může mít vážnější následky."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:30
-#, fuzzy
 msgid "Providing a review"
-msgstr "Poskytnutí recenze"
+msgstr "Provádění kontroly"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/next/pr-review.md:32
 #, fuzzy
@@ -2929,7 +2913,6 @@ msgid "If you feel there is a particularly compelling reason your feature or bug
 msgstr "Pokud máte pocit, že existuje zvlášť pádný důvod, proč by vaše funkce nebo oprava chyby měla být vydána dříve, dejte nám vědět! Můžete přidat komentář do příslušného diskusního vlákna nebo do svého sloučeného požadavku na stažení a sdělit nám, proč si myslíte, že by váš příspěvek měl být vydán rychleji. Jsme otevřeni myšlence upřednostnit vydání, pokud existuje pádný důvod v komunitě, který to vyžaduje."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/policies/ai-policy.md:1 src/beeware_docs_tools/shared_content/en/_shared/contribute/policies/ai-policy.md:5
-#, fuzzy
 msgid "-8<-"
 msgstr "-8<-"
 
