@@ -1,18 +1,6 @@
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-02 13:33+0000\n"
-"PO-Revision-Date: 2026-08-02 13:32+0000\n"
-"Last-Translator: Michal Várady <miko.vaji@gmail.com>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/cs/>\n"
-"Language: cs\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Translate Toolkit 3.19.15\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-08-02 13:33+0000\nPO-Revision-Date: 2026-08-02 13:34+0000\nLast-Translator: Michal Várady <miko.vaji@gmail.com>\nLanguage-Team: Czech <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/cs/>\nLanguage: cs\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\nX-Generator: Weblate 2026.8.dev0\n"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:1
 msgid "There may be a little voice inside your head that is telling you that you're not ready; that you need to do one more tutorial; that you aren't ready to be an open source contributor. After all, you're just a beginner. What could you possibly offer a project like BeeWare?"
@@ -143,26 +131,22 @@ msgid "/// warning | The live preview will build with warnings!"
 msgstr "/// warning | Průběžný náhled se vytvoří s varováními!"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:16
-#, fuzzy
 msgid "The live server is available for iterating on your documentation updates. While you're in the process of updating things, you may introduce a markup issue. Issues considered a `WARNING` will cause a standard build to fail, however, the live server is set up to indicate warnings in the console output, while continuing to build. This allows you to iterate without needing to restart the live preview."
 msgstr "Pro testování aktualizací dokumentace je k dispozici živý server. Během provádění aktualizací může dojít k chybám ve značkování. Chyby označené jako `WARNING` způsobí selhání standardního sestavení, živý server je však nastaven tak, aby v konzole zobrazoval varování a zároveň pokračoval v sestavování. To vám umožňuje provádět iterace, aniž byste museli restartovat živý náhled."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:18
-#, fuzzy
 msgid "A `WARNING` is different from an `ERROR`. If you introduce an issue that is considered an `ERROR`, the live server will fail, and require a restart. It will not start up again until the `ERROR` issue is resolved."
-msgstr "`WARNING` se liší od `ERROR`. Pokud do systému zavedete problém, který je považován za `ERROR`, dojde k selhání produkčního serveru a bude nutné jej restartovat. Server se znovu nespustí, dokud nebude problém `ERROR` vyřešen."
+msgstr "`WARNING` se liší od `ERROR`. Pokud do systému zavedete problém, který je považován za `ERROR`, dojde k selhání živého serveru a bude nutné jej restartovat. Server se znovu nespustí, dokud nebude problém `ERROR` vyřešen."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:22
 msgid "To start the live server:"
 msgstr "Spuštění lokálního vývojového serveru:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:30 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:40
-#, fuzzy
 msgid "(venv) $ tox -e docs-live"
 msgstr "(venv) $ tox -e docs-live"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:48
-#, fuzzy
 msgid "(venv) C:\\...>tox -e docs-live"
 msgstr "(venv) C:\\...>tox -e docs-live"
 
@@ -207,12 +191,10 @@ msgid "To generate a local build:"
 msgstr "Pro vytvoření lokálního buildu:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:86 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:96
-#, fuzzy
 msgid "(venv) $ tox -e docs"
 msgstr "(venv) $ tox -e docs"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:104
-#, fuzzy
 msgid "(venv) C:\\...>tox -e docs"
 msgstr "(venv) C:\\...>tox -e docs"
 
@@ -237,12 +219,10 @@ msgid "To generate a build of all available translations:"
 msgstr "Chcete-li vygenerovat build všech dostupných překladů:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:128 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:138
-#, fuzzy
 msgid "(venv) $ tox -e docs-all"
-msgstr "(sloveso) $ tox -e docs-all"
+msgstr "(venv) $ tox -e docs-all"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:146
-#, fuzzy
 msgid "(venv) C:\\...>tox -e docs-all"
 msgstr "(venv) C:\\...>tox -e docs-all"
 
@@ -255,12 +235,10 @@ msgid "If you find an issue with a single build, you can run that individual bui
 msgstr "Pokud narazíte na problém s jednotlivým buildem, můžete ho spustit samostatně pomocí příkazu `tox -e docs-<languagecode>`. Chcete-li například sestavit pouze francouzskou dokumentaci, spusťte:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:164 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:174
-#, fuzzy
 msgid "(venv) $ tox -e docs-fr"
 msgstr "(venv) $ tox -e docs-fr"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:182
-#, fuzzy
 msgid "(venv) C:\\...>tox -e docs-fr"
 msgstr "(venv) C:\\...>tox -e docs-fr"
 
@@ -277,12 +255,10 @@ msgid "The build process will identify Markdown problems, but {{ formal_name }} 
 msgstr "Proces sestavení identifikuje problémy s Markdownem, ale {{ formal_name }} provádí některé další kontroly stylu a formátování, známé jako „linting“. Chcete-li spustit kontroly lintingu:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:204 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:214
-#, fuzzy
 msgid "(venv) $ tox -e docs-lint"
 msgstr "(venv) $ tox -e docs-lint"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:222
-#, fuzzy
 msgid "(venv) C:\\...>tox -e docs-lint"
 msgstr "(venv) C:\\...>tox -e docs-lint"
 
@@ -403,92 +379,74 @@ msgid "`789.removal.2.md`"
 msgstr "`789.removal.2.md`"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/change-note.md:38
-#, fuzzy
 msgid "For more information about `towncrier` and fragment types see [News Fragments]{1}. You can also see existing examples of news fragments in the `changes` directory of the {{ formal_name }} repository. If this folder is empty, it's likely because {{ formal_name }} has recently published a new release; change note files are deleted and combined to update the [release notes](https://github.com/beeware/{{ project_name }}/releases) with each release. You can look at that file to see the style of comment that is required; you can look at [recently merged PRs](https://github.com/beeware/{{ project_name }}/pulls?q=is%3Apr+is%3Amerged) to see how to format your change notes."
-msgstr "Další informace o typech fragmentů `towncrier` a fragmentů najdete v části [Fragmenty zpráv]{1}. Stávající příklady fragmentů zpráv najdete také v adresáři `changes` repozitáře {{ formal_name }}. Pokud je tato složka prázdná, je to pravděpodobně proto, že {{ formal_name }} nedávno vydalo novou verzi; soubory se změnami jsou smazány a sloučeny, aby se aktualizovaly [poznámky k vydání](https://github.com/beeware/{{ project_name }}/releases) s každým vydáním. V tomto souboru si můžete prohlédnout požadovaný styl komentářů; v [nedávno sloučených PR](https://github.com/beeware/{{ project_name }}/pulls?q=is%3Apr+is%3Amerged) si můžete prohlédnout, jak formátovat poznámky ke změnám."
+msgstr "Další informace o `towncrier` a typech fragmentů najdete v části [Fragmenty zpráv]{1}. Stávající příklady fragmentů zpráv najdete také v adresáři `changes` repozitáře {{ formal_name }}. Pokud je tato složka prázdná, je to pravděpodobně proto, že {{ formal_name }} nedávno vydalo novou verzi; soubory se změnami jsou smazány a sloučeny, aby se aktualizovaly [poznámky k vydání](https://github.com/beeware/{{ project_name }}/releases) s každým vydáním. V tomto souboru si můžete prohlédnout požadovaný styl komentářů; v [nedávno sloučených PR](https://github.com/beeware/{{ project_name }}/pulls?q=is%3Apr+is%3Amerged) si můžete prohlédnout, jak formátovat poznámky ke změnám."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:1
-#, fuzzy
 msgid "Contributing to {{ formal_name }} requires you to set up a development environment."
 msgstr "Příspěvky do {{ formal_name }} vyžadují nastavení vývojového prostředí."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:3
-#, fuzzy
 msgid "Prerequisites { #dev-environment-prereqs }"
 msgstr "Předpoklady { #dev-environment-prereqs }"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:5
-#, fuzzy
 msgid "You'll need to install the following prerequisites."
 msgstr "Budete muset nainstalovat následující předpoklady."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:13 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:34 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:53
-#, fuzzy
 msgid "{{ formal_name }} requires Python {{ min_python_version }}+. You will also need a method for managing virtual environments (such as `venv`)."
 msgstr "{{ formal_name }} vyžaduje Python {{ min_python_version }}+. Budete také potřebovat metodu pro správu virtuálních prostředí (například `venv`)."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:15 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:36 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:55
-#, fuzzy
 msgid "You can verify the version of Python that you have installed by running:"
 msgstr "Verzi nainstalovaného Pythonu můžete ověřit spuštěním:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:17 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:38
-#, fuzzy
 msgid "$ python3 --version"
-msgstr "Python 3.8.10 (výchozí, 20. července 2020, 16:16:00)"
+msgstr "$ python3 --version"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:21 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:42
-#, fuzzy
 msgid "If you have more than one version of Python installed, you may need to replace `python3` with a specific version number (e.g., `python{{ recent_python_version }}`)"
-msgstr "Pokud máte nainstalováno více než jednu verzi Pythonu, možná budete muset nahradit `python3` konkrétním číslem verze (např. `python{{ recent_python_version }}`)"
+msgstr "Pokud máte nainstalováno více verzí Pythonu, možná budete muset nahradit `python3` konkrétním číslem verze (např. `python{{ recent_python_version }}`)"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:23
-#, fuzzy
 msgid "We recommend avoiding recently released version of Python (i.e., versions that have a \".0\" or \".1\" micro version number, like e.g., 3.14.0). This is because the tools needed to support Python on macOS often lag usually aren't available for recently released stable Python versions."
 msgstr "Doporučujeme se vyhnout nedávno vydané verzi Pythonu (tj. verzím, které mají mikroverzi „.0“ nebo „.1“, jako např. 3.14.0). Důvodem je to, že nástroje potřebné pro podporu Pythonu na macOS často zaostávají a obvykle nejsou k dispozici pro nedávno vydané stabilní verze Pythonu."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:25
-#, fuzzy
 msgid "{% block prerequisites_macos %} {% endblock %}"
 msgstr "{% block prerequisites_macos %} {% endblock %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:44
-#, fuzzy
 msgid "We recommend avoiding recently released version of Python (i.e., versions that have a \".0\" or \".1\" micro version number, like e.g., 3.14.0). This is because the tools needed to support Python on Linux often lag usually aren't available for recently released stable Python versions."
 msgstr "Doporučujeme se vyhnout nedávno vydané verzi Pythonu (tj. verzím, které mají mikroverzi „.0“ nebo „.1“, jako např. 3.14.0). Důvodem je to, že nástroje potřebné pro podporu Pythonu v systému Linux často zaostávají a obvykle nejsou k dispozici pro nedávno vydané stabilní verze Pythonu."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:46
-#, fuzzy
 msgid "{% block prerequisites_linux %} {% endblock %}"
 msgstr "{% block prerequisites_linux %} {% endblock %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:57
-#, fuzzy
 msgid "C:\\...>py -3 --version"
 msgstr "C:\\...>py -3 --version"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:61
-#, fuzzy
 msgid "If you have more than one version of Python installed, you may need to replace the `-3` with a specific version number (e.g., `-python{{ recent_python_version }}`)"
-msgstr "Pokud máte nainstalováno více než jednu verzi Pythonu, možná budete muset nahradit `-3` konkrétním číslem verze (např. `-python{{ recent_python_version }}`)"
+msgstr "Pokud máte nainstalováno více verzí Pythonu, možná budete muset nahradit `-3` konkrétním číslem verze (např. `-python{{ recent_python_version }}`)"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:63
-#, fuzzy
 msgid "We recommend avoiding recently released version of Python (i.e., versions that have a \".0\" or \".1\" micro version number, like e.g., 3.14.0). This is because the tools needed to support Python on Windows often lag usually aren't available for recently released stable Python versions."
 msgstr "Doporučujeme se vyhnout nedávno vydané verzi Pythonu (tj. verzím, které mají mikroverzi „.0“ nebo „.1“, jako např. 3.14.0). Důvodem je to, že nástroje potřebné pro podporu Pythonu ve Windows často zaostávají a obvykle nejsou k dispozici pro nedávno vydané stabilní verze Pythonu."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:65
-#, fuzzy
 msgid "{% block prerequisites_windows %} {% endblock %}"
 msgstr "{% block prerequisites_windows %} {% endblock %}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:72
-#, fuzzy
 msgid "Set up your development environment { #dev-environment-set-up }"
 msgstr "Nastavte si vývojové prostředí { #dev-environment-set-up }"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/dev-environment.md:74
-#, fuzzy
 msgid "The recommended way of setting up your development environment for {{ formal_name }} is to use a [virtual environment]{1}, and then install the development version of {{ formal_name }} and its dependencies."
 msgstr "Doporučeným způsobem nastavení vývojového prostředí pro {{ formal_name }} je použití [virtuálního prostředí]{1}, a následná instalace vývojové verze {{ formal_name }} a jejích závislostí."
 
