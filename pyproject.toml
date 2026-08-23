@@ -24,7 +24,7 @@ maintainers = [
 
 dependencies = [
     "click==8.4.0",
-    "deepl==1.30.0",
+    "deepl==1.32.0",
     "markdown-checker==1.2.2",
     "mistletoe==1.6.0",
     "mkdocs-autorefs==1.4.4",
@@ -33,13 +33,13 @@ dependencies = [
     "mkdocs-material==9.7.7",
     "mkdocs-rss-plugin==1.19.0",
     "mkdocs==1.6.1",  # DO NOT UPGRADE - 2+ is not compatible with anything here
-    "mkdocstrings-python==2.0.5",
+    "mkdocstrings-python==2.0.6",
     "pymdown-extensions==11.0.1",
     "pyspelling==2.12.1",
     "python-Levenshtein==0.27.4",
     "PyYAML==6.0.3",
     "polib==1.2.0",
-    "ruff==0.16.2",
+    "ruff==0.16.3",
     "setuptools_scm==10.2.1",
     "translate-toolkit==3.19.17",
 ]
@@ -48,7 +48,7 @@ dependencies = [
 # Extras used by developers *of* beeware-docs-tools are pinned to specific versions to
 # ensure environment consistency.
 pre-commit = [
-    "pre-commit == 4.6.1",
+    "pre-commit == 4.6.2",
 ]
 
 tox-uv = [
