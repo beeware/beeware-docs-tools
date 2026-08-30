@@ -1,3 +1,4 @@
+import os
 import shutil
 import subprocess
 from argparse import ArgumentParser, Namespace
@@ -93,7 +94,23 @@ def build_docs(config_file: Path, output_path: Path, build_with_warnings: bool) 
     if not build_with_warnings:
         build_command.append("--strict")
 
-    subprocess.run(build_command, check=True)
+    env = os.environ.copy()
+    if env.get("READTHEDOCS") == "True" and not env.get("READTHEDOCS_CANONICAL_URL"):
+        # READTHEDOCS_CANONICAL_URL is only populated for the version marked
+        # canonical in the Read the Docs project settings, so it's often empty
+        # for "latest" or PR-preview builds. Without it, `mkdocs`'s `site_url`
+        # is unset, and it can't generate correct absolute asset links for
+        # generated error pages (e.g. 404.html), which are served for any
+        # missing URL regardless of its depth in the site.
+        project = env.get("READTHEDOCS_PROJECT")
+        version = env.get("READTHEDOCS_VERSION")
+        language = env.get("READTHEDOCS_LANGUAGE", "en")
+        if project and version:
+            env["READTHEDOCS_CANONICAL_URL"] = (
+                f"https://{project}.readthedocs.io/{language}/{version}/"
+            )
+
+    subprocess.run(build_command, check=True, env=env)
 
 
 def main():
