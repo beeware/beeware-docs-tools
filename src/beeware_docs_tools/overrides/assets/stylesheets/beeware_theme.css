@@ -304,13 +304,6 @@ a.md-nav__link[for]:hover {
     color: unset;
 }
 
-/* Wrap long navigation/section titles instead of truncating them with an ellipsis */
-.md-nav__link .md-ellipsis {
-    overflow: unset;
-    text-overflow: unset;
-    white-space: unset;
-}
-
 .md-select:focus-within .md-select__inner,
 .md-select:hover .md-select__inner {
     max-height: none;
