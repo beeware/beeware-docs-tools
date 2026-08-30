@@ -7,6 +7,11 @@ class DocsTest:
         :param kwargs: keyword arguments
         """
 
+    @staticmethod
+    def obnoxiously_long_attribute() -> str:
+        """Test how longer names in API docs render."""
+        return "Super long attribute"
+
     @property
     def attribute(self) -> int:
         """This is a test attribute."""
