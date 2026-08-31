@@ -651,3 +651,20 @@ footer.md-footer *, html .md-footer-meta.md-typeset a  {
 details.abstract h1 {
     display: none;
 }
+
+/* Have the language selector flow over multiple columns */
+header.md-header .md-header__option .md-select__list,
+.beeware-header .md-select__list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(120px, 1fr));
+  width: max-content;
+  max-width: 90vw;
+  gap: 0.25rem 0.75rem;
+  padding: 0.5rem;
+}
+
+/* Ensure language labels stay on a single line */
+header.md-header .md-select__item,
+.beeware-header .md-select__item {
+  white-space: nowrap;
+}
