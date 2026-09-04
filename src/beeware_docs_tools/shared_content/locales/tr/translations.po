@@ -1,46 +1,30 @@
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-31 01:16+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.19.18\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-08-31 01:16+0000\nPO-Revision-Date: 2026-09-05 02:51+0000\nLast-Translator: yldzyagz <yldzyagz@icloud.com>\nLanguage-Team: Turkish <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/tr/>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Generator: Weblate 2026.9.1.dev0\nLanguage: tr\nPlural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:1
-#, fuzzy
 msgid "There may be a little voice inside your head that is telling you that you're not ready; that you need to do one more tutorial; that you aren't ready to be an open source contributor. After all, you're just a beginner. What could you possibly offer a project like BeeWare?"
-msgstr "Kafanızın içinde, hazır olmadığınızı, bir ders daha almanız gerektiğini, açık kaynak katkısı yapmaya hazır olmadığınızı söyleyen küçük bir ses olabilir. Sonuçta, siz sadece bir acemisiniz. BeeWare gibi bir projeye ne sunabilirsiniz ki?"
+msgstr "Kafanızın içinde küçük bir ses size hazır olmadığınızı söylüyor olabilir; bir eğitim daha izlemeniz gerektiğini, açık kaynak katkıcısı olmaya henüz hazır olmadığınızı. Sonuçta siz daha yeni başlıyorsunuz. BeeWare gibi bir projeye ne sunabilirsiniz ki?"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:3
-#, fuzzy
 msgid "I assure you - the little voice in your head is wrong. You can contribute code to open source, and to BeeWare."
-msgstr "Sizi temin ederim ki, kafanızdaki o küçük ses yanılıyor. Açık kaynak kodlara ve BeeWare'e kod katkısında bulunabilirsiniz."
+msgstr "Sizi temin ederim ki, kafanızın içindeki o küçük ses yanılıyor. Açık kaynak kodlara ve BeeWare'e kod katkısında bulunabilirsiniz."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:5
-#, fuzzy
 msgid "Impostor syndrome"
-msgstr "Sahtekar sendromu"
+msgstr "Sahtekarlık sendromu"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:7
-#, fuzzy
 msgid "You're not the first person to have those thoughts, either. Even the members of the core team of this project have these thoughts from time to time. It's called \"impostor syndrome\", and it's a really common problem. The good news is - we're here to help you get over it."
-msgstr "Bu düşünceleri olan ilk kişi de siz değilsiniz. Bu projenin çekirdek ekibinin üyeleri bile zaman zaman bu düşüncelere kapılırlar. Buna \"sahtekar sendromu\" denir ve çok yaygın bir sorundur. İyi haber ise, bu sorunu aşmanıza yardımcı olmak için buradayız."
+msgstr "Bu düşünceleri yaşayan tek kişi de siz değilsiniz. Bu projenin çekirdek ekibindeki üyeler bile zaman zaman bu düşüncelere kapılıyor. Buna \"sahtekarlık sendromu\" deniyor ve gerçekten yaygın bir sorun. İyi haber şu ki bunu aşmanıza yardımcı olmak için buradayız."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:9
-#, fuzzy
 msgid "This tutorial exists to make sure you know exactly what process you have to follow in order to make a contribution to BeeWare. In addition to these procedural instructions, this project has a Code of Conduct. This Code of Conduct is there to give you confidence that no matter what mistakes you make, you'll be treated with respect. Everyone makes mistakes - that's a natural part of learning. Our pledge to you is that we are here to help you learn, not to insult or belittle you for learning."
-msgstr "Bu eğitim, BeeWare'e katkıda bulunmak için tam olarak hangi süreci izlemeniz gerektiğini bilmenizi sağlamak amacıyla hazırlanmıştır. Bu prosedür talimatlarına ek olarak, bu projenin bir Davranış Kuralları da bulunmaktadır. Davranış Kuralları, ne tür hatalar yaparsanız yapın, size saygılı davranılacağına dair güven vermek amacıyla hazırlanmıştır. Herkes hata yapar - bu, öğrenmenin doğal bir parçasıdır. Size verdiğimiz söz, öğrenmenize yardımcı olmak için burada olduğumuzdur, öğrenmenizi aşağılamak veya küçümsemek için değil."
+msgstr "Bu eğitim, BeeWare'e katkı sağlamak için izlemeniz gereken süreci tam olarak bilmenizi sağlamak amacıyla hazırlanmıştır. Bu prosedürel talimatlara ek olarak, bu projenin bir Davranış Kuralları da bulunmaktadır. Bu Davranış Kuralları, hangi hatayı yaparsanız yapın saygıyla karşılanacağınıza dair size güven vermek amacıyla oluşturulmuştur. Herkes hata yapar; bu, öğrenmenin doğal bir parçasıdır. Size verdiğimiz söz şudur: öğrenmenize yardımcı olmak için buradayız, öğrenirken sizi aşağılamak veya küçümsemek için değil."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:11
-#, fuzzy
 msgid "You can't do any damage, either - either to your own computer, or to the project as a whole. BeeWare projects don't touch any part of your computer or operating system that could do any serious damage. Worst case, you'll end up with a couple of extra files on your hard drive, which can be easily deleted afterwards. And every contribution you submit to BeeWare is reviewed before it is integrated into the \"official\" project, and you'll get feedback to help you correct any problems that may exist."
-msgstr "Ne kendi bilgisayarınıza ne de projeye herhangi bir zarar verebilirsiniz. BeeWare projeleri, bilgisayarınızın veya işletim sisteminizin ciddi hasara yol açabilecek hiçbir bölümüne dokunmaz. En kötü durumda, sabit diskinizde birkaç ekstra dosya kalır, ancak bunlar daha sonra kolayca silinebilir. BeeWare'e gönderdiğiniz her katkı, \"resmi\" projeye entegre edilmeden önce incelenir ve olası sorunları düzeltmenize yardımcı olacak geri bildirim alırsınız."
+msgstr "Ne kendi bilgisayarınıza ne de projenin bütününe herhangi bir zarar veremezsiniz. BeeWare projeleri, bilgisayarınızın veya işletim sisteminizin ciddi bir zarara yol açabilecek herhangi bir kısmına dokunmamaktadır. En kötü ihtimalle, sabit diskinizde daha sonra kolayca silinebilecek birkaç ek dosya kalır. Ayrıca BeeWare'e gönderdiğiniz her katkı, \"resmi\" projeye entegre edilmeden önce incelenmekte olup, olası sorunları düzeltmenize yardımcı olacak geri bildirim alırsınız."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:13
 #, fuzzy
