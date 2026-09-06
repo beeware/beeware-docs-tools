@@ -34,11 +34,15 @@ def function_name(param1: int, param2: str) -> bool:
 
 When a function call with more than one argument cannot fit on a single line, place each argument on its own line with a trailing comma on the last argument. Ruff permits (and will suggest) a format of multiple arguments on one wrapped line:
 
+<!-- fmt:off -->
+
 ```py
 my_function(
     arg1, arg2, arg3
 )
 ```
+
+<!-- fmt:on -->
 
 This style should not be used. Instead, spread arguments to one per line by adding a trailing comma on the last argument:
 
@@ -53,6 +57,8 @@ my_function(
 #### Splitting long strings { #split-long-strings }
 
 When a string argument must be split across lines to satisfy line length requirements, wrap the concatenated string literals in parentheses so it is clear the string is a single argument. That is, we prefer:
+
+<!-- fmt:off -->
 
 ```py
 my_function(
@@ -73,6 +79,8 @@ my_function(
     second_argument,
 )
 ```
+
+<!-- fmt:on -->
 
 ### Things to avoid
 
