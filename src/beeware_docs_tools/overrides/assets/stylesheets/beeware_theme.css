@@ -687,6 +687,13 @@ header.md-header .md-select__item,
   white-space: nowrap;
 }
 
+/* Only on mobile, fix offset of little triangle thingy */
+@media screen and (max-width: 60rem) {
+    .md-header__option .md-select__inner::after {
+        left: 11rem
+    }
+}
+
 /* Only on desktop, three columns, no offset. */
 @media screen and (min-width: 60rem) {
   header.md-header .md-header__option .md-select__list,
