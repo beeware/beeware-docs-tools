@@ -25,7 +25,7 @@ matrix:
       - pymdownx.blocks.caption
       - pymdownx.blocks.tab
   - pyspelling.filters.html:
-      comments: false
+      comments: true
       attributes:
         - title
         - alt
@@ -61,9 +61,7 @@ matrix:
         - open: '-8<\-\n'
           content: '[\d\D]*'
           close: '-8<-\n'
-        # Ignore Ruff's Markdown formatter suppression comments, e.g.
-        # `<!-- fmt:off -->` / `<!-- fmt:on -->` (used to stop `ruff format`
-        # from rewriting intentionally "bad" example code in docs).
+        # Ignore Ruff's Markdown formatter suppression comments
         - open: 'fmt:(?:off|on)'
           content: ''
           close: ''
