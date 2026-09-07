@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-05 02:52+0000\n"
+"POT-Creation-Date: 2026-09-07 02:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3058,7 +3058,7 @@ msgstr "تقسيم استدعاءات الدوال الطويلة { #split-long-
 msgid "When a function call with more than one argument cannot fit on a single line, place each argument on its own line with a trailing comma on the last argument. Ruff permits (and will suggest) a format of multiple arguments on one wrapped line:"
 msgstr "عندما لا يتسع استدعاء دالة تحتوي على أكثر من وسيطة واحدة في سطر واحد، ضع كل وسيطة في سطر منفصل مع وضع فاصلة في نهاية الويسيطة الأخيرة. يسمح Ruff (بل ويقترح) بتنسيق يضم عدة وسيطات في سطر واحد مع إعادة الأسطر:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:37
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:39
 #, fuzzy
 msgid ""
 "my_function(\n"
@@ -3069,12 +3069,12 @@ msgstr ""
 "    arg1, arg2, arg3\n"
 ")"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:43
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:47
 #, fuzzy
 msgid "This style should not be used. Instead, spread arguments to one per line by adding a trailing comma on the last argument:"
 msgstr "لا ينبغي استخدام هذا الأسلوب. بدلاً من ذلك، قم بتوزيع الحجج بحيث يكون كل حجة في سطر واحد عن طريق إضافة فاصلة في نهاية الحجة الأخيرة:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:45
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:49
 #, fuzzy
 msgid ""
 "my_function(\n"
@@ -3089,17 +3089,17 @@ msgstr ""
 "    arg3,\n"
 ")"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:53
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:57
 #, fuzzy
 msgid "Splitting long strings { #split-long-strings }"
 msgstr "تقسيم السلاسل الطويلة { #split-long-strings }"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:55
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:59
 #, fuzzy
 msgid "When a string argument must be split across lines to satisfy line length requirements, wrap the concatenated string literals in parentheses so it is clear the string is a single argument. That is, we prefer:"
 msgstr "عندما يتعين تقسيم حجة سلسلة عبر أسطر متعددة لتلبية متطلبات طول السطر، ضع القيم الثابتة للسلسلة المجمعة بين قوسين حتى يتضح أن السلسلة تمثل حجة واحدة. أي أننا نفضل:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:57
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:63
 #, fuzzy
 msgid ""
 "my_function(\n"
@@ -3118,12 +3118,12 @@ msgstr ""
 "    second_argument,\n"
 ")"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:67
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:73
 #, fuzzy
 msgid "over:"
 msgstr "فوق:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:69
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:75
 #, fuzzy
 msgid ""
 "my_function(\n"
@@ -3138,37 +3138,37 @@ msgstr ""
 "    second_argument,\n"
 ")"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:77
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:85
 #, fuzzy
 msgid "Things to avoid"
 msgstr "الأمور التي يجب تجنبها"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:79
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:87
 #, fuzzy
 msgid "We try to avoid `utils` modules as much as possible, with the understanding that sometimes they are unavoidable. The preferred alternative is to find somewhere for the feature elsewhere in the source code, instead of using a `utils` module."
 msgstr "نحاول تجنب وحدات `utils` قدر الإمكان، مع إدراك أن استخدامها قد يكون ضروريًا في بعض الأحيان. البديل المفضل هو البحث عن مكان آخر لهذه الميزة في شفرة المصدر، بدلاً من استخدام وحدة `utils`."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:81
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:89
 #, fuzzy
 msgid "As a general rule, we try to avoid or defer any expensive initialization code, in order to achieve faster app startup. For instance, modules in the toga-core package are \"lazy loaded\" — they're only imported once requested, rather than all up front. This speeds up startup, and only spends time on what the app is actually using."
 msgstr "كقاعدة عامة، نحاول تجنب أو تأجيل أي كود تهيئة مكلف، من أجل تحقيق بدء تشغيل أسرع للتطبيق. على سبيل المثال، يتم \"تحميل\" الوحدات النمطية في حزمة toga-core بشكل \"متأخر\" — حيث يتم استيرادها فقط عند الطلب، بدلاً من استيرادها مسبقًا. يؤدي ذلك إلى تسريع بدء التشغيل، ولا يستغرق وقتًا سوى ما يستخدمه التطبيق فعليًا."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:83
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:91
 #, fuzzy
 msgid "When writing comments, avoid the use of first-person plural pronouns such as \"we\" (for example, write \"Loop over\" instead of \"We loop over\")."
 msgstr "عند كتابة التعليقات، تجنب استخدام ضمائر الجمع في صيغة المتكلم مثل \"نحن\" (على سبيل المثال، اكتب \"قم بالتكرار\" بدلاً من \"نحن نقوم بالتكرار\")."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:85
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:93
 #, fuzzy
 msgid "In test docstrings, state the expected behavior that each test demonstrates. Don't include preambles such as \"Tests that\" or \"Ensures that\"."
 msgstr "في سلاسل توضيح الاختبارات، اذكر السلوك المتوقع الذي يثبتها كل اختبار. تجنب استخدام عبارات تمهيدية مثل \"يختبر أن\" أو \"يضمن أن\"."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:87
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:95
 #, fuzzy
 msgid "Reserve ticket references for obscure issues where the ticket has additional details that can't be easily described in docstrings or comments. Include the ticket number at the end of a sentence like this:"
 msgstr "احتفظ بأرقام التذاكر الخاصة بالمشكلات الغامضة التي تحتوي على تفاصيل إضافية لا يمكن وصفها بسهولة في سلاسل الوثائق أو التعليقات. أدرج رقم التذكرة في نهاية جملة على النحو التالي:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:89
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:97
 #, fuzzy
 msgid ""
 "def test_foo():\n"

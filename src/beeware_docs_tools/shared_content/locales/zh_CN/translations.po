@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-05 02:52+0000\n"
+"POT-Creation-Date: 2026-09-07 02:54+0000\n"
 "PO-Revision-Date: 2026-07-15 07:01+0000\n"
 "Last-Translator: reducedradius <137701630+flytothehighest@users.noreply.github.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/zh_Hans/>\n"
@@ -2916,7 +2916,7 @@ msgstr "拆分冗长的函数调用 { #split-long-function-calls }"
 msgid "When a function call with more than one argument cannot fit on a single line, place each argument on its own line with a trailing comma on the last argument. Ruff permits (and will suggest) a format of multiple arguments on one wrapped line:"
 msgstr "当包含多个参数的函数调用无法在一行内写完时，应将每个参数单独放在一行，并在最后一个参数后加逗号。Ruff 允许（并会建议）将多个参数放在同一行（换行）的格式："
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:37
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:39
 #, fuzzy
 msgid ""
 "my_function(\n"
@@ -2927,12 +2927,12 @@ msgstr ""
 "    arg1, arg2, arg3\n"
 ")"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:43
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:47
 #, fuzzy
 msgid "This style should not be used. Instead, spread arguments to one per line by adding a trailing comma on the last argument:"
 msgstr "不应使用这种写法。相反，应在最后一个参数后添加一个尾逗号，将参数分列在每行："
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:45
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:49
 #, fuzzy
 msgid ""
 "my_function(\n"
@@ -2947,17 +2947,17 @@ msgstr ""
 "    arg3,\n"
 ")"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:53
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:57
 #, fuzzy
 msgid "Splitting long strings { #split-long-strings }"
 msgstr "拆分长字符串 { #split-long-strings }"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:55
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:59
 #, fuzzy
 msgid "When a string argument must be split across lines to satisfy line length requirements, wrap the concatenated string literals in parentheses so it is clear the string is a single argument. That is, we prefer:"
 msgstr "当字符串参数必须拆分为多行以满足行长限制时，请将拼接后的字符串字面量用圆括号括起来，以便明确该字符串是一个单一参数。也就是说，我们建议采用以下写法："
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:57
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:63
 #, fuzzy
 msgid ""
 "my_function(\n"
@@ -2976,12 +2976,12 @@ msgstr ""
 "    second_argument,\n"
 ")"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:67
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:73
 #, fuzzy
 msgid "over:"
 msgstr "译为："
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:69
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:75
 #, fuzzy
 msgid ""
 "my_function(\n"
@@ -2996,37 +2996,37 @@ msgstr ""
 "    second_argument,\n"
 ")"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:77
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:85
 #, fuzzy
 msgid "Things to avoid"
 msgstr "应避免的事项"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:79
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:87
 #, fuzzy
 msgid "We try to avoid `utils` modules as much as possible, with the understanding that sometimes they are unavoidable. The preferred alternative is to find somewhere for the feature elsewhere in the source code, instead of using a `utils` module."
 msgstr "我们尽量避免使用 `utils` 模块，但也知道有时它们是不可避免的。首选的替代方法是在源代码的其他地方为该功能找到合适的位置，而不是使用 `utils` 模块。"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:81
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:89
 #, fuzzy
 msgid "As a general rule, we try to avoid or defer any expensive initialization code, in order to achieve faster app startup. For instance, modules in the toga-core package are \"lazy loaded\" — they're only imported once requested, rather than all up front. This speeds up startup, and only spends time on what the app is actually using."
 msgstr "通常情况下，我们尽量避免或延迟执行任何耗时的初始化代码，以实现更快的应用启动速度。例如，toga-core包中的模块采用\"延迟加载\"机制——它们仅在被请求时才被导入，而非预先全部加载。这种方式既能加速启动过程，又能确保资源仅消耗在应用实际使用的功能上。"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:83
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:91
 #, fuzzy
 msgid "When writing comments, avoid the use of first-person plural pronouns such as \"we\" (for example, write \"Loop over\" instead of \"We loop over\")."
 msgstr "在编写注释时，请避免使用第一人称复数代词，例如“我们”（例如，应写“遍历”而非“我们遍历”）。"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:85
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:93
 #, fuzzy
 msgid "In test docstrings, state the expected behavior that each test demonstrates. Don't include preambles such as \"Tests that\" or \"Ensures that\"."
 msgstr "在测试文档字符串中，请说明每个测试所验证的预期行为。请勿包含诸如“测试是否”或“确保”之类的引言。"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:87
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:95
 #, fuzzy
 msgid "Reserve ticket references for obscure issues where the ticket has additional details that can't be easily described in docstrings or comments. Include the ticket number at the end of a sentence like this:"
 msgstr "对于那些涉及冷门问题的工单，如果工单中包含无法在文档字符串或注释中轻松描述的额外细节，请保留工单参考信息。请在句尾添加工单编号，例如："
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:89
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:97
 #, fuzzy
 msgid ""
 "def test_foo():\n"

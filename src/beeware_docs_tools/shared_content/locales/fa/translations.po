@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-05 02:52+0000\n"
+"POT-Creation-Date: 2026-09-07 02:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3054,7 +3054,7 @@ msgstr "تفکیک فراخوانی‌های طولانی تابع { #split-long
 msgid "When a function call with more than one argument cannot fit on a single line, place each argument on its own line with a trailing comma on the last argument. Ruff permits (and will suggest) a format of multiple arguments on one wrapped line:"
 msgstr "وقتی فراخوانی یک تابع با بیش از یک آرگومان در یک خط جا نمی‌شود، هر آرگومان را در یک خط جداگانه قرار دهید و برای آخرین آرگومان یک ویرگول انتهایی بگذارید. Ruff اجازه می‌دهد (و پیشنهاد می‌کند) قالب آرگومان‌های چندگانه در یک خط پیچ‌خورده:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:37
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:39
 #, fuzzy
 msgid ""
 "my_function(\n"
@@ -3065,12 +3065,12 @@ msgstr ""
 "    arg1, arg2, arg3\n"
 ")"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:43
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:47
 #, fuzzy
 msgid "This style should not be used. Instead, spread arguments to one per line by adding a trailing comma on the last argument:"
 msgstr "از این سبک نباید استفاده شود. در عوض، با افزودن یک ویرگول انتهایی به آخرین آرگومان، آرگومان‌ها را به‌صورت یک آرگومان در هر خط جدا کنید:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:45
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:49
 #, fuzzy
 msgid ""
 "my_function(\n"
@@ -3085,17 +3085,17 @@ msgstr ""
 "    arg3,\n"
 ")"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:53
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:57
 #, fuzzy
 msgid "Splitting long strings { #split-long-strings }"
 msgstr "تقسیم رشته‌های طولانی { #split-long-strings }"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:55
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:59
 #, fuzzy
 msgid "When a string argument must be split across lines to satisfy line length requirements, wrap the concatenated string literals in parentheses so it is clear the string is a single argument. That is, we prefer:"
 msgstr "وقتی یک آرگومان رشته‌ای باید برای رعایت محدودیت طول خط به چند خط تقسیم شود، رشته‌های متنی متصل‌شده را در پرانتز قرار دهید تا واضح باشد که این رشته یک آرگومان واحد است. یعنی ترجیح می‌دهیم:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:57
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:63
 #, fuzzy
 msgid ""
 "my_function(\n"
@@ -3114,12 +3114,12 @@ msgstr ""
 "    second_argument,\n"
 ")"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:67
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:73
 #, fuzzy
 msgid "over:"
 msgstr "ترجمه‌شده به:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:69
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:75
 #, fuzzy
 msgid ""
 "my_function(\n"
@@ -3134,37 +3134,37 @@ msgstr ""
 "    second_argument,\n"
 ")"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:77
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:85
 #, fuzzy
 msgid "Things to avoid"
 msgstr "موارد اجتناب‌پذیر"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:79
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:87
 #, fuzzy
 msgid "We try to avoid `utils` modules as much as possible, with the understanding that sometimes they are unavoidable. The preferred alternative is to find somewhere for the feature elsewhere in the source code, instead of using a `utils` module."
 msgstr "ما سعی می‌کنیم تا حد امکان از ماژول‌های `utils` اجتناب کنیم، با این درک که گاهی اوقات اجتناب‌ناپذیرند.  گزینهٔ ترجیحی این است که به جای استفاده از ماژول `utils`، ویژگی را در جای دیگری از کد منبع بیابیم."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:81
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:89
 #, fuzzy
 msgid "As a general rule, we try to avoid or defer any expensive initialization code, in order to achieve faster app startup. For instance, modules in the toga-core package are \"lazy loaded\" — they're only imported once requested, rather than all up front. This speeds up startup, and only spends time on what the app is actually using."
 msgstr "به‌طور کلی، ما سعی می‌کنیم هرگونه کد инициализация پرهزینه را حذف یا به تعویق بیندازیم تا راه‌اندازی برنامه سریع‌تر انجام شود. برای مثال، ماژول‌های بسته toga-core به‌صورت تنبلانه بارگذاری می‌شوند — آن‌ها تنها زمانی وارد می‌شوند که درخواست شوند، نه همه در ابتدا. این کار راه‌اندازی را تسریع می‌کند و تنها زمانی صرف آنچه برنامه واقعاً استفاده می‌کند، می‌شود."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:83
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:91
 #, fuzzy
 msgid "When writing comments, avoid the use of first-person plural pronouns such as \"we\" (for example, write \"Loop over\" instead of \"We loop over\")."
 msgstr "هنگام نوشتن نظرات، از استفاده از ضمایر جمع اول شخص مانند «ما» خودداری کنید (برای مثال، به جای «We loop over» بنویسید «Loop over»)."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:85
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:93
 #, fuzzy
 msgid "In test docstrings, state the expected behavior that each test demonstrates. Don't include preambles such as \"Tests that\" or \"Ensures that\"."
 msgstr "در مستندات تست، رفتار مورد انتظار را که هر تست نشان می‌دهد بیان کنید. از مقدماتی مانند «تست می‌کند» یا «تضمین می‌کند» استفاده نکنید."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:87
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:95
 #, fuzzy
 msgid "Reserve ticket references for obscure issues where the ticket has additional details that can't be easily described in docstrings or comments. Include the ticket number at the end of a sentence like this:"
 msgstr "ارجاعات تیکت رزرو را برای مسائل مبهم که تیکت دارای جزئیات اضافی است و نمی‌توان آن‌ها را به‌سادگی در مستندات یا توضیحات توصیف کرد، درج کنید. شماره تیکت را در انتهای جمله‌ای مانند این قرار دهید:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:89
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:97
 #, fuzzy
 msgid ""
 "def test_foo():\n"

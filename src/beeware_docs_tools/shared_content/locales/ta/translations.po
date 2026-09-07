@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-05 02:52+0000\n"
+"POT-Creation-Date: 2026-09-07 02:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3054,7 +3054,7 @@ msgstr "நீண்ட செயல்பாட்டு அழைப்பு�
 msgid "When a function call with more than one argument cannot fit on a single line, place each argument on its own line with a trailing comma on the last argument. Ruff permits (and will suggest) a format of multiple arguments on one wrapped line:"
 msgstr "ஒன்றுக்கு மேற்பட்ட வாதங்களைக் கொண்ட ஒரு செயல்பாட்டு அழைப்பு ஒரே வரியில் பொருந்தாதபோது, ஒவ்வொரு வாதத்தையும் அதன் சொந்த வரியில் வைக்கவும், கடைசி வாதத்தில் ஒரு இறுதி கோமா இடவும். Ruff பல வாதங்களை ஒரே சுருட்டப்பட்ட வரியில் வைக்கும் வடிவத்தை அனுமதிக்கிறது (மற்றும் பரிந்துரைக்கும்):"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:37
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:39
 #, fuzzy
 msgid ""
 "my_function(\n"
@@ -3065,12 +3065,12 @@ msgstr ""
 "    arg1, arg2, arg3\n"
 ")"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:43
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:47
 #, fuzzy
 msgid "This style should not be used. Instead, spread arguments to one per line by adding a trailing comma on the last argument:"
 msgstr "இந்த பாணியைப் பயன்படுத்தக் கூடாது. அதற்கு பதிலாக, கடைசி வாதத்தில் ஒரு பின்புற கோமா (trailing comma) சேர்த்து, ஒவ்வொரு வாதத்தையும் ஒரு வரியில் பிரிக்கவும்:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:45
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:49
 #, fuzzy
 msgid ""
 "my_function(\n"
@@ -3085,17 +3085,17 @@ msgstr ""
 "    arg3,\n"
 ")"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:53
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:57
 #, fuzzy
 msgid "Splitting long strings { #split-long-strings }"
 msgstr "நீண்ட சரங்களைப் பிரிப்பது { #split-long-strings }"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:55
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:59
 #, fuzzy
 msgid "When a string argument must be split across lines to satisfy line length requirements, wrap the concatenated string literals in parentheses so it is clear the string is a single argument. That is, we prefer:"
 msgstr "ஒரு சர வாதம் (string argument) வரி நீளத் தேவைகளைப் பூர்த்தி செய்ய வரிகளில் பிரிக்கப்பட வேண்டியிருக்கும்போது, அந்தச் சரங்கள் ஒற்றை வாதம் என்பதைத் தெளிவுபடுத்த, இணைக்கப்பட்ட சர மாறிகளைக் (concatenated string literals) கோட்டைக்குறிக்குள் (parentheses) வைக்கவும். அதாவது, நாங்கள் இதை விரும்புகிறோம்:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:57
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:63
 #, fuzzy
 msgid ""
 "my_function(\n"
@@ -3114,12 +3114,12 @@ msgstr ""
 "    second_argument,\n"
 ")"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:67
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:73
 #, fuzzy
 msgid "over:"
 msgstr "மேலே:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:69
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:75
 #, fuzzy
 msgid ""
 "my_function(\n"
@@ -3133,37 +3133,37 @@ msgstr ""
 "    second_argument,\n"
 ")"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:77
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:85
 #, fuzzy
 msgid "Things to avoid"
 msgstr "தவிர்க்க வேண்டியவை"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:79
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:87
 #, fuzzy
 msgid "We try to avoid `utils` modules as much as possible, with the understanding that sometimes they are unavoidable. The preferred alternative is to find somewhere for the feature elsewhere in the source code, instead of using a `utils` module."
 msgstr "`utils` மாட்யூல்களை முடிந்தவரை தவிர்க்க முயற்சிக்கிறோம், சில சமயங்களில் அவற்றைத் தவிர்ப்பது சாத்தியமற்றது என்பதைப் புரிந்துகொண்டு. விரும்பப்படும் மாற்று வழி, ஒரு `utils` மாட்யூலைப் பயன்படுத்துவதற்குப் பதிலாக, மூலக் குறியீட்டில் வேறு எங்காவது அந்த அம்சத்தைக் கண்டறிவதாகும்."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:81
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:89
 #, fuzzy
 msgid "As a general rule, we try to avoid or defer any expensive initialization code, in order to achieve faster app startup. For instance, modules in the toga-core package are \"lazy loaded\" — they're only imported once requested, rather than all up front. This speeds up startup, and only spends time on what the app is actually using."
 msgstr "ஒரு பொதுவான விதியாக, வேகமான செயலித் தொடக்கத்தை அடைவதற்காக, எந்தவொரு விலையுயர்ந்த தொடக்கக் குறியீட்டையும் தவிர்க்க அல்லது தள்ளிப்போட நாங்கள் முயற்சி செய்கிறோம். உதாரணமாக, toga-core தொகுப்பிலுள்ள மாட்யூல்கள் \"லேஸி லோட்\" செய்யப்படுகின்றன — அவை அனைத்தும் முன்கூட்டியே இறக்குமதி செய்யப்படுவதற்குப் பதிலாக, கோரப்பட்டவுடன் மட்டுமே இறக்குமதி செய்யப்படுகின்றன. இது செயலியின் தொடக்க வேகத்தை அதிகரிக்கிறது, மேலும் செயலி உண்மையில் பயன்படுத்தும் பகுதிகளுக்கு மட்டுமே நேரத்தைச் செலவிடுகிறது."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:83
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:91
 #, fuzzy
 msgid "When writing comments, avoid the use of first-person plural pronouns such as \"we\" (for example, write \"Loop over\" instead of \"We loop over\")."
 msgstr "கருத்துகளை எழுதும் போது, \"we\" போன்ற முதலாம் ஆண்பால் பலவாசகப் பெயர்ச்சொற்களைப் பயன்படுத்துவதைத் தவிர்க்கவும் (உதாரணமாக, \"We loop over\" என்பதற்குப் பதிலாக \"Loop over\" என எழுதவும்)."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:85
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:93
 #, fuzzy
 msgid "In test docstrings, state the expected behavior that each test demonstrates. Don't include preambles such as \"Tests that\" or \"Ensures that\"."
 msgstr "சோதனை டாக்குஸ்ட்ரிங்குகளில், ஒவ்வொரு சோதனையும் வெளிப்படுத்தும் எதிர்பார்க்கப்படும் நடத்தையைக் குறிப்பிடவும். \"Tests that\" அல்லது \"Ensures that\" போன்ற முன்னுரைகளைச் சேர்க்க வேண்டாம்."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:87
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:95
 #, fuzzy
 msgid "Reserve ticket references for obscure issues where the ticket has additional details that can't be easily described in docstrings or comments. Include the ticket number at the end of a sentence like this:"
 msgstr "ஆவணச் சரடுகள் (docstrings) அல்லது கருத்துகளில் எளிதாக விவரிக்க முடியாத கூடுதல் விவரங்களைக் கொண்ட, தெளிவற்ற சிக்கல்களுக்கான டிக்கெட் குறிப்புகளைச் சேர்க்கவும். இது போன்ற ஒரு வாக்கியத்தின் முடிவில் டிக்கெட் எண்ணைச் சேர்க்கவும்:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:89
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:97
 #, fuzzy
 msgid ""
 "def test_foo():\n"

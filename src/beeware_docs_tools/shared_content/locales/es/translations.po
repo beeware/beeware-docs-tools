@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-05 02:52+0000\n"
+"POT-Creation-Date: 2026-09-07 02:54+0000\n"
 "PO-Revision-Date: 2026-07-19 14:01+0000\n"
 "Last-Translator: Libre <6n0n1m0s@proton.me>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/es/>\n"
@@ -2552,7 +2552,7 @@ msgstr "Desglosas invocaciones a funciones largas { #split-long-function-calls }
 msgid "When a function call with more than one argument cannot fit on a single line, place each argument on its own line with a trailing comma on the last argument. Ruff permits (and will suggest) a format of multiple arguments on one wrapped line:"
 msgstr "Cuando una función invoca con más de un argumento que no cabe en una sola línea, coloca cada argumento en una propia línea separada y añade una coma al final del último argumento. Ruff permite (y sugerirá) un formato de múltiples argumentos sobre una línea envuelta:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:37
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:39
 msgid ""
 "my_function(\n"
 "    arg1, arg2, arg3\n"
@@ -2562,11 +2562,11 @@ msgstr ""
 "    arg1, arg2, arg3\n"
 ")"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:43
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:47
 msgid "This style should not be used. Instead, spread arguments to one per line by adding a trailing comma on the last argument:"
 msgstr "Este estilo no sería utilizado. En su lugar, distribuye los argumentos de uno por línea añadiendo una coma al final del último argumento:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:45
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:49
 msgid ""
 "my_function(\n"
 "    arg1,\n"
@@ -2580,15 +2580,15 @@ msgstr ""
 "    arg3,\n"
 ")"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:53
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:57
 msgid "Splitting long strings { #split-long-strings }"
 msgstr "Desglosa cadenas largas { #split-long-strings }"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:55
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:59
 msgid "When a string argument must be split across lines to satisfy line length requirements, wrap the concatenated string literals in parentheses so it is clear the string is a single argument. That is, we prefer:"
 msgstr "Cuando debe desglosar un argumento de cadena en varias líneas para cumplir con los requisitos de longitud de línea, cubre los literales de cadena concatenados entre paréntesis para que quede claro que la cadena es un único argumento. Es decir, preferimos:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:57
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:63
 msgid ""
 "my_function(\n"
 "    (\n"
@@ -2606,11 +2606,11 @@ msgstr ""
 "    segundo_argumento,\n"
 ")"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:67
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:73
 msgid "over:"
 msgstr "sobre:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:69
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:75
 msgid ""
 "my_function(\n"
 "    \"this is a very long string \"\n"
@@ -2624,31 +2624,31 @@ msgstr ""
 "    second_argument,\n"
 ")"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:77
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:85
 msgid "Things to avoid"
 msgstr "Lo que hay que evitar"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:79
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:87
 msgid "We try to avoid `utils` modules as much as possible, with the understanding that sometimes they are unavoidable. The preferred alternative is to find somewhere for the feature elsewhere in the source code, instead of using a `utils` module."
 msgstr "Intentamos evitar los módulos `utils` tanto como sea posible, con comprender que algunas veces son inevitables. La alternativa preferible es encontrar un lugar para la prestación en donde esté en el código fuente, en lugar de utilizar un módulo `utils`."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:81
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:89
 msgid "As a general rule, we try to avoid or defer any expensive initialization code, in order to achieve faster app startup. For instance, modules in the toga-core package are \"lazy loaded\" — they're only imported once requested, rather than all up front. This speeds up startup, and only spends time on what the app is actually using."
 msgstr "Como regla general, intentamos evitar o aplazar cualquier código de inicialización costoso, con el fin de lograr un inicio más rápido de la aplicación. Por ejemplo, los módulos del paquete toga-core se cargan de forma diferida, es decir, solo se importan cuando se solicitan, en lugar de hacerlo por adelantado. Esto acelera el inicio y solo se dedica tiempo a lo que la aplicación está utilizando realmente."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:83
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:91
 msgid "When writing comments, avoid the use of first-person plural pronouns such as \"we\" (for example, write \"Loop over\" instead of \"We loop over\")."
 msgstr "Al escribir comentarios, evita el uso de pronombres en primera persona del plural, como «nosotros» (por ejemplo, escribe «Recorrer» en lugar de «Recorremos»)."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:85
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:93
 msgid "In test docstrings, state the expected behavior that each test demonstrates. Don't include preambles such as \"Tests that\" or \"Ensures that\"."
 msgstr "En las cadenas de documentación de las pruebas, describe el comportamiento esperado que demuestra cada prueba. No incluyas introducciones del tipo «Comprueba que» o «Asegura que»."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:87
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:95
 msgid "Reserve ticket references for obscure issues where the ticket has additional details that can't be easily described in docstrings or comments. Include the ticket number at the end of a sentence like this:"
 msgstr "Reserva las referencias a tickets para incidencias poco comunes en los que el ticket contenga detalles adicionales que no se puedan describir fácilmente en las cadenas de documentación o en los comentarios. Incluye el número de ticket al final de una frase de esta manera:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:89
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:97
 msgid ""
 "def test_foo():\n"
 "          \"\"\"A test docstring looks like this (#123456).\"\"\""

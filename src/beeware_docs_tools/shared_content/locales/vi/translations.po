@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-05 02:52+0000\n"
+"POT-Creation-Date: 2026-09-07 02:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3029,7 +3029,7 @@ msgstr "Chia nhỏ các lệnh gọi hàm dài { #split-long-function-calls }"
 msgid "When a function call with more than one argument cannot fit on a single line, place each argument on its own line with a trailing comma on the last argument. Ruff permits (and will suggest) a format of multiple arguments on one wrapped line:"
 msgstr "Khi một lệnh gọi hàm có nhiều hơn một đối số không thể nằm gọn trong một dòng, hãy đặt mỗi đối số vào một dòng riêng biệt và thêm dấu phẩy ở cuối dòng chứa đối số cuối cùng. Ruff cho phép (và sẽ đề xuất) cách trình bày nhiều đối số trên cùng một dòng được xuống dòng:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:37
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:39
 msgid ""
 "my_function(\n"
 "    arg1, arg2, arg3\n"
@@ -3039,12 +3039,12 @@ msgstr ""
 "    arg1, arg2, arg3\n"
 ")"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:43
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:47
 #, fuzzy
 msgid "This style should not be used. Instead, spread arguments to one per line by adding a trailing comma on the last argument:"
 msgstr "Không nên sử dụng kiểu này. Thay vào đó, hãy chia các đối số ra mỗi dòng một bằng cách thêm dấu phẩy ở cuối đối số cuối cùng:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:45
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:49
 msgid ""
 "my_function(\n"
 "    arg1,\n"
@@ -3058,17 +3058,17 @@ msgstr ""
 "    arg3,\n"
 ")"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:53
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:57
 #, fuzzy
 msgid "Splitting long strings { #split-long-strings }"
 msgstr "Chia chuỗi dài { #split-long-strings }"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:55
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:59
 #, fuzzy
 msgid "When a string argument must be split across lines to satisfy line length requirements, wrap the concatenated string literals in parentheses so it is clear the string is a single argument. That is, we prefer:"
 msgstr "Khi một đối số chuỗi phải được chia thành nhiều dòng để đáp ứng yêu cầu về độ dài dòng, hãy đặt các hằng số chuỗi được nối lại với nhau vào trong dấu ngoặc đơn để cho thấy rõ rằng chuỗi đó là một đối số duy nhất. Nói cách khác, chúng tôi khuyến nghị:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:57
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:63
 #, fuzzy
 msgid ""
 "my_function(\n"
@@ -3087,12 +3087,12 @@ msgstr ""
 "    second_argument,\n"
 ")"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:67
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:73
 #, fuzzy
 msgid "over:"
 msgstr "trên:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:69
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:75
 #, fuzzy
 msgid ""
 "my_function(\n"
@@ -3107,37 +3107,37 @@ msgstr ""
 "    second_argument,\n"
 ")"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:77
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:85
 #, fuzzy
 msgid "Things to avoid"
 msgstr "Những điều cần tránh"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:79
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:87
 #, fuzzy
 msgid "We try to avoid `utils` modules as much as possible, with the understanding that sometimes they are unavoidable. The preferred alternative is to find somewhere for the feature elsewhere in the source code, instead of using a `utils` module."
 msgstr "Chúng tôi cố gắng tránh sử dụng các mô-đun `utils` càng nhiều càng tốt, nhưng cũng hiểu rằng đôi khi việc này là không thể tránh khỏi. Giải pháp thay thế được ưu tiên là tìm một vị trí khác trong mã nguồn để đặt tính năng đó, thay vì sử dụng mô-đun `utils`."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:81
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:89
 #, fuzzy
 msgid "As a general rule, we try to avoid or defer any expensive initialization code, in order to achieve faster app startup. For instance, modules in the toga-core package are \"lazy loaded\" — they're only imported once requested, rather than all up front. This speeds up startup, and only spends time on what the app is actually using."
 msgstr "Theo nguyên tắc chung, chúng tôi cố gắng tránh hoặc hoãn việc thực thi bất kỳ đoạn mã khởi tạo nào tốn nhiều tài nguyên, nhằm giúp ứng dụng khởi động nhanh hơn. Ví dụ, các mô-đun trong gói toga-core được \"tải chậm\" — chúng chỉ được nhập khi có yêu cầu, thay vì được tải sẵn từ đầu. Điều này giúp tăng tốc độ khởi động và chỉ dành thời gian cho những thành phần mà ứng dụng thực sự đang sử dụng."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:83
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:91
 #, fuzzy
 msgid "When writing comments, avoid the use of first-person plural pronouns such as \"we\" (for example, write \"Loop over\" instead of \"We loop over\")."
 msgstr "Khi viết bình luận, hãy tránh sử dụng các đại từ số nhiều ngôi thứ nhất như \"chúng tôi\" (ví dụ: hãy viết \"Lặp qua\" thay vì \"Chúng tôi lặp qua\")."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:85
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:93
 #, fuzzy
 msgid "In test docstrings, state the expected behavior that each test demonstrates. Don't include preambles such as \"Tests that\" or \"Ensures that\"."
 msgstr "Trong các chuỗi mô tả bài kiểm thử, hãy nêu rõ hành vi mong đợi mà mỗi bài kiểm thử thể hiện. Không nên thêm các cụm từ mở đầu như \"Kiểm tra xem\" hoặc \"Đảm bảo rằng\"."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:87
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:95
 #, fuzzy
 msgid "Reserve ticket references for obscure issues where the ticket has additional details that can't be easily described in docstrings or comments. Include the ticket number at the end of a sentence like this:"
 msgstr "Hãy lưu lại mã số vé cho các vấn đề phức tạp, trong đó vé chứa các chi tiết bổ sung không thể mô tả một cách dễ dàng trong các chuỗi tài liệu (docstrings) hoặc bình luận. Hãy ghi số vé vào cuối câu như sau:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:89
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/code-style-guide.md:97
 #, fuzzy
 msgid ""
 "def test_foo():\n"
