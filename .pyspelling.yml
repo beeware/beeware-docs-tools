@@ -61,3 +61,7 @@ matrix:
         - open: '-8<\-\n'
           content: '[\d\D]*'
           close: '-8<-\n'
+        # Ignore Ruff's Markdown formatter suppression comments
+        - open: 'fmt:(?:off|on)'
+          content: ''
+          close: ''
