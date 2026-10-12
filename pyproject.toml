@@ -39,7 +39,7 @@ dependencies = [
     "python-Levenshtein==0.27.5",
     "PyYAML==6.0.3",
     "polib==1.2.0",
-    "ruff==0.16.9",
+    "ruff==0.16.10",
     "setuptools_scm==10.3.4",
     "translate-toolkit==3.20.0",
 ]
@@ -52,7 +52,7 @@ pre-commit = [
 ]
 
 tox-uv = [
-    "tox-uv == 1.36.0",
+    "tox-uv == 1.36.1",
 ]
 
 wlc = [
