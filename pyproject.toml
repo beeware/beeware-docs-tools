@@ -34,12 +34,12 @@ dependencies = [
     "mkdocs-rss-plugin==1.19.0",
     "mkdocs==1.6.1",  # DO NOT UPGRADE - 2+ is not compatible with anything here
     "mkdocstrings-python==2.0.9",
-    "pymdown-extensions==12.1",
-    "pyspelling==2.12.1",
+    "pymdown-extensions==12.2",
+    "pyspelling==2.13",
     "python-Levenshtein==0.27.5",
     "PyYAML==6.0.3",
     "polib==1.2.0",
-    "ruff==0.16.10",
+    "ruff==0.17.0",
     "setuptools_scm==10.3.4",
     "translate-toolkit==3.20.0",
 ]
@@ -52,11 +52,11 @@ pre-commit = [
 ]
 
 tox-uv = [
-    "tox-uv == 1.36.1",
+    "tox-uv == 1.37.0",
 ]
 
 wlc = [
-    "wlc == 2.2.1",
+    "wlc == 3.0.0",
 ]
 
 dev = [
