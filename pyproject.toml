@@ -34,12 +34,12 @@ dependencies = [
     "mkdocs-rss-plugin==1.19.0",
     "mkdocs==1.6.1",  # DO NOT UPGRADE - 2+ is not compatible with anything here
     "mkdocstrings-python==2.0.9",
-    "pymdown-extensions==12.2",
+    "pymdown-extensions==12.3",
     "pyspelling==2.13",
     "python-Levenshtein==0.27.5",
     "PyYAML==6.0.3",
     "polib==1.2.0",
-    "ruff==0.17.0",
+    "ruff==0.17.1",
     "setuptools_scm==10.3.4",
     "translate-toolkit==3.20.0",
 ]
@@ -48,7 +48,7 @@ dependencies = [
 # Extras used by developers *of* beeware-docs-tools are pinned to specific versions to
 # ensure environment consistency.
 pre-commit = [
-    "pre-commit == 4.6.2",
+    "pre-commit == 4.7.0",
 ]
 
 tox-uv = [
