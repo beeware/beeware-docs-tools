@@ -14,7 +14,7 @@ env:
 jobs:
   update-translations:
     name: Update Translations
-    if: github.actor != 'brutusthebee'
+    if: github.repository == 'beeware/beeware-docs-tools' && github.actor != 'brutusthebee'
     runs-on: ubuntu-latest
     # GitHub writes use BRUTUS_PAT_TOKEN, so the job's own GITHUB_TOKEN needs
     # no permissions.
@@ -58,6 +58,10 @@ jobs:
           [weblate]
           url = https://hosted.weblate.org/api/
           translation = beeware/docs-tools-shared-content
+          retries = 5
+          backoff_factor = 2
+          status_forcelist = 423,502
+          allowed_methods = GET,POST,PUT,DELETE,HEAD,OPTIONS
 
           [keys]
           https://hosted.weblate.org/api/ = $WEBLATE_API_TOKEN
@@ -105,6 +109,7 @@ jobs:
         run: wlc pull
 
       - name: Unlock Weblate
+        if: always()
         run: wlc unlock
 
       # # This step is only needed if you're trying to diagnose test failures that
