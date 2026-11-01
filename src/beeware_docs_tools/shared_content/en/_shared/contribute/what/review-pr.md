@@ -12,7 +12,6 @@ Yes! You can offer a review on any pull request you see open on {{ formal_name }
 
 As a first-time contributor, you should feel free to review any pull request you find, even if it was submitted by a core team member. If you're a novice, you might be missing some larger project context; but we aim to keep the codebase approachable regardless of your level of experience. If there's something in the code that doesn't make sense, that might indicate there's a need for more documentation (either in the code, or as standalone design documentation).
 
-
 ### What is ready for review
 
 The simplest way to find open pull requests is to go to the project's pull requests page: https://github.com/beeware/{{project_name}}/pulls
@@ -23,7 +22,7 @@ For example:
 
 * [All open PRs, with passing tests for {{formal_name}}](https://github.com/search?q=org%3Abeeware+repo%3A{{project_name}}+is%3Apr+state%3Aopen+status%3Asuccess+draft%3Afalse+review%3Arequired&type=pullrequests&s=created&o=asc)
 * [All open PRs, with passing tests for all projects](https://github.com/search?q=org%3Abeeware+is%3Apr+state%3Aopen+status%3Asuccess+draft%3Afalse+review%3Arequired&type=pullrequests&s=created&o=asc)
-* [All open PRs across BeeWare](https://github.com/search?o=asc&q=org%3Abeeware+is%3Apr+is%3Aopen+draft%3Afalse+-author%3A%40me+archived%3Afalse&s=created&type=pullrequests)
+* [All open PRs across BeeWare](https://beeware.org/b/review)
 
 Note: Not all BeeWare repos have CI tests, and not all open PRs were created when PRs had tests.
 
