@@ -1,18 +1,6 @@
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-02 00:44+0000\n"
-"PO-Revision-Date: 2026-09-15 08:51+0000\n"
-"Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
-"Language-Team: Portuguese <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/pt/>\n"
-"Language: pt\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Translate Toolkit 3.20.1\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-11-02 00:44+0000\nPO-Revision-Date: 2026-11-02 07:49+0000\nLast-Translator: Américo Monteiro <a-monteiro@users.noreply.hosted.weblate.org>\nLanguage-Team: Portuguese <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/pt/>\nLanguage: pt\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 2026.11.dev0\n"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:1
 msgid "There may be a little voice inside your head that is telling you that you're not ready; that you need to do one more tutorial; that you aren't ready to be an open source contributor. After all, you're just a beginner. What could you possibly offer a project like BeeWare?"
@@ -3601,44 +3589,36 @@ msgid "As a first-time contributor, you should feel free to review any pull requ
 msgstr "Como colaborador de primeira vez, sinta-se à vontade para analisar qualquer pedido de puxar que encontrar, mesmo que tenha sido enviado por um membro da equipa principal. Se for um novato, talvez esteja a perder algum contexto maior do projeto, mas o nosso objetivo é manter a base de código acessível independentemente do seu nível de experiência. Se houver algo no código que não faça sentido, isso pode indicar que há necessidade de mais documentação (seja no código ou como documentação de desenho autónomo)."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:15
-#, fuzzy
 msgid "What is ready for review"
 msgstr "O que está pronto para revisão"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:17
-#, fuzzy
 msgid "The simplest way to find open pull requests is to go to the project's pull requests page: https://github.com/beeware/{{project_name}}/pulls"
-msgstr "A maneira mais simples de encontrar pull requests abertas é acessar a página de pull requests do projeto: https://github.com/beeware/{{project_name}}/pulls"
+msgstr "A maneira mais simples de encontrar pedidos de puxar abertos é aceder à página de pull requests do projeto: https://github.com/beeware/{{project_name}}/pulls"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:19
-#, fuzzy
 msgid "You can use the GitHub Search functionality to find any open pull requests for a project."
-msgstr "Você pode usar a funcionalidade de pesquisa do GitHub para encontrar quaisquer pull requests abertas de um projeto."
+msgstr "Você pode usar a funcionalidade de pesquisa do GitHub para encontrar quaisquer pedidos de puxar abertos de um projeto."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:21
-#, fuzzy
 msgid "For example:"
 msgstr "Por exemplo:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:23
-#, fuzzy
 msgid "[All open PRs, with passing tests for {{formal_name}}]{1}"
 msgstr "[Todos os PRs abertos, com testes aprovados para {{formal_name}}]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:24
-#, fuzzy
 msgid "[All open PRs, with passing tests for all projects]{1}"
-msgstr "[Todas as PRs abertas, com testes aprovados para todos os projetos]{1}"
+msgstr "[Todos os PRs abertos, com testes aprovados para todos os projetos]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:25
-#, fuzzy
 msgid "[All open PRs across BeeWare]{1}"
-msgstr "[Todas as PRs abertas no BeeWare]{1}"
+msgstr "[Todas os PRs abertos no BeeWare]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:27
-#, fuzzy
 msgid "Note: Not all BeeWare repos have CI tests, and not all open PRs were created when PRs had tests."
-msgstr "Observação: nem todos os repositórios do BeeWare possuem testes de integração contínua (CI), e nem todas as solicitações de pull abertas foram criadas quando as solicitações de pull ainda contavam com testes."
+msgstr "Nota: Nem todos os repositórios do BeeWare possuem testes de integração contínua (CI), e nem todos os pedidos de puxar abertos foram criados quando os pedidos de puxar tinham testes."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:29
 msgid "Contributing a pull request review"
