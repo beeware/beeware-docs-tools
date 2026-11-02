@@ -1,18 +1,6 @@
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-02 07:50+0000\n"
-"PO-Revision-Date: 2026-08-03 14:01+0000\n"
-"Last-Translator: Michal Várady <miko.vaji@gmail.com>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/cs/>\n"
-"Language: cs\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Translate Toolkit 3.20.1\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-11-02 07:50+0000\nPO-Revision-Date: 2026-11-03 09:51+0000\nLast-Translator: Michal Várady <majkl82@users.noreply.hosted.weblate.org>\nLanguage-Team: Czech <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/cs/>\nLanguage: cs\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\nX-Generator: Weblate 2026.11.1.dev0\n"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:1
 msgid "There may be a little voice inside your head that is telling you that you're not ready; that you need to do one more tutorial; that you aren't ready to be an open source contributor. After all, you're just a beginner. What could you possibly offer a project like BeeWare?"
@@ -1468,7 +1456,7 @@ msgstr "`extra: language_url:` by měl být kód jazyka, za nímž následuje je
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:60
 msgid "The `extra: translation_type:` should be `machine` until the translation reaches 100% for the first time, at which point it should be `human`. It will revert to `machine` from `human` if it regresses to below 90%."
-msgstr "`extra: translation_type:` by mělo být `machine` až do okamžiku, kdy překlad poprvé dosáhne 100 %, v tom okamžiku by mělo být `human`. Pokud se překlad vrátí pod 90 %, vrátí se z `machine` zpět na `human`."
+msgstr "`extra: translation_type:` by mělo být `machine`, dokud překlad poprvé nedosáhne 100 %; v tom okamžiku by mělo být `human`. Pokud překlad klesne pod 90 %, vrátí se z `human` zpět na `machine`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:61
 msgid "The content under `extra: header` is the translations for titles that appear in the header bar. This definition is *not* required on the main BeeWare website; it is only required on *other* sites (such as the tutorial, or project documentation)."
@@ -1886,7 +1874,7 @@ msgstr ""
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:273
 msgid "This tells us that the test suite has executed every possible branching path in the code. This isn't a 100% guarantee that there are no bugs, but it does mean that we're exercising every line of code in the codebase."
-msgstr "To nám říká, že testovací sada prověřila všechny možné větvení v kódu. Neznamená to sice stoprocentní záruku, že v kódu nejsou žádné chyby, ale znamená to, že prověřujeme každý řádek kódu v kódové základně."
+msgstr "To nám říká, že testovací sada prošla každou možnou cestou větvení v kódu. Není to stoprocentní záruka, že v kódu nejsou žádné chyby, znamená to však, že prověřujeme každý řádek kódu v kódové základně."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:275
 msgid "If you make changes to the codebase, it's possible you'll introduce a gap in this coverage. When this happens, the coverage report will tell you which lines aren't being executed. For example, lets say we made a change to `some/interesting_file.py`, adding some new logic. The coverage report might look something like:"
@@ -3601,44 +3589,36 @@ msgid "As a first-time contributor, you should feel free to review any pull requ
 msgstr "Jako nováček byste se neměli bát zkontrolovat jakýkoli pull request, který najdete, i když byl odeslán členem hlavního týmu. Jste-li nováčkem, možná vám uniká širší kontext projektu, ale naším cílem je, aby byl kód přístupný bez ohledu na vaši úroveň zkušeností. Pokud vám něco v kódu nedává smysl, může to znamenat, že je potřeba více dokumentace (buď v kódu, nebo jako samostatná dokumentace návrhu)."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:15
-#, fuzzy
 msgid "What is ready for review"
-msgstr "Co je připraveno k posouzení"
+msgstr "Co je připraveno k revizi"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:17
-#, fuzzy
 msgid "The simplest way to find open pull requests is to go to the project's pull requests page: https://github.com/beeware/{{project_name}}/pulls"
-msgstr "Nejjednodušší způsob, jak najít otevřené žádosti o začlenění, je přejít na stránku žádostí o začlenění daného projektu: https://github.com/beeware/{{project_name}}/pulls"
+msgstr "Nejjednodušší způsob, jak najít otevřené pull requesty, je přejít na stránku pull requestů daného projektu: https://github.com/beeware/{{project_name}}/pulls"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:19
-#, fuzzy
 msgid "You can use the GitHub Search functionality to find any open pull requests for a project."
-msgstr "Pomocí funkce vyhledávání na GitHubu můžete vyhledat všechny otevřené žádosti o začlenění v daném projektu."
+msgstr "Pomocí vyhledávání na GitHubu můžete najít všechny otevřené pull requesty daného projektu."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:21
-#, fuzzy
 msgid "For example:"
 msgstr "Například:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:23
-#, fuzzy
 msgid "[All open PRs, with passing tests for {{formal_name}}]{1}"
-msgstr "[Všechny otevřené PR, u nichž testy pro {{formal_name}} byly úspěšné]{1}"
+msgstr "[Všechny otevřené PR s úspěšnými testy pro {{formal_name}}]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:24
-#, fuzzy
 msgid "[All open PRs, with passing tests for all projects]{1}"
-msgstr "[Všechny otevřené žádosti o změnu, u nichž byly úspěšně absolvovány testy pro všechny projekty]{1}"
+msgstr "[Všechny otevřené PR s úspěšnými testy pro všechny projekty]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:25
-#, fuzzy
 msgid "[All open PRs across BeeWare]{1}"
 msgstr "[Všechny otevřené PR v rámci BeeWare]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:27
-#, fuzzy
 msgid "Note: Not all BeeWare repos have CI tests, and not all open PRs were created when PRs had tests."
-msgstr "Poznámka: Ne všechna repozitáře BeeWare obsahují testy CI a ne všechny otevřené žádosti o změnu (PR) byly vytvořeny v době, kdy tyto žádosti obsahovaly testy."
+msgstr "Poznámka: Ne všechny repozitáře BeeWare mají testy CI a ne všechny otevřené PR vznikly v době, kdy se k PR přidávaly testy."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:29
 msgid "Contributing a pull request review"
