@@ -54,33 +54,6 @@ The language file is merged over `zensical.toml` with the same rule MkDocs used 
 
 During a build, docs-tools writes the complete configuration for each language to `docs/_build.<lang>.toml`, and generated content (translated Markdown, and the built site) to `docs/_build/build/`. The live server (`live_serve_en`) uses `docs/_build.live.en.toml` and `docs/_build/live/` instead, so a build can run while the live server is running. These are removed when the build or live server finishes; add `docs/_build.*.toml` and `_build` to `.gitignore` in case a build is interrupted. Zensical also keeps a cache in `docs/.cache`, which includes its own `.gitignore`.
 
-## Converting from MkDocs
-
-The `convert_mkdocs_config` command converts a repository's MkDocs configuration into this format:
-
-* `docs/config.yml` becomes `docs/zensical.toml`.
-* Each `docs/mkdocs.<lang>.yml` becomes `docs/zensical.<lang>.toml`.
-* The literate-nav navigation file (`docs/en/SUMMARY.md`) becomes the `nav` setting in `docs/zensical.toml`, and the literate-nav plugin is removed. The navigation is resolved with literate-nav's own parser, so wildcards are expanded to the pages they matched.
-* Translations of navigation titles in `docs/locales/<lang>/translations.po` are migrated to the plain titles used by `nav`. If a title already has its own translation (for example, because it is also a page heading), that translation is kept, and the difference is reported.
-* `site_url: !ENV ...` is removed, as `site_url` is set at build time.
-* Comments in the YAML files are carried over.
-
-Before writing anything, the converter checks that, for every language, the TOML configuration is the same as the configuration Zensical reads from the YAML files, apart from the intended differences listed above (and the order of the Markdown extensions, which is reported). If there are any other differences, it lists them and doesn't change any files.
-
-To convert a repository, install docs-tools with the `convert` extra (which adds literate-nav), and run the converter from the root of the repository:
-
-```console
-$ python -m pip install -e "/path/to/beeware-docs-tools[convert]"
-$ convert_mkdocs_config --check
-$ convert_mkdocs_config
-```
-
-`--check` reports what would change without writing any files. By default, the converter deletes the original YAML and `SUMMARY.md` files; use `--keep-old` to keep them. Review the output, then:
-
-* Update any `tox.ini` settings that refer to MkDocs (for example, remove `DISABLE_MKDOCS_2_WARNING` and `NO_MKDOCS_2_WARNING`).
-* Add `docs/_build.*.toml` to `.gitignore`.
-* Recreate your tox environments (`tox -r`), as the dependencies have changed.
-
 ## Adding a new language
 
 Weblate is able to generate a new language, however, adding a new language also requires a few changes to the documentation repository.
