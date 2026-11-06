@@ -191,7 +191,7 @@
 
         <!-- Toggle to expand nested items with link to index page -->
         {% else %}
-          {% set class = "md-nav__link--active" if index == page %}
+          {% set class = "md-nav__link--active" if index.active %}
           <div class="md-nav__link md-nav__container">
             <a
               href="{{ index.url | url }}"
@@ -249,7 +249,7 @@
     </li>
 
   <!-- Currently active page -->
-  {% elif nav_item == page %}
+  {% elif nav_item.active %}
     <li class="{{ class }}">
       {% set toc = page.toc %}
 
