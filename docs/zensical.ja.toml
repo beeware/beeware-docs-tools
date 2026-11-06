@@ -1,0 +1,18 @@
+[project]
+site_name = "BeeWare ドキュメントツール"
+docs_dir = "ja"
+
+[project.theme]
+language = "ja"
+
+[project.extra]
+language_url = "ja/"
+translation_type = "machine"
+
+[project.extra.header]
+About = "について"
+Documentation = "ドキュメント"
+Community = "コミュニティ"
+Contributing = "寄稿"
+News = "ニュース"
+Sponsor = "スポンサー"

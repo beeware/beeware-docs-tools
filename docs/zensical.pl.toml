@@ -1,0 +1,18 @@
+[project]
+site_name = "Narzędzia BeeWare Docs"
+docs_dir = "pl"
+
+[project.theme]
+language = "pl"
+
+[project.extra]
+language_url = "pl/"
+translation_type = "machine"
+
+[project.extra.header]
+About = "O"
+Documentation = "Dokumentacja"
+Community = "Społeczność"
+Contributing = "Wkład"
+News = "Aktualności"
+Sponsor = "Sponsor"

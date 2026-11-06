@@ -4,9 +4,8 @@ from pathlib import Path
 from tempfile import TemporaryDirectory
 
 import polib
-import yaml
 
-from .md_tempdir import process_nav
+from .build_config import BASE_CONFIG, process_nav, read_toml
 
 # This tool is used to generate PO template (POT) files from English Markdown
 # content.
@@ -33,10 +32,14 @@ def parse_args() -> Namespace:
     return args
 
 
-def generate_titles(docs: Path) -> None:
+def generate_titles(docs: Path) -> Path | None:
+    """Write the navigation titles into a Markdown file, so they can be translated.
+
+    :param docs: The directory containing the `zensical.toml` configuration.
+    :returns: The path of the generated file, or None if there is no navigation.
+    """
     try:
-        with (docs / "config.yml").open() as f:
-            config = yaml.load(f, Loader=yaml.SafeLoader)
+        config = read_toml(docs / BASE_CONFIG)
 
         en_titles = []
 
@@ -52,7 +55,7 @@ def generate_titles(docs: Path) -> None:
         )
         return title_file
     except FileNotFoundError:
-        # "No config.yml file
+        # No zensical.toml file
         pass
     except KeyError:
         # No navigation in config.

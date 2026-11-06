@@ -1,0 +1,18 @@
+[project]
+site_name = "BeeWare Docs-værktøjer"
+docs_dir = "da"
+
+[project.theme]
+language = "da"
+
+[project.extra]
+language_url = "da/"
+translation_type = "machine"
+
+[project.extra.header]
+About = "Om"
+Documentation = "Dokumentation"
+Community = "Fællesskab"
+Contributing = "Bidrag"
+News = "Nyheder"
+Sponsor = "Sponsor"

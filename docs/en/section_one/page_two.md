@@ -14,6 +14,6 @@ Verify that the text in the parameter table is rendering at the same size as the
 
 ## Macro functionality
 
-The following should say 'Brutus says "Hello world!"'. This confirms that global variables and macros defined via MkDocs-Macros are available.
+The following should say 'Brutus says "Hello world!"'. This confirms that global variables and macros defined via the macros plugin are available.
 
 {{ mascot_name }} says "{{ say_hello() }}"

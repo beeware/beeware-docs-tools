@@ -22,6 +22,19 @@
 
 {% extends "base.html" %}
 
+{#- Zensical doesn't provide `page.is_homepage`, so the homepage would be titled
+    "<page title> - <site name>". Identify the homepage by its URL, so it's
+    titled with the site name only, as it was with Material for MkDocs. -#}
+{% block htmltitle %}
+  {% if page.meta and page.meta.title %}
+    <title>{{ page.meta.title }} - {{ config.site_name }}</title>
+  {% elif page.title and not (page.is_homepage or page.url == "") %}
+    <title>{{ page.title | striptags }} - {{ config.site_name }}</title>
+  {% else %}
+    <title>{{ config.site_name }}</title>
+  {% endif %}
+{% endblock %}
+
 {% block styles %}
     {{ super() }}
     <link rel="stylesheet" type="text/css" href="{{ 'assets/stylesheets/beeware_theme.css' | url }}">

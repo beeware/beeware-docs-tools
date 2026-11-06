@@ -1,0 +1,18 @@
+[project]
+site_name = "BeeWare Dokümanları Araçları"
+docs_dir = "tr"
+
+[project.theme]
+language = "tr"
+
+[project.extra]
+language_url = "tr/"
+translation_type = "machine"
+
+[project.extra.header]
+About = "Hakkında"
+Documentation = "Belgeleme"
+Community = "Topluluk"
+Contributing = "Katkıda bulunan"
+News = "Haberler"
+Sponsor = "Sponsor"

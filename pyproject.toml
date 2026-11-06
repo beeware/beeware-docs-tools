@@ -28,11 +28,7 @@ dependencies = [
     "markdown-checker==1.2.2",
     "mistletoe==1.6.0",
     "mkdocs-autorefs==1.4.5",
-    "mkdocs-literate-nav==0.6.3",  # DO NOT UPGRADE - Uncertain whether author's move to ProperDocs will cause incompatibility
-    "mkdocs-macros-plugin @ git+https://github.com/kattni/mkdocs-macros-plugin@include-dir-multiple-directories",
-    "mkdocs-material==9.8.0",
     "mkdocs-rss-plugin==1.19.0",
-    "mkdocs==1.6.1",  # DO NOT UPGRADE - 2+ is not compatible with anything here
     "mkdocstrings-python==2.0.10",
     "pymdown-extensions==12.3",
     "pyspelling==2.13",
@@ -41,7 +37,15 @@ dependencies = [
     "polib==1.2.0",
     "ruff==0.17.2",
     "setuptools_scm==10.3.4",
+    "tomli-w==1.2.0",
     "translate-toolkit==3.20.1",
+    "zensical==0.1.0",  # Pre-1.0; pin exactly.
+]
+
+[project.optional-dependencies]
+# Needed by `convert_mkdocs_config` to convert a literate-nav navigation file.
+convert = [
+    "mkdocs-literate-nav==0.6.3",
 ]
 
 [dependency-groups]
@@ -83,6 +87,7 @@ Source = "https://github.com/beeware/beeware-docs-tools/"
 [project.scripts]
 build_md_translations = "beeware_docs_tools.build_md_translations:main"
 build_po_translations = "beeware_docs_tools.build_po_translations:main"
+convert_mkdocs_config = "beeware_docs_tools.convert_mkdocs_config:main"
 build_pot_translations = "beeware_docs_tools.build_pot_translations:main"
 live_serve_en = "beeware_docs_tools.live_serve_en:main"
 update_machine_translations = "beeware_docs_tools.update_machine_translations:main"
@@ -126,7 +131,7 @@ filterwarnings = [
 [tool.rumdl]
 flavor = "mkdocs"
 include = ["**/*.md"]
-exclude = ["docs/en/SUMMARY.md", "comment.md", "CODE_OF_CONDUCT.md"]
+exclude = ["comment.md", "CODE_OF_CONDUCT.md"]
 respect-gitignore = true
 
 # Disable rules:

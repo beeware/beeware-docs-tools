@@ -1,0 +1,18 @@
+[project]
+site_name = "أدوات مستندات BeeWare"
+docs_dir = "ar"
+
+[project.theme]
+language = "ar"
+
+[project.extra]
+language_url = "ar/"
+translation_type = "machine"
+
+[project.extra.header]
+About = "حول"
+Documentation = "التوثيق"
+Community = "المجتمع"
+Contributing = "المساهمة"
+News = "أخبار"
+Sponsor = "الراعي"

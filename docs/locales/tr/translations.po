@@ -12,233 +12,50 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 3.20.1\n"
 
-#: docs/en/SUMMARY.md:1
-msgid ""
-"---\n"
-"search:\n"
-"  exclude: true\n"
-"---\n"
-"\n"
-msgstr ""
-"---\n"
-"search:\n"
-"  exclude: true\n"
-"---\n"
-"\n"
-
-#: docs/en/SUMMARY.md:1
+#: docs/en/titles.md
 #, fuzzy
 msgid "Section one"
 msgstr "Birinci bölüm"
 
-#: docs/en/SUMMARY.md:1
-#, fuzzy
-msgid "[Section one]{1}"
-msgstr "[Birinci bölüm]{1}"
-
-#: docs/en/SUMMARY.md:1
-#, fuzzy
-msgid "[Section one - page two]{1}"
-msgstr "[Bölüm bir - sayfa iki]{1}"
-
-#: docs/en/SUMMARY.md:4
-#, fuzzy
-msgid "[Section two]{1}"
-msgstr "[İkinci bölüm]{1}"
-
-#: docs/en/SUMMARY.md:5
-#, fuzzy
-msgid "[Section three]{1}"
-msgstr "[Üçüncü bölüm]{1}"
-
-#: docs/en/SUMMARY.md:5
-msgid "./section_three/*"
-msgstr "./section_three/*"
-
-#: docs/en/SUMMARY.md:7
+#: docs/en/titles.md
 #, fuzzy
 msgid "Shared content testbed"
 msgstr "Paylaşılan içerik test ortamı"
 
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Shared content testbed]{1}"
-msgstr "[Paylaşılan içerik test ortamı]{1}"
-
-#: docs/en/SUMMARY.md:7
+#: docs/en/titles.md
 #, fuzzy
 msgid "How-to guides"
 msgstr "Nasıl yapılır kılavuzları"
 
-#: docs/en/SUMMARY.md:7
+#: docs/en/titles.md
 #, fuzzy
 msgid "Contribute"
 msgstr "Katkıda bulunun"
 
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Contributing]{1}"
-msgstr "[Katkıda bulunan]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[First-time contributors]{1}"
-msgstr "[İlk kez katkıda bulunanlar]{1}"
-
-#: docs/en/SUMMARY.md:7
+#: docs/en/titles.md
 #, fuzzy
 msgid "What can I do?"
 msgstr "Ne yapabilirim?"
 
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Fix an issue]{1}"
-msgstr "[Bir sorunu düzeltin]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Implement a new feature]{1}"
-msgstr "[Yeni bir özellik ekleyin]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Write documentation]{1}"
-msgstr "[Belgeleri yazın]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Triage an issue]{1}"
-msgstr "[Bir sorunu öncelik sırasına koymak]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Review a pull request]{1}"
-msgstr "[Çekme isteğini incele]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Propose a new feature]{1}"
-msgstr "[Yeni bir özellik önerin]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Translate content]{1}"
-msgstr "[İçeriği çevir]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Use the tools]{1}"
-msgstr "[Araçları kullanın]{1}"
-
-#: docs/en/SUMMARY.md:7
+#: docs/en/titles.md
 #, fuzzy
 msgid "How do I contribute?"
 msgstr "Nasıl katkıda bulunabilirim?"
 
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Setting up a development environment]{1}"
-msgstr "[Geliştirme ortamı kurma]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Reproducing an issue]{1}"
-msgstr "[Bir sorunu yeniden üretmek]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Working from a branch]{1}"
-msgstr "[Bir şubeden çalışmak]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Avoiding scope creep]{1}"
-msgstr "[Kapsam genişlemesini önleme]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Writing, running, and testing code]{1}"
-msgstr "[Kod yazma, çalıştırma ve test etme]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Building documentation]{1}"
-msgstr "[Bina belgeleri]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Writing documentation]{1}"
-msgstr "[Dokümantasyon yazma]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Adding a change note]{1}"
-msgstr "[Değişiklik notu ekleme]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Submitting a pull request]{1}"
-msgstr "[Çekme isteği gönderme]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Providing a review]{1}"
-msgstr "[İnceleme sunmak]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Submitting a new issue]{1}"
-msgstr "[Yeni bir sorun bildirme]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Proposing a new feature]{1}"
-msgstr "[Yeni bir özellik önermek]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Translating content]{1}"
-msgstr "[İçeriği çeviriyor]{1}"
-
-#: docs/en/SUMMARY.md:7
+#: docs/en/titles.md
 #, fuzzy
 msgid "What happens next?"
 msgstr "Sonra ne olacak?"
 
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Pull request review process]{1}"
-msgstr "[Çekme isteği inceleme süreci]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Release process]{1}"
-msgstr "[Serbest bırakma süreci]{1}"
-
-#: docs/en/SUMMARY.md:7
+#: docs/en/titles.md
 #, fuzzy
 msgid "Policies"
 msgstr "Politikalar"
 
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[AI Policy]{1}"
-msgstr "[Yapay Zeka Politikası]{1}"
-
-#: docs/en/SUMMARY.md:7
+#: docs/en/titles.md
 #, fuzzy
 msgid "Style guides"
 msgstr "Stil kılavuzları"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Code style guide]{1}"
-msgstr "[Kod stil kılavuzu]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Documentation style guide]{1}"
-msgstr "[Belge stil kılavuzu]{1}"
 
 #: docs/en/about/releases.md:1
 #, fuzzy
@@ -1070,3 +887,93 @@ msgstr "`autoref` bağlantı"
 #, fuzzy
 msgid "The link provided here should take you to the [Heading font][heading-font] section of the main page. It is included to verify `autoref` linking."
 msgstr "Burada verilen bağlantı sizi ana sayfanın [Başlık yazı tipi][heading-font] bölümüne götürmelidir. `autoref` bağlantısını doğrulamak için eklenmiştir."
+
+#: docs/en/titles.md
+#, fuzzy
+msgid "Section one - page two"
+msgstr "Bölüm bir - sayfa iki"
+
+#: docs/en/titles.md
+#, fuzzy
+msgid "Section two"
+msgstr "İkinci bölüm"
+
+#: docs/en/titles.md
+#, fuzzy
+msgid "Section three"
+msgstr "Üçüncü bölüm"
+
+#: docs/en/titles.md
+#, fuzzy
+msgid "Contributing"
+msgstr "Katkıda bulunan"
+
+#: docs/en/titles.md
+#, fuzzy
+msgid "Fix an issue"
+msgstr "Bir sorunu düzeltin"
+
+#: docs/en/titles.md
+#, fuzzy
+msgid "Implement a new feature"
+msgstr "Yeni bir özellik ekleyin"
+
+#: docs/en/titles.md
+#, fuzzy
+msgid "Write documentation"
+msgstr "Belgeleri yazın"
+
+#: docs/en/titles.md
+#, fuzzy
+msgid "Triage an issue"
+msgstr "Bir sorunu öncelik sırasına koymak"
+
+#: docs/en/titles.md
+#, fuzzy
+msgid "Review a pull request"
+msgstr "Çekme isteğini incele"
+
+#: docs/en/titles.md
+#, fuzzy
+msgid "Propose a new feature"
+msgstr "Yeni bir özellik önerin"
+
+#: docs/en/titles.md
+#, fuzzy
+msgid "Translate content"
+msgstr "İçeriği çevir"
+
+#: docs/en/titles.md
+#, fuzzy
+msgid "Use the tools"
+msgstr "Araçları kullanın"
+
+#: docs/en/titles.md
+#, fuzzy
+msgid "Working from a branch"
+msgstr "Bir şubeden çalışmak"
+
+#: docs/en/titles.md
+#, fuzzy
+msgid "Adding a change note"
+msgstr "Değişiklik notu ekleme"
+
+#: docs/en/titles.md
+#, fuzzy
+msgid "Providing a review"
+msgstr "İnceleme sunmak"
+
+#: docs/en/titles.md
+#, fuzzy
+msgid "Pull request review process"
+msgstr "Çekme isteği inceleme süreci"
+
+#: docs/en/titles.md
+#, fuzzy
+msgid "Release process"
+msgstr "Serbest bırakma süreci"
+
+#: docs/en/titles.md
+#, fuzzy
+msgid "AI Policy"
+msgstr "Yapay Zeka Politikası"

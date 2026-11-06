@@ -1,5 +1,7 @@
 # MkDocs
 _build
+# Generated build configurations (removed after each build)
+docs/_build.*.toml
 comment.md
 
 # uv
