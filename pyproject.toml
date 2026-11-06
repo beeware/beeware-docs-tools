@@ -27,6 +27,10 @@ dependencies = [
     "deepl==1.32.0",
     "markdown-checker==1.2.2",
     "mistletoe==1.6.0",
+    # Not used to build the docs; Zensical does that. Required because mkdocstrings
+    # (API docs) imports MkDocs at runtime. Remove once Zensical's native API docs
+    # replace mkdocstrings.
+    "mkdocs==1.6.1",
     "mkdocs-autorefs==1.4.5",
     "mkdocs-rss-plugin==1.19.0",
     "mkdocstrings-python==2.0.10",
