@@ -2,7 +2,7 @@
 
 ## Theme checklist
 
-This demo is designed to test the various features of the BeeWare MkDocs Material theme overrides. Please read through and verify that everything listed on this and the following pages is present and functioning as detailed in the description.
+This demo is designed to test the various features of the BeeWare Zensical theme overrides. Please read through and verify that everything listed on this and the following pages is present and functioning as detailed in the description.
 
 ## Titlebar
 
@@ -77,7 +77,7 @@ LICENSE			README.md		src
 
 ## Sidebar links
 
-Sidebar links exist, and point to the `beeware-docs-tools` repo. This confirms that the sidebar content has been loaded, and the `project-name` has been set in the MkDocs configuration file, and the version number is computed and added.
+Sidebar links exist, and point to the `beeware-docs-tools` repo. This confirms that the sidebar content has been loaded, and the `project-name` has been set in the Zensical configuration file, and the version number is computed and added.
 
 ## Link colors
 
@@ -125,7 +125,7 @@ This document is a translation of the English version. The translation has been 
 
 Add `nopage` to the end of the URL in your browser to verify the 404 page exists, and includes the text "Brutus can't find what you're looking for". The current 404 page does not always render the images due to an issue with MkDocs.
 
-*MkDocs builds fail with unrecognized internal links, so you need to manually verify this check by modifying the URL in your browser.*
+*Strict builds fail with unrecognized internal links, so you need to manually verify this check by modifying the URL in your browser.*
 
 ## Next checks
 

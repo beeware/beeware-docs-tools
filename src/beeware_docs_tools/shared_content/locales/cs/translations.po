@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-03 09:52+0000\n"
+"POT-Creation-Date: 2026-11-05 22:33-0400\n"
 "PO-Revision-Date: 2026-11-03 09:51+0000\n"
 "Last-Translator: Michal Várady <majkl82@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/cs/>\n"
@@ -302,7 +302,7 @@ msgstr "Při odkazování na název produktu je třeba používat preferované v
 msgid "If a term is being used \"as code\", then it should be quoted as a literal (`like this`) rather than being added to the dictionary."
 msgstr "Pokud je termín používán „jako kód“, měl by být uveden v uvozovkách (`like this`) namísto přidání do slovníku."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:241 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/propose-feature.md:31 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/reproduce-issue.md:34 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:299 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:408 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:35
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:241 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/propose-feature.md:31 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/reproduce-issue.md:34 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:299 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:408 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:36
 msgid "{% block end_matter %} {% endblock %}"
 msgstr "{% block end_matter %} {% endblock %}"
 
@@ -1375,240 +1375,215 @@ msgid "If the language you plan to help out with doesn't already exist, there ar
 msgstr "Pokud jazyk, se kterým chcete pomáhat, ještě neexistuje, je třeba provést několik dalších kroků, než budete moci začít:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:21
-msgid "Create the `/docs/mkdocs.language-code.yml` file, with language-specific content."
-msgstr "Vytvořte soubor `/docs/mkdocs.language-code.yml` s obsahem specifickým pro daný jazyk."
+msgid "Create the `/docs/zensical.language-code.toml` file, with language-specific content."
+msgstr "Vytvořte soubor `/docs/zensical.language-code.toml` s obsahem specifickým pro daný jazyk."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:22
 msgid "Update `tox.ini` to include the new language build commands."
 msgstr "Aktualizujte `tox.ini` tak, aby obsahoval nové příkazy pro sestavení jazyka."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:23
-msgid "Update `/docs/config.yml` to include the language under `extra: alternate:`."
-msgstr "Aktualizujte `/docs/config.yml` tak, aby zahrnovalo jazyk pod `extra: alternate:`."
+msgid "Update `/docs/zensical.toml` to include the language in `extra.alternate`."
+msgstr "Aktualizujte `/docs/zensical.toml` tak, aby zahrnovalo jazyk pod `extra.alternate`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:25
 msgid "The following demonstrates the necessary changes using German as an example; a German translation already exists; replace the references to German, `de`, or other content for the language you're targeting."
 msgstr "Následující příklad ukazuje nezbytné změny na příkladu němčiny; německý překlad již existuje; nahraďte odkazy na němčinu, `de` nebo jiný obsah jazykem, na který se zaměřujete."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:27
-msgid "A new MkDocs configuration file"
-msgstr "Nový konfigurační soubor MkDocs"
+#, fuzzy
+msgid "A new language configuration file"
+msgstr "Nový konfigurační soubor Zensical"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:29
-msgid "First, create a new file named `mkdocs.de.yml` in the `docs` directory, with the following content:"
-msgstr "Nejprve vytvořte nový soubor s názvem `mkdocs.de.yml` v adresáři `docs` s následujícím obsahem:"
+msgid "First, create a new file named `zensical.de.toml` in the `docs` directory, with the following content:"
+msgstr "Nejprve vytvořte nový soubor s názvem `zensical.de.toml` v adresáři `docs` s následujícím obsahem:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:31
 msgid ""
-"INHERIT: config.yml\n"
-"site_name: {{ formal_name }} Dokumentation\n"
-"site_url: {% if config.extra.website %}https://beeware.org/de{% else %}https://{{ project_name }}.beeware.org/de{% endif %}\n"
-"docs_dir: de\n"
+"[project]\n"
+"site_name = \"{{ formal_name }} Dokumentation\"\n"
+"docs_dir = \"de\"\n"
 "\n"
-"theme:\n"
-"  language: de\n"
+"[project.theme]\n"
+"language = \"de\"\n"
 "\n"
-"extra:\n"
-"  language_url: de/\n"
-"  translation_type: machine\n"
-"  header:\n"
-"    About: Über\n"
-"    Documentation: Dokumentation\n"
-"    Community: Gemeinschaft\n"
-"    Contributing: Mitwirken\n"
-"    News: Neuigkeiten\n"
-"    Sponsor: Förderer"
+"[project.extra]\n"
+"language_url = \"de/\"\n"
+"translation_type = \"machine\"\n"
+"\n"
+"[project.extra.header]\n"
+"About = \"Über\"\n"
+"Documentation = \"Dokumentation\"\n"
+"Community = \"Gemeinschaft\"\n"
+"Contributing = \"Mitwirken\"\n"
+"News = \"Neuigkeiten\"\n"
+"Sponsor = \"Förderer\""
 msgstr ""
-"INHERIT: config.yml\n"
-"site_name: {{ formal_name }} Dokumentace\n"
-"site_url: {% if config.extra.website %}https://beeware.org/de{% else %}https://{{ project_name }}.beeware.org/de{% endif %}\n"
-"docs_dir: de\n"
-"\n"
-"theme:\n"
-"  language: de\n"
-"\n"
-"extra:\n"
-"  language_url: de/\n"
-"  translation_type: machine\n"
-"  header:\n"
-"    About: O nás\n"
-"    Documentation: Dokumentace\n"
-"    Community: Komunita\n"
-"    Contributing: Přispívání\n"
-"    News: Novinky\n"
-"    Sponsor: Sponzoři"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:52
 msgid "Here's what is going on in this file:"
 msgstr "Toto se děje v tomto souboru:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:54
-msgid "This file inherits the configuration content from `config.yml`."
-msgstr "Tento soubor dědí obsah konfigurace z `config.yml`."
+#, fuzzy
+msgid "The settings in this file are applied on top of the configuration in `zensical.toml`. Only settings that are specific to the language should be included."
+msgstr "Tento soubor dědí obsah konfigurace z `zensical.toml`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:55
 msgid "The `site_name` value is translated."
 msgstr "Hodnota `site_name` je přeložena."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:56
-msgid "The `site_url` value is the project site URL, followed by the language code."
-msgstr "Hodnota `site_url` je adresa URL webu projektu, za kterou následuje kód jazyka."
-
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:57
 msgid "The `docs_dir` should be the language code."
 msgstr "`docs_dir` by měl být kód jazyka."
 
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:57
+msgid "The `theme.language` value should be the language code, as [specified by the Zensical theme]{1}. For most languages, this will be the same as the `docs_dir` language code; but for some (in particular languages with locale variants like `zh_CN`), there are differences."
+msgstr "Hodnota `theme.language` by měla být kód jazyka, jak je [specifikováno tématem Zensical]{1}. Pro většinu jazyků bude stejná jako kód jazyka `docs_dir`, ale u některých (zejména u jazyků s variantami locale, jako je `zh_CN`) existují rozdíly."
+
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:58
-msgid "The `theme: language:` value should be the language code, as [specified by the MkDocs Material theme]{1}. For most languages, this will be the same as the `docs_dir` language code; but for some (in particular languages with locale variants like `zh_CN`), there are differences."
-msgstr "Hodnota `theme: language:` by měla být kód jazyka, jak je [specifikováno tématem MkDocs Material]{1}. Pro většinu jazyků bude stejná jako kód jazyka `docs_dir`, ale u některých (zejména u jazyků s variantami locale, jako je `zh_CN`) existují rozdíly."
+msgid "The `extra.language_url` should be the language code, followed by a single slash, e.g. `de/` for German."
+msgstr "`extra.language_url` by měl být kód jazyka, za nímž následuje jediná lomítka, např. `de/` pro němčinu."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:59
-msgid "The `extra: language_url:` should be the language code, followed by a single slash, e.g. `de/` for German."
-msgstr "`extra: language_url:` by měl být kód jazyka, za nímž následuje jediná lomítka, např. `de/` pro němčinu."
+msgid "The `extra.translation_type` should be `machine` until the translation reaches 100% for the first time, at which point it should be `human`. It will revert to `machine` from `human` if it regresses to below 90%."
+msgstr "`extra.translation_type` by mělo být `machine`, dokud překlad poprvé nedosáhne 100 %; v tom okamžiku by mělo být `human`. Pokud překlad klesne pod 90 %, vrátí se z `human` zpět na `machine`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:60
-msgid "The `extra: translation_type:` should be `machine` until the translation reaches 100% for the first time, at which point it should be `human`. It will revert to `machine` from `human` if it regresses to below 90%."
-msgstr "`extra: translation_type:` by mělo být `machine`, dokud překlad poprvé nedosáhne 100 %; v tom okamžiku by mělo být `human`. Pokud překlad klesne pod 90 %, vrátí se z `human` zpět na `machine`."
+msgid "The content under `extra.header` is the translations for titles that appear in the header bar. This definition is *not* required on the main BeeWare website; it is only required on *other* sites (such as the tutorial, or project documentation)."
+msgstr "Obsah pod `extra.header` jsou překlady názvů, které se zobrazují v záhlaví. Tato definice *není* vyžadována na hlavní webové stránce BeeWare; je vyžadována pouze na *jiných* stránkách (například v tutoriálu nebo v dokumentaci k projektu)."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:61
-msgid "The content under `extra: header` is the translations for titles that appear in the header bar. This definition is *not* required on the main BeeWare website; it is only required on *other* sites (such as the tutorial, or project documentation)."
-msgstr "Obsah pod `extra: header` jsou překlady názvů, které se zobrazují v záhlaví. Tato definice *není* vyžadována na hlavní webové stránce BeeWare; je vyžadována pouze na *jiných* stránkách (například v tutoriálu nebo v dokumentaci k projektu)."
-
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:63
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:62
 msgid "Update `tox.ini`"
 msgstr "Aktualizovat `tox.ini`"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:65
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:64
 msgid "You'll need to make several changes to the `tox.ini` file."
 msgstr "Budete muset provést několik změn v souboru `tox.ini`."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:67
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:66
 msgid "You would add the following:"
 msgstr "Přidali byste následující:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:69
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:68
 msgid "The new language code environment flag to the header line which begins `[testenv:docs`, with the language code preceded by a `-`, with no spaces included, e.g. `-de`."
 msgstr "Nový příznak jazykového kódu v záhlaví řádku, který začíná `[testenv:docs`, s jazykovým kódem předcházejícím `-`, bez mezer, např. `-de`."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:70
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:69
 msgid "The new language code exclusion to the first command, which begins with `!lint`, preceded by `-!`, with no spaces included, e.g. `-!de`."
 msgstr "Nové vyloučení jazykového kódu z prvního příkazu, který začíná znaky `!lint`, před nimiž jsou znaky `-!`, bez mezer, např. `-!de`."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:71
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:70
 msgid "The new language code to the line beginning with `translate : build_po_translations`."
 msgstr "Nový jazykový kód pro řádek začínající `translate : build_po_translations`."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:72
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:71
 msgid "The new language code to the line beginning with `translate : update_machine_translations`"
 msgstr "Nový jazykový kód pro řádek začínající znaky `translate : update_machine_translations`"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:73
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:72
 msgid "A new command, beginning with, for example, `de : build_md_translations` for German, alphabetically within the existing language-specific commands that matches the content of those commands, with the new language code."
 msgstr "Nový příkaz, začínající například `de : build_md_translations` pro němčinu, abecedně v rámci stávajících příkazů specifických pro daný jazyk, který odpovídá obsahu těchto příkazů, s novým kódem jazyka."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:74
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:73
 msgid "The new language code to the line beginning with `all:`."
 msgstr "Nový jazykový kód pro řádek začínající `all:`."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:76
-msgid "Update `config.yml`"
-msgstr "Aktualizace `config.yml`"
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:75
+msgid "Update `zensical.toml`"
+msgstr "Aktualizace `zensical.toml`"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:78
-msgid "Add the language to `config.yml` so it will show up in the language selector in the header. Find the section beginning with `extra:`, and then locate the subsection beginning with `alternate:`. For German, you would add the following:"
-msgstr "Přidejte jazyk do `config.yml`, aby se zobrazil v nabídce pro výběr jazyka v záhlaví. Najděte sekci začínající `extra:`, a poté vyhledejte podsekci začínající `alternate:`. Pro němčinu byste přidali následující:"
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:77
+#, fuzzy
+msgid "Add the language to `zensical.toml` so it will show up in the language selector in the header. Find the section beginning with `[project.extra]`, and then locate the `alternate` setting. For German, you would add the following:"
+msgstr "Přidejte jazyk do `zensical.toml`, aby se zobrazil v nabídce pro výběr jazyka v záhlaví. Najděte sekci začínající `[project.extra]`, a poté vyhledejte podsekci začínající `alternate`. Pro němčinu byste přidali následující:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:80
-msgid ""
-"- name: Deutsch\n"
-"      link: /de/\n"
-"      lang: de"
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:79
+msgid "{ name = \"Deutsch\", link = \"/de/\", lang = \"de\" },"
 msgstr ""
-"- název: Němčina\n"
-" odkaz: /de/\n"
-" jazyk: de"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:86
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:83
 msgid "The language name should be translated into the language. The link must include the `/`s."
 msgstr "Název jazyka by měl být přeložen do daného jazyka. Odkaz musí obsahovat znaky `/`."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:88
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:85
 msgid "Run `tox translate`"
 msgstr "Spustit `tox translate`"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:90
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:87
 msgid "You can now run `tox -e docs-translate`. This will generate an empty translation file; if you have a DeepL account, you can use that account to populate initial machine translations. If you don't have a DeepL account, that's fine - we'll run initial translations ourselves before accepting the pull request."
 msgstr "Nyní můžete spustit `tox -e docs-translate`. Tím se vygeneruje prázdný překladový soubor. Pokud máte účet DeepL, můžete jej použít k vyplnění počátečních strojových překladů. Pokud účet DeepL nemáte, nevadí – počáteční překlady provedeme sami, než přijmeme žádost o stažení."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:92
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:89
 msgid "Translation guidelines"
 msgstr "Pokyny pro překlad"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:94
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:91
 msgid "Once you've been added to the team, it's time to log into [Weblate]{1} and begin working through translating strings."
 msgstr "Jakmile budete přidáni do týmu, je čas se přihlásit do [Weblate]{1} a začít pracovat na překladu řetězců."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:96
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:93
 msgid "Tone versus word-for-word translation"
 msgstr "Tón versus doslovný překlad"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:98
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:95
 msgid "It's more important to maintain the tone of the English text than to strive for a word-for-word translation. We try to be friendly and a bit colloquial in our content; try to maintain the spirit of that in your translations."
 msgstr "Je důležitější zachovat tón anglického textu než usilovat o doslovný překlad. Ve svém obsahu se snažíme být přátelští a trochu hovorní; snažte se zachovat tohoto ducha ve svých překladech."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:100
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:97
 msgid "If the English text contains a strong English idiom, don't feel beholden to maintain the idiom, if there is an analog in your language that would work equally well. If the term or phrase in the English text is a particularly idiomatic or slang term, don't be afraid to tell us we should consider making a change. Even for English speakers, idioms and slang can pose difficulty. Sometimes we need to change the English text to make it more straightforward for translators and readers alike."
 msgstr "Pokud anglický text obsahuje silný anglický idiom, nemusíte se cítit povinni tento idiom zachovat, pokud ve vašem jazyce existuje ekvivalent, který by fungoval stejně dobře. Pokud je termín nebo fráze v anglickém textu obzvláště idiomatický nebo slangový, nebojte se nám sdělit, že bychom měli zvážit jeho změnu. I pro mluvčí angličtiny mohou idiomy a slang představovat obtíž. Někdy je třeba anglický text změnit, aby byl srozumitelnější jak pro překladatele, tak pro čtenáře."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:102
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:99
 msgid "Should I translate it?"
 msgstr "Mám to přeložit?"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:104
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:101
 msgid "The following items should *not* be translated or updated:"
 msgstr "Následující položky by *neměly* být překládány ani aktualizovány:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:106
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:103
 msgid "**Commands**. For example, in \"You should run \\`briefcase create\\`.\", only \"You should run\" should be translated."
 msgstr "**Příkazy**. Například ve větě „Měli byste spustit \\`briefcase create\\`.“ by se mělo přeložit pouze „Měli byste spustit“."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:107
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:104
 msgid "**Namespaces**, such as class, method, or attribute names."
 msgstr "**Prostory jmen**, jako jsou názvy tříd, metod nebo atributů."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:108
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:105
 msgid "**Link URLs**. Standard Markdown links should appear in Weblate as `[Link text]{1}`, where `1` is the position of the link in the string with reference to other possible links. If the full URL is included in the string, as `[Link text](https://example.com/)`, the URL should be skipped for translation."
 msgstr "**URL odkazů**. Standardní odkazy ve formátu Markdown by se ve Weblate měly zobrazovat jako `[Link text]{1}`, kde `1` označuje pozici odkazu v řetězci vzhledem k ostatním možným odkazům. Pokud je v řetězci uvedena úplná URL adresa, například `[Link text](https://example.com/)`, měla by být při překladu vynechána."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:109
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:106
 msgid "**Reference links containing class, method or attribute names**. These should be left as-is, including the backticks. Every part of the example link shown here would not be translated."
 msgstr "**Odkazy obsahující názvy tříd, metod nebo atributů**. Tyto odkazy by měly zůstat beze změny, včetně zpětných lomítek. Žádná část zde uvedeného příkladu odkazu by neměla být překládána."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:109
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:106
 msgid "[`Class.attribute`][Class.attribute]"
 msgstr "[`Class.attribute`][Třída.atribut]"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:115
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:112
 msgid "**The link content of a Reference link**. For example, `link-content` would be skipped in the following:"
 msgstr "**Obsah odkazu Reference**. Například `link-content` by bylo v následujícím příkladu přeskočeno:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:115 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:139
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:112 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:136
 msgid "[Link text][link-content]"
 msgstr "[Text odkazu][obsah odkazu]"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:121
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:118
 msgid "**Jinja directives**. This is any content wrapped inside two pairs of matching curly braces, or a matching pair of single curly braces with percent signs inside each end. Note: Including an example of the syntax here causes the Macros plugin to attempt to render it; see the [Macros documentation]{1} for examples."
 msgstr "**Jinja direktivy**. Jedná se o jakýkoli obsah uzavřený mezi dvěma páry shodných složených závorek nebo mezi párem shodných jednoduchých složených závorek s procenty na obou koncích. Poznámka: Pokud sem vložíte příklad syntaxe, plugin Macros se pokusí jej vykreslit; příklady najdete v [dokumentaci k makrům]{1}."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:122
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:119
 msgid "**Custom anchors**. They are found after headers or above some content, and are formatted as `{ #anchor }`."
 msgstr "**Vlastní kotvy**. Nacházejí se za záhlavími nebo nad určitým obsahem a jsou formátovány jako `{ #anchor }`."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:123
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:120
 msgid "**Admonition syntax**. In the following example, the word \"admonition\" should not be translated. This goes for all styles of admonitions, including notes, warnings, etc. See the next section for information on translating the rest of the content."
 msgstr "**Syntaxe napomenutí**. V následujícím příkladu by slovo „napomenutí“ nemělo být překládáno. To platí pro všechny styly napomenutí, včetně poznámek, varování atd. Informace o překladu zbytku obsahu naleznete v následující části."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:123
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:120
 msgid ""
 "/// admonition | Page Title\n"
 "\n"
@@ -1622,43 +1597,43 @@ msgstr ""
 "\n"
 "///"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:133
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:130
 msgid "**Backticks**. They are meant to stay as backticks; they are used for formatting both inline code and code blocks."
 msgstr "**Zpětné lomítko**. Mají zůstat jako zpětná lomítka; používají se pro formátování jak vloženého kódu, tak bloků kódu."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:134
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:131
 msgid "**The syntax for including external content**. This is anything on the same line as `-8<-`, or on the lines between two `-8<-` on separate lines."
 msgstr "**Syntaxe pro zahrnutí externího obsahu**. Jedná se o cokoli na stejném řádku jako `-8<-` nebo na řádcích mezi dvěma `-8<-` na samostatných řádcích."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:136
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:133
 msgid "The following items *should* be translated:"
 msgstr "Následující položky *by* měly být přeloženy:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:138
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:135
 msgid "**Link text**. In link syntax, the text comes before the URL, and is enclosed in brackets, as in `[Link text](URL)`. Standard Markdown links should appear in Weblate as `[Link text]{1}`, where `1` is the position of the link in the string with reference to other possible links."
 msgstr "**Text odkazu**. V syntaxi odkazu se text uvádí před URL adresou a je uzavřen v závorkách, jako v `[Link text](URL)`. Standardní odkazy Markdown by se měly v Weblate zobrazovat jako `[Link text]{1}`, kde `1` je pozice odkazu v řetězci s odkazem na jiné možné odkazy."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:139
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:136
 msgid "**Reference link text**. For example, `Link text` would be translated in the following:"
 msgstr "**Text odkazu**. Například `Link text` by bylo přeloženo následovně:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:145
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:142
 msgid "**Admonition titles and content**. In the previous admonition example, \"Page Title\" and \"Content.\" should be translated."
 msgstr "**Názvy a obsah napomenutí**. V předchozím příkladu napomenutí je třeba přeložit „Název stránky“ a „Obsah“."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:147
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:144
 msgid "Weblate"
 msgstr "Weblate"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:149
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:146
 msgid "We use [Weblate]{1} for our content translation. When we add a new translation, we use [DeepL]{2} for machine translation to produce a first pass at translations. That means, typically, the content you'll be translating is already machine translated. The expectation is that you, as a translator, will review, edit, and improve the existing machine translation."
 msgstr "Pro překlad obsahu používáme [Weblate]{1}. Když přidáváme nový překlad, používáme [DeepL]{2} pro strojový překlad, abychom vytvořili první verzi překladu. To znamená, že obsah, který budete překládat, je obvykle již strojově přeložen. Očekává se, že jako překladatel budete stávající strojový překlad zkontrolovat, upravit a vylepšit."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:151
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:148
 msgid "Weblate processes everything on a string-by-string basis. It batches changes, and every couple of hours, it will submit a bulk commit with all the strings that have changed in that interval. So, it may take a couple of hours for your changes to show up on the website, but you can expect the update to appear within four hours."
 msgstr "Weblate zpracovává vše po jednotlivých řetězcích. Změny seskupuje a každých pár hodin odešle hromadný commit se všemi řetězci, které se v daném intervalu změnily. Může tedy trvat několik hodin, než se vaše změny projeví na webových stránkách, ale můžete očekávat, že aktualizace se objeví do čtyř hodin."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:153
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:150
 msgid "If after that time, your changes still haven't appeared, the likely cause is a markup error, resulting in a failure in the docs build for that language. Any markup problem in any string will block the entire translation from being public. You can keep an eye on the build page for your language to see whether it has successfully built. The link is formatted similarly to this link to the French build page {% if config.extra.website %}[https://app.readthedocs.org/projects/beewareorg/]{1}{% else %}[https://app.readthedocs.org/projects/{{ project_name }}/](https://app.readthedocs.org/projects/{{ project_name }}/){% endif %}; change the language code to your language to view the appropriate build page. This will show the state of the most recent build of the site. If the build fails, look at the build log, and see if you can identify the source of the problem."
 msgstr "Pokud se vaše změny ani po uplynutí této doby nezobrazí, pravděpodobnou příčinou je chyba v značkách, která vede k selhání sestavení dokumentace pro daný jazyk. Jakýkoli problém se značkami v jakémkoli řetězci zablokuje zveřejnění celého překladu. Můžete sledovat stránku sestavení pro váš jazyk, abyste zjistili, zda se sestavení podařilo. Odkaz je formátován podobně jako tento odkaz na francouzskou stránku sestavení {% if config.extra.website %}[https://app.readthedocs.org/projects/beewareorg/]{1}{% else %}[https://app.readthedocs.org/projects/{{ project_name }}/](https://app.readthedocs.org/projects/{{ project_name }}/){% endif %}; změňte kód jazyka na svůj jazyk, abyste zobrazili příslušnou stránku sestavení. Zobrazí se stav nejnovějšího sestavení webu. Pokud sestavení selže, podívejte se do protokolu sestavení a zkuste zjistit příčinu problému."
 
@@ -1999,30 +1974,32 @@ msgid "You'll need to create the document in the appropriate location within the
 msgstr "Dokument budete muset vytvořit na příslušném místě v adresáři `docs/en`. Pro účely této diskuse budeme předpokládat, že přidáváte nový dokument s názvem `new_doc.md`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:17
-msgid "Then, you'll need to update the `docs/en/SUMMARY.md` file to include your new file. `SUMMARY.md` is organized to basically reflect the `docs/en` directory structure, but, more importantly, directly determines the structure of the left sidebar. If you locate the section where you intend to include `new_doc.md`, you do not need to change anything in `SUMMARY.md` if you see a wildcard path listed. For example:"
-msgstr "Poté budete muset aktualizovat soubor `docs/en/SUMMARY.md`, aby zahrnoval váš nový soubor. Soubor `SUMMARY.md` je uspořádán tak, aby v zásadě odrážel strukturu adresáře `docs/en`, ale co je důležitější, přímo určuje strukturu levého postranního panelu. Pokud najdete sekci, do které chcete zahrnout `new_doc.md`, nemusíte v souboru `SUMMARY.md` nic měnit, pokud vidíte uvedenou cestu se zástupnými znaky. Například:"
+msgid "Then, you'll need to add your new file to the `nav` setting in `docs/zensical.toml`. The `nav` setting is organized to basically reflect the `docs/en` directory structure, but, more importantly, directly determines the structure of the left sidebar. Locate the section where you intend to include `new_doc.md`, and add an entry for it, with the title you want to appear in the sidebar, and the path to the file, relative to `docs/en`. For example:"
+msgstr ""
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:19
-msgid "- ./path/to/directory/*"
-msgstr "- ./cesta/k/adresáři/*"
+msgid ""
+"nav = [\n"
+"    { \"Existing section\" = [\n"
+"        { \"Existing document\" = \"path/to/existing_doc.md\" },\n"
+"        { \"My new document\" = \"path/to/new_doc.md\" },\n"
+"    ] },\n"
+"]"
+msgstr ""
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:23
-msgid "If the section where you intend to include `new_doc.md` is a list of individual Markdown links, you'll need to add an explicit link to yours. For example:"
-msgstr "Pokud je část, do které chcete vložit `new_doc.md`, seznamem jednotlivých odkazů Markdown, budete muset přidat explicitní odkaz na ten svůj. Například:"
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:28
+msgid "The titles in the `nav` setting are translated along with the rest of the documentation."
+msgstr ""
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:25
-msgid "- [My new document](new_doc.md)"
-msgstr "- [Můj nový dokument](new_doc.md)"
-
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:29
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:30
 msgid "Writing your documentation"
 msgstr "Psaní dokumentace"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:31
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:32
 msgid "You can now open the desired file into your editor, and begin writing."
 msgstr "Nyní můžete otevřít požadovaný soubor ve svém editoru a začít psát."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:33
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:34
 msgid "We have a [documentation style guide]{1} that outlines our guidelines for writing documentation for BeeWare."
 msgstr "Máme [průvodce stylem dokumentace]{1}, který popisuje naše pokyny pro psaní dokumentace pro BeeWare."
 
@@ -2651,8 +2628,8 @@ msgstr ""
 " \"\"\"Testovací dokumentační řetězec vypadá takto (#123456).\"\"\""
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:1
-msgid "This guide includes information on expected style, MkDocs-specific syntax, various required tools, and documentation translation, with regard to writing new content and translating existing content."
-msgstr "Tato příručka obsahuje informace o očekávaném stylu, syntaxi specifické pro MkDocs, různých požadovaných nástrojích a překladu dokumentace, s ohledem na psaní nového obsahu a překlad stávajícího obsahu."
+msgid "This guide includes information on expected style, Zensical-specific syntax, various required tools, and documentation translation, with regard to writing new content and translating existing content."
+msgstr "Tato příručka obsahuje informace o očekávaném stylu, syntaxi specifické pro Zensical, různých požadovaných nástrojích a překladu dokumentace, s ohledem na psaní nového obsahu a překlad stávajícího obsahu."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:3
 msgid "General style"
@@ -2699,8 +2676,8 @@ msgid "You should cross-reference content in documentation whenever possible. Th
 msgstr "V dokumentaci byste měli pokud možno používat křížové odkazy na obsah. Tato část popisuje různé způsoby, jak toho dosáhnout, přičemž každý z nich závisí na typu informací, na které odkazujete."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:18
-msgid "MkDocs renders standard Markdown formatted links. Standard Markdown formatted web hyperlinks are as follows:"
-msgstr "MkDocs vykresluje standardní odkazy ve formátu Markdown. Standardní webové hypertextové odkazy ve formátu Markdown mají následující podobu:"
+msgid "Zensical renders standard Markdown formatted links. Standard Markdown formatted web hyperlinks are as follows:"
+msgstr "Zensical vykresluje standardní odkazy ve formátu Markdown. Standardní webové hypertextové odkazy ve formátu Markdown mají následující podobu:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:20
 msgid "[Link text](https://example.com/)"
@@ -2715,8 +2692,8 @@ msgid "[Link text](path/to/file.md)"
 msgstr "[Text odkazu](cesta/k/souboru.md)"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:30
-msgid "Referencing specific sections of files, or API documentation requires using the MkDocs reference link format."
-msgstr "Odkazování na konkrétní části souborů nebo dokumentace API vyžaduje použití formátu odkazů MkDocs."
+msgid "Referencing specific sections of files, or API documentation requires using the Zensical reference link format."
+msgstr "Odkazování na konkrétní části souborů nebo dokumentace API vyžaduje použití formátu odkazů Zensical."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:32
 msgid "Custom Markdown anchors and content cross-referencing"
@@ -2727,12 +2704,12 @@ msgid "Markdown generates anchors for all headers (anything on a single line sta
 msgstr "Markdown generuje kotvy pro všechny záhlaví (vše, co je na jednom řádku a začíná jedním až šesti symboly `#`), na základě obsahu záhlaví. Například kotva generovaná pro tuto sekci je `custom-markdown-anchors-and-content-cross---referencing`. Avšak vzhledem k tomu, jak fungují naše překlady, musí mít každé záhlaví sekce, na které se odkazuje, vlastní kotvu."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:36
-msgid "MkDocs supports rendering a reference link syntax that allows you to link to various other elements in the documentation using a modified Markdown link. This includes linking to, among other things, custom Markdown headers and text anchors."
-msgstr "MkDocs podporuje vykreslování syntaxe odkazů, která umožňuje propojit různé prvky v dokumentaci pomocí upraveného odkazu Markdown. To zahrnuje mimo jiné propojení s vlastními záhlavími Markdown a textovými kotvami."
+msgid "Zensical supports rendering a reference link syntax that allows you to link to various other elements in the documentation using a modified Markdown link. This includes linking to, among other things, custom Markdown headers and text anchors."
+msgstr "Zensical podporuje vykreslování syntaxe odkazů, která umožňuje propojit různé prvky v dokumentaci pomocí upraveného odkazu Markdown. To zahrnuje mimo jiné propojení s vlastními záhlavími Markdown a textovými kotvami."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:38
-msgid "MkDocs reference links are any links formatted as follows:"
-msgstr "Odkazy MkDocs jsou jakékoli odkazy ve formátu:"
+msgid "Zensical reference links are any links formatted as follows:"
+msgstr "Odkazy Zensical jsou jakékoli odkazy ve formátu:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:40
 msgid "[Link text][link-target]"
@@ -2743,8 +2720,8 @@ msgid "/// warning | Custom header and content anchors are required"
 msgstr "/// warning | Custom header and content anchors are required"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:46
-msgid "Any header or content section that is referenced in text content via a MkDocs reference link in the BeeWare documentation _must_ have a custom anchor attached. Otherwise, there is the potential to break the links when header content is translated."
-msgstr "Každá sekce záhlaví nebo obsahu, na kterou se odkazuje v textovém obsahu prostřednictvím odkazu MkDocs v dokumentaci BeeWare, musí mít připojenou vlastní kotvu. V opačném případě hrozí, že při překladu obsahu záhlaví dojde k poškození odkazů."
+msgid "Any header or content section that is referenced in text content via a Zensical reference link in the BeeWare documentation _must_ have a custom anchor attached. Otherwise, there is the potential to break the links when header content is translated."
+msgstr "Každá sekce záhlaví nebo obsahu, na kterou se odkazuje v textovém obsahu prostřednictvím odkazu Zensical v dokumentaci BeeWare, musí mít připojenou vlastní kotvu. V opačném případě hrozí, že při překladu obsahu záhlaví dojde k poškození odkazů."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:50
 msgid "If you need to link to a header anchor, you will need to generate a custom anchor for the intended content. The general syntax for setting a custom anchor is as follows:"
@@ -2793,8 +2770,8 @@ msgid "[Link text](#anchor-name)"
 msgstr "[Text odkazu](#anchor-name)"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:80
-msgid "Linking to an anchor in a separate document uses the MkDocs reference link style, which is formatted as follows:"
-msgstr "Odkaz na kotvu v samostatném dokumentu používá styl odkazu MkDocs, který je formátován následovně:"
+msgid "Linking to an anchor in a separate document uses the Zensical reference link style, which is formatted as follows:"
+msgstr "Odkaz na kotvu v samostatném dokumentu používá styl odkazu Zensical, který je formátován následovně:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:82
 msgid "[Link text][anchor-name]"
@@ -2805,8 +2782,8 @@ msgid "API reference links"
 msgstr "Odkazy na referenční API"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:88
-msgid "The MkDocs reference linking also supports cross-referencing API documentation, including documented classes, class methods or attributes, and specific external documentation references."
-msgstr "Odkazy MkDocs také podporují křížové odkazy na dokumentaci API, včetně dokumentovaných tříd, metod nebo atributů tříd a konkrétních odkazů na externí dokumentaci."
+msgid "Zensical reference linking also supports cross-referencing API documentation, including documented classes, class methods or attributes, and specific external documentation references."
+msgstr "Odkazy Zensical také podporují křížové odkazy na dokumentaci API, včetně dokumentovaných tříd, metod nebo atributů tříd a konkrétních odkazů na externí dokumentaci."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:90
 msgid "There are multiple options for linking to a documented class, or a class method or attribute, regardless of whether you are linking from the same file or a separate file. When linking to classes, etc., you must include backticks in the first set of square brackets to render the name as inline code. The backticks are not necessary only if you are using custom text that should not be rendered as inline code. Backticks should never be included in the second set of square brackets."
@@ -3309,8 +3286,9 @@ msgid "Using Macros to include content from BeeWare Docs Tools shared content"
 msgstr "Použití maker k vložení obsahu z BeeWare Docs Tools sdílený obsah"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:371
-msgid "You can also include content from the BeeWare Docs tools shared content directory using the [Macros MkDocs plugin]{1}. This method is necessary if the document contains Jinja directives that need to be executed, and should only be used in this situation. It will not work with external content via a URL. The [Macros variable-replacement mechanism]{2} works with this method."
-msgstr "Můžete také zahrnout obsah ze sdíleného adresáře nástrojů BeeWare Docs pomocí [pluginu Macros MkDocs]{1}. Tato metoda je nezbytná, pokud dokument obsahuje direktivy Jinja, které je třeba provést, a měla by být použita pouze v této situaci. Nefunguje s externím obsahem přes URL. S touto metodou funguje [mechanismus nahrazování proměnných Macros]{2}."
+#, fuzzy
+msgid "You can also include content from the BeeWare Docs tools shared content directory using [Macros]{1}, which Zensical supports natively. This method is necessary if the document contains Jinja directives that need to be executed, and should only be used in this situation. It will not work with external content via a URL. The [Macros variable-replacement mechanism]{2} works with this method."
+msgstr "Můžete také zahrnout obsah ze sdíleného adresáře nástrojů BeeWare Docs pomocí [Macros]{1}. Tato metoda je nezbytná, pokud dokument obsahuje direktivy Jinja, které je třeba provést, a měla by být použita pouze v této situaci. Nefunguje s externím obsahem přes URL. S touto metodou funguje [mechanismus nahrazování proměnných Macros]{2}."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:373
 msgid "There are options for including content using Macros:"
@@ -3729,8 +3707,8 @@ msgid "Documentation forms { #docs-form }"
 msgstr "Formuláře dokumentace { #docs-form }"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:5
-msgid "{{ formal_name }}'s documentation is written using [MkDocs and Markdown]{1}. We aim to follow the [Diataxis]{2} framework for structuring documentation."
-msgstr "{{ formal_name }}'s documentation is written using [MkDocs and Markdown]{1}. We aim to follow the [Diataxis]{2} framework for structuring documentation."
+msgid "{{ formal_name }}'s documentation is written using [Zensical]{1} and [Markdown]{2}. We aim to follow the [Diataxis]{3} framework for structuring documentation."
+msgstr "{{ formal_name }}'s documentation is written using [Zensical]{1} and [Markdown]{2}. We aim to follow the [Diataxis]{3} framework for structuring documentation."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:7
 msgid "The Diataxis framework describes four \"forms\" of documentation:"

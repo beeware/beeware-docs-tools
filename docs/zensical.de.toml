@@ -1,0 +1,18 @@
+[project]
+site_name = "BeeWare Werkzeuge für die Dokumentation"
+docs_dir = "de"
+
+[project.theme]
+language = "de"
+
+[project.extra]
+language_url = "de/"
+translation_type = "human"
+
+[project.extra.header]
+About = "Über"
+Documentation = "Dokumentation"
+Community = "Gemeinschaft"
+Contributing = "Beitrag leisten"
+News = "Nachrichten"
+Sponsor = "Sponsor"

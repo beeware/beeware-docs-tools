@@ -1,4 +1,4 @@
-This guide includes information on expected style, MkDocs-specific syntax, various required tools, and documentation translation, with regard to writing new content and translating existing content.
+This guide includes information on expected style, Zensical-specific syntax, various required tools, and documentation translation, with regard to writing new content and translating existing content.
 
 ## General style
 
@@ -15,7 +15,7 @@ This guide includes information on expected style, MkDocs-specific syntax, vario
 
 You should cross-reference content in documentation whenever possible. This section covers the various ways you can do that, each of which are based on the type of information being referenced.
 
-MkDocs renders standard Markdown formatted links. Standard Markdown formatted web hyperlinks are as follows:
+Zensical renders standard Markdown formatted links. Standard Markdown formatted web hyperlinks are as follows:
 
 ```markdown
 [Link text](https://example.com/)
@@ -27,15 +27,15 @@ You can also use this format to link to a local file:
 [Link text](path/to/file.md)
 ```
 
-Referencing specific sections of files, or API documentation requires using the MkDocs reference link format.
+Referencing specific sections of files, or API documentation requires using the Zensical reference link format.
 
 ### Custom Markdown anchors and content cross-referencing
 
 Markdown generates anchors for all headers (anything on a single line starting with between one and six `#` symbols), based on the content of the header. For example, the anchor generated for this section is `custom-markdown-anchors-and-content-cross---referencing`. However, due to the way that our translations work, anytime a section header is referenced, it must have a custom anchor.
 
-MkDocs supports rendering a reference link syntax that allows you to link to various other elements in the documentation using a modified Markdown link. This includes linking to, among other things, custom Markdown headers and text anchors.
+Zensical supports rendering a reference link syntax that allows you to link to various other elements in the documentation using a modified Markdown link. This includes linking to, among other things, custom Markdown headers and text anchors.
 
-MkDocs reference links are any links formatted as follows:
+Zensical reference links are any links formatted as follows:
 
 ```markdown
 [Link text][link-target]
@@ -43,7 +43,7 @@ MkDocs reference links are any links formatted as follows:
 
 /// warning | Custom header and content anchors are required
 
-Any header or content section that is referenced in text content via a MkDocs reference link in the BeeWare documentation _must_ have a custom anchor attached. Otherwise, there is the potential to break the links when header content is translated.
+Any header or content section that is referenced in text content via a Zensical reference link in the BeeWare documentation _must_ have a custom anchor attached. Otherwise, there is the potential to break the links when header content is translated.
 
 ///
 
@@ -77,7 +77,7 @@ Standard Markdown is used to link to an anchor _in the same file_, which is form
 [Link text](#anchor-name)
 ```
 
-Linking to an anchor in a separate document uses the MkDocs reference link style, which is formatted as follows:
+Linking to an anchor in a separate document uses the Zensical reference link style, which is formatted as follows:
 
 ```markdown
 [Link text][anchor-name]
@@ -85,7 +85,7 @@ Linking to an anchor in a separate document uses the MkDocs reference link style
 
 ### API reference links
 
-The MkDocs reference linking also supports cross-referencing API documentation, including documented classes, class methods or attributes, and specific external documentation references.
+Zensical reference linking also supports cross-referencing API documentation, including documented classes, class methods or attributes, and specific external documentation references.
 
 There are multiple options for linking to a documented class, or a class method or attribute, regardless of whether you are linking from the same file or a separate file. When linking to classes, etc., you must include backticks in the first set of square brackets to render the name as inline code. The backticks are not necessary only if you are using custom text that should not be rendered as inline code. Backticks should never be included in the second set of square brackets.
 
@@ -208,7 +208,7 @@ Note text here.
 Content below.
 ```
 
-All [supported admonition types](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#supported-types) are available for use as admonitions.
+All [supported admonition types](https://zensical.org/docs/authoring/admonitions/#supported-types) are available for use as admonitions.
 
 ### Tabbed content
 
@@ -274,7 +274,7 @@ Collapsed content.
 Content below.
 ```
 
-All [supported admonition types](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#supported-types) are available for use with collapsed content, however, you must declare them as `details-admonitiontype`. So, a "note" type collapsed block would be `details-note` (as shown above), a "warning" type collapsed block would be `details-warning`, and so on.
+All [supported admonition types](https://zensical.org/docs/authoring/admonitions/#supported-types) are available for use with collapsed content, however, you must declare them as `details-admonitiontype`. So, a "note" type collapsed block would be `details-note` (as shown above), a "warning" type collapsed block would be `details-warning`, and so on.
 
 ### Jinja directives
 
@@ -368,7 +368,7 @@ Important notes:
 
 ### Using Macros to include content from BeeWare Docs Tools shared content
 
-You can also include content from the BeeWare Docs tools shared content directory using the [Macros MkDocs plugin](https://mkdocs-macros-plugin.readthedocs.io/en/latest/pages/). This method is necessary if the document contains Jinja directives that need to be executed, and should only be used in this situation. It will not work with external content via a URL. The [Macros variable-replacement mechanism](https://mkdocs-macros-plugin.readthedocs.io/en/latest/pages/#1-variable) works with this method.
+You can also include content from the BeeWare Docs tools shared content directory using [Macros](https://mkdocs-macros-plugin.readthedocs.io/en/latest/pages/), which Zensical supports natively. This method is necessary if the document contains Jinja directives that need to be executed, and should only be used in this situation. It will not work with external content via a URL. The [Macros variable-replacement mechanism](https://mkdocs-macros-plugin.readthedocs.io/en/latest/pages/#1-variable) works with this method.
 
 There are options for including content using Macros:
 

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-03 09:52+0000\n"
+"POT-Creation-Date: 2026-11-05 22:33-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,233 +11,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 3.20.1\n"
-
-#: docs/en/SUMMARY.md:1
-msgid ""
-"---\n"
-"search:\n"
-"  exclude: true\n"
-"---\n"
-"\n"
-msgstr ""
-"search:\n"
-"  exclude: true\n"
-"---\n"
-"\n"
-
-#: docs/en/SUMMARY.md:1
-#, fuzzy
-msgid "Section one"
-msgstr "بخش اول"
-
-#: docs/en/SUMMARY.md:1
-#, fuzzy
-msgid "[Section one]{1}"
-msgstr "[بخش اول]{1}"
-
-#: docs/en/SUMMARY.md:1
-#, fuzzy
-msgid "[Section one - page two]{1}"
-msgstr "[بخش یک - صفحه دو]{1}"
-
-#: docs/en/SUMMARY.md:4
-#, fuzzy
-msgid "[Section two]{1}"
-msgstr "[بخش دوم]{1}"
-
-#: docs/en/SUMMARY.md:5
-#, fuzzy
-msgid "[Section three]{1}"
-msgstr "[بخش سوم]{1}"
-
-#: docs/en/SUMMARY.md:5
-msgid "./section_three/*"
-msgstr "./section_three/*"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "Shared content testbed"
-msgstr "محیط آزمایشی محتوای مشترک"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Shared content testbed]{1}"
-msgstr "[محیط آزمایشی محتوای مشترک]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "How-to guides"
-msgstr "راهنمای چگونگی انجام"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "Contribute"
-msgstr "مشارکت کنید"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Contributing]{1}"
-msgstr "[مشارکت‌کننده]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[First-time contributors]{1}"
-msgstr "[نخستین مشارکت‌کنندگان]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "What can I do?"
-msgstr "چه کار می‌توانم بکنم؟"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Fix an issue]{1}"
-msgstr "[رفع یک مشکل]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Implement a new feature]{1}"
-msgstr "[پیاده‌سازی یک ویژگی جدید]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Write documentation]{1}"
-msgstr "[مستندسازی بنویسید]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Triage an issue]{1}"
-msgstr "[اولویت‌بندی یک مسئله]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Review a pull request]{1}"
-msgstr "[بررسی یک درخواست کشش]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Propose a new feature]{1}"
-msgstr "[پیشنهاد یک ویژگی جدید]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Translate content]{1}"
-msgstr "[محتوا را ترجمه کنید]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Use the tools]{1}"
-msgstr "[ابزارها را استفاده کنید]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "How do I contribute?"
-msgstr "چگونه مشارکت کنم؟"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Setting up a development environment]{1}"
-msgstr "[راه‌اندازی محیط توسعه]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Reproducing an issue]{1}"
-msgstr "[بازتولید یک شماره]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Working from a branch]{1}"
-msgstr "[کار کردن از یک شعبه]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Avoiding scope creep]{1}"
-msgstr "[اجتناب از گسترش دامنه]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Writing, running, and testing code]{1}"
-msgstr "[نوشتن، اجرا و تست کد]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Building documentation]{1}"
-msgstr "[مستندسازی ساختمان]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Writing documentation]{1}"
-msgstr "[نوشتن مستندات]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Adding a change note]{1}"
-msgstr "[افزودن یادداشت تغییر]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Submitting a pull request]{1}"
-msgstr "[ارسال یک درخواست ادغام]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Providing a review]{1}"
-msgstr "[ارائه یک نقد]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Submitting a new issue]{1}"
-msgstr "[ارسال یک مشکل جدید]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Proposing a new feature]{1}"
-msgstr "[پیشنهاد یک ویژگی جدید]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Translating content]{1}"
-msgstr "[محتوای در حال ترجمه]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "What happens next?"
-msgstr "بعد چه می‌شود؟"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Pull request review process]{1}"
-msgstr "[فرآیند بازبینی درخواست کشش]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Release process]{1}"
-msgstr "[فرآیند انتشار]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "Policies"
-msgstr "سیاست‌ها"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[AI Policy]{1}"
-msgstr "[سیاست‌گذاری هوش مصنوعی]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "Style guides"
-msgstr "راهنماهای سبک"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Code style guide]{1}"
-msgstr "[راهنمای سبک کد]{1}"
-
-#: docs/en/SUMMARY.md:7
-#, fuzzy
-msgid "[Documentation style guide]{1}"
-msgstr "[راهنمای سبک مستندسازی]{1}"
 
 #: docs/en/about/releases.md:1
 #, fuzzy
@@ -254,6 +27,12 @@ msgstr "این فایل صرفاً برای برآورده کردن لینک د�
 msgid "First-time contributors"
 msgstr "مشارکت‌کنندگان تازه‌کار"
 
+#: docs/en/titles.md:23
+#, fuzzy
+msgctxt "navigation"
+msgid "First-time contributors"
+msgstr "نخستین مشارکت‌کنندگان"
+
 #: docs/en/content_test_bed/how-to/contribute/first-time-contributors.md:3
 msgid "{% extends \"_shared/contribute/first-time-contributors.md\" %}"
 msgstr "{% extends \"_shared/contribute/first-time-contributors.md\" %}"
@@ -269,6 +48,12 @@ msgstr "{% extends \"_shared/contribute/how/branches.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/how/build-docs.md:1
 #, fuzzy
+msgid "Building documentation"
+msgstr "مستندسازی ساختمان"
+
+#: docs/en/titles.md:55
+#, fuzzy
+msgctxt "navigation"
 msgid "Building documentation"
 msgstr "مستندسازی ساختمان"
 
@@ -312,6 +97,12 @@ msgstr "{% extends \"_shared/contribute/how/change-note.md\" %}"
 msgid "Setting up a development environment"
 msgstr "راه‌اندازی محیط توسعه"
 
+#: docs/en/titles.md:45
+#, fuzzy
+msgctxt "navigation"
+msgid "Setting up a development environment"
+msgstr "راه‌اندازی محیط توسعه"
+
 #: docs/en/content_test_bed/how-to/contribute/how/dev-environment.md:3
 msgid "{% extends \"_shared/contribute/how/dev-environment.md\" %}"
 msgstr "{% extends \"_shared/contribute/how/dev-environment.md\" %}"
@@ -321,12 +112,24 @@ msgstr "{% extends \"_shared/contribute/how/dev-environment.md\" %}"
 msgid "Submitting a new issue"
 msgstr "ارسال یک مشکل جدید"
 
+#: docs/en/titles.md:65
+#, fuzzy
+msgctxt "navigation"
+msgid "Submitting a new issue"
+msgstr "ارسال یک مشکل جدید"
+
 #: docs/en/content_test_bed/how-to/contribute/how/new-issue.md:3
 msgid "{% extends \"_shared/contribute/how/new-issue.md\" %}"
 msgstr "{% extends \"_shared/contribute/how/new-issue.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/how/propose-feature.md:1 docs/en/content_test_bed/how-to/contribute/what/propose-feature.md:1
 #, fuzzy
+msgid "Proposing a new feature"
+msgstr "پیشنهاد یک ویژگی جدید"
+
+#: docs/en/titles.md:67
+#, fuzzy
+msgctxt "navigation"
 msgid "Proposing a new feature"
 msgstr "پیشنهاد یک ویژگی جدید"
 
@@ -343,6 +146,12 @@ msgstr "اگر علاقه‌مند هستید، می‌توانید [پیاده�
 #, fuzzy
 msgid "Reproducing an issue"
 msgstr "تولید مجدد یک مشکل"
+
+#: docs/en/titles.md:47
+#, fuzzy
+msgctxt "navigation"
+msgid "Reproducing an issue"
+msgstr "بازتولید یک شماره"
 
 #: docs/en/content_test_bed/how-to/contribute/how/reproduce-issue.md:3
 msgid "{% extends \"_shared/contribute/how/reproduce-issue.md\" %}"
@@ -372,6 +181,12 @@ msgstr "{% extends \"_shared/contribute/how/review-pr.md\" %}"
 msgid "Avoiding scope creep"
 msgstr "اجتناب از گسترش دامنه"
 
+#: docs/en/titles.md:51
+#, fuzzy
+msgctxt "navigation"
+msgid "Avoiding scope creep"
+msgstr "اجتناب از گسترش دامنه"
+
 #: docs/en/content_test_bed/how-to/contribute/how/scope-creep.md:3
 msgid "{% extends \"_shared/contribute/how/scope-creep.md\" %}"
 msgstr "{% extends \"_shared/contribute/how/scope-creep.md\" %}"
@@ -380,6 +195,12 @@ msgstr "{% extends \"_shared/contribute/how/scope-creep.md\" %}"
 #, fuzzy
 msgid "Submitting a pull request"
 msgstr "ارسال یک درخواست برداشت"
+
+#: docs/en/titles.md:61
+#, fuzzy
+msgctxt "navigation"
+msgid "Submitting a pull request"
+msgstr "ارسال یک درخواست ادغام"
 
 #: docs/en/content_test_bed/how-to/contribute/how/submit-pr.md:3
 msgid "{% extends \"_shared/contribute/how/submit-pr.md\" %}"
@@ -412,12 +233,24 @@ msgstr "{% endif %}"
 msgid "Translating content"
 msgstr "ترجمه‌ی محتوا"
 
+#: docs/en/titles.md:69
+#, fuzzy
+msgctxt "navigation"
+msgid "Translating content"
+msgstr "محتوای در حال ترجمه"
+
 #: docs/en/content_test_bed/how-to/contribute/how/translate.md:3
 msgid "{% extends \"_shared/contribute/how/translate.md\" %}"
 msgstr "{% extends \"_shared/contribute/how/translate.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/how/write-code.md:1
 #, fuzzy
+msgid "Writing, running, and testing code"
+msgstr "نوشتن، اجرا و تست کد"
+
+#: docs/en/titles.md:53
+#, fuzzy
+msgctxt "navigation"
 msgid "Writing, running, and testing code"
 msgstr "نوشتن، اجرا و تست کد"
 
@@ -437,6 +270,12 @@ msgstr "وقتی همه چیز به درستی کار کرد، می‌توانی
 
 #: docs/en/content_test_bed/how-to/contribute/how/write-docs.md:1
 #, fuzzy
+msgid "Writing documentation"
+msgstr "نوشتن مستندات"
+
+#: docs/en/titles.md:57
+#, fuzzy
+msgctxt "navigation"
 msgid "Writing documentation"
 msgstr "نوشتن مستندات"
 
@@ -490,12 +329,24 @@ msgstr "{% extends \"_shared/contribute/policies/ai-policy.md\" %}"
 msgid "Code style guide"
 msgstr "راهنمای سبک کدنویسی"
 
+#: docs/en/titles.md:83
+#, fuzzy
+msgctxt "navigation"
+msgid "Code style guide"
+msgstr "راهنمای سبک کد"
+
 #: docs/en/content_test_bed/how-to/contribute/style/code-style-guide.md:3
 msgid "{% extends \"_shared/contribute/style/code-style-guide.md\" %}"
 msgstr "{% extends \"_shared/contribute/style/code-style-guide.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/style/docs-style-guide.md:1
 #, fuzzy
+msgid "Documentation style guide"
+msgstr "راهنمای سبک مستندسازی"
+
+#: docs/en/titles.md:85
+#, fuzzy
+msgctxt "navigation"
 msgid "Documentation style guide"
 msgstr "راهنمای سبک مستندسازی"
 
@@ -601,14 +452,13 @@ msgid "For `style_guide.md`, you would add `-8<- \"style_guide.md\"` to `style_g
 msgstr "برای `style_guide.md`، شما `-8<- \"style_guide.md\"` را به `style_guide_include.md` اضافه می‌کنید."
 
 #: docs/en/content_test_bed/index.md:13
-#, fuzzy
-msgid "Update the `Shared content test bed` section in `/docs/SUMMARY.md` to include the new `_include` file and path, at the same indentation level as the other items in that section."
-msgstr "بخش `Shared content test bed` را در `/docs/SUMMARY.md` به‌روزرسانی کنید تا فایل و مسیر جدید `_include` را شامل شود و هم‌سطح با سایر موارد در آن بخش باشد."
+msgid "Update the `Shared content testbed` section of the `nav` setting in `/docs/zensical.toml` to include the new `_include` file and path, at the same indentation level as the other items in that section."
+msgstr ""
 
 #: docs/en/content_test_bed/index.md:13
 #, fuzzy
-msgid "For `style_guide_include.md`, you would add `- [Style guide](content_test_bed/style_guide_include.md)`."
-msgstr "برای `style_guide_include.md`، شما `- [Style guide](content_test_bed/style_guide_include.md)` را اضافه می‌کنید."
+msgid "For `style_guide_include.md`, you would add `{ \"Style guide\" = \"content_test_bed/style_guide_include.md\" },`."
+msgstr "برای `style_guide_include.md`، شما `{ \"Style guide\" = \"content_test_bed/style_guide_include.md\" },` را اضافه می‌کنید."
 
 #: docs/en/content_test_bed/index.md:16
 #, fuzzy
@@ -626,9 +476,8 @@ msgid "Theme checklist"
 msgstr "فهرست موضوعات"
 
 #: docs/en/index.md:5
-#, fuzzy
-msgid "This demo is designed to test the various features of the BeeWare MkDocs Material theme overrides. Please read through and verify that everything listed on this and the following pages is present and functioning as detailed in the description."
-msgstr "این دمو برای آزمایش ویژگی‌های مختلف overrideهای تم Material در BeeWare MkDocs طراحی شده است. لطفاً آن را مطالعه کرده و تأیید کنید که همه موارد فهرست‌شده در این صفحه و صفحات بعدی موجود بوده و مطابق توضیحات کار می‌کنند."
+msgid "This demo is designed to test the various features of the BeeWare Zensical theme overrides. Please read through and verify that everything listed on this and the following pages is present and functioning as detailed in the description."
+msgstr ""
 
 #: docs/en/index.md:7
 #, fuzzy
@@ -771,8 +620,8 @@ msgstr "پیوندهای نوار کناری"
 
 #: docs/en/index.md:80
 #, fuzzy
-msgid "Sidebar links exist, and point to the `beeware-docs-tools` repo. This confirms that the sidebar content has been loaded, and the `project-name` has been set in the MkDocs configuration file, and the version number is computed and added."
-msgstr "پیوندهای نوار کناری وجود دارند و به مخزن `beeware-docs-tools` اشاره می‌کنند. این تأیید می‌کند که محتوای نوار کناری بارگذاری شده است، `project-name` در فایل پیکربندی MkDocs تنظیم شده است و شماره نسخه محاسبه و اضافه شده است."
+msgid "Sidebar links exist, and point to the `beeware-docs-tools` repo. This confirms that the sidebar content has been loaded, and the `project-name` has been set in the Zensical configuration file, and the version number is computed and added."
+msgstr "پیوندهای نوار کناری وجود دارند و به مخزن `beeware-docs-tools` اشاره می‌کنند. این تأیید می‌کند که محتوای نوار کناری بارگذاری شده است، `project-name` در فایل پیکربندی Zensical تنظیم شده است و شماره نسخه محاسبه و اضافه شده است."
 
 #: docs/en/index.md:82
 #, fuzzy
@@ -857,9 +706,8 @@ msgid "Add `nopage` to the end of the URL in your browser to verify the 404 page
 msgstr "در انتهای آدرس اینترنتی در مرورگر خود `nopage` را اضافه کنید تا مطمئن شوید صفحهٔ خطای ۴۰۴ وجود دارد و شامل متن «بروتوس نمی‌تواند آنچه را که به دنبالش هستید پیدا کند» است. صفحهٔ ۴۰۴ فعلی به دلیل مشکلی در MkDocs همیشه تصاویر را نمایش نمی‌دهد."
 
 #: docs/en/index.md:128
-#, fuzzy
-msgid "*MkDocs builds fail with unrecognized internal links, so you need to manually verify this check by modifying the URL in your browser.*"
-msgstr "ساخت MkDocs با لینک‌های داخلی ناشناخته با شکست مواجه می‌شود، بنابراین باید این بررسی را با تغییر آدرس URL در مرورگر خود به‌صورت دستی تأیید کنید."
+msgid "*Strict builds fail with unrecognized internal links, so you need to manually verify this check by modifying the URL in your browser.*"
+msgstr ""
 
 #: docs/en/index.md:130
 #, fuzzy
@@ -1006,21 +854,19 @@ msgid "Verify that the text in the parameter table is rendering at the same size
 msgstr "تأیید کنید که متن در جدول پارامترها با همان اندازهٔ سایر قسمت‌های قلم نمایش داده می‌شود."
 
 #: docs/en/section_one/page_two.md:13
-#, fuzzy
-msgid "::: beeware_docs_tools.docs_test.DocsTest"
-msgstr "::: beeware_docs_tools.docs_test.DocsTest"
+msgid "The reference documentation below has an `options` block. Translated builds fail if the block isn't preserved during translation."
+msgstr ""
 
-#: docs/en/section_one/page_two.md:15
+#: docs/en/section_one/page_two.md:19
 #, fuzzy
 msgid "Macro functionality"
 msgstr "کارکرد ماکرو"
 
-#: docs/en/section_one/page_two.md:17
-#, fuzzy
-msgid "The following should say 'Brutus says \"Hello world!\"'. This confirms that global variables and macros defined via MkDocs-Macros are available."
-msgstr "خروجی زیر باید عبارت «Brutus می‌گوید \"Hello world!\"» را نمایش دهد. این تأیید می‌کند که متغیرهای سراسری و ماکروهای تعریف‌شده از طریق MkDocs-Macros در دسترس هستند."
+#: docs/en/section_one/page_two.md:21
+msgid "The following should say 'Brutus says \"Hello world!\"'. This confirms that global variables and macros defined via the macros plugin are available."
+msgstr ""
 
-#: docs/en/section_one/page_two.md:19
+#: docs/en/section_one/page_two.md:23
 #, fuzzy
 msgid "{{ mascot_name }} says \"{{ say_hello() }}\""
 msgstr "{{ mascot_name }} می‌گوید «{{ say_hello() }}»"
@@ -1069,3 +915,165 @@ msgstr "لینک‌گذاری"
 #, fuzzy
 msgid "The link provided here should take you to the [Heading font][heading-font] section of the main page. It is included to verify `autoref` linking."
 msgstr "لینک ارائه‌شده در اینجا باید شما را به بخش [Heading font][heading-font] صفحهٔ اصلی هدایت کند. این لینک برای تأیید پیوند `autoref` گنجانده شده است."
+
+#: docs/en/titles.md:3 docs/en/titles.md:5
+#, fuzzy
+msgctxt "navigation"
+msgid "Section one"
+msgstr "بخش اول"
+
+#: docs/en/titles.md:7
+#, fuzzy
+msgctxt "navigation"
+msgid "Section one - page two"
+msgstr "بخش یک - صفحه دو"
+
+#: docs/en/titles.md:9
+#, fuzzy
+msgctxt "navigation"
+msgid "Section two"
+msgstr "بخش دوم"
+
+#: docs/en/titles.md:11
+#, fuzzy
+msgctxt "navigation"
+msgid "Section three"
+msgstr "بخش سوم"
+
+#: docs/en/titles.md:13 docs/en/titles.md:15
+#, fuzzy
+msgctxt "navigation"
+msgid "Shared content testbed"
+msgstr "محیط آزمایشی محتوای مشترک"
+
+#: docs/en/titles.md:17
+#, fuzzy
+msgctxt "navigation"
+msgid "How-to guides"
+msgstr "راهنمای چگونگی انجام"
+
+#: docs/en/titles.md:19
+#, fuzzy
+msgctxt "navigation"
+msgid "Contribute"
+msgstr "مشارکت کنید"
+
+#: docs/en/titles.md:21
+#, fuzzy
+msgctxt "navigation"
+msgid "Contributing"
+msgstr "مشارکت‌کننده"
+
+#: docs/en/titles.md:25
+#, fuzzy
+msgctxt "navigation"
+msgid "What can I do?"
+msgstr "چه کار می‌توانم بکنم؟"
+
+#: docs/en/titles.md:27
+#, fuzzy
+msgctxt "navigation"
+msgid "Fix an issue"
+msgstr "رفع یک مشکل"
+
+#: docs/en/titles.md:29
+#, fuzzy
+msgctxt "navigation"
+msgid "Implement a new feature"
+msgstr "پیاده‌سازی یک ویژگی جدید"
+
+#: docs/en/titles.md:31
+#, fuzzy
+msgctxt "navigation"
+msgid "Write documentation"
+msgstr "مستندسازی بنویسید"
+
+#: docs/en/titles.md:33
+#, fuzzy
+msgctxt "navigation"
+msgid "Triage an issue"
+msgstr "اولویت‌بندی یک مسئله"
+
+#: docs/en/titles.md:35
+#, fuzzy
+msgctxt "navigation"
+msgid "Review a pull request"
+msgstr "بررسی یک درخواست کشش"
+
+#: docs/en/titles.md:37
+#, fuzzy
+msgctxt "navigation"
+msgid "Propose a new feature"
+msgstr "پیشنهاد یک ویژگی جدید"
+
+#: docs/en/titles.md:39
+#, fuzzy
+msgctxt "navigation"
+msgid "Translate content"
+msgstr "محتوا را ترجمه کنید"
+
+#: docs/en/titles.md:41
+#, fuzzy
+msgctxt "navigation"
+msgid "Use the tools"
+msgstr "ابزارها را استفاده کنید"
+
+#: docs/en/titles.md:43
+#, fuzzy
+msgctxt "navigation"
+msgid "How do I contribute?"
+msgstr "چگونه مشارکت کنم؟"
+
+#: docs/en/titles.md:49
+#, fuzzy
+msgctxt "navigation"
+msgid "Working from a branch"
+msgstr "کار کردن از یک شعبه"
+
+#: docs/en/titles.md:59
+#, fuzzy
+msgctxt "navigation"
+msgid "Adding a change note"
+msgstr "افزودن یادداشت تغییر"
+
+#: docs/en/titles.md:63
+#, fuzzy
+msgctxt "navigation"
+msgid "Providing a review"
+msgstr "ارائه یک نقد"
+
+#: docs/en/titles.md:71
+#, fuzzy
+msgctxt "navigation"
+msgid "What happens next?"
+msgstr "بعد چه می‌شود؟"
+
+#: docs/en/titles.md:73
+#, fuzzy
+msgctxt "navigation"
+msgid "Pull request review process"
+msgstr "فرآیند بازبینی درخواست کشش"
+
+#: docs/en/titles.md:75
+#, fuzzy
+msgctxt "navigation"
+msgid "Release process"
+msgstr "فرآیند انتشار"
+
+#: docs/en/titles.md:77
+#, fuzzy
+msgctxt "navigation"
+msgid "Policies"
+msgstr "سیاست‌ها"
+
+#: docs/en/titles.md:79
+#, fuzzy
+msgctxt "navigation"
+msgid "AI Policy"
+msgstr "سیاست‌گذاری هوش مصنوعی"
+
+#: docs/en/titles.md:81
+#, fuzzy
+msgctxt "navigation"
+msgid "Style guides"
+msgstr "راهنماهای سبک"
