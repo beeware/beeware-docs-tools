@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-03 09:52+0000\n"
+"POT-Creation-Date: 2026-11-05 22:33-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,51 +11,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 3.20.1\n"
-
-#: docs/en/titles.md
-#, fuzzy
-msgid "Section one"
-msgstr "Phần một"
-
-#: docs/en/titles.md
-#, fuzzy
-msgid "Shared content testbed"
-msgstr "Môi trường thử nghiệm nội dung chia sẻ"
-
-#: docs/en/titles.md
-#, fuzzy
-msgid "How-to guides"
-msgstr "Hướng dẫn thực hiện"
-
-#: docs/en/titles.md
-#, fuzzy
-msgid "Contribute"
-msgstr "Đóng góp"
-
-#: docs/en/titles.md
-#, fuzzy
-msgid "What can I do?"
-msgstr "Tôi có thể làm gì?"
-
-#: docs/en/titles.md
-#, fuzzy
-msgid "How do I contribute?"
-msgstr "Làm thế nào để tôi có thể đóng góp?"
-
-#: docs/en/titles.md
-#, fuzzy
-msgid "What happens next?"
-msgstr "Tiếp theo sẽ ra sao?"
-
-#: docs/en/titles.md
-#, fuzzy
-msgid "Policies"
-msgstr "Chính sách"
-
-#: docs/en/titles.md
-#, fuzzy
-msgid "Style guides"
-msgstr "Hướng dẫn phong cách"
 
 #: docs/en/about/releases.md:1
 #, fuzzy
@@ -69,6 +24,12 @@ msgstr "Tệp này được đưa vào chỉ để đáp ứng liên kết trong
 
 #: docs/en/content_test_bed/how-to/contribute/first-time-contributors.md:1
 #, fuzzy
+msgid "First-time contributors"
+msgstr "Những người đóng góp lần đầu"
+
+#: docs/en/titles.md:23
+#, fuzzy
+msgctxt "navigation"
 msgid "First-time contributors"
 msgstr "Những người đóng góp lần đầu"
 
@@ -89,6 +50,12 @@ msgstr "{% extends \"_shared/contribute/how/branches.md\" %}"
 #, fuzzy
 msgid "Building documentation"
 msgstr "Tài liệu xây dựng"
+
+#: docs/en/titles.md:55
+#, fuzzy
+msgctxt "navigation"
+msgid "Building documentation"
+msgstr "Tài liệu hướng dẫn"
 
 #: docs/en/content_test_bed/how-to/contribute/how/build-docs.md:3
 msgid "{% extends \"_shared/contribute/how/build-docs.md\" %}"
@@ -130,12 +97,24 @@ msgstr "{% extends \"_shared/contribute/how/change-note.md\" %}"
 msgid "Setting up a development environment"
 msgstr "Thiết lập môi trường phát triển"
 
+#: docs/en/titles.md:45
+#, fuzzy
+msgctxt "navigation"
+msgid "Setting up a development environment"
+msgstr "Thiết lập môi trường phát triển"
+
 #: docs/en/content_test_bed/how-to/contribute/how/dev-environment.md:3
 msgid "{% extends \"_shared/contribute/how/dev-environment.md\" %}"
 msgstr "{% extends \"_shared/contribute/how/dev-environment.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/how/new-issue.md:1
 #, fuzzy
+msgid "Submitting a new issue"
+msgstr "Gửi báo cáo sự cố mới"
+
+#: docs/en/titles.md:65
+#, fuzzy
+msgctxt "navigation"
 msgid "Submitting a new issue"
 msgstr "Gửi báo cáo sự cố mới"
 
@@ -148,6 +127,12 @@ msgstr "{% extends \"_shared/contribute/how/new-issue.md\" %}"
 msgid "Proposing a new feature"
 msgstr "Đề xuất một tính năng mới"
 
+#: docs/en/titles.md:67
+#, fuzzy
+msgctxt "navigation"
+msgid "Proposing a new feature"
+msgstr "Đề xuất tính năng mới"
+
 #: docs/en/content_test_bed/how-to/contribute/how/propose-feature.md:3
 msgid "{% extends \"_shared/contribute/how/propose-feature.md\" %}"
 msgstr "{% extends \"_shared/contribute/how/propose-feature.md\" %}"
@@ -159,6 +144,12 @@ msgstr "Nếu bạn quan tâm, bạn có thể bắt đầu [triển khai tính 
 
 #: docs/en/content_test_bed/how-to/contribute/how/reproduce-issue.md:1
 #, fuzzy
+msgid "Reproducing an issue"
+msgstr "Tái hiện sự cố"
+
+#: docs/en/titles.md:47
+#, fuzzy
+msgctxt "navigation"
 msgid "Reproducing an issue"
 msgstr "Tái hiện sự cố"
 
@@ -190,12 +181,24 @@ msgstr "{% extends \"_shared/contribute/how/review-pr.md\" %}"
 msgid "Avoiding scope creep"
 msgstr "Tránh tình trạng mở rộng phạm vi"
 
+#: docs/en/titles.md:51
+#, fuzzy
+msgctxt "navigation"
+msgid "Avoiding scope creep"
+msgstr "Tránh tình trạng mở rộng phạm vi"
+
 #: docs/en/content_test_bed/how-to/contribute/how/scope-creep.md:3
 msgid "{% extends \"_shared/contribute/how/scope-creep.md\" %}"
 msgstr "{% extends \"_shared/contribute/how/scope-creep.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/how/submit-pr.md:1
 #, fuzzy
+msgid "Submitting a pull request"
+msgstr "Gửi yêu cầu pull"
+
+#: docs/en/titles.md:61
+#, fuzzy
+msgctxt "navigation"
 msgid "Submitting a pull request"
 msgstr "Gửi yêu cầu pull"
 
@@ -230,12 +233,24 @@ msgstr "{% endif %}"
 msgid "Translating content"
 msgstr "Dịch nội dung"
 
+#: docs/en/titles.md:69
+#, fuzzy
+msgctxt "navigation"
+msgid "Translating content"
+msgstr "Dịch nội dung"
+
 #: docs/en/content_test_bed/how-to/contribute/how/translate.md:3
 msgid "{% extends \"_shared/contribute/how/translate.md\" %}"
 msgstr "{% extends \"_shared/contribute/how/translate.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/how/write-code.md:1
 #, fuzzy
+msgid "Writing, running, and testing code"
+msgstr "Viết, chạy và kiểm thử mã nguồn"
+
+#: docs/en/titles.md:53
+#, fuzzy
+msgctxt "navigation"
 msgid "Writing, running, and testing code"
 msgstr "Viết, chạy và kiểm thử mã nguồn"
 
@@ -255,6 +270,12 @@ msgstr "Khi mọi thứ đã hoạt động bình thường, bạn có thể [g�
 
 #: docs/en/content_test_bed/how-to/contribute/how/write-docs.md:1
 #, fuzzy
+msgid "Writing documentation"
+msgstr "Viết tài liệu"
+
+#: docs/en/titles.md:57
+#, fuzzy
+msgctxt "navigation"
 msgid "Writing documentation"
 msgstr "Viết tài liệu"
 
@@ -308,6 +329,12 @@ msgstr "{% extends \"_shared/contribute/policies/ai-policy.md\" %}"
 msgid "Code style guide"
 msgstr "Hướng dẫn phong cách lập trình"
 
+#: docs/en/titles.md:83
+#, fuzzy
+msgctxt "navigation"
+msgid "Code style guide"
+msgstr "Hướng dẫn phong cách mã nguồn"
+
 #: docs/en/content_test_bed/how-to/contribute/style/code-style-guide.md:3
 msgid "{% extends \"_shared/contribute/style/code-style-guide.md\" %}"
 msgstr "{% extends \"_shared/contribute/style/code-style-guide.md\" %}"
@@ -316,6 +343,12 @@ msgstr "{% extends \"_shared/contribute/style/code-style-guide.md\" %}"
 #, fuzzy
 msgid "Documentation style guide"
 msgstr "Hướng dẫn phong cách biên soạn tài liệu"
+
+#: docs/en/titles.md:85
+#, fuzzy
+msgctxt "navigation"
+msgid "Documentation style guide"
+msgstr "Hướng dẫn phong cách tài liệu"
 
 #: docs/en/content_test_bed/how-to/contribute/style/docs-style-guide.md:3
 msgid "{% extends \"_shared/contribute/style/docs-style-guide.md\" %}"
@@ -419,14 +452,13 @@ msgid "For `style_guide.md`, you would add `-8<- \"style_guide.md\"` to `style_g
 msgstr "Đối với `style_guide.md`, bạn sẽ thêm `-8<- \"style_guide.md\"` vào `style_guide_include.md`."
 
 #: docs/en/content_test_bed/index.md:13
-#, fuzzy
-msgid "Update the `Shared content test bed` section in `/docs/SUMMARY.md` to include the new `_include` file and path, at the same indentation level as the other items in that section."
-msgstr "Cập nhật phần `Shared content test bed` trong `/docs/SUMMARY.md` để thêm tệp `_include` mới và đường dẫn, với mức thụt lề giống như các mục khác trong phần đó."
+msgid "Update the `Shared content testbed` section of the `nav` setting in `/docs/zensical.toml` to include the new `_include` file and path, at the same indentation level as the other items in that section."
+msgstr ""
 
 #: docs/en/content_test_bed/index.md:13
 #, fuzzy
-msgid "For `style_guide_include.md`, you would add `- [Style guide](content_test_bed/style_guide_include.md)`."
-msgstr "Đối với `style_guide_include.md`, bạn sẽ thêm `- [Style guide](content_test_bed/style_guide_include.md)`."
+msgid "For `style_guide_include.md`, you would add `{ \"Style guide\" = \"content_test_bed/style_guide_include.md\" },`."
+msgstr "Đối với `style_guide_include.md`, bạn sẽ thêm `{ \"Style guide\" = \"content_test_bed/style_guide_include.md\" },`."
 
 #: docs/en/content_test_bed/index.md:16
 #, fuzzy
@@ -445,8 +477,8 @@ msgstr "Danh sách kiểm tra chủ đề"
 
 #: docs/en/index.md:5
 #, fuzzy
-msgid "This demo is designed to test the various features of the BeeWare MkDocs Material theme overrides. Please read through and verify that everything listed on this and the following pages is present and functioning as detailed in the description."
-msgstr "Bản demo này được thiết kế để kiểm tra các tính năng khác nhau của các tùy chỉnh giao diện BeeWare MkDocs Material. Vui lòng xem qua và xác minh rằng tất cả các nội dung được liệt kê trên trang này và các trang tiếp theo đều có sẵn và hoạt động đúng như mô tả."
+msgid "This demo is designed to test the various features of the BeeWare Zensical theme overrides. Please read through and verify that everything listed on this and the following pages is present and functioning as detailed in the description."
+msgstr "Bản demo này được thiết kế để kiểm tra các tính năng khác nhau của các tùy chỉnh giao diện BeeWare Zensical. Vui lòng xem qua và xác minh rằng tất cả các nội dung được liệt kê trên trang này và các trang tiếp theo đều có sẵn và hoạt động đúng như mô tả."
 
 #: docs/en/index.md:7
 #, fuzzy
@@ -589,8 +621,8 @@ msgstr "Các liên kết ở thanh bên"
 
 #: docs/en/index.md:80
 #, fuzzy
-msgid "Sidebar links exist, and point to the `beeware-docs-tools` repo. This confirms that the sidebar content has been loaded, and the `project-name` has been set in the MkDocs configuration file, and the version number is computed and added."
-msgstr "Các liên kết trên thanh bên đã xuất hiện và trỏ đến kho lưu trữ `beeware-docs-tools`. Điều này xác nhận rằng nội dung thanh bên đã được tải, biến `project-name` đã được thiết lập trong tệp cấu hình MkDocs, và số phiên bản đã được tính toán và thêm vào."
+msgid "Sidebar links exist, and point to the `beeware-docs-tools` repo. This confirms that the sidebar content has been loaded, and the `project-name` has been set in the Zensical configuration file, and the version number is computed and added."
+msgstr "Các liên kết trên thanh bên đã xuất hiện và trỏ đến kho lưu trữ `beeware-docs-tools`. Điều này xác nhận rằng nội dung thanh bên đã được tải, biến `project-name` đã được thiết lập trong tệp cấu hình Zensical, và số phiên bản đã được tính toán và thêm vào."
 
 #: docs/en/index.md:82
 #, fuzzy
@@ -675,9 +707,8 @@ msgid "Add `nopage` to the end of the URL in your browser to verify the 404 page
 msgstr "Hãy thêm `nopage` vào cuối URL trong trình duyệt của bạn để kiểm tra xem trang 404 có tồn tại hay không và có hiển thị dòng chữ \"Brutus không thể tìm thấy nội dung bạn đang tìm kiếm\" hay không. Trang 404 hiện tại không phải lúc nào cũng hiển thị hình ảnh do một sự cố với MkDocs."
 
 #: docs/en/index.md:128
-#, fuzzy
-msgid "*MkDocs builds fail with unrecognized internal links, so you need to manually verify this check by modifying the URL in your browser.*"
-msgstr "*Quá trình biên dịch MkDocs sẽ thất bại do có các liên kết nội bộ không được nhận diện, vì vậy bạn cần kiểm tra lại thủ công bằng cách chỉnh sửa URL trong trình duyệt của mình.*"
+msgid "*Strict builds fail with unrecognized internal links, so you need to manually verify this check by modifying the URL in your browser.*"
+msgstr ""
 
 #: docs/en/index.md:130
 #, fuzzy
@@ -825,21 +856,19 @@ msgid "Verify that the text in the parameter table is rendering at the same size
 msgstr "Kiểm tra xem văn bản trong bảng tham số có được hiển thị với kích thước tương tự như phần còn lại của phông chữ hay không."
 
 #: docs/en/section_one/page_two.md:13
-#, fuzzy
-msgid "::: beeware_docs_tools.docs_test.DocsTest"
-msgstr "::: beeware_docs_tools.docs_test.DocsTest"
+msgid "The reference documentation below has an `options` block. Translated builds fail if the block isn't preserved during translation."
+msgstr ""
 
-#: docs/en/section_one/page_two.md:15
+#: docs/en/section_one/page_two.md:19
 #, fuzzy
 msgid "Macro functionality"
 msgstr "Chức năng macro"
 
-#: docs/en/section_one/page_two.md:17
-#, fuzzy
-msgid "The following should say 'Brutus says \"Hello world!\"'. This confirms that global variables and macros defined via MkDocs-Macros are available."
-msgstr "Đoạn mã sau đây sẽ hiển thị dòng chữ 'Brutus says \"Hello world!\"'. Điều này xác nhận rằng các biến toàn cục và macro được định nghĩa thông qua MkDocs-Macros đã sẵn sàng sử dụng."
+#: docs/en/section_one/page_two.md:21
+msgid "The following should say 'Brutus says \"Hello world!\"'. This confirms that global variables and macros defined via the macros plugin are available."
+msgstr ""
 
-#: docs/en/section_one/page_two.md:19
+#: docs/en/section_one/page_two.md:23
 #, fuzzy
 msgid "{{ mascot_name }} says \"{{ say_hello() }}\""
 msgstr "{{ mascot_name }} nói: \"{{ say_hello() }}\""
@@ -889,92 +918,164 @@ msgstr "`autoref` liên kết"
 msgid "The link provided here should take you to the [Heading font][heading-font] section of the main page. It is included to verify `autoref` linking."
 msgstr "Liên kết được cung cấp ở đây sẽ đưa bạn đến phần [Heading font][heading-font] trên trang chủ. Liên kết này được đưa vào để kiểm tra tính hoạt động của liên kết `autoref`."
 
-#: docs/en/titles.md
+#: docs/en/titles.md:3 docs/en/titles.md:5
 #, fuzzy
+msgctxt "navigation"
+msgid "Section one"
+msgstr "Phần một"
+
+#: docs/en/titles.md:7
+#, fuzzy
+msgctxt "navigation"
 msgid "Section one - page two"
 msgstr "Phần một - trang hai"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:9
 #, fuzzy
+msgctxt "navigation"
 msgid "Section two"
 msgstr "Phần hai"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:11
 #, fuzzy
+msgctxt "navigation"
 msgid "Section three"
 msgstr "Phần ba"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:13 docs/en/titles.md:15
 #, fuzzy
+msgctxt "navigation"
+msgid "Shared content testbed"
+msgstr "Môi trường thử nghiệm nội dung chia sẻ"
+
+#: docs/en/titles.md:17
+#, fuzzy
+msgctxt "navigation"
+msgid "How-to guides"
+msgstr "Hướng dẫn thực hiện"
+
+#: docs/en/titles.md:19
+#, fuzzy
+msgctxt "navigation"
+msgid "Contribute"
+msgstr "Đóng góp"
+
+#: docs/en/titles.md:21
+#, fuzzy
+msgctxt "navigation"
 msgid "Contributing"
 msgstr "Đóng góp"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:25
 #, fuzzy
+msgctxt "navigation"
+msgid "What can I do?"
+msgstr "Tôi có thể làm gì?"
+
+#: docs/en/titles.md:27
+#, fuzzy
+msgctxt "navigation"
 msgid "Fix an issue"
 msgstr "Khắc phục sự cố"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:29
 #, fuzzy
+msgctxt "navigation"
 msgid "Implement a new feature"
 msgstr "Thực hiện một tính năng mới"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:31
 #, fuzzy
+msgctxt "navigation"
 msgid "Write documentation"
 msgstr "Viết tài liệu"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:33
 #, fuzzy
+msgctxt "navigation"
 msgid "Triage an issue"
 msgstr "Phân loại vấn đề"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:35
 #, fuzzy
+msgctxt "navigation"
 msgid "Review a pull request"
 msgstr "Xem xét yêu cầu kéo"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:37
 #, fuzzy
+msgctxt "navigation"
 msgid "Propose a new feature"
 msgstr "Đề xuất tính năng mới"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:39
 #, fuzzy
+msgctxt "navigation"
 msgid "Translate content"
 msgstr "Dịch nội dung"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:41
 #, fuzzy
+msgctxt "navigation"
 msgid "Use the tools"
 msgstr "Sử dụng các công cụ"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:43
 #, fuzzy
+msgctxt "navigation"
+msgid "How do I contribute?"
+msgstr "Làm thế nào để tôi có thể đóng góp?"
+
+#: docs/en/titles.md:49
+#, fuzzy
+msgctxt "navigation"
 msgid "Working from a branch"
 msgstr "Làm việc trên một nhánh"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:59
 #, fuzzy
+msgctxt "navigation"
 msgid "Adding a change note"
 msgstr "Thêm ghi chú thay đổi"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:63
 #, fuzzy
+msgctxt "navigation"
 msgid "Providing a review"
 msgstr "Viết đánh giá"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:71
 #, fuzzy
+msgctxt "navigation"
+msgid "What happens next?"
+msgstr "Tiếp theo sẽ ra sao?"
+
+#: docs/en/titles.md:73
+#, fuzzy
+msgctxt "navigation"
 msgid "Pull request review process"
 msgstr "Quy trình đánh giá yêu cầu kéo"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:75
 #, fuzzy
+msgctxt "navigation"
 msgid "Release process"
 msgstr "Quy trình phát hành"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:77
 #, fuzzy
+msgctxt "navigation"
+msgid "Policies"
+msgstr "Chính sách"
+
+#: docs/en/titles.md:79
+#, fuzzy
+msgctxt "navigation"
 msgid "AI Policy"
 msgstr "Chính sách về Trí tuệ nhân tạo"
+
+#: docs/en/titles.md:81
+#, fuzzy
+msgctxt "navigation"
+msgid "Style guides"
+msgstr "Hướng dẫn phong cách"

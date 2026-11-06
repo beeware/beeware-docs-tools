@@ -10,7 +10,11 @@ The following should show the reference documentation for the `DocsTest` class, 
 
 Verify that the text in the parameter table is rendering at the same size as the rest of the font.
 
+The reference documentation below has an `options` block. Translated builds fail if the block isn't preserved during translation.
+
 ::: beeware_docs_tools.docs_test.DocsTest
+    options:
+      show_root_heading: true
 
 ## Macro functionality
 

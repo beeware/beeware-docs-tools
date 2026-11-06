@@ -40,10 +40,12 @@ from .build_config import (
     read_toml,
     unexpected_language_keys,
 )
-
-# The file that `build_pot_translations` generates the navigation titles into,
-# relative to the `docs` directory.
-TITLES_FILE = "en/titles.md"
+from .nav_translations import (
+    LINK_RE,
+    NAV_CONTEXT,
+    TITLES_FILE,
+    previous_translation,
+)
 
 
 class ConversionError(Exception):
@@ -893,18 +895,17 @@ def compare_configs(old, new, python_names, allowed):
 # Translations
 ###########################################################################
 
-_LINK = re.compile(r"^\s*\[(?P<title>.*)\]\s*(\{\d+\}|\([^)]*\))\s*$", re.DOTALL)
-
 
 def migrate_nav_translations(po_path, nav_sources, titles, titles_occurrence):
     """Migrate the navigation title translations in a PO file.
 
-    Titles that were translated as part of a literate-nav navigation file have
-    msgids like ``[Title]{1}`` (for a link) or ``Title`` (for a section). In a
-    `nav` setting, all titles are extracted as plain text (``Title``). This
-    adds (or fills in) an entry for each title, using the translation of the
-    link text, keeping the fuzzy flag as it was, and removes the entries that
-    were only used by the navigation file.
+    Each title in the new `nav` setting gets an entry with the navigation
+    context (see `nav_translations`), carrying over the translation the
+    navigation previously displayed: the link text translation from the
+    literate-nav navigation file (``[Title]{1}``), or, for a section title, the
+    translation of the same text. The fuzzy flag is kept as it was. The
+    navigation file's references are then removed, along with any entries only
+    the navigation file used.
 
     :param po_path: The PO file to update.
     :param nav_sources: The source references (as used in the PO file) of the
@@ -914,76 +915,46 @@ def migrate_nav_translations(po_path, nav_sources, titles, titles_occurrence):
     :returns: A dictionary of counts and messages describing the migration.
     """
     po = polib.pofile(str(po_path), wrapwidth=100000)
-    report = {
-        "moved": 0,
-        "matched": 0,
-        "kept": 0,
-        "removed": 0,
-        "conflicts": [],
-        "unmapped": [],
-    }
+    previous = polib.pofile(str(po_path), wrapwidth=100000)
+    report = {"migrated": 0, "untranslated": 0, "removed": 0, "unmapped": []}
 
-    nav_entries = [
-        entry
-        for entry in po
-        if not entry.obsolete
-        and any(source in nav_sources for source, _ in entry.occurrences)
-    ]
-
-    def is_nav_only(entry):
-        return all(source in nav_sources for source, _ in entry.occurrences)
-
-    for entry in nav_entries:
-        link = _LINK.match(entry.msgid)
-        title = link.group("title") if link else entry.msgid
-        if title not in titles:
+    # A translated link that has lost its link markup can't be mapped.
+    for entry in previous:
+        if entry.obsolete or entry.msgctxt or not entry.msgstr:
             continue
-
-        if not link:
-            # Already a plain title; it's kept, with a new source reference.
-            report["kept"] += 1
+        if not any(source in nav_sources for source, _ in entry.occurrences):
             continue
+        link = LINK_RE.match(entry.msgid)
+        if link and link.group("title") in titles and not LINK_RE.match(entry.msgstr):
+            report["unmapped"].append(f"{entry.msgid!r} -> {entry.msgstr!r}")
 
-        translated = ""
-        if entry.msgstr:
-            match = _LINK.match(entry.msgstr)
-            if match:
-                translated = match.group("title")
-            else:
-                report["unmapped"].append(f"{entry.msgid!r} -> {entry.msgstr!r}")
-                continue
-
-        target = po.find(title)
-        if target is None or target.obsolete:
-            po.append(
-                polib.POEntry(
-                    msgid=title,
-                    msgstr=translated,
-                    flags=list(entry.flags),
-                    occurrences=[(titles_occurrence, "")],
-                )
+    for title in dict.fromkeys(titles):
+        nav_entry = po.find(title, msgctxt=NAV_CONTEXT)
+        if nav_entry is None:
+            nav_entry = polib.POEntry(
+                msgid=title,
+                msgctxt=NAV_CONTEXT,
+                msgstr="",
+                occurrences=[(titles_occurrence, "")],
             )
-            report["moved"] += 1
-        elif not target.msgstr and translated:
-            target.msgstr = translated
-            target.flags = list(entry.flags)
-            report["moved"] += 1
-        elif target.msgstr and translated and target.msgstr != translated:
-            report["conflicts"].append(
-                f"{title!r}: kept {target.msgstr!r}, not {translated!r}"
-            )
+            po.append(nav_entry)
+        if nav_entry.msgstr:
+            continue
+        if found := previous_translation(previous, title):
+            nav_entry.msgstr, nav_entry.flags = found
+            report["migrated"] += 1
         else:
-            report["matched"] += 1
+            report["untranslated"] += 1
 
-    for entry in nav_entries:
+    for entry in list(po):
+        if entry.obsolete or entry.msgctxt:
+            continue
         others = [o for o in entry.occurrences if o[0] not in nav_sources]
-        link = _LINK.match(entry.msgid)
-        is_title = not link and entry.msgid in titles
-        if is_title:
-            entry.occurrences = [*others, (titles_occurrence, "")]
-        elif others:
+        if len(others) == len(entry.occurrences):
+            continue
+        if others:
             entry.occurrences = others
-        elif is_nav_only(entry):
+        else:
             po.remove(entry)
             report["removed"] += 1
 
@@ -1219,15 +1190,11 @@ def convert(docs, write=True, keep_old=False, out=print):
                 po_path, nav_sources, titles, titles_occurrence
             )
             out(
-                f"{po_path}: {report['moved']} link titles migrated, "
-                f"{report['matched']} already had the same translation, "
-                f"{len(report['conflicts'])} already had a different translation, "
+                f"{po_path}: {report['migrated']} navigation titles migrated, "
+                f"{report['untranslated']} untranslated, "
                 f"{len(report['unmapped'])} couldn't be mapped; "
-                f"{report['kept']} section titles kept; "
                 f"{report['removed']} navigation-only entries removed"
             )
-            for conflict in report["conflicts"]:
-                out(f"    Conflict: {conflict}")
             for unmapped in report["unmapped"]:
                 out(f"    Couldn't map: {unmapped}")
 

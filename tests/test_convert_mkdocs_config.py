@@ -12,6 +12,7 @@ from beeware_docs_tools.convert_mkdocs_config import (
     toml_key,
     toml_string,
 )
+from beeware_docs_tools.nav_translations import NAV_CONTEXT
 
 CONFIG_YML = """\
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
@@ -213,31 +214,35 @@ def test_convert(project):
 
 
 def test_convert_translations(project):
-    """Navigation title translations are migrated to plain titles."""
+    """Navigation title translations are migrated to navigation entries."""
     messages = []
     assert convert(project / "docs", out=messages.append)
 
     po = polib.pofile(str(project / "docs/locales/fr/translations.po"))
-    entries = {entry.msgid: entry for entry in po if not entry.obsolete}
+    nav = {e.msgid: e for e in po if not e.obsolete and e.msgctxt == NAV_CONTEXT}
+    plain = {e.msgid: e for e in po if not e.obsolete and not e.msgctxt}
 
-    # Link titles become plain titles, keeping their flags.
-    assert entries["Home"].msgstr == "Accueil"
-    assert entries["Home"].fuzzy
-    assert entries["Home"].occurrences == [("docs/en/titles.md", "")]
-    # An existing plain title (a section title) keeps its translation.
-    assert entries["Guide"].msgstr == "Guide FR"
-    # An existing, untranslated entry (a page heading) is filled in, and keeps
-    # its own source reference.
-    assert entries["Reference"].msgstr == "Référence"
-    assert ("docs/en/reference/index.md", "1") in entries["Reference"].occurrences
-    # An untranslated link title becomes an untranslated plain title.
-    assert entries["API"].msgstr == ""
+    # Link titles become navigation entries, keeping their flags.
+    assert nav["Home"].msgstr == "Accueil"
+    assert nav["Home"].fuzzy
+    assert nav["Home"].occurrences == [("docs/en/titles.md", "")]
+    # The link text translation is used, as that's what the navigation showed.
+    assert nav["Guide"].msgstr == "Le guide"
+    assert not nav["Guide"].fuzzy
+    # A navigation title gets the link text translation, even though the page
+    # heading with the same text is untranslated; the heading is unchanged.
+    assert nav["Reference"].msgstr == "Référence"
+    assert plain["Reference"].msgstr == ""
+    assert plain["Reference"].occurrences == [("docs/en/reference/index.md", "1")]
+    # An untranslated link title becomes an untranslated navigation entry.
+    assert nav["API"].msgstr == ""
     # Entries that were only used by the navigation file are removed.
-    assert not any("{1}" in msgid for msgid in entries)
-    assert "./guide/*" not in entries
+    assert not any("{1}" in msgid for msgid in plain)
+    assert "./guide/*" not in plain
+    assert "Guide" not in plain
 
     output = "\n".join(messages)
-    assert "Conflict: 'Guide': kept 'Guide FR', not 'Le guide'" in output
+    assert "3 navigation titles migrated, 1 untranslated" in output
 
 
 def test_check_doesnt_write(project):

@@ -4,6 +4,7 @@ import sys
 from argparse import ArgumentParser, Namespace
 from pathlib import Path
 
+from .api_directives import restore_api_blocks
 from .build_config import (
     SHARED_CONTENT_PATH,
     clean_build_files,
@@ -225,6 +226,11 @@ def main():
                     language=language,
                     output_path=shared_content_path,
                 )
+
+                # po2md breaks mkdocstrings API directives that have options;
+                # put the English originals back.
+                restore_api_blocks(en_md_path, md_path)
+                restore_api_blocks(SHARED_CONTENT_PATH / "en", shared_content_path)
 
                 copy_resources(en_md_path, md_path)
 

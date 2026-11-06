@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-03 09:52+0000\n"
+"POT-Creation-Date: 2026-11-05 22:33-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,51 +11,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 3.20.1\n"
-
-#: docs/en/titles.md
-#, fuzzy
-msgid "Section one"
-msgstr "第一節"
-
-#: docs/en/titles.md
-#, fuzzy
-msgid "Shared content testbed"
-msgstr "共享內容測試平台"
-
-#: docs/en/titles.md
-#, fuzzy
-msgid "How-to guides"
-msgstr "操作指南"
-
-#: docs/en/titles.md
-#, fuzzy
-msgid "Contribute"
-msgstr "貢獻"
-
-#: docs/en/titles.md
-#, fuzzy
-msgid "What can I do?"
-msgstr "我能做什麼？"
-
-#: docs/en/titles.md
-#, fuzzy
-msgid "How do I contribute?"
-msgstr "我該如何貢獻？"
-
-#: docs/en/titles.md
-#, fuzzy
-msgid "What happens next?"
-msgstr "接下來會發生什麼事？"
-
-#: docs/en/titles.md
-#, fuzzy
-msgid "Policies"
-msgstr "政策"
-
-#: docs/en/titles.md
-#, fuzzy
-msgid "Style guides"
-msgstr "風格指南"
 
 #: docs/en/about/releases.md:1
 #, fuzzy
@@ -69,6 +24,12 @@ msgstr "此檔案僅為滿足 `code_contribution_base.md` 檔案中的連結而�
 
 #: docs/en/content_test_bed/how-to/contribute/first-time-contributors.md:1
 #, fuzzy
+msgid "First-time contributors"
+msgstr "首次投稿者"
+
+#: docs/en/titles.md:23
+#, fuzzy
+msgctxt "navigation"
 msgid "First-time contributors"
 msgstr "首次投稿者"
 
@@ -87,6 +48,12 @@ msgstr "{% extends \"_shared/contribute/how/branches.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/how/build-docs.md:1
 #, fuzzy
+msgid "Building documentation"
+msgstr "建築文件"
+
+#: docs/en/titles.md:55
+#, fuzzy
+msgctxt "navigation"
 msgid "Building documentation"
 msgstr "建築文件"
 
@@ -130,12 +97,24 @@ msgstr "{% extends \"_shared/contribute/how/change-note.md\" %}"
 msgid "Setting up a development environment"
 msgstr "建立開發環境"
 
+#: docs/en/titles.md:45
+#, fuzzy
+msgctxt "navigation"
+msgid "Setting up a development environment"
+msgstr "設定開發環境"
+
 #: docs/en/content_test_bed/how-to/contribute/how/dev-environment.md:3
 msgid "{% extends \"_shared/contribute/how/dev-environment.md\" %}"
 msgstr "{% extends \"_shared/contribute/how/dev-environment.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/how/new-issue.md:1
 #, fuzzy
+msgid "Submitting a new issue"
+msgstr "提交新問題"
+
+#: docs/en/titles.md:65
+#, fuzzy
+msgctxt "navigation"
 msgid "Submitting a new issue"
 msgstr "提交新問題"
 
@@ -148,6 +127,12 @@ msgstr "{% extends \"_shared/contribute/how/new-issue.md\" %}"
 msgid "Proposing a new feature"
 msgstr "提出新功能"
 
+#: docs/en/titles.md:67
+#, fuzzy
+msgctxt "navigation"
+msgid "Proposing a new feature"
+msgstr "提案新增功能"
+
 #: docs/en/content_test_bed/how-to/contribute/how/propose-feature.md:3
 msgid "{% extends \"_shared/contribute/how/propose-feature.md\" %}"
 msgstr "{% extends \"_shared/contribute/how/propose-feature.md\" %}"
@@ -159,6 +144,12 @@ msgstr "若您有興趣，可開始[實作您的新功能]{1}。"
 
 #: docs/en/content_test_bed/how-to/contribute/how/reproduce-issue.md:1
 #, fuzzy
+msgid "Reproducing an issue"
+msgstr "重現問題"
+
+#: docs/en/titles.md:47
+#, fuzzy
+msgctxt "navigation"
 msgid "Reproducing an issue"
 msgstr "重現問題"
 
@@ -190,12 +181,24 @@ msgstr "{% extends \"_shared/contribute/how/review-pr.md\" %}"
 msgid "Avoiding scope creep"
 msgstr "避免範圍蔓延"
 
+#: docs/en/titles.md:51
+#, fuzzy
+msgctxt "navigation"
+msgid "Avoiding scope creep"
+msgstr "避免範圍蔓延"
+
 #: docs/en/content_test_bed/how-to/contribute/how/scope-creep.md:3
 msgid "{% extends \"_shared/contribute/how/scope-creep.md\" %}"
 msgstr "{% extends \"_shared/contribute/how/scope-creep.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/how/submit-pr.md:1
 #, fuzzy
+msgid "Submitting a pull request"
+msgstr "提交拉取請求"
+
+#: docs/en/titles.md:61
+#, fuzzy
+msgctxt "navigation"
 msgid "Submitting a pull request"
 msgstr "提交拉取請求"
 
@@ -230,6 +233,12 @@ msgstr "{% endif %}"
 msgid "Translating content"
 msgstr "翻譯內容"
 
+#: docs/en/titles.md:69
+#, fuzzy
+msgctxt "navigation"
+msgid "Translating content"
+msgstr "翻譯內容"
+
 #: docs/en/content_test_bed/how-to/contribute/how/translate.md:3
 msgid "{% extends \"_shared/contribute/how/translate.md\" %}"
 msgstr "{% extends \"_shared/contribute/how/translate.md\" %}"
@@ -238,6 +247,12 @@ msgstr "{% extends \"_shared/contribute/how/translate.md\" %}"
 #, fuzzy
 msgid "Writing, running, and testing code"
 msgstr "編寫、執行與測試程式碼"
+
+#: docs/en/titles.md:53
+#, fuzzy
+msgctxt "navigation"
+msgid "Writing, running, and testing code"
+msgstr "寫作、執行與測試程式碼"
 
 #: docs/en/content_test_bed/how-to/contribute/how/write-code.md:3
 msgid "{% extends \"_shared/contribute/how/write-code.md\" %}"
@@ -255,6 +270,12 @@ msgstr "當您完成所有設定後，即可[提交拉取請求]{1}以提交您�
 
 #: docs/en/content_test_bed/how-to/contribute/how/write-docs.md:1
 #, fuzzy
+msgid "Writing documentation"
+msgstr "撰寫文件"
+
+#: docs/en/titles.md:57
+#, fuzzy
+msgctxt "navigation"
 msgid "Writing documentation"
 msgstr "撰寫文件"
 
@@ -308,12 +329,24 @@ msgstr "{% extends \"_shared/contribute/policies/ai-policy.md\" %}"
 msgid "Code style guide"
 msgstr "程式碼樣式指南"
 
+#: docs/en/titles.md:83
+#, fuzzy
+msgctxt "navigation"
+msgid "Code style guide"
+msgstr "程式碼樣式指南"
+
 #: docs/en/content_test_bed/how-to/contribute/style/code-style-guide.md:3
 msgid "{% extends \"_shared/contribute/style/code-style-guide.md\" %}"
 msgstr "{% extends \"_shared/contribute/style/code-style-guide.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/style/docs-style-guide.md:1
 #, fuzzy
+msgid "Documentation style guide"
+msgstr "文件風格指南"
+
+#: docs/en/titles.md:85
+#, fuzzy
+msgctxt "navigation"
 msgid "Documentation style guide"
 msgstr "文件風格指南"
 
@@ -419,14 +452,13 @@ msgid "For `style_guide.md`, you would add `-8<- \"style_guide.md\"` to `style_g
 msgstr "對於 `style_guide.md`, 您需要在 `-8<- \"style_guide.md\"` 中添加 `style_guide_include.md`。"
 
 #: docs/en/content_test_bed/index.md:13
-#, fuzzy
-msgid "Update the `Shared content test bed` section in `/docs/SUMMARY.md` to include the new `_include` file and path, at the same indentation level as the other items in that section."
-msgstr "請更新 `Shared content test bed` 區段中的 `/docs/SUMMARY.md` 部分，加入新的 `_include` 檔案與路徑，並保持與該區段中其他項目相同的縮排層級。"
+msgid "Update the `Shared content testbed` section of the `nav` setting in `/docs/zensical.toml` to include the new `_include` file and path, at the same indentation level as the other items in that section."
+msgstr ""
 
 #: docs/en/content_test_bed/index.md:13
 #, fuzzy
-msgid "For `style_guide_include.md`, you would add `- [Style guide](content_test_bed/style_guide_include.md)`."
-msgstr "對於 `style_guide_include.md`，您需要添加 `- [Style guide](content_test_bed/style_guide_include.md)`。"
+msgid "For `style_guide_include.md`, you would add `{ \"Style guide\" = \"content_test_bed/style_guide_include.md\" },`."
+msgstr "對於 `style_guide_include.md`，您需要添加 `{ \"Style guide\" = \"content_test_bed/style_guide_include.md\" },`。"
 
 #: docs/en/content_test_bed/index.md:16
 #, fuzzy
@@ -445,8 +477,8 @@ msgstr "主題檢查清單"
 
 #: docs/en/index.md:5
 #, fuzzy
-msgid "This demo is designed to test the various features of the BeeWare MkDocs Material theme overrides. Please read through and verify that everything listed on this and the following pages is present and functioning as detailed in the description."
-msgstr "此示範旨在測試 BeeWare MkDocs Material 主題覆寫的各項功能。請仔細閱讀並確認本頁及後續頁面所列的所有項目均存在且運作如說明所述。"
+msgid "This demo is designed to test the various features of the BeeWare Zensical theme overrides. Please read through and verify that everything listed on this and the following pages is present and functioning as detailed in the description."
+msgstr "此示範旨在測試 BeeWare Zensical 主題覆寫的各項功能。請仔細閱讀並確認本頁及後續頁面所列的所有項目均存在且運作如說明所述。"
 
 #: docs/en/index.md:7
 #, fuzzy
@@ -589,8 +621,8 @@ msgstr "側邊欄連結"
 
 #: docs/en/index.md:80
 #, fuzzy
-msgid "Sidebar links exist, and point to the `beeware-docs-tools` repo. This confirms that the sidebar content has been loaded, and the `project-name` has been set in the MkDocs configuration file, and the version number is computed and added."
-msgstr "側邊欄連結存在，且指向 `beeware-docs-tools` 儲存庫。這確認了側邊欄內容已載入，且 `project-name` 已在 MkDocs 設定檔中設定，同時版本號碼已計算並加入。"
+msgid "Sidebar links exist, and point to the `beeware-docs-tools` repo. This confirms that the sidebar content has been loaded, and the `project-name` has been set in the Zensical configuration file, and the version number is computed and added."
+msgstr "側邊欄連結存在，且指向 `beeware-docs-tools` 儲存庫。這確認了側邊欄內容已載入，且 `project-name` 已在 Zensical 設定檔中設定，同時版本號碼已計算並加入。"
 
 #: docs/en/index.md:82
 #, fuzzy
@@ -675,9 +707,8 @@ msgid "Add `nopage` to the end of the URL in your browser to verify the 404 page
 msgstr "在瀏覽器網址列的末尾添加 `nopage` 以驗證 404 頁面是否存在，並確認其包含文字「Brutus 無法找到您要的內容」。由於 MkDocs 的問題，當前 404 頁面並非總是能正確顯示圖片。"
 
 #: docs/en/index.md:128
-#, fuzzy
-msgid "*MkDocs builds fail with unrecognized internal links, so you need to manually verify this check by modifying the URL in your browser.*"
-msgstr "*MkDocs 因無法識別內部連結而導致建置失敗，因此您需要手動修改瀏覽器中的網址以驗證此檢查機制。*"
+msgid "*Strict builds fail with unrecognized internal links, so you need to manually verify this check by modifying the URL in your browser.*"
+msgstr ""
 
 #: docs/en/index.md:130
 #, fuzzy
@@ -824,21 +855,19 @@ msgid "Verify that the text in the parameter table is rendering at the same size
 msgstr "請確認參數表中的文字是否與字型其餘部分以相同大小呈現。"
 
 #: docs/en/section_one/page_two.md:13
-#, fuzzy
-msgid "::: beeware_docs_tools.docs_test.DocsTest"
-msgstr "::: beeware_docs_tools.docs_test.DocsTest"
+msgid "The reference documentation below has an `options` block. Translated builds fail if the block isn't preserved during translation."
+msgstr ""
 
-#: docs/en/section_one/page_two.md:15
+#: docs/en/section_one/page_two.md:19
 #, fuzzy
 msgid "Macro functionality"
 msgstr "巨集功能"
 
-#: docs/en/section_one/page_two.md:17
-#, fuzzy
-msgid "The following should say 'Brutus says \"Hello world!\"'. This confirms that global variables and macros defined via MkDocs-Macros are available."
-msgstr "以下內容應顯示「Brutus 說『Hello world！』」。這確認了透過 MkDocs-Macros 定義的全局變數和巨集可正常使用。"
+#: docs/en/section_one/page_two.md:21
+msgid "The following should say 'Brutus says \"Hello world!\"'. This confirms that global variables and macros defined via the macros plugin are available."
+msgstr ""
 
-#: docs/en/section_one/page_two.md:19
+#: docs/en/section_one/page_two.md:23
 #, fuzzy
 msgid "{{ mascot_name }} says \"{{ say_hello() }}\""
 msgstr "{{ mascot_name }} 說「{{ say_hello() }}」"
@@ -888,92 +917,164 @@ msgstr "`autoref` 連結"
 msgid "The link provided here should take you to the [Heading font][heading-font] section of the main page. It is included to verify `autoref` linking."
 msgstr "此處提供的連結應可帶您前往主頁面的[標題字型][heading-font]區段。此連結旨在驗證`autoref`連結功能。"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:3 docs/en/titles.md:5
 #, fuzzy
+msgctxt "navigation"
+msgid "Section one"
+msgstr "第一節"
+
+#: docs/en/titles.md:7
+#, fuzzy
+msgctxt "navigation"
 msgid "Section one - page two"
 msgstr "第一節 - 第二頁"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:9
 #, fuzzy
+msgctxt "navigation"
 msgid "Section two"
 msgstr "第二節"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:11
 #, fuzzy
+msgctxt "navigation"
 msgid "Section three"
 msgstr "第三節"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:13 docs/en/titles.md:15
 #, fuzzy
+msgctxt "navigation"
+msgid "Shared content testbed"
+msgstr "共享內容測試平台"
+
+#: docs/en/titles.md:17
+#, fuzzy
+msgctxt "navigation"
+msgid "How-to guides"
+msgstr "操作指南"
+
+#: docs/en/titles.md:19
+#, fuzzy
+msgctxt "navigation"
+msgid "Contribute"
+msgstr "貢獻"
+
+#: docs/en/titles.md:21
+#, fuzzy
+msgctxt "navigation"
 msgid "Contributing"
 msgstr "貢獻"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:25
 #, fuzzy
+msgctxt "navigation"
+msgid "What can I do?"
+msgstr "我能做什麼？"
+
+#: docs/en/titles.md:27
+#, fuzzy
+msgctxt "navigation"
 msgid "Fix an issue"
 msgstr "修復問題"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:29
 #, fuzzy
+msgctxt "navigation"
 msgid "Implement a new feature"
 msgstr "實作新功能"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:31
 #, fuzzy
+msgctxt "navigation"
 msgid "Write documentation"
 msgstr "撰寫文件"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:33
 #, fuzzy
+msgctxt "navigation"
 msgid "Triage an issue"
 msgstr "分級處理問題"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:35
 #, fuzzy
+msgctxt "navigation"
 msgid "Review a pull request"
 msgstr "審閱拉取請求"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:37
 #, fuzzy
+msgctxt "navigation"
 msgid "Propose a new feature"
 msgstr "提出新功能建議"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:39
 #, fuzzy
+msgctxt "navigation"
 msgid "Translate content"
 msgstr "翻譯內容"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:41
 #, fuzzy
+msgctxt "navigation"
 msgid "Use the tools"
 msgstr "使用工具"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:43
 #, fuzzy
+msgctxt "navigation"
+msgid "How do I contribute?"
+msgstr "我該如何貢獻？"
+
+#: docs/en/titles.md:49
+#, fuzzy
+msgctxt "navigation"
 msgid "Working from a branch"
 msgstr "從分支工作"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:59
 #, fuzzy
+msgctxt "navigation"
 msgid "Adding a change note"
 msgstr "新增變更說明"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:63
 #, fuzzy
+msgctxt "navigation"
 msgid "Providing a review"
 msgstr "提供評論"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:71
 #, fuzzy
+msgctxt "navigation"
+msgid "What happens next?"
+msgstr "接下來會發生什麼事？"
+
+#: docs/en/titles.md:73
+#, fuzzy
+msgctxt "navigation"
 msgid "Pull request review process"
 msgstr "拉取請求審查流程"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:75
 #, fuzzy
+msgctxt "navigation"
 msgid "Release process"
 msgstr "釋放流程"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:77
 #, fuzzy
+msgctxt "navigation"
+msgid "Policies"
+msgstr "政策"
+
+#: docs/en/titles.md:79
+#, fuzzy
+msgctxt "navigation"
 msgid "AI Policy"
 msgstr "AI 政策"
+
+#: docs/en/titles.md:81
+#, fuzzy
+msgctxt "navigation"
+msgid "Style guides"
+msgstr "風格指南"

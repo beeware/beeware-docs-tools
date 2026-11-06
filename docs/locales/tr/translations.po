@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-03 09:52+0000\n"
+"POT-Creation-Date: 2026-11-05 22:33-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,51 +11,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 3.20.1\n"
-
-#: docs/en/titles.md
-#, fuzzy
-msgid "Section one"
-msgstr "Birinci bölüm"
-
-#: docs/en/titles.md
-#, fuzzy
-msgid "Shared content testbed"
-msgstr "Paylaşılan içerik test ortamı"
-
-#: docs/en/titles.md
-#, fuzzy
-msgid "How-to guides"
-msgstr "Nasıl yapılır kılavuzları"
-
-#: docs/en/titles.md
-#, fuzzy
-msgid "Contribute"
-msgstr "Katkıda bulunun"
-
-#: docs/en/titles.md
-#, fuzzy
-msgid "What can I do?"
-msgstr "Ne yapabilirim?"
-
-#: docs/en/titles.md
-#, fuzzy
-msgid "How do I contribute?"
-msgstr "Nasıl katkıda bulunabilirim?"
-
-#: docs/en/titles.md
-#, fuzzy
-msgid "What happens next?"
-msgstr "Sonra ne olacak?"
-
-#: docs/en/titles.md
-#, fuzzy
-msgid "Policies"
-msgstr "Politikalar"
-
-#: docs/en/titles.md
-#, fuzzy
-msgid "Style guides"
-msgstr "Stil kılavuzları"
 
 #: docs/en/about/releases.md:1
 #, fuzzy
@@ -69,6 +24,12 @@ msgstr "Bu dosya, `code_contribution_base.md` dosyasındaki bağlantıyı karş�
 
 #: docs/en/content_test_bed/how-to/contribute/first-time-contributors.md:1
 #, fuzzy
+msgid "First-time contributors"
+msgstr "İlk kez katkıda bulunanlar"
+
+#: docs/en/titles.md:23
+#, fuzzy
+msgctxt "navigation"
 msgid "First-time contributors"
 msgstr "İlk kez katkıda bulunanlar"
 
@@ -87,6 +48,12 @@ msgstr "{% extends \"_shared/contribute/how/branches.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/how/build-docs.md:1
 #, fuzzy
+msgid "Building documentation"
+msgstr "Bina belgeleri"
+
+#: docs/en/titles.md:55
+#, fuzzy
+msgctxt "navigation"
 msgid "Building documentation"
 msgstr "Bina belgeleri"
 
@@ -130,6 +97,12 @@ msgstr "{% extends \"_shared/contribute/how/change-note.md\" %}"
 msgid "Setting up a development environment"
 msgstr "Geliştirme ortamı kurma"
 
+#: docs/en/titles.md:45
+#, fuzzy
+msgctxt "navigation"
+msgid "Setting up a development environment"
+msgstr "Geliştirme ortamı kurma"
+
 #: docs/en/content_test_bed/how-to/contribute/how/dev-environment.md:3
 msgid "{% extends \"_shared/contribute/how/dev-environment.md\" %}"
 msgstr "{% extends \"_shared/contribute/how/dev-environment.md\" %}"
@@ -139,12 +112,24 @@ msgstr "{% extends \"_shared/contribute/how/dev-environment.md\" %}"
 msgid "Submitting a new issue"
 msgstr "Yeni bir sorun bildirme"
 
+#: docs/en/titles.md:65
+#, fuzzy
+msgctxt "navigation"
+msgid "Submitting a new issue"
+msgstr "Yeni bir sorun bildirme"
+
 #: docs/en/content_test_bed/how-to/contribute/how/new-issue.md:3
 msgid "{% extends \"_shared/contribute/how/new-issue.md\" %}"
 msgstr "{% extends \"_shared/contribute/how/new-issue.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/how/propose-feature.md:1 docs/en/content_test_bed/how-to/contribute/what/propose-feature.md:1
 #, fuzzy
+msgid "Proposing a new feature"
+msgstr "Yeni bir özellik önermek"
+
+#: docs/en/titles.md:67
+#, fuzzy
+msgctxt "navigation"
 msgid "Proposing a new feature"
 msgstr "Yeni bir özellik önermek"
 
@@ -161,6 +146,12 @@ msgstr "Eğer ilgileniyorsanız, [yeni özelliğinizi uygulamaya başlayabilirsi
 #, fuzzy
 msgid "Reproducing an issue"
 msgstr "Bir sorunu yeniden üretme"
+
+#: docs/en/titles.md:47
+#, fuzzy
+msgctxt "navigation"
+msgid "Reproducing an issue"
+msgstr "Bir sorunu yeniden üretmek"
 
 #: docs/en/content_test_bed/how-to/contribute/how/reproduce-issue.md:3
 msgid "{% extends \"_shared/contribute/how/reproduce-issue.md\" %}"
@@ -190,12 +181,24 @@ msgstr "{% extends \"_shared/contribute/how/review-pr.md\" %}"
 msgid "Avoiding scope creep"
 msgstr "Kapsam genişlemesini önleme"
 
+#: docs/en/titles.md:51
+#, fuzzy
+msgctxt "navigation"
+msgid "Avoiding scope creep"
+msgstr "Kapsam genişlemesini önleme"
+
 #: docs/en/content_test_bed/how-to/contribute/how/scope-creep.md:3
 msgid "{% extends \"_shared/contribute/how/scope-creep.md\" %}"
 msgstr "{% extends \"_shared/contribute/how/scope-creep.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/how/submit-pr.md:1
 #, fuzzy
+msgid "Submitting a pull request"
+msgstr "Çekme isteği gönderme"
+
+#: docs/en/titles.md:61
+#, fuzzy
+msgctxt "navigation"
 msgid "Submitting a pull request"
 msgstr "Çekme isteği gönderme"
 
@@ -230,12 +233,24 @@ msgstr "{% endif %}"
 msgid "Translating content"
 msgstr "İçeriği çevirmek"
 
+#: docs/en/titles.md:69
+#, fuzzy
+msgctxt "navigation"
+msgid "Translating content"
+msgstr "İçeriği çeviriyor"
+
 #: docs/en/content_test_bed/how-to/contribute/how/translate.md:3
 msgid "{% extends \"_shared/contribute/how/translate.md\" %}"
 msgstr "{% extends \"_shared/contribute/how/translate.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/how/write-code.md:1
 #, fuzzy
+msgid "Writing, running, and testing code"
+msgstr "Kod yazma, çalıştırma ve test etme"
+
+#: docs/en/titles.md:53
+#, fuzzy
+msgctxt "navigation"
 msgid "Writing, running, and testing code"
 msgstr "Kod yazma, çalıştırma ve test etme"
 
@@ -255,6 +270,12 @@ msgstr "Her şey çalışır hale geldiğinde, değişikliklerinizi içeren bir 
 
 #: docs/en/content_test_bed/how-to/contribute/how/write-docs.md:1
 #, fuzzy
+msgid "Writing documentation"
+msgstr "Dokümantasyon yazma"
+
+#: docs/en/titles.md:57
+#, fuzzy
+msgctxt "navigation"
 msgid "Writing documentation"
 msgstr "Dokümantasyon yazma"
 
@@ -308,6 +329,12 @@ msgstr "{% extends \"_shared/contribute/policies/ai-policy.md\" %}"
 msgid "Code style guide"
 msgstr "Kod stil kılavuzu"
 
+#: docs/en/titles.md:83
+#, fuzzy
+msgctxt "navigation"
+msgid "Code style guide"
+msgstr "Kod stil kılavuzu"
+
 #: docs/en/content_test_bed/how-to/contribute/style/code-style-guide.md:3
 msgid "{% extends \"_shared/contribute/style/code-style-guide.md\" %}"
 msgstr "{% extends \"_shared/contribute/style/code-style-guide.md\" %}"
@@ -316,6 +343,12 @@ msgstr "{% extends \"_shared/contribute/style/code-style-guide.md\" %}"
 #, fuzzy
 msgid "Documentation style guide"
 msgstr "Dokümantasyon stil kılavuzu"
+
+#: docs/en/titles.md:85
+#, fuzzy
+msgctxt "navigation"
+msgid "Documentation style guide"
+msgstr "Belge stil kılavuzu"
 
 #: docs/en/content_test_bed/how-to/contribute/style/docs-style-guide.md:3
 msgid "{% extends \"_shared/contribute/style/docs-style-guide.md\" %}"
@@ -419,14 +452,13 @@ msgid "For `style_guide.md`, you would add `-8<- \"style_guide.md\"` to `style_g
 msgstr "`style_guide.md` için, `-8<- \"style_guide.md\"`'yi `style_guide_include.md`'ye eklemeniz gerekir."
 
 #: docs/en/content_test_bed/index.md:13
-#, fuzzy
-msgid "Update the `Shared content test bed` section in `/docs/SUMMARY.md` to include the new `_include` file and path, at the same indentation level as the other items in that section."
-msgstr "`Shared content test bed` bölümündeki `/docs/SUMMARY.md` kısmını, yeni `_include` dosyasını ve yolunu içerecek şekilde, o bölümdeki diğer öğelerle aynı girinti düzeyinde güncelleyin."
+msgid "Update the `Shared content testbed` section of the `nav` setting in `/docs/zensical.toml` to include the new `_include` file and path, at the same indentation level as the other items in that section."
+msgstr ""
 
 #: docs/en/content_test_bed/index.md:13
 #, fuzzy
-msgid "For `style_guide_include.md`, you would add `- [Style guide](content_test_bed/style_guide_include.md)`."
-msgstr "`style_guide_include.md` için, `- [Style guide](content_test_bed/style_guide_include.md)` eklemeniz gerekir."
+msgid "For `style_guide_include.md`, you would add `{ \"Style guide\" = \"content_test_bed/style_guide_include.md\" },`."
+msgstr "`style_guide_include.md` için, `{ \"Style guide\" = \"content_test_bed/style_guide_include.md\" },` eklemeniz gerekir."
 
 #: docs/en/content_test_bed/index.md:16
 #, fuzzy
@@ -445,8 +477,8 @@ msgstr "Tema kontrol listesi"
 
 #: docs/en/index.md:5
 #, fuzzy
-msgid "This demo is designed to test the various features of the BeeWare MkDocs Material theme overrides. Please read through and verify that everything listed on this and the following pages is present and functioning as detailed in the description."
-msgstr "Bu demo, BeeWare MkDocs Material tema geçersiz kılmalarının çeşitli özelliklerini test etmek için tasarlanmıştır. Lütfen bu sayfayı ve sonraki sayfaları baştan sona okuyun ve burada ve sonraki sayfalarda listelenen her şeyin mevcut olduğunu ve açıklamada belirtildiği gibi çalıştığını doğrulayın."
+msgid "This demo is designed to test the various features of the BeeWare Zensical theme overrides. Please read through and verify that everything listed on this and the following pages is present and functioning as detailed in the description."
+msgstr "Bu demo, BeeWare Zensical tema geçersiz kılmalarının çeşitli özelliklerini test etmek için tasarlanmıştır. Lütfen bu sayfayı ve sonraki sayfaları baştan sona okuyun ve burada ve sonraki sayfalarda listelenen her şeyin mevcut olduğunu ve açıklamada belirtildiği gibi çalıştığını doğrulayın."
 
 #: docs/en/index.md:7
 #, fuzzy
@@ -589,8 +621,8 @@ msgstr "Kenar çubuğu bağlantıları"
 
 #: docs/en/index.md:80
 #, fuzzy
-msgid "Sidebar links exist, and point to the `beeware-docs-tools` repo. This confirms that the sidebar content has been loaded, and the `project-name` has been set in the MkDocs configuration file, and the version number is computed and added."
-msgstr "Kenar çubuğu bağlantıları mevcuttur ve `beeware-docs-tools` deposuna yönlendirir. Bu, kenar çubuğu içeriğinin yüklendiğini, MkDocs yapılandırma dosyasında `project-name` ayarlandığını ve sürüm numarasının hesaplanıp eklendiğini doğrular."
+msgid "Sidebar links exist, and point to the `beeware-docs-tools` repo. This confirms that the sidebar content has been loaded, and the `project-name` has been set in the Zensical configuration file, and the version number is computed and added."
+msgstr "Kenar çubuğu bağlantıları mevcuttur ve `beeware-docs-tools` deposuna yönlendirir. Bu, kenar çubuğu içeriğinin yüklendiğini, Zensical yapılandırma dosyasında `project-name` ayarlandığını ve sürüm numarasının hesaplanıp eklendiğini doğrular."
 
 #: docs/en/index.md:82
 #, fuzzy
@@ -675,9 +707,8 @@ msgid "Add `nopage` to the end of the URL in your browser to verify the 404 page
 msgstr "Tarayıcınızda URL'nin sonuna `nopage` ekleyerek 404 sayfasının varlığını ve \"Brutus aradığınızı bulamıyor\" metnini içerdiğini doğrulayın. Mevcut 404 sayfası, MkDocs ile ilgili bir sorun nedeniyle her zaman görüntüleri göstermez."
 
 #: docs/en/index.md:128
-#, fuzzy
-msgid "*MkDocs builds fail with unrecognized internal links, so you need to manually verify this check by modifying the URL in your browser.*"
-msgstr "*MkDocs, tanınmayan iç bağlantılar nedeniyle derleme hatası verir, bu nedenle tarayıcınızda URL'yi değiştirerek bu kontrolü manuel olarak doğrulamanız gerekir.*"
+msgid "*Strict builds fail with unrecognized internal links, so you need to manually verify this check by modifying the URL in your browser.*"
+msgstr ""
 
 #: docs/en/index.md:130
 #, fuzzy
@@ -824,21 +855,19 @@ msgid "Verify that the text in the parameter table is rendering at the same size
 msgstr "Parametre tablosundaki metnin, yazı tipinin geri kalanıyla aynı boyutta görüntülendiğini doğrulayın."
 
 #: docs/en/section_one/page_two.md:13
-#, fuzzy
-msgid "::: beeware_docs_tools.docs_test.DocsTest"
-msgstr "::: beeware_docs_tools.docs_test.DocsTest"
+msgid "The reference documentation below has an `options` block. Translated builds fail if the block isn't preserved during translation."
+msgstr ""
 
-#: docs/en/section_one/page_two.md:15
+#: docs/en/section_one/page_two.md:19
 #, fuzzy
 msgid "Macro functionality"
 msgstr "Makro işlevselliği"
 
-#: docs/en/section_one/page_two.md:17
-#, fuzzy
-msgid "The following should say 'Brutus says \"Hello world!\"'. This confirms that global variables and macros defined via MkDocs-Macros are available."
-msgstr "Aşağıda \"Brutus diyor ki 'Merhaba dünya!'\" yazmalıdır. Bu, MkDocs-Macros aracılığıyla tanımlanan global değişkenlerin ve makroların kullanılabilir olduğunu doğrular."
+#: docs/en/section_one/page_two.md:21
+msgid "The following should say 'Brutus says \"Hello world!\"'. This confirms that global variables and macros defined via the macros plugin are available."
+msgstr ""
 
-#: docs/en/section_one/page_two.md:19
+#: docs/en/section_one/page_two.md:23
 #, fuzzy
 msgid "{{ mascot_name }} says \"{{ say_hello() }}\""
 msgstr "{{ mascot_name }} \"{{ say_hello() }}\" diyor."
@@ -888,92 +917,164 @@ msgstr "`autoref` bağlantı"
 msgid "The link provided here should take you to the [Heading font][heading-font] section of the main page. It is included to verify `autoref` linking."
 msgstr "Burada verilen bağlantı sizi ana sayfanın [Başlık yazı tipi][heading-font] bölümüne götürmelidir. `autoref` bağlantısını doğrulamak için eklenmiştir."
 
-#: docs/en/titles.md
+#: docs/en/titles.md:3 docs/en/titles.md:5
 #, fuzzy
+msgctxt "navigation"
+msgid "Section one"
+msgstr "Birinci bölüm"
+
+#: docs/en/titles.md:7
+#, fuzzy
+msgctxt "navigation"
 msgid "Section one - page two"
 msgstr "Bölüm bir - sayfa iki"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:9
 #, fuzzy
+msgctxt "navigation"
 msgid "Section two"
 msgstr "İkinci bölüm"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:11
 #, fuzzy
+msgctxt "navigation"
 msgid "Section three"
 msgstr "Üçüncü bölüm"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:13 docs/en/titles.md:15
 #, fuzzy
+msgctxt "navigation"
+msgid "Shared content testbed"
+msgstr "Paylaşılan içerik test ortamı"
+
+#: docs/en/titles.md:17
+#, fuzzy
+msgctxt "navigation"
+msgid "How-to guides"
+msgstr "Nasıl yapılır kılavuzları"
+
+#: docs/en/titles.md:19
+#, fuzzy
+msgctxt "navigation"
+msgid "Contribute"
+msgstr "Katkıda bulunun"
+
+#: docs/en/titles.md:21
+#, fuzzy
+msgctxt "navigation"
 msgid "Contributing"
 msgstr "Katkıda bulunan"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:25
 #, fuzzy
+msgctxt "navigation"
+msgid "What can I do?"
+msgstr "Ne yapabilirim?"
+
+#: docs/en/titles.md:27
+#, fuzzy
+msgctxt "navigation"
 msgid "Fix an issue"
 msgstr "Bir sorunu düzeltin"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:29
 #, fuzzy
+msgctxt "navigation"
 msgid "Implement a new feature"
 msgstr "Yeni bir özellik ekleyin"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:31
 #, fuzzy
+msgctxt "navigation"
 msgid "Write documentation"
 msgstr "Belgeleri yazın"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:33
 #, fuzzy
+msgctxt "navigation"
 msgid "Triage an issue"
 msgstr "Bir sorunu öncelik sırasına koymak"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:35
 #, fuzzy
+msgctxt "navigation"
 msgid "Review a pull request"
 msgstr "Çekme isteğini incele"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:37
 #, fuzzy
+msgctxt "navigation"
 msgid "Propose a new feature"
 msgstr "Yeni bir özellik önerin"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:39
 #, fuzzy
+msgctxt "navigation"
 msgid "Translate content"
 msgstr "İçeriği çevir"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:41
 #, fuzzy
+msgctxt "navigation"
 msgid "Use the tools"
 msgstr "Araçları kullanın"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:43
 #, fuzzy
+msgctxt "navigation"
+msgid "How do I contribute?"
+msgstr "Nasıl katkıda bulunabilirim?"
+
+#: docs/en/titles.md:49
+#, fuzzy
+msgctxt "navigation"
 msgid "Working from a branch"
 msgstr "Bir şubeden çalışmak"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:59
 #, fuzzy
+msgctxt "navigation"
 msgid "Adding a change note"
 msgstr "Değişiklik notu ekleme"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:63
 #, fuzzy
+msgctxt "navigation"
 msgid "Providing a review"
 msgstr "İnceleme sunmak"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:71
 #, fuzzy
+msgctxt "navigation"
+msgid "What happens next?"
+msgstr "Sonra ne olacak?"
+
+#: docs/en/titles.md:73
+#, fuzzy
+msgctxt "navigation"
 msgid "Pull request review process"
 msgstr "Çekme isteği inceleme süreci"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:75
 #, fuzzy
+msgctxt "navigation"
 msgid "Release process"
 msgstr "Serbest bırakma süreci"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:77
 #, fuzzy
+msgctxt "navigation"
+msgid "Policies"
+msgstr "Politikalar"
+
+#: docs/en/titles.md:79
+#, fuzzy
+msgctxt "navigation"
 msgid "AI Policy"
 msgstr "Yapay Zeka Politikası"
+
+#: docs/en/titles.md:81
+#, fuzzy
+msgctxt "navigation"
+msgid "Style guides"
+msgstr "Stil kılavuzları"

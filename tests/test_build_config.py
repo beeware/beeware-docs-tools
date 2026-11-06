@@ -156,6 +156,50 @@ def test_load_config_site_url(tmp_path):
     assert config["site_url"] == "https://fr.example.com/"
 
 
+@pytest.mark.parametrize(
+    "base, env, expected",
+    [
+        # From the environment (Read the Docs)
+        (
+            BASE,
+            {"READTHEDOCS_CANONICAL_URL": "https://example.com/en/latest/"},
+            "https://example.com/en/latest/zh_CN/",
+        ),
+        # Configured in the base file, with and without a trailing slash
+        (
+            '[project]\nsite_url = "https://beeware.org/"\n',
+            {},
+            "https://beeware.org/zh_CN/",
+        ),
+        (
+            '[project]\nsite_url = "https://beeware.org"\n',
+            {},
+            "https://beeware.org/zh_CN/",
+        ),
+        # No site URL at all
+        (BASE, {}, None),
+    ],
+)
+def test_load_config_translated_site_url(tmp_path, base, env, expected):
+    """A translation's site URL is in the language's subdirectory."""
+    project = make_project(
+        tmp_path,
+        base,
+        {
+            "en": '[project]\nsite_name = "Docs"\n',
+            "zh_CN": '[project]\nsite_name = "Docs"\ndocs_dir = "zh_CN"\n',
+        },
+    )
+
+    assert load_config(project, "zh_CN", env=env).get("site_url") == expected
+    # English is published at the root of the site, so its URL is unchanged.
+    english = load_config(project, "en", env=env).get("site_url")
+    if expected:
+        assert english.rstrip("/") == expected.removesuffix("/zh_CN/")
+    else:
+        assert english is None
+
+
 def test_load_config_unexpected_key(tmp_path):
     """A setting that isn't a per-language setting produces a warning."""
     project = make_project(

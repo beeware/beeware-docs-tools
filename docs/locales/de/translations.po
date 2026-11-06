@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-03 09:52+0000\n"
+"POT-Creation-Date: 2026-11-05 22:33-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,51 +11,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 3.20.1\n"
-
-#: docs/en/titles.md
-#, fuzzy
-msgid "Section one"
-msgstr "Abschnitt eins"
-
-#: docs/en/titles.md
-#, fuzzy
-msgid "Shared content testbed"
-msgstr "Testumgebung für gemeinsam genutzte Inhalte"
-
-#: docs/en/titles.md
-#, fuzzy
-msgid "How-to guides"
-msgstr "Anleitungen"
-
-#: docs/en/titles.md
-#, fuzzy
-msgid "Contribute"
-msgstr "Beitragen"
-
-#: docs/en/titles.md
-#, fuzzy
-msgid "What can I do?"
-msgstr "Was kann ich tun?"
-
-#: docs/en/titles.md
-#, fuzzy
-msgid "How do I contribute?"
-msgstr "Wie kann ich einen Beitrag leisten?"
-
-#: docs/en/titles.md
-#, fuzzy
-msgid "What happens next?"
-msgstr "Wie geht es weiter?"
-
-#: docs/en/titles.md
-#, fuzzy
-msgid "Policies"
-msgstr "Richtlinien"
-
-#: docs/en/titles.md
-#, fuzzy
-msgid "Style guides"
-msgstr "Style Guides"
 
 #: docs/en/about/releases.md:1
 #, fuzzy
@@ -69,6 +24,12 @@ msgstr "Diese Datei ist nur enthalten, um den Link in der Datei `code_contributi
 
 #: docs/en/content_test_bed/how-to/contribute/first-time-contributors.md:1
 #, fuzzy
+msgid "First-time contributors"
+msgstr "Erstmalige Beitragszahler"
+
+#: docs/en/titles.md:23
+#, fuzzy
+msgctxt "navigation"
 msgid "First-time contributors"
 msgstr "Erstmalige Beitragszahler"
 
@@ -89,6 +50,12 @@ msgstr "{% extends \"_shared/contribute/how/branches.md\" %}"
 #, fuzzy
 msgid "Building documentation"
 msgstr "Bauunterlagen"
+
+#: docs/en/titles.md:55
+#, fuzzy
+msgctxt "navigation"
+msgid "Building documentation"
+msgstr "Gebäudedokumentation"
 
 #: docs/en/content_test_bed/how-to/contribute/how/build-docs.md:3
 msgid "{% extends \"_shared/contribute/how/build-docs.md\" %}"
@@ -130,6 +97,12 @@ msgstr "{% extends \"_shared/contribute/how/change-note.md\" %}"
 msgid "Setting up a development environment"
 msgstr "Einrichten einer Entwicklungsumgebung"
 
+#: docs/en/titles.md:45
+#, fuzzy
+msgctxt "navigation"
+msgid "Setting up a development environment"
+msgstr "Einrichten einer Entwicklungsumgebung"
+
 #: docs/en/content_test_bed/how-to/contribute/how/dev-environment.md:3
 msgid "{% extends \"_shared/contribute/how/dev-environment.md\" %}"
 msgstr "{% extends \"_shared/contribute/how/dev-environment.md\" %}"
@@ -139,6 +112,12 @@ msgstr "{% extends \"_shared/contribute/how/dev-environment.md\" %}"
 msgid "Submitting a new issue"
 msgstr "Einreichen einer neuen Ausgabe"
 
+#: docs/en/titles.md:65
+#, fuzzy
+msgctxt "navigation"
+msgid "Submitting a new issue"
+msgstr "Einreichung einer neuen Ausgabe"
+
 #: docs/en/content_test_bed/how-to/contribute/how/new-issue.md:3
 msgid "{% extends \"_shared/contribute/how/new-issue.md\" %}"
 msgstr "{% extends \"_shared/contribute/how/new-issue.md\" %}"
@@ -147,6 +126,12 @@ msgstr "{% extends \"_shared/contribute/how/new-issue.md\" %}"
 #, fuzzy
 msgid "Proposing a new feature"
 msgstr "Vorschlag für eine neue Funktion"
+
+#: docs/en/titles.md:67
+#, fuzzy
+msgctxt "navigation"
+msgid "Proposing a new feature"
+msgstr "Vorschlag für ein neues Merkmal"
 
 #: docs/en/content_test_bed/how-to/contribute/how/propose-feature.md:3
 msgid "{% extends \"_shared/contribute/how/propose-feature.md\" %}"
@@ -161,6 +146,12 @@ msgstr "Wenn Sie Interesse haben, können Sie mit der [Implementierung Ihrer neu
 #, fuzzy
 msgid "Reproducing an issue"
 msgstr "Reproduzieren eines Problems"
+
+#: docs/en/titles.md:47
+#, fuzzy
+msgctxt "navigation"
+msgid "Reproducing an issue"
+msgstr "Reproduzieren einer Ausgabe"
 
 #: docs/en/content_test_bed/how-to/contribute/how/reproduce-issue.md:3
 msgid "{% extends \"_shared/contribute/how/reproduce-issue.md\" %}"
@@ -190,6 +181,12 @@ msgstr "{% extends \"_shared/contribute/how/review-pr.md\" %}"
 msgid "Avoiding scope creep"
 msgstr "Vermeidung der schleichenden Ausweitung des Umfangs"
 
+#: docs/en/titles.md:51
+#, fuzzy
+msgctxt "navigation"
+msgid "Avoiding scope creep"
+msgstr "Vermeidung der schleichenden Ausweitung des Geltungsbereichs"
+
 #: docs/en/content_test_bed/how-to/contribute/how/scope-creep.md:3
 msgid "{% extends \"_shared/contribute/how/scope-creep.md\" %}"
 msgstr "{% extends \"_shared/contribute/how/scope-creep.md\" %}"
@@ -198,6 +195,12 @@ msgstr "{% extends \"_shared/contribute/how/scope-creep.md\" %}"
 #, fuzzy
 msgid "Submitting a pull request"
 msgstr "Einreichen einer Pull-Anfrage"
+
+#: docs/en/titles.md:61
+#, fuzzy
+msgctxt "navigation"
+msgid "Submitting a pull request"
+msgstr "Einen Pull-Request einreichen"
 
 #: docs/en/content_test_bed/how-to/contribute/how/submit-pr.md:3
 msgid "{% extends \"_shared/contribute/how/submit-pr.md\" %}"
@@ -233,12 +236,24 @@ msgstr "{% endif %}"
 msgid "Translating content"
 msgstr "Inhalte übersetzen"
 
+#: docs/en/titles.md:69
+#, fuzzy
+msgctxt "navigation"
+msgid "Translating content"
+msgstr "Inhalt übersetzen"
+
 #: docs/en/content_test_bed/how-to/contribute/how/translate.md:3
 msgid "{% extends \"_shared/contribute/how/translate.md\" %}"
 msgstr "{% extends \"_shared/contribute/how/translate.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/how/write-code.md:1
 #, fuzzy
+msgid "Writing, running, and testing code"
+msgstr "Schreiben, Ausführen und Testen von Code"
+
+#: docs/en/titles.md:53
+#, fuzzy
+msgctxt "navigation"
 msgid "Writing, running, and testing code"
 msgstr "Schreiben, Ausführen und Testen von Code"
 
@@ -258,6 +273,12 @@ msgstr "Sobald Sie alles zum Laufen gebracht haben, können Sie [einen Pull-Requ
 
 #: docs/en/content_test_bed/how-to/contribute/how/write-docs.md:1
 #, fuzzy
+msgid "Writing documentation"
+msgstr "Dokumentation schreiben"
+
+#: docs/en/titles.md:57
+#, fuzzy
+msgctxt "navigation"
 msgid "Writing documentation"
 msgstr "Dokumentation schreiben"
 
@@ -311,12 +332,24 @@ msgstr "{% extends \"_shared/contribute/policies/ai-policy.md\" %}"
 msgid "Code style guide"
 msgstr "Code style guide"
 
+#: docs/en/titles.md:83
+#, fuzzy
+msgctxt "navigation"
+msgid "Code style guide"
+msgstr "Guide Style Code"
+
 #: docs/en/content_test_bed/how-to/contribute/style/code-style-guide.md:3
 msgid "{% extends \"_shared/contribute/style/code-style-guide.md\" %}"
 msgstr "{% extends \"_shared/contribute/style/code-style-guide.md\" %}"
 
 #: docs/en/content_test_bed/how-to/contribute/style/docs-style-guide.md:1
 #, fuzzy
+msgid "Documentation style guide"
+msgstr "Documentation style guide"
+
+#: docs/en/titles.md:85
+#, fuzzy
+msgctxt "navigation"
 msgid "Documentation style guide"
 msgstr "Documentation style guide"
 
@@ -422,14 +455,13 @@ msgid "For `style_guide.md`, you would add `-8<- \"style_guide.md\"` to `style_g
 msgstr "Für `style_guide.md` würden Sie `-8<- \"style_guide.md\"` zu `style_guide_include.md` hinzufügen."
 
 #: docs/en/content_test_bed/index.md:13
-#, fuzzy
-msgid "Update the `Shared content test bed` section in `/docs/SUMMARY.md` to include the new `_include` file and path, at the same indentation level as the other items in that section."
-msgstr "Aktualisieren Sie den Abschnitt `Shared content test bed` in `/docs/SUMMARY.md`, um die neue `_include` Datei und den Pfad auf der gleichen Einrückungsebene wie die anderen Elemente in diesem Abschnitt aufzunehmen."
+msgid "Update the `Shared content testbed` section of the `nav` setting in `/docs/zensical.toml` to include the new `_include` file and path, at the same indentation level as the other items in that section."
+msgstr ""
 
 #: docs/en/content_test_bed/index.md:13
 #, fuzzy
-msgid "For `style_guide_include.md`, you would add `- [Style guide](content_test_bed/style_guide_include.md)`."
-msgstr "Für `style_guide_include.md` würden Sie `- [Style guide](content_test_bed/style_guide_include.md)` hinzufügen."
+msgid "For `style_guide_include.md`, you would add `{ \"Style guide\" = \"content_test_bed/style_guide_include.md\" },`."
+msgstr "Für `style_guide_include.md` würden Sie `{ \"Style guide\" = \"content_test_bed/style_guide_include.md\" },` hinzufügen."
 
 #: docs/en/content_test_bed/index.md:16
 #, fuzzy
@@ -448,8 +480,8 @@ msgstr "Themen-Checkliste"
 
 #: docs/en/index.md:5
 #, fuzzy
-msgid "This demo is designed to test the various features of the BeeWare MkDocs Material theme overrides. Please read through and verify that everything listed on this and the following pages is present and functioning as detailed in the description."
-msgstr "Diese Demo wurde entwickelt, um die verschiedenen Funktionen der BeeWare MkDocs Material-Themenüberschreibungen zu testen. Bitte lesen Sie sie durch und überprüfen Sie, ob alles, was auf dieser und den folgenden Seiten aufgeführt ist, vorhanden ist und wie in der Beschreibung beschrieben funktioniert."
+msgid "This demo is designed to test the various features of the BeeWare Zensical theme overrides. Please read through and verify that everything listed on this and the following pages is present and functioning as detailed in the description."
+msgstr "Diese Demo wurde entwickelt, um die verschiedenen Funktionen der BeeWare Zensical-Themenüberschreibungen zu testen. Bitte lesen Sie sie durch und überprüfen Sie, ob alles, was auf dieser und den folgenden Seiten aufgeführt ist, vorhanden ist und wie in der Beschreibung beschrieben funktioniert."
 
 #: docs/en/index.md:7
 #, fuzzy
@@ -592,8 +624,8 @@ msgstr "Links in der Seitenleiste"
 
 #: docs/en/index.md:80
 #, fuzzy
-msgid "Sidebar links exist, and point to the `beeware-docs-tools` repo. This confirms that the sidebar content has been loaded, and the `project-name` has been set in the MkDocs configuration file, and the version number is computed and added."
-msgstr "Sidebar-Links sind vorhanden und verweisen auf das \"beeware-docs-tools\"-Repositorium. Dies bestätigt, dass der Inhalt der Seitenleiste geladen wurde und der \"Projektname\" in der MkDocs-Konfigurationsdatei gesetzt wurde, und die Versionsnummer wird berechnet und hinzugefügt."
+msgid "Sidebar links exist, and point to the `beeware-docs-tools` repo. This confirms that the sidebar content has been loaded, and the `project-name` has been set in the Zensical configuration file, and the version number is computed and added."
+msgstr "Sidebar-Links sind vorhanden und verweisen auf das \"beeware-docs-tools\"-Repositorium. Dies bestätigt, dass der Inhalt der Seitenleiste geladen wurde und der \"Projektname\" in der Zensical-Konfigurationsdatei gesetzt wurde, und die Versionsnummer wird berechnet und hinzugefügt."
 
 #: docs/en/index.md:82
 #, fuzzy
@@ -681,9 +713,8 @@ msgid "Add `nopage` to the end of the URL in your browser to verify the 404 page
 msgstr "Fügen Sie `nopage` am Ende der URL in Ihrem Browser ein, um zu überprüfen, ob die 404-Seite existiert und den Text \"Brutus kann nicht finden, wonach Sie suchen\" enthält. Die aktuelle 404-Seite zeigt die Bilder aufgrund eines Problems mit MkDocs nicht immer an."
 
 #: docs/en/index.md:128
-#, fuzzy
-msgid "*MkDocs builds fail with unrecognized internal links, so you need to manually verify this check by modifying the URL in your browser.*"
-msgstr "*MkDocs-Builds schlagen bei nicht erkannten internen Links fehl, so dass Sie diese Prüfung manuell überprüfen müssen, indem Sie die URL in Ihrem Browser ändern."
+msgid "*Strict builds fail with unrecognized internal links, so you need to manually verify this check by modifying the URL in your browser.*"
+msgstr ""
 
 #: docs/en/index.md:130
 #, fuzzy
@@ -830,21 +861,19 @@ msgid "Verify that the text in the parameter table is rendering at the same size
 msgstr "Überprüfen Sie, ob der Text in der Parametertabelle in derselben Größe wie der Rest der Schriftart dargestellt wird."
 
 #: docs/en/section_one/page_two.md:13
-#, fuzzy
-msgid "::: beeware_docs_tools.docs_test.DocsTest"
-msgstr "::: beeware_docs_tools.docs_test.DocsTest"
+msgid "The reference documentation below has an `options` block. Translated builds fail if the block isn't preserved during translation."
+msgstr ""
 
-#: docs/en/section_one/page_two.md:15
+#: docs/en/section_one/page_two.md:19
 #, fuzzy
 msgid "Macro functionality"
 msgstr "Makro-Funktionalität"
 
-#: docs/en/section_one/page_two.md:17
-#, fuzzy
-msgid "The following should say 'Brutus says \"Hello world!\"'. This confirms that global variables and macros defined via MkDocs-Macros are available."
-msgstr "Im Folgenden sollte 'Brutus sagt \"Hallo Welt!\"' stehen. Dies bestätigt, dass globale Variablen und Makros, die über MkDocs-Macros definiert wurden, verfügbar sind."
+#: docs/en/section_one/page_two.md:21
+msgid "The following should say 'Brutus says \"Hello world!\"'. This confirms that global variables and macros defined via the macros plugin are available."
+msgstr ""
 
-#: docs/en/section_one/page_two.md:19
+#: docs/en/section_one/page_two.md:23
 #, fuzzy
 msgid "{{ mascot_name }} says \"{{ say_hello() }}\""
 msgstr "{{ mascot_name }} sagt \"{{ say_hello() }}\""
@@ -894,92 +923,164 @@ msgstr "`autoref`-Verknüpfung"
 msgid "The link provided here should take you to the [Heading font][heading-font] section of the main page. It is included to verify `autoref` linking."
 msgstr "Der hier angegebene Link sollte Sie zum Abschnitt [Überschrift-Schriftart][heading-font] auf der Hauptseite führen. Er ist enthalten, um die `autoref`-Verknüpfung zu überprüfen."
 
-#: docs/en/titles.md
+#: docs/en/titles.md:3 docs/en/titles.md:5
 #, fuzzy
+msgctxt "navigation"
+msgid "Section one"
+msgstr "Abschnitt eins"
+
+#: docs/en/titles.md:7
+#, fuzzy
+msgctxt "navigation"
 msgid "Section one - page two"
 msgstr "Abschnitt eins - Seite zwei"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:9
 #, fuzzy
+msgctxt "navigation"
 msgid "Section two"
 msgstr "Abschnitt zwei"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:11
 #, fuzzy
+msgctxt "navigation"
 msgid "Section three"
 msgstr "Abschnitt drei"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:13 docs/en/titles.md:15
 #, fuzzy
+msgctxt "navigation"
+msgid "Shared content testbed"
+msgstr "Testumgebung für gemeinsam genutzte Inhalte"
+
+#: docs/en/titles.md:17
+#, fuzzy
+msgctxt "navigation"
+msgid "How-to guides"
+msgstr "Anleitungen"
+
+#: docs/en/titles.md:19
+#, fuzzy
+msgctxt "navigation"
+msgid "Contribute"
+msgstr "Beitragen"
+
+#: docs/en/titles.md:21
+#, fuzzy
+msgctxt "navigation"
 msgid "Contributing"
 msgstr "Mitwirkend"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:25
 #, fuzzy
+msgctxt "navigation"
+msgid "What can I do?"
+msgstr "Was kann ich tun?"
+
+#: docs/en/titles.md:27
+#, fuzzy
+msgctxt "navigation"
 msgid "Fix an issue"
 msgstr "Ein Problem beheben"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:29
 #, fuzzy
+msgctxt "navigation"
 msgid "Implement a new feature"
 msgstr "Implementierung einer neuen Funktion"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:31
 #, fuzzy
+msgctxt "navigation"
 msgid "Write documentation"
 msgstr "Dokumentation schreiben"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:33
 #, fuzzy
+msgctxt "navigation"
 msgid "Triage an issue"
 msgstr "Triage eines Problems"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:35
 #, fuzzy
+msgctxt "navigation"
 msgid "Review a pull request"
 msgstr "Eine Pull-Anfrage überprüfen"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:37
 #, fuzzy
+msgctxt "navigation"
 msgid "Propose a new feature"
 msgstr "Vorschlag für ein neues Merkmal"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:39
 #, fuzzy
+msgctxt "navigation"
 msgid "Translate content"
 msgstr "Inhalt übersetzen"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:41
 #, fuzzy
+msgctxt "navigation"
 msgid "Use the tools"
 msgstr "Benutze die Werkzeuge"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:43
 #, fuzzy
+msgctxt "navigation"
+msgid "How do I contribute?"
+msgstr "Wie kann ich einen Beitrag leisten?"
+
+#: docs/en/titles.md:49
+#, fuzzy
+msgctxt "navigation"
 msgid "Working from a branch"
 msgstr "Von einer Verzweigung aus arbeiten"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:59
 #, fuzzy
+msgctxt "navigation"
 msgid "Adding a change note"
 msgstr "Hinzufügen einer Änderungsnotiz"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:63
 #, fuzzy
+msgctxt "navigation"
 msgid "Providing a review"
 msgstr "Bereitstellung einer Rezension"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:71
 #, fuzzy
+msgctxt "navigation"
+msgid "What happens next?"
+msgstr "Wie geht es weiter?"
+
+#: docs/en/titles.md:73
+#, fuzzy
+msgctxt "navigation"
 msgid "Pull request review process"
 msgstr "Pull-Request-Überprüfungsprozess"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:75
 #, fuzzy
+msgctxt "navigation"
 msgid "Release process"
 msgstr "Freigabeprozess"
 
-#: docs/en/titles.md
+#: docs/en/titles.md:77
 #, fuzzy
+msgctxt "navigation"
+msgid "Policies"
+msgstr "Richtlinien"
+
+#: docs/en/titles.md:79
+#, fuzzy
+msgctxt "navigation"
 msgid "AI Policy"
 msgstr "KI-Richtlinie"
+
+#: docs/en/titles.md:81
+#, fuzzy
+msgctxt "navigation"
+msgid "Style guides"
+msgstr "Style Guides"

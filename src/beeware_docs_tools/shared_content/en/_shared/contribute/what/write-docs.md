@@ -2,7 +2,7 @@ You might have the best software in the world - but if nobody knows how to use i
 
 ## Documentation forms { #docs-form }
 
-{{ formal_name }}'s documentation is written using [MkDocs and Markdown](https://www.markdownguide.org/basic-syntax/). We aim to follow the [Diataxis](https://diataxis.fr) framework for structuring documentation.
+{{ formal_name }}'s documentation is written using [Zensical](https://zensical.org) and [Markdown](https://www.markdownguide.org/basic-syntax/). We aim to follow the [Diataxis](https://diataxis.fr) framework for structuring documentation.
 
 The Diataxis framework describes four "forms" of documentation:
 

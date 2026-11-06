@@ -34,6 +34,8 @@ from pathlib import Path
 import polib
 import tomli_w
 
+from .nav_translations import NAV_CONTEXT
+
 PACKAGE_PATH = Path(__file__).parent
 OVERRIDES_PATH = PACKAGE_PATH / "overrides"
 SHARED_CONTENT_PATH = PACKAGE_PATH / "shared_content"
@@ -148,6 +150,16 @@ def canonical_url(env=None):
     return None
 
 
+def translated_site_url(url, language):
+    """The site URL of a translation, published in a language subdirectory.
+
+    :param url: The site URL of the English site.
+    :param language: The language code, which is also the subdirectory name.
+    :returns: The site URL of the translation, with a trailing slash.
+    """
+    return f"{url.rstrip('/')}/{language}/"
+
+
 def load_config(project_path, language="en", env=None):
     """Load the configuration for a language.
 
@@ -180,6 +192,18 @@ def load_config(project_path, language="en", env=None):
     if "site_url" not in config and (url := canonical_url(env)):
         config["site_url"] = url
 
+    # Translations are published in a subdirectory named for the language (see
+    # `build_md_translations`), so a site URL shared with English must have that
+    # directory added. Otherwise, a translation's canonical links, sitemap, and
+    # 404 page all point at the English site. A site URL set in the language
+    # file is used as is.
+    if (
+        language != "en"
+        and "site_url" not in language_config
+        and (url := config.get("site_url"))
+    ):
+        config["site_url"] = translated_site_url(url, language)
+
     try:
         version = metadata(config["extra"]["package_name"])["version"]
         config["extra"]["version"] = version
@@ -193,11 +217,12 @@ def translate(po):
     """Generate a translator function using the provided PO file."""
 
     def _translate(entry):
-        po_entry = po.find(entry)
-        if po_entry:
-            translated = po_entry.msgstr
-            if translated:
-                return translated
+        # Navigation titles have their own context (see `nav_translations`);
+        # a catalog that predates it may only have an entry without context.
+        for msgctxt in (NAV_CONTEXT, None):
+            po_entry = po.find(entry, msgctxt=msgctxt)
+            if po_entry and po_entry.msgstr:
+                return po_entry.msgstr
         return entry
 
     return _translate
