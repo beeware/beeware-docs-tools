@@ -38,10 +38,10 @@ dependencies = [
     "python-Levenshtein==0.27.5",
     "PyYAML==6.0.3",
     "polib==1.2.0",
-    "ruff==0.17.2",
+    "ruff==0.17.3",
     "setuptools_scm==10.3.4",
     "tomli-w==1.2.0",
-    "translate-toolkit==3.20.1",
+    "translate-toolkit==3.20.2",
     "zensical==0.1.0",  # Pre-1.0; pin exactly.
 ]
 
@@ -53,7 +53,7 @@ pre-commit = [
 ]
 
 tox-uv = [
-    "tox-uv == 1.37.0",
+    "tox-uv == 1.37.3",
 ]
 
 wlc = [
@@ -66,7 +66,7 @@ dev = [
 ]
 
 test = [
-    "pytest == 9.1.1",
+    "pytest == 9.2.0",
     "pytest-xdist == 3.8.0",
 ]
 
