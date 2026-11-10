@@ -1,18 +1,6 @@
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-09 00:59+0000\n"
-"PO-Revision-Date: 2026-09-24 05:58+0000\n"
-"Last-Translator: Pablo Rodríguez <paproninja@gmail.com>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/es/>\n"
-"Language: es\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Translate Toolkit 3.20.2\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-11-09 00:59+0000\nPO-Revision-Date: 2026-11-11 21:51+0000\nLast-Translator: fserrador <fserrador@users.noreply.hosted.weblate.org>\nLanguage-Team: Spanish <https://hosted.weblate.org/projects/beeware/docs-tools-shared-content/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2026.11.2.dev0\n"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/first-time-contributors.md:1
 msgid "There may be a little voice inside your head that is telling you that you're not ready; that you need to do one more tutorial; that you aren't ready to be an open source contributor. After all, you're just a beginner. What could you possibly offer a project like BeeWare?"
@@ -1211,14 +1199,12 @@ msgstr ""
 " * [new branch]      fix-win11-build -> fix-win11-build"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:233
-#, fuzzy
 msgid "The `--set-upstream` option tells Git to connect your local branch to the branch on your GitHub fork. You only need to include it the first time you push a new branch; after that, you can use `git push`."
 msgstr "La opción `--set-upstream` indica a Git que conecte tu rama local con la rama de tu bifurcación en GitHub. Solo tienes que incluirla la primera vez que subas una nueva rama; a partir de entonces, puedes usar `git push`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:235
-#, fuzzy
 msgid "If GitHub asks for a password, don't enter your GitHub account password. GitHub no longer accepts account passwords for Git operations over HTTPS; follow GitHub's instructions for [creating and using a personal access token]{1} instead."
-msgstr "Si GitHub te pide una contraseña, no introduzcas la contraseña de tu cuenta de GitHub. GitHub ya no acepta contraseñas de cuenta para las operaciones de Git a través de HTTPS; en su lugar, sigue las instrucciones de GitHub para [crear y utilizar un token de acceso personal]{1}."
+msgstr "Si GitHub te pide una contraseña, no introduzcas la contraseña de tu cuenta de GitHub. GitHub ya no acepta contraseñas de cuenta para las operaciones de Git a través de HTTPS; en su lugar, sigue las instrucciones de GitHub para [crear y utilizar un vale de acceso personal]{1}."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:237
 msgid "If you've previously pushed the current branch to GitHub, you won't receive the URL again. However, there are other ways to get to the PR creation URL:"
@@ -3603,42 +3589,34 @@ msgid "As a first-time contributor, you should feel free to review any pull requ
 msgstr "Si es la primera vez que colaboras, no dudes en revisar cualquier ‘pull request’ que encuentres, incluso si ha sido enviada por un miembro del equipo central. Si eres un novato, puede que te estés perdiendo algo del contexto del proyecto, pero nuestro objetivo es mantener el código base accesible independientemente de tu nivel de experiencia. Si hay algo en el código que no tiene sentido, eso podría indicar que hay una necesidad de más documentación (ya sea en el código, o como documentación de diseño independiente)."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:15
-#, fuzzy
 msgid "What is ready for review"
-msgstr "¿Qué está listo para su revisión?"
+msgstr "¿Qué está listo para revisar?"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:17
-#, fuzzy
 msgid "The simplest way to find open pull requests is to go to the project's pull requests page: https://github.com/beeware/{{project_name}}/pulls"
 msgstr "La forma más sencilla de encontrar solicitudes de incorporación de cambios abiertas es ir a la página de solicitudes de incorporación de cambios del proyecto: https://github.com/beeware/{{project_name}}/pulls"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:19
-#, fuzzy
 msgid "You can use the GitHub Search functionality to find any open pull requests for a project."
-msgstr "Puedes utilizar la función de búsqueda de GitHub para encontrar cualquier solicitud de incorporación de cambios pendiente de un proyecto."
+msgstr "Puedes utilizar la funcionalidad de Búsqueda en GitHub para encontrar cualquier solicitud de incorporación de cambios pendiente para un proyecto."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:21
-#, fuzzy
 msgid "For example:"
 msgstr "Por ejemplo:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:23
-#, fuzzy
 msgid "[All open PRs, with passing tests for {{formal_name}}]{1}"
-msgstr "[Todas las solicitudes de incorporación de cambios abiertas, con pruebas superadas para {{formal_name}}]{1}"
+msgstr "[Todas las solicitudes abiertas de incorporación de cambios, con pruebas superadas para {{formal_name}}]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:24
-#, fuzzy
 msgid "[All open PRs, with passing tests for all projects]{1}"
 msgstr "[Todas las solicitudes de incorporación de cambios abiertas, con pruebas superadas para todos los proyectos]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:25
-#, fuzzy
 msgid "[All open PRs across BeeWare]{1}"
 msgstr "[Todas las solicitudes de incorporación de cambios (PR) abiertas en BeeWare]{1}"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/review-pr.md:27
-#, fuzzy
 msgid "Note: Not all BeeWare repos have CI tests, and not all open PRs were created when PRs had tests."
 msgstr "Nota: No todos los repositorios de BeeWare cuentan con pruebas de integración, y no todas las solicitudes de incorporación de cambios (PR) abiertas se crearon cuando las PR incluían pruebas."
 
