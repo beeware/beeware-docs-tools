@@ -1,0 +1,18 @@
+[project]
+site_name = "Nástroje pro dokumenty BeeWare"
+docs_dir = "cs"
+
+[project.theme]
+language = "cs"
+
+[project.extra]
+language_url = "cs/"
+translation_type = "machine"
+
+[project.extra.header]
+About = "O nás"
+Documentation = "Dokumentace"
+Community = "Komunita"
+Contributing = "Přispívání"
+News = "Novinky"
+Sponsor = "Sponzor"

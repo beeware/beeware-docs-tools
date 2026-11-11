@@ -1,0 +1,18 @@
+[project]
+site_name = "Инструменты для работы с документацией BeeWare"
+docs_dir = "ru"
+
+[project.theme]
+language = "ru"
+
+[project.extra]
+language_url = "ru/"
+translation_type = "machine"
+
+[project.extra.header]
+About = "О нас"
+Documentation = "Документация"
+Community = "Сообщество"
+Contributing = "Вклад"
+News = "Новости"
+Sponsor = "Спонсор"

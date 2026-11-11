@@ -41,6 +41,7 @@ mergeable
 MkDocs
 Namespaces
 namespace
+natively
 nav
 pre
 PR
@@ -74,3 +75,4 @@ visionOS
 watchOS
 Weblate
 webpage
+Zensical

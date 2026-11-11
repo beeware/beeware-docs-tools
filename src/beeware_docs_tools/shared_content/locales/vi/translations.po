@@ -352,7 +352,7 @@ msgstr "Khi đề cập đến tên sản phẩm, cần tuân thủ quy tắc vi
 msgid "If a term is being used \"as code\", then it should be quoted as a literal (`like this`) rather than being added to the dictionary."
 msgstr "Nếu một thuật ngữ được sử dụng \"như một đoạn mã\", thì nó nên được đặt trong dấu ngoặc kép (`like this`) thay vì được thêm vào từ điển."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:241 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/propose-feature.md:31 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/reproduce-issue.md:34 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:299 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:408 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:35
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:241 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/propose-feature.md:31 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/reproduce-issue.md:34 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:299 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:408 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:36
 #, fuzzy
 msgid "{% block end_matter %} {% endblock %}"
 msgstr "{% block end_matter %} {% endblock %}"
@@ -1614,8 +1614,8 @@ msgstr "Nếu ngôn ngữ mà bạn dự định hỗ trợ chưa có sẵn, b�
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:21
 #, fuzzy
-msgid "Create the `/docs/mkdocs.language-code.yml` file, with language-specific content."
-msgstr "Tạo tệp `/docs/mkdocs.language-code.yml`, với nội dung dành riêng cho ngôn ngữ đó."
+msgid "Create the `/docs/zensical.language-code.toml` file, with language-specific content."
+msgstr "Tạo tệp `/docs/zensical.language-code.toml`, với nội dung dành riêng cho ngôn ngữ đó."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:22
 #, fuzzy
@@ -1624,8 +1624,8 @@ msgstr "Cập nhật `tox.ini` để bổ sung các lệnh xây dựng ngôn ng�
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:23
 #, fuzzy
-msgid "Update `/docs/config.yml` to include the language under `extra: alternate:`."
-msgstr "Cập nhật `/docs/config.yml` để bao gồm ngôn ngữ trong `extra: alternate:`."
+msgid "Update `/docs/zensical.toml` to include the language in `extra.alternate`."
+msgstr "Cập nhật `/docs/zensical.toml` để bao gồm ngôn ngữ trong `extra.alternate`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:25
 #, fuzzy
@@ -1634,53 +1634,35 @@ msgstr "Phần sau đây trình bày các thay đổi cần thiết bằng cách
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:27
 #, fuzzy
-msgid "A new MkDocs configuration file"
-msgstr "Một tệp cấu hình MkDocs mới"
+msgid "A new language configuration file"
+msgstr "Một tệp cấu hình Zensical mới"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:29
 #, fuzzy
-msgid "First, create a new file named `mkdocs.de.yml` in the `docs` directory, with the following content:"
-msgstr "Đầu tiên, hãy tạo một tệp mới có tên `mkdocs.de.yml` trong thư mục `docs`, với nội dung như sau:"
+msgid "First, create a new file named `zensical.de.toml` in the `docs` directory, with the following content:"
+msgstr "Đầu tiên, hãy tạo một tệp mới có tên `zensical.de.toml` trong thư mục `docs`, với nội dung như sau:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:31
 msgid ""
-"INHERIT: config.yml\n"
-"site_name: {{ formal_name }} Dokumentation\n"
-"site_url: {% if config.extra.website %}https://beeware.org/de{% else %}https://{{ project_name }}.beeware.org/de{% endif %}\n"
-"docs_dir: de\n"
+"[project]\n"
+"site_name = \"{{ formal_name }} Dokumentation\"\n"
+"docs_dir = \"de\"\n"
 "\n"
-"theme:\n"
-"  language: de\n"
+"[project.theme]\n"
+"language = \"de\"\n"
 "\n"
-"extra:\n"
-"  language_url: de/\n"
-"  translation_type: machine\n"
-"  header:\n"
-"    About: Über\n"
-"    Documentation: Dokumentation\n"
-"    Community: Gemeinschaft\n"
-"    Contributing: Mitwirken\n"
-"    News: Neuigkeiten\n"
-"    Sponsor: Förderer"
+"[project.extra]\n"
+"language_url = \"de/\"\n"
+"translation_type = \"machine\"\n"
+"\n"
+"[project.extra.header]\n"
+"About = \"Über\"\n"
+"Documentation = \"Dokumentation\"\n"
+"Community = \"Gemeinschaft\"\n"
+"Contributing = \"Mitwirken\"\n"
+"News = \"Neuigkeiten\"\n"
+"Sponsor = \"Förderer\""
 msgstr ""
-"INHERIT: config.yml\n"
-"site_name: {{ formal_name }} Dokumentation\n"
-"site_url: {% if config.extra.website %}https://beeware.org/de{% else %}https://{{ project_name }}.beeware.org/de{% endif %}\n"
-"docs_dir: de\n"
-"\n"
-"theme:\n"
-"  language: de\n"
-"\n"
-"extra:\n"
-"  language_url: de/\n"
-"  translation_type: machine\n"
-"  header:\n"
-"    About: Über\n"
-"    Documentation: Dokumentation\n"
-"    Community: Gemeinschaft\n"
-"    Contributing: Mitwirken\n"
-"    News: Neuigkeiten\n"
-"    Sponsor: Förderer"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:52
 #, fuzzy
@@ -1688,9 +1670,8 @@ msgid "Here's what is going on in this file:"
 msgstr "Đây là những gì đang diễn ra trong tệp này:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:54
-#, fuzzy
-msgid "This file inherits the configuration content from `config.yml`."
-msgstr "Tệp này kế thừa nội dung cấu hình từ `config.yml`."
+msgid "The settings in this file are applied on top of the configuration in `zensical.toml`. Only settings that are specific to the language should be included."
+msgstr ""
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:55
 #, fuzzy
@@ -1699,199 +1680,187 @@ msgstr "Giá trị `site_name` đã được dịch."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:56
 #, fuzzy
-msgid "The `site_url` value is the project site URL, followed by the language code."
-msgstr "Giá trị `site_url` là URL của trang web dự án, kèm theo mã ngôn ngữ."
-
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:57
-#, fuzzy
 msgid "The `docs_dir` should be the language code."
 msgstr "Dấu `docs_dir` phải là mã ngôn ngữ."
 
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:57
+#, fuzzy
+msgid "The `theme.language` value should be the language code, as [specified by the Zensical theme]{1}. For most languages, this will be the same as the `docs_dir` language code; but for some (in particular languages with locale variants like `zh_CN`), there are differences."
+msgstr "Giá trị `theme.language` phải là mã ngôn ngữ, như [được quy định trong chủ đề Zensical]{1}. Đối với hầu hết các ngôn ngữ, giá trị này sẽ giống với mã ngôn ngữ `docs_dir`; nhưng đối với một số ngôn ngữ (đặc biệt là những ngôn ngữ có các biến thể vùng như `zh_CN`), sẽ có sự khác biệt."
+
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:58
 #, fuzzy
-msgid "The `theme: language:` value should be the language code, as [specified by the MkDocs Material theme]{1}. For most languages, this will be the same as the `docs_dir` language code; but for some (in particular languages with locale variants like `zh_CN`), there are differences."
-msgstr "Giá trị `theme: language:` phải là mã ngôn ngữ, như [được quy định trong chủ đề MkDocs Material]{1}. Đối với hầu hết các ngôn ngữ, giá trị này sẽ giống với mã ngôn ngữ `docs_dir`; nhưng đối với một số ngôn ngữ (đặc biệt là những ngôn ngữ có các biến thể vùng như `zh_CN`), sẽ có sự khác biệt."
+msgid "The `extra.language_url` should be the language code, followed by a single slash, e.g. `de/` for German."
+msgstr "Dấu `extra.language_url` phải là mã ngôn ngữ, tiếp theo là một dấu gạch chéo, ví dụ: `de/` cho tiếng Đức."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:59
 #, fuzzy
-msgid "The `extra: language_url:` should be the language code, followed by a single slash, e.g. `de/` for German."
-msgstr "Dấu `extra: language_url:` phải là mã ngôn ngữ, tiếp theo là một dấu gạch chéo, ví dụ: `de/` cho tiếng Đức."
+msgid "The `extra.translation_type` should be `machine` until the translation reaches 100% for the first time, at which point it should be `human`. It will revert to `machine` from `human` if it regresses to below 90%."
+msgstr "`extra.translation_type` sẽ giữ nguyên là `machine` cho đến khi bản dịch đạt 100% lần đầu tiên; khi đó, nó sẽ chuyển thành `human`. Nó sẽ quay trở lại `machine` từ `human` nếu tỷ lệ dịch giảm xuống dưới 90%."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:60
 #, fuzzy
-msgid "The `extra: translation_type:` should be `machine` until the translation reaches 100% for the first time, at which point it should be `human`. It will revert to `machine` from `human` if it regresses to below 90%."
-msgstr "`extra: translation_type:` sẽ giữ nguyên là `machine` cho đến khi bản dịch đạt 100% lần đầu tiên; khi đó, nó sẽ chuyển thành `human`. Nó sẽ quay trở lại `machine` từ `human` nếu tỷ lệ dịch giảm xuống dưới 90%."
+msgid "The content under `extra.header` is the translations for titles that appear in the header bar. This definition is *not* required on the main BeeWare website; it is only required on *other* sites (such as the tutorial, or project documentation)."
+msgstr "Nội dung trong `extra.header` là bản dịch của các tiêu đề xuất hiện trên thanh tiêu đề. Định nghĩa này *không* bắt buộc trên trang web chính của BeeWare; nó chỉ bắt buộc trên *các* trang web khác (chẳng hạn như trang hướng dẫn hoặc tài liệu dự án)."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:61
-#, fuzzy
-msgid "The content under `extra: header` is the translations for titles that appear in the header bar. This definition is *not* required on the main BeeWare website; it is only required on *other* sites (such as the tutorial, or project documentation)."
-msgstr "Nội dung trong `extra: header` là bản dịch của các tiêu đề xuất hiện trên thanh tiêu đề. Định nghĩa này *không* bắt buộc trên trang web chính của BeeWare; nó chỉ bắt buộc trên *các* trang web khác (chẳng hạn như trang hướng dẫn hoặc tài liệu dự án)."
-
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:63
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:62
 #, fuzzy
 msgid "Update `tox.ini`"
 msgstr "Cập nhật `tox.ini`"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:65
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:64
 #, fuzzy
 msgid "You'll need to make several changes to the `tox.ini` file."
 msgstr "Bạn sẽ cần thực hiện một số thay đổi đối với tệp `tox.ini`."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:67
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:66
 #, fuzzy
 msgid "You would add the following:"
 msgstr "Bạn sẽ thêm nội dung sau:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:69
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:68
 #, fuzzy
 msgid "The new language code environment flag to the header line which begins `[testenv:docs`, with the language code preceded by a `-`, with no spaces included, e.g. `-de`."
 msgstr "Thêm cờ mã ngôn ngữ mới vào dòng tiêu đề bắt đầu bằng `[testenv:docs`, trong đó mã ngôn ngữ được đặt trước dấu `-`, không có khoảng trắng, ví dụ: `-de`."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:70
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:69
 #, fuzzy
 msgid "The new language code exclusion to the first command, which begins with `!lint`, preceded by `-!`, with no spaces included, e.g. `-!de`."
 msgstr "Quy tắc loại trừ mã ngôn ngữ mới đối với lệnh đầu tiên, bắt đầu bằng `!lint`, được đặt trước bởi `-!`, không có khoảng trắng, ví dụ: `-!de`."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:71
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:70
 #, fuzzy
 msgid "The new language code to the line beginning with `translate : build_po_translations`."
 msgstr "Thêm mã ngôn ngữ mới vào dòng bắt đầu bằng `translate : build_po_translations`."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:72
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:71
 #, fuzzy
 msgid "The new language code to the line beginning with `translate : update_machine_translations`"
 msgstr "Thêm mã ngôn ngữ mới vào dòng bắt đầu bằng `translate : update_machine_translations`"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:73
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:72
 #, fuzzy
 msgid "A new command, beginning with, for example, `de : build_md_translations` for German, alphabetically within the existing language-specific commands that matches the content of those commands, with the new language code."
 msgstr "Một lệnh mới, bắt đầu bằng, ví dụ như `de : build_md_translations` cho tiếng Đức, được sắp xếp theo thứ tự bảng chữ cái trong danh sách các lệnh dành riêng cho ngôn ngữ hiện có và có nội dung tương ứng với các lệnh đó, kèm theo mã ngôn ngữ mới."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:74
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:73
 #, fuzzy
 msgid "The new language code to the line beginning with `all:`."
 msgstr "Thêm mã ngôn ngữ mới vào dòng bắt đầu bằng `all:`."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:76
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:75
 #, fuzzy
-msgid "Update `config.yml`"
-msgstr "Cập nhật `config.yml`"
+msgid "Update `zensical.toml`"
+msgstr "Cập nhật `zensical.toml`"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:78
-#, fuzzy
-msgid "Add the language to `config.yml` so it will show up in the language selector in the header. Find the section beginning with `extra:`, and then locate the subsection beginning with `alternate:`. For German, you would add the following:"
-msgstr "Thêm ngôn ngữ vào `config.yml` để nó xuất hiện trong trình chọn ngôn ngữ ở đầu trang. Tìm phần bắt đầu bằng `extra:`, sau đó tìm phần con bắt đầu bằng `alternate:`. Đối với tiếng Đức, bạn cần thêm đoạn sau:"
-
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:80
-msgid ""
-"- name: Deutsch\n"
-"      link: /de/\n"
-"      lang: de"
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:77
+msgid "Add the language to `zensical.toml` so it will show up in the language selector in the header. Find the section beginning with `[project.extra]`, and then locate the `alternate` setting. For German, you would add the following:"
 msgstr ""
-"- name: Deutsch\n"
-"      link: /de/\n"
-"      lang: de"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:86
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:79
+msgid "{ name = \"Deutsch\", link = \"/de/\", lang = \"de\" },"
+msgstr ""
+
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:83
 #, fuzzy
 msgid "The language name should be translated into the language. The link must include the `/`s."
 msgstr "Tên ngôn ngữ cần được dịch sang ngôn ngữ đó. Liên kết phải bao gồm các dấu `/`."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:88
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:85
 #, fuzzy
 msgid "Run `tox translate`"
 msgstr "Chạy `tox translate`"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:90
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:87
 #, fuzzy
 msgid "You can now run `tox -e docs-translate`. This will generate an empty translation file; if you have a DeepL account, you can use that account to populate initial machine translations. If you don't have a DeepL account, that's fine - we'll run initial translations ourselves before accepting the pull request."
 msgstr "Bây giờ bạn có thể chạy `tox -e docs-translate`. Thao tác này sẽ tạo ra một tệp dịch trống; nếu bạn có tài khoản DeepL, bạn có thể sử dụng tài khoản đó để điền các bản dịch máy ban đầu. Nếu bạn không có tài khoản DeepL, cũng không sao — chúng tôi sẽ tự thực hiện các bản dịch ban đầu trước khi chấp nhận yêu cầu pull."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:92
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:89
 #, fuzzy
 msgid "Translation guidelines"
 msgstr "Hướng dẫn dịch thuật"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:94
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:91
 #, fuzzy
 msgid "Once you've been added to the team, it's time to log into [Weblate]{1} and begin working through translating strings."
 msgstr "Sau khi bạn đã được thêm vào nhóm, đã đến lúc đăng nhập vào [Weblate]{1} và bắt đầu dịch các chuỗi văn bản."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:96
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:93
 #, fuzzy
 msgid "Tone versus word-for-word translation"
 msgstr "Dịch theo ngữ cảnh so với dịch từng từ"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:98
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:95
 #, fuzzy
 msgid "It's more important to maintain the tone of the English text than to strive for a word-for-word translation. We try to be friendly and a bit colloquial in our content; try to maintain the spirit of that in your translations."
 msgstr "Việc giữ nguyên giọng điệu của bản gốc tiếng Anh quan trọng hơn là cố gắng dịch từng từ một. Chúng tôi cố gắng viết nội dung một cách thân thiện và hơi mang tính khẩu ngữ; mong bạn cũng cố gắng giữ nguyên tinh thần đó trong bản dịch của mình."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:100
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:97
 #, fuzzy
 msgid "If the English text contains a strong English idiom, don't feel beholden to maintain the idiom, if there is an analog in your language that would work equally well. If the term or phrase in the English text is a particularly idiomatic or slang term, don't be afraid to tell us we should consider making a change. Even for English speakers, idioms and slang can pose difficulty. Sometimes we need to change the English text to make it more straightforward for translators and readers alike."
 msgstr "Nếu văn bản tiếng Anh chứa một thành ngữ tiếng Anh mang tính đặc trưng mạnh mẽ, đừng cảm thấy bắt buộc phải giữ nguyên thành ngữ đó nếu trong ngôn ngữ của bạn có một cách diễn đạt tương đương mà vẫn truyền tải ý nghĩa tốt không kém. Nếu thuật ngữ hoặc cụm từ trong văn bản tiếng Anh là một thành ngữ hoặc từ lóng đặc biệt, đừng ngần ngại đề xuất với chúng tôi rằng nên xem xét điều chỉnh. Ngay cả với người nói tiếng Anh, thành ngữ và từ lóng cũng có thể gây khó khăn. Đôi khi chúng tôi cần điều chỉnh văn bản tiếng Anh để làm cho nó dễ hiểu hơn cho cả người dịch lẫn người đọc."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:102
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:99
 #, fuzzy
 msgid "Should I translate it?"
 msgstr "Tôi có nên dịch nó không?"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:104
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:101
 #, fuzzy
 msgid "The following items should *not* be translated or updated:"
 msgstr "Các mục sau đây *không* nên được dịch hoặc cập nhật:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:106
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:103
 #, fuzzy
 msgid "**Commands**. For example, in \"You should run \\`briefcase create\\`.\", only \"You should run\" should be translated."
 msgstr "**Lệnh**. Ví dụ, trong câu \"Bạn nên chạy \\`briefcase create\\`.\", chỉ phần \"Bạn nên chạy\" mới cần được dịch."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:107
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:104
 #, fuzzy
 msgid "**Namespaces**, such as class, method, or attribute names."
 msgstr "**Không gian tên**, chẳng hạn như tên lớp, phương thức hoặc thuộc tính."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:108
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:105
 #, fuzzy
 msgid "**Link URLs**. Standard Markdown links should appear in Weblate as `[Link text]{1}`, where `1` is the position of the link in the string with reference to other possible links. If the full URL is included in the string, as `[Link text](https://example.com/)`, the URL should be skipped for translation."
 msgstr "**URL liên kết**. Các liên kết Markdown tiêu chuẩn nên được hiển thị trong Weblate dưới dạng `[Link text]{1}`, trong đó `1` là vị trí của liên kết trong chuỗi so với các liên kết khác có thể có. Nếu URL đầy đủ được bao gồm trong chuỗi, như `[Link text](https://example.com/)`, thì URL đó nên được bỏ qua khi dịch."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:109
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:106
 #, fuzzy
 msgid "**Reference links containing class, method or attribute names**. These should be left as-is, including the backticks. Every part of the example link shown here would not be translated."
 msgstr "**Các liên kết tham chiếu chứa tên lớp, phương thức hoặc thuộc tính**. Những liên kết này nên được giữ nguyên, bao gồm cả dấu gạch chéo ngược. Mọi phần của liên kết ví dụ được hiển thị ở đây sẽ không được dịch."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:109
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:106
 msgid "[`Class.attribute`][Class.attribute]"
 msgstr "[`Class.attribute`][Class.attribute]"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:115
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:112
 #, fuzzy
 msgid "**The link content of a Reference link**. For example, `link-content` would be skipped in the following:"
 msgstr "**Nội dung của một liên kết tham chiếu**. Ví dụ, `link-content` sẽ bị bỏ qua trong đoạn sau:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:115 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:139
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:112 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:136
 #, fuzzy
 msgid "[Link text][link-content]"
 msgstr "[Nội dung liên kết][link-content]"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:121
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:118
 #, fuzzy
 msgid "**Jinja directives**. This is any content wrapped inside two pairs of matching curly braces, or a matching pair of single curly braces with percent signs inside each end. Note: Including an example of the syntax here causes the Macros plugin to attempt to render it; see the [Macros documentation]{1} for examples."
 msgstr "**Hướng dẫn Jinja**. Đây là bất kỳ nội dung nào được bao bọc bởi hai cặp dấu ngoặc nhọn đối xứng, hoặc một cặp dấu ngoặc nhọn đơn đối xứng có chứa ký hiệu phần trăm ở mỗi đầu. Lưu ý: Việc đưa ví dụ về cú pháp vào đây sẽ khiến plugin Macros cố gắng hiển thị nó; hãy xem [tài liệu về Macros]{1} để tham khảo các ví dụ."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:122
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:119
 #, fuzzy
 msgid "**Custom anchors**. They are found after headers or above some content, and are formatted as `{ #anchor }`."
 msgstr "**Điểm neo tùy chỉnh**. Chúng thường xuất hiện sau các tiêu đề hoặc phía trên một số nội dung, và được định dạng dưới dạng `{ #anchor }`."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:123
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:120
 #, fuzzy
 msgid "**Admonition syntax**. In the following example, the word \"admonition\" should not be translated. This goes for all styles of admonitions, including notes, warnings, etc. See the next section for information on translating the rest of the content."
 msgstr "**Cấu trúc câu cảnh báo**. Trong ví dụ sau, từ \"cảnh báo\" không nên được dịch. Quy tắc này áp dụng cho tất cả các dạng cảnh báo, bao gồm chú thích, cảnh báo, v.v. Vui lòng tham khảo phần tiếp theo để biết thông tin về cách dịch phần nội dung còn lại."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:123
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:120
 #, fuzzy
 msgid ""
 "/// admonition | Page Title\n"
@@ -1906,52 +1875,52 @@ msgstr ""
 "\n"
 "///"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:133
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:130
 #, fuzzy
 msgid "**Backticks**. They are meant to stay as backticks; they are used for formatting both inline code and code blocks."
 msgstr "**Dấu nháy đơn**. Chúng được thiết kế để hiển thị dưới dạng dấu nháy đơn; chúng được sử dụng để định dạng cả mã trong dòng và khối mã."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:134
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:131
 #, fuzzy
 msgid "**The syntax for including external content**. This is anything on the same line as `-8<-`, or on the lines between two `-8<-` on separate lines."
 msgstr "**Cú pháp để nhúng nội dung bên ngoài**. Đây là bất kỳ nội dung nào nằm trên cùng một dòng với `-8<-`, hoặc nằm trên các dòng nằm giữa hai cặp `-8<-` trên các dòng riêng biệt."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:136
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:133
 #, fuzzy
 msgid "The following items *should* be translated:"
 msgstr "Các mục sau đây *nên* được dịch:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:138
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:135
 #, fuzzy
 msgid "**Link text**. In link syntax, the text comes before the URL, and is enclosed in brackets, as in `[Link text](URL)`. Standard Markdown links should appear in Weblate as `[Link text]{1}`, where `1` is the position of the link in the string with reference to other possible links."
 msgstr "**Văn bản liên kết**. Trong cú pháp liên kết, văn bản được đặt trước URL và được bao quanh bởi dấu ngoặc nhọn, như `[Link text](URL)`. Các liên kết Markdown tiêu chuẩn nên xuất hiện trong Weblate dưới dạng `[Link text]{1}`, trong đó `1` là vị trí của liên kết trong chuỗi văn bản so với các liên kết khác có thể có."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:139
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:136
 #, fuzzy
 msgid "**Reference link text**. For example, `Link text` would be translated in the following:"
 msgstr "**Văn bản liên kết tham chiếu**. Ví dụ: `Link text` sẽ được dịch như sau:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:145
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:142
 #, fuzzy
 msgid "**Admonition titles and content**. In the previous admonition example, \"Page Title\" and \"Content.\" should be translated."
 msgstr "**Tiêu đề và nội dung của lời khuyên**. Trong ví dụ về lời khuyên trước đó, \"Tiêu đề trang\" và \"Nội dung\" cần được dịch."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:147
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:144
 #, fuzzy
 msgid "Weblate"
 msgstr "Weblate"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:149
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:146
 #, fuzzy
 msgid "We use [Weblate]{1} for our content translation. When we add a new translation, we use [DeepL]{2} for machine translation to produce a first pass at translations. That means, typically, the content you'll be translating is already machine translated. The expectation is that you, as a translator, will review, edit, and improve the existing machine translation."
 msgstr "Chúng tôi sử dụng [Weblate]{1} để dịch nội dung. Khi thêm bản dịch mới, chúng tôi sử dụng [DeepL]{2} để dịch máy nhằm tạo ra bản dịch sơ bộ. Điều đó có nghĩa là, thông thường, nội dung mà bạn sẽ dịch đã được dịch máy sẵn. Chúng tôi mong rằng bạn, với tư cách là người dịch, sẽ rà soát, chỉnh sửa và hoàn thiện bản dịch máy hiện có."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:151
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:148
 #, fuzzy
 msgid "Weblate processes everything on a string-by-string basis. It batches changes, and every couple of hours, it will submit a bulk commit with all the strings that have changed in that interval. So, it may take a couple of hours for your changes to show up on the website, but you can expect the update to appear within four hours."
 msgstr "Weblate xử lý mọi thứ theo từng chuỗi. Hệ thống sẽ gom các thay đổi lại và cứ sau vài giờ, nó sẽ gửi một bản cập nhật hàng loạt bao gồm tất cả các chuỗi đã thay đổi trong khoảng thời gian đó. Do đó, có thể mất vài giờ để các thay đổi của bạn hiển thị trên trang web, nhưng bạn có thể mong đợi bản cập nhật sẽ xuất hiện trong vòng bốn giờ."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:153
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:150
 #, fuzzy
 msgid "If after that time, your changes still haven't appeared, the likely cause is a markup error, resulting in a failure in the docs build for that language. Any markup problem in any string will block the entire translation from being public. You can keep an eye on the build page for your language to see whether it has successfully built. The link is formatted similarly to this link to the French build page {% if config.extra.website %}[https://app.readthedocs.org/projects/beewareorg/]{1}{% else %}[https://app.readthedocs.org/projects/{{ project_name }}/](https://app.readthedocs.org/projects/{{ project_name }}/){% endif %}; change the language code to your language to view the appropriate build page. This will show the state of the most recent build of the site. If the build fails, look at the build log, and see if you can identify the source of the problem."
 msgstr "Nếu sau khoảng thời gian đó, các thay đổi của bạn vẫn chưa hiển thị, nguyên nhân có thể là do lỗi định dạng, dẫn đến việc quá trình biên dịch tài liệu cho ngôn ngữ đó bị lỗi. Bất kỳ lỗi định dạng nào trong bất kỳ chuỗi văn bản nào cũng sẽ ngăn toàn bộ bản dịch được công khai. Bạn có thể theo dõi trang biên dịch của ngôn ngữ mình để xem liệu quá trình biên dịch đã thành công hay chưa. Liên kết được định dạng tương tự như liên kết này đến trang xây dựng tiếng Pháp {% if config.extra.website %}[https://app.readthedocs.org/projects/beewareorg/]{1}{% else %}[https://app.readthedocs.org/projects/{{ project_name }}/](https://app.readthedocs.org/projects/{{ project_name }}/){% endif %}; hãy thay đổi mã ngôn ngữ thành ngôn ngữ của bạn để xem trang xây dựng tương ứng. Điều này sẽ hiển thị trạng thái của bản xây dựng mới nhất của trang web. Nếu quá trình xây dựng thất bại, hãy xem nhật ký xây dựng và xem liệu bạn có thể xác định được nguyên nhân của vấn đề hay không."
@@ -2353,35 +2322,34 @@ msgid "You'll need to create the document in the appropriate location within the
 msgstr "Bạn cần tạo tài liệu tại vị trí thích hợp trong thư mục `docs/en`. Để tiện thảo luận, chúng ta sẽ giả định rằng bạn đang thêm một tài liệu mới có tên tệp là `new_doc.md`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:17
-#, fuzzy
-msgid "Then, you'll need to update the `docs/en/SUMMARY.md` file to include your new file. `SUMMARY.md` is organized to basically reflect the `docs/en` directory structure, but, more importantly, directly determines the structure of the left sidebar. If you locate the section where you intend to include `new_doc.md`, you do not need to change anything in `SUMMARY.md` if you see a wildcard path listed. For example:"
-msgstr "Sau đó, bạn cần cập nhật tệp `docs/en/SUMMARY.md` để thêm tệp mới của bạn vào. Tệp `SUMMARY.md` được tổ chức sao cho phản ánh cơ bản cấu trúc thư mục `docs/en`, nhưng quan trọng hơn, nó quyết định trực tiếp cấu trúc của thanh bên trái. Nếu bạn tìm thấy phần mà bạn định thêm tệp `new_doc.md`, bạn không cần thay đổi bất cứ điều gì trong tệp `SUMMARY.md` nếu thấy đường dẫn có ký hiệu đại diện được liệt kê. Ví dụ:"
+msgid "Then, you'll need to add your new file to the `nav` setting in `docs/zensical.toml`. The `nav` setting is organized to basically reflect the `docs/en` directory structure, but, more importantly, directly determines the structure of the left sidebar. Locate the section where you intend to include `new_doc.md`, and add an entry for it, with the title you want to appear in the sidebar, and the path to the file, relative to `docs/en`. For example:"
+msgstr ""
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:19
-msgid "- ./path/to/directory/*"
-msgstr "- ./path/to/directory/*"
+msgid ""
+"nav = [\n"
+"    { \"Existing section\" = [\n"
+"        { \"Existing document\" = \"path/to/existing_doc.md\" },\n"
+"        { \"My new document\" = \"path/to/new_doc.md\" },\n"
+"    ] },\n"
+"]"
+msgstr ""
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:23
-#, fuzzy
-msgid "If the section where you intend to include `new_doc.md` is a list of individual Markdown links, you'll need to add an explicit link to yours. For example:"
-msgstr "Nếu phần mà bạn định chèn `new_doc.md` là một danh sách các liên kết Markdown riêng lẻ, bạn sẽ cần thêm một liên kết cụ thể đến liên kết của mình. Ví dụ:"
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:28
+msgid "The titles in the `nav` setting are translated along with the rest of the documentation."
+msgstr ""
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:25
-#, fuzzy
-msgid "- [My new document](new_doc.md)"
-msgstr "- [Tài liệu mới của tôi](new_doc.md)"
-
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:29
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:30
 #, fuzzy
 msgid "Writing your documentation"
 msgstr "Viết tài liệu"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:31
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:32
 #, fuzzy
 msgid "You can now open the desired file into your editor, and begin writing."
 msgstr "Bây giờ bạn có thể mở tệp mong muốn trong trình soạn thảo của mình và bắt đầu viết."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:33
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:34
 #, fuzzy
 msgid "We have a [documentation style guide]{1} that outlines our guidelines for writing documentation for BeeWare."
 msgstr "Chúng tôi có một [hướng dẫn phong cách tài liệu]{1} nêu rõ các nguyên tắc về việc soạn thảo tài liệu cho BeeWare."
@@ -3148,8 +3116,8 @@ msgstr ""
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:1
 #, fuzzy
-msgid "This guide includes information on expected style, MkDocs-specific syntax, various required tools, and documentation translation, with regard to writing new content and translating existing content."
-msgstr "Hướng dẫn này bao gồm thông tin về phong cách được mong đợi, cú pháp đặc thù của MkDocs, các công cụ cần thiết và việc dịch tài liệu, liên quan đến việc viết nội dung mới và dịch nội dung hiện có."
+msgid "This guide includes information on expected style, Zensical-specific syntax, various required tools, and documentation translation, with regard to writing new content and translating existing content."
+msgstr "Hướng dẫn này bao gồm thông tin về phong cách được mong đợi, cú pháp đặc thù của Zensical, các công cụ cần thiết và việc dịch tài liệu, liên quan đến việc viết nội dung mới và dịch nội dung hiện có."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:3
 #, fuzzy
@@ -3208,8 +3176,8 @@ msgstr "Bạn nên tham chiếu chéo nội dung trong tài liệu bất cứ kh
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:18
 #, fuzzy
-msgid "MkDocs renders standard Markdown formatted links. Standard Markdown formatted web hyperlinks are as follows:"
-msgstr "MkDocs hiển thị các liên kết được định dạng theo chuẩn Markdown. Các liên kết web được định dạng theo chuẩn Markdown như sau:"
+msgid "Zensical renders standard Markdown formatted links. Standard Markdown formatted web hyperlinks are as follows:"
+msgstr "Zensical hiển thị các liên kết được định dạng theo chuẩn Markdown. Các liên kết web được định dạng theo chuẩn Markdown như sau:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:20
 #, fuzzy
@@ -3228,8 +3196,8 @@ msgstr "[Văn bản liên kết](path/to/file.md)"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:30
 #, fuzzy
-msgid "Referencing specific sections of files, or API documentation requires using the MkDocs reference link format."
-msgstr "Để trích dẫn các phần cụ thể trong tệp hoặc tài liệu API, bạn cần sử dụng định dạng liên kết tham chiếu của MkDocs."
+msgid "Referencing specific sections of files, or API documentation requires using the Zensical reference link format."
+msgstr "Để trích dẫn các phần cụ thể trong tệp hoặc tài liệu API, bạn cần sử dụng định dạng liên kết tham chiếu của Zensical."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:32
 #, fuzzy
@@ -3243,13 +3211,13 @@ msgstr "Markdown tạo các liên kết neo cho tất cả các tiêu đề (b�
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:36
 #, fuzzy
-msgid "MkDocs supports rendering a reference link syntax that allows you to link to various other elements in the documentation using a modified Markdown link. This includes linking to, among other things, custom Markdown headers and text anchors."
-msgstr "MkDocs hỗ trợ hiển thị cú pháp liên kết tham chiếu, cho phép bạn liên kết đến các thành phần khác nhau trong tài liệu bằng cách sử dụng liên kết Markdown đã được điều chỉnh. Điều này bao gồm việc liên kết đến, trong số những thứ khác, các tiêu đề Markdown tùy chỉnh và các điểm neo văn bản."
+msgid "Zensical supports rendering a reference link syntax that allows you to link to various other elements in the documentation using a modified Markdown link. This includes linking to, among other things, custom Markdown headers and text anchors."
+msgstr "Zensical hỗ trợ hiển thị cú pháp liên kết tham chiếu, cho phép bạn liên kết đến các thành phần khác nhau trong tài liệu bằng cách sử dụng liên kết Markdown đã được điều chỉnh. Điều này bao gồm việc liên kết đến, trong số những thứ khác, các tiêu đề Markdown tùy chỉnh và các điểm neo văn bản."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:38
 #, fuzzy
-msgid "MkDocs reference links are any links formatted as follows:"
-msgstr "Các liên kết tham khảo trong MkDocs là những liên kết được định dạng như sau:"
+msgid "Zensical reference links are any links formatted as follows:"
+msgstr "Các liên kết tham khảo trong Zensical là những liên kết được định dạng như sau:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:40
 #, fuzzy
@@ -3263,8 +3231,8 @@ msgstr "/// warning | Yêu cầu phải có tiêu đề tùy chỉnh và các li
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:46
 #, fuzzy
-msgid "Any header or content section that is referenced in text content via a MkDocs reference link in the BeeWare documentation _must_ have a custom anchor attached. Otherwise, there is the potential to break the links when header content is translated."
-msgstr "Bất kỳ phần tiêu đề hoặc nội dung nào được trích dẫn trong nội dung văn bản thông qua liên kết tham chiếu MkDocs trong tài liệu BeeWare _phải_ được gắn một điểm neo tùy chỉnh. Nếu không, các liên kết có thể bị hỏng khi nội dung tiêu đề được dịch."
+msgid "Any header or content section that is referenced in text content via a Zensical reference link in the BeeWare documentation _must_ have a custom anchor attached. Otherwise, there is the potential to break the links when header content is translated."
+msgstr "Bất kỳ phần tiêu đề hoặc nội dung nào được trích dẫn trong nội dung văn bản thông qua liên kết tham chiếu Zensical trong tài liệu BeeWare _phải_ được gắn một điểm neo tùy chỉnh. Nếu không, các liên kết có thể bị hỏng khi nội dung tiêu đề được dịch."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:50
 #, fuzzy
@@ -3323,8 +3291,8 @@ msgstr "[Nội dung liên kết](#anchor-name)"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:80
 #, fuzzy
-msgid "Linking to an anchor in a separate document uses the MkDocs reference link style, which is formatted as follows:"
-msgstr "Để tạo liên kết đến một điểm neo trong một tài liệu khác, hãy sử dụng kiểu liên kết tham chiếu của MkDocs, được định dạng như sau:"
+msgid "Linking to an anchor in a separate document uses the Zensical reference link style, which is formatted as follows:"
+msgstr "Để tạo liên kết đến một điểm neo trong một tài liệu khác, hãy sử dụng kiểu liên kết tham chiếu của Zensical, được định dạng như sau:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:82
 #, fuzzy
@@ -3338,8 +3306,8 @@ msgstr "Các liên kết tham khảo API"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:88
 #, fuzzy
-msgid "The MkDocs reference linking also supports cross-referencing API documentation, including documented classes, class methods or attributes, and specific external documentation references."
-msgstr "Tính năng liên kết tham chiếu của MkDocs cũng hỗ trợ liên kết chéo đến tài liệu API, bao gồm các lớp, phương thức lớp hoặc thuộc tính đã được tài liệu hóa, cũng như các tham chiếu đến tài liệu bên ngoài cụ thể."
+msgid "Zensical reference linking also supports cross-referencing API documentation, including documented classes, class methods or attributes, and specific external documentation references."
+msgstr "Tính năng liên kết tham chiếu của Zensical cũng hỗ trợ liên kết chéo đến tài liệu API, bao gồm các lớp, phương thức lớp hoặc thuộc tính đã được tài liệu hóa, cũng như các tham chiếu đến tài liệu bên ngoài cụ thể."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:90
 #, fuzzy
@@ -3912,8 +3880,8 @@ msgstr "Sử dụng Macro để chèn nội dung từ nội dung được chia s
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:371
 #, fuzzy
-msgid "You can also include content from the BeeWare Docs tools shared content directory using the [Macros MkDocs plugin]{1}. This method is necessary if the document contains Jinja directives that need to be executed, and should only be used in this situation. It will not work with external content via a URL. The [Macros variable-replacement mechanism]{2} works with this method."
-msgstr "Bạn cũng có thể chèn nội dung từ thư mục nội dung chia sẻ của các công cụ BeeWare Docs bằng cách sử dụng [tiện ích mở rộng Macros MkDocs]{1}. Phương pháp này là cần thiết nếu tài liệu chứa các chỉ thị Jinja cần được thực thi, và chỉ nên được sử dụng trong trường hợp này. Phương pháp này sẽ không hoạt động với nội dung bên ngoài thông qua URL. [Cơ chế thay thế biến của Macros]{2} hoạt động với phương pháp này."
+msgid "You can also include content from the BeeWare Docs tools shared content directory using [Macros]{1}, which Zensical supports natively. This method is necessary if the document contains Jinja directives that need to be executed, and should only be used in this situation. It will not work with external content via a URL. The [Macros variable-replacement mechanism]{2} works with this method."
+msgstr "Bạn cũng có thể chèn nội dung từ thư mục nội dung chia sẻ của các công cụ BeeWare Docs bằng cách sử dụng [Macros]{1}. Phương pháp này là cần thiết nếu tài liệu chứa các chỉ thị Jinja cần được thực thi, và chỉ nên được sử dụng trong trường hợp này. Phương pháp này sẽ không hoạt động với nội dung bên ngoài thông qua URL. [Cơ chế thay thế biến của Macros]{2} hoạt động với phương pháp này."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:373
 #, fuzzy
@@ -4423,8 +4391,8 @@ msgstr "Mẫu đơn { #docs-form }"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:5
 #, fuzzy
-msgid "{{ formal_name }}'s documentation is written using [MkDocs and Markdown]{1}. We aim to follow the [Diataxis]{2} framework for structuring documentation."
-msgstr "Tài liệu của {{ formal_name }} được viết bằng [MkDocs và Markdown]{1}. Chúng tôi hướng đến việc tuân theo khung [Diataxis]{2} để tổ chức cấu trúc tài liệu."
+msgid "{{ formal_name }}'s documentation is written using [Zensical]{1} and [Markdown]{2}. We aim to follow the [Diataxis]{3} framework for structuring documentation."
+msgstr "Tài liệu của {{ formal_name }} được viết bằng [Zensical]{1} và [Markdown]{2}. Chúng tôi hướng đến việc tuân theo khung [Diataxis]{3} để tổ chức cấu trúc tài liệu."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:7
 #, fuzzy

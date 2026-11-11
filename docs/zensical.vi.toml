@@ -1,0 +1,18 @@
+[project]
+site_name = "Công cụ tài liệu BeeWare"
+docs_dir = "vi"
+
+[project.theme]
+language = "vi"
+
+[project.extra]
+language_url = "vi/"
+translation_type = "machine"
+
+[project.extra.header]
+About = "Giới thiệu"
+Documentation = "Tài liệu"
+Community = "Cộng đồng"
+Contributing = "Đóng góp"
+News = "Tin tức"
+Sponsor = "Nhà tài trợ"

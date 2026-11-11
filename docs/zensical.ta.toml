@@ -1,0 +1,18 @@
+[project]
+site_name = "BeeWare ஆவணக் கருவிகள்"
+docs_dir = "ta"
+
+[project.theme]
+language = "ta"
+
+[project.extra]
+language_url = "ta/"
+translation_type = "machine"
+
+[project.extra.header]
+About = "பற்றி"
+Documentation = "ஆவணப்படுத்தல்"
+Community = "சமூகம்"
+Contributing = "பங்களித்தல்"
+News = "செய்திகள்"
+Sponsor = "ஆதரவாளர்"

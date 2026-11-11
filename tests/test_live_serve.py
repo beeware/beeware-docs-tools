@@ -1,85 +1,47 @@
-from unittest.mock import MagicMock, patch
+import sys
+from pathlib import Path
 
-from beeware_docs_tools.live_serve_en import launch_browser
+from beeware_docs_tools.live_serve_en import serve_command, watch_paths
 
 
-class TestLaunchBrowser:
-    @patch("beeware_docs_tools.live_serve_en.webbrowser.open")
-    @patch("beeware_docs_tools.live_serve_en.http.client.HTTPConnection")
-    def test_launch_browser_success(self, mock_http_connection, mock_webbrowser_open):
-        mock_conn = MagicMock()
-        mock_response = MagicMock()
-        mock_response.status = 200
-        mock_conn.getresponse.return_value = mock_response
-        mock_http_connection.return_value = mock_conn
+def test_serve_command():
+    """The live server is started with Zensical, on the requested port."""
+    command = serve_command(
+        Path("/project/docs/_build.en.toml"), 8037, strict=False, open_browser=True
+    )
+    assert command == [
+        sys.executable,
+        "-m",
+        "zensical",
+        "serve",
+        "--config-file",
+        "/project/docs/_build.en.toml",
+        "--dev-addr",
+        "localhost:8037",
+        "--open",
+    ]
 
-        launch_browser(8000, timeout=1)
 
-        mock_webbrowser_open.assert_called_once_with("http://localhost:8000/")
-        mock_conn.request.assert_called_once_with("HEAD", "/")
-        mock_conn.getresponse.assert_called_once()
-        mock_conn.close.assert_called_once()
+def test_serve_command_no_open_strict():
+    """The browser can be suppressed, and strict mode requested."""
+    command = serve_command(
+        Path("/project/docs/_build.en.toml"), 9000, strict=True, open_browser=False
+    )
+    assert "--open" not in command
+    assert command[-1] == "--strict"
+    assert "localhost:9000" in command
 
-    @patch("beeware_docs_tools.live_serve_en.webbrowser.open")
-    @patch("beeware_docs_tools.live_serve_en.http.client.HTTPConnection")
-    @patch("beeware_docs_tools.live_serve_en.time.sleep")
-    def test_launch_browser_connection_refused_then_success(
-        self, mock_sleep, mock_http_connection, mock_webbrowser_open
-    ):
-        mock_conn = MagicMock()
-        mock_response = MagicMock()
-        mock_response.status = 200
 
-        # First call raises OSError, second call succeeds
-        mock_conn.getresponse.side_effect = [OSError(), mock_response]
-        mock_http_connection.return_value = mock_conn
+def test_watch_paths(tmp_path):
+    """Configuration files and requested directories are watched, if they exist."""
+    (tmp_path / "docs").mkdir()
+    (tmp_path / "docs/zensical.toml").write_text("[project]\n", encoding="utf-8")
+    (tmp_path / "docs/zensical.en.toml").write_text("[project]\n", encoding="utf-8")
+    (tmp_path / "src").mkdir()
 
-        launch_browser(8000, timeout=1)
+    paths = watch_paths(tmp_path, ["src", "missing"])
 
-        mock_webbrowser_open.assert_called_once_with("http://localhost:8000/")
-        assert mock_conn.request.call_count == 2
-        assert mock_conn.getresponse.call_count == 2
-        # It should have slept once after the first failure
-        mock_sleep.assert_called_once_with(0.1)
-
-    @patch("beeware_docs_tools.live_serve_en.webbrowser.open")
-    @patch("beeware_docs_tools.live_serve_en.http.client.HTTPConnection")
-    @patch("beeware_docs_tools.live_serve_en.time.sleep")
-    @patch("beeware_docs_tools.live_serve_en.time.time")
-    def test_launch_browser_timeout(
-        self, mock_time, mock_sleep, mock_http_connection, mock_webbrowser_open
-    ):
-        mock_conn = MagicMock()
-        mock_conn.getresponse.side_effect = OSError()
-        mock_http_connection.return_value = mock_conn
-
-        # Simulate time passing to trigger timeout immediately on second iteration
-        mock_time.side_effect = [0, 0, 1]
-
-        launch_browser(8000, timeout=1)
-
-        mock_webbrowser_open.assert_not_called()
-        mock_sleep.assert_called_once_with(0.1)
-
-    @patch("beeware_docs_tools.live_serve_en.webbrowser.open")
-    @patch("beeware_docs_tools.live_serve_en.http.client.HTTPConnection")
-    @patch("beeware_docs_tools.live_serve_en.time.sleep")
-    def test_launch_browser_server_error(
-        self, mock_sleep, mock_http_connection, mock_webbrowser_open
-    ):
-        mock_conn = MagicMock()
-        mock_response = MagicMock()
-        mock_response.status = 503  # Server error, shouldn't break loop
-        mock_success_response = MagicMock()
-        mock_success_response.status = 200
-
-        mock_conn.getresponse.side_effect = [mock_response, mock_success_response]
-        mock_http_connection.return_value = mock_conn
-
-        launch_browser(8000, timeout=1)
-
-        mock_webbrowser_open.assert_called_once_with("http://localhost:8000/")
-        assert mock_conn.request.call_count == 2
-        assert (
-            mock_sleep.call_count == 0
-        )  # we no longer sleep on 503, only on exception
+    assert tmp_path / "docs/zensical.toml" in paths
+    assert tmp_path / "docs/zensical.en.toml" in paths
+    assert tmp_path / "src" in paths
+    assert tmp_path / "missing" not in paths
