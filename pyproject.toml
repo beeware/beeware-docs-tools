@@ -24,24 +24,24 @@ maintainers = [
 
 dependencies = [
     "click==8.4.0",
-    "deepl==1.32.0",
+    "deepl==1.33.0",
     "markdown-checker==1.2.2",
     "mistletoe==1.6.0",
     "mkdocs-autorefs==1.4.5",
     "mkdocs-literate-nav==0.6.3",  # DO NOT UPGRADE - Uncertain whether author's move to ProperDocs will cause incompatibility
     "mkdocs-macros-plugin @ git+https://github.com/kattni/mkdocs-macros-plugin@include-dir-multiple-directories",
-    "mkdocs-material==9.8.0",
-    "mkdocs-rss-plugin==1.19.0",
+    "mkdocs-material==9.8.1",
+    "mkdocs-rss-plugin==1.20.0",
     "mkdocs==1.6.1",  # DO NOT UPGRADE - 2+ is not compatible with anything here
     "mkdocstrings-python==2.0.10",
-    "pymdown-extensions==12.3",
+    "pymdown-extensions==13.0",
     "pyspelling==2.13",
     "python-Levenshtein==0.27.5",
     "PyYAML==6.0.3",
     "polib==1.2.0",
-    "ruff==0.17.3",
+    "ruff==0.17.4",
     "setuptools_scm==10.3.4",
-    "translate-toolkit==3.20.2",
+    "translate-toolkit==3.20.4",
 ]
 
 [dependency-groups]
@@ -52,11 +52,11 @@ pre-commit = [
 ]
 
 tox-uv = [
-    "tox-uv == 1.37.3",
+    "tox-uv == 1.37.7",
 ]
 
 wlc = [
-    "wlc == 3.1.0",
+    "wlc == 3.2.0",
 ]
 
 dev = [
