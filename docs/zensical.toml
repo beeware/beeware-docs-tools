@@ -1,0 +1,254 @@
+[project]
+copyright = "© Russell Keith-Magee"
+not_in_nav = """
+/index.md
+/about/releases.md
+"""
+nav = [
+    { "Section one" = [
+        { "Section one" = "section_one/index.md" },
+        { "Section one - page two" = "section_one/page_two.md" },
+    ] },
+    { "Section two" = "section_two/index.md" },
+    { "Section three" = [
+        "section_three/index.md",
+        "section_three/page_01.md",
+        "section_three/page_02.md",
+        "section_three/page_03.md",
+        "section_three/page_04.md",
+        "section_three/page_05.md",
+        "section_three/page_06.md",
+        "section_three/page_07.md",
+        "section_three/page_08.md",
+        "section_three/page_09.md",
+        "section_three/page_10.md",
+        "section_three/page_11.md",
+        "section_three/page_12.md",
+    ] },
+    { "Shared content testbed" = [
+        { "Shared content testbed" = "content_test_bed/index.md" },
+        { "How-to guides" = [
+            { "Contribute" = [
+                { "Contributing" = "content_test_bed/how-to/contribute/index.md" },
+                { "First-time contributors" = "content_test_bed/how-to/contribute/first-time-contributors.md" },
+                { "What can I do?" = [
+                    { "Fix an issue" = "content_test_bed/how-to/contribute/what/fix-issue.md" },
+                    { "Implement a new feature" = "content_test_bed/how-to/contribute/what/implement-feature.md" },
+                    { "Write documentation" = "content_test_bed/how-to/contribute/what/write-docs.md" },
+                    { "Triage an issue" = "content_test_bed/how-to/contribute/what/triage.md" },
+                    { "Review a pull request" = "content_test_bed/how-to/contribute/what/review-pr.md" },
+                    { "Propose a new feature" = "content_test_bed/how-to/contribute/what/propose-feature.md" },
+                    { "Translate content" = "content_test_bed/how-to/contribute/what/translate.md" },
+                    { "Use the tools" = "content_test_bed/how-to/contribute/what/use-tools.md" },
+                ] },
+                { "How do I contribute?" = [
+                    { "Setting up a development environment" = "content_test_bed/how-to/contribute/how/dev-environment.md" },
+                    { "Reproducing an issue" = "content_test_bed/how-to/contribute/how/reproduce-issue.md" },
+                    { "Working from a branch" = "content_test_bed/how-to/contribute/how/branches.md" },
+                    { "Avoiding scope creep" = "content_test_bed/how-to/contribute/how/scope-creep.md" },
+                    { "Writing, running, and testing code" = "content_test_bed/how-to/contribute/how/write-code.md" },
+                    { "Building documentation" = "content_test_bed/how-to/contribute/how/build-docs.md" },
+                    { "Writing documentation" = "content_test_bed/how-to/contribute/how/write-docs.md" },
+                    { "Adding a change note" = "content_test_bed/how-to/contribute/how/change-note.md" },
+                    { "Submitting a pull request" = "content_test_bed/how-to/contribute/how/submit-pr.md" },
+                    { "Providing a review" = "content_test_bed/how-to/contribute/how/review-pr.md" },
+                    { "Submitting a new issue" = "content_test_bed/how-to/contribute/how/new-issue.md" },
+                    { "Proposing a new feature" = "content_test_bed/how-to/contribute/how/propose-feature.md" },
+                    { "Translating content" = "content_test_bed/how-to/contribute/how/translate.md" },
+                ] },
+                { "What happens next?" = [
+                    { "Pull request review process" = "content_test_bed/how-to/contribute/next/pr-review.md" },
+                    { "Release process" = "content_test_bed/how-to/contribute/next/release.md" },
+                ] },
+                { "Policies" = [
+                    { "AI Policy" = "content_test_bed/how-to/contribute/policies/ai-policy.md" },
+                ] },
+                { "Style guides" = [
+                    { "Code style guide" = "content_test_bed/how-to/contribute/style/code-style-guide.md" },
+                    { "Documentation style guide" = "content_test_bed/how-to/contribute/style/docs-style-guide.md" },
+                ] },
+            ] },
+        ] },
+    ] },
+]
+
+[project.validation]
+omitted_files = "warn"
+absolute_links = "relative_to_docs"
+anchors = "warn"
+unrecognized_links = "warn"
+
+[project.extra]
+project_name = "beeware-docs-tools"
+package_name = "beeware-docs-tools"
+formal_name = "BeeWare Docs Tools"
+website = false  # true shows beeware.org-specific content, false shows project content. Default: false.
+min_python_version = "3.10"  # The oldest supported Python version
+min_python_version_tag = "310"  # The tag version of the minimum python version
+recent_python_version = "3.13"  # The newest Python version known to work on all platforms
+docs_python_version = "3.13"  # The version of Python required to build the documentation
+translated = true  # false hides content related to building translations. Default: false.
+hide_coverage = false  # true hides content related to code coverage. Default: false.
+macos_only = false  # true hides tabbed content, and displays only macOS instructions. Default: false.
+contribution_guide_root = "content_test_bed/how-to/contribute"
+alternate = [
+    { name = "English", link = "/en/", lang = "en" },
+    { name = "العَرَبِيَّة", link = "/ar/", lang = "ar" },
+    { name = "Čeština", link = "/cs/", lang = "cs" },
+    { name = "Dansk", link = "/da/", lang = "da" },
+    { name = "Deutsch", link = "/de/", lang = "de" },
+    { name = "Español", link = "/es/", lang = "es" },
+    { name = "فارسی", link = "/fa/", lang = "fa" },
+    { name = "Français", link = "/fr/", lang = "fr" },
+    { name = "Italiano", link = "/it/", lang = "it" },
+    { name = "日本語", link = "/ja/", lang = "ja" },
+    { name = "한국어", link = "/ko/", lang = "ko" },
+    { name = "Polski", link = "/pl/", lang = "pl" },
+    { name = "Português", link = "/pt/", lang = "pt" },
+    { name = "Русский", link = "/ru/", lang = "ru" },
+    { name = "தமிழ்", link = "/ta/", lang = "ta" },
+    { name = "Türkçe", link = "/tr/", lang = "tr" },
+    { name = "Yкраїнська", link = "/uk/", lang = "uk" },
+    { name = "Tiếng Việt", link = "/vi/", lang = "vi" },
+    { name = "中文(简体)", link = "/zh_CN/", lang = "zh-Hant" },
+    { name = "中文(繁體)", link = "/zh_TW/", lang = "zh-TW" },
+]
+social = [
+    { icon = "fontawesome/brands/github", link = "https://github.com/beeware", name = "BeeWare on GitHub" },
+    { icon = "fontawesome/brands/mastodon", link = "https://fosstodon.org/@beeware", name = "BeeWare on Mastodon" },
+    { icon = "fontawesome/brands/discord", link = "https://beeware.org/bee/chat/", name = "BeeWare on Discord" },
+]
+generator = false
+
+[project.theme]
+name = "material"
+variant = "classic"  # Zensical: the overrides and beeware_theme.css target the classic Material look.
+language = "en"
+logo = "assets/images/brutus-256.png"
+favicon = "assets/images/brutus-256.png"
+features = [
+    "content.tabs.link",
+    "toc.follow",
+    "navigation.indexes",
+    "navigation.footer",
+    "navigation.tabs",
+    "navigation.tabs.sticky",
+    "search.suggest",
+    "search.highlight",
+    "search.share",
+]
+custom_dir = "overrides"
+
+# Palette toggle for automatic mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme)"
+toggle.icon = "material/brightness-auto"
+toggle.name = "Switch to light mode"
+
+# Palette toggle for light mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+toggle.icon = "material/brightness-7"
+toggle.name = "Switch to dark mode"
+
+# Palette toggle for dark mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+toggle.icon = "material/brightness-4"
+toggle.name = "Switch to system preference"
+
+[project.markdown_extensions]
+# Python Markdown Extensions
+attr_list = {}  # Enables setting explicit anchors, and CSS classes, etc.
+# Enables easy em and en dashes.
+smarty.smart_quotes = false
+# Enables the ToC, in the left sidebar, in the documentation.
+toc.permalink = true
+toc.title = "On this page"
+# PyMdown Extensions
+pymdownx.fancylists = {}  # Supports various ordered list styles
+pymdownx.highlight = {}  # Highlights code blocks, when language provided.
+pymdownx.inlinehilite = {}  # Highlights inline code, when language provided.
+pymdownx.keys = {}  # Fancy displays key combinations.
+pymdownx.superfences = {}  # Nicer code-blocks.
+pymdownx.saneheaders = {}  # Treats "#Content" with no space at the beginning of a line as text, not a header; helpful with MagicLink. rumdl will still verify header formatting.
+pymdownx.tasklist = {}  # Make fancy checklists.
+pymdownx.blocks.caption = {}  # Captions images.
+# Enables admonitions.
+pymdownx.blocks.admonition.types = [
+    "note",
+    "abstract",
+    "info",
+    "tip",
+    "success",
+    "question",
+    "warning",
+    "failure",
+    "danger",
+    "bug",
+    "example",
+    "quote",
+]
+# Enables collapsible content.
+pymdownx.blocks.details.types = [
+    { name = "details-note", class = "note" },
+    { name = "details-abstract", class = "abstract" },
+    { name = "details-info", class = "info" },
+    { name = "details-tip", class = "tip" },
+    { name = "details-success", class = "success" },
+    { name = "details-question", class = "question" },
+    { name = "details-warning", class = "warning" },
+    { name = "details-failure", class = "failure" },
+    { name = "details-danger", class = "danger" },
+    { name = "details-bug", class = "bug" },
+    { name = "details-example", class = "example" },
+    { name = "details-quote", class = "quote" },
+]
+# Enables tabbed content.
+pymdownx.blocks.tab.alternate_style = true
+# Allows for injecting content from other locations.
+pymdownx.snippets.base_path = ["docs"]
+pymdownx.snippets.url_download = true
+pymdownx.snippets.check_paths = true
+# Among other things, enables GitHub shorthand references.
+pymdownx.magiclink.provider = "github"
+pymdownx.magiclink.user = "beeware"
+pymdownx.magiclink.repo = "website"
+pymdownx.magiclink.repo_url_shortener = true
+pymdownx.magiclink.repo_url_shorthand = true
+pymdownx.magiclink.normalize_issue_symbols = true
+
+[project.plugins.search]
+
+[project.plugins.autorefs]
+resolve_closest = true  # autorefs warns of the Usage headings begin duplicates without this - we will have to assign unique ids to all of them otherwise
+
+[project.plugins.macros]
+on_error_fail = true  # Fail the build if a macro fails to render.
+
+[project.plugins.mkdocstrings]
+default_handler = "python"
+
+[project.plugins.mkdocstrings.handlers.python]
+paths = ["src"]
+
+[project.plugins.mkdocstrings.handlers.python.options]
+docstring_style = "sphinx"  # Parses docstrings from Sphinx formatting - the `:param` formatting, not parsing rST links
+allow_inspection = false  # True includes *more* dunder methods, can be enabled on individual class entries if you want them
+show_source = false  # Otherwise, source code is shown collapsed for all
+members_order = "alphabetical"  # Orders things based on the source code
+annotations_path = "brief"  # Keeps type annotation links more concise
+merge_init_into_class = true  # Otherwise, init is displayed separately
+separate_signature = true  # Shows the `function(args)` separately from name
+show_signature = true  # Displays () or (args) along with the function name in the signature
+show_signature_annotations = true  # Includes annotations in signature blocks
+signature_crossrefs = true  # Enables cross-referencing on signature annotations
+show_root_heading = true  # Show heading of object at root, otherwise nothing
+docstring_section_style = "spacy"  # Better info layout than the other options
+line_length = 80  # Requires ruff, forces longer signatures to be stacked
+show_symbol_type_toc = true  # Enables type symbols next to objects in ToC
+show_symbol_type_heading = true  # Enables type symbols next to object names in content
+show_attribute_values = false  # Suppresses the values of attributes in the signature
+heading_level = 3  # Heading level of 3 to nest under References heading

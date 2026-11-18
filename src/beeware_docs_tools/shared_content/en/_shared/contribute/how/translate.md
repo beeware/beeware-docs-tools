@@ -18,47 +18,46 @@ Once we have this info, we'll get you added to the team.
 
 If the language you plan to help out with doesn't already exist, there are some additional steps required before you can get started:
 
-* Create the `/docs/mkdocs.language-code.yml` file, with language-specific content.
+* Create the `/docs/zensical.language-code.toml` file, with language-specific content.
 * Update `tox.ini` to include the new language build commands.
-* Update `/docs/config.yml` to include the language under `extra: alternate:`.
+* Update `/docs/zensical.toml` to include the language in `extra.alternate`.
 
 The following demonstrates the necessary changes using German as an example; a German translation already exists; replace the references to German, `de`, or other content for the language you're targeting.
 
-#### A new MkDocs configuration file
+#### A new language configuration file
 
-First, create a new file named `mkdocs.de.yml` in the `docs` directory, with the following content:
+First, create a new file named `zensical.de.toml` in the `docs` directory, with the following content:
 
-```yaml
-INHERIT: config.yml
-site_name: {{ formal_name }} Dokumentation
-site_url: {% if config.extra.website %}https://beeware.org/de{% else %}https://{{ project_name }}.beeware.org/de{% endif %}
-docs_dir: de
+```toml
+[project]
+site_name = "{{ formal_name }} Dokumentation"
+docs_dir = "de"
 
-theme:
-  language: de
+[project.theme]
+language = "de"
 
-extra:
-  language_url: de/
-  translation_type: machine
-  header:
-    About: Über
-    Documentation: Dokumentation
-    Community: Gemeinschaft
-    Contributing: Mitwirken
-    News: Neuigkeiten
-    Sponsor: Förderer
+[project.extra]
+language_url = "de/"
+translation_type = "machine"
+
+[project.extra.header]
+About = "Über"
+Documentation = "Dokumentation"
+Community = "Gemeinschaft"
+Contributing = "Mitwirken"
+News = "Neuigkeiten"
+Sponsor = "Förderer"
 ```
 
 Here's what is going on in this file:
 
-* This file inherits the configuration content from `config.yml`.
+* The settings in this file are applied on top of the configuration in `zensical.toml`. Only settings that are specific to the language should be included.
 * The `site_name` value is translated.
-* The `site_url` value is the project site URL, followed by the language code.
 * The `docs_dir` should be the language code.
-* The `theme: language:` value should be the language code, as [specified by the MkDocs Material theme](https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/). For most languages, this will be the same as the `docs_dir` language code; but for some (in particular languages with locale variants like `zh_CN`), there are differences.
-* The `extra: language_url:` should be the language code, followed by a single slash, e.g. `de/` for German.
-* The `extra: translation_type:` should be `machine` until the translation reaches 100% for the first time, at which point it should be `human`. It will revert to `machine` from `human` if it regresses to below 90%.
-* The content under `extra: header` is the translations for titles that appear in the header bar. This definition is *not* required on the main BeeWare website; it is only required on *other* sites (such as the tutorial, or project documentation).
+* The `theme.language` value should be the language code, as [specified by the Zensical theme](https://zensical.org/docs/setup/language/). For most languages, this will be the same as the `docs_dir` language code; but for some (in particular languages with locale variants like `zh_CN`), there are differences.
+* The `extra.language_url` should be the language code, followed by a single slash, e.g. `de/` for German.
+* The `extra.translation_type` should be `machine` until the translation reaches 100% for the first time, at which point it should be `human`. It will revert to `machine` from `human` if it regresses to below 90%.
+* The content under `extra.header` is the translations for titles that appear in the header bar. This definition is *not* required on the main BeeWare website; it is only required on *other* sites (such as the tutorial, or project documentation).
 
 #### Update `tox.ini`
 
@@ -73,14 +72,12 @@ You would add the following:
 * A new command, beginning with, for example, `de : build_md_translations` for German, alphabetically within the existing language-specific commands that matches the content of those commands, with the new language code.
 * The new language code to the line beginning with `all:`.
 
-#### Update `config.yml`
+#### Update `zensical.toml`
 
-Add the language to `config.yml` so it will show up in the language selector in the header. Find the section beginning with `extra:`, and then locate the subsection beginning with `alternate:`. For German, you would add the following:
+Add the language to `zensical.toml` so it will show up in the language selector in the header. Find the section beginning with `[project.extra]`, and then locate the `alternate` setting. For German, you would add the following:
 
-```yaml
-    - name: Deutsch
-      link: /de/
-      lang: de
+```toml
+    { name = "Deutsch", link = "/de/", lang = "de" },
 ```
 
 The language name should be translated into the language. The link must include the `/`s.

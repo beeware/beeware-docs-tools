@@ -211,6 +211,15 @@ input.md-search__input, .md-search__suggest, .md-search-result__meta {
     overflow-wrap: break-word;
 }
 
+/* Zensical wraps the text of table of contents links in `.md-typeset`, which
+   its theme renders smaller, and without wrapping. Match the rest of the
+   sidebar. */
+.md-nav__link .md-typeset {
+    font-size: inherit;
+    line-height: inherit;
+    overflow-wrap: break-word;
+}
+
 /* Link colors */
 /* Remove link color from section headers that are not links */
 .md-nav__link[for]:focus,

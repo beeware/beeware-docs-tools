@@ -364,7 +364,7 @@ msgstr "При упоминании названия продукта следу
 msgid "If a term is being used \"as code\", then it should be quoted as a literal (`like this`) rather than being added to the dictionary."
 msgstr "Если термин используется «в качестве кода», то его следует указывать в кавычках (`like this`) вместо добавления в словарь."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:241 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/propose-feature.md:31 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/reproduce-issue.md:34 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:299 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:408 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:35
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/build-docs.md:241 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/propose-feature.md:31 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/reproduce-issue.md:34 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/submit-pr.md:299 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-code.md:408 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:36
 #, fuzzy
 msgid "{% block end_matter %} {% endblock %}"
 msgstr "{% block end_matter %} {% endblock %}"
@@ -1632,8 +1632,8 @@ msgstr "Если язык, с которым вы планируете рабо�
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:21
 #, fuzzy
-msgid "Create the `/docs/mkdocs.language-code.yml` file, with language-specific content."
-msgstr "Создайте файл `/docs/mkdocs.language-code.yml`, с содержанием, специфичным для языка."
+msgid "Create the `/docs/zensical.language-code.toml` file, with language-specific content."
+msgstr "Создайте файл `/docs/zensical.language-code.toml`, с содержанием, специфичным для языка."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:22
 #, fuzzy
@@ -1642,8 +1642,8 @@ msgstr "Обновите `tox.ini` , чтобы включить новые ко
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:23
 #, fuzzy
-msgid "Update `/docs/config.yml` to include the language under `extra: alternate:`."
-msgstr "Обновите `/docs/config.yml` , чтобы включить язык под `extra: alternate:`."
+msgid "Update `/docs/zensical.toml` to include the language in `extra.alternate`."
+msgstr "Обновите `/docs/zensical.toml` , чтобы включить язык под `extra.alternate`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:25
 #, fuzzy
@@ -1652,54 +1652,35 @@ msgstr "Ниже приведены необходимые изменения н
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:27
 #, fuzzy
-msgid "A new MkDocs configuration file"
-msgstr "Новый файл конфигурации MkDocs"
+msgid "A new language configuration file"
+msgstr "Новый файл конфигурации Zensical"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:29
 #, fuzzy
-msgid "First, create a new file named `mkdocs.de.yml` in the `docs` directory, with the following content:"
-msgstr "Сначала создайте новый файл с именем `mkdocs.de.yml` в каталоге `docs` со следующим содержанием:"
+msgid "First, create a new file named `zensical.de.toml` in the `docs` directory, with the following content:"
+msgstr "Сначала создайте новый файл с именем `zensical.de.toml` в каталоге `docs` со следующим содержанием:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:31
-#, fuzzy
 msgid ""
-"INHERIT: config.yml\n"
-"site_name: {{ formal_name }} Dokumentation\n"
-"site_url: {% if config.extra.website %}https://beeware.org/de{% else %}https://{{ project_name }}.beeware.org/de{% endif %}\n"
-"docs_dir: de\n"
+"[project]\n"
+"site_name = \"{{ formal_name }} Dokumentation\"\n"
+"docs_dir = \"de\"\n"
 "\n"
-"theme:\n"
-"  language: de\n"
+"[project.theme]\n"
+"language = \"de\"\n"
 "\n"
-"extra:\n"
-"  language_url: de/\n"
-"  translation_type: machine\n"
-"  header:\n"
-"    About: Über\n"
-"    Documentation: Dokumentation\n"
-"    Community: Gemeinschaft\n"
-"    Contributing: Mitwirken\n"
-"    News: Neuigkeiten\n"
-"    Sponsor: Förderer"
+"[project.extra]\n"
+"language_url = \"de/\"\n"
+"translation_type = \"machine\"\n"
+"\n"
+"[project.extra.header]\n"
+"About = \"Über\"\n"
+"Documentation = \"Dokumentation\"\n"
+"Community = \"Gemeinschaft\"\n"
+"Contributing = \"Mitwirken\"\n"
+"News = \"Neuigkeiten\"\n"
+"Sponsor = \"Förderer\""
 msgstr ""
-"INHERIT: config.yml\n"
-"site_name: {{ formal_name }} Документация\n"
-"site_url: {% if config.extra.website %}https://beeware.org/de{% else %}https://{{ project_name }}.beeware.org/de{% endif %}\n"
-"docs_dir: de\n"
-"\n"
-"theme:\n"
-"  language: de\n"
-"\n"
-"extra:\n"
-"  language_url: de/\n"
-"  translation_type: machine\n"
-"  header:\n"
-"    About: О нас\n"
-"    Documentation: Документация\n"
-"    Community: Сообщество\n"
-"    Contributing: Участие\n"
-"    News: Новости\n"
-"    Sponsor: Спонсоры"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:52
 #, fuzzy
@@ -1707,9 +1688,8 @@ msgid "Here's what is going on in this file:"
 msgstr "Вот что происходит в этом файле:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:54
-#, fuzzy
-msgid "This file inherits the configuration content from `config.yml`."
-msgstr "Этот файл наследует содержимое конфигурации из `config.yml`."
+msgid "The settings in this file are applied on top of the configuration in `zensical.toml`. Only settings that are specific to the language should be included."
+msgstr ""
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:55
 #, fuzzy
@@ -1718,201 +1698,188 @@ msgstr "Значение `site_name` переводится."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:56
 #, fuzzy
-msgid "The `site_url` value is the project site URL, followed by the language code."
-msgstr "Значение `site_url` — это URL-адрес сайта проекта, за которым следует код языка."
-
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:57
-#, fuzzy
 msgid "The `docs_dir` should be the language code."
 msgstr "`docs_dir` должен быть кодом языка."
 
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:57
+#, fuzzy
+msgid "The `theme.language` value should be the language code, as [specified by the Zensical theme]{1}. For most languages, this will be the same as the `docs_dir` language code; but for some (in particular languages with locale variants like `zh_CN`), there are differences."
+msgstr "Значение `theme.language` должно быть кодом языка, как [указано в теме Zensical]{1}. Для большинства языков это будет то же самое, что и код языка `docs_dir`, но для некоторых (в частности, для языков с локальными вариантами, такими как `zh_CN`), есть различия."
+
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:58
 #, fuzzy
-msgid "The `theme: language:` value should be the language code, as [specified by the MkDocs Material theme]{1}. For most languages, this will be the same as the `docs_dir` language code; but for some (in particular languages with locale variants like `zh_CN`), there are differences."
-msgstr "Значение `theme: language:` должно быть кодом языка, как [указано в теме MkDocs Material]{1}. Для большинства языков это будет то же самое, что и код языка `docs_dir`, но для некоторых (в частности, для языков с локальными вариантами, такими как `zh_CN`), есть различия."
+msgid "The `extra.language_url` should be the language code, followed by a single slash, e.g. `de/` for German."
+msgstr "`extra.language_url` должен быть кодом языка, за которым следует один косой слеш, например, `de/` для немецкого языка."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:59
 #, fuzzy
-msgid "The `extra: language_url:` should be the language code, followed by a single slash, e.g. `de/` for German."
-msgstr "`extra: language_url:` должен быть кодом языка, за которым следует один косой слеш, например, `de/` для немецкого языка."
+msgid "The `extra.translation_type` should be `machine` until the translation reaches 100% for the first time, at which point it should be `human`. It will revert to `machine` from `human` if it regresses to below 90%."
+msgstr "`extra.translation_type` должно быть `machine` до тех пор, пока перевод не достигнет 100% в первый раз, после чего оно должно стать `human`. Оно вернется к `machine` из `human`, если регрессирует ниже 90%."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:60
 #, fuzzy
-msgid "The `extra: translation_type:` should be `machine` until the translation reaches 100% for the first time, at which point it should be `human`. It will revert to `machine` from `human` if it regresses to below 90%."
-msgstr "`extra: translation_type:` должно быть `machine` до тех пор, пока перевод не достигнет 100% в первый раз, после чего оно должно стать `human`. Оно вернется к `machine` из `human`, если регрессирует ниже 90%."
+msgid "The content under `extra.header` is the translations for titles that appear in the header bar. This definition is *not* required on the main BeeWare website; it is only required on *other* sites (such as the tutorial, or project documentation)."
+msgstr "Содержимое под `extra.header` представляет собой переводы названий, которые появляются в верхней панели. Это определение *не* требуется на главном веб-сайте BeeWare; оно требуется только на *других* сайтах (таких как учебник или документация по проекту)."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:61
-#, fuzzy
-msgid "The content under `extra: header` is the translations for titles that appear in the header bar. This definition is *not* required on the main BeeWare website; it is only required on *other* sites (such as the tutorial, or project documentation)."
-msgstr "Содержимое под `extra: header` представляет собой переводы названий, которые появляются в верхней панели. Это определение *не* требуется на главном веб-сайте BeeWare; оно требуется только на *других* сайтах (таких как учебник или документация по проекту)."
-
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:63
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:62
 #, fuzzy
 msgid "Update `tox.ini`"
 msgstr "Обновление `tox.ini`"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:65
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:64
 #, fuzzy
 msgid "You'll need to make several changes to the `tox.ini` file."
 msgstr "Вам нужно будет внести несколько изменений в файл `tox.ini`."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:67
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:66
 #, fuzzy
 msgid "You would add the following:"
 msgstr "Вы бы добавили следующее:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:69
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:68
 #, fuzzy
 msgid "The new language code environment flag to the header line which begins `[testenv:docs`, with the language code preceded by a `-`, with no spaces included, e.g. `-de`."
 msgstr "Новый флаг языкового кода в строке заголовка, которая начинается с `[testenv:docs`, с кодом языка, предваряемым символом `-`, без пробелов, например `-de`."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:70
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:69
 #, fuzzy
 msgid "The new language code exclusion to the first command, which begins with `!lint`, preceded by `-!`, with no spaces included, e.g. `-!de`."
 msgstr "Новое исключение языкового кода для первой команды, которая начинается с `!lint`, предшествующей `-!`, без пробелов, например `-!de`."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:71
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:70
 #, fuzzy
 msgid "The new language code to the line beginning with `translate : build_po_translations`."
 msgstr "Новый языковой код в строке, начинающейся с `translate : build_po_translations`."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:72
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:71
 #, fuzzy
 msgid "The new language code to the line beginning with `translate : update_machine_translations`"
 msgstr "Новый языковой код для строки, начинающейся с `translate : update_machine_translations`"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:73
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:72
 #, fuzzy
 msgid "A new command, beginning with, for example, `de : build_md_translations` for German, alphabetically within the existing language-specific commands that matches the content of those commands, with the new language code."
 msgstr "Новая команда, начинающаяся, например, с `de : build_md_translations` для немецкого языка, в алфавитном порядке в пределах существующих языковых команд, которые соответствуют содержанию этих команд, с новым кодом языка."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:74
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:73
 #, fuzzy
 msgid "The new language code to the line beginning with `all:`."
 msgstr "Новый языковой код в строке, начинающейся с `all:`."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:76
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:75
 #, fuzzy
-msgid "Update `config.yml`"
-msgstr "Обновление `config.yml`"
+msgid "Update `zensical.toml`"
+msgstr "Обновление `zensical.toml`"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:78
-#, fuzzy
-msgid "Add the language to `config.yml` so it will show up in the language selector in the header. Find the section beginning with `extra:`, and then locate the subsection beginning with `alternate:`. For German, you would add the following:"
-msgstr "Добавьте язык в `config.yml`, чтобы он отображался в выпадающем списке языков в заголовке. Найдите раздел, начинающийся с `extra:`, а затем найдите подраздел, начинающийся с `alternate:`. Для немецкого языка необходимо добавить следующее:"
-
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:80
-#, fuzzy
-msgid ""
-"- name: Deutsch\n"
-"      link: /de/\n"
-"      lang: de"
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:77
+msgid "Add the language to `zensical.toml` so it will show up in the language selector in the header. Find the section beginning with `[project.extra]`, and then locate the `alternate` setting. For German, you would add the following:"
 msgstr ""
-"- name: Немецкий\n"
-" link: /de/\n"
-" lang: de"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:86
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:79
+msgid "{ name = \"Deutsch\", link = \"/de/\", lang = \"de\" },"
+msgstr ""
+
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:83
 #, fuzzy
 msgid "The language name should be translated into the language. The link must include the `/`s."
 msgstr "Название языка должно быть переведено на этот язык. Ссылка должна содержать символы `/`."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:88
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:85
 #, fuzzy
 msgid "Run `tox translate`"
 msgstr "Запустить `tox translate`"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:90
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:87
 #, fuzzy
 msgid "You can now run `tox -e docs-translate`. This will generate an empty translation file; if you have a DeepL account, you can use that account to populate initial machine translations. If you don't have a DeepL account, that's fine - we'll run initial translations ourselves before accepting the pull request."
 msgstr "Теперь вы можете запустить `tox -e docs-translate`. Это сгенерирует пустой файл перевода; если у вас есть учетная запись DeepL, вы можете использовать ее для заполнения первоначальных машинных переводов. Если у вас нет учетной записи DeepL, не беспокойтесь — мы сами выполним первоначальные переводы, прежде чем принять запрос на вытягивание."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:92
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:89
 #, fuzzy
 msgid "Translation guidelines"
 msgstr "Руководство по переводу"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:94
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:91
 #, fuzzy
 msgid "Once you've been added to the team, it's time to log into [Weblate]{1} and begin working through translating strings."
 msgstr "После того, как вы были добавлены в команду, пора войти в [Weblate]{1} и приступить к переводу строк."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:96
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:93
 #, fuzzy
 msgid "Tone versus word-for-word translation"
 msgstr "Тон против дословного перевода"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:98
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:95
 #, fuzzy
 msgid "It's more important to maintain the tone of the English text than to strive for a word-for-word translation. We try to be friendly and a bit colloquial in our content; try to maintain the spirit of that in your translations."
 msgstr "Важнее сохранить тон английского текста, чем стремиться к дословному переводу. Мы стараемся быть дружелюбным и немного разговорчивым в наших текстах; постарайтесь сохранить этот дух в своих переводах."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:100
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:97
 #, fuzzy
 msgid "If the English text contains a strong English idiom, don't feel beholden to maintain the idiom, if there is an analog in your language that would work equally well. If the term or phrase in the English text is a particularly idiomatic or slang term, don't be afraid to tell us we should consider making a change. Even for English speakers, idioms and slang can pose difficulty. Sometimes we need to change the English text to make it more straightforward for translators and readers alike."
 msgstr "Если английский текст содержит сильную английскую идиому, не считайте себя обязанным сохранять эту идиому, если в вашем языке есть аналог, который будет работать так же хорошо. Если термин или фраза в английском тексте является особенно идиоматическим или сленговым термином, не бойтесь сказать нам, что мы должны рассмотреть возможность внесения изменений. Даже для англоговорящих идиомы и сленг могут представлять трудность. Иногда нам приходится изменять английский текст, чтобы он был более понятным как для переводчиков, так и для читателей."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:102
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:99
 #, fuzzy
 msgid "Should I translate it?"
 msgstr "Мне перевести это?"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:104
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:101
 #, fuzzy
 msgid "The following items should *not* be translated or updated:"
 msgstr "Следующие элементы *не* должны переводиться или обновляться:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:106
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:103
 #, fuzzy
 msgid "**Commands**. For example, in \"You should run \\`briefcase create\\`.\", only \"You should run\" should be translated."
 msgstr "**Команды**. Например, в предложении «Вы должны запустить \\`briefcase create\\`.» следует переводить только «Вы должны запустить»."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:107
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:104
 #, fuzzy
 msgid "**Namespaces**, such as class, method, or attribute names."
 msgstr "**Пространства имен**, такие как имена классов, методов или атрибутов."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:108
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:105
 #, fuzzy
 msgid "**Link URLs**. Standard Markdown links should appear in Weblate as `[Link text]{1}`, where `1` is the position of the link in the string with reference to other possible links. If the full URL is included in the string, as `[Link text](https://example.com/)`, the URL should be skipped for translation."
 msgstr "**URL-адреса ссылок**. Стандартные ссылки в формате Markdown должны отображаться в Weblate в виде `[Link text]{1}`, где `1` обозначает положение ссылки в строке относительно других возможных ссылок. Если в строке указан полный URL-адрес, например `[Link text](https://example.com/)`, этот URL-адрес следует пропустить при переводе."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:109
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:106
 #, fuzzy
 msgid "**Reference links containing class, method or attribute names**. These should be left as-is, including the backticks. Every part of the example link shown here would not be translated."
 msgstr "**Ссылки, содержащие имена классов, методов или атрибутов**. Их следует оставить без изменений, включая обратные кавычки. Ни одна часть приведенного здесь примера ссылки не будет переведена."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:109
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:106
 #, fuzzy
 msgid "[`Class.attribute`][Class.attribute]"
 msgstr "[`Class.attribute`][Class.attribute]"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:115
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:112
 #, fuzzy
 msgid "**The link content of a Reference link**. For example, `link-content` would be skipped in the following:"
 msgstr "**Содержание ссылки Reference**. Например, `link-content` будет пропущено в следующем случае:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:115 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:139
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:112 src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:136
 #, fuzzy
 msgid "[Link text][link-content]"
 msgstr "[Текст ссылки][содержимое ссылки]"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:121
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:118
 #, fuzzy
 msgid "**Jinja directives**. This is any content wrapped inside two pairs of matching curly braces, or a matching pair of single curly braces with percent signs inside each end. Note: Including an example of the syntax here causes the Macros plugin to attempt to render it; see the [Macros documentation]{1} for examples."
 msgstr "**Директивы Jinja**. Это любой контент, заключенный в две пары одинаковых фигурных скобок или в пару одинаковых фигурных скобок с процентными знаками на каждом конце. Примечание: включение примера синтаксиса в данном месте приводит к тому, что плагин Macros пытается его отобразить; примеры см. в [документации по макросам]{1}."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:122
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:119
 #, fuzzy
 msgid "**Custom anchors**. They are found after headers or above some content, and are formatted as `{ #anchor }`."
 msgstr "**Пользовательские анкоры**. Они находятся после заголовков или над некоторым контентом и имеют формат `{ #anchor }`."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:123
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:120
 #, fuzzy
 msgid "**Admonition syntax**. In the following example, the word \"admonition\" should not be translated. This goes for all styles of admonitions, including notes, warnings, etc. See the next section for information on translating the rest of the content."
 msgstr "**Синтаксис предупреждений**. В следующем примере слово «admonition» не следует переводить. Это относится ко всем типам предупреждений, включая заметки, предупреждения и т. д. Информацию о переводе остальной части текста см. в следующем разделе."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:123
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:120
 #, fuzzy
 msgid ""
 "/// admonition | Page Title\n"
@@ -1927,52 +1894,52 @@ msgstr ""
 "\n"
 "///"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:133
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:130
 #, fuzzy
 msgid "**Backticks**. They are meant to stay as backticks; they are used for formatting both inline code and code blocks."
 msgstr "**Обратные кавычки**. Они должны оставаться обратными кавычками; они используются для форматирования как встроенного кода, так и блоков кода."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:134
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:131
 #, fuzzy
 msgid "**The syntax for including external content**. This is anything on the same line as `-8<-`, or on the lines between two `-8<-` on separate lines."
 msgstr "**Синтаксис для включения внешнего контента**. Это все, что находится в одной строке с `-8<-` или в строках между двумя `-8<-` в отдельных строках."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:136
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:133
 #, fuzzy
 msgid "The following items *should* be translated:"
 msgstr "Следующие элементы *должны* быть переведены:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:138
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:135
 #, fuzzy
 msgid "**Link text**. In link syntax, the text comes before the URL, and is enclosed in brackets, as in `[Link text](URL)`. Standard Markdown links should appear in Weblate as `[Link text]{1}`, where `1` is the position of the link in the string with reference to other possible links."
 msgstr "**Текст ссылки**. В синтаксисе ссылки текст предшествует URL-адресу и заключается в скобки, как в `[Link text](URL)`. Стандартные ссылки Markdown должны отображаться в Weblate как `[Link text]{1}`, где `1` — это положение ссылки в строке по отношению к другим возможным ссылкам."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:139
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:136
 #, fuzzy
 msgid "**Reference link text**. For example, `Link text` would be translated in the following:"
 msgstr "**Текст ссылки**. Например, `Link text` будет переведено следующим образом:"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:145
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:142
 #, fuzzy
 msgid "**Admonition titles and content**. In the previous admonition example, \"Page Title\" and \"Content.\" should be translated."
 msgstr "**Названия и содержание предупреждений**. В предыдущем примере предупреждения необходимо перевести «Название страницы» и «Содержание»."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:147
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:144
 #, fuzzy
 msgid "Weblate"
 msgstr "Weblate"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:149
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:146
 #, fuzzy
 msgid "We use [Weblate]{1} for our content translation. When we add a new translation, we use [DeepL]{2} for machine translation to produce a first pass at translations. That means, typically, the content you'll be translating is already machine translated. The expectation is that you, as a translator, will review, edit, and improve the existing machine translation."
 msgstr "Для перевода контента мы используем [Weblate]{1}. При добавлении нового перевода мы используем [DeepL]{2} для машинного перевода, чтобы получить первую версию перевода. Это означает, что, как правило, контент, который вы будете переводить, уже переведен машиной. Ожидается, что вы, как переводчик, будете проверять, редактировать и улучшать существующий машинный перевод."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:151
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:148
 #, fuzzy
 msgid "Weblate processes everything on a string-by-string basis. It batches changes, and every couple of hours, it will submit a bulk commit with all the strings that have changed in that interval. So, it may take a couple of hours for your changes to show up on the website, but you can expect the update to appear within four hours."
 msgstr "Weblate обрабатывает все построчно. Он группирует изменения и каждые несколько часов отправляет массовую фиксацию со всеми строками, которые были изменены за этот промежуток времени. Таким образом, может пройти несколько часов, прежде чем ваши изменения появятся на веб-сайте, но вы можете ожидать, что обновление появится в течение четырех часов."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:153
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/translate.md:150
 #, fuzzy
 msgid "If after that time, your changes still haven't appeared, the likely cause is a markup error, resulting in a failure in the docs build for that language. Any markup problem in any string will block the entire translation from being public. You can keep an eye on the build page for your language to see whether it has successfully built. The link is formatted similarly to this link to the French build page {% if config.extra.website %}[https://app.readthedocs.org/projects/beewareorg/]{1}{% else %}[https://app.readthedocs.org/projects/{{ project_name }}/](https://app.readthedocs.org/projects/{{ project_name }}/){% endif %}; change the language code to your language to view the appropriate build page. This will show the state of the most recent build of the site. If the build fails, look at the build log, and see if you can identify the source of the problem."
 msgstr "Если после этого времени ваши изменения все еще не отображаются, вероятной причиной является ошибка разметки, приводящая к сбою в сборке документации для данного языка. Любая проблема с разметкой в любой строке блокирует публикацию всего перевода. Вы можете следить за страницей сборки для вашего языка, чтобы увидеть, успешно ли она собрана. Ссылка имеет формат, аналогичный этой ссылке на страницу сборки для французского языка {% if config.extra.website %}[https://app.readthedocs.org/projects/beewareorg/]{1}{% else %}[https://app.readthedocs.org/projects/{{ project_name }}/](https://app.readthedocs.org/projects/{{ project_name }}/){% endif %}; измените код языка на ваш язык, чтобы просмотреть соответствующую страницу сборки. Это покажет состояние самой последней сборки сайта. Если сборка не удалась, посмотрите журнал сборки и попробуйте определить источник проблемы."
@@ -2376,36 +2343,34 @@ msgid "You'll need to create the document in the appropriate location within the
 msgstr "Вам нужно будет создать документ в соответствующем месте в каталоге `docs/en`. Для удобства обсуждения предположим, что вы добавляете новый документ с именем файла `new_doc.md`."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:17
-#, fuzzy
-msgid "Then, you'll need to update the `docs/en/SUMMARY.md` file to include your new file. `SUMMARY.md` is organized to basically reflect the `docs/en` directory structure, but, more importantly, directly determines the structure of the left sidebar. If you locate the section where you intend to include `new_doc.md`, you do not need to change anything in `SUMMARY.md` if you see a wildcard path listed. For example:"
-msgstr "Затем вам нужно будет обновить файл `docs/en/SUMMARY.md`, чтобы включить в него новый файл. `SUMMARY.md` организован таким образом, чтобы в основном отражать структуру каталога `docs/en`, но, что более важно, он напрямую определяет структуру левой боковой панели. Если вы найдете раздел, в который хотите включить `new_doc.md`, вам не нужно ничего менять в `SUMMARY.md`, если вы видите перечень путей с подстановочными знаками. Например:"
+msgid "Then, you'll need to add your new file to the `nav` setting in `docs/zensical.toml`. The `nav` setting is organized to basically reflect the `docs/en` directory structure, but, more importantly, directly determines the structure of the left sidebar. Locate the section where you intend to include `new_doc.md`, and add an entry for it, with the title you want to appear in the sidebar, and the path to the file, relative to `docs/en`. For example:"
+msgstr ""
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:19
-#, fuzzy
-msgid "- ./path/to/directory/*"
-msgstr "- ./путь/к/каталогу/*"
+msgid ""
+"nav = [\n"
+"    { \"Existing section\" = [\n"
+"        { \"Existing document\" = \"path/to/existing_doc.md\" },\n"
+"        { \"My new document\" = \"path/to/new_doc.md\" },\n"
+"    ] },\n"
+"]"
+msgstr ""
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:23
-#, fuzzy
-msgid "If the section where you intend to include `new_doc.md` is a list of individual Markdown links, you'll need to add an explicit link to yours. For example:"
-msgstr "Если раздел, в который вы собираетесь включить `new_doc.md`, представляет собой список отдельных ссылок Markdown, вам необходимо добавить явную ссылку на свою. Например:"
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:28
+msgid "The titles in the `nav` setting are translated along with the rest of the documentation."
+msgstr ""
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:25
-#, fuzzy
-msgid "- [My new document](new_doc.md)"
-msgstr "- [Мой новый документ](new_doc.md)"
-
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:29
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:30
 #, fuzzy
 msgid "Writing your documentation"
 msgstr "Написание документации"
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:31
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:32
 #, fuzzy
 msgid "You can now open the desired file into your editor, and begin writing."
 msgstr "Теперь вы можете открыть нужный файл в редакторе и приступить к написанию."
 
-#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:33
+#: src/beeware_docs_tools/shared_content/en/_shared/contribute/how/write-docs.md:34
 #, fuzzy
 msgid "We have a [documentation style guide]{1} that outlines our guidelines for writing documentation for BeeWare."
 msgstr "У нас есть [руководство по стилю документации]{1}, в котором изложены наши рекомендации по написанию документации для BeeWare."
@@ -3176,8 +3141,8 @@ msgstr ""
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:1
 #, fuzzy
-msgid "This guide includes information on expected style, MkDocs-specific syntax, various required tools, and documentation translation, with regard to writing new content and translating existing content."
-msgstr "Это руководство содержит информацию об ожидаемом стиле, синтаксисе MkDocs, различных необходимых инструментах и переводе документации, касающейся написания нового контента и перевода существующего контента."
+msgid "This guide includes information on expected style, Zensical-specific syntax, various required tools, and documentation translation, with regard to writing new content and translating existing content."
+msgstr "Это руководство содержит информацию об ожидаемом стиле, синтаксисе Zensical, различных необходимых инструментах и переводе документации, касающейся написания нового контента и перевода существующего контента."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:3
 #, fuzzy
@@ -3236,8 +3201,8 @@ msgstr "По возможности следует делать перекрес
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:18
 #, fuzzy
-msgid "MkDocs renders standard Markdown formatted links. Standard Markdown formatted web hyperlinks are as follows:"
-msgstr "MkDocs отображает стандартные ссылки в формате Markdown. Стандартные веб-гиперссылки в формате Markdown выглядят следующим образом:"
+msgid "Zensical renders standard Markdown formatted links. Standard Markdown formatted web hyperlinks are as follows:"
+msgstr "Zensical отображает стандартные ссылки в формате Markdown. Стандартные веб-гиперссылки в формате Markdown выглядят следующим образом:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:20
 #, fuzzy
@@ -3256,8 +3221,8 @@ msgstr "[Текст ссылки](path/to/file.md)"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:30
 #, fuzzy
-msgid "Referencing specific sections of files, or API documentation requires using the MkDocs reference link format."
-msgstr "Для ссылки на конкретные разделы файлов или документацию API необходимо использовать формат ссылки MkDocs."
+msgid "Referencing specific sections of files, or API documentation requires using the Zensical reference link format."
+msgstr "Для ссылки на конкретные разделы файлов или документацию API необходимо использовать формат ссылки Zensical."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:32
 #, fuzzy
@@ -3271,13 +3236,13 @@ msgstr "Markdown генерирует анкоры для всех заголо�
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:36
 #, fuzzy
-msgid "MkDocs supports rendering a reference link syntax that allows you to link to various other elements in the documentation using a modified Markdown link. This includes linking to, among other things, custom Markdown headers and text anchors."
-msgstr "MkDocs поддерживает рендеринг синтаксиса ссылочных ссылок, который позволяет вам создавать ссылки на различные другие элементы в документации с помощью модифицированной ссылки Markdown. Это включает в себя, среди прочего, ссылки на пользовательские заголовки Markdown и текстовые анкоры."
+msgid "Zensical supports rendering a reference link syntax that allows you to link to various other elements in the documentation using a modified Markdown link. This includes linking to, among other things, custom Markdown headers and text anchors."
+msgstr "Zensical поддерживает рендеринг синтаксиса ссылочных ссылок, который позволяет вам создавать ссылки на различные другие элементы в документации с помощью модифицированной ссылки Markdown. Это включает в себя, среди прочего, ссылки на пользовательские заголовки Markdown и текстовые анкоры."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:38
 #, fuzzy
-msgid "MkDocs reference links are any links formatted as follows:"
-msgstr "Ссылки MkDocs — это любые ссылки, оформленные следующим образом:"
+msgid "Zensical reference links are any links formatted as follows:"
+msgstr "Ссылки Zensical — это любые ссылки, оформленные следующим образом:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:40
 #, fuzzy
@@ -3291,8 +3256,8 @@ msgstr "/// warning | Требуются пользовательские заг
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:46
 #, fuzzy
-msgid "Any header or content section that is referenced in text content via a MkDocs reference link in the BeeWare documentation _must_ have a custom anchor attached. Otherwise, there is the potential to break the links when header content is translated."
-msgstr "Любой заголовок или раздел содержания, на который есть ссылка в текстовом содержании через ссылку MkDocs в документации BeeWare, _должен_ иметь прикрепленную пользовательскую анкорную ссылку. В противном случае существует вероятность, что ссылки будут нарушены при переводе содержания заголовка."
+msgid "Any header or content section that is referenced in text content via a Zensical reference link in the BeeWare documentation _must_ have a custom anchor attached. Otherwise, there is the potential to break the links when header content is translated."
+msgstr "Любой заголовок или раздел содержания, на который есть ссылка в текстовом содержании через ссылку Zensical в документации BeeWare, _должен_ иметь прикрепленную пользовательскую анкорную ссылку. В противном случае существует вероятность, что ссылки будут нарушены при переводе содержания заголовка."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:50
 #, fuzzy
@@ -3351,8 +3316,8 @@ msgstr "[Текст ссылки](#anchor-name)"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:80
 #, fuzzy
-msgid "Linking to an anchor in a separate document uses the MkDocs reference link style, which is formatted as follows:"
-msgstr "Ссылка на анкор в отдельном документе использует стиль ссылки MkDocs, который форматируется следующим образом:"
+msgid "Linking to an anchor in a separate document uses the Zensical reference link style, which is formatted as follows:"
+msgstr "Ссылка на анкор в отдельном документе использует стиль ссылки Zensical, который форматируется следующим образом:"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:82
 #, fuzzy
@@ -3366,8 +3331,8 @@ msgstr "Ссылки на справочник API"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:88
 #, fuzzy
-msgid "The MkDocs reference linking also supports cross-referencing API documentation, including documented classes, class methods or attributes, and specific external documentation references."
-msgstr "Ссылка MkDocs также поддерживает перекрестные ссылки на документацию API, включая документированные классы, методы или атрибуты классов, а также конкретные ссылки на внешнюю документацию."
+msgid "Zensical reference linking also supports cross-referencing API documentation, including documented classes, class methods or attributes, and specific external documentation references."
+msgstr "Ссылка Zensical также поддерживает перекрестные ссылки на документацию API, включая документированные классы, методы или атрибуты классов, а также конкретные ссылки на внешнюю документацию."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:90
 #, fuzzy
@@ -3942,8 +3907,8 @@ msgstr "Использование макросов для включения к
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:371
 #, fuzzy
-msgid "You can also include content from the BeeWare Docs tools shared content directory using the [Macros MkDocs plugin]{1}. This method is necessary if the document contains Jinja directives that need to be executed, and should only be used in this situation. It will not work with external content via a URL. The [Macros variable-replacement mechanism]{2} works with this method."
-msgstr "Вы также можете включить контент из общего каталога инструментов BeeWare Docs с помощью [плагина Macros MkDocs]{1}. Этот метод необходим, если документ содержит директивы Jinja, которые необходимо выполнить, и должен использоваться только в этой ситуации. Он не будет работать с внешним контентом через URL. [Механизм замены переменных Macros]{2} работает с этим методом."
+msgid "You can also include content from the BeeWare Docs tools shared content directory using [Macros]{1}, which Zensical supports natively. This method is necessary if the document contains Jinja directives that need to be executed, and should only be used in this situation. It will not work with external content via a URL. The [Macros variable-replacement mechanism]{2} works with this method."
+msgstr "Вы также можете включить контент из общего каталога инструментов BeeWare Docs с помощью [Macros]{1}. Этот метод необходим, если документ содержит директивы Jinja, которые необходимо выполнить, и должен использоваться только в этой ситуации. Он не будет работать с внешним контентом через URL. [Механизм замены переменных Macros]{2} работает с этим методом."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/style/docs-style-guide.md:373
 #, fuzzy
@@ -4453,8 +4418,8 @@ msgstr "Формы документации { #docs-form }"
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:5
 #, fuzzy
-msgid "{{ formal_name }}'s documentation is written using [MkDocs and Markdown]{1}. We aim to follow the [Diataxis]{2} framework for structuring documentation."
-msgstr "Документация {{ formal_name }} написана с использованием [MkDocs и Markdown]{1}. Мы стремимся следовать структуре [Diataxis]{2} при составлении документации."
+msgid "{{ formal_name }}'s documentation is written using [Zensical]{1} and [Markdown]{2}. We aim to follow the [Diataxis]{3} framework for structuring documentation."
+msgstr "Документация {{ formal_name }} написана с использованием [Zensical]{1} и [Markdown]{2}. Мы стремимся следовать структуре [Diataxis]{3} при составлении документации."
 
 #: src/beeware_docs_tools/shared_content/en/_shared/contribute/what/write-docs.md:7
 #, fuzzy

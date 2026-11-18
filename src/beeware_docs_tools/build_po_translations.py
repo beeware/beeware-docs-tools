@@ -6,6 +6,8 @@ from tempfile import TemporaryDirectory
 
 import polib
 
+from .nav_translations import seed_nav_translations
+
 # This tool is used to generate updated PO files from updated PO template (POT)
 # files, which are based on the English Markdown content.
 #
@@ -64,6 +66,12 @@ def pot_to_po(
     )
     for entry in po.obsolete_entries():
         po.remove(entry)
+
+    # Navigation titles that have just been given their own context start out
+    # untranslated; carry over the translation they had before.
+    previous_path = Path.cwd() / docs / f"locales/{language}/translations.po"
+    if previous_path.exists():
+        seed_nav_translations(po, polib.pofile(previous_path, wrapwidth=100000))
     po.save(output_path / docs / language / "translations.po")
 
 

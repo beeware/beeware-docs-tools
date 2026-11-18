@@ -14,17 +14,18 @@ If you're adding a new document, there are a few more steps involved.
 
 You'll need to create the document in the appropriate location within the `docs/en` directory. For discussion, we'll say you're adding a new document with the filename `new_doc.md`.
 
-Then, you'll need to update the `docs/en/SUMMARY.md` file to include your new file. `SUMMARY.md` is organized to basically reflect the `docs/en` directory structure, but, more importantly, directly determines the structure of the left sidebar. If you locate the section where you intend to include `new_doc.md`, you do not need to change anything in `SUMMARY.md` if you see a wildcard path listed. For example:
+Then, you'll need to add your new file to the `nav` setting in `docs/zensical.toml`. The `nav` setting is organized to basically reflect the `docs/en` directory structure, but, more importantly, directly determines the structure of the left sidebar. Locate the section where you intend to include `new_doc.md`, and add an entry for it, with the title you want to appear in the sidebar, and the path to the file, relative to `docs/en`. For example:
 
-```markdown
-- ./path/to/directory/*
+```toml
+nav = [
+    { "Existing section" = [
+        { "Existing document" = "path/to/existing_doc.md" },
+        { "My new document" = "path/to/new_doc.md" },
+    ] },
+]
 ```
 
-If the section where you intend to include `new_doc.md` is a list of individual Markdown links, you'll need to add an explicit link to yours. For example:
-
-```markdown
-- [My new document](new_doc.md)
-```
+The titles in the `nav` setting are translated along with the rest of the documentation.
 
 ### Writing your documentation
 
