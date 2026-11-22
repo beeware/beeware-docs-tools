@@ -1,0 +1,18 @@
+[project]
+site_name = "BeeWare Docs Tools"
+docs_dir = "ko"
+
+[project.theme]
+language = "ko"
+
+[project.extra]
+language_url = "ko/"
+translation_type = "machine"
+
+[project.extra.header]
+About = "소개"
+Documentation = "문서화"
+Community = "커뮤니티"
+Contributing = "기여"
+News = "뉴스"
+Sponsor = "후원사"

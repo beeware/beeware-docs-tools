@@ -1,0 +1,18 @@
+[project]
+site_name = "Інструменти документації BeeWare"
+docs_dir = "uk"
+
+[project.theme]
+language = "uk"
+
+[project.extra]
+language_url = "uk/"
+translation_type = "machine"
+
+[project.extra.header]
+About = "Про нас"
+Documentation = "Документація"
+Community = "Спільнота"
+Contributing = "Внесок"
+News = "Новини"
+Sponsor = "Спонсор"

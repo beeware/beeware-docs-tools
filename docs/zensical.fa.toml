@@ -1,0 +1,18 @@
+[project]
+site_name = "ابزارهای اسناد BeeWare"
+docs_dir = "fa"
+
+[project.theme]
+language = "fa"
+
+[project.extra]
+language_url = "fa/"
+translation_type = "machine"
+
+[project.extra.header]
+About = "درباره"
+Documentation = "مدارک"
+Community = "جامعه"
+Contributing = "مشارکت‌کننده"
+News = "اخبار"
+Sponsor = "حامی"
